@@ -30,4 +30,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Turn meeting notes into a tracked Jira ticket and update your project log automatically.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

@@ -30,4 +30,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Find flights, accommodation, and a day by day agenda for a work trip in one pass.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

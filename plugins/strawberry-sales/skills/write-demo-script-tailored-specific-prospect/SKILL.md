@@ -32,4 +32,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Turn any prospect's context into a personalised demo that speaks to their situation.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

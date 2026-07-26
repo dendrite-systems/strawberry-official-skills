@@ -32,4 +32,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Get a fit summary for every new application automatically so nothing slips through.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

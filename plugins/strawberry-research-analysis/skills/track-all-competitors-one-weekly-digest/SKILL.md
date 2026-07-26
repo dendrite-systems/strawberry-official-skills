@@ -32,4 +32,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Monitor every major competitor automatically and get a single weekly report on what changed.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

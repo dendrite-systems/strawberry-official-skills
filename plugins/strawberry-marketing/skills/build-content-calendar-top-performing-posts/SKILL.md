@@ -31,4 +31,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Build next month's content plan from what's already working.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

@@ -28,4 +28,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Get a strategic breakdown of any competitor's website and messaging.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

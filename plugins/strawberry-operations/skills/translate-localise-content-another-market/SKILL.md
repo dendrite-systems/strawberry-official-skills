@@ -29,4 +29,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Translate copy while adjusting tone and references so it reads naturally in the target language.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

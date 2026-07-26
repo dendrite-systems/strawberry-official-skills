@@ -30,4 +30,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Compare CVs to requirements and flag the top matches with a short rationale.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

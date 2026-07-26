@@ -29,4 +29,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Research a company end to end and get a formatted investment memo ready to share.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

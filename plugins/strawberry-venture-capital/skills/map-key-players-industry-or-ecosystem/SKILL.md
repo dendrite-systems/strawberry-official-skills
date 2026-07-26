@@ -30,4 +30,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Find the companies, associations, and contacts that matter in a specific market.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

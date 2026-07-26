@@ -32,4 +32,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Pull your open tasks, emails, and upcoming meetings into one view every Monday morning.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

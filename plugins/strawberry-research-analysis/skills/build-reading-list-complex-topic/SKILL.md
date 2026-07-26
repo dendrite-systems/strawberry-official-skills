@@ -30,4 +30,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Compile the best papers, tools, and resources on any subject and organise them for easy reference.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

@@ -30,4 +30,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Research competitor activity, find content gaps, and map out a posting plan for the next three months.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.

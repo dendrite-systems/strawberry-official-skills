@@ -31,4 +31,4 @@ sample before scaling subjective work, and ask before consequential or irreversi
 Keep your CRM in sync without logging anything manually.
 
 Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this official Starter Prompt.
+process as a user-owned skill without changing this Official Skill.
