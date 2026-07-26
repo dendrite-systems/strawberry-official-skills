@@ -1,0 +1,45 @@
+{
+  "$schema": "../../contracts/strawberry-metadata.schema.json",
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "source-customers",
+  "displayName": "Source customers",
+  "summary": "Find, qualify, and rank prospective customers while preserving sources and confidence.",
+  "icon": "people",
+  "difficulty": "moderate",
+  "tags": ["good-first-skill"],
+  "pluginIds": ["strawberry-sales"],
+  "useCases": [
+    {
+      "roleId": "founder-executive",
+      "weight": 112,
+      "title": "Find my company 30 new customers",
+      "message": "I want to find 30 new customers for my company."
+    },
+    {
+      "roleId": "sales-business-development",
+      "weight": 110,
+      "title": "Find me 30 new leads",
+      "message": "I want to find 30 new leads."
+    },
+    {
+      "roleId": "agency",
+      "weight": 108,
+      "title": "Find my agency 30 new clients",
+      "message": "I want to find 30 new clients for my agency."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 104,
+      "title": "Find me 30 new clients",
+      "message": "I want to find 30 new consulting clients."
+    },
+    {
+      "roleId": "marketing-content",
+      "weight": 72,
+      "title": "Build a list of high-fit prospects",
+      "message": "I want to build a list of high-fit prospects for a campaign."
+    }
+  ]
+}

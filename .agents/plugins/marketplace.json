@@ -1,0 +1,20 @@
+{
+  "name": "strawberry-official",
+  "interface": {
+    "displayName": "Strawberry Official"
+  },
+  "plugins": [
+    {
+      "name": "strawberry-sales",
+      "source": {
+        "source": "local",
+        "path": "./plugins/strawberry-sales"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Sales"
+    }
+  ]
+}

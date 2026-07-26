@@ -1,0 +1,11 @@
+{
+  "name": "strawberry-official-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Official Strawberry skills and role playbooks.",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  },
+  "license": "Apache-2.0"
+}

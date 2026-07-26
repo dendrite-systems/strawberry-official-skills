@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../../contracts/strawberry-metadata.schema.json",
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "playbook",
+  "id": "sales-playbook",
+  "displayName": "Strawberry Sales Playbook",
+  "summary": "Build a connected sales workflow by starting with the user's current constraint.",
+  "icon": "chart",
+  "difficulty": "advanced",
+  "tags": [],
+  "pluginIds": ["strawberry-sales"],
+  "skillIds": [
+    "source-customers",
+    "research-companies-create-decks",
+    "prepare-for-calls",
+    "transcribe-meetings-follow-up"
+  ],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 120,
+      "title": "Sales Playbook",
+      "message": "I want to use the Strawberry Sales Playbook to improve my sales pipeline."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 96,
+      "title": "Sales Playbook",
+      "message": "I want to use the Strawberry Sales Playbook to build a repeatable sales pipeline."
+    },
+    {
+      "roleId": "agency",
+      "weight": 88,
+      "title": "Sales Playbook",
+      "message": "I want to use the Strawberry Sales Playbook to build a repeatable client pipeline."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 84,
+      "title": "Sales Playbook",
+      "message": "I want to use the Strawberry Sales Playbook to build a repeatable client pipeline."
+    }
+  ]
+}

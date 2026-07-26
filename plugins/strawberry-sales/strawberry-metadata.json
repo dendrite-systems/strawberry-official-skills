@@ -1,0 +1,15 @@
+{
+  "$schema": "../../contracts/strawberry-metadata.schema.json",
+  "schemaVersion": 1,
+  "kind": "plugin",
+  "id": "strawberry-sales",
+  "displayName": "Strawberry Sales",
+  "summary": "Connect prospecting, company research, call preparation, meeting follow-up, and pipeline hygiene.",
+  "playbookSkillId": "sales-playbook",
+  "skillIds": [
+    "source-customers",
+    "research-companies-create-decks",
+    "prepare-for-calls",
+    "transcribe-meetings-follow-up"
+  ]
+}

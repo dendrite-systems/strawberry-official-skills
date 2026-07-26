@@ -1,0 +1,122 @@
+[
+  {
+    "id": "founder-executive",
+    "label": "Founder & Executive",
+    "userStory": "Start by removing an urgent research, sales, hiring, or admin burden; grow into repeatable company-wide workflows.",
+    "keywords": ["founder", "co-founder", "ceo", "executive", "business owner", "entrepreneur"]
+  },
+  {
+    "id": "agency",
+    "label": "Agency",
+    "userStory": "Start with client research, pitches, or delivery work; grow into repeatable ways to win, serve, and report to clients.",
+    "keywords": ["agency", "agency owner", "creative agency", "marketing agency", "studio"]
+  },
+  {
+    "id": "consultant",
+    "label": "Consultant",
+    "userStory": "Start with research, meetings, or a client deliverable; grow into reusable engagement processes that preserve the consultant's judgment and style.",
+    "keywords": ["consultant", "consulting", "advisor", "advisory", "freelance consultant"]
+  },
+  {
+    "id": "sales-business-development",
+    "label": "Sales & Business Development",
+    "userStory": "Start with sourcing, account research, or call preparation; grow into a connected pipeline from prospecting through follow-up and CRM hygiene.",
+    "keywords": ["sales", "bdr", "sdr", "head of sales", "account executive", "business development", "revenue"]
+  },
+  {
+    "id": "marketing-content",
+    "label": "Marketing & Content",
+    "userStory": "Start with a campaign, content asset, or analysis; grow into repeatable research, creation, distribution, and performance workflows.",
+    "keywords": ["marketing", "growth", "content marketing", "demand generation", "brand", "seo", "social media"]
+  },
+  {
+    "id": "recruiting-people",
+    "label": "Recruiting & People",
+    "userStory": "Start with sourcing, interview preparation, or onboarding; grow into a connected hiring and people-operations workflow.",
+    "keywords": ["recruiting", "recruiter", "talent", "talent acquisition", "people", "hr", "human resources"]
+  },
+  {
+    "id": "customer-support-success",
+    "label": "Customer Support & Success",
+    "userStory": "Start with a customer call, support queue, or account brief; grow into reliable follow-up, insight, and support workflows.",
+    "keywords": ["customer support", "customer success", "support", "customer experience", "account manager"]
+  },
+  {
+    "id": "operations-chief-of-staff",
+    "label": "Operations & Chief of Staff",
+    "userStory": "Start with one repetitive coordination or admin process; grow into dependable cross-team workflows, reporting, and routines.",
+    "keywords": ["operations", "ops", "chief of staff", "business operations", "strategy and operations", "general manager", "office manager"]
+  },
+  {
+    "id": "engineering-development",
+    "label": "Product & Engineering",
+    "userStory": "Start with customer context, planning, debugging, research, or a contained build task; grow into connected product and engineering workflows.",
+    "keywords": ["product", "product manager", "pm", "head of product", "product owner", "engineering", "engineer", "developer", "software engineer", "cto", "technical lead", "devops"]
+  },
+  {
+    "id": "data-analytics",
+    "label": "Data & Analytics",
+    "userStory": "Start by collecting, cleaning, or explaining data; grow into repeatable analysis and reporting workflows with trusted sources.",
+    "keywords": ["data", "data analyst", "analytics", "business intelligence", "data scientist"]
+  },
+  {
+    "id": "research-analysis",
+    "label": "Research & Analysis",
+    "userStory": "Start with a focused research question; grow into repeatable evidence gathering, synthesis, and polished outputs.",
+    "keywords": ["research", "researcher", "quantitative researcher", "qualitative researcher", "analyst", "market research", "scientist"]
+  },
+  {
+    "id": "design",
+    "label": "Design",
+    "userStory": "Start with research, critique, or a visual deliverable; grow into reusable discovery, creation, and review workflows.",
+    "keywords": ["design", "designer", "product designer", "ux", "ui", "creative director"]
+  },
+  {
+    "id": "finance",
+    "label": "Finance",
+    "userStory": "Start with receipts, analysis, or a recurring report; grow into reliable finance operations with clear review points.",
+    "keywords": ["finance", "accounting", "accountant", "cfo", "bookkeeping", "controller", "fp&a"]
+  },
+  {
+    "id": "venture-capital",
+    "label": "Venture Capital & Investing",
+    "userStory": "Start with company research, market mapping, or a decision memo; grow into a repeatable investment process with traceable evidence.",
+    "keywords": ["venture capital", "vc", "investor", "investment", "investment analyst", "private equity", "m&a", "corporate development"]
+  },
+  {
+    "id": "legal",
+    "label": "Legal",
+    "userStory": "Start with research, comparison, or document review; grow into consistent legal and compliance workflows that preserve human approval.",
+    "keywords": ["legal", "lawyer", "attorney", "counsel", "compliance", "paralegal"]
+  },
+  {
+    "id": "healthcare",
+    "label": "Healthcare",
+    "userStory": "Start with research, notes, or administrative work; grow into carefully reviewed workflows that protect clinical judgment and privacy.",
+    "keywords": ["healthcare", "doctor", "physician", "nurse", "clinical", "medical"]
+  },
+  {
+    "id": "education",
+    "label": "Education",
+    "userStory": "Start with a lesson, explanation, or feedback task; grow into reusable teaching and preparation workflows.",
+    "keywords": ["education", "teacher", "educator", "professor", "instructor", "academic"]
+  },
+  {
+    "id": "student",
+    "label": "Student",
+    "userStory": "Start with research, planning, or understanding a difficult topic; grow into a repeatable study and creation workflow.",
+    "keywords": ["student", "undergraduate", "graduate student", "phd student", "mba student"]
+  },
+  {
+    "id": "writer-creator",
+    "label": "Writer & Creator",
+    "userStory": "Start with research, drafting, or repurposing; grow into a repeatable creation workflow that preserves the user's voice.",
+    "keywords": ["writer", "creator", "journalist", "author", "copywriter", "editor", "youtuber"]
+  },
+  {
+    "id": "other",
+    "label": "Other",
+    "userStory": "Start with the most concrete time-consuming task the user names, then preserve useful repetitions as user-owned skills.",
+    "keywords": ["other", "general", "personal", "not sure"]
+  }
+]
