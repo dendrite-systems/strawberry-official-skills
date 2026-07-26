@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "prepare-presentation-rough-notes",
+  "collectionId": "strawberry-operations",
+  "displayName": "Prepare for a presentation from rough notes",
+  "summary": "Turn scattered notes into a structured talk track and slide outline ready to build from.",
+  "icon": "presentation",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "other",
+      "weight": 76,
+      "title": "Prepare for a presentation from rough notes",
+      "message": "Help me prepare for a presentation. Ask me who the audience is, what the goal is, and where my notes are. You might want to review any existing slides or documents before structuring the output. Then give me a clear talk track and a slide by slide outline I can build from."
+    }
+  ]
+}

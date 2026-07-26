@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "audit-seo-create-report",
+  "collectionId": "strawberry-marketing",
+  "displayName": "Audit SEO and Create a Report",
+  "summary": "Audit a website's search performance and turn the findings into a clear prioritized report. Use for a company or client SEO review covering technical issues, content opportunities, competitive context, and practical next actions.",
+  "icon": "chart",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 104,
+      "title": "Audit our SEO and create a clear action plan",
+      "message": "I want to audit our SEO and get a clear, prioritized action plan."
+    },
+    {
+      "roleId": "agency",
+      "weight": 106,
+      "title": "Audit a client’s SEO and create a beautiful report",
+      "message": "I want to audit a client’s SEO and create a beautiful, actionable report."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 88,
+      "title": "Audit a company’s SEO and create a clear report",
+      "message": "I want to audit a company’s SEO and create a clear, actionable report."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "map-potential-acquirers",
+  "collectionId": "strawberry-venture-capital",
+  "displayName": "Map potential acquirers for a company",
+  "summary": "Build a prioritised buyer map for an M&A process.",
+  "icon": "binoculars",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "venture-capital",
+      "weight": 108,
+      "title": "Map potential acquirers for a company",
+      "message": "Help me build a buyer map for an M&A process. Ask me about the company being sold. You might want to research what makes a strong acquirer in that space before asking me to define it. Then map strategic and financial buyers, evaluate their track record, and give me a prioritised list with rationale."
+    },
+    {
+      "roleId": "research-analysis",
+      "weight": 76,
+      "title": "Map potential acquirers for a company",
+      "message": "Help me build a buyer map for an M&A process. Ask me about the company being sold. You might want to research what makes a strong acquirer in that space before asking me to define it. Then map strategic and financial buyers, evaluate their track record, and give me a prioritised list with rationale."
+    }
+  ]
+}

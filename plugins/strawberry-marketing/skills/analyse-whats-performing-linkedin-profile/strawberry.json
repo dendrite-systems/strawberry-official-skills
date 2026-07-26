@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "analyse-whats-performing-linkedin-profile",
+  "collectionId": "strawberry-marketing",
+  "displayName": "Analyse what's performing on a LinkedIn profile",
+  "summary": "See which topics, formats, and hooks are driving the most engagement.",
+  "icon": "chart",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 76,
+      "title": "Analyse what's performing on a LinkedIn profile",
+      "message": "Help me understand what's working on a LinkedIn profile. Ask me whose profile to analyse: mine or a competitor's. Then go through their recent posts, pull engagement data, and give me a breakdown of what topics, formats, and hooks are performing best."
+    }
+  ]
+}

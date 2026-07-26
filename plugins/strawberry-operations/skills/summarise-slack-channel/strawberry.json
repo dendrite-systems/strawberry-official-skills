@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "summarise-slack-channel",
+  "collectionId": "strawberry-operations",
+  "displayName": "Summarise a Slack channel and pull out key decisions",
+  "summary": "Catch up on any Slack channel with a clean decisions and actions summary.",
+  "icon": "sparkles",
+  "difficulty": "easy",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "other",
+      "weight": 76,
+      "title": "Summarise a Slack channel and pull out key decisions",
+      "message": "Help me get up to speed on a Slack channel. Ask me which channel and what time period to cover. Then read through it, extract key decisions and action items, and give me a clean summary."
+    }
+  ]
+}

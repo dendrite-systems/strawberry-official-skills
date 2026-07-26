@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "generate-tailored-interview-questions-candidates-linkedin",
+  "collectionId": "strawberry-recruiting",
+  "displayName": "Generate tailored interview questions from a candidate's LinkedIn",
+  "summary": "Get interview questions tailored to each candidate's actual background.",
+  "icon": "calendar",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "recruiting-people",
+      "weight": 76,
+      "title": "Generate tailored interview questions from a candidate's LinkedIn",
+      "message": "Help me prepare interview questions for a candidate. Ask me who I'm interviewing and for which role. If you don't already know which ATS I use, ask. Then go to their LinkedIn profile and check their application in my ATS. Read their background and experience, and write a set of tailored questions that probe the most relevant parts of their history."
+    }
+  ]
+}

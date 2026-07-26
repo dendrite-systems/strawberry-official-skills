@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "translate-localise-content-another-market",
+  "collectionId": "strawberry-operations",
+  "displayName": "Translate and localise content for another market",
+  "summary": "Translate copy while adjusting tone and references so it reads naturally in the target language.",
+  "icon": "binoculars",
+  "difficulty": "easy",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "other",
+      "weight": 76,
+      "title": "Translate and localise content for another market",
+      "message": "Help me translate and localise some content. Ask me what the content is, which language it should go into, and whether there are any tone or style notes. You might want to check what you know about my brand voice before adapting. Then translate it in a way that reads naturally rather than word for word."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "run-competitor-analysis",
+  "collectionId": "strawberry-marketing",
+  "displayName": "Run a competitor analysis",
+  "summary": "Get a strategic breakdown of what your top competitors are doing.",
+  "icon": "chart",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 104,
+      "title": "Run a competitor analysis",
+      "message": "I want to understand what my top competitors are doing. You might want to start by identifying them from what you know about my company and product. Then analyse their positioning, pricing, and most recent content. Ask me if I want to add any others."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "prepare-interview-brief-candidate",
+  "collectionId": "strawberry-recruiting",
+  "displayName": "Prepare an interview brief for a candidate",
+  "summary": "Build a focused prep doc with questions and context before any interview.",
+  "icon": "calendar",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "recruiting-people",
+      "weight": 76,
+      "title": "Prepare an interview brief for a candidate",
+      "message": "Help me prepare for an upcoming interview. Ask me for the candidate name and the role. You might want to look at the job description and any notes we have on this person before building the brief. Then put together a one-page prep doc with background, suggested questions, and key things to probe."
+    }
+  ]
+}

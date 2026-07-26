@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "scan-reddit-find-out-audience-really-thinks",
+  "collectionId": "strawberry-research-analysis",
+  "displayName": "Scan Reddit to find out what your audience really thinks",
+  "summary": "Find the real pain points, frustrations, and feature requests hiding in your target communities.",
+  "icon": "sparkles",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "research-analysis",
+      "weight": 104,
+      "title": "Scan Reddit to find out what your audience really thinks",
+      "message": "Help me research what my target audience is saying on Reddit. Ask me which product, topic, or persona to focus on. Then find the most relevant subreddits, go through recent posts and comments, and pull out the recurring pain points, feature requests, and frustrations. Give me a structured summary I can use for product or content decisions."
+    }
+  ]
+}

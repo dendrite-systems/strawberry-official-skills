@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "repurpose-x-posts",
+  "collectionId": "strawberry-marketing",
+  "displayName": "Repurpose my latest X posts for LinkedIn",
+  "summary": "Rewrite your recent X posts as polished LinkedIn content.",
+  "icon": "files",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 76,
+      "title": "Repurpose my latest X posts for LinkedIn",
+      "message": "Help me turn my recent X posts into LinkedIn content. Ask me how many posts to pull. Then go to my X profile, read the latest ones, and rewrite each as a LinkedIn post. You might want to check my existing LinkedIn posts to match the tone. Ask me if you should queue them in Typefully when they're ready."
+    }
+  ]
+}

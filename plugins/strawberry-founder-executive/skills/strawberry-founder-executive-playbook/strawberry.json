@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "playbook",
+  "id": "strawberry-founder-executive-playbook",
+  "collectionId": "strawberry-founder-executive",
+  "displayName": "Founder & Executive Playbook",
+  "summary": "Start with customers, fundraising, hiring, or the work slowing your company down.",
+  "icon": "lightbulb",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "founder-executive",
+      "weight": 124,
+      "title": "Strawberry Founder & Executive Playbook",
+      "message": "I want to use the Strawberry Founder & Executive Playbook to find the highest-impact way to move my company forward."
+    }
+  ],
+  "skillIds": [
+    "source-customers",
+    "prepare-fundraise",
+    "source-candidates",
+    "reach-inbox-zero",
+    "organize-receipts-bookkeeping",
+    "investigate-fix-app-issues"
+  ]
+}

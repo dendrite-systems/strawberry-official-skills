@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "build-client-progress-report-project-tools",
+  "collectionId": "strawberry-operations",
+  "displayName": "Build a client progress report from your project tools",
+  "summary": "Pull project updates and email context into a clean client report.",
+  "icon": "chart",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 76,
+      "title": "Build a client progress report from your project tools",
+      "message": "Help me put together a client progress report. Ask me which client and which time period to cover. Then pull relevant updates from my project tools and the email thread with the client, and draft a clean report I can send or present."
+    }
+  ]
+}

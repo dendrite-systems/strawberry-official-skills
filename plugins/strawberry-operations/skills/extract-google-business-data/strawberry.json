@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "extract-google-business-data",
+  "collectionId": "strawberry-operations",
+  "displayName": "Extract performance data from multiple Google Business profiles",
+  "summary": "Pull calls, clicks, and performance data from all your Google Business profiles.",
+  "icon": "chart",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 76,
+      "title": "Extract performance data from multiple Google Business profiles",
+      "message": "Help me pull data from my Google Business profiles. You might want to check how many profiles are connected to my account first. Then ask me which metrics I need and extract the data across all profiles into a single sheet."
+    }
+  ]
+}

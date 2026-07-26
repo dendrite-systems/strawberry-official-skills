@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "write-job-description-post-ats",
+  "collectionId": "strawberry-recruiting",
+  "displayName": "Write a job description and post it to your ATS",
+  "summary": "Write a polished job description and post it to your ATS in one flow.",
+  "icon": "files",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "recruiting-people",
+      "weight": 76,
+      "title": "Write a job description and post it to your ATS",
+      "message": "Help me write a job description. Ask me about the role. You might want to check if we have similar JDs in Notion or my ATS to use as a starting point. Then write the full description and ask me if you should post it to my ATS when it's ready."
+    }
+  ]
+}

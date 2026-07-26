@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "summarise-long-video-or-webinar",
+  "collectionId": "strawberry-operations",
+  "displayName": "Summarise a long video or webinar",
+  "summary": "Get the key takeaways, timestamps, and action points from any recorded content.",
+  "icon": "files",
+  "difficulty": "easy",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "other",
+      "weight": 76,
+      "title": "Summarise a long video or webinar",
+      "message": "Help me summarise a long video or webinar. Ask me for the link or file. Then watch or transcribe it and give me the key takeaways, any important quotes, and a list of action points with timestamps so I can jump to the relevant moments."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "build-competitive-battlecard-any-rival",
+  "collectionId": "strawberry-sales",
+  "displayName": "Build a competitive battlecard on any rival",
+  "summary": "Get a ready-to-use battlecard covering a competitor's pitch, weaknesses, and objection responses.",
+  "icon": "sparkles",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 104,
+      "title": "Build a competitive battlecard on any rival",
+      "message": "Help me build a competitive battlecard. Ask me which competitor to focus on. Then research their website, pricing, product, and recent content. You might want to compare their positioning against what you know about my product to make the handling sections more specific. Format the output as a battlecard covering their pitch, their weaknesses, and how to handle the most common objections."
+    }
+  ]
+}

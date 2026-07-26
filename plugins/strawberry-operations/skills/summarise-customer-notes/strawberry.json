@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "summarise-customer-notes",
+  "collectionId": "strawberry-operations",
+  "displayName": "Summarise my customer notes and list next steps",
+  "summary": "Turn scattered customer notes into a clean summary with next steps.",
+  "icon": "chart",
+  "difficulty": "easy",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "other",
+      "weight": 76,
+      "title": "Summarise my customer notes and list next steps",
+      "message": "Help me process my customer notes. Ask me where they are: a Notion page, a Google Doc, or paste them here. Then summarise what was discussed and pull out the next steps for each one."
+    }
+  ]
+}

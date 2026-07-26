@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "monitor-competitors-website-changes",
+  "collectionId": "strawberry-operations",
+  "displayName": "Monitor a competitor's website for changes",
+  "summary": "Get alerted the moment a competitor updates their pricing or messaging.",
+  "icon": "binoculars",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 76,
+      "title": "Monitor a competitor's website for changes",
+      "message": "Set up a routine to monitor a competitor for me. Ask me which company and which pages to watch. Then set up a Routine that checks for changes to their pricing, product, or messaging pages and alerts me when something shifts."
+    }
+  ]
+}

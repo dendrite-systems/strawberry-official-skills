@@ -4,10 +4,10 @@
   "skillType": "focused",
   "id": "research-companies-create-decks",
   "collectionId": "strawberry-research-analysis",
-  "displayName": "Research companies and create decks",
-  "summary": "Turn sourced company research into a polished, decision-oriented visual presentation.",
+  "displayName": "Research Companies and Create Decks",
+  "summary": "Research companies and turn the findings into polished visual slide decks. Use for sales account briefs, consulting research, client pitches, market profiles, or other company research that should end as a beautiful presentation.",
   "icon": "presentation",
-  "difficulty": "advanced",
+  "difficulty": "moderate",
   "tags": [],
   "useCases": [
     {

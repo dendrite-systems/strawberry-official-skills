@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "turn-customer-story-linkedin-post",
+  "collectionId": "strawberry-marketing",
+  "displayName": "Turn a customer story into a LinkedIn post",
+  "summary": "Pull a client win and turn it into a polished LinkedIn post with metrics and story structure.",
+  "icon": "people",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 76,
+      "title": "Turn a customer story into a LinkedIn post",
+      "message": "Help me turn a customer success story into a LinkedIn post. Ask me about the customer and what the win was. You might want to check what you know about my tone and usual posting style before drafting. Extract the key metrics, shape the narrative, and give me a post ready to review and schedule."
+    }
+  ]
+}

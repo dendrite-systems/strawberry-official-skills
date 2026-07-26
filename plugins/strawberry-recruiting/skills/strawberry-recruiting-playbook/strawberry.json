@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "playbook",
+  "id": "strawberry-recruiting-playbook",
+  "collectionId": "strawberry-recruiting",
+  "displayName": "Recruiting Playbook",
+  "summary": "Great for sourcing candidates, interviews, and reliable hiring processes.",
+  "icon": "people",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "recruiting-people",
+      "weight": 120,
+      "title": "Strawberry Recruiting Playbook",
+      "message": "I want to use the Strawberry Recruiting Playbook to improve our hiring process."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 90,
+      "title": "Strawberry Recruiting Playbook",
+      "message": "I want to use the Strawberry Recruiting Playbook to build a repeatable hiring process."
+    }
+  ],
+  "skillIds": [
+    "source-candidates",
+    "prepare-for-calls",
+    "transcribe-meetings-follow-up",
+    "onboard-offboard-teammates"
+  ]
+}

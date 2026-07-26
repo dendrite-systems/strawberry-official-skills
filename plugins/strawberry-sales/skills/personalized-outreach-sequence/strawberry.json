@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "personalized-outreach-sequence",
+  "collectionId": "strawberry-sales",
+  "displayName": "Build a personalized outreach sequence",
+  "summary": "Write tailored LinkedIn DMs for a list of prospects at once.",
+  "icon": "inbox",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 104,
+      "title": "Build a personalized outreach sequence",
+      "message": "I want to write personalized LinkedIn DMs for a list of prospects. Ask me for the prospect list and what I'm trying to achieve with this outreach. You might want to check what you already know about my tone and communication style before drafting."
+    }
+  ]
+}

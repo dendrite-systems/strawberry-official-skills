@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "source-candidates",
+  "collectionId": "strawberry-recruiting",
+  "displayName": "Source Candidates",
+  "summary": "Find and qualify candidates for an open role or project. Use when a user wants a sourced shortlist based on a role scorecard, examples of strong people, technical evidence, location, availability, or other job-related criteria.",
+  "icon": "binoculars",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "recruiting-people",
+      "weight": 112,
+      "title": "Find 30 exceptional candidates",
+      "message": "I want to find 30 exceptional candidates for an open role."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 102,
+      "title": "Find 10 engineers like our best ones",
+      "message": "I want to find 10 engineers based on the qualities of our strongest existing people."
+    },
+    {
+      "roleId": "agency",
+      "weight": 74,
+      "title": "Find specialists for my next client project",
+      "message": "I want to find strong specialists for an upcoming client project."
+    }
+  ]
+}

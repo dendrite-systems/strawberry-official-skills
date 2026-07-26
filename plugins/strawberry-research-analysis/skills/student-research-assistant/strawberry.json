@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "student-research-assistant",
+  "collectionId": "strawberry-research-analysis",
+  "displayName": "Student Research Assistant",
+  "summary": "Help a student research a topic and organize credible sources without replacing their learning or misrepresenting authorship. Use for source discovery, literature orientation, study briefs, argument mapping, and research organization.",
+  "icon": "books",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "student",
+      "weight": 110,
+      "title": "Research my topic and organize the sources",
+      "message": "I want help researching my topic and organizing credible sources."
+    },
+    {
+      "roleId": "education",
+      "weight": 82,
+      "title": "Research a topic and build a teaching brief",
+      "message": "I want to research a topic and turn it into a clear teaching brief."
+    },
+    {
+      "roleId": "other",
+      "weight": 76,
+      "title": "Research a topic and organize the sources",
+      "message": "I want help researching a topic and organizing credible sources."
+    }
+  ]
+}

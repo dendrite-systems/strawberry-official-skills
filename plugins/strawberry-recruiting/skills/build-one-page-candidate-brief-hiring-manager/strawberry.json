@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "build-one-page-candidate-brief-hiring-manager",
+  "collectionId": "strawberry-recruiting",
+  "displayName": "Build a one-page candidate brief for the hiring manager",
+  "summary": "Give your hiring manager a clean brief on any candidate in seconds.",
+  "icon": "people",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "recruiting-people",
+      "weight": 76,
+      "title": "Build a one-page candidate brief for the hiring manager",
+      "message": "Help me brief a hiring manager on a candidate. Ask me who the candidate is and which role they're being considered for. If you don't already know which ATS I use, ask. Then pull their LinkedIn profile and their application from my ATS, and write a clean one-page summary covering their background, fit, and any areas to explore."
+    }
+  ]
+}

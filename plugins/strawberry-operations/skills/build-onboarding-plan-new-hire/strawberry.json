@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "build-onboarding-plan-new-hire",
+  "collectionId": "strawberry-operations",
+  "displayName": "Build an onboarding plan for a new hire",
+  "summary": "Create a structured onboarding doc with tools, workflows, and learning materials.",
+  "icon": "people",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 76,
+      "title": "Build an onboarding plan for a new hire",
+      "message": "Help me build an onboarding plan for a new hire. Ask me about the role, team, and start date. You might want to check what you already know about our tools and workflows before drafting. Then put together a structured plan covering their first 30, 60, and 90 days, with links to key resources and a checklist for day one."
+    }
+  ]
+}

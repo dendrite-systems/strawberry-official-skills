@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "write-save-cold-email-campaign-lead-list",
+  "collectionId": "strawberry-marketing",
+  "displayName": "Write and save a cold email campaign from your lead list",
+  "summary": "Turn a lead list into personalised draft emails ready to send.",
+  "icon": "inbox",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 76,
+      "title": "Write and save a cold email campaign from your lead list",
+      "message": "Help me run an email campaign. You might want to pull my lead list from Google Sheets. Then research each company, write a personalised email for each contact, and save them as drafts in my email inbox ready for me to review and send."
+    }
+  ]
+}

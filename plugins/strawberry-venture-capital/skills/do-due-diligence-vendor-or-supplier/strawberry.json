@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "do-due-diligence-vendor-or-supplier",
+  "collectionId": "strawberry-venture-capital",
+  "displayName": "Do due diligence on a vendor or supplier",
+  "summary": "Research a company before signing on and surface any credibility concerns or red flags.",
+  "icon": "binoculars",
+  "difficulty": "advanced",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "venture-capital",
+      "weight": 108,
+      "title": "Do due diligence on a vendor or supplier",
+      "message": "Help me do due diligence on a vendor I am considering. Ask me which company and what the relationship would involve. Then research their reputation, client reviews, press coverage, and any concerning signals. Give me a clear summary with anything I should ask before signing."
+    },
+    {
+      "roleId": "research-analysis",
+      "weight": 76,
+      "title": "Do due diligence on a vendor or supplier",
+      "message": "Help me do due diligence on a vendor I am considering. Ask me which company and what the relationship would involve. Then research their reputation, client reviews, press coverage, and any concerning signals. Give me a clear summary with anything I should ask before signing."
+    }
+  ]
+}

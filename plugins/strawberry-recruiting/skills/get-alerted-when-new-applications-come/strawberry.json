@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "get-alerted-when-new-applications-come",
+  "collectionId": "strawberry-recruiting",
+  "displayName": "Get alerted when new applications come in",
+  "summary": "Get a fit summary for every new application automatically so nothing slips through.",
+  "icon": "sparkles",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "recruiting-people",
+      "weight": 76,
+      "title": "Get alerted when new applications come in",
+      "message": "Set up an application monitoring routine. If you don't already know which role and inbox to monitor, ask me. Then set up a Routine that checks for new applications and sends me a summary of who applied and a summary of how their background compares to the job description."
+    }
+  ]
+}

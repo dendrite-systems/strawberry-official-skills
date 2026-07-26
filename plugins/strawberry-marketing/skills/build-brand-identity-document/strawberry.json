@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "build-brand-identity-document",
+  "collectionId": "strawberry-marketing",
+  "displayName": "Build a brand identity document",
+  "summary": "Draft an About Us, tone of voice guide, and audience profile in one pass.",
+  "icon": "presentation",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 76,
+      "title": "Build a brand identity document",
+      "message": "Help me build a brand identity document. Ask me about the company, product, and the audience I am trying to reach. You might want to look at any existing content or website before drafting. Then write an About Us, a tone of voice summary, and an audience profile I can use across campaigns and onboarding."
+    }
+  ]
+}

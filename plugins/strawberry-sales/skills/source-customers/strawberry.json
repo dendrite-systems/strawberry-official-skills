@@ -4,11 +4,13 @@
   "skillType": "focused",
   "id": "source-customers",
   "collectionId": "strawberry-sales",
-  "displayName": "Source customers",
-  "summary": "Find, qualify, and rank prospective customers while preserving sources and confidence.",
+  "displayName": "Source Customers",
+  "summary": "Find and qualify prospective customers, leads, or clients. Use when a user wants a targeted prospect list based on their product, ideal customer, existing good customers, geography, or other qualification criteria.",
   "icon": "people",
   "difficulty": "moderate",
-  "tags": ["good-first-skill"],
+  "tags": [
+    "good-first-skill"
+  ],
   "useCases": [
     {
       "roleId": "founder-executive",

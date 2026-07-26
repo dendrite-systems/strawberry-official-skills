@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "extract-screen-cvs",
+  "collectionId": "strawberry-recruiting",
+  "displayName": "Extract and screen CVs from your inbox",
+  "summary": "Summarise every applicant's fit against your job description automatically.",
+  "icon": "inbox",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "recruiting-people",
+      "weight": 104,
+      "title": "Extract and screen CVs from your inbox",
+      "message": "Help me screen incoming job applications. Ask me which role I'm hiring for. If you don't already know where applications come in and what system I use to track candidates, ask. Then go through each application, extract the CV, summarise how each candidate's background compares to the job description, and add the results to wherever I track candidates."
+    }
+  ]
+}

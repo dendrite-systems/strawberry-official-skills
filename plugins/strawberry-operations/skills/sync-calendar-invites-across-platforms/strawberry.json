@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "sync-calendar-invites-across-platforms",
+  "collectionId": "strawberry-operations",
+  "displayName": "Sync calendar invites across platforms",
+  "summary": "Pull meeting invites from one calendar into another so nothing falls through the cracks.",
+  "icon": "calendar",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 76,
+      "title": "Sync calendar invites across platforms",
+      "message": "Help me sync my calendar invites across platforms. If you don't already know, ask me which accounts to connect. Then set up a Routine that automatically copies new meeting invites across, including all details like agenda, attendees, and location."
+    }
+  ]
+}

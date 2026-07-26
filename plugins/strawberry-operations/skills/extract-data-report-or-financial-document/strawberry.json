@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "extract-data-report-or-financial-document",
+  "collectionId": "strawberry-operations",
+  "displayName": "Extract data from a report or financial document",
+  "summary": "Pull specific numbers, tables, or figures from a dense PDF or annual report.",
+  "icon": "chart",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "other",
+      "weight": 76,
+      "title": "Extract data from a report or financial document",
+      "message": "Help me extract data from a report or financial document. Ask me which document and what information I need. Then go through it, pull the specific figures or tables, and give me the data in a clean format I can use directly."
+    }
+  ]
+}

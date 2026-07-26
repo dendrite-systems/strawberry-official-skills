@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "analyse-social-media-performance-suggest-next-steps",
+  "collectionId": "strawberry-marketing",
+  "displayName": "Analyse my social media performance and suggest next steps",
+  "summary": "Pull engagement data from your social channels and turn it into a concrete action plan.",
+  "icon": "chart",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 76,
+      "title": "Analyse my social media performance and suggest next steps",
+      "message": "Help me analyse my social media performance. Ask me which platforms and time period to look at. Then pull the data, identify what is working and what is not, and give me three to five concrete things to change or try next."
+    }
+  ]
+}

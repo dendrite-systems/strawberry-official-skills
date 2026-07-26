@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "personalized-outreach-emails",
+  "collectionId": "strawberry-sales",
+  "displayName": "Write personalised outreach emails for my prospect list",
+  "summary": "Draft a tailored cold email for every contact on your list.",
+  "icon": "inbox",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 76,
+      "title": "Write personalised outreach emails for my prospect list",
+      "message": "Help me write personalised outreach emails for a prospect list. Ask me where the list is: a Google Sheet, Notion doc, or paste it here. You might want to check what you already know about my product and ICP before drafting. Then research each company briefly and write a tailored email for each contact based on their background and company context."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "build-media-list-pr-pitch",
+  "collectionId": "strawberry-research-analysis",
+  "displayName": "Build a media list for a PR pitch",
+  "summary": "Find the right journalists for your story and draft outreach for each one.",
+  "icon": "chart",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "research-analysis",
+      "weight": 76,
+      "title": "Build a media list for a PR pitch",
+      "message": "Help me build a media list for a PR pitch. Ask me what the story is about. You might want to figure out which publications and journalists cover this beat based on what you know about my industry. Then research the best contacts, verify they're still active at their publication, and draft a short outreach message for each."
+    }
+  ]
+}

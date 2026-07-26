@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "reach-out-passive-candidates-network",
+  "collectionId": "strawberry-recruiting",
+  "displayName": "Reach out to passive candidates in your network",
+  "summary": "Find people in your network who match a role and draft outreach for each.",
+  "icon": "people",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "recruiting-people",
+      "weight": 76,
+      "title": "Reach out to passive candidates in your network",
+      "message": "Help me find and approach passive candidates for a role. Ask me about the job description. You might want to start by searching my LinkedIn connections for people who match the profile. Then draft a personalised message for each one and ask me to review before sending."
+    }
+  ]
+}

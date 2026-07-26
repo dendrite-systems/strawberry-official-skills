@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "get-30-day-news-activity-digest-any-company",
+  "collectionId": "strawberry-research-analysis",
+  "displayName": "Get a 30-day news and activity digest on any company",
+  "summary": "Pull everything written and posted about a company in the past month into one clean summary.",
+  "icon": "binoculars",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "research-analysis",
+      "weight": 76,
+      "title": "Get a 30-day news and activity digest on any company",
+      "message": "Help me get up to speed on a company quickly. Ask me which company and how far back to look. Then pull everything recent: news articles, press releases, LinkedIn activity from their team, and any notable social mentions. Give me a structured digest grouped by theme so I can see what has been happening at a glance."
+    }
+  ]
+}

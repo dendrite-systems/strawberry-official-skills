@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "daily-morning-briefing",
+  "collectionId": "strawberry-operations",
+  "displayName": "Set up a daily morning briefing",
+  "summary": "Start every day with a personalised news and task digest.",
+  "icon": "calendar",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "other",
+      "weight": 82,
+      "title": "Set up a daily morning briefing",
+      "message": "Set up a daily morning briefing for me. You might want to check what you already know about my industry, connected tools, and typical start time. Then propose a setup and confirm with me before creating the Routine."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "build-reading-list-complex-topic",
+  "collectionId": "strawberry-research-analysis",
+  "displayName": "Build a reading list on a complex topic",
+  "summary": "Compile the best papers, tools, and resources on any subject and organise them for easy reference.",
+  "icon": "chart",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "research-analysis",
+      "weight": 76,
+      "title": "Build a reading list on a complex topic",
+      "message": "Help me build a reading list on a topic I am trying to get up to speed on. Ask me what the topic is and how deep I want to go. Then find the most useful resources across formats such as papers, articles, tools, and communities, and organise them into a document I can work through."
+    }
+  ]
+}

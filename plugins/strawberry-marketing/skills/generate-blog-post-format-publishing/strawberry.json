@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "generate-blog-post-format-publishing",
+  "collectionId": "strawberry-marketing",
+  "displayName": "Generate a blog post and format it for publishing",
+  "summary": "Research a topic, write a full post, and format it ready to paste into your CMS.",
+  "icon": "files",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 76,
+      "title": "Generate a blog post and format it for publishing",
+      "message": "Help me write a blog post. Ask me what the topic is, who it is for, and any angle you want it to make. You might want to research what is already out there on the topic before starting. Then write a full draft and format it cleanly so it is ready to paste into a CMS or share for review."
+    }
+  ]
+}

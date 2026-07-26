@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "catch-up-slack",
+  "collectionId": "strawberry-operations",
+  "displayName": "Catch me up on all unread Slack messages",
+  "summary": "Get a digest of everything unread across all your Slack channels.",
+  "icon": "inbox",
+  "difficulty": "easy",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "other",
+      "weight": 82,
+      "title": "Catch me up on all unread Slack messages",
+      "message": "Help me catch up on Slack. You might want to go through everything unread across all my channels and figure out what needs my attention. If you need to know the time period to focus on, ask. Then give me a clean digest grouped by topic or urgency."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "track-delivery-or-parcel",
+  "collectionId": "strawberry-operations",
+  "displayName": "Track a delivery or parcel",
+  "summary": "Get a live status update on any parcel by giving your companion the tracking number.",
+  "icon": "chart",
+  "difficulty": "easy",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 76,
+      "title": "Track a delivery or parcel",
+      "message": "Help me track a delivery. Ask me for the tracking number and carrier if you don't already have it. Then check the current status and give me a clear update on where it is and when it is expected to arrive."
+    }
+  ]
+}

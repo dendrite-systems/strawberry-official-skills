@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "write-cold-email-sequence-campaign",
+  "collectionId": "strawberry-marketing",
+  "displayName": "Write a cold email sequence for a campaign",
+  "summary": "Draft a multi-step outreach sequence with personalisation built in.",
+  "icon": "inbox",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 76,
+      "title": "Write a cold email sequence for a campaign",
+      "message": "Help me write a cold email sequence for a campaign. Ask me who the audience is, what the offer is, and how many emails to include. You might want to check what you know about my tone and past emails before drafting. Then write each email with a clear through-line, personalisation hooks, and strong calls to action."
+    }
+  ]
+}

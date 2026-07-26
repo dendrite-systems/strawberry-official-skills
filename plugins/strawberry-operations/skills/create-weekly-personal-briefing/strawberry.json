@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "create-weekly-personal-briefing",
+  "collectionId": "strawberry-operations",
+  "displayName": "Create a weekly personal briefing",
+  "summary": "Pull your open tasks, emails, and upcoming meetings into one view every Monday morning.",
+  "icon": "calendar",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "other",
+      "weight": 82,
+      "title": "Create a weekly personal briefing",
+      "message": "Help me set up a weekly personal briefing. If you don't already know, ask me which tools to pull from such as email, calendar, and tasks. Then set up a Routine that runs every Monday morning and sends me a digest covering my open actions, upcoming meetings, and the three things I should focus on first."
+    }
+  ]
+}

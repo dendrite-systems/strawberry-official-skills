@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "investigate-fix-app-issues",
+  "collectionId": "strawberry-product-engineering",
+  "displayName": "Investigate and Fix App Issues",
+  "summary": "Investigate application errors or unexpected behavior and help fix the highest-value issue. Use when a user wants logs, monitoring, code, user reports, and reproduction evidence connected into a reviewable diagnosis and implementation.",
+  "icon": "code",
+  "difficulty": "advanced",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "engineering-development",
+      "weight": 110,
+      "title": "Investigate the product and app issues hurting users",
+      "message": "I want to investigate the product and app issues hurting users most and fix the most important ones."
+    },
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 74,
+      "title": "Investigate a technical issue for me",
+      "message": "I want help investigating a technical issue and finding the right next action."
+    }
+  ]
+}

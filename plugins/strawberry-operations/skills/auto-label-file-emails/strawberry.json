@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "auto-label-file-emails",
+  "collectionId": "strawberry-operations",
+  "displayName": "Automatically label and file incoming emails",
+  "summary": "Keep your inbox organised without touching it yourself.",
+  "icon": "inbox",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "other",
+      "weight": 76,
+      "title": "Automatically label and file incoming emails",
+      "message": "Set up an automatic email filing routine. If you don't already know my email account and filing preferences, ask. Then set up a Routine that reads each incoming email and applies the right label and files it in the correct folder automatically."
+    }
+  ]
+}

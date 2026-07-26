@@ -1,0 +1,98 @@
+{
+  "name": "strawberry-official-skills",
+  "owner": {
+    "name": "Dendrite Systems",
+    "url": "https://strawberrybrowser.com"
+  },
+  "description": "Result-oriented Official Skills and Playbooks for browser and web workflows.",
+  "plugins": [
+    {
+      "name": "strawberry-founder-executive",
+      "source": "./plugins/strawberry-founder-executive",
+      "description": "Founder and executive workflows",
+      "category": "productivity",
+      "keywords": [
+        "strawberry",
+        "official-skills",
+        "founder-executive"
+      ]
+    },
+    {
+      "name": "strawberry-sales",
+      "source": "./plugins/strawberry-sales",
+      "description": "Sales workflows",
+      "category": "productivity",
+      "keywords": [
+        "strawberry",
+        "official-skills",
+        "sales"
+      ]
+    },
+    {
+      "name": "strawberry-recruiting",
+      "source": "./plugins/strawberry-recruiting",
+      "description": "Recruiting workflows",
+      "category": "productivity",
+      "keywords": [
+        "strawberry",
+        "official-skills",
+        "recruiting"
+      ]
+    },
+    {
+      "name": "strawberry-operations",
+      "source": "./plugins/strawberry-operations",
+      "description": "Operations workflows",
+      "category": "productivity",
+      "keywords": [
+        "strawberry",
+        "official-skills",
+        "operations"
+      ]
+    },
+    {
+      "name": "strawberry-marketing",
+      "source": "./plugins/strawberry-marketing",
+      "description": "Marketing workflows",
+      "category": "productivity",
+      "keywords": [
+        "strawberry",
+        "official-skills",
+        "marketing"
+      ]
+    },
+    {
+      "name": "strawberry-product-engineering",
+      "source": "./plugins/strawberry-product-engineering",
+      "description": "Product and engineering workflows",
+      "category": "productivity",
+      "keywords": [
+        "strawberry",
+        "official-skills",
+        "product-engineering"
+      ]
+    },
+    {
+      "name": "strawberry-research-analysis",
+      "source": "./plugins/strawberry-research-analysis",
+      "description": "Research and analysis workflows",
+      "category": "productivity",
+      "keywords": [
+        "strawberry",
+        "official-skills",
+        "research-analysis"
+      ]
+    },
+    {
+      "name": "strawberry-venture-capital",
+      "source": "./plugins/strawberry-venture-capital",
+      "description": "Venture capital workflows",
+      "category": "productivity",
+      "keywords": [
+        "strawberry",
+        "official-skills",
+        "venture-capital"
+      ]
+    }
+  ]
+}

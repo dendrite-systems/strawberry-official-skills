@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "create-beautiful-slide-deck",
+  "collectionId": "strawberry-research-analysis",
+  "displayName": "Create a Beautiful Slide Deck",
+  "summary": "Turn a topic, source material, or body of work into a polished visual slide deck. Use when the user wants a pitch, report, presentation, portfolio, achievement deck, or other narrative presentation rather than a plain text document.",
+  "icon": "presentation",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 86,
+      "title": "Create a beautiful, on-brand slide deck",
+      "message": "I want to create a beautiful, on-brand slide deck."
+    },
+    {
+      "roleId": "design",
+      "weight": 90,
+      "title": "Turn my ideas into a polished visual story",
+      "message": "I want to turn my ideas into a polished visual story and slide deck."
+    },
+    {
+      "roleId": "writer-creator",
+      "weight": 86,
+      "title": "Turn my work into a beautiful slide deck",
+      "message": "I want to turn my work into a beautiful slide deck."
+    },
+    {
+      "roleId": "other",
+      "weight": 94,
+      "title": "Create a beautiful slide deck for me",
+      "message": "I want to create a beautiful slide deck."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "auto-generate-weekly-team-standup-summary",
+  "collectionId": "strawberry-operations",
+  "displayName": "Auto-generate a weekly team standup summary",
+  "summary": "Turn Slack and Linear activity into a weekly team standup in seconds.",
+  "icon": "calendar",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 104,
+      "title": "Auto-generate a weekly team standup summary",
+      "message": "Help me generate a weekly standup summary for my team. You might want to pull from what you know about our tools and cadence. Then go through Slack messages and Linear issues from the past week, pull out what got done, what's blocked, and what's next, and format it ready to share."
+    }
+  ]
+}

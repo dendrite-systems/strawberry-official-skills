@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "transcribe-meetings-follow-up",
+  "collectionId": "strawberry-operations",
+  "displayName": "Transcribe Meetings and Follow Up",
+  "summary": "Turn meetings, calls, or interviews into transcripts, useful notes, decisions, and follow-up actions. Use when a user wants reliable recall or wants post-call work updated in their existing tools.",
+  "icon": "files",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 100,
+      "title": "Turn every meeting into notes and follow-ups",
+      "message": "I want every meeting turned into clear notes and follow-up actions."
+    },
+    {
+      "roleId": "sales-business-development",
+      "weight": 90,
+      "title": "Never forget a sales call or follow-up",
+      "message": "I want sales calls transcribed with decisions and follow-ups captured automatically."
+    },
+    {
+      "roleId": "recruiting-people",
+      "weight": 88,
+      "title": "Never forget an interview or follow-up",
+      "message": "I want interviews transcribed with decisions and follow-ups captured automatically."
+    },
+    {
+      "roleId": "engineering-development",
+      "weight": 86,
+      "title": "Turn customer calls into product insight",
+      "message": "I want customer calls transcribed and turned into useful product insight."
+    },
+    {
+      "roleId": "other",
+      "weight": 92,
+      "title": "Never forget a meeting or follow-up",
+      "message": "I want meetings transcribed with decisions and follow-ups captured automatically."
+    }
+  ]
+}

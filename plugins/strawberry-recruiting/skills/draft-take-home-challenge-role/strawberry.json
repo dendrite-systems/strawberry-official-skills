@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "draft-take-home-challenge-role",
+  "collectionId": "strawberry-recruiting",
+  "displayName": "Draft a take-home challenge for a role",
+  "summary": "Write a realistic, well-scoped test with clear instructions and evaluation criteria.",
+  "icon": "sparkles",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "recruiting-people",
+      "weight": 76,
+      "title": "Draft a take-home challenge for a role",
+      "message": "Help me create a take-home challenge for a candidate. Ask me what the role is and what skills I want to evaluate. Then write a clear, well-scoped brief with instructions, deliverables, and the criteria I will use to assess the submission."
+    }
+  ]
+}

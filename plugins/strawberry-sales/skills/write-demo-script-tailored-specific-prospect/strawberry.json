@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "write-demo-script-tailored-specific-prospect",
+  "collectionId": "strawberry-sales",
+  "displayName": "Write a demo script tailored to a specific prospect",
+  "summary": "Turn any prospect's context into a personalised demo that speaks to their situation.",
+  "icon": "files",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 76,
+      "title": "Write a demo script tailored to a specific prospect",
+      "message": "Help me prepare a personalised demo for a prospect. Ask me who I am demoing to and when. Then go find their company context: their website, LinkedIn, recent news, and any emails we have exchanged. You might want to identify their likely pain points before structuring the script. Then write a demo flow that speaks directly to their situation."
+    }
+  ]
+}

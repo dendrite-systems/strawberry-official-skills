@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "research-shortlist-creators-or-influencers-niche",
+  "collectionId": "strawberry-marketing",
+  "displayName": "Research and shortlist creators or influencers in your niche",
+  "summary": "Find the right creators for a collaboration and build a shortlist with outreach angles.",
+  "icon": "chart",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 76,
+      "title": "Research and shortlist creators or influencers in your niche",
+      "message": "Help me find creators or influencers to work with. Ask me what the collaboration goal is. You might want to figure out the right niche from what you know about my product and audience. Then research relevant accounts, go through their recent content and engagement, and build a shortlist with contact info and a suggested outreach angle for each."
+    }
+  ]
+}
