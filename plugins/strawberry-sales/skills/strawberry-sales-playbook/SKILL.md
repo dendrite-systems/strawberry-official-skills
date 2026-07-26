@@ -1,5 +1,5 @@
 ---
-name: sales-playbook
+name: strawberry-sales-playbook
 description: Guide a user from one useful sales result into a connected prospecting, account-research, meeting, follow-up, and pipeline workflow using Strawberry Official Skills.
 ---
 
@@ -20,9 +20,9 @@ to remove it.
 ## Focused Official Skills
 
 - `source-customers`
-- `research-companies-create-decks`
 - `prepare-for-calls`
 - `transcribe-meetings-follow-up`
+- `research-companies-create-decks` from Strawberry Research & Analysis
 
 ## Progression
 

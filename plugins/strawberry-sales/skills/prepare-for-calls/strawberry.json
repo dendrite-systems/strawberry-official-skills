@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "prepare-for-calls",
+  "collectionId": "strawberry-sales",
+  "displayName": "Prepare for calls",
+  "summary": "Create concise, evidence-based briefs for upcoming sales calls.",
+  "icon": "calendar",
+  "difficulty": "moderate",
+  "tags": ["good-first-skill"],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 96,
+      "title": "Prepare me for every call today",
+      "message": "I want to be fully prepared for every sales call today."
+    }
+  ]
+}

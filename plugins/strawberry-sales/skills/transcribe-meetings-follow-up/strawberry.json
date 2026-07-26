@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "transcribe-meetings-follow-up",
+  "collectionId": "strawberry-sales",
+  "displayName": "Transcribe sales calls and follow up",
+  "summary": "Turn sales calls into reliable transcripts, decisions, and approved follow-up work.",
+  "icon": "files",
+  "difficulty": "moderate",
+  "tags": ["good-first-skill"],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 90,
+      "title": "Never forget a sales call or follow-up",
+      "message": "I want sales calls transcribed with decisions and follow-ups captured automatically."
+    }
+  ]
+}

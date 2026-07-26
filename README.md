@@ -1,95 +1,63 @@
 # Strawberry Official Skills
 
-The public source of truth for Strawberry's result-oriented Official Skills and role Playbooks.
+The public source of Strawberry's result-oriented Official Skills and Playbooks.
 
-An Official Skill is an executable workflow that helps someone produce a concrete result. A
-Playbook is also an Official Skill, but it coordinates several focused skills into a useful
-progression for a role such as Sales or Recruiting.
+Each folder under `plugins/` groups workflows around a durable role or domain. This follows the
+useful part of a plugin structure—clear ownership, a Playbook, and related focused skills—without
+requiring any particular agent or plugin runtime.
 
-## Why this repository exists
+```text
+plugins/
+  strawberry-sales/
+    skills/
+      strawberry-sales-playbook/
+        SKILL.md
+        strawberry.json
+      source-customers/
+        SKILL.md
+        strawberry.json
+      prepare-for-calls/
+        SKILL.md
+        strawberry.json
+      transcribe-meetings-follow-up/
+        SKILL.md
+        strawberry.json
+  strawberry-research-analysis/
+    skills/
+      research-companies-create-decks/
+        SKILL.md
+        strawberry.json
+```
 
-Every public promise should resolve to something Strawberry can actually do:
+## Files
+
+- `SKILL.md` contains the executable workflow an agent reads.
+- `strawberry.json` contains Strawberry discovery data: stable identity, collection ownership,
+  difficulty, constrained tags, and role-specific use cases.
+- A Playbook is itself an Official Skill. Its `SKILL.md` explains how focused skills work together,
+  and its `strawberry.json` references their stable ids.
+
+Focused skills belong to the collection that most clearly owns the result. Other Playbooks may
+reference them across collections. Duplicate a skill only when the workflow changes materially by
+domain—for example, sales call follow-up and recruiting interview follow-up.
+
+The Strawberry monorepo owns the metadata types, allowed role ids, tags, validation, API cache,
+and browser distribution. Invalid or unknown metadata is rejected when the repository is
+ingested.
+
+## Product loop
+
+Every public promise should resolve to a workflow Strawberry can actually execute:
 
 ```text
 valuable result
   -> Official Skill
-  -> article, tutorial, or video
+  -> article or video
   -> user asks for the result naturally
-  -> Strawberry finds and reads the Official Skill
+  -> Strawberry resolves and reads the Official Skill
   -> useful first run
   -> user adapts it into their own skill
 ```
 
-Public articles and videos live in Strawberry's Editorial CMS. This repository owns executable
-instructions and discovery metadata. The CMS references stable skill ids rather than copying
-`SKILL.md`.
-
-## Repository structure
-
-```text
-.agents/plugins/marketplace.json       Codex-compatible plugin marketplace
-audience/                              Shared role and organization vocabulary
-contracts/strawberry-metadata.schema.json
-plugins/strawberry-sales/              Installable domain plugin and Sales Playbook
-skills/source-customers/               Focused canonical Official Skill
-scripts/validate.mjs                    Repository validation
-```
-
-Every skill directory contains:
-
-- `SKILL.md`: portable instructions read by the agent.
-- `strawberry-metadata.json`: Strawberry discovery data, role-specific use cases, difficulty,
-  tags, and relationships.
-
-The metadata does not duplicate instructions. Mutable data such as downloads, ratings, and usage
-is recorded by Strawberry's API, never committed here.
-
-## Product model
-
-- **Official Skill** — a focused, executable workflow.
-- **Use case** — role-specific language for the same Official Skill.
-- **Playbook** — an orchestration Official Skill that explains how focused skills work together.
-- **Plugin** — an installable role or domain package containing a Playbook.
-- **Editorial content** — public articles and videos linked to stable skill or Playbook ids.
-
-`good-first-skill` marks an evergreen workflow someone can productively run at any time. It should
-not require a rare lifecycle event to become useful.
-
-## Playbooks
-
-The initial vertical slice contains the Strawberry Sales Playbook and four focused Official Skills.
-The planned Playbook set is:
-
-- Founder & Executive
-- Sales
-- Recruiting
-- Operations
-- Marketing
-- Product & Engineering
-- Research & Analysis
-- Venture Capital
-
-Playbooks are added only when their workflow and referenced Official Skills contain useful
-instructions. Empty placeholder plugins are not published.
-
-## Validate
-
-```bash
-npm run validate
-```
-
-Validation checks ids, metadata shape, role references, plugin composition, marketplace entries,
-and `SKILL.md` frontmatter.
-
-## Contributing
-
-Start from the result. A contribution should:
-
-1. Promise a specific, useful outcome.
-2. Preserve source links and distinguish facts from inference.
-3. Include a review point before irreversible or high-volume actions.
-4. State the expected result.
-5. Keep role-specific titles in metadata rather than duplicating the skill.
-6. Be strong enough that an article or video can demonstrate the same workflow honestly.
-
-Licensed under Apache-2.0.
+Articles and videos live in Strawberry's Editorial CMS and reference stable Official Skill or
+Playbook ids. They do not duplicate `SKILL.md`.

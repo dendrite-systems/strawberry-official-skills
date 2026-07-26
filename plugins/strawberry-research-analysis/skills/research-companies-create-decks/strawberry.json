@@ -1,15 +1,14 @@
 {
-  "$schema": "../../contracts/strawberry-metadata.schema.json",
   "schemaVersion": 1,
   "kind": "official-skill",
   "skillType": "focused",
   "id": "research-companies-create-decks",
+  "collectionId": "strawberry-research-analysis",
   "displayName": "Research companies and create decks",
   "summary": "Turn sourced company research into a polished, decision-oriented visual presentation.",
   "icon": "presentation",
   "difficulty": "advanced",
   "tags": [],
-  "pluginIds": ["strawberry-sales"],
   "useCases": [
     {
       "roleId": "consultant",

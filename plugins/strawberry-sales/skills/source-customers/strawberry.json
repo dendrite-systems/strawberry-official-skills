@@ -1,15 +1,14 @@
 {
-  "$schema": "../../contracts/strawberry-metadata.schema.json",
   "schemaVersion": 1,
   "kind": "official-skill",
   "skillType": "focused",
   "id": "source-customers",
+  "collectionId": "strawberry-sales",
   "displayName": "Source customers",
   "summary": "Find, qualify, and rank prospective customers while preserving sources and confidence.",
   "icon": "people",
   "difficulty": "moderate",
   "tags": ["good-first-skill"],
-  "pluginIds": ["strawberry-sales"],
   "useCases": [
     {
       "roleId": "founder-executive",
