@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "focused",
+  "id": "set-up-shared-team-workflow",
+  "collectionId": "strawberry-operations",
+  "displayName": "Set Up a Shared Team Workflow",
+  "summary": "Turn a proven workflow into a clear shared team process with owners and review points.",
+  "icon": "people",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 102,
+      "title": "Set up a shared team workflow",
+      "message": "I want to turn a workflow that works into a clear shared process for my team."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 76,
+      "title": "Make a workflow reusable across my team",
+      "message": "I want to turn a workflow that works into a clear shared process for my team."
+    },
+    {
+      "roleId": "agency",
+      "weight": 72,
+      "title": "Make a client workflow reusable across my team",
+      "message": "I want to turn an accepted client workflow into a clear shared process for my team."
+    },
+    {
+      "roleId": "recruiting-people",
+      "weight": 70,
+      "title": "Make a hiring workflow reusable across my team",
+      "message": "I want to turn an accepted hiring workflow into a clear shared process for my team."
+    }
+  ]
+}

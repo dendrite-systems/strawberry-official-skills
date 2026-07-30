@@ -29,6 +29,17 @@
       ]
     },
     {
+      "name": "strawberry-agency",
+      "source": "./plugins/strawberry-agency",
+      "description": "Agency and client-service workflows",
+      "category": "productivity",
+      "keywords": [
+        "strawberry",
+        "official-skills",
+        "agency"
+      ]
+    },
+    {
       "name": "strawberry-recruiting",
       "source": "./plugins/strawberry-recruiting",
       "description": "Recruiting workflows",

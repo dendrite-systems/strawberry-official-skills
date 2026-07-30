@@ -5,27 +5,46 @@ description: Get a strategic breakdown of what your top competitors are doing.
 
 # Run a competitor analysis
 
-## Starting intent
+## Context, setup, and planning
 
-I want to understand what my top competitors are doing. You might want to start by identifying them from what you know about my company and product. Then analyse their positioning, pricing, and most recent content. Ask me if I want to add any others.
+Understand the decision the research will support. “Research Company X” could mean evaluating a
+partnership, preparing for a sales call, comparing positioning, or tracking where a market is
+headed; the purpose determines what to investigate and how deep to go.
 
-Treat this as a starting intent, not a rigid script. First inspect context the user has
-already approved. While narrowing the outcome, ask one short blocking question at a time
-and offer concise choices when useful. Once the workflow is clear, related setup details
-can be gathered together.
+When useful, inspect approved company materials, the user's website, and prior research rather than
+starting from scratch. Use them to understand the user's business model, positioning, and market.
+Map direct competitors, indirect alternatives, and emerging players. If the comparison set is not
+already agreed, confirm it with the user before going deep.
 
-## Useful sources
+Agree on the timeframe, evidence standard, desired artifact, and depth. A broad sweep is a good
+starting point; focused research with one agent per competitor produces richer results but costs
+more. Explain that tradeoff when depth matters.
 
-These sources may help when connected and approved; none is automatically required:
+## Execution
 
-- Browser agent
+1. Search broadly before going deep. Prefer primary sources, preserve URLs and publication dates,
+   and flag information that may be outdated.
+2. For each competitor, investigate the product or service, pricing, positioning, recent news, and
+   traction. Useful signals can also include:
+   - job postings that reveal priorities and growth areas;
+   - founders' and executives' posts, talks, and articles;
+   - reviews and sentiment that expose strengths and gaps;
+   - funding, financial, hiring, launch, and partnership signals;
+   - marketing campaigns, ads, and changes in messaging or content strategy when relevant.
+3. Compare claims across sources. Separate facts, interpretations, uncertainty, contradictions, and
+   missing evidence.
+4. Interpret what the patterns mean for the user's decision. For example, hiring several enterprise
+   sellers in one region is a fact; a possible expansion into that market is an inference.
+5. Present the findings side by side when that helps. Go beyond listing facts to show patterns,
+   gaps, opportunities, and questions worth investigating.
 
-Never invent missing facts or assume an external action was approved. Show a reviewable
-sample before scaling subjective work, and ask before consequential or irreversible actions.
+## Suggested outcome
 
-## Expected result
+Deliver the agreed brief, table, report, or presentation with sourced evidence, dates, implications,
+uncertainties, and clear distinctions between facts and inference.
 
-Get a strategic breakdown of what your top competitors are doing.
+## Suggested next steps
 
-Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this Official Skill.
+Offer to go deeper on selected competitors or questions. If competitor tracking becomes a recurring
+need and scheduling is available, suggest a weekly or monthly routine. Preserve the accepted scope,
+sources, depth, and output as a user-owned skill when the workflow proves useful.

@@ -7,5 +7,5 @@ Keep every Official Skill focused on a demonstrable outcome. Put executable inst
 tags, icons, and difficulty values already accepted by Strawberry's validator.
 
 Place a skill in the collection that most clearly owns the result. Cross-reference an existing
-skill when another Playbook needs the same workflow. Duplicate it only when the actual process,
-inputs, review points, or output meaningfully differ.
+skill when another Getting Started skill needs the same workflow. Duplicate it only when the actual
+process, inputs, review points, or output meaningfully differ.

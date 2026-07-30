@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "playbook",
+  "id": "getting-started-with-agency-work-in-strawberry",
+  "collectionId": "strawberry-agency",
+  "displayName": "Getting Started with Agency Work in Strawberry",
+  "summary": "Get started with agency work in Strawberry through winning clients, onboarding, delivery, reporting, and calls.",
+  "icon": "presentation",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "agency",
+      "weight": 124,
+      "title": "Getting Started with Agency Work in Strawberry",
+      "message": "I want to get started with agency work in Strawberry, win clients, and make delivery more repeatable."
+    }
+  ],
+  "skillIds": [
+    "source-customers",
+    "personalized-outreach-sequence",
+    "research-companies-create-decks",
+    "build-client-brief",
+    "run-competitor-analysis",
+    "audit-seo-create-report",
+    "build-client-progress-report-project-tools",
+    "prepare-for-calls",
+    "transcribe-meetings-follow-up",
+    "set-up-shared-team-workflow"
+  ]
+}

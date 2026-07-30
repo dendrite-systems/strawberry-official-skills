@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "playbook",
+  "id": "getting-started-with-research-analysis-in-strawberry",
+  "collectionId": "strawberry-research-analysis",
+  "displayName": "Getting Started with Research and Analysis in Strawberry",
+  "summary": "Get started with research in Strawberry by gathering evidence, building datasets, and explaining findings.",
+  "icon": "books",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "research-analysis",
+      "weight": 120,
+      "title": "Getting Started with Research and Analysis in Strawberry",
+      "message": "I want to get started with research in Strawberry and build a repeatable workflow."
+    },
+    {
+      "roleId": "data-analytics",
+      "weight": 92,
+      "title": "Getting Started with Research and Analysis in Strawberry",
+      "message": "I want to get started with analysis in Strawberry and build a repeatable workflow."
+    }
+  ],
+  "skillIds": [
+    "run-competitor-analysis",
+    "research-any-company-before-key-meeting",
+    "map-key-players-industry-or-ecosystem",
+    "get-30-day-news-activity-digest-any-company",
+    "do-due-diligence-vendor-or-supplier",
+    "build-reading-list-complex-topic",
+    "extract-web-data"
+  ]
+}

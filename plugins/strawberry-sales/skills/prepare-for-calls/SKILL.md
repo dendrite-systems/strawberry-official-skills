@@ -1,16 +1,57 @@
 ---
 name: prepare-for-calls
-description: Prepare a user for upcoming sales, customer, client, or candidate calls. Use when the user wants concise briefs based on calendar events, prior conversations, company context, relationship history, and desired outcomes.
+description: Prepare concise, actionable briefs for upcoming sales, customer, client, candidate, pitch, board, or diligence calls using relevant approved context.
 ---
 
-# Prepare for Calls
+# Prepare for calls
 
-1. Confirm which calls to prepare and what success means for each.
-2. With permission, inspect the calendar, prior meeting notes, relevant email or chat history, CRM or ATS records, and public company or person information.
-3. Separate known facts from assumptions and surface contradictions or missing context.
-4. Prioritize the few details and questions most likely to change the outcome.
-5. After the briefs are useful, save the user's preferred preparation format as a user-owned skill.
+Use this as a starting point for preparing different kinds of calls. Adapt the brief to the
+meeting and to how the user prefers to prepare.
 
-## Expected result
+## Context, setup, and planning
 
-Produce one concise brief per call with participants, relationship context, purpose, recent developments, likely concerns, recommended questions, and a clear desired outcome. Optimize for scanning immediately before the call.
+Confirm which calls to prepare, the desired outcome for each, and what the user needs to stay on
+top of. Ask how they usually prepare. If they have no preference, propose a concise starting
+format and refine it from their feedback.
+
+When relevant, available, and approved, useful context can include:
+
+- the calendar event, meeting topic, and participants;
+- the person's role, tenure, background, recent work, public activity, portfolio, or GitHub when
+  relevant;
+- company or market background, recent news, funding, leadership changes, hiring activity, and
+  known tools;
+- relationship history, prior notes or conversations, open threads, CRM or ATS stage, client
+  results or account changes, and notes from colleagues;
+- signals, likely concerns, pain points, or questions that matter for this meeting.
+
+Offer to gather this through a few questions, approved sources, or both. Do not treat every source
+as a prerequisite or ask the user to repeat information that is already available.
+
+Agree where the brief should live and whether preparation is on demand, before individual calls,
+or collected into a morning or evening briefing.
+
+## Execution
+
+1. Match the correct participants and relationship history to each meeting.
+2. Separate verified facts from assumptions. Surface contradictions or important gaps rather than
+   filling them with guesses.
+3. Prioritize the few developments, concerns, questions, and talking points most likely to affect
+   the outcome.
+4. Include working links to useful source records when they help the user move quickly.
+5. Present a clean brief that can be scanned in a few minutes, then adjust its depth and format
+   from the user's feedback.
+
+## Suggested outcome
+
+Produce one concise, actionable brief per call with participants, relationship context, purpose,
+recent developments, likely concerns, recommended questions, and a clear desired outcome.
+
+## Suggested next steps
+
+- After the format is useful, preserve the user's preferences as a user-owned skill. After a few
+  successful runs, offer to schedule preparation at their preferred cadence.
+- Read `strawberry/transcribe-meetings-follow-up` when the user wants to capture the meeting and
+  turn what was said into approved notes, actions, and follow-up.
+- Read `strawberry/keep-crm-updated` when approved meeting context or next steps should be reflected
+  in the CRM.

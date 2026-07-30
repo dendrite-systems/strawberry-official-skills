@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "playbook",
+  "id": "getting-started-with-marketing-in-strawberry",
+  "collectionId": "strawberry-marketing",
+  "displayName": "Getting Started with Marketing in Strawberry",
+  "summary": "Get started with marketing in Strawberry through research, campaigns, content, SEO, and distribution.",
+  "icon": "sparkles",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 120,
+      "title": "Getting Started with Marketing in Strawberry",
+      "message": "I want to get started with marketing in Strawberry and build a repeatable marketing engine."
+    },
+    {
+      "roleId": "agency",
+      "weight": 102,
+      "title": "Getting Started with Marketing in Strawberry",
+      "message": "I want to get started with marketing in Strawberry and build repeatable client workflows."
+    }
+  ],
+  "skillIds": [
+    "monitor-brand-mentions",
+    "see-competitors-are-posting-whats-getting-traction",
+    "research-shortlist-creators-or-influencers-niche",
+    "analyse-social-media-performance-suggest-next-steps",
+    "build-content-calendar-top-performing-posts",
+    "audit-seo-create-report",
+    "analyse-whats-performing-linkedin-profile",
+    "scan-reddit-find-out-audience-really-thinks"
+  ]
+}

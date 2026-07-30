@@ -1,33 +1,48 @@
 ---
 name: enrich-lead-list
-description: Find the right contact at every company on your list.
+description: Enrich an existing company or lead list with verified decision-makers, source links, and the fields needed by the user's sales process.
 ---
 
 # Enrich a lead list with decision-maker contacts
 
-## Starting intent
+## Workflow
 
-I have a list of companies I'm targeting. Ask me for the company list. You might want to figure out which title makes the best decision-maker based on what you know about my ICP. Then find the right contact at each company and add their name, title, and LinkedIn URL to a Google Sheet or Notion.
-
-Treat this as a starting intent, not a rigid script. First inspect context the user has
-already approved. While narrowing the outcome, ask one short blocking question at a time
-and offer concise choices when useful. Once the workflow is clear, related setup details
-can be gathered together.
-
-## Useful sources
-
-These sources may help when connected and approved; none is automatically required:
-
-- Google Sheets
-- LinkedIn
-- Notion
-
-Never invent missing facts or assume an external action was approved. Show a reviewable
-sample before scaling subjective work, and ask before consequential or irreversible actions.
+1. Inspect the approved list, ICP, CRM, and existing field definitions. Confirm the destination and
+   the fields that would make each row actionable. Agree on the desired research depth; a broad
+   surface pass is cheaper than deep research on every row.
+2. Agree on the decision-maker criteria. Use the user's process or evidence from strong existing
+   customers instead of assuming one universal title.
+3. Before substantial enrichment, present a brief plan covering the criteria, sources, depth,
+   sample, destination, and review point. Wait for the user to confirm or adjust it.
+4. Deduplicate against the existing CRM or destination before enriching. When relevant, flag
+   current customers, live deals, previously contacted leads, and do-not-contact records rather
+   than returning them as fresh prospects.
+5. Use inexpensive company and visible list signals to narrow the work before opening many profiles.
+   For a large list, extract once, narrow on those signals, and deeply enrich only the useful subset.
+6. Verify each person's identity across multiple signals such as photo, current role and company,
+   prior companies, education, location, and mutual connections. Preserve the real source URL.
+   Never guess a LinkedIn URL, email address, phone number, title, or employment relationship.
+7. If an email is requested, use a published company source or an available email verifier and
+   record its verification status. Leave risky or unverifiable addresses missing.
+8. Cross-reference existing contacts against current profiles and company websites. Flag job or
+   title changes, inactive contacts, and company acquisitions or closures for review rather than
+   silently overwriting the record.
+9. If LinkedIn is used, work sequentially with one agent at a human pace. Stop and ask if a CAPTCHA,
+   rate-limit message, account warning, or identity uncertainty appears.
+10. Enrich a small sample, usually 5–10 rows, so the user can correct the criteria and fields before
+    the full list.
+11. Before presenting, check missing values, duplicates, formats, source links, identity mismatches,
+    and low-confidence fields. Report how many rows were reviewed and how the list was narrowed.
+12. Write to the chosen destination only after the user approves the sample and proposed updates.
+13. Save the accepted enrichment criteria, fields, and destination as a user-owned skill when useful.
 
 ## Expected result
 
-Find the right contact at every company on your list.
+Return a deduplicated, enriched list with verified people, roles, real source URLs, agreed fields,
+verification status, and explicit uncertainty. Flag stale or conflicting records. Missing data
+remains missing rather than being guessed.
 
-Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this Official Skill.
+## Suggested next steps
+
+- If the user needs new accounts or prospects before enrichment, use `strawberry/source-customers`.
+- If the user wants to contact approved leads, use `strawberry/personalized-outreach-sequence`.

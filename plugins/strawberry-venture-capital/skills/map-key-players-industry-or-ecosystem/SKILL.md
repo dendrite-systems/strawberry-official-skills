@@ -5,29 +5,56 @@ description: Find the companies, associations, and contacts that matter in a spe
 
 # Map the key players in an industry or ecosystem
 
-## Starting intent
+Use this Official Skill as a starting point, not a rigid method. Adapt the map to the decision the
+user needs to make, then offer to preserve the accepted approach as a user-owned skill if it proves
+useful.
 
-Help me map the key players in a specific industry or region. Ask me which market and what kind of players to include. Then research the landscape and build a structured overview with the key companies, organisations, and contacts worth knowing.
+## Context, setup, and planning
 
-Treat this as a starting intent, not a rigid script. First inspect context the user has
-already approved. While narrowing the outcome, ask one short blocking question at a time
-and offer concise choices when useful. Once the workflow is clear, related setup details
-can be gathered together.
+Try to understand:
 
-## Useful sources
+- the decision the map should support, the market or geography, and how current it needs to be;
+- which players matter, such as companies, associations, investors, accelerators, experts, or
+  contacts, and what should qualify or exclude them;
+- the desired depth, evidence standard, fields, and final format.
 
-These sources may help when connected and approved; none is automatically required:
+Offer to learn this through a few questions, approved internal research and notes, or both. Existing
+material can provide a head start when it is available and relevant, but it is not a prerequisite.
+Align on depth before spending time or credits. A good default is to start with a broad sweep,
+present a small initial map, and let the user correct the scope before going deeper.
 
-- Browser agent
-- Google Sheets
-- Google Docs
+## Execution
 
-Never invent missing facts or assume an external action was approved. Show a reviewable
-sample before scaling subjective work, and ask before consequential or irreversible actions.
+1. Search broadly before going deep. Depending on the market, useful sources can include the open
+   web, company sites, news, LinkedIn, industry databases, accelerator cohorts, niche directories,
+   and association lists. Prefer primary sources where possible.
+2. Use the agreed criteria to build the initial set. Keep direct evidence, interpretation, and
+   uncertainty distinct, and preserve source URLs and relevant dates.
+3. Show a reviewable sample before scaling. Confirm whether the right types of players are present
+   and whether any known names should be added or excluded.
+4. Deepen the accepted map. For each included player, capture the requested fields and a concise,
+   sourced reason it matters. Where relevant, signals such as funding, leadership changes, hiring,
+   partnerships, regulation, or product activity can help explain momentum.
+5. Deduplicate entities and explain how many candidates were reviewed and how the map was narrowed.
+   Flag stale, contradictory, or missing evidence instead of filling gaps with guesses.
+6. Interpret the landscape for the user's decision: identify meaningful patterns, relationships,
+   gaps, or open questions rather than returning an undigested list.
+7. If critical information cannot be resolved, identify people who may know, such as analysts,
+   journalists, or practitioners. Suggest outreach as an option; never contact anyone without the
+   user's approval.
 
-## Expected result
+## Suggested outcome
 
-Find the companies, associations, and contacts that matter in a specific market.
+Deliver the map in the agreed format with the relevant players, requested fields, source links,
+dates, concise reasons for inclusion, important patterns, and visible uncertainty or evidence gaps.
 
-Keep sources and uncertainty visible. When the result works, offer to preserve the accepted
-process as a user-owned skill without changing this Official Skill.
+## Suggested next steps
+
+For a large row-based map, read `strawberry/extract-web-data`. If the task becomes a direct
+competitive comparison, read `strawberry/run-competitor-analysis`. If the user chooses to contact
+people in the map, read `strawberry/personalized-outreach-sequence` and keep every message
+reviewable before sending.
+
+When the workflow works, offer to preserve the accepted scope, criteria, sources, fields, and
+format as a user-owned skill. If the user wants recurring monitoring, first agree what counts as a
+meaningful signal and where the update should appear.

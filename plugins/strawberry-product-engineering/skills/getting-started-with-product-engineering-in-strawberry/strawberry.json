@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "playbook",
+  "id": "getting-started-with-product-engineering-in-strawberry",
+  "collectionId": "strawberry-product-engineering",
+  "displayName": "Getting Started with Product and Engineering in Strawberry",
+  "summary": "Get started with product and engineering in Strawberry through product insight, issue investigation, and delivery workflows.",
+  "icon": "code",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "engineering-development",
+      "weight": 120,
+      "title": "Getting Started with Product and Engineering in Strawberry",
+      "message": "I want to get started with product and engineering in Strawberry and connect product insight with delivery."
+    }
+  ],
+  "skillIds": [
+    "investigate-fix-app-issues",
+    "transcribe-meetings-follow-up",
+    "extract-web-data",
+    "research-companies-create-decks"
+  ]
+}

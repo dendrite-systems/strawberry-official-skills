@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "kind": "official-skill",
+  "skillType": "playbook",
+  "id": "getting-started-with-sales-in-strawberry",
+  "collectionId": "strawberry-sales",
+  "displayName": "Getting Started with Sales in Strawberry",
+  "summary": "Get started with sales in Strawberry through prospecting, account research, outreach, and follow-up.",
+  "icon": "chart",
+  "difficulty": "moderate",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 120,
+      "title": "Getting Started with Sales in Strawberry",
+      "message": "I want to get started with sales in Strawberry and improve my sales pipeline."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 96,
+      "title": "Getting Started with Sales in Strawberry",
+      "message": "I want to get started with sales in Strawberry and build a repeatable pipeline."
+    },
+    {
+      "roleId": "agency",
+      "weight": 88,
+      "title": "Getting Started with Sales in Strawberry",
+      "message": "I want to get started with sales in Strawberry and build a repeatable client pipeline."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 84,
+      "title": "Getting Started with Sales in Strawberry",
+      "message": "I want to get started with sales in Strawberry and build a repeatable client pipeline."
+    }
+  ],
+  "skillIds": [
+    "source-customers",
+    "enrich-lead-list",
+    "personalized-outreach-sequence",
+    "research-prospect-before-meeting",
+    "research-companies-create-decks",
+    "prepare-for-calls",
+    "transcribe-meetings-follow-up",
+    "keep-crm-updated",
+    "set-up-shared-team-workflow"
+  ]
+}
