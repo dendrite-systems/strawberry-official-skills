@@ -30,15 +30,14 @@
     }
   ],
   "skillIds": [
-    "daily-morning-briefing",
-    "create-weekly-personal-briefing",
-    "build-client-progress-report-project-tools",
-    "triage-inbox-draft-replies",
-    "reach-inbox-zero",
-    "research-plan-business-trip",
-    "onboard-offboard-teammates",
-    "set-up-shared-team-workflow",
     "automate-customer-support",
-    "summarise-slack-channel"
+    "build-client-progress-report-project-tools",
+    "do-due-diligence-vendor-or-supplier",
+    "extract-web-data",
+    "onboard-offboard-teammates",
+    "prepare-for-calls",
+    "reach-inbox-zero",
+    "set-up-shared-team-workflow",
+    "transcribe-meetings-follow-up"
   ]
 }

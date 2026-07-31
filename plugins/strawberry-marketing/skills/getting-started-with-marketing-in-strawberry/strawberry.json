@@ -24,13 +24,12 @@
     }
   ],
   "skillIds": [
-    "monitor-brand-mentions",
-    "see-competitors-are-posting-whats-getting-traction",
-    "research-shortlist-creators-or-influencers-niche",
-    "analyse-social-media-performance-suggest-next-steps",
-    "build-content-calendar-top-performing-posts",
     "audit-seo-create-report",
-    "analyse-whats-performing-linkedin-profile",
-    "scan-reddit-find-out-audience-really-thinks"
+    "create-beautiful-slide-deck",
+    "extract-web-data",
+    "personalized-outreach-sequence",
+    "research-companies-create-decks",
+    "run-competitor-analysis",
+    "set-up-shared-team-workflow"
   ]
 }

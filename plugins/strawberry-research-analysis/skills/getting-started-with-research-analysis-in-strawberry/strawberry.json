@@ -24,12 +24,10 @@
     }
   ],
   "skillIds": [
-    "run-competitor-analysis",
-    "research-any-company-before-key-meeting",
-    "map-key-players-industry-or-ecosystem",
-    "get-30-day-news-activity-digest-any-company",
     "do-due-diligence-vendor-or-supplier",
-    "build-reading-list-complex-topic",
-    "extract-web-data"
+    "extract-web-data",
+    "map-key-players-industry-or-ecosystem",
+    "research-companies-create-decks",
+    "run-competitor-analysis"
   ]
 }

@@ -18,10 +18,12 @@
     }
   ],
   "skillIds": [
-    "source-customers",
-    "source-candidates",
+    "create-beautiful-slide-deck",
+    "prepare-for-calls",
     "reach-inbox-zero",
-    "organize-receipts-bookkeeping",
-    "investigate-fix-app-issues"
+    "research-companies-create-decks",
+    "run-competitor-analysis",
+    "set-up-shared-team-workflow",
+    "transcribe-meetings-follow-up"
   ]
 }

@@ -24,13 +24,11 @@
     }
   ],
   "skillIds": [
-    "source-candidates",
+    "personalized-outreach-sequence",
+    "prepare-for-calls",
     "screen-applicants-against-job-description",
-    "extract-screen-cvs",
-    "prepare-interview-brief-candidate",
-    "write-personalised-outreach-messages-candidate-shortlist",
-    "source-passive-candidates-linkedin",
-    "get-alerted-when-new-applications-come",
-    "set-up-shared-team-workflow"
+    "set-up-shared-team-workflow",
+    "source-candidates",
+    "transcribe-meetings-follow-up"
   ]
 }

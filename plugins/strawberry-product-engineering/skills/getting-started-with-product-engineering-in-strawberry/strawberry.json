@@ -18,9 +18,10 @@
     }
   ],
   "skillIds": [
-    "investigate-fix-app-issues",
-    "transcribe-meetings-follow-up",
     "extract-web-data",
-    "research-companies-create-decks"
+    "investigate-fix-app-issues",
+    "research-companies-create-decks",
+    "run-competitor-analysis",
+    "transcribe-meetings-follow-up"
   ]
 }
