@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Build a Client Brief",
+  "summary": "Turn scattered kickoff context into one reliable, client-specific brief.",
+  "icon": "files",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "agency",
+      "weight": 106,
+      "title": "Turn client context into a clear brief",
+      "message": "I want to turn our kickoff documents, scope, emails, and discovery notes into a clear client brief."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 94,
+      "title": "Turn client context into a clear brief",
+      "message": "I want to turn the context for an engagement into a clear, reviewable client brief."
+    }
+  ]
+}

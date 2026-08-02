@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Enrich a lead list with decision-maker contacts",
+  "summary": "Find the right contact at every company on your list.",
+  "icon": "chart",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 76,
+      "title": "Enrich a lead list with decision-maker contacts",
+      "message": "I have a list of companies I'm targeting. Ask me for the company list. You might want to figure out which title makes the best decision-maker based on what you know about my ICP. Then find the right contact at each company and add their name, title, and LinkedIn URL to a Google Sheet or Notion."
+    }
+  ]
+}

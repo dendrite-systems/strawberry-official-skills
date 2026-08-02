@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "agency-work",
+  "title": "Build an agency that wins and delivers without losing context",
+  "description": "Connect client acquisition, research, delivery, reporting, and meetings without rebuilding the process for every account.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Agency work becomes expensive when every proposal, kickoff, deliverable, and report starts from scattered context. Strawberry can gather the slow raw material and preserve the agency’s judgment, voice, and approval points.",
+    "Start with one result the agency already needs, review it with the user, and keep the accepted process. This is a flexible path through common agency work, not a fixed operating model."
+  ],
+  "sections": [
+    {
+      "id": "start-with-one-result",
+      "title": "Start with one result the agency can review",
+      "paragraphs": [
+        "Choose a current prospect, client deliverable, report, or meeting. Learn through a few questions, relevant connected apps, or both. Useful examples may include winning pitches, accepted reports, scopes of work, and prior communication, but none is required.",
+        "Confirm the client or prospect, desired result, owner, destination, presentation style, and approval boundaries. Keep every client’s context separate, then show the intended approach before substantial work begins."
+      ],
+      "skills": []
+    },
+    {
+      "id": "win-the-right-clients",
+      "title": "Win the right clients before scaling acquisition",
+      "paragraphs": [
+        "Strawberry can turn the agency’s fit criteria into a small, reviewable prospect list, explain why each company fits, and prepare outreach in the agency’s accepted voice. A concrete finding about the prospect is usually more useful than a generic capabilities pitch.",
+        "Calibrate one prospect or a small sample before expanding the search. Nothing client-facing is sent without explicit approval."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/sales/source-customers",
+          "roleId": "agency",
+          "context": "Build and calibrate a reviewable shortlist of prospective clients."
+        },
+        {
+          "id": "strawberry/sales/personalized-outreach-sequence",
+          "roleId": "agency",
+          "context": "Draft reviewable outreach grounded in verified relevance and agency voice."
+        }
+      ]
+    },
+    {
+      "id": "turn-client-context-into-work",
+      "title": "Turn client context into strong work",
+      "paragraphs": [
+        "Once a client begins working with the agency, preserve the approved goals, measures, voice, constraints, and source material in a reliable brief.",
+        "Use that context to research competitors, audit a website, or create another client-ready artifact. Review one complete deliverable before repeating the process."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/agency/build-client-brief",
+          "roleId": "agency",
+          "context": "Turn approved kickoff context into a reliable client brief."
+        },
+        {
+          "id": "strawberry/marketing/run-competitor-analysis",
+          "roleId": "agency",
+          "context": "Build a sourced competitor analysis for a client decision."
+        },
+        {
+          "id": "strawberry/marketing/audit-seo-create-report",
+          "roleId": "agency",
+          "context": "Turn an SEO review into a clear, client-ready report."
+        }
+      ]
+    },
+    {
+      "id": "connect-reporting-and-meetings",
+      "title": "Connect reporting, meetings, and follow-up",
+      "paragraphs": [
+        "Prove the reporting flow with one account. Agree on the cadence, comparison period, destination, and level of detail before reusing it across clients.",
+        "Prepare client calls from current account context, then preserve decisions, owners, and follow-up from what was actually said."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/operations/build-client-progress-report-project-tools",
+          "roleId": "agency",
+          "context": "Build a clear account of progress, attention points, and unresolved blockers."
+        },
+        {
+          "id": "strawberry/sales/prepare-for-calls",
+          "roleId": "agency",
+          "context": "Prepare a concise brief for the client conversations that matter."
+        },
+        {
+          "id": "strawberry/operations/transcribe-meetings-follow-up",
+          "roleId": "agency",
+          "context": "Capture decisions and draft reviewable follow-up after the call."
+        }
+      ]
+    },
+    {
+      "id": "make-delivery-repeatable",
+      "title": "Make the accepted process repeatable",
+      "paragraphs": [
+        "When a first run works, preserve its accepted inputs, sources, style, review points, and client restrictions as an agency-owned skill. Reuse the method only after loading the next client’s own context.",
+        "Bring the process to the team by agreeing on owners, destinations, conventions, and approvals. Add a Routine only after repeated review has made the underlying workflow trustworthy."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/operations/set-up-shared-team-workflow",
+          "roleId": "agency",
+          "context": "Turn a trusted individual workflow into a shared agency process."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Find my agency 30 new clients",
+      "description": "Open the focused Official Skill for sourcing prospective clients.",
+      "href": "/prompts/source-customers"
+    },
+    {
+      "title": "Build a client brief",
+      "description": "Open the focused Official Skill for preserving approved client context.",
+      "href": "/prompts/build-client-brief"
+    }
+  ]
+}

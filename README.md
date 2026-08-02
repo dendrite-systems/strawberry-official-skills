@@ -25,22 +25,23 @@ preparation, and follow-up without duplicating the focused instructions.
 ## Repository structure
 
 ```text
-plugins/
-  strawberry-sales/
-    skills/
-      getting-started-with-sales-in-strawberry/
-        SKILL.md
-        strawberry.json
-      source-customers/
-        SKILL.md
-        strawberry.json
+sales/
+  getting-started-with-sales-in-strawberry/
+    SKILL.md
+    strawberry.json
+    article.json
+  source-customers/
+    SKILL.md
+    strawberry.json
 ```
 
 - `SKILL.md` contains the workflow an agent reads.
-- `strawberry.json` contains its stable identity, collection, difficulty, tags, and the
-  role-specific ways the result can be presented.
-- A Getting Started skill has the same two files and references the focused Official Skills it
-  brings together.
+- `strawberry.json` contains compact discovery metadata, tags, and the role-specific ways the
+  result can be presented.
+- `article.json` is optional public editorial content for the Strawberry website.
+- The folder path is the skill's identity. For example, `sales/source-customers` becomes
+  `strawberry/sales/source-customers` inside Strawberry.
+- A Getting Started guide references focused Official Skills directly from its `SKILL.md`.
 
 Focused skills belong to the collection that most clearly owns the result. A Getting Started skill
 can reference skills from other collections. A workflow is duplicated only when its steps, inputs,
@@ -49,7 +50,7 @@ review points, or suggested result genuinely differ.
 ## Use with your agent
 
 These skills use the portable `SKILL.md` format and can work with agent platforms that support
-skills. You can copy one, adapt it, and make the process your own.
+skills. Copy one, adapt it, and make the process your own.
 
 They are especially effective in Strawberry. Most agent platforms are built primarily around
 files; Strawberry is built around tabs. That makes skills involving web research, signed-in tools,

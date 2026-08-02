@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Getting Started as a Founder in Strawberry",
+  "summary": "Get started as a founder in Strawberry with customers, hiring, decisions, or the work slowing your company down.",
+  "icon": "lightbulb",
+  "tags": [
+    "getting-started-guide"
+  ],
+  "useCases": [
+    {
+      "roleId": "founder-executive",
+      "weight": 124,
+      "title": "Getting Started as a Founder in Strawberry",
+      "message": "I want to get started as a founder in Strawberry and find the highest-impact way to move my company forward."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Extract Web Data",
+  "summary": "Research websites and extract repeated structured information into a clean spreadsheet or dataset. Use for company lists, market maps, directories, public records, product comparisons, or other research requiring tens or hundreds of consistent rows.",
+  "icon": "files",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "data-analytics",
+      "weight": 112,
+      "title": "Turn websites into a clean spreadsheet",
+      "message": "I want to extract structured data from websites into a clean spreadsheet."
+    },
+    {
+      "roleId": "research-analysis",
+      "weight": 106,
+      "title": "Collect hundreds of research rows from the web",
+      "message": "I want to collect hundreds of structured research rows from the web."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 96,
+      "title": "Research hundreds of companies into a spreadsheet",
+      "message": "I want to research hundreds of companies into a clean spreadsheet."
+    },
+    {
+      "roleId": "agency",
+      "weight": 92,
+      "title": "Build a clean dataset for my client",
+      "message": "I want to research the web and build a clean dataset for my client."
+    },
+    {
+      "roleId": "other",
+      "weight": 84,
+      "title": "Turn websites into a clean spreadsheet",
+      "message": "I want to extract structured data from websites into a clean spreadsheet."
+    }
+  ]
+}

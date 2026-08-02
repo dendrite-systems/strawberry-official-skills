@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "venture-capital-investing",
+  "title": "Build an investment process with traceable evidence",
+  "description": "Connect market mapping, company research, diligence, investment memos, and buyer analysis.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Investment work becomes reusable when the thesis, decision, evidence standard, and uncertainty are explicit. Strawberry can help source companies, assemble diligence, prepare calls, and keep a living investment record without hiding the evidence behind a score.",
+    "Begin with one bounded artifact rather than an open-ended request to research everything. Learn the firm’s style through a few questions, relevant connected apps, or both, then connect workflows only after the team agrees on what makes the result reviewable."
+  ],
+  "sections": [
+    {
+      "id": "choose-the-decision",
+      "title": "Start with the decision",
+      "paragraphs": [
+        "Clarify whether the work supports sourcing, an investment decision, an acquisition, a market thesis, or a company meeting. The evidence and useful output change with that decision.",
+        "When useful and approved, existing thesis documents, CRM records, pass reasons, prior memos, email, and call notes can reveal the firm’s real criteria and writing style. They are inputs, not prerequisites."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/venture-capital/build-structured-investment-memo-any-company",
+          "roleId": "venture-capital",
+          "context": "Use this when the output is a sourced, reviewable investment memo."
+        },
+        {
+          "id": "strawberry/venture-capital/map-startup-ecosystem",
+          "roleId": "venture-capital",
+          "context": "Use this when the decision depends on understanding companies, investors, and relationships in a market."
+        }
+      ]
+    },
+    {
+      "id": "source-against-the-thesis",
+      "title": "Source companies against the actual thesis",
+      "paragraphs": [
+        "Translate the thesis into practical signals such as stage, geography, check size, sector, business model, team, traction, or a specific change in the market. Start with a varied sample so the investor can correct the interpretation before expanding.",
+        "Search across relevant company, investor, hiring, funding, product, and founder signals. Dedupe against the CRM or existing portfolio when available, show why each company fits, and keep the source evidence visible."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/venture-capital/map-startup-ecosystem",
+          "roleId": "venture-capital",
+          "context": "Map companies, investors, and relationships around an investment thesis."
+        }
+      ]
+    },
+    {
+      "id": "build-a-living-memo",
+      "title": "Build a memo that can absorb new evidence",
+      "paragraphs": [
+        "Use the firm’s accepted underwriting questions and memo style when available. Combine company materials, market evidence, conversations, and diligence while preserving conflicting evidence, quotes, sources, and unresolved questions.",
+        "A strong memo is a living decision record, not a one-time summary. Update it as new calls, documents, and evidence arrive rather than rebuilding the thesis from scratch."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/venture-capital/build-structured-investment-memo-any-company",
+          "roleId": "venture-capital",
+          "context": "Build a sourced investment memo around the firm’s real decision criteria."
+        }
+      ]
+    },
+    {
+      "id": "make-the-evidence-reviewable",
+      "title": "Make the evidence reviewable",
+      "paragraphs": [
+        "Keep source links beside claims, separate confirmed facts from interpretation, and surface evidence that weakens the thesis. Review the structure before expanding the research.",
+        "For diligence, define the claims to test, the acceptable source types, the risk categories, and who owns unresolved questions. For calls, prepare from current relationship and company context, then preserve decisions and follow-up from what was actually said."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/venture-capital/do-due-diligence-vendor-or-supplier",
+          "roleId": "venture-capital",
+          "context": "Use this for a bounded diligence brief with risks and unresolved questions."
+        },
+        {
+          "id": "strawberry/sales/prepare-for-calls",
+          "roleId": "venture-capital",
+          "context": "Prepare a concise, evidence-backed brief for an important company call."
+        },
+        {
+          "id": "strawberry/operations/transcribe-meetings-follow-up",
+          "roleId": "venture-capital",
+          "context": "Preserve decisions, evidence, and next steps after the conversation."
+        }
+      ]
+    },
+    {
+      "id": "make-the-process-repeatable",
+      "title": "Preserve the firm’s accepted process",
+      "paragraphs": [
+        "Once the team accepts the sourcing criteria, memo structure, evidence standard, and review behavior, preserve those choices as firm-specific skills. The official workflows remain starting points rather than a substitute for the firm’s judgment.",
+        "Create monitoring or recurring routines only after a reviewed run has established the scope, meaningful-change rules, destination, and ownership."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/operations/set-up-shared-team-workflow",
+          "roleId": "venture-capital",
+          "context": "Turn an accepted investment workflow into a shared firm process."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to prompt AI as a researcher",
+      "description": "The existing guide to traceable research, synthesis, and useful outputs.",
+      "href": "/blog/how-to-prompt-ai-as-a-researcher"
+    }
+  ]
+}

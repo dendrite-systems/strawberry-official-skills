@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Build a structured investment memo on any company",
+  "summary": "Research a company end to end and get a formatted investment memo ready to share.",
+  "icon": "presentation",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "venture-capital",
+      "weight": 108,
+      "title": "Build a structured investment memo on any company",
+      "message": "Help me build an investment memo. Ask me which company to focus on and the investment context. Then research their product, team, business model, market size, competitors, and recent news. You might want to look for any prior coverage or analyst commentary to add depth. Format the output as a clean investment memo I can share or build on."
+    },
+    {
+      "roleId": "research-analysis",
+      "weight": 76,
+      "title": "Build a structured investment memo on any company",
+      "message": "Help me build an investment memo. Ask me which company to focus on and the investment context. Then research their product, team, business model, market size, competitors, and recent news. You might want to look for any prior coverage or analyst commentary to add depth. Format the output as a clean investment memo I can share or build on."
+    }
+  ]
+}
