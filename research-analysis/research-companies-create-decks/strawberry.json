@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Research Companies and Create Decks",
+  "summary": "Research companies and turn the findings into polished visual slide decks. Use for sales account briefs, consulting research, client pitches, market profiles, or other company research that should end as a beautiful presentation.",
+  "icon": "presentation",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "consultant",
+      "weight": 106,
+      "title": "Research companies and create beautiful slide decks",
+      "message": "I want help researching companies and creating beautiful slide decks."
+    },
+    {
+      "roleId": "sales-business-development",
+      "weight": 94,
+      "title": "Turn account research into beautiful sales decks",
+      "message": "I want to research target accounts and turn the findings into beautiful sales decks."
+    },
+    {
+      "roleId": "agency",
+      "weight": 92,
+      "title": "Research clients and create beautiful pitch decks",
+      "message": "I want to research prospective clients and create beautiful pitch decks."
+    },
+    {
+      "roleId": "research-analysis",
+      "weight": 84,
+      "title": "Turn company research into beautiful slide decks",
+      "message": "I want to turn company research into beautiful slide decks."
+    },
+    {
+      "roleId": "other",
+      "weight": 82,
+      "title": "Research companies and create beautiful slide decks",
+      "message": "I want help researching companies and creating beautiful slide decks."
+    }
+  ]
+}

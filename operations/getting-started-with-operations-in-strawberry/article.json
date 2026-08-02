@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "operations",
+  "title": "How operations teams use Strawberry to get more done",
+  "description": "Turn recurring work across inboxes, admin tools, meetings, and documents into reliable processes.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Operations teams are the glue between people, systems, and decisions. That often means keeping fourteen tabs open, moving information between tools, and spending the day on urgent coordination while strategic work gets whatever time is left.",
+    "Strawberry can take on the repetitive parts without hiding consequential changes. Start with one recurring burden, complete it safely, and keep the process once it works."
+  ],
+  "sections": [
+    {
+      "id": "choose-a-repeatable-job",
+      "title": "Choose a repeatable job with a clear finish",
+      "paragraphs": [
+        "Start with a task that happens often and has a visible result: an organized inbox, a resolved support queue, a completed onboarding checklist, or meeting follow-ups in the right system.",
+        "A morning brief is a useful first example: combine approved email, calendar, Slack, and task context into urgent messages, work due today, external-attendee research, and a concise source-linked plan."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/operations/reach-inbox-zero",
+          "roleId": "operations-chief-of-staff",
+          "context": "Use this to create a repeatable way to process the inbox."
+        },
+        {
+          "id": "strawberry/operations/automate-customer-support",
+          "roleId": "operations-chief-of-staff",
+          "context": "Use this to remove repetitive support work while preserving judgment."
+        }
+      ]
+    },
+    {
+      "id": "compile-and-chase",
+      "title": "Compile reports and close follow-up gaps",
+      "paragraphs": [
+        "Recurring reports often require several systems. Gather independent sources in parallel where safe, reconcile duplicates and conflicts, and deliver the accepted structure to the team’s chosen Sheet, Notion page, document, or communication destination.",
+        "Follow-up work can compare meetings with sent communication, identify unresolved commitments, and draft the next message with the relevant context. The user reviews communication before it is sent.",
+        "Prove the report with one real run before turning it into a recurring job. Keep source links and unresolved discrepancies visible so the team can audit what changed."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/operations/transcribe-meetings-follow-up",
+          "roleId": "operations-chief-of-staff",
+          "context": "Turn meetings into decisions, owners, and reviewable follow-up."
+        }
+      ]
+    },
+    {
+      "id": "research-practical-logistics",
+      "title": "Research the practical details",
+      "paragraphs": [
+        "For trips, events, or vendor planning, compare dates, costs, locations, relevance, flights, accommodation, distances, and practical logistics. Keep live prices, source links, and uncertainty visible rather than presenting options as confirmed bookings."
+      ],
+      "skills": []
+    },
+    {
+      "id": "preserve-control",
+      "title": "Automate the repetition, preserve control",
+      "paragraphs": [
+        "Let Strawberry prepare, organize, and propose actions. Keep approvals around sensitive communication, access changes, and irreversible updates until the process is trusted.",
+        "Once a result is accepted, preserve the team’s sources, report structure, destinations, ownership, and review rules. Create a Routine only after a successful reviewed run."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/recruiting/onboard-offboard-teammates",
+          "roleId": "operations-chief-of-staff",
+          "context": "Use this for repeatable team access and handoff checklists."
+        },
+        {
+          "id": "strawberry/operations/set-up-shared-team-workflow",
+          "roleId": "operations-chief-of-staff",
+          "context": "Turn an accepted operational process into a shared team workflow."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to prompt AI for operations",
+      "description": "The existing article on recurring administrative and operational workflows.",
+      "href": "/blog/how-to-prompt-ai-for-operations"
+    },
+    {
+      "title": "Onboard and offboard teammates",
+      "description": "Open the focused Official Skill for repeatable access and handoff work.",
+      "href": "/prompts/onboard-offboard-teammates"
+    }
+  ]
+}

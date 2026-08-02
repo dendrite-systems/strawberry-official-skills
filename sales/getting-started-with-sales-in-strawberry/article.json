@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "automate-sales-pipeline",
+  "title": "How to build an automated sales pipeline with Strawberry",
+  "description": "Take repetitive sales admin off your team’s plate across prospecting, research, outreach, meeting follow-up, and CRM upkeep.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Salespeople should spend their time talking to the right customers, not copying context between prospect lists, LinkedIn, company websites, calendars, email, meeting notes, and the CRM. Strawberry can research, draft, update, and follow up across the browser while the team keeps control of what gets used or sent.",
+    "Start with the bottleneck costing the team time now, prove one useful workflow, then connect the parts that fit how the team actually sells. This is a practical path to an automated pipeline, not a fixed sales methodology."
+  ],
+  "sections": [
+    {
+      "id": "set-up-strawberry-around-how-the-team-sells",
+      "title": "Start with the work stealing time from sellers",
+      "paragraphs": [
+        "Do not rebuild the entire sales organization at once. Begin with a candid conversation about the result that would be most useful now: more qualified prospects, better account research, outreach that sounds human, faster call preparation, reliable follow-up, or a CRM the team can trust.",
+        "Offer to learn through a few questions, inspect approved context, or combine both. Useful context may live on the company website or in product documents, the CRM, email, Slack, meetings, and prior sales work. Learn the team’s customer criteria, exclusions, preferred fields, writing style, destinations, and approval boundaries. Before substantial work, summarize the intended result and approach in a concise plan for confirmation."
+      ],
+      "skills": []
+    },
+    {
+      "id": "find-and-qualify-the-right-prospects",
+      "title": "Find and qualify the right prospects",
+      "paragraphs": [
+        "Strawberry can turn a description of the target customer into a reviewable list with evidence for why each prospect fits. Begin with a small sample so the user can correct the criteria before the search scales.",
+        "If the team already has a list, Strawberry can add verified decision-makers and the fields needed for qualification or outreach."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/sales/source-customers",
+          "roleId": "sales-business-development",
+          "context": "Use this to define the target customer, calibrate a small sample, and build a qualified prospect list."
+        },
+        {
+          "id": "strawberry/sales/enrich-lead-list",
+          "roleId": "sales-business-development",
+          "context": "Use this when the target companies are already known and the team needs verified contacts or qualification fields."
+        }
+      ]
+    },
+    {
+      "id": "research-accounts-and-prepare-useful-material",
+      "title": "Research accounts and prepare useful material",
+      "paragraphs": [
+        "Strawberry can research a company before an important interaction, preserving source links and separating facts from inference.",
+        "Use a concise account brief when the goal is preparing for a conversation. When the research needs to be shared or presented, turn the same evidence into a visual deck."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/sales/research-prospect-before-meeting",
+          "roleId": "sales-business-development",
+          "context": "Build a concise, sourced account and relationship brief before an important meeting."
+        },
+        {
+          "id": "strawberry/research-analysis/research-companies-create-decks",
+          "roleId": "sales-business-development",
+          "context": "Turn company research into a polished visual deck when that is the useful outcome."
+        }
+      ]
+    },
+    {
+      "id": "write-outreach-that-sounds-like-the-team",
+      "title": "Write outreach that sounds like the team",
+      "paragraphs": [
+        "Good outreach depends on verified relevance and the team’s own voice. Strawberry can learn from approved examples, draft a small sequence, and let the user review it before anything is sent."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/sales/personalized-outreach-sequence",
+          "roleId": "sales-business-development",
+          "context": "Calibrate a useful outreach sequence against approved writing examples."
+        }
+      ]
+    },
+    {
+      "id": "connect-calls-notes-and-follow-up",
+      "title": "Connect calls, notes, and follow-up",
+      "paragraphs": [
+        "Strawberry is useful throughout the meeting cycle. It can prepare concise briefs for today’s calls, transcribe meetings in any language, preserve objections and decisions, and draft the next actions."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/sales/prepare-for-calls",
+          "roleId": "sales-business-development",
+          "context": "Prepare concise, useful context for the calls that matter today."
+        },
+        {
+          "id": "strawberry/operations/transcribe-meetings-follow-up",
+          "roleId": "sales-business-development",
+          "context": "Preserve decisions, objections, and follow-up after the conversation."
+        }
+      ]
+    },
+    {
+      "id": "keep-the-crm-and-team-in-sync",
+      "title": "Keep the CRM and team in sync",
+      "paragraphs": [
+        "Once the team trusts the captured information, Strawberry can map approved interactions and changes into the CRM.",
+        "When the process should be shared, agree on common fields, owners, destinations, and approvals so accepted context and judgment carry across the team."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/sales/keep-crm-updated",
+          "roleId": "sales-business-development",
+          "context": "Map approved interactions and field changes into the team’s CRM."
+        },
+        {
+          "id": "strawberry/operations/set-up-shared-team-workflow",
+          "roleId": "sales-business-development",
+          "context": "Turn a trusted individual workflow into a shared team process."
+        }
+      ]
+    },
+    {
+      "id": "make-the-process-yours",
+      "title": "Make the process yours",
+      "paragraphs": [
+        "Review the first real result before scaling it. Preserve the accepted criteria, fields, voice, destinations, review points, and exceptions as a user-owned skill.",
+        "Official Skills are starting points. Once the team has a tailored process, that process should become the durable way the work is done. Add a Routine only after the underlying workflow is trusted."
+      ],
+      "skills": []
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to prompt AI as a sales rep",
+      "description": "The existing in-depth article on lead generation, account research, outreach, and CRM hygiene.",
+      "href": "/blog/how-to-prompt-ai-as-a-sales-rep"
+    },
+    {
+      "title": "Find me 30 new leads",
+      "description": "Open the focused Official Skill for building a qualified prospect list.",
+      "href": "/prompts/source-customers"
+    }
+  ],
+  "navigation": {
+    "title": "Sales",
+    "tagline": "Prospecting, research, calls, and CRM",
+    "icons": [
+      "linkedin",
+      "salesforce",
+      "gmail",
+      "apollo"
+    ],
+    "order": 1
+  }
+}

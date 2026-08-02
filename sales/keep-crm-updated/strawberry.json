@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Keep my CRM updated from my emails",
+  "summary": "Keep your CRM in sync without logging anything manually.",
+  "icon": "inbox",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 76,
+      "title": "Keep my CRM updated from my emails",
+      "message": "Help me keep my CRM up to date without manual logging. If you don't already know, ask me which CRM I use and which email account to monitor. Then set up a Routine to monitor my emails and update the records automatically."
+    }
+  ]
+}

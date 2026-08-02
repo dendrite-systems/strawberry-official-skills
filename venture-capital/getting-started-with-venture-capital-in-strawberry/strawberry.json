@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Getting Started with Venture Capital in Strawberry",
+  "summary": "Get started with investing in Strawberry through company research, market maps, diligence, and investment memos.",
+  "icon": "chart",
+  "tags": [
+    "getting-started-guide"
+  ],
+  "useCases": [
+    {
+      "roleId": "venture-capital",
+      "weight": 120,
+      "title": "Getting Started with Venture Capital in Strawberry",
+      "message": "I want to get started with venture capital in Strawberry and improve how I research companies and make investment decisions."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 70,
+      "title": "Getting Started with Venture Capital in Strawberry",
+      "message": "I want to get started with venture capital in Strawberry for company, investor, and market research."
+    }
+  ]
+}

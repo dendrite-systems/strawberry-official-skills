@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Reach Inbox Zero",
+  "summary": "Organize an email inbox and establish a reliable path to inbox zero. Use when the user wants messages categorized, prioritized, summarized, drafted, archived, or turned into follow-up work while preserving their judgment and writing style.",
+  "icon": "inbox",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 102,
+      "title": "Organize my inbox and keep it at zero",
+      "message": "I want to organize my inbox and build a reliable way to keep it at zero."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 94,
+      "title": "Organize my inbox and keep it at zero",
+      "message": "I want to organize my inbox and build a reliable way to keep it at zero."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 80,
+      "title": "Keep my client inbox under control",
+      "message": "I want to organize my client inbox and keep it under control."
+    },
+    {
+      "roleId": "other",
+      "weight": 86,
+      "title": "Organize my inbox and keep it at zero",
+      "message": "I want to organize my inbox and build a reliable way to keep it at zero."
+    }
+  ]
+}

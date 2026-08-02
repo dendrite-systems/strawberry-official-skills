@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Getting Started with Research and Analysis in Strawberry",
+  "summary": "Get started with research in Strawberry by gathering evidence, building datasets, and explaining findings.",
+  "icon": "books",
+  "tags": [
+    "getting-started-guide"
+  ],
+  "useCases": [
+    {
+      "roleId": "research-analysis",
+      "weight": 120,
+      "title": "Getting Started with Research and Analysis in Strawberry",
+      "message": "I want to get started with research in Strawberry and build a repeatable workflow."
+    },
+    {
+      "roleId": "data-analytics",
+      "weight": 92,
+      "title": "Getting Started with Research and Analysis in Strawberry",
+      "message": "I want to get started with analysis in Strawberry and build a repeatable workflow."
+    }
+  ]
+}

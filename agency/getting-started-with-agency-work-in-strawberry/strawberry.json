@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Getting Started with Agency Work in Strawberry",
+  "summary": "Get started with agency work in Strawberry through winning clients, onboarding, delivery, reporting, and calls.",
+  "icon": "presentation",
+  "tags": [
+    "getting-started-guide"
+  ],
+  "useCases": [
+    {
+      "roleId": "agency",
+      "weight": 124,
+      "title": "Getting Started with Agency Work in Strawberry",
+      "message": "I want to get started with agency work in Strawberry, win clients, and make delivery more repeatable."
+    }
+  ]
+}

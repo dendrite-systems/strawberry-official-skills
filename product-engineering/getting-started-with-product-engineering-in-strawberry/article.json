@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "product-engineering",
+  "title": "Turn product signals into work the team can act on",
+  "description": "Connect customer evidence, technical investigation, data extraction, and clear artifacts.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Product and engineering work often starts with scattered evidence: customer calls, issue trackers, repositories, logs, analytics, and pages inside internal tools. Strawberry can connect that evidence to a bounded investigation or artifact without asking the team to copy everything into a separate chat.",
+    "Start with the bottleneck hurting users or slowing the team. Learn through a few questions, relevant connected apps, or both, show the intended approach, and keep code or production changes reviewable."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-signal",
+      "title": "Start with the signal hurting users",
+      "paragraphs": [
+        "Collect the evidence around one problem from approved feedback, support conversations, issue trackers, logs, analytics, or recent changes. Distinguish confirmed symptoms from likely causes and search for related or duplicate reports.",
+        "Agree on the next bounded investigation and explain the plan before changing code or production systems. A useful first result may be a reproduction, a concise diagnosis, a prioritized issue, or a draft fix the team can review."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/product-engineering/investigate-fix-app-issues",
+          "roleId": "engineering-development",
+          "context": "Use this to investigate product and application problems with evidence."
+        }
+      ]
+    },
+    {
+      "id": "build-a-data-advantage",
+      "title": "Turn useful web data into a product asset",
+      "paragraphs": [
+        "When the product depends on public or approved web data, define the source, entities, fields, row target, depth, and destination before scaling. Start with a representative sample of 10–20 rows so the team can correct the schema and evidence standard.",
+        "Prefer stable structured data when available, preserve source links, and make missing or low-confidence values visible. Handle pagination and detail pages with the simplest reliable approach, then validate duplicates, formats, and completeness before delivery."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/research-analysis/extract-web-data",
+          "roleId": "engineering-development",
+          "context": "Build a clean, source-linked dataset from approved web sources."
+        }
+      ]
+    },
+    {
+      "id": "make-the-evidence-usable",
+      "title": "Turn customer evidence into product direction",
+      "paragraphs": [
+        "Customer calls, support conversations, and issue histories can be turned into a structured view of recurring needs, friction, and unresolved questions. Keep the underlying evidence attached so the team can inspect how a theme was formed.",
+        "Competitive research can add product, pricing, positioning, release, job, review, and sentiment evidence. Separate observed facts from interpretation and focus the result on a real product decision."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/operations/transcribe-meetings-follow-up",
+          "roleId": "engineering-development",
+          "context": "Use this to turn customer conversations into product insight."
+        },
+        {
+          "id": "strawberry/marketing/run-competitor-analysis",
+          "roleId": "engineering-development",
+          "context": "Build a sourced comparison around a real product or positioning decision."
+        }
+      ]
+    },
+    {
+      "id": "make-the-process-repeatable",
+      "title": "Keep useful investigations repeatable",
+      "paragraphs": [
+        "Preserve the accepted evidence sources, severity rules, schema, output, and review points as a team-specific skill. For repositories or CI, keep proposed changes in reviewable branches or drafts and run the project’s own validation before presenting them.",
+        "Create a Routine only after a successful reviewed run, with an agreed scope, frequency, meaningful-change rule, cost, and notification destination."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/operations/set-up-shared-team-workflow",
+          "roleId": "engineering-development",
+          "context": "Turn an accepted product or engineering workflow into a shared process."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Extract structured web data",
+      "description": "Open the focused Official Skill for collecting clean, reviewable rows.",
+      "href": "/prompts/extract-web-data"
+    }
+  ],
+  "navigation": {
+    "title": "Web Data Extraction",
+    "tagline": "Pricing and listing data",
+    "icons": [
+      "crunchbase",
+      "google-maps",
+      "yelp",
+      "zillow"
+    ],
+    "order": 5
+  }
+}

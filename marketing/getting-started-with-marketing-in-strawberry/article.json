@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "marketing",
+  "title": "Move from research to finished marketing work",
+  "description": "Connect market research, campaign inputs, visual production, and repeatable publishing work.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Marketing work becomes more useful when market evidence, brand context, production, and performance stay connected. Strawberry can research across the browser, prepare finished artifacts, and keep the accepted process without flattening the team’s judgment or voice.",
+    "Begin with one result whose quality the team can review. Learn through a few questions, relevant connected apps, or both, then preserve the accepted audience, sources, voice, format, and review behavior."
+  ],
+  "sections": [
+    {
+      "id": "set-up-the-context",
+      "title": "Start with the audience, voice, and result",
+      "paragraphs": [
+        "Clarify the business, audience, channel, and result before producing content. Existing website copy, approved campaigns, brand documents, social posts, and competitor examples can help when available, but they are not prerequisites.",
+        "Strawberry can learn the team’s writing style from concrete approved examples or start with a small draft and use feedback to calibrate. Before substantial work, confirm a concise plan and how success will be judged."
+      ],
+      "skills": []
+    },
+    {
+      "id": "learn-the-market",
+      "title": "Learn the market before making the artifact",
+      "paragraphs": [
+        "Analyse competitor websites and approved social profiles for positioning, offers, formats, engagement, and the content receiving traction. Social listening across relevant feeds, comments, topics, and communities should produce actionable themes with real source links.",
+        "Separate observed performance from hypotheses about why something worked, then adapt useful patterns in the user’s brand voice rather than copying competitor content."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/marketing/audit-seo-create-report",
+          "roleId": "marketing-content",
+          "context": "Use this when the result should be a prioritized SEO report."
+        },
+        {
+          "id": "strawberry/research-analysis/create-beautiful-slide-deck",
+          "roleId": "marketing-content",
+          "context": "Use this when the result should be a polished visual artifact."
+        },
+        {
+          "id": "strawberry/marketing/run-competitor-analysis",
+          "roleId": "marketing-content",
+          "context": "Compare competitors using traceable market and content evidence."
+        }
+      ]
+    },
+    {
+      "id": "listen-for-real-signals",
+      "title": "Listen for the questions and language customers use",
+      "paragraphs": [
+        "Useful social listening looks beyond follower counts. Search relevant feeds, comments, reviews, communities, and support patterns for repeated questions, complaints, excitement, and language the market actually uses.",
+        "Return themes with source links and explain which observations are evidence versus interpretation. The goal is a set of useful decisions or experiments, not a pile of mentions."
+      ],
+      "skills": []
+    },
+    {
+      "id": "find-the-right-creators",
+      "title": "Find creators from their actual work",
+      "paragraphs": [
+        "Shortlist creators by niche alignment, engagement quality, audience overlap, and their actual recent content. Suggested outreach angles should reference verified work rather than generic praise, and messages remain drafts until approved."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/sales/personalized-outreach-sequence",
+          "roleId": "marketing-content",
+          "context": "Draft reviewable creator or partner outreach grounded in verified work."
+        }
+      ]
+    },
+    {
+      "id": "connect-performance-to-next-actions",
+      "title": "Connect performance to the next action",
+      "paragraphs": [
+        "Compile approved metrics from several platforms while labeling platform-specific measures clearly. Deliver the accepted report to the team’s Sheet, Notion page, document, or communication destination with source links, limitations, and prioritized experiments."
+      ],
+      "skills": []
+    },
+    {
+      "id": "reuse-the-accepted-pattern",
+      "title": "Reuse the accepted pattern",
+      "paragraphs": [
+        "Once the team accepts the research depth, voice, audience, report structure, visual direction, and approval behavior, preserve those choices as a reusable skill rather than recreating the brief for every campaign.",
+        "Introduce recurring monitoring only after one reviewed run has proved the underlying sources, meaningful-change rules, destination, and notification behavior."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/operations/set-up-shared-team-workflow",
+          "roleId": "marketing-content",
+          "context": "Turn an accepted marketing workflow into a shared team process."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to prompt AI as a marketer",
+      "description": "The existing article on campaign research, content, and analysis.",
+      "href": "/blog/how-to-prompt-ai-as-a-marketer"
+    },
+    {
+      "title": "Build a 90-day content calendar",
+      "description": "Open a focused Official Skill for a repeatable content plan.",
+      "href": "/prompts/build-90-day-content-calendar"
+    }
+  ],
+  "navigation": {
+    "title": "Social Listening",
+    "tagline": "Reddit, X, and review sites",
+    "icons": [
+      "reddit",
+      "x",
+      "g2",
+      "youtube"
+    ],
+    "order": 4
+  }
+}

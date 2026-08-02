@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Onboard and Offboard Teammates",
+  "summary": "Make teammate onboarding or offboarding reliable across documents, accounts, permissions, introductions, and follow-up. Use when a user wants a repeatable checklist or coordinated workflow for people joining, changing roles, or leaving.",
+  "icon": "people",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 96,
+      "title": "Onboard and offboard teammates reliably",
+      "message": "I want to make teammate onboarding and offboarding reliable and much less manual."
+    },
+    {
+      "roleId": "recruiting-people",
+      "weight": 98,
+      "title": "Give every new teammate a great first week",
+      "message": "I want to give every new teammate a reliable and personalized first week."
+    }
+  ]
+}

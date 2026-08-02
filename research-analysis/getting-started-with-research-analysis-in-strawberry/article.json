@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "research-analysis",
+  "title": "Turn open-ended research into a decision-ready artifact",
+  "description": "Define the question, collect traceable evidence, and shape the result for the decision it supports.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Good research is not the largest pile of sources. It is a traceable answer built for a specific decision and delivered in a usable form.",
+    "Start with the decision, evidence standard, and output rather than an open-ended request to research everything. Strawberry can search broadly, investigate independent areas in parallel, and shape the evidence into a brief, table, or deck the audience can actually use."
+  ],
+  "sections": [
+    {
+      "id": "define-the-decision",
+      "title": "Define the decision before collecting",
+      "paragraphs": [
+        "Clarify what the research should change, what evidence is acceptable, which source types matter, and what uncertainty must remain visible in the result. Competitive analysis, a company deep dive, ongoing tracking, and academic or technical research need different scopes and artifacts.",
+        "Search broadly before going deep, prefer primary sources, and preserve URLs and relevant dates. Compare claims across sources and expose contradictions or missing evidence rather than smoothing them over."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/research-analysis/extract-web-data",
+          "roleId": "research-analysis",
+          "context": "Use this when the result needs structured rows from multiple sources."
+        },
+        {
+          "id": "strawberry/research-analysis/research-companies-create-decks",
+          "roleId": "research-analysis",
+          "context": "Use this when the research needs a concise visual narrative."
+        }
+      ]
+    },
+    {
+      "id": "map-a-market",
+      "title": "Map a market before drawing conclusions",
+      "paragraphs": [
+        "For competitive analysis, first understand the user’s own product and confirm the relevant comparison set. Research product, pricing, positioning, recent news, traction, hiring signals, reviews, funding, and other evidence appropriate to the decision.",
+        "Use recent source-linked evidence and distinguish direct observations from inferred implications. A useful comparison explains why a pattern matters instead of merely filling a feature matrix."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/marketing/run-competitor-analysis",
+          "roleId": "research-analysis",
+          "context": "Build a sourced comparison around a specific decision."
+        },
+        {
+          "id": "strawberry/venture-capital/map-key-players-industry-or-ecosystem",
+          "roleId": "research-analysis",
+          "context": "Map the companies, people, and relationships shaping an ecosystem."
+        }
+      ]
+    },
+    {
+      "id": "go-deep-on-a-company",
+      "title": "Go deep when one company matters",
+      "paragraphs": [
+        "A company deep dive can connect team, funding, product, positioning, market evidence, sentiment, traction, and contact context. Decide which dimensions matter before collecting them, then keep dates and source links beside material claims.",
+        "When the result needs to be communicated, turn the reviewed evidence into a concise visual narrative rather than an undigested source dump."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/research-analysis/research-companies-create-decks",
+          "roleId": "research-analysis",
+          "context": "Research a company and turn the evidence into a clear visual brief."
+        }
+      ]
+    },
+    {
+      "id": "shape-the-artifact",
+      "title": "Shape the artifact for the audience",
+      "paragraphs": [
+        "A spreadsheet, brief, or deck should make the evidence easier to inspect. Preserve source links, distinguish confirmed facts from interpretation, and explain patterns for the decision rather than returning an undigested list of links.",
+        "Once the audience accepts the research depth, source standard, structure, and format, preserve those choices for the next run. For recurring tracking, agree on what counts as a meaningful change before creating a Routine."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/research-analysis/create-beautiful-slide-deck",
+          "roleId": "research-analysis",
+          "context": "Use this to turn reviewed findings into a polished presentation."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to prompt AI as a researcher",
+      "description": "The existing article on evidence, synthesis, and research outputs.",
+      "href": "/blog/how-to-prompt-ai-as-a-researcher"
+    },
+    {
+      "title": "Extract structured web data",
+      "description": "Open the focused Official Skill for traceable research inputs.",
+      "href": "/prompts/extract-web-data"
+    },
+    {
+      "title": "How to prompt AI for web scraping",
+      "description": "The existing article on extracting structured evidence from websites.",
+      "href": "/blog/how-to-prompt-ai-for-web-scraping"
+    }
+  ],
+  "navigation": {
+    "title": "Market Research",
+    "tagline": "Crunchbase, Statista, and G2",
+    "icons": [
+      "crunchbase",
+      "statista",
+      "g2",
+      "linkedin"
+    ],
+    "order": 0
+  }
+}
