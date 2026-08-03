@@ -44,8 +44,11 @@ at high volume, even a small error rate can produce thousands of bad records.
    and flag low-confidence or unusual values instead of silently presenting them.
 7. Do not invent values to make the dataset look complete. Slow down when a source rate-limits or
    blocks access, and hand CAPTCHA, 2FA, or authentication walls back to the user.
-8. Export to the requested spreadsheet, database, or connected tool. For spreadsheet output, use
-   `strawberry/general/spreadsheets` to create, validate, and push the workbook.
+8. Export to the requested spreadsheet, database, or connected tool. Inside Strawberry, use the
+   internal `strawberry/general/spreadsheets` skill installed by the Strawberry harness to create,
+   validate, and push a workbook; it is not part of this public repository. Outside Strawberry,
+   use the environment's spreadsheet tooling and preserve the same schema, validation, and review
+   steps.
 
 ## Suggested outcome
 

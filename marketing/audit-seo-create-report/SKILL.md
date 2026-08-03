@@ -41,8 +41,10 @@ sources, scope, comparison set, and intended output before doing substantial wor
 7. For comparisons across periods or tools, align date ranges and definitions before drawing
    conclusions.
 8. Present the few changes that matter in plain language rather than as a metric dump. For a
-   client-facing visual report, use `strawberry/general/visual-artifact`, follow the available brand, and
-   include useful screenshots or other visual evidence.
+   client-facing visual report inside Strawberry, use the internal
+   `strawberry/general/visual-artifact` skill installed by the Strawberry harness; it is not part of
+   this public repository. Outside Strawberry, use the environment's presentation tooling. Follow
+   the available brand and include useful screenshots or other visual evidence in either case.
 
 ## Suggested outcome
 

@@ -53,8 +53,10 @@ long research run.
 
 ## Create the deck
 
-Read and use `strawberry/general/visual-artifact` to create the presentation. Follow its styling,
-brand-evidence, critique, and export workflow rather than inventing a generic deck.
+Inside Strawberry, read and use the internal `strawberry/general/visual-artifact` skill installed by
+the Strawberry harness to create the presentation; it is not part of this public repository.
+Outside Strawberry, use the environment's presentation tooling. In either case, preserve the
+styling, brand-evidence, critique, and export review rather than inventing a generic deck.
 
 Build a clear sequence in which each slide has one job. Put the finding or decision-relevant insight
 first, support it with verifiable evidence, and keep sources traceable. Use approved brand sources
