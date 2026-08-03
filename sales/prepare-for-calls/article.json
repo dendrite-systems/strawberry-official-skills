@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-for-meeting-prep",
+  "title": "Prepare for meetings from the context you already have",
+  "description": "Turn calendar, relationship, company, and recent activity into a concise brief for the conversation ahead.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-06-04T08:02:52.087Z",
+  "noindex": false,
+  "introduction": [
+    "Good meeting preparation is not a biography of every attendee. It is the small amount of current context that helps you understand the relationship, make a decision, ask better questions, and leave with a clear next step.",
+    "Strawberry can connect an approved calendar event with relevant email, CRM or ATS history, prior notes, company context, and current public evidence. The result should be brief enough to scan in a few minutes and specific to the conversation ahead."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-meeting-outcome",
+      "title": "Start with the meeting outcome",
+      "paragraphs": [
+        "Confirm which meeting matters, why it is happening, what the user needs to stay on top of, and what a useful outcome would be. A sales discovery call, candidate interview, client review, board meeting, and partnership conversation need different preparation.",
+        "Ask how the user already prepares. If they have no preferred format, propose a concise brief and refine it from feedback rather than producing a long generic report."
+      ],
+      "skills": []
+    },
+    {
+      "id": "gather-only-relevant-context",
+      "title": "Gather only relevant, approved context",
+      "paragraphs": [
+        "Useful context may include the event and participants, recent conversations, relationship history, open tasks, CRM or ATS stage, company news, current work, and likely concerns. Not every source is required, and the user should not need to repeat information that is already available and approved.",
+        "Match the correct person and organization to the meeting. Separate verified facts from assumptions, preserve useful links, and surface contradictions or important gaps instead of filling them with guesses."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/sales/prepare-for-calls",
+          "roleId": "other",
+          "context": "Use this to assemble a concise, evidence-backed brief for the meeting."
+        }
+      ]
+    },
+    {
+      "id": "make-the-brief-actionable",
+      "title": "Make the brief actionable",
+      "paragraphs": [
+        "Prioritize the few developments, concerns, questions, and talking points most likely to affect the outcome. A practical brief usually includes participants, relationship context, the purpose of the call, recent developments, open threads, recommended questions, and a desired outcome.",
+        "Present the information in scan order, keep uncertainty visible, and adjust the depth after the user reviews a real brief. Once the format works, preserve the accepted sources, priorities, and structure as a custom skill."
+      ],
+      "skills": []
+    },
+    {
+      "id": "connect-preparation-to-follow-up",
+      "title": "Connect preparation to what happens afterward",
+      "paragraphs": [
+        "After the meeting, turn what was actually said into decisions, open questions, action items, and a grounded follow-up draft. Keep messages and external updates reviewable until the user approves them.",
+        "When the workflow is trusted, meeting preparation can be collected into a morning briefing or prepared at an agreed cadence without changing the evidence and approval standards."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/operations/transcribe-meetings-follow-up",
+          "roleId": "other",
+          "context": "Use this to preserve decisions, actions, and follow-up after the meeting."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to build an automated sales pipeline",
+      "description": "Connect preparation with prospecting, outreach, follow-up, and CRM upkeep.",
+      "href": "/playbooks/automate-sales-pipeline"
+    }
+  ]
+}

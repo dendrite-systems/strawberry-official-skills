@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "strawberry-for-teams",
+  "title": "Turn a workflow that works into a shared team process",
+  "description": "Preserve useful context, ownership, review points, and privacy boundaries so teammates can repeat an accepted workflow.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-06-17T20:19:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "A shared AI workflow is useful when teammates can repeat the result without guessing which context, destination, or approval rule another person intended. Sharing everything is not the goal. Preserving the accepted parts of one working process is.",
+    "Strawberry can keep team guidance, shared artifacts, ownership, and recurring work together while personal or client-confidential context stays within its approved boundary. Start with one proven workflow and verify one real handoff."
+  ],
+  "sections": [
+    {
+      "id": "start-with-one-proven-workflow",
+      "title": "Start with one proven workflow",
+      "paragraphs": [
+        "Choose a process that already creates a useful result for one person. Clarify its inputs, owners, destination, field meanings, review points, exceptions, and what a successful handoff means before trying to standardize it.",
+        "Use an existing example or template when one is available. The aim is to preserve the team's judgment, not replace it with a generic process document."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/operations/set-up-shared-team-workflow",
+          "roleId": "operations-chief-of-staff",
+          "context": "Use this to map an accepted workflow into a clear shared process."
+        }
+      ]
+    },
+    {
+      "id": "share-the-right-context",
+      "title": "Share the right context, not every context",
+      "paragraphs": [
+        "Put reusable guidance and approved shared artifacts in the team workspace. Keep personal, client-confidential, and unapproved material out, and keep different clients' data separated.",
+        "A shared skill can preserve the team's sources, structure, writing conventions, and review rules. Shared memory should hold durable context that is genuinely useful across the team rather than becoming a dump of every conversation."
+      ],
+      "skills": []
+    },
+    {
+      "id": "make-handoffs-visible",
+      "title": "Make ownership and handoffs visible",
+      "paragraphs": [
+        "Map approved inputs to a reviewable output, keep source links where they matter, and make responsibility and approval boundaries explicit. Pilot the process with the people who own the work and verify permissions, field meanings, handoffs, and review behavior.",
+        "Ask before sending sensitive communication, changing access, or making irreversible updates. A shared process should make control clearer, not bury it."
+      ],
+      "skills": []
+    },
+    {
+      "id": "add-recurrence-only-when-ready",
+      "title": "Add recurrence only when the team trusts the process",
+      "paragraphs": [
+        "Preserve the accepted process as a team-visible custom skill after the first handoff works. Add a Routine only when the team explicitly wants recurring execution and has agreed on ownership, review, exceptions, and notification behavior.",
+        "When the workflow is part of joining or leaving the team, connect it to a reviewed onboarding or offboarding checklist so access and responsibilities do not drift."
+      ],
+      "skills": [
+        {
+          "id": "strawberry/recruiting/onboard-offboard-teammates",
+          "roleId": "operations-chief-of-staff",
+          "context": "Use this when the shared workflow belongs in teammate onboarding or offboarding."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How operations teams use Strawberry",
+      "description": "Choose a recurring process and turn it into reliable operational work.",
+      "href": "/playbooks/operations"
+    }
+  ]
+}
