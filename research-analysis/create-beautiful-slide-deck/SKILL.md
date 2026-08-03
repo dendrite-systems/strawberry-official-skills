@@ -33,8 +33,10 @@ and visual direction so the user can correct the approach before the full deck i
 
 ## Execution
 
-1. Read and use `strawberry/general/visual-artifact` for the actual deck creation, critique, and export
-   workflow.
+1. Inside Strawberry, read and use the internal `strawberry/general/visual-artifact` skill installed
+   by the Strawberry harness for deck creation, critique, and export; it is not part of this public
+   repository. Outside Strawberry, use the environment's presentation tooling and preserve the
+   same narrative, visual critique, and export review.
 2. Build around the user's specifics and source material. Remove information that does not serve
    the audience, and do not invent claims, results, familiarity, or evidence.
 3. For decision, pitch, or report decks, lead with the conclusion or finding, then show the
