@@ -1,110 +1,110 @@
 ---
 name: getting-started-with-sales-in-strawberry
-description: Best practices for anyone getting started with sales in Strawberry. Use when helping a user choose, set up, or expand prospecting, research, outreach, meetings, CRM, or shared sales workflows.
+description: Help someone get started with Sales in Strawberry. Show what's possible, recommend a useful first task, and help them build toward a connected sales setup over time.
 ---
 
-# Getting Started with Sales in Strawberry
+# Get Started with Sales in Strawberry
 
-Strawberry can connect prospecting, research, outreach, meetings, and CRM work without making the
-team copy context between tools. This guide shows how those workflows can grow into a connected
-sales process. It is not a fixed methodology: enter wherever the team has a real bottleneck and
-skip what already works. Interview the user candidly until the best starting point is clear. Over
-time, help the team adopt the workflows here that genuinely suit how it sells.
+Help the user see how their companion can support the whole sales journey, not just one isolated
+task. Briefly paint the bigger picture, explain what makes Strawberry different, and then help them
+choose one useful place to begin.
 
-## Set up Strawberry around how the team sells
+## Paint the picture
 
-Start with a candid conversation about the result that would be most useful now. While the goal is
-broad, ask one short question at a time. Once a concrete workflow emerges, gather the deeper
-context needed to do it well.
+Explain that Strawberry gives the user more than a chat box. Because Strawberry is a browser, the
+user and their companion can work together in the websites where sales happens. You can learn from
+their tabs, work inside websites, and bring together context from email, calendar, CRM, meetings,
+files, connected apps, and the public web. Your memory helps you get to know their customers,
+preferences, writing style, and way of working over time.
 
-Offer to learn through a few questions, ask permission to look through relevant connected apps, or
-combine both. Useful context may include an ICP document, the company website or product
-documents, existing or won accounts in the CRM, email, Slack, meetings, and prior sales work; do
-not assume that any particular source exists. Learn the team's customer criteria,
-exclusions, preferred fields, writing style, destinations, and approval boundaries. When the
-choice affects time or credits, explain the tradeoff between a wider surface-level pass and deeper
-account research. Before substantial work, summarize the intended result, sources, fields,
-destination, scope, and approach in a concise plan for confirmation.
+Show how the pieces can connect: finding customers can lead into account research, meeting prep,
+follow-up, CRM updates, and pipeline decisions. This can grow into a powerful way to run sales, but
+the best place to start is usually one real piece of work.
 
-Keep outreach as drafts and CRM changes as proposals until the user approves sending or applying
-them. Verify the intended recipient and destination before any external action; do not infer
-permission from approval of the research or draft.
+Keep this introduction brief, friendly, and inspiring. Do not turn it into a feature tour.
 
-## Find and qualify the right prospects
+## Find a good first win
 
-Strawberry can turn the team's customer criteria into a reviewable list with evidence for why each
-prospect fits now. The user can describe those criteria, or Strawberry can infer a proposal from
-approved ICP material, the company website, or existing customers. Begin with a small sample,
-often fewer than ten prospects, so the user can correct the bar before the search scales. Restate
-the full-run scope and rough cost before expanding substantially. Read
-`strawberry/sales/source-customers` for the sourcing workflow.
+Start with what the user wants to accomplish. If they already have a real task in mind, follow their
+lead. If they are unsure, offer a small set of useful starting points:
 
-Useful fit and timing signals may include funding, hiring, expansion, leadership changes,
-tech-stack fit, recent news, or public pain points. Preserve the source behind each important
-include or exclude, check the CRM and prior work for duplicates, and report how many prospects were
-reviewed and narrowed. A fit score and a few borderline examples can help the user calibrate the
-filtering; never pad the result to reach a requested count.
+- find promising new customers;
+- research an account and find a way in;
+- get ready for an upcoming meeting;
+- build an outreach sequence that sounds like them;
+- recommend a first win from their open tabs, connected apps, and other available context;
+- tell you what they already have in mind.
 
-If the team already has a list, Strawberry can add verified decision-makers and the fields needed
-for qualification or outreach. Return source links and verification status, and flag risky or
-unverifiable contact details rather than treating guesses as facts. Read
-`strawberry/sales/enrich-lead-list` when the starting point is an existing list rather than a new search.
+Adapt the choices and wording to the conversation rather than treating this list as a script or a
+closed menu. If the user asks for a recommendation, look through their available context (e.g. apps, tabs, memory) and
+suggest no more than three strong options. If there is little useful context, briefly suggest a relevant app they could
+connect and explain what it would unlock. Do not turn this into a setup checklist or make connecting
+apps a requirement before helping.
 
-## Research accounts and prepare useful material
+## Use a focused skill when it fits
 
-Start from the decision the research should support. Strawberry can research a company before an
-important interaction, preserving source links and relevant dates, separating facts from
-inference, and exposing missing, outdated, or contradictory evidence. Read
-`strawberry/sales/research-prospect-before-meeting` for a concise account brief, or
-`strawberry/research-analysis/research-companies-create-decks` when the result should be a sourced visual deck.
+First understand the result the user wants. If a focused Official Skill fits, read it and adapt it
+to their situation. If another collection owns the workflow, use that skill instead. If no existing
+skill fits, help using your normal capabilities rather than forcing the task into the closest
+workflow. A useful process that repeats can later become a custom skill.
 
-## Write outreach that sounds like the team
+- **Research an account and find a way in:** read
+  `strawberry/sales/research-prospect-before-meeting`. Use it whether or not a meeting is already
+  scheduled. Start from the decision or conversation the research should help with.
+- **Prepare for an upcoming sales conversation:** read `strawberry/sales/prepare-for-calls`.
+- **Turn a conversation into next steps:** when a transcript or notes exist, read
+  `strawberry/operations/transcribe-meetings-follow-up`, then use
+  `strawberry/sales/keep-crm-updated` for CRM changes the user approves.
+- **Review the pipeline and choose what to do next:** read
+  `strawberry/sales/review-sales-pipeline`. Begin with a review the user can react to before
+  suggesting a recurring version.
+- **Find and qualify new customers:** read `strawberry/sales/find-new-customers`. Start with a small,
+  varied sample, invite feedback, and explain the tradeoff before widening the search.
+- **Enrich a list the user already has:** read `strawberry/sales/enrich-lead-list`.
+- **Build an outreach sequence that sounds like the user:** read
+  `strawberry/sales/personalized-outreach-sequence`. Agree on the channel and destination, show a
+  few representative messages, and keep sending or enrollment as a separate decision.
+- **Clean or update CRM records:** read `strawberry/sales/keep-crm-updated`.
 
-Good outreach depends on a verified recipient, a specific and recent reason to reach out, and the
-team's own voice. Strawberry can learn from approved sent messages, agree the channel mix and
-sequence, draft messages one by one from sourced research, and deduplicate against prior outreach.
-Review a small sample before any batch. If pricing or another sensitive claim appears, take it from
-the team's approved materials rather than guessing from public context. Read
-`strawberry/sales/personalized-outreach-sequence` for the detailed workflow; nothing is sent or enrolled
-in a campaign without the user's approval.
+When several options fit, recommend the best first one and no more than two alternatives. Explain
+why they fit the user's situation instead of listing every skill.
 
-## Connect calls, notes, and follow-up
+## Teach through the work
 
-Strawberry is useful throughout the meeting cycle. It can prepare concise briefs for today's calls,
-using relevant approved calendar, company, contact, relationship, and CRM context. Read
-`strawberry/sales/prepare-for-calls` before meetings. Afterwards,
-`strawberry/operations/transcribe-meetings-follow-up` can turn a transcript in the meeting's language into
-decisions, open questions, action items and owners, and a follow-up grounded in what was actually
-said. Keep messages and external-system updates reviewable until approved.
+Help the user become better at working with their companion while you work together:
 
-## Keep the CRM and team in sync
+- **Context and memory:** explain that good context leads to better work. Use their feedback to
+  learn what matters, and let them know that memory helps carry useful context into future chats.
+- **Small loops:** for subjective, expensive, or high-volume work, begin with a small result. Ask
+  what they like and what they would change before doing more.
+- **Skills:** after feedback reveals a repeatable way of working, offer to save the useful criteria,
+  tone, sources, fields, steps, and review points as a custom skill. Do not save the first result
+  automatically.
+- **Team collaboration:** once a personal workflow works and would help others, explain how a shared
+  Sales companion can carry the team's context, memory, and skills across the immediate team.
+- **Routines:** after the workflow is trusted and has a real trigger or cadence, offer to make it a
+  Routine.
 
-Once the team trusts the captured information, Strawberry can propose deduplicated CRM updates
-with the source, target record, field changes, and reason visible for review. It can also surface
-pipeline issues such as no activity for seven or more days, passed close dates, or missing fields
-without silently changing the pipeline. Read `strawberry/sales/keep-crm-updated` for that handoff.
+## Connect the journey over time
 
-When an individual process works reliably and sharing it would solve a real coordination problem,
-read `strawberry/operations/set-up-shared-team-workflow` to establish common fields, owners, destinations,
-privacy boundaries, and approvals.
+After a useful result, suggest one natural next step when it would genuinely help. Examples:
 
-## Other things to try
+- account research -> meeting preparation -> follow-up -> approved CRM update;
+- small prospect sample -> feedback -> wider search -> enrichment;
+- account research and writing examples -> outreach sample -> approved sequence;
+- pipeline review -> prioritized next actions -> later weekly Routine;
+- a workflow shaped through feedback -> custom skill -> shared Sales companion when useful.
 
-These are useful discovery ideas, not complete standalone workflows:
+When the user returns, build on what they already do with their companion. Help them improve a
+workflow, connect the next part of sales, or try something more ambitious instead of restarting
+onboarding.
 
-- Find companies similar to a newly closed or clearly ideal customer.
-- Find a second real contact on an open opportunity beyond an early stage so the deal does not rest
-  on one person.
-- Flag a champion's job change as a possible warm reintroduction.
-- Mine CRM and prior work for win-loss patterns and concrete improvements.
-- Review the full thread and call notes for an inbound reply, then draft a response in the team's
-  voice.
+## Keep the user in control
 
-## Make the process yours
+Research, drafting, sending, and changing records are different steps. Never treat approval of one
+as approval of the next. Before sending messages, enrolling contacts, changing CRM records, or
+sharing private context, confirm the people, records, destination, and scope. Keep important sources
+and uncertainty visible when they affect a sales decision.
 
-Review the first real result before scaling it. Preserve the accepted criteria, fields, voice,
-destinations, review points, and exceptions as a user-owned skill. Use Official Skills as starting
-points; once the team has a tailored process, that process should become the durable way the work
-is done. After a few successful runs, a Routine may prepare morning call briefs, surface a weekly
-pipeline review, or source fresh leads at an accepted cadence. Add one only after the underlying
-workflow, scope, and review behavior are trusted.
+You have done the job when the user understands what is possible, completes a useful first
+workflow, and knows the most relevant way their companion can help next.

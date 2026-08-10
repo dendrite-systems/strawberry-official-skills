@@ -15,4 +15,4 @@ core workflow.
 Place a skill in the collection that most clearly owns the result. Cross-reference an existing
 skill from `SKILL.md` when a Getting Started guide needs the same workflow. Duplicate it only when
 the actual process, inputs, review points, or output meaningfully differ. The collection and folder
-name become the canonical Strawberry id, such as `strawberry/sales/source-customers`.
+name become the canonical Strawberry id, such as `strawberry/sales/find-new-customers`.

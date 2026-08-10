@@ -30,7 +30,7 @@ sales/
     SKILL.md
     strawberry.json
     article.json
-  source-customers/
+  find-new-customers/
     SKILL.md
     strawberry.json
 ```
@@ -39,8 +39,8 @@ sales/
 - `strawberry.json` contains compact discovery metadata, tags, and the role-specific ways the
   result can be presented.
 - `article.json` is optional public editorial content for the Strawberry website.
-- The folder path is the skill's identity. For example, `sales/source-customers` becomes
-  `strawberry/sales/source-customers` inside Strawberry.
+- The folder path is the skill's identity. For example, `sales/find-new-customers` becomes
+  `strawberry/sales/find-new-customers` inside Strawberry.
 - A Getting Started guide references focused Official Skills directly from its `SKILL.md`.
 
 Focused skills belong to the collection that most clearly owns the result. A Getting Started skill

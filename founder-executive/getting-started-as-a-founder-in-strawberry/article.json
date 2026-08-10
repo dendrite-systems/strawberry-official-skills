@@ -28,7 +28,7 @@
       ],
       "skills": [
         {
-          "id": "strawberry/sales/source-customers",
+          "id": "strawberry/sales/find-new-customers",
           "roleId": "founder-executive",
           "context": "Build and calibrate a reviewable shortlist of the next customers."
         },

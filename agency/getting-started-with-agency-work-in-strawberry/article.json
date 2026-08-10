@@ -37,7 +37,7 @@
       ],
       "skills": [
         {
-          "id": "strawberry/sales/source-customers",
+          "id": "strawberry/sales/find-new-customers",
           "roleId": "agency",
           "context": "Build and calibrate a reviewable shortlist of prospective clients."
         },
@@ -119,7 +119,7 @@
     {
       "title": "Find my agency 30 new clients",
       "description": "Open the focused Official Skill for sourcing prospective clients.",
-      "href": "/prompts/source-customers"
+      "href": "/prompts/find-new-customers"
     },
     {
       "title": "Build a client brief",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "displayName": "Getting Started with Sales in Strawberry",
-  "summary": "Get started with sales in Strawberry through prospecting, account research, outreach, and follow-up.",
+  "summary": "See how your companion can help across the sales journey, choose a useful first task, and build toward a connected sales setup over time.",
   "icon": "chart",
   "tags": [
     "getting-started-guide"
@@ -11,25 +11,25 @@
       "roleId": "sales-business-development",
       "weight": 120,
       "title": "Getting Started with Sales in Strawberry",
-      "message": "I want to get started with sales in Strawberry and improve my sales pipeline."
+      "message": "Help me get started with sales in Strawberry. Show me what's possible, then help me choose one useful place to begin."
     },
     {
       "roleId": "founder-executive",
       "weight": 96,
       "title": "Getting Started with Sales in Strawberry",
-      "message": "I want to get started with sales in Strawberry and build a repeatable pipeline."
+      "message": "Help me use my Strawberry companion for founder-led sales. Show me the bigger picture, then help me choose one useful place to begin."
     },
     {
       "roleId": "agency",
       "weight": 88,
       "title": "Getting Started with Sales in Strawberry",
-      "message": "I want to get started with sales in Strawberry and build a repeatable client pipeline."
+      "message": "Help me use my Strawberry companion to find, win, and follow through with clients. Show me what's possible, then help me choose a useful first task."
     },
     {
       "roleId": "consultant",
       "weight": 84,
       "title": "Getting Started with Sales in Strawberry",
-      "message": "I want to get started with sales in Strawberry and build a repeatable client pipeline."
+      "message": "Help me use my Strawberry companion to find and work with clients. Show me what's possible, then help me choose a useful first task."
     }
   ]
 }
