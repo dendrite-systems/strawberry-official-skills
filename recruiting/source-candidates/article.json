@@ -61,7 +61,7 @@
       ],
       "skills": [
         {
-          "id": "strawberry/sales/personalized-outreach-sequence",
+          "id": "strawberry/sales/send-personalized-outreach",
           "roleId": "recruiting-people",
           "context": "Use this after shortlist approval to draft relevant candidate outreach."
         },

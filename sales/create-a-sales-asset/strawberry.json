@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Create a Sales Asset",
+  "summary": "Turn real account context into a customer-ready one-pager, deck, page, or interactive asset.",
+  "icon": "presentation",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 98,
+      "title": "Create a sales asset for this account",
+      "message": "Create a customer-facing sales asset for this account. Use the meetings, CRM, email, files, tabs, and approved brand context already available, work out the audience and decision it should support, then recommend and create the simplest useful format."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 90,
+      "title": "Turn this customer context into a useful asset",
+      "message": "Turn the context around this customer or prospect into a clear, customer-facing asset that helps move one decision or next step forward. Recommend the right format from the context before building it."
+    },
+    {
+      "roleId": "agency",
+      "weight": 86,
+      "title": "Create a client-ready sales asset",
+      "message": "Create a polished customer-facing asset for this client or prospect using the context and approved brand material already available. Keep it focused on the audience and next decision."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 84,
+      "title": "Create a tailored asset for this client",
+      "message": "Create a tailored client-facing asset from the account, meeting, and project context available. Choose the format that best helps the client understand or make the next decision."
+    }
+  ]
+}

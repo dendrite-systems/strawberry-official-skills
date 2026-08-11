@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Debrief a Sales Meeting",
+  "summary": "Turn a completed sales conversation into a clear debrief, follow-up, CRM changes, and next actions.",
+  "icon": "files",
+  "tags": ["good-first-skill"],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 104,
+      "title": "Turn this sales meeting into clear next steps",
+      "message": "Debrief this sales meeting using the transcript or notes. Tell me what changed, prepare the right follow-up and next actions, and show any proposed CRM updates separately before changing anything."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 96,
+      "title": "Help me follow through after this customer meeting",
+      "message": "Debrief this customer or sales meeting for me. Give me the quick take, commitments, open questions, and the follow-through that matters most."
+    },
+    {
+      "roleId": "agency",
+      "weight": 90,
+      "title": "Debrief a client or new-business meeting",
+      "message": "Turn this client or new-business meeting into a concise debrief, owned actions, and a follow-up draft grounded in what was actually said."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 88,
+      "title": "Turn this client conversation into action",
+      "message": "Debrief this client conversation and help me capture what changed, what I promised, and what should happen next."
+    }
+  ]
+}

@@ -32,7 +32,7 @@ Before researching widely, name the prospect or fit criteria, the service being 
 strong angle looks like, and the desired output. Start with one prospect or a small sample so the
 user can check the bar. Strawberry can then find prospective clients, explain why they fit, and
 prepare personalized outreach. Read `strawberry/sales/find-new-customers` to build the reviewable shortlist
-and `strawberry/sales/personalized-outreach-sequence` to draft messages in the agency's accepted voice.
+and `strawberry/sales/send-personalized-outreach` to draft messages in the agency's accepted voice.
 
 A concrete finding backed by current evidence is often more useful than a generic capabilities
 pitch. For a visual account teardown, read `strawberry/research-analysis/research-companies-create-decks`. Nothing

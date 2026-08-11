@@ -56,13 +56,14 @@ complete application-screening workflow.
 Good candidate outreach depends on verified relevance and a voice that sounds like the team.
 When the voice is not already clear, read `strawberry/general/learn-writing-style` to learn it from
 approved sent messages, user-selected examples, or both. Reuse the evidence and calibration from
-`strawberry/recruiting/source-candidates`, personalize the message body with a specific verified detail, and
-avoid generic praise.
+`strawberry/recruiting/source-candidates`. Use specific, verified professional context when it
+genuinely improves the reason to reach out; do not force a recent detail or generic praise.
 
-Agree the channel and sequence, verify the recipient and contact information, and review a small
-sample before any batch. Keep messages as drafts unless the user has explicitly approved the exact
-action and recipients; never send when identity or contact details are uncertain. Read
-`strawberry/sales/personalized-outreach-sequence` for the detailed drafting, review, sending, and
+Agree on the channel and whether the useful result is one message, a small batch, or a sequence.
+Verify the recipient and contact information, and review a representative sample when calibration
+would help. Keep messages as drafts unless the user has explicitly approved the exact action and
+recipients; never send when identity or contact details are uncertain. Read
+`strawberry/sales/send-personalized-outreach` for the detailed drafting, review, sending, and
 follow-up workflow.
 
 ## Prepare interviews and decisions

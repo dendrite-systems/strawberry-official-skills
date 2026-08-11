@@ -73,7 +73,7 @@ contact details.
 ## Suggested next steps
 
 - If the user wants to contact the approved shortlist, use
-  `strawberry/sales/personalized-outreach-sequence`.
+  `strawberry/sales/send-personalized-outreach`.
 - If a team should reuse the accepted scorecard, fields, and review process, use
   `strawberry/operations/set-up-shared-team-workflow`.
 - After review, offer to save the accepted rubric, sources, calibration approach, fields,

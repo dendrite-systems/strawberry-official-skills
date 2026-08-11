@@ -63,9 +63,9 @@
       ],
       "skills": [
         {
-          "id": "strawberry/sales/personalized-outreach-sequence",
+          "id": "strawberry/sales/send-personalized-outreach",
           "roleId": "recruiting-people",
-          "context": "Draft a reviewable candidate outreach sequence in the team’s voice."
+          "context": "Draft and send reviewable candidate outreach in the team’s voice, adding a sequence when useful."
         }
       ]
     },

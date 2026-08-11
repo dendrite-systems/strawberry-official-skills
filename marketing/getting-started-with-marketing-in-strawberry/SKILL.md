@@ -57,7 +57,7 @@ original.
 
 Strawberry can shortlist creators using niche alignment, engagement quality, audience overlap, and
 actual recent content rather than follower count alone. Use `strawberry/research-analysis/extract-web-data` to create
-the reviewable research dataset, then `strawberry/sales/personalized-outreach-sequence` when verified work
+the reviewable research dataset, then `strawberry/sales/send-personalized-outreach` when verified work
 and approved context should become personalized draft outreach rather than generic praise. Nothing
 should be sent without approval.
 

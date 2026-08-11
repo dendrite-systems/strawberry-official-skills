@@ -6,87 +6,86 @@ description: Add, verify, or correct useful company and contact fields in an exi
 # Enrich a Lead List
 
 Turn an existing list into a more complete and trustworthy working set. Enrich the fields the user
-actually needs rather than assuming every list requires decision-makers or contact details.
+needs rather than assuming every list requires people or contact details.
 
 ## Workflow
 
 ### 1. Understand the list and the result
 
-Inspect the list, its current fields, and the destination. Use relevant CRM context, connected apps,
-files, tabs, memory, and prior work before asking the user to repeat information already available.
+Inspect the list, its current fields, and the intended destination. Use relevant CRM context,
+connected apps, files, tabs, memory, and prior work before asking the user to repeat information
+already available.
+
 Understand what each row represents and what would make it useful: company facts, segmentation,
 current roles, decision-makers, contact information, source links, cleanup, or a combination.
-Research people only when the requested result needs them.
+Research people only when the result needs them.
 
 ### 2. Agree on fields, depth, and a first sample
 
-Agree on the fields, matching criteria, sources, destination, and whether the user wants to fill
-more rows quickly or verify a smaller set more deeply. If decision-makers are needed, use the
-user's process or strong customer examples rather than assuming one universal title.
+Agree on the fields, matching criteria, useful sources, destination, and whether the user wants
+broader coverage or deeper verification. If decision-makers are needed, use the user's process or
+strong customer examples rather than assuming one universal title.
 
-For someone new to Strawberry or for a large, unfamiliar, or expensive job, propose a short plan and
-a representative sample. Explain breadth, depth, and credit tradeoffs comparatively; give specific
-estimates only when reliable. Keep this brief for a trusted repeat workflow.
+For someone new to the workflow, or for a large, unfamiliar, or expensive job, propose a short plan
+and representative sample. Explain breadth, depth, and credit tradeoffs comparatively; give specific
+estimates only when reliable. Keep this light for a trusted repeat workflow.
 
 ### 3. Resolve and check the existing records
 
-Treat the supplied list as the working set. Preserve the original rows, identify duplicates, and
-surface ambiguous matches instead of silently merging or dropping records.
+Preserve the supplied rows, identify duplicates, and surface ambiguous matches instead of silently
+merging or dropping records. When a CRM or another source of truth is relevant, check customer
+status, ownership, live deals, prior contact, and do-not-contact records. Flag conflicts or existing
+relationships rather than presenting them as new leads.
 
-When a CRM or other source of truth is available, check customer status, ownership, live deals,
-prior contact, and do-not-contact records when relevant. Flag conflicts or existing relationships
-rather than presenting them as fresh leads.
-
-Use enough evidence to resolve each identity. For people, check signals such as current role and
-company, location, previous roles, profile details, and company sources. Never guess a profile URL,
-employment relationship, email address, phone number, or missing field.
+Use enough evidence to resolve each company or person. Never guess a profile URL, employment
+relationship, email address, phone number, or other missing field.
 
 ### 4. Enrich and calibrate
 
 Use the best available source for each requested field across enrichment services, CRM records,
-LinkedIn, company sites, connected apps, and other relevant web sources. Preserve useful links and
-dates where freshness matters.
+LinkedIn, company sites, connected apps, and other useful web sources. Preserve links and dates where
+freshness or provenance affects the result.
 
-When a field cannot be verified, do not present it as verified. A potentially useful email address
-or phone number may remain when its source is known, but label its status and risk clearly. Never
-treat risky or unverified contact information as send-ready.
+Do not present an unverified field as verified. A potentially useful email address or phone number
+may remain when its source is known, but label its status and risk clearly. Never treat risky or
+unverified contact information as send-ready.
 
-Present a sample when calibration would materially improve the work. Let the user correct the
-fields, matching, sources, and verification bar before expanding. Do not force this when the process
-is trusted and the scope is straightforward.
+If the list will support scaled cold email and no reliable email verification service is available,
+suggest connecting one before sending. Explain briefly that verification can reduce bounces and
+help protect the sending account. Do not make this a prerequisite for ordinary one-to-one outreach.
 
-When working in LinkedIn, work sequentially at a human pace and stop on any warning, challenge,
-rate limit, or unexpected state. Parallelize only independent off-platform research.
+When calibration would materially improve the work, present a sample and let the user correct the
+fields, matching, sources, and verification bar before expanding. On LinkedIn, work sequentially at
+a human pace and stop on warnings, challenges, rate limits, or unexpected states.
 
-### 5. Expand and prepare any updates
+### 5. Expand and prepare updates
 
 Apply the accepted approach without changing field meanings or lowering the verification bar. If a
-field has poor coverage, explain why and offer a choice: try another source, accept clearly labeled
-unverified data, narrow the field, or leave it missing.
+field has poor coverage, explain why and offer a useful choice: try another source, accept clearly
+labeled unverified data, narrow the field, or leave it missing.
 
 Prepare changes for review before writing to an external destination. Do not overwrite existing or
 conflicting values without showing what would change and receiving approval.
 
-### 6. Deliver a trustworthy result
+### 6. Deliver and make the next run easier
 
-For each input record, preserve:
+Return the original identifier, resolved identity when needed, requested fields, and any source or
+verification notes that affect trust or use. Prefer a compact table for a sample and the agreed
+destination for larger results. Keep missing data missing rather than guessing, and surface stale,
+conflicting, ambiguous, or unverified values when they could change what the user does.
 
-- the original record or identifier;
-- the resolved company or person when identity resolution was needed;
-- the requested enriched or corrected fields; and
-- source and verification notes when they affect trust or use.
+Check duplicates, identity mismatches, stale roles, formats, broken links, and provenance before
+delivery. Report coverage or update counts when they help the user judge the result.
 
-Prefer a compact table for a review sample and the agreed destination for larger results. Keep
-missing data missing rather than guessing. Surface stale, conflicting, ambiguous, or unverified
-values when they could affect how the user acts.
+Use `strawberry/sales/find-new-customers` when the user still needs prospects,
+`strawberry/sales/send-personalized-outreach` when they want to contact approved leads, and
+`strawberry/sales/keep-crm-updated` for approved CRM changes.
 
-Before delivery, check duplicates, missing values, identity mismatches, stale roles, formats, broken
-links, and provenance. Report how many rows were reviewed and updated when useful.
-
-If the user needs new prospects first, use `strawberry/sales/find-new-customers`. If they want to
-contact approved leads, use `strawberry/sales/personalized-outreach-sequence`. If they want approved
-changes written into the CRM, use `strawberry/sales/keep-crm-updated`.
-
-After the user has improved a useful result, offer to save the accepted fields, sources, matching
-rules, verification bar, and destination as a custom skill. Once the workflow is trusted and has a
-useful trigger or cadence, offer to turn it into a Routine.
+After feedback, offer to save the accepted fields, sources, matching rules, verification bar, and
+destination as a custom skill. If teammates use the same list or data process, offer to share the
+reviewed result or accepted enrichment method with them; a shared skill can preserve the method
+without forcing everyone to recreate it. Keep that separate from writing records into external
+systems. When the team needs the same context and several Sales workflows, offer to share the full
+companion. When the workflow is trusted and has a real trigger or cadence, suggest a Routine that
+checks the agreed source, prepares enriched records, and stops for ambiguous matches or reviewable
+external updates.

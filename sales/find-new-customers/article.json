@@ -82,13 +82,13 @@
       "title": "Turn an approved list into the next useful step",
       "paragraphs": [
         "Once the prospect set feels right, your companion can research the strongest accounts more deeply, enrich the records you need, or build a customer outreach sequence in your voice. Finding prospects, adding them to the CRM, drafting messages, and enrolling or sending are separate decisions—you stay in control of each step.",
-        "After the sourcing process has worked several times, it can become a Routine that looks for new companies or useful signals at the right cadence. The goal is not simply more leads. It is a prospecting system that gets better at recognizing the customers your business can genuinely help."
+        "Share the approved list when teammates need the result, or save and share the accepted sourcing method as a team skill when they should reuse the process. If the team needs the same customer context across prospecting, research, outreach, and other sales work, share the full companion. After the process has worked several times, it can become a Routine that looks for new companies or useful signals at the right cadence. The goal is not simply more leads. It is a prospecting system that gets better at recognizing the customers your business can genuinely help."
       ],
       "skills": [
         {
-          "id": "strawberry/sales/personalized-outreach-sequence",
+          "id": "strawberry/sales/send-personalized-outreach",
           "roleId": "sales-business-development",
-          "context": "Use this after the prospect set is approved to build a reviewable outreach sequence."
+          "context": "Use this after the prospect set is approved to draft and send reviewable outreach."
         }
       ]
     }

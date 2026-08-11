@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Prepare for a Sales Meeting",
+  "summary": "Turn calendar, relationship, and account context into a concise sales meeting brief.",
+  "icon": "calendar",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 96,
+      "title": "Prepare for a sales meeting",
+      "message": "Help me prepare for my next sales meeting. Start from my calendar and the context already available, then give me a concise brief with what matters, useful questions, and the outcome I should aim for."
+    }
+  ]
+}

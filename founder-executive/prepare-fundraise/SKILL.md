@@ -70,7 +70,7 @@ outreach. Turn the accepted process into a two-week plan with owners, next actio
 deadlines, and review points.
 
 When the founder approves a contact list and wants messages, use
-`strawberry/sales/personalized-outreach-sequence`; keep its verification, drafting, and sending rules
+`strawberry/sales/send-personalized-outreach`; keep its verification, drafting, and sending rules
 there. Use `strawberry/sales/prepare-for-calls` for scheduled investor conversations. Drafting does not
 authorize sending: contacting investors, sharing sensitive materials, granting access, or changing
 pipeline records always requires explicit approval.

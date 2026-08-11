@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-sales-pipeline-review",
+  "title": "How to run a better sales pipeline review with AI",
+  "description": "Use AI to combine CRM, email, and meeting context into a focused sales pipeline review with clear priorities, risks, and next actions.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-11T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "A sales pipeline review should help you decide what to do next. Too often, it becomes a tour of CRM fields while the most useful context still lives somewhere else.",
+    "Strawberry is a browser with built-in AI agents. Your companion can work with your CRM alongside recent emails, meetings, calendar events, files, open tabs, and connected apps. That makes it possible to review not only what the pipeline says, but what has actually happened around each deal—and turn that context into a useful plan for the week."
+  ],
+  "sections": [
+    {
+      "id": "what-you-can-build",
+      "title": "What you can build with Strawberry",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A first review can be simple: take one pipeline view, find the deals that deserve attention, and leave with a short list of next actions. As your companion learns how your team sells, the workflow becomes more useful."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It can prepare the team before a pipeline meeting, bring recent customer conversations into the room, spot when the CRM no longer matches reality, draft follow-ups, and prepare approved updates. Over time, that becomes a weekly sales rhythm rather than a report rebuilt by hand."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/review-sales-pipeline",
+              "roleId": "sales-business-development",
+              "context": "Review a real pipeline or useful slice and get clear priorities, risks, and next actions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start-with-the-decision",
+      "title": "Start with the decision you need to make",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "You do not have to audit the entire CRM. Start with the decision in front of you: which deals need attention, what may slip, where someone should step in, or what the team should cover next."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Begin with a connected CRM view, export, spreadsheet, pasted list, or smaller set of opportunities. A connection makes the workflow easier to repeat, but is not required for a useful first review."
+        }
+      ]
+    },
+    {
+      "id": "bring-conversations-into-the-pipeline",
+      "title": "Bring the conversation back into the pipeline",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The CRM is an important source of truth, but it rarely contains the whole truth. A deal may look inactive even though a meeting happened yesterday. A next step may look current even though the customer changed it in an email. A close date may still be in the future even though a key decision has slipped."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Because Strawberry can work across your logged-in tools, your companion can connect the pipeline with recent threads, meeting transcripts, calendar events, notes, documents, and account research. It can explain what deserves attention while keeping CRM facts separate from interpretation."
+        }
+      ]
+    },
+    {
+      "id": "look-for-meaningful-changes",
+      "title": "Look for changes that affect what you do next",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A useful pipeline review does not need a universal health score. What counts as stale or risky depends on the sales cycle, stage, relationship, and way your team works."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Instead, look for signals that should change a decision:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "No clear next step or owner.",
+            "A close date or stage that no longer fits the evidence.",
+            "A promising deal with fresh momentum.",
+            "An important stakeholder, approval, or unanswered question holding things up.",
+            "A relationship that has gone quiet for this kind of deal.",
+            "Missing or conflicting information that makes the current plan hard to trust."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The point is to explain why something matters and what could move it forward."
+        }
+      ]
+    },
+    {
+      "id": "leave-with-a-plan",
+      "title": "Leave with a plan, not another dashboard",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A good review should make five things clear:"
+        },
+        {
+          "kind": "list",
+          "style": "ordered",
+          "items": [
+            "Which deals deserve attention now?",
+            "Why did they rise to the top?",
+            "What is the next useful action, and who owns it?",
+            "Which deals should be monitored, reconsidered, or qualified out?",
+            "What needs correcting in the CRM?"
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Some priorities need deeper account research; others are ready for outreach. Keeping those as clear next steps lets the review stay focused."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/research-an-account",
+              "roleId": "sales-business-development",
+              "context": "Investigate the company, relationship, and evidence behind a priority deal."
+            },
+            {
+              "id": "strawberry/sales/send-personalized-outreach",
+              "roleId": "sales-business-development",
+              "context": "Turn the next move into a thoughtful message or follow-up."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Keep proposed CRM changes separate from the analysis, with the source and reason behind each one. Approve the right updates without silently changing stages, close dates, or activity history."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/keep-crm-updated",
+              "roleId": "sales-business-development",
+              "context": "Review and apply approved changes from pipeline work, emails, and meetings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-it-a-weekly-rhythm",
+      "title": "Turn the review into a weekly sales rhythm",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Tell your companion which risks matter, how your stages work, and what the team wants before a pipeline meeting. Share the approved brief with the people joining the review while keeping sensitive notes and proposed CRM changes separate. The next review can begin with that context."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the workflow feels right, share the accepted review method as a team skill when others should reuse it. If the team needs the same pipeline and customer context across several sales workflows, share the full companion. A weekly Routine can then check the agreed pipeline view, bring in recent conversations, prepare the review, and draft updates before the team meets. Start read-only or draft-first."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Open the Review Your Sales Pipeline skill with one real pipeline or useful slice. Your companion will help you find the decisions that matter now—and make the next review easier."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to automate your sales pipeline with AI",
+      "description": "Connect pipeline reviews with prospecting, account research, meetings, outreach, and CRM work.",
+      "href": "/playbooks/automate-sales-pipeline"
+    }
+  ]
+}

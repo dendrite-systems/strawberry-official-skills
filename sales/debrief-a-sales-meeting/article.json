@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-sales-meeting-notes-follow-up",
+  "title": "How to use AI for sales meeting notes and follow-up",
+  "description": "Use AI sales meeting notes to prepare follow-up, CRM updates, and next steps—then turn each conversation into better context for the next.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-11T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "A good sales meeting creates momentum. A bad handoff after the meeting loses it. Notes sit in one place, the promised follow-up waits in someone’s head, and the CRM still tells yesterday’s story.",
+    "Strawberry is a browser with built-in AI agents. It can transcribe a meeting without adding a bot, then work with the conversation alongside your calendar, email, CRM, files, open tabs, and connected apps. Your companion can help you get clear on what matters, prepare the follow-through, and carry the right context into the next piece of work."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-meeting-you-just-had",
+      "title": "Start with the meeting you just had",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "You do not need to design the perfect post-meeting process first. Begin with a meeting that just happened and decide what would be useful now: a quick debrief, a follow-up draft, clear next actions, CRM updates, or a combination."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/debrief-a-sales-meeting",
+              "roleId": "sales-business-development",
+              "context": "Turn one completed conversation into a clear debrief and useful next actions."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the meeting has not happened yet, let Strawberry transcribe it without adding a bot to the call. If it was recorded elsewhere, connect the relevant meeting-notes app when available or bring in the transcript or notes. Your companion should work from what was actually said rather than ask you to reconstruct the conversation from memory."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/transcribe-meetings-follow-up",
+              "roleId": "sales-business-development",
+              "context": "Set up bot-free transcription so the conversation is ready when the meeting ends."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "get-clear-on-what-matters",
+      "title": "Get clear on what matters and what happens next",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A transcript gives you the record. A useful debrief turns it into decisions, open questions, and a clear next move."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A useful sales debrief might capture:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "The outcome and whether the meeting achieved its purpose.",
+            "The customer’s priorities, questions, objections, and constraints.",
+            "Decisions, promises, owners, and dates.",
+            "Stakeholders or relationship changes that now matter.",
+            "What changed about qualification, timing, risk, or opportunity.",
+            "The next action most likely to move the relationship forward."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Your companion can separate direct statements from interpretation and keep the relevant source moment close by. Polite interest should not quietly become buying intent, and a suggested date should not become a firm commitment."
+        }
+      ]
+    },
+    {
+      "id": "finish-the-work-the-meeting-creates",
+      "title": "Finish the work the meeting creates",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Most meeting tools stop at notes. Strawberry can help with the work those notes create because it can move across the browser and connected apps with you."
+        },
+        {
+          "kind": "table",
+          "columns": ["What came out of the meeting", "What your companion can prepare"],
+          "rows": [
+            ["A promise or open question", "The answer, asset, introduction, or research you owe"],
+            ["A clear next step", "An owner, date, and reviewable task"],
+            ["A useful customer recap", "A follow-up draft grounded in the conversation and your voice"],
+            ["A change in the deal", "Proposed CRM fields with the source and reason"],
+            ["A wider risk or opportunity", "A signal for the next pipeline review"],
+            ["A useful learning or emerging pattern", "Context that improves future prep, follow-up, sales materials, or team practice"]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "These are separate actions. Approving the debrief does not mean sending the follow-up or changing the CRM. Your companion can show each item clearly, then complete only what you approve."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the notes or actions would help the team, share an approved version in the place they already work. Keep private reflections separate from the team record."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/keep-crm-updated",
+              "roleId": "sales-business-development",
+              "context": "Review and apply the CRM changes created by the conversation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "let-every-meeting-improve-the-next-one",
+      "title": "Let every meeting improve the next one",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The first debrief gives you something real to react to. Tell your companion which details mattered, what it overemphasized, how your stages work, and how much detail you want. It can remember those preferences and use them the next time."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The conversation can improve more than the next email. Over time, your companion can notice what resonates, which objections recur, which questions unlock progress, and where the team needs a better answer or asset. That creates a useful loop: each meeting can improve future prep, follow-up, sales materials, and shared skills. One conversation is a signal, not a rule."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the approach feels right, save it as a custom skill. A shared Sales companion can carry the same note structure, qualification language, follow-up style, CRM fields, and review behavior across the immediate team."
+        }
+      ]
+    },
+    {
+      "id": "automate-the-handoff-when-ready",
+      "title": "Automate the handoff when you're ready",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "After the workflow is trusted, an event-triggered Routine can begin when a meeting transcript is ready. It can check the calendar and account context, prepare the debrief, draft the follow-up, and suggest CRM changes for review. If the transcript is incomplete or the account match is uncertain, it should stop and ask instead of filling the gap."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For a wider view, Review Your Sales Pipeline can combine the meeting outcome with the rest of the pipeline and show which deals or relationships need attention next."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/review-sales-pipeline",
+              "roleId": "sales-business-development",
+              "context": "Carry the meeting outcome into the team’s next pipeline decisions."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Open the Debrief a Sales Meeting skill with one recent conversation. Your companion can turn it into a useful next step now, then learn how to make every future handoff faster."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Prepare for meetings from the context you already have",
+      "description": "Turn calendar, relationship, company, and recent activity into a concise brief for the conversation ahead.",
+      "href": "/blog/ai-for-meeting-prep"
+    },
+    {
+      "title": "How to run a better sales pipeline review with AI",
+      "description": "Carry meeting outcomes into a focused view of priorities, risks, and next actions.",
+      "href": "/blog/ai-sales-pipeline-review"
+    }
+  ]
+}

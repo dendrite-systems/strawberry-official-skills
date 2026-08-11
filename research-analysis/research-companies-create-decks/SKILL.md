@@ -75,7 +75,7 @@ output.
 ## Suggested next steps
 
 - If the deck supports prospect or client outreach, use
-  `strawberry/sales/personalized-outreach-sequence`; nothing is sent without the user's approval.
+  `strawberry/sales/send-personalized-outreach`; nothing is sent without the user's approval.
 - If the research should stay current, offer a routine that watches the agreed companies, market,
   or signals.
 - After the workflow proves useful, save the accepted questions, sources, evidence standard,

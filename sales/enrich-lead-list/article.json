@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-lead-enrichment",
+  "title": "How to enrich lead data with AI",
+  "description": "Turn an existing lead list into trustworthy sales data with AI, browser research, connected enrichment tools, and reviewable verification.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-11T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "A lead list can look complete and still be hard to use. Company names do not match the CRM, job titles are stale, the right person is missing, and an email address gives no clue whether it is safe to send. Someone ends up checking rows across LinkedIn, company sites, databases, and spreadsheets before the real sales work can begin.",
+    "Strawberry is a browser with built-in AI agents. Give your companion an existing lead or account list and it can work across the web, logged-in sites, your CRM, files, open tabs, and connected enrichment tools to fill the gaps. Just as importantly, it can preserve where useful data came from and keep uncertainty visible when it affects what you do next."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-list-you-have",
+      "title": "Start with the list you already have",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Lead enrichment starts after you know which records you want to work with. The input might be a CSV, spreadsheet, CRM view, account list, event attendees, inbound leads, or a shortlist from earlier research."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Begin with the decision the list should support. Preparing outreach, assigning territories, segmenting accounts, cleaning the CRM, and mapping stakeholders may require different fields and levels of verification."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/enrich-lead-list",
+              "roleId": "sales-business-development",
+              "context": "Add, verify, or correct the fields an existing lead or account list needs for its next use."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you do not have the companies or prospects yet, start with Find New Customers instead. It helps define who fits and builds the initial list before enrichment begins."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/find-new-customers",
+              "roleId": "sales-business-development",
+              "context": "Find and qualify new prospects before filling in company, people, or contact fields."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enrich-the-fields-that-help",
+      "title": "Enrich the fields that will actually help",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "More columns do not automatically make a better list. Choose the fields that improve the next decision, then let your companion find and check those."
+        },
+        {
+          "kind": "table",
+          "columns": ["What you need", "Useful enrichment might include"],
+          "rows": [
+            ["Better company context", "Website, industry, size, geography, ownership, technology, or another relevant segment"],
+            ["The right people", "Current role, seniority, function, location, profile, or relationship to the decision"],
+            ["A reliable way to reach them", "Work email, phone number, channel, source, and verification status"],
+            ["A clean working list", "Resolved identities, normalized fields, duplicates, stale records, and conflicting values"],
+            ["Relationship awareness", "Existing customer status, account owner, open deal, prior contact, or do-not-contact record"]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "People research is optional. A territory or market-analysis list may only need company data; an outreach list may need current decision-makers and contact details."
+        }
+      ]
+    },
+    {
+      "id": "look-beyond-one-database",
+      "title": "Look beyond one database",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A shared data provider is useful, but no single source has every field fresh and correct. The company site may have the current leadership team, LinkedIn the current role, the CRM the existing relationship, and a specialist enrichment service the best contact data."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Because Strawberry is a browser, your companion can open the real sources, follow links, work in logged-in tools, and investigate ambiguous records rather than returning the first matching profile. It can also connect enrichment and verification tools when they are the best source for a field."
+        },
+        {
+          "kind": "paragraph",
+          "text": "That makes enrichment less like filling blanks and more like resolving the right company or person before adding data to the record."
+        }
+      ]
+    },
+    {
+      "id": "balance-coverage-and-trust",
+      "title": "Balance coverage with trust",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A broad pass can fill common company fields quickly. A deeper pass can resolve harder identities, cross-check current roles, and verify the contact details that matter most. For a large or unfamiliar list, review a small, varied sample before spending more time and credits on the rest."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Missing data does not need to be guessed, and useful but unverified data does not always need to be deleted. Keep its source and status clear. An address may be useful for further checking without being safe to treat as send-ready."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Preserve the original record so changes are easy to understand.",
+            "Surface ambiguous matches instead of silently merging them.",
+            "Keep verification visible when it changes how a field can be used.",
+            "Review conflicting values before overwriting an external record."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prepare-the-list-for-outreach",
+      "title": "Prepare the list for safe, useful outreach",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A few warm messages and a scaled cold-email campaign do not need the same setup. At higher volume, connect a reliable email verification service before sending. It can reduce bounces and help protect the sending account. For ordinary one-to-one outreach, keep the process proportional to the risk."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the audience and data are ready, your companion can carry the approved list into personalized outreach without losing the sources, relationship context, or verification decisions behind it. Sending remains a separate approved step."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/send-personalized-outreach",
+              "roleId": "sales-business-development",
+              "context": "Use the approved list to research, write, review, send, and improve outreach in your voice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-the-process-repeatable",
+      "title": "Make the next list faster",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Tell your companion which fields mattered, which sources you trust, what counted as a match, and when you wanted a human review. Share the reviewed list when teammates need the result, or save and share the accepted method as a team skill when they should reuse the process. If they need the same account context across enrichment, outreach, CRM, and other sales work, share the full companion."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the workflow is reliable, a Routine can check a new list, a recurring import, or agreed CRM records on the right trigger or cadence. A good first version prepares enriched records and stops for ambiguous identities, risky contact data, or external changes that still need review."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/keep-crm-updated",
+              "roleId": "sales-business-development",
+              "context": "Review and apply approved enriched or corrected fields in the CRM."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Open the Enrich a Lead List skill with one list and the next decision it needs to support. Your companion can prepare a useful first sample, learn from your feedback, and turn the rest into data you can actually use."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for sales prospecting",
+      "description": "Find and qualify better-fit prospects before enriching the records needed for the next step.",
+      "href": "/blog/ai-sales-prospecting"
+    },
+    {
+      "title": "How to automate personalized sales outreach with AI",
+      "description": "Turn an approved audience into thoughtful messages, useful follow-ups, and a process that improves with feedback.",
+      "href": "/blog/ai-sales-outreach-automation"
+    }
+  ]
+}

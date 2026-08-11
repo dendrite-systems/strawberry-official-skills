@@ -52,7 +52,7 @@ dates, concise reasons for inclusion, important patterns, and visible uncertaint
 
 For a large row-based map, read `strawberry/research-analysis/extract-web-data`. If the task becomes a direct
 competitive comparison, read `strawberry/marketing/run-competitor-analysis`. If the user chooses to contact
-people in the map, read `strawberry/sales/personalized-outreach-sequence` and keep every message
+people in the map, read `strawberry/sales/send-personalized-outreach` and keep every message
 reviewable before sending.
 
 When the workflow works, offer to preserve the accepted scope, criteria, sources, fields, and

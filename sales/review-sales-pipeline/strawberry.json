@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Review Your Sales Pipeline",
+  "summary": "Turn CRM and recent deal context into clear priorities, risks, and next actions.",
+  "icon": "chart",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 102,
+      "title": "Review my pipeline and tell me where to focus",
+      "message": "Review my current sales pipeline and help me decide where to focus this week. Use the CRM plus relevant recent email and meeting context, explain the biggest risks and opportunities, and show proposed CRM corrections separately before changing anything."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 94,
+      "title": "Help me decide which deals need me",
+      "message": "Review our active deals and tell me which ones most need my attention. Use the context already available, explain why each one matters, and recommend a practical next action."
+    },
+    {
+      "roleId": "agency",
+      "weight": 86,
+      "title": "Review our new-business pipeline",
+      "message": "Review our current new-business pipeline and help me identify the opportunities, risks, and follow-ups that matter most this week."
+    }
+  ]
+}

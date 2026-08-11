@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-sales-account-research",
+  "title": "How to use AI for better sales account research",
+  "description": "Use AI account research to combine company information, relationship context, and real browser work into a useful sales decision.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-11T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Most AI account research ends with a company summary. You get a few facts and generic talking points—then still have to work out what they mean for the decision in front of you.",
+    "Strawberry is a browser with built-in AI agents. Your companion can investigate real sites and logged-in tools, then combine what it finds with your CRM, emails, meetings, files, tabs, and connected apps. It helps you understand the account and decide what to do next."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-question",
+      "title": "Start with the question you need answered",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Useful account research changes depending on the job. You might need to understand a company before reaching out, find a credible path into an account, prepare a strategy, learn which vendors or tools it uses, map decision-makers, or investigate one question before a meeting."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Tell your companion what you are deciding and how much time you have. Start with the most important question and go deeper when harder-to-find evidence could change the next step."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/research-an-account",
+              "roleId": "sales-business-development",
+              "context": "Start with one company and the decision the research should help you make."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combine-research-and-relationship-context",
+      "title": "Bring your research and relationship context together",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Account context rarely lives in one place. The CRM may hold the opportunity, email the relationship, and meetings the customer's own words. Useful company information may be spread across LinkedIn, company pages, job listings, documentation, databases, and industry-specific sites."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Your companion brings those pieces together without a giant prompt. It can also check whether the company is already a customer, past opportunity, or team connection before treating it as new."
+        }
+      ]
+    },
+    {
+      "id": "research-the-real-web",
+      "title": "Research the web more like a person would",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Many AI research tools summarize the pages they retrieve. Because Strawberry works in the browser, it can open the source, follow links, search within sites, move across tabs, and continue when the first page falls short."
+        },
+        {
+          "kind": "paragraph",
+          "text": "That matters when useful evidence lives outside the obvious company profile. Product and technical documentation, privacy or security pages, job listings, customer stories, niche directories, and public databases can reveal technology choices, initiatives, relationships, or changes that a standard data provider misses."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The goal is to know where else to look when obvious sources fall short—and when to stop."
+        }
+      ]
+    },
+    {
+      "id": "build-a-useful-point-of-view",
+      "title": "Turn facts into a useful point of view",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A strong brief separates facts from inferences, keeps links close to material findings, and treats likely priorities as hypotheses."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Depending on your question, the result might include:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "What the company does and what has changed.",
+            "The relationship and relevant previous activity.",
+            "The people who matter and credible paths into the account.",
+            "Technology, vendors, initiatives, or market context.",
+            "Likely priorities or risks, clearly marked as hypotheses.",
+            "The next question or action that would move the work forward."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "A few findings that change what you do beat a generic company profile."
+        }
+      ]
+    },
+    {
+      "id": "improve-each-brief",
+      "title": "Use feedback to make every account brief better",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Tell your companion what mattered, what felt generic, which sources you trust, and what you want next time. It can carry forward your preferred depth, useful fields, qualification bar, and format."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the brief would help others working the account, share an approved version while keeping private relationship context and unreviewed hypotheses separate. Share the accepted research method as a team skill when others should reuse it, or share the full companion when the team needs the same account context across several sales workflows. A Routine can watch agreed sources and prepare an update when something meaningful changes."
+        }
+      ]
+    },
+    {
+      "id": "connect-the-next-step",
+      "title": "Connect research to the next piece of work",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Use account research to prepare for a meeting, enrich missing contacts, send thoughtful outreach, update the CRM, or revisit the strategy. Strawberry carries the context into the next step."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/prepare-for-sales-meetings",
+              "roleId": "sales-business-development",
+              "context": "Turn the account context into a concise brief for an upcoming conversation."
+            },
+            {
+              "id": "strawberry/sales/enrich-lead-list",
+              "roleId": "sales-business-development",
+              "context": "Find and verify the contacts or fields needed for the next step."
+            },
+            {
+              "id": "strawberry/sales/send-personalized-outreach",
+              "roleId": "sales-business-development",
+              "context": "Use the research to prepare thoughtful outreach in the user's voice."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Open the Research an Account skill with one company and the question you need answered. Your companion can start with the context already available, give you a useful first view, and go deeper where it will actually help."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to automate your sales pipeline with AI",
+      "description": "See how account research connects with prospecting, meetings, outreach, CRM work, and pipeline decisions.",
+      "href": "/playbooks/automate-sales-pipeline"
+    }
+  ]
+}

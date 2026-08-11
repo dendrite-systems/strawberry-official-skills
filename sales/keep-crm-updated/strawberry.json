@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "displayName": "Keep my CRM updated from my emails",
-  "summary": "Keep your CRM in sync without logging anything manually.",
+  "displayName": "Keep Your CRM Up to Date",
+  "summary": "Turn approved emails, meetings, and sales activity into reviewable CRM updates.",
   "icon": "inbox",
   "tags": [],
   "useCases": [
     {
       "roleId": "sales-business-development",
       "weight": 76,
-      "title": "Keep my CRM updated from my emails",
-      "message": "Help me keep my CRM up to date without manual logging. If you don't already know, ask me which CRM I use and which email account to monitor. Then set up a Routine to monitor my emails and update the records automatically."
+      "title": "Keep my CRM up to date",
+      "message": "Help me keep my CRM current from recent emails, meetings, and sales activity. Use the CRM and context already available, then show me a small set of proposed updates with their sources so I can correct the mapping before anything changes."
     }
   ]
 }

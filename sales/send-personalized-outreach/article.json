@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-sales-outreach-automation",
+  "title": "How to automate personalized sales outreach with AI",
+  "description": "Learn how to research, write, send, and improve personalized AI sales outreach—from a first message to thoughtful follow-ups and Routines.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-10T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "AI sales outreach often promises personalization at scale and delivers the opposite: more messages that sound generic, over-researched, or nothing like the person sending them. Useful automation should carry real context and your own judgment from research through sending and follow-up.",
+    "Strawberry is a browser with built-in AI agents. Your companion can learn from messages you have approved, research across the web, and work with context from LinkedIn, email, your CRM, files, meetings, open tabs, and connected apps. Because it works across the places where sales actually happens, it can help with the whole job instead of handing it back to you after generating copy."
+  ],
+  "sections": [
+    {
+      "id": "what-you-can-build",
+      "title": "What you can build with Strawberry",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Your first win might be a thoughtful message to an important prospect or a small batch you are ready to send. From there, your companion can help you:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Find the right people and reliable ways to reach them.",
+            "Research why a conversation might be useful right now.",
+            "Reach people through email, LinkedIn, and the tools your team already uses.",
+            "Follow replies, prepare the next step, and keep the CRM up to date.",
+            "Turn a good process into a reusable skill, sequence, or Routine."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "You do not have to build it all at once."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/send-personalized-outreach",
+              "roleId": "sales-business-development",
+              "context": "Research, write, review, send, and improve one message, a small batch, or a coordinated sequence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "start-with-the-relationship",
+      "title": "Start with the relationship and the result",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Before writing, get clear on who you are contacting, what relationship already exists, and what you hope happens next. Cold prospecting, warm introductions, event follow-up, re-engagement, partner outreach, and customer communication should not inherit the same message or process."
+        },
+        {
+          "kind": "paragraph",
+          "text": "There are three useful starting points:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "One message for a personal or high-context situation.",
+            "A small batch to calibrate the audience, voice, or offer before going wider.",
+            "A sequence for a repeatable audience where useful follow-ups matter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bring-together-the-context",
+      "title": "Bring together the context that matters",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Useful context often lives across email, meetings, CRM, open tabs, LinkedIn, files, and connected apps. Strawberry brings it together without requiring a giant prompt."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Research depth should fit the goal. Important accounts may justify deeper work across company pages, LinkedIn, public databases, and less obvious sources; a familiar audience may need less. Because Strawberry works in the browser, it can follow real sources when the first answer is incomplete. The goal is evidence that improves the reason to reach out—not proof that an agent searched the recipient."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Still need the audience? Find New Customers can build and qualify a small set before writing."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/find-new-customers",
+              "roleId": "sales-business-development",
+              "context": "Find and qualify customers who fit before preparing outreach."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the audience is clear but the data is not, your companion can find the right person and check missing contact details. It can research the web or use connected enrichment and verification tools. Reliable verification helps protect scaled cold email; a few warm messages may need less."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/enrich-lead-list",
+              "roleId": "sales-business-development",
+              "context": "Add, verify, or correct the company and contact data you need before reaching out."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sound-like-you",
+      "title": "Teach your companion to sound like you",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "You do not need a long tone guide. Use a simple feedback loop:"
+        },
+        {
+          "kind": "list",
+          "style": "ordered",
+          "items": [
+            "Let your companion learn from messages you have sent or examples you choose.",
+            "Review a few meaningfully different messages.",
+            "Say what sounds right, what feels artificial, and what you would say differently."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "For a deeper pass, Learn Your Writing Style can turn approved examples into guidance your companion carries into future work."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Spend a little more time on the first run. Your companion loves feedback; once it learns your voice, audience, and preferences, later batches become much faster."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Personalization does not require a recent post or clever personal detail in every message. Relationship history, segment context, or a clear explanation of why you chose the recipient may be stronger—and often sounds more human than forced praise."
+        }
+      ]
+    },
+    {
+      "id": "choose-review-and-send",
+      "title": "Choose the channel, review the first set, and send",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Choose the channel that fits the relationship."
+        },
+        {
+          "kind": "table",
+          "columns": ["Channel", "When it may fit", "How Strawberry can help"],
+          "rows": [
+            [
+              "Email",
+              "Direct outreach or an existing thread",
+              "Find and verify contact details, research, write, send, follow replies, and keep the CRM current"
+            ],
+            [
+              "LinkedIn",
+              "Professional discovery, direct outreach, or warm network paths",
+              "Research real profiles and reach out from your logged-in account, with review and account-safety guardrails"
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Choose where the work should live: chat, inbox, LinkedIn, a sales platform, or CRM. Strawberry can work across them without copy-and-paste."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Before anything goes out, five things are worth a look:"
+        },
+        {
+          "kind": "list",
+          "style": "ordered",
+          "items": [
+            "Are these the right people, with contact details you trust?",
+            "Do the messages sound like you and fit each relationship?",
+            "Is the reason for reaching out clear and credible?",
+            "Are the channel, sender, destination, and timing right?",
+            "Is your companion preparing drafts or actually sending—and what happens after a reply?"
+          ]
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/send-personalized-outreach",
+              "roleId": "sales-business-development",
+              "context": "Start with a real audience, review a useful first set, and send when it feels right."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "add-useful-follow-ups",
+      "title": "Add follow-ups that do useful work",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Thoughtful follow-ups keep promising conversations from being missed. A sequence makes that repeatable: who belongs, what each step adds, when it runs, and what stops or changes it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A follow-up might deliver something promised, add proof, make the next step easier, address a real objection, or close the loop. It should not repeat the first message because a timer expired. Replies, meetings, opt-outs, bounces, referrals, and relationship changes should alter what happens next."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A sequence can include a phone call or other human step. Your companion can prepare it and carry the outcome forward."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Your companion can carry replies and next steps into the CRM, keeping outreach connected to the rest of sales."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/keep-crm-updated",
+              "roleId": "sales-business-development",
+              "context": "Preserve approved outreach, replies, and next steps without silently changing the pipeline."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "save-what-works",
+      "title": "Save what works and make the next run easier",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Once the approach feels right, save the voice, research depth, channels, messages, and follow-up logic as a custom skill. Share an approved message or sequence when teammates need this result, or share the skill when they should reuse the method. If the team needs the same relationship context across outreach and other sales work, share the full companion."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A useful trigger or cadence can become a Routine: prepare weekday drafts, scan replies that should pause future touches, or summarize weekly results and data issues. Start read-only or draft-first, then automate more once you trust the workflow."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For a wider view, use Review Your Sales Pipeline to find the deals and relationships that need attention next."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/review-sales-pipeline",
+              "roleId": "sales-business-development",
+              "context": "Find the deals that need attention and turn them into clear next actions."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Open the Send Personalized Outreach skill in Strawberry with one real audience. Your companion can prepare a useful first set and improve it with your feedback before anything is sent."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to automate your sales pipeline with AI",
+      "description": "Connect outreach with prospecting, account research, meetings, CRM work, and pipeline decisions.",
+      "href": "/playbooks/automate-sales-pipeline"
+    },
+    {
+      "title": "How to use AI for sales prospecting",
+      "description": "Find and qualify better-fit customers before preparing your outreach.",
+      "href": "/blog/ai-sales-prospecting"
+    }
+  ]
+}
