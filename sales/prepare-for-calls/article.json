@@ -48,7 +48,7 @@
       "title": "Make the brief actionable",
       "paragraphs": [
         "Prioritize the few developments, concerns, questions, and talking points most likely to affect the outcome. A practical brief usually includes participants, relationship context, the purpose of the call, recent developments, open threads, recommended questions, and a desired outcome.",
-        "Present the information in scan order, keep uncertainty visible, and adjust the depth after the user reviews a real brief. Once the format works, preserve the accepted sources, priorities, and structure as a custom skill."
+        "Present the information in scan order, keep uncertainty visible, and adjust the depth after the user reviews a real brief. When others are joining the conversation, share an approved version with the relevant teammates while keeping private notes and sensitive hypotheses separate. Once the format works, preserve the accepted sources, priorities, and structure as a custom or team skill."
       ],
       "skills": []
     },
@@ -63,7 +63,12 @@
         {
           "id": "strawberry/operations/transcribe-meetings-follow-up",
           "roleId": "other",
-          "context": "Use this to preserve decisions, actions, and follow-up after the meeting."
+          "context": "Use this to capture the conversation without a meeting bot."
+        },
+        {
+          "id": "strawberry/sales/debrief-a-sales-meeting",
+          "roleId": "sales-business-development",
+          "context": "Use the transcript or notes to prepare a sales debrief and complete the follow-through."
         }
       ]
     }

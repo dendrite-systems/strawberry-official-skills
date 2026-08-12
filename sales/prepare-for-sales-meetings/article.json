@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-sales-meeting-preparation",
+  "title": "How to prepare for a sales meeting with AI",
+  "description": "Use AI sales meeting preparation to bring calendar, email, CRM, meeting, and web context into one concise brief you can use during the meeting.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-11T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "The awkward part of sales meeting preparation is rarely finding one more fact about the company. It is pulling together the context that already exists: who is joining, why the meeting is happening, what happened last time, where the deal stands, and what you promised to bring.",
+    "Strawberry is a browser with built-in AI agents. Your companion can work across your calendar, email, CRM, previous meetings, files, open tabs, connected apps, and the web, then turn the useful parts into a concise brief you can keep open during the meeting. When the meeting starts in five minutes, it should move quickly. When the stakes are higher and there is time to prepare, it can go deeper."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-real-meeting",
+      "title": "Start with the meeting that is actually happening",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A useful brief starts with the real event, attendees, relationship, and outcome—not a generic company profile. Calendar is usually the fastest and most reliable starting point because it identifies the meeting and gives your companion exact names, email addresses, timing, and invite context."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Connecting Calendar can make this faster, more reliable, and more credit-efficient. It is not a prerequisite. Strawberry can also begin from an open tab, a meeting link or invite, or the details you provide."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/prepare-for-sales-meetings",
+              "roleId": "sales-business-development",
+              "context": "Turn one upcoming sales meeting into a concise brief you can use before and during the conversation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "match-the-prep-to-the-moment",
+      "title": "Match the preparation to the time and stakes",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Not every meeting deserves the same amount of research. The useful question is not “How complete can this brief be?” It is “What will help most in the time available?”"
+        },
+        {
+          "kind": "table",
+          "columns": ["Situation", "Useful preparation"],
+          "rows": [
+            ["The meeting is imminent", "Deliver the essentials now: who, why, latest interaction, where things stand, one useful anchor, and the desired outcome."],
+            ["There is time for a standard pass", "Add relevant email, CRM, prior-meeting, account, and stakeholder context without turning the brief into homework."],
+            ["The meeting is important or the user asks for depth", "Investigate meaningful gaps, recent changes, stakeholders, product or market context, and questions worth testing."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "When deeper work is useful, your companion can deliver the short brief first and continue researching underneath it. You should not miss the useful answer because the complete answer is still being assembled."
+        }
+      ]
+    },
+    {
+      "id": "use-the-context-that-matters",
+      "title": "Use the relationship context that matters",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Recent relationship context often matters more than broad web research. The latest email may contain an unanswered question. The CRM may show the actual stage and owner. Previous meeting notes may contain a promise or objection that should shape this conversation."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once Strawberry knows the attendees and account, it can check independent sources in parallel and bring back only what affects the meeting. If email or CRM context would materially improve the result, your companion can suggest connecting the relevant app and explain why. It should still produce a useful first brief from what is available."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When an important gap remains, being a browser matters. Strawberry can open the real company site, move through LinkedIn or another logged-in tool, follow documentation and useful links, and investigate beyond the first search result. If the account needs a deeper investigation, use Account Research rather than forcing all of that work into every meeting brief."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/research-an-account",
+              "roleId": "sales-business-development",
+              "context": "Go deeper on the company, stakeholders, relationship, and useful way forward when the meeting brief reveals a real research gap."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keep-the-brief-open",
+      "title": "Create a brief you can keep open during the meeting",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A meeting brief should help in the conversation, not only before it. Keep the main view to roughly one screen and use bullets you can find again at a glance."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Who: attendees and essential relationship or account context.",
+            "Why now: the purpose and latest meaningful interaction.",
+            "Where things stand: the deal, commitments, open questions, or blockers.",
+            "Bring this: the strongest anchor, example, or promised item.",
+            "Ask: a few questions or points worth testing.",
+            "Aim for: the decision, outcome, or next step."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Keep useful evidence and links beside the bullet they support. If you need to verify a detail or open the latest thread mid-meeting, it should be one click away—not hidden in a source appendix or buried in several pages of research."
+        }
+      ]
+    },
+    {
+      "id": "teach-your-companion-what-good-prep-looks-like",
+      "title": "Teach your companion what good preparation looks like",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The first brief gives you something real to react to. Tell your companion what deserved more attention, what it could have left out, which sources you trust, and how you like to prepare. It can remember those preferences so later briefs become faster and feel more like the way you would prepare yourself."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the format works, save the accepted approach as a custom or team skill. Share an approved brief when teammates need this result, share the skill when they should reuse the preparation method, or share the full companion when the team needs the same customer context and several connected sales workflows."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the workflow is trusted, a Routine can check the agreed calendar events at the right lead time, combine the useful email, CRM, meeting, and account context, and deliver each concise brief in chat. If the meeting or attendee match is unclear, it should stop and ask rather than prepare for the wrong conversation."
+        }
+      ]
+    },
+    {
+      "id": "carry-the-context-through-the-meeting",
+      "title": "Carry the context through the meeting",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Preparation is the beginning of the meeting loop. Strawberry can transcribe the conversation without adding a meeting bot. Afterwards, your companion can turn what was said into a sales debrief, follow-up, CRM changes, and the next piece of work—without making you reconstruct the relationship again."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/debrief-a-sales-meeting",
+              "roleId": "sales-business-development",
+              "context": "Turn the completed conversation into a grounded debrief and useful follow-through."
+            },
+            {
+              "id": "strawberry/sales/create-a-sales-asset",
+              "roleId": "sales-business-development",
+              "context": "Turn approved account and meeting context into a customer-facing asset when the next step needs more than an email."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Open Prepare for a Sales Meeting with one real event. Your companion can give you a brief that fits the time you have now, then learn how to make every future meeting easier to walk into."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for better sales account research",
+      "description": "Build a sourced view of the account, relationship, and most useful way forward.",
+      "href": "/blog/ai-sales-account-research"
+    },
+    {
+      "title": "How to use AI for sales meeting notes and follow-up",
+      "description": "Carry the conversation into a useful debrief, follow-up, CRM updates, and next actions.",
+      "href": "/blog/ai-sales-meeting-notes-follow-up"
+    }
+  ]
+}

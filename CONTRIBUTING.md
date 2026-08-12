@@ -4,7 +4,9 @@ Open an issue or pull request describing the concrete result the workflow should
 
 Keep every Official Skill focused on a demonstrable outcome. Put executable instructions in
 `SKILL.md` and compact discovery fields in the adjacent `strawberry.json`. Add `article.json` only
-when the skill also has public editorial content.
+when the skill also has public editorial content. New articles may use ordered paragraph, list,
+table, and skill-card blocks so educational content stays easy to scan; legacy paragraph-and-card
+sections remain supported.
 
 Use `name` and `description` as the only `SKILL.md` frontmatter fields. Make the description clear
 about what the skill does and when it applies. Keep the body concise, use examples as guidance, and

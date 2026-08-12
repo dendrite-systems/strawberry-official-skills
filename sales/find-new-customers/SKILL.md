@@ -100,8 +100,12 @@ matters.
 
 Finding prospects, drafting outreach, adding CRM records, and enrolling or sending messages are
 separate steps. Do not change external records or contact anyone without the user's approval. If the
-user wants to contact approved prospects, use `strawberry/sales/personalized-outreach-sequence`.
+user wants to contact approved prospects, use `strawberry/sales/send-personalized-outreach`.
 
 After the user has reviewed and improved a useful result, offer to save the accepted criteria,
-sources, fields, destination, and review points as a custom skill. Once it works reliably and has a
-useful cadence or trigger, offer to turn it into a Routine.
+sources, fields, destination, and review points as a custom skill. When useful, also offer to share
+the approved prospect list or accepted sourcing method with the relevant teammates in their agreed
+destination. Keep sharing the list, sharing the method, and changing external systems as separate
+choices. When teammates need the same context and several Sales workflows—not only this sourcing
+method—offer to share the full companion. Once the workflow works reliably and has a useful cadence
+or trigger, offer to turn it into a Routine.

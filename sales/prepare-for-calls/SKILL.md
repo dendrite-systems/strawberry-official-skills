@@ -49,9 +49,15 @@ recent developments, likely concerns, recommended questions, and a clear desired
 
 ## Suggested next steps
 
-- After the format is useful, preserve the user's preferences as a user-owned skill. After a few
-  successful runs, offer to schedule preparation at their preferred cadence.
-- Read `strawberry/operations/transcribe-meetings-follow-up` when the user wants to capture the meeting and
-  turn what was said into approved notes, actions, and follow-up.
-- Read `strawberry/sales/keep-crm-updated` when approved meeting context or next steps should be reflected
-  in the CRM.
+- Read `strawberry/sales/research-an-account` when the account or stakeholder needs deeper
+  investigation than a concise meeting brief.
+- When the approved brief would help others joining the conversation, offer to share it with the
+  relevant teammates in their agreed destination. Keep private notes and sensitive hypotheses out
+  of the shared version.
+- After the format is useful, preserve the user's preferences as a custom or shared team skill.
+  After a few successful runs, offer to schedule preparation at their preferred cadence.
+- Read `strawberry/operations/transcribe-meetings-follow-up` when the user wants to capture the
+  meeting. Once a transcript or notes are ready, read `strawberry/sales/debrief-a-sales-meeting`
+  for sales-specific interpretation and follow-through.
+- Read `strawberry/sales/keep-crm-updated` when approved meeting context or next steps should be
+  reflected in the CRM.

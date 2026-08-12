@@ -5,12 +5,12 @@
   "title": "How to automate your sales pipeline with AI",
   "description": "Learn how to automate your sales pipeline with AI across prospecting, research, meetings, outreach, CRM updates, and pipeline reviews.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
   "publishedAt": "2026-07-24T00:00:00.000Z",
   "noindex": false,
@@ -25,7 +25,7 @@
       "id": "start-with-real-work",
       "title": "Where to start with AI sales automation",
       "paragraphs": [
-        "Strawberry can help across the whole sales journey, but the best first task depends on what is happening now. You might find promising new customers, research an account and find a way in, get ready for tomorrow’s meeting, or build an outreach sequence that sounds like you. If you already have something else in mind, start there.",
+        "Strawberry can help across the whole sales journey, but the best first task depends on what is happening now. You might find promising new customers, research an account and find a way in, get ready for tomorrow’s meeting, or send personalized outreach that sounds like you. If you already have something else in mind, start there.",
         "Not sure which would be most useful? Ask Strawberry to recommend a first win from your open tabs, connected apps, and the context it already has. If there is not much to work from yet, it can suggest a useful app to connect—such as your email, calendar, or CRM—and explain what that would unlock. You do not need to connect everything or complete a setup project before doing useful work.",
         "The focused Strawberry skills linked throughout this guide give your agent useful starting points for each job. They are not rigid sales methodologies: your companion can adapt them to the result you need and the way your team already works."
       ],
@@ -52,7 +52,7 @@
       "paragraphs": [
         "When you need new pipeline, Strawberry can work from a description of the customer, an ICP document, or examples of accounts you already win. It can search sources such as LinkedIn and company websites, explain why each prospect fits, and bring the result back to a sheet, CRM, dashboard, or chat.",
         "Valuable sales signals often live outside standard databases. Strawberry can investigate niche directories, public websites, and older databases to uncover relevant evidence, while keeping the source behind each finding.",
-        "Try a small, varied set first and give your agent feedback before going wider. If you already have the companies, enrich the list instead. When you are ready for outreach, it can build a sequence in your voice and show you representative messages before anything is enrolled or sent."
+        "Try a small, varied set first and give your agent feedback before going wider. If you already have the companies, enrich the list instead. When you are ready, it can prepare and send personalized outreach in your voice, starting with representative messages and adding a sequence when follow-ups would help."
       ],
       "skills": [
         {
@@ -66,9 +66,9 @@
           "context": "Add verified contacts and agreed qualification fields to an existing list."
         },
         {
-          "id": "strawberry/sales/personalized-outreach-sequence",
+          "id": "strawberry/sales/send-personalized-outreach",
           "roleId": "sales-business-development",
-          "context": "Build a personalized outreach sequence in the user's voice and review representative messages before sending."
+          "context": "Send personalized outreach in the user's voice, starting with representative messages and adding a sequence when useful."
         }
       ]
     },
@@ -81,12 +81,12 @@
       ],
       "skills": [
         {
-          "id": "strawberry/sales/research-prospect-before-meeting",
+          "id": "strawberry/sales/research-an-account",
           "roleId": "sales-business-development",
           "context": "Research an account, contact, relationship, and credible way into the conversation."
         },
         {
-          "id": "strawberry/sales/prepare-for-calls",
+          "id": "strawberry/sales/prepare-for-sales-meetings",
           "roleId": "sales-business-development",
           "context": "Turn current calendar, relationship, account, and web context into a concise meeting brief."
         }
@@ -96,14 +96,25 @@
       "id": "close-the-loop",
       "title": "Carry the context from the meeting into follow-up",
       "paragraphs": [
-        "The same context that helps before a meeting becomes even more useful afterwards. Strawberry can transcribe the conversation without adding a meeting bot, then turn the transcript or notes into decisions, objections, commitments, owners, a follow-up draft, and suggested CRM updates—all grounded in what was actually said.",
-        "You stay in control of what happens next. Reviewing a recap does not mean sending the email or changing the CRM. Once you approve the message and updates, Strawberry can finish the follow-through without another round of copying."
+        "The same context that helps before a meeting becomes even more useful afterwards. Strawberry can transcribe the conversation without adding a meeting bot. Once the transcript or notes are ready, your companion can prepare a sales debrief, follow-up, next actions, and suggested CRM updates—all grounded in what was actually said.",
+        "If the next step needs more than an email, your companion can also turn the account and meeting context into a customer-facing one-pager, deck, tailored page, or interactive asset built around the next decision.",
+        "You stay in control of what happens next. Reviewing a recap does not mean sending the email, sharing an asset, or changing the CRM. Once you approve the work, Strawberry can finish the follow-through without another round of copying."
       ],
       "skills": [
         {
           "id": "strawberry/operations/transcribe-meetings-follow-up",
           "roleId": "sales-business-development",
-          "context": "Turn a real conversation into decisions, action items, and a grounded follow-up draft."
+          "context": "Capture the conversation without a meeting bot and turn it into a reliable record."
+        },
+        {
+          "id": "strawberry/sales/debrief-a-sales-meeting",
+          "roleId": "sales-business-development",
+          "context": "Turn the conversation into a sales debrief, grounded follow-up, CRM changes, and next actions."
+        },
+        {
+          "id": "strawberry/sales/create-a-sales-asset",
+          "roleId": "sales-business-development",
+          "context": "Turn the approved account and meeting context into a customer-facing asset for the next decision."
         },
         {
           "id": "strawberry/sales/keep-crm-updated",
@@ -169,12 +180,12 @@
     {
       "title": "Prepare for a sales call",
       "description": "Open the focused workflow for creating a concise, connected meeting brief.",
-      "href": "/prompts/prepare-for-calls"
+      "href": "/prompts/prepare-for-sales-meetings"
     },
     {
       "title": "Research an account",
       "description": "Open the focused workflow for sourced account and relationship research.",
-      "href": "/prompts/research-prospect-before-meeting"
+      "href": "/prompts/research-an-account"
     }
   ],
   "navigation": {

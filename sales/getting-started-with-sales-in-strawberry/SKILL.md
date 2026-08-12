@@ -31,7 +31,7 @@ lead. If they are unsure, offer a small set of useful starting points:
 - find promising new customers;
 - research an account and find a way in;
 - get ready for an upcoming meeting;
-- build an outreach sequence that sounds like them;
+- send personalized outreach that sounds like them;
 - recommend a first win from their open tabs, connected apps, and other available context;
 - tell you what they already have in mind.
 
@@ -49,21 +49,25 @@ skill fits, help using your normal capabilities rather than forcing the task int
 workflow. A useful process that repeats can later become a custom skill.
 
 - **Research an account and find a way in:** read
-  `strawberry/sales/research-prospect-before-meeting`. Use it whether or not a meeting is already
+  `strawberry/sales/research-an-account`. Use it whether or not a meeting is already
   scheduled. Start from the decision or conversation the research should help with.
-- **Prepare for an upcoming sales conversation:** read `strawberry/sales/prepare-for-calls`.
+- **Prepare for an upcoming sales conversation:** read
+  `strawberry/sales/prepare-for-sales-meetings`.
 - **Turn a conversation into next steps:** when a transcript or notes exist, read
-  `strawberry/operations/transcribe-meetings-follow-up`, then use
-  `strawberry/sales/keep-crm-updated` for CRM changes the user approves.
+  `strawberry/sales/debrief-a-sales-meeting`. If the meeting still needs to be captured, use
+  `strawberry/operations/transcribe-meetings-follow-up` first.
 - **Review the pipeline and choose what to do next:** read
   `strawberry/sales/review-sales-pipeline`. Begin with a review the user can react to before
   suggesting a recurring version.
 - **Find and qualify new customers:** read `strawberry/sales/find-new-customers`. Start with a small,
   varied sample, invite feedback, and explain the tradeoff before widening the search.
 - **Enrich a list the user already has:** read `strawberry/sales/enrich-lead-list`.
-- **Build an outreach sequence that sounds like the user:** read
-  `strawberry/sales/personalized-outreach-sequence`. Agree on the channel and destination, show a
-  few representative messages, and keep sending or enrollment as a separate decision.
+- **Send personalized outreach that sounds like the user:** read
+  `strawberry/sales/send-personalized-outreach`. Agree on the channel and destination, show a few
+  representative messages, and get approval before sending or enrollment.
+- **Create a customer-facing sales asset:** read `strawberry/sales/create-a-sales-asset`. Use the
+  account and meeting context already available to recommend and create the simplest useful format
+  for the next customer decision.
 - **Clean or update CRM records:** read `strawberry/sales/keep-crm-updated`.
 
 When several options fit, recommend the best first one and no more than two alternatives. Explain
@@ -92,6 +96,7 @@ After a useful result, suggest one natural next step when it would genuinely hel
 - account research -> meeting preparation -> follow-up -> approved CRM update;
 - small prospect sample -> feedback -> wider search -> enrichment;
 - account research and writing examples -> outreach sample -> approved sequence;
+- account research or meeting context -> customer-facing asset -> approved delivery;
 - pipeline review -> prioritized next actions -> later weekly Routine;
 - a workflow shaped through feedback -> custom skill -> shared Sales companion when useful.
 

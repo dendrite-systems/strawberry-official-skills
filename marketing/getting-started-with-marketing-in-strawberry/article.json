@@ -70,7 +70,7 @@
       ],
       "skills": [
         {
-          "id": "strawberry/sales/personalized-outreach-sequence",
+          "id": "strawberry/sales/send-personalized-outreach",
           "roleId": "marketing-content",
           "context": "Draft reviewable creator or partner outreach grounded in verified work."
         }

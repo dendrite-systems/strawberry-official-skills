@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-crm-data-entry-automation",
+  "title": "How to automate CRM data entry with AI",
+  "description": "Turn emails, meetings, and sales activity into accurate, reviewable CRM updates without silent changes or hours of manual data entry.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-11T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "CRM data goes stale for a simple reason: sales work happens somewhere else. The meeting is in a transcript, the reply is in email, the relationship is visible on LinkedIn, and the next step is still in someone’s head. Keeping the CRM current becomes a second job after the real work is done.",
+    "AI can remove much of that data entry, but only if you can trust the result. Strawberry is a browser with built-in AI agents. Your companion can work across your CRM, meetings, email, tabs, files, outreach, and connected apps, then prepare accurate updates you can review before anything important changes."
+  ],
+  "sections": [
+    {
+      "id": "start-with-one-real-source",
+      "title": "Start with one real piece of sales activity",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "You do not need to automate the whole CRM on day one. Start with something that just happened: a meeting, a set of replies, an outreach batch, or one account that needs to be brought up to date. This gives your companion a real result to prepare and gives you a useful way to correct the mapping."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/keep-crm-updated",
+              "roleId": "sales-business-development",
+              "context": "Turn recent sales activity into a small, reviewable set of CRM updates before changing anything."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Your companion can learn the structure that already exists—your records, stages, fields, owners, and definitions—rather than forcing a generic CRM process onto the team."
+        }
+      ]
+    },
+    {
+      "id": "turn-activity-into-useful-records",
+      "title": "Turn the work into useful CRM records",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The goal is not to log everything. It is to preserve the context the team will need for the next conversation or decision."
+        },
+        {
+          "kind": "table",
+          "columns": ["What happened", "What your companion can prepare"],
+          "rows": [
+            ["A meeting finished", "The outcome, useful notes, commitments, next action, and relevant field changes"],
+            ["An email or LinkedIn message was sent", "The actual activity, date, message, channel, and intended next step"],
+            ["A customer or prospect replied", "The response, relationship signal, follow-up, and proposed status change"],
+            ["A stakeholder changed role or company", "A sourced contact correction and any account relationship that needs review"],
+            ["A deal changed", "Proposed stage, amount, timing, forecast, owner, or next-step updates for explicit review"],
+            ["A commitment or deadline emerged", "A clear task with the right owner, context, and date"]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Accuracy includes the state of the work. A draft is not a sent message, a planned meeting is not a completed one, and polite interest is not a closed deal."
+        }
+      ]
+    },
+    {
+      "id": "make-automation-reviewable",
+      "title": "Make the automation easy to trust",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Silent CRM automation creates a different kind of admin: finding and repairing changes no one understands. A better first setup shows a compact proposed update with the source, target record, change, and reason. For a new workflow or larger batch, review a representative set before it goes wider."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Match existing contacts, accounts, and opportunities before creating new ones.",
+            "Surface uncertain matches or conflicting values instead of guessing.",
+            "Keep consequential changes such as stage, forecast, amount, owner, and close date visible for review.",
+            "Apply only the approved scope and report anything skipped."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once you trust the mapping, routine updates can become much faster. The point of the first review is to teach your companion how your CRM works, not to add another permanent approval ceremony."
+        }
+      ]
+    },
+    {
+      "id": "connect-the-rest-of-sales",
+      "title": "Connect the CRM to the rest of sales",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A current CRM is most useful when it stays connected to the work around it. Meeting outcomes should improve follow-up. Outreach and replies should update the relationship history. Pipeline reviews should use the latest customer context, then send the resulting decisions back into the CRM."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/debrief-a-sales-meeting",
+              "roleId": "sales-business-development",
+              "context": "Turn a completed conversation into clear outcomes, commitments, follow-up, and proposed CRM changes."
+            },
+            {
+              "id": "strawberry/sales/send-personalized-outreach",
+              "roleId": "sales-business-development",
+              "context": "Keep approved sends, replies, and follow-ups connected to the customer record."
+            },
+            {
+              "id": "strawberry/sales/review-sales-pipeline",
+              "roleId": "sales-business-development",
+              "context": "Use current CRM and recent context to decide which deals and relationships need attention."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Because Strawberry works across the browser and connected apps, your companion can carry the context through this loop instead of stopping after a summary or making you copy it between tools."
+        }
+      ]
+    },
+    {
+      "id": "teach-your-companion-the-workflow",
+      "title": "Teach your companion how your team works",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Use feedback from the first few runs to teach your companion which sources matter, how records should match, what each field means, and which changes deserve review. Share the accepted method as a team skill when others should keep the CRM current the same way. If the team needs the same customer context across CRM, meetings, outreach, and pipeline work, share the full companion."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the workflow is reliable, turn the right trigger into a Routine. It might begin when a meeting transcript is ready or run on a useful daily or weekly cadence. A good first version checks the accepted sources, prepares proposed CRM updates, and flags uncertain items. It can take on more after the team trusts it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Open the Keep Your CRM Up to Date skill with one recent meeting, conversation, or account. Your companion can prepare the first set of changes now, then learn how to keep the CRM useful with far less manual work."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for sales meeting notes and follow-up",
+      "description": "Turn each conversation into a useful debrief, follow-up, CRM updates, and better context for the next meeting.",
+      "href": "/blog/ai-sales-meeting-notes-follow-up"
+    },
+    {
+      "title": "How to run a better sales pipeline review with AI",
+      "description": "Use current deal context to focus the team on the risks, opportunities, and next actions that matter.",
+      "href": "/blog/ai-sales-pipeline-review"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Research an Account",
+  "summary": "Understand a company, relationship, and way forward with sourced research.",
+  "icon": "binoculars",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "sales-business-development",
+      "weight": 104,
+      "title": "Research an account and find a way in",
+      "message": "Research this account and help me understand the company, our existing relationship, what matters now, and the most useful way forward. Start with the context already available and give me a concise sourced brief before offering a deeper pass."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 96,
+      "title": "Help me understand this company",
+      "message": "Research this company for me. Use the context I already have, investigate the sources that matter, and tell me what is most important for the decision or conversation ahead."
+    },
+    {
+      "roleId": "agency",
+      "weight": 90,
+      "title": "Research a client or prospective client",
+      "message": "Research this client or prospective client and give me a sourced view of their business, our relationship, relevant changes, and the best next step."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 88,
+      "title": "Research a company before advising them",
+      "message": "Help me understand this company before I advise or meet with them. Focus the research on the decision I need to make and keep the important sources easy to inspect."
+    },
+    {
+      "roleId": "venture-capital",
+      "weight": 84,
+      "title": "Research a company before taking the next step",
+      "message": "Research this company and give me a concise, sourced view of what it does, what has changed, the people who matter, and which questions I should investigate next."
+    }
+  ]
+}

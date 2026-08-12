@@ -56,7 +56,13 @@
         "Pull out decisions, open questions, action items, owners, dates, and promised follow-ups only where they are useful. Draft communication from what was actually said and keep external messages or record changes reviewable until approved.",
         "A good result is not a transcript dump. It is a linked source plus concise notes and the next actions in the user's accepted destination."
       ],
-      "skills": []
+      "skills": [
+        {
+          "id": "strawberry/sales/debrief-a-sales-meeting",
+          "roleId": "sales-business-development",
+          "context": "Use this when a sales conversation needs a focused debrief, follow-up, CRM changes, and next actions."
+        }
+      ]
     },
     {
       "id": "make-the-format-repeatable",

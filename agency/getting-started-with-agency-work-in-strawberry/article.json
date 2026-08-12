@@ -42,7 +42,7 @@
           "context": "Build and calibrate a reviewable shortlist of prospective clients."
         },
         {
-          "id": "strawberry/sales/personalized-outreach-sequence",
+          "id": "strawberry/sales/send-personalized-outreach",
           "roleId": "agency",
           "context": "Draft reviewable outreach grounded in verified relevance and agency voice."
         }

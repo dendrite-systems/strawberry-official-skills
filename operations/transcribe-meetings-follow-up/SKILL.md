@@ -50,6 +50,8 @@ records, owned actions, and a follow-up draft grounded in the conversation.
 
 ## Suggested next steps
 
+- For a sales, prospect, customer, or partner conversation that needs sales-specific interpretation
+  and follow-through, use `strawberry/sales/debrief-a-sales-meeting` once a reliable record exists.
 - When approved meeting context or next steps belong in the CRM, use
   `strawberry/sales/keep-crm-updated`.
 - After the workflow proves useful, preserve the accepted destinations, note structure, approval
