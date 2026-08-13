@@ -60,6 +60,10 @@ sourced visual brief, or `strawberry/marketing/run-competitor-analysis` for a br
 source links and dates, distinguish facts from inference, expose uncertainty or contradictions,
 and interpret the evidence for the founder's decision.
 
+When the founder needs to understand a market before choosing a segment, entering a geography,
+building an account universe, or mapping an ecosystem, read `strawberry/research-analysis/map-a-market`.
+Keep the landscape separate from any later prospect list, investment recommendation, or outreach.
+
 ## Other things to try
 
 Offer these as discovery ideas once a core workflow is useful, not as complete standalone

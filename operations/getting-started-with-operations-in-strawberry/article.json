@@ -72,11 +72,6 @@
       ],
       "skills": [
         {
-          "id": "strawberry/recruiting/onboard-offboard-teammates",
-          "roleId": "operations-chief-of-staff",
-          "context": "Use this for repeatable team access and handoff checklists."
-        },
-        {
           "id": "strawberry/operations/set-up-shared-team-workflow",
           "roleId": "operations-chief-of-staff",
           "context": "Turn an accepted operational process into a shared team workflow."
@@ -90,11 +85,6 @@
       "title": "How to prompt AI for operations",
       "description": "The existing article on recurring administrative and operational workflows.",
       "href": "/blog/how-to-prompt-ai-for-operations"
-    },
-    {
-      "title": "Onboard and offboard teammates",
-      "description": "Open the focused Official Skill for repeatable access and handoff work.",
-      "href": "/prompts/onboard-offboard-teammates"
     }
   ]
 }

@@ -28,6 +28,11 @@
       ],
       "skills": [
         {
+          "id": "strawberry/research-analysis/map-a-market",
+          "roleId": "venture-capital",
+          "context": "Map companies, investors, associations, experts, and relationships across a broad market ecosystem."
+        },
+        {
           "id": "strawberry/venture-capital/build-structured-investment-memo-any-company",
           "roleId": "venture-capital",
           "context": "Use this when the output is a sourced, reviewable investment memo."

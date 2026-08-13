@@ -54,6 +54,9 @@ records, owned actions, and a follow-up draft grounded in the conversation.
   and follow-through, use `strawberry/sales/debrief-a-sales-meeting` once a reliable record exists.
 - When approved meeting context or next steps belong in the CRM, use
   `strawberry/sales/keep-crm-updated`.
+- For a candidate interview, use `strawberry/recruiting/synthesize-interview-feedback` once a
+  reliable record exists. It maps the transcript and panel feedback to the accepted scorecard while
+  keeping evidence, candidate claims, inference, contradictions, and unknowns distinct.
 - After the workflow proves useful, preserve the accepted destinations, note structure, approval
   behavior, and follow-up rules as a user-owned post-meeting skill. If it should run around every
   meeting, offer to turn the proven workflow into a routine.

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-job-application-review",
+  "title": "How to review job applications with AI",
+  "description": "Review applications against the accepted role, explain the fit evidence and uncertainty, and keep consequential hiring decisions with people.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-13T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "A busy application queue creates an uncomfortable tradeoff: move quickly and risk shallow judgment, or read everything carefully while strong candidates wait for an answer.",
+    "Strawberry can work with the accepted role criteria, application materials, and approved ATS context to make the first review more consistent. It shows the evidence behind its fit guidance and the questions a person still needs to answer.",
+    "The goal is not an automatic rejection machine. It is a clearer, faster human review."
+  ],
+  "sections": [
+    {
+      "id": "accept-the-criteria",
+      "title": "Use the real hiring bar",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Your companion can start from the job description, internal role profile, scorecard, application questions, and approved eligibility rules. If those sources disagree, the criteria need a human decision before the backlog is reviewed at scale."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/review-applications",
+              "roleId": "recruiting-people",
+              "context": "Review an application set against accepted job-related criteria."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calibrate-a-small-set",
+      "title": "Calibrate a small, varied application set",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "For a new role or rubric, a smaller first pass makes the judgment easier to inspect. Review applications that look strong, mixed, incomplete, and difficult to classify before applying the same interpretation to a larger queue."
+        },
+        {
+          "kind": "paragraph",
+          "text": "That feedback can correct an over-literal requirement, expose a missing field, or show that the application itself cannot answer an important question."
+        }
+      ]
+    },
+    {
+      "id": "show-fit-guidance",
+      "title": "Show useful fit guidance—not just extracted facts",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "For each applicant, Strawberry can explain whether the current evidence suggests a strong potential fit, a potential fit with questions, limited fit based on current evidence, or an inability to assess."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "The most important evidence for the assessment.",
+            "Relevant gaps, conflicting information, or claims that need checking.",
+            "Confidence and the source of each material point.",
+            "Duplicate, prior-application, eligibility, attachment, or ATS-state issues."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The guidance helps someone decide what to inspect next. It does not rank applicants against one another or automatically reject, advance, archive, or notify anyone."
+        }
+      ]
+    },
+    {
+      "id": "make-the-review-manageable",
+      "title": "Leave the reviewer with a manageable decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A useful result separates the applications that need attention from the cases that need more evidence or a policy decision. It also shows how much of the queue was reviewed and what remains."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Proposed ATS notes or corrections belong in a separate list with their sources and reasons. Reviewing the analysis does not approve a record change or candidate message."
+        }
+      ]
+    },
+    {
+      "id": "connect-to-the-pipeline",
+      "title": "Use the backlog before starting another search",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If the inbound queue may contain viable candidates, reviewing it can be the best way to improve pipeline coverage. If the queue still cannot support the hiring goal, the wider pipeline review can show whether the next step is sourcing or a rethink of the talent market."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/review-recruiting-pipeline",
+              "roleId": "recruiting-people",
+              "context": "Assess the application backlog in the context of the wider hiring goal."
+            },
+            {
+              "id": "strawberry/recruiting/source-candidates",
+              "roleId": "recruiting-people",
+              "context": "Build more qualified coverage when the market is understood."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Build a hiring process that keeps its context",
+      "description": "Connect application review with sourcing, interviews, and pipeline decisions.",
+      "href": "/playbooks/recruiting"
+    }
+  ]
+}

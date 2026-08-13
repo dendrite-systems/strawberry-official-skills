@@ -61,6 +61,11 @@
           "id": "strawberry/sales/debrief-a-sales-meeting",
           "roleId": "sales-business-development",
           "context": "Use this when a sales conversation needs a focused debrief, follow-up, CRM changes, and next actions."
+        },
+        {
+          "id": "strawberry/recruiting/synthesize-interview-feedback",
+          "roleId": "recruiting-people",
+          "context": "Use this after a candidate interview to map the reliable record and panel feedback to the accepted scorecard."
         }
       ]
     },

@@ -53,7 +53,7 @@
           "context": "Build a sourced comparison around a specific decision."
         },
         {
-          "id": "strawberry/venture-capital/map-key-players-industry-or-ecosystem",
+          "id": "strawberry/research-analysis/map-a-market",
           "roleId": "research-analysis",
           "context": "Map the companies, people, and relationships shaping an ecosystem."
         }

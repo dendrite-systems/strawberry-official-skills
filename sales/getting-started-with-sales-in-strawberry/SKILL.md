@@ -59,6 +59,10 @@ workflow. A useful process that repeats can later become a custom skill.
 - **Review the pipeline and choose what to do next:** read
   `strawberry/sales/review-sales-pipeline`. Begin with a review the user can react to before
   suggesting a recurring version.
+- **Map a market, segment, territory, or account universe:** read
+  `strawberry/research-analysis/map-a-market`. Use it for market-entry and landscape decisions,
+  then move to `strawberry/sales/find-new-customers` only when the user accepts the market definition
+  and wants a qualified prospect list.
 - **Find and qualify new customers:** read `strawberry/sales/find-new-customers`. Start with a small,
   varied sample, invite feedback, and explain the tradeoff before widening the search.
 - **Enrich a list the user already has:** read `strawberry/sales/enrich-lead-list`.
@@ -95,6 +99,7 @@ After a useful result, suggest one natural next step when it would genuinely hel
 
 - account research -> meeting preparation -> follow-up -> approved CRM update;
 - small prospect sample -> feedback -> wider search -> enrichment;
+- market landscape -> accepted target market -> qualified prospect search;
 - account research and writing examples -> outreach sample -> approved sequence;
 - account research or meeting context -> customer-facing asset -> approved delivery;
 - pipeline review -> prioritized next actions -> later weekly Routine;

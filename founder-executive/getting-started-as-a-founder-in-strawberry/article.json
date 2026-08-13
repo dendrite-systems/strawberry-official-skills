@@ -83,6 +83,11 @@
       ],
       "skills": [
         {
+          "id": "strawberry/research-analysis/map-a-market",
+          "roleId": "founder-executive",
+          "context": "Map a market before choosing a segment, entering a geography, or building an account universe."
+        },
+        {
           "id": "strawberry/research-analysis/create-beautiful-slide-deck",
           "roleId": "other",
           "context": "Turn approved source material into a polished, on-brand presentation."

@@ -71,8 +71,7 @@ or writes to an external system without approval.
 
 When an accepted individual process should become shared, read
 `strawberry/operations/set-up-shared-team-workflow` to make owners, destinations, field meanings, privacy
-boundaries, and approval behavior explicit, then verify one real handoff before scaling. For
-joining, changing roles, or leaving the team, read `strawberry/recruiting/onboard-offboard-teammates`.
+boundaries, and approval behavior explicit, then verify one real handoff before scaling.
 
 ## Other things to try
 

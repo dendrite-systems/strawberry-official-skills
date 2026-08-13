@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "status": "published",
-  "publicSlug": "ai-powered-candidate-sourcing",
-  "title": "Build a candidate shortlist with evidence, not guesswork",
-  "description": "Define the hiring bar, calibrate a small sample, and build a sourced shortlist your team can review.",
+  "publicSlug": "ai-candidate-sourcing",
+  "title": "How to use AI for candidate sourcing",
+  "description": "Find better-fit candidates with AI, calibrate the search with your team, and prepare an evidence-backed shortlist for review or ATS upload.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -15,60 +15,137 @@
   "publishedAt": "2026-06-03T10:38:00.000Z",
   "noindex": false,
   "introduction": [
-    "Candidate sourcing becomes useful when the shortlist explains why each person fits. A longer list is not automatically a better one, especially when profiles are duplicated, evidence is shallow, or the hiring bar was never made explicit.",
-    "Strawberry can search approved professional sources, connect profiles with relevant work, and organize the result around the criteria your team actually uses. Begin with a small sample so your judgment shapes the wider search."
+    "Most candidate searches turn up plenty of plausible profiles. The harder part is working out who is genuinely worth a closer look for this role—and being able to explain why.",
+    "Strawberry is a browser with built-in AI agents. Your companion can work across LinkedIn, portfolios, GitHub, other public work, role documents, and approved ATS context, then show why each person may fit and what still needs checking.",
+    "You do not need a perfect scorecard to start. One role and a small, varied candidate set is enough for a useful first pass. Your feedback can sharpen the search before it becomes a list of 100 people nobody trusts."
   ],
   "sections": [
     {
-      "id": "define-the-hiring-bar",
-      "title": "Define the hiring bar before searching",
-      "paragraphs": [
-        "Separate hard requirements such as location, eligibility, compensation, and must-have experience from softer signals such as seniority, technical depth, startup experience, or communication evidence. Existing scorecards, job descriptions, prior searches, and examples of strong or rejected candidates can sharpen the rubric when they are available.",
-        "Use examples to clarify the evidence that matters without turning one person's biography into the requirement. Keep protected or irrelevant personal characteristics out of the search."
-      ],
-      "skills": []
-    },
-    {
-      "id": "calibrate-before-scaling",
-      "title": "Calibrate a small sample before scaling",
-      "paragraphs": [
-        "Search a varied first group across the approved sources and review it before expanding. Fewer than ten candidates is often enough to reveal that a criterion is too broad, too narrow, or being interpreted differently than the hiring manager intended.",
-        "If nobody in the sample meets the bar, stop and clarify. Scaling a weak search only produces a larger weak list."
-      ],
-      "skills": [
+      "id": "start-with-the-role",
+      "title": "Start with what makes someone worth finding",
+      "blocks": [
         {
-          "id": "strawberry/recruiting/source-candidates",
-          "roleId": "recruiting-people",
-          "context": "Use this to define the rubric, calibrate the first sample, and build a sourced shortlist."
+          "kind": "paragraph",
+          "text": "Give your companion the best context you have: a job description, scorecard, role notes, examples of strong people, or simply what success should look like in the role. It can turn that into a working definition of fit without making you complete a setup project first."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Keep must-haves separate from useful signals and open questions. If titles, target employers, geography, compensation, or adjacent backgrounds are still unclear, map the talent market before widening the search."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/source-candidates",
+              "roleId": "recruiting-people",
+              "context": "Start with one role and a small candidate set you can review together."
+            },
+            {
+              "id": "strawberry/recruiting/map-a-talent-market",
+              "roleId": "recruiting-people",
+              "context": "Clarify the talent market when the search itself is still uncertain."
+            }
+          ]
         }
       ]
     },
     {
-      "id": "research-the-strongest-candidates",
-      "title": "Research the strongest candidates deeply enough",
-      "paragraphs": [
-        "For a larger pool, collect inexpensive signals first and deepen only the strongest matches. Relevant evidence may come from LinkedIn, GitHub, portfolios, personal sites, talks, posts, or other public professional work.",
-        "Cross-reference the ATS or tracker before presenting the shortlist. Check identity, duplicates, prior contact, and current pipeline state, and keep real source links beside every material fit claim."
-      ],
-      "skills": []
-    },
-    {
-      "id": "make-the-shortlist-reviewable",
-      "title": "Make the shortlist easy to challenge",
-      "paragraphs": [
-        "Deliver the fields the team needs, an overall assessment, evidence against the important criteria, caveats, confidence, and the number of profiles reviewed and filtered. Include a few candidates set aside and why, especially early in the process, so the team can correct the judgment.",
-        "Once the team accepts the rubric, sources, fields, and review method, preserve them as a custom skill. Draft outreach only for an approved shortlist, keep it grounded in verified professional context, and leave messages reviewable until sending is explicitly approved."
-      ],
-      "skills": [
+      "id": "calibrate-before-scaling",
+      "title": "Review a small set before scaling",
+      "blocks": [
         {
-          "id": "strawberry/sales/send-personalized-outreach",
-          "roleId": "recruiting-people",
-          "context": "Use this after shortlist approval to draft relevant candidate outreach."
+          "kind": "paragraph",
+          "text": "For a new role or rubric, the first pass works best as a small, varied set: a few strong matches, borderline cases, and people your companion set aside. Reviewing that smaller group makes it much easier to say what feels right, what feels off, and which criterion needs changing before time and credits go into a wider search."
         },
         {
-          "id": "strawberry/operations/set-up-shared-team-workflow",
-          "roleId": "recruiting-people",
-          "context": "Use this when the accepted sourcing process should be shared across the hiring team."
+          "kind": "paragraph",
+          "text": "Once the judgment feels right, Strawberry can apply it more widely. If the search stays thin, it can show where the scarcity comes from and what would change by widening a title, location, employer segment, compensation constraint, or evidence bar—instead of quietly padding the list."
+        }
+      ]
+    },
+    {
+      "id": "make-fit-clear",
+      "title": "Make the fit assessment easy to challenge",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A shortlist should tell you more than who matched a keyword. For each person, Strawberry can show:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "A clear fit assessment: strong potential fit, potential fit with questions, limited fit based on current evidence, or unable to assess.",
+            "The strongest evidence for that assessment, with source links.",
+            "Important gaps, conflicting evidence, and confidence.",
+            "Contactability and ATS state as verified, inferred, unavailable, stale, or not checked."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The assessment helps the team decide who deserves a closer look. It does not prove that someone is qualified, interested, available, eligible, or ready to contact—and it never replaces the hiring decision."
+        }
+      ]
+    },
+    {
+      "id": "review-as-a-team",
+      "title": "Give the team something useful to review",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The shortlist can stay in chat or become a spreadsheet, CSV, structured candidate brief, dashboard inside an approved company tool, or ATS-ready import. A local interactive artifact can also make filtering and comparison easier for your own review."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Agree on the viewers, fields, triage labels, destination, access, and retention before sharing candidate information. Strawberry-published artifacts are publicly viewable, so candidate profiles, contact details, fit assessments, and hiring notes should not be published through that surface."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/set-up-shared-team-workflow",
+              "roleId": "recruiting-people",
+              "context": "Turn the accepted review method into a clear internal workflow for the hiring team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prepare-the-ats-upload",
+      "title": "Move an approved shortlist into the ATS carefully",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Before uploading anything, review the exact candidates, target records, field mapping, create-versus-update behavior, owners, sources, stages or tags, notes, and duplicate handling. An approved shortlist is not automatically approval to write."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For a new mapping, start with a small batch and check the resulting records. The result should show what was created, updated, skipped, failed, or still needs attention before the wider upload continues."
+        }
+      ]
+    },
+    {
+      "id": "continue-from-the-approved-list",
+      "title": "Keep the next step separate",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Once the team approves who to contact, your companion can prepare candidate outreach grounded in verified professional context. Reviewing the shortlist does not authorize a message, follow-up, or ATS change."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/send-candidate-outreach",
+              "roleId": "recruiting-people",
+              "context": "Draft candidate outreach after the shortlist or candidate segment is approved."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the search works, save the accepted criteria, evidence, fields, and review points as a skill. Share the approved result, the sourcing method, or the wider Recruiting companion only when each would genuinely help the team."
         }
       ]
     }
@@ -76,14 +153,14 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Build a hiring process that keeps its context",
-      "description": "Connect sourcing, screening, interviews, outreach, and team handoffs.",
-      "href": "/playbooks/recruiting"
+      "title": "Map a talent market before sourcing",
+      "description": "Clarify titles, employers, geography, compensation, and search levers before a large search.",
+      "href": "/blog/ai-talent-market-mapping"
     },
     {
-      "title": "How to prompt AI as a recruiter",
-      "description": "Practical prompting examples for sourcing, screening, and interview work.",
-      "href": "/blog/how-to-prompt-ai-as-a-recruiter"
+      "title": "Build a hiring process that keeps its context",
+      "description": "Connect candidate sourcing with applications, interviews, outreach, and pipeline review.",
+      "href": "/playbooks/recruiting"
     }
   ]
 }

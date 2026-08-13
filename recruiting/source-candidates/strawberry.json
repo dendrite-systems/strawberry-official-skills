@@ -1,27 +1,12 @@
 {
   "schemaVersion": 1,
   "displayName": "Source Candidates",
-  "summary": "Find and qualify candidates for an open role or project. Use when a user wants a sourced shortlist based on a role scorecard, examples of strong people, technical evidence, location, availability, or other job-related criteria.",
+  "summary": "Build an evidence-backed candidate shortlist with fit assessments, source and ATS context, and an optional internal review or ATS-ready artifact.",
   "icon": "binoculars",
-  "tags": [],
+  "tags": ["good-first-skill"],
   "useCases": [
-    {
-      "roleId": "recruiting-people",
-      "weight": 112,
-      "title": "Find 30 exceptional candidates",
-      "message": "I want to find 30 exceptional candidates for an open role."
-    },
-    {
-      "roleId": "founder-executive",
-      "weight": 102,
-      "title": "Find 10 engineers like our best ones",
-      "message": "I want to find 10 engineers based on the qualities of our strongest existing people."
-    },
-    {
-      "roleId": "agency",
-      "weight": 74,
-      "title": "Find specialists for my next client project",
-      "message": "I want to find strong specialists for an upcoming client project."
-    }
+    { "roleId": "recruiting-people", "weight": 114, "title": "Source and review candidates for an open role", "message": "Build a calibrated shortlist for this role with evidence-backed fit assessments, then prepare it for internal team review or an approved ATS upload." },
+    { "roleId": "founder-executive", "weight": 98, "title": "Find strong candidates for a key hire", "message": "Help me source a small, evidence-backed first set of candidates for this key role before we expand the search." },
+    { "roleId": "agency", "weight": 72, "title": "Source specialists for a project", "message": "Source specialists for this project and keep the shortlist, review set, evidence, and contactability clear." }
   ]
 }

@@ -59,13 +59,7 @@
         "Preserve the accepted process as a team-visible custom skill after the first handoff works. Add a Routine only when the team explicitly wants recurring execution and has agreed on ownership, review, exceptions, and notification behavior.",
         "When the workflow is part of joining or leaving the team, connect it to a reviewed onboarding or offboarding checklist so access and responsibilities do not drift."
       ],
-      "skills": [
-        {
-          "id": "strawberry/recruiting/onboard-offboard-teammates",
-          "roleId": "operations-chief-of-staff",
-          "context": "Use this when the shared workflow belongs in teammate onboarding or offboarding."
-        }
-      ]
+      "skills": []
     }
   ],
   "videos": [],

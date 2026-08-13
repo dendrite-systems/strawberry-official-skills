@@ -1,82 +1,76 @@
 ---
 name: source-candidates
-description: Set up and run a candidate-sourcing workflow for an open role or project. Use when a user wants a sourced shortlist based on a role scorecard, examples of strong people, technical evidence, location, availability, or other job-related criteria, especially when creating or refining their own sourcing process.
+description: Find and calibrate a reviewable candidate shortlist for an accepted role definition or talent market. Use when a user needs more qualified candidates, wants to test a sourcing strategy, or wants evidence-backed candidate research. Do not use for application review, market mapping without a shortlist, or sending outreach.
 ---
 
 # Source Candidates
 
-Use this Official Skill as starting guidance for a first or redesigned sourcing workflow. If the
-user already has a tailored sourcing skill, follow that instead.
+Build a defensible shortlist, not a long list. Keep sourcing, team review, ATS changes, outreach, and hiring decisions as separate states.
 
-## Context, setup, and planning
+## 1. Confirm the search
 
-Try to understand the user's hiring setup before researching widely. Approved job descriptions,
-scorecards, ATS history, prior searches, hiring documentation, and examples of strong or rejected
-candidates can answer questions faster when they are available. Relevant context may include:
+Use the accepted job description, role profile, scorecard, talent-market map, hiring notes, and prior feedback already available. Confirm only what materially affects the search:
 
-- the role, responsibilities, and evidence of success;
-- hard criteria such as location, compensation band, must-have skills, and eligibility;
-- softer signals such as seniority, hypergrowth experience, past founder roles, technical
-  background, or communication evidence;
-- sourcing preferences such as LinkedIn, LinkedIn Recruiter, GitHub, Hacker News, niche
-  communities, referrals, or an approved sourcing tool;
-- the user's existing sourcing and evaluation approach, examples worth preserving, and where
-  candidates are stored;
-- required candidate fields, preferred outreach approach, destination, and review point;
-- whether the user wants a broad surface scan or deeper research on fewer candidates. Explain that
-  a common pattern is a wide, lower-cost pass followed by deeper research on the strongest matches.
+- outcomes, job-related must-haves, useful adjacent backgrounds, and evidence of capability;
+- location, working pattern, compensation, eligibility, timing, and exclusions; and
+- requested scale, sources, fields, destination, and review point.
 
-Criteria can be vague on a first run and sharpen through review. Examples should calibrate the
-search without turning one person's biography into the requirement. Never use protected or
-irrelevant personal characteristics as criteria.
+If feasibility, titles, target employers, geography, compensation, or adjacent backgrounds remain uncertain, use `strawberry/recruiting/map-a-talent-market` before scaling. Never use protected or irrelevant personal characteristics as criteria.
 
-When the rubric is not already clear, offer to calibrate from approved examples, a small and varied
-set of real candidates Strawberry finds, or both. A surface-level sample, often fewer than ten
-candidates, can reveal disagreements before a larger run. If nobody in the sample meets the
-rubric, stop and ask rather than scaling a weak search. Never fabricate candidate profiles for
-calibration.
+## 2. Calibrate a small, varied set
 
-Present a concise plan covering the rubric, sources, search depth, calibration method, intended
-deliverable, destination, and review point. Let the user confirm or adjust it before substantial
-research. Before scaling beyond a calibration sample, restate the scope and expected depth or cost.
+When the judgment is new or subjective, propose a small set containing strong matches, borderline cases, and people set aside. Explain the planned sources, breadth versus depth, fields, likely scale, and review point. This lets the user correct the search before more time and credits are spent. Reuse a trusted search without unnecessary reconfirmation, but pause before a materially broader, deeper, or more expensive run.
 
-## Execution
+Search approved professional sources where relevant evidence lives, including LinkedIn, portfolios, GitHub, talks, company pages, and approved internal systems. Work sequentially and at a human pace on interactive services; stop on warnings, challenges, rate limits, or unexpected states.
 
-1. Turn the accepted requirements into a concise, job-related rubric. Keep hard requirements
-   distinct from softer signals so the user can correct either.
-2. Search the user's preferred public professional sources. Separate overlapping searches so the
-   same ground is not covered repeatedly.
-3. For a large pool, extract once using inexpensive signals, narrow the pool, then enrich the
-   strongest subset. For a requested deep dive, go beyond the profile into relevant portfolios,
-   GitHub work, personal sites, talks, posts, or other public professional evidence.
-4. Cross-reference the ATS, candidate sheet, or other approved destination and prior sourcing
-   context to avoid people already in the pipeline or already contacted.
-5. Use real source links and specific evidence for every inclusion, exclusion, and fit claim. Flag
-   low confidence rather than guessing identity, background, experience, or contact details. Do not
-   infer protected or sensitive characteristics.
-6. Follow the agreed calibration method. Review the initial set with the user, incorporate their
-   corrections, then apply the sharper rubric to the wider pool.
-7. Before presenting, check for duplicates, identity mismatches, and stale pipeline state. Rank the
-   shortlist with an overall rating and evidence against the important criteria. Report how many
-   profiles were reviewed and filtered, and, especially early on, include a few candidates set
-   aside and why so the user can calibrate the judgment.
+## 3. Research and assess fit
 
-## Suggested outcome
+Require evidence tied to the accepted criteria for every person. Verify identity and current role where material, preserve links, and keep observed facts separate from candidate claims and inference. Label stale, incomplete, or contradictory evidence.
 
-Produce the agreed, reviewable candidate-sourcing result in the requested destination and format.
-It may be a shortlist, ATS update, research brief, spreadsheet, table, or another artifact. Include
-real source links, requested fields, an overall rating, per-criterion fit evidence, caveats,
-confidence, and reviewed and filtered counts. Include useful outreach context or profile and work
-images only when requested or helpful to the agreed deliverable. Never invent experience or
-contact details.
+Give each person understandable fit guidance:
 
-## Suggested next steps
+- **strong potential fit** — current evidence supports most critical criteria and shows no material conflict;
+- **potential fit with questions** — relevant evidence exists, but important points need checking;
+- **limited fit based on current evidence** — important criteria lack support or have conflicting evidence; or
+- **unable to assess** — reliable professional evidence is too incomplete or ambiguous.
 
-- If the user wants to contact the approved shortlist, use
-  `strawberry/sales/send-personalized-outreach`.
-- If a team should reuse the accepted scorecard, fields, and review process, use
-  `strawberry/operations/set-up-shared-team-workflow`.
-- After review, offer to save the accepted rubric, sources, calibration approach, fields,
-  destination, and review process as a user-owned sourcing skill.
-- After a few successful runs, when the user's preferences are clear, offer a recurring weekly or
-  bi-weekly sourcing pass if the role has enough volume to justify it.
+Show the rationale, strongest evidence, gaps or counter-evidence, confidence, and sources. These labels help humans choose what to inspect; they are not proof of qualification, comparative rankings, hiring recommendations, or automatic dispositions. If priority tiers would help, define their job-related criteria and keep them reviewable.
+
+## 4. Check coverage and state
+
+Deduplicate across sources and available ATS, CRM, spreadsheet, referral, or prior-work context. Report:
+
+- source coverage and blind spots;
+- whether each candidate is new, known, previously contacted, or unresolved;
+- contactability as verified, likely, unavailable, or not checked;
+- ATS state as observed, inferred, stale, unavailable, or not checked; and
+- scarcity signals and the constraints or evidence standards behind them.
+
+Do not imply that a public profile is interested, available, qualified, eligible, or contactable. Never invent people, URLs, roles, contact details, or evidence. Do not weaken the bar silently to reach a requested count.
+
+## 5. Deliver the shortlist
+
+Provide:
+
+1. the accepted search definition and caveats;
+2. the shortlist with fit guidance, criterion evidence, sources, confidence, contactability, and ATS state;
+3. a separate review set with the human judgment required;
+4. coverage, duplicates, and unresolved identity or state issues;
+5. a scarcity diagnosis when the requested result could not be met; and
+6. search levers and tradeoffs without changing them automatically.
+
+Use a compact table in chat for a small result. For team review, offer an internal spreadsheet or CSV, structured candidate brief, dashboard in an approved company tool, or ATS-ready import. A local interactive artifact can support filtering and comparison, but candidate data must not be published through a publicly viewable Strawberry artifact.
+
+## 6. Share internally or prepare the ATS
+
+Creating an artifact, sharing it internally, and uploading records are separate approvals.
+
+Before internal sharing, confirm the reviewers, candidates, fields, triage labels, destination, access, exports, and retention. Use the minimum candidate data needed. If the destination cannot enforce the agreed access, deliver a file for the user to place in an approved company tool. Keep comments and triage state distinct from ATS truth.
+
+Before an ATS upload, show the exact candidates, target records, field mapping, create-versus-update behavior, owners, source attribution, stages or tags, notes, duplicate handling, and blank fields. Require explicit approval. For a new mapping, start with a small batch, verify the resulting records and links, and report created, updated, skipped, failed, and unresolved candidates.
+
+## 7. Continue deliberately
+
+A human owns advancement, rejection, and hiring judgment. After shortlist approval, use `strawberry/recruiting/send-candidate-outreach` for draft-first messaging with exact send approval.
+
+When the method proves useful, offer to save its criteria, sources, fit logic, fields, artifact, destination, and review points as a custom skill. Sharing the artifact, the team skill, or the full companion are separate choices. Use `strawberry/operations/set-up-shared-team-workflow` when the team should reuse the method. A Routine may refresh an internal review file or prepare candidates for review after the workflow is stable; it does not publish candidate data, change ATS state, contact anyone, or make hiring decisions.

@@ -46,7 +46,5 @@ to repeat the process without guessing what another person meant.
 
 ## Suggested next steps
 
-- Use `strawberry/recruiting/onboard-offboard-teammates` when the workflow must be added to a teammate's
-  onboarding or removed during offboarding.
 - Add a Routine only after the team accepts the manual or assisted first run.
 - Invite additional teammates only when the user wants them involved in the shared workflow.

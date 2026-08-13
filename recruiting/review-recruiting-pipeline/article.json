@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-recruiting-pipeline-review",
+  "title": "How to run a better recruiting pipeline review with AI",
+  "description": "Connect ATS and conversation context, find stalled work and candidate-experience risks, and see whether the pipeline can support the hiring goal.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-13T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "A recruiting pipeline can look busy and still be in trouble. Plenty of candidates may be in the ATS, but the strongest ones are waiting for feedback, every active person came from the same narrow source, or nobody knows whether the current funnel can produce a hire in time.",
+    "Strawberry can review ATS state alongside applications, sourcing work, interviews, email, calendars, and approved team context. That makes it easier to see what has actually happened, what deserves attention now, and where the pipeline needs new coverage rather than another status meeting.",
+    "Start with one role or a useful slice of the pipeline. The review stays read-only until someone approves a separate update or follow-on workflow."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-hiring-goal",
+      "title": "Start with the hiring goal",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A useful review needs to know what the team is trying to hire, by when, and what the accepted bar and stages look like. It can work from a connected ATS view, export, spreadsheet, pasted list, or smaller candidate set."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the target, timing, qualification bar, or conversion context is missing, say so. A universal pipeline score or coverage ratio creates certainty the team has not earned."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/review-recruiting-pipeline",
+              "roleId": "recruiting-people",
+              "context": "Review one role or pipeline slice against its real hiring goal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reconcile-state-with-reality",
+      "title": "Reconcile the ATS with what actually happened",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "An ATS stage is useful, but it may not show that an interview happened yesterday, a candidate is waiting on an answer, an interviewer never submitted feedback, or a scheduling thread has stalled. Strawberry can bring those signals together while keeping recorded state separate from interpretation."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Candidates who need attention now, with the reason and owner.",
+            "Missing feedback, evidence, next steps, or decisions.",
+            "Delays and communication gaps that could damage candidate experience.",
+            "Duplicate, stale, or conflicting records that may need correction."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assess-pipeline-coverage",
+      "title": "Ask whether the pipeline can support the goal",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Look at volume, job-related quality, stage balance, concentration, timing, momentum, likely attrition, and missing evidence in the context of the team's targets and known conversion patterns. A long list of weak or stalled candidates is not strong coverage."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The review should conclude that coverage is sufficient, potentially insufficient, insufficient, or not assessable, then explain the evidence and uncertainty behind that conclusion."
+        }
+      ]
+    },
+    {
+      "id": "choose-the-right-way-to-rebuild",
+      "title": "Choose the right way to rebuild coverage",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Sometimes the fastest answer is already in the application queue. Sometimes the market is understood and the team simply needs more qualified candidates. And sometimes the thin pipeline is telling you that the titles, geography, compensation, employer set, or search strategy still need work."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/review-applications",
+              "roleId": "recruiting-people",
+              "context": "Inspect an inbound backlog that may contain viable candidates."
+            },
+            {
+              "id": "strawberry/recruiting/source-candidates",
+              "roleId": "recruiting-people",
+              "context": "Build more qualified coverage when the talent market is understood."
+            },
+            {
+              "id": "strawberry/recruiting/map-a-talent-market",
+              "roleId": "recruiting-people",
+              "context": "Clarify feasibility and search strategy before sourcing more people."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "A review-only request recommends the best handoff without starting broad research. If the request is to diagnose and rebuild the pipeline, agree on the definition, scope, sources, scale, and first review point before continuing."
+        }
+      ]
+    },
+    {
+      "id": "keep-system-changes-separate",
+      "title": "Keep ATS corrections separate from the review",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "List proposed stage, owner, date, note, and duplicate corrections with the source and reason behind each one. Reviewing the analysis does not authorize a record change, candidate message, rejection, advancement, or new search."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When updates are approved, report what changed, what was skipped, and what still needs attention. That audit trail makes the next review easier to trust."
+        }
+      ]
+    },
+    {
+      "id": "make-it-a-useful-rhythm",
+      "title": "Turn the review into a useful team rhythm",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Share the approved review through an access-controlled team destination, keeping sensitive candidate notes and proposed changes limited to the people who need them. Once the format works, save the method as a team skill."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A Routine can prepare the same role or pipeline view before a recurring review, bring in recent movement, and draft the priority list. Begin read-only or draft-first, with agreed sources, timing, audience, and review point."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Build a hiring process that keeps its context",
+      "description": "Connect pipeline review with sourcing, applications, interviews, and outreach.",
+      "href": "/playbooks/recruiting"
+    }
+  ]
+}

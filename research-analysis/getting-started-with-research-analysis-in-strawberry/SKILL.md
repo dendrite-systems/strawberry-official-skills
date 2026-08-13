@@ -37,7 +37,7 @@ or `strawberry/marketing/run-competitor-analysis` for a broader comparison.
 ## Map markets and ecosystems
 
 Strawberry can identify important companies, people, and relationships in a market. Read
-`strawberry/venture-capital/map-key-players-industry-or-ecosystem` for an ecosystem map. Confirm the initial scope
+`strawberry/research-analysis/map-a-market` for a decision-specific landscape. Confirm the initial scope
 before spending time on deep research.
 
 When the output should make an argument rather than list entities, agree on the evidence standard
