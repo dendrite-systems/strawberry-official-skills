@@ -103,11 +103,6 @@
           "kind": "skills",
           "items": [
             {
-              "id": "strawberry/operations/transcribe-meetings-follow-up",
-              "roleId": "recruiting-people",
-              "context": "Create an interview record when transcription is authorized."
-            },
-            {
               "id": "strawberry/recruiting/synthesize-interview-feedback",
               "roleId": "recruiting-people",
               "context": "Map the interview record and panel feedback to the accepted scorecard."

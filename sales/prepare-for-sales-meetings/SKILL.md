@@ -85,9 +85,10 @@ several workflows. Confirm the destination and scope before sharing.
 
 ### 6. Complete the meeting loop and make preparation repeatable
 
-Use `strawberry/operations/transcribe-meetings-follow-up` when the user wants to capture the meeting.
-When a transcript or reliable notes are ready, use `strawberry/sales/debrief-a-sales-meeting` for a
-sales debrief and follow-through. Use `strawberry/sales/keep-crm-updated` for approved CRM changes.
+Strawberry can capture supported conversations without adding a visible meeting bot when the user
+wants a reliable record. When a transcript or reliable notes are ready, use
+`strawberry/sales/debrief-a-sales-meeting` for a sales debrief and follow-through. Use
+`strawberry/sales/keep-crm-updated` for approved CRM changes.
 
 After feedback, offer to save the accepted sources, depth, priorities, format, destination, and
 review behavior as a custom or team skill. When preparation has a useful trigger or cadence,

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "strawberry-for-meetings",
+  "title": "Turn every useful meeting into decisions and follow-up",
+  "description": "Capture the conversation without a meeting bot, then prepare grounded decisions, owned actions, drafts, and reviewable updates.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-06-17T15:55:30.530Z",
+  "noindex": false,
+  "introduction": [
+    "The value of a meeting is often decided in the hour afterward. People need to find what was agreed, see who owns the actions, update the project record, and send the promised follow-up while the context is still fresh.",
+    "A transcript helps, but it is not the finished result. Someone still has to separate a decision from an idea, check whether an owner or date was actually accepted, and carry the useful outcomes into messages and work systems.",
+    "Strawberry can capture supported conversations without adding a visible meeting bot. Your companion can use that durable record alongside the calendar event, prior context, and relevant tools, then prepare the debrief and continue into the approved follow-through in the same workspace."
+  ],
+  "sections": [
+    {
+      "id": "start-from-reliable-record",
+      "title": "Work from a reliable record",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Meeting capture is a Strawberry capability rather than a separate workflow to manage. Once the transcript, notes, or another reliable record is ready, the companion matches it to the event and participants before interpreting the outcome. If the record is incomplete or a speaker match matters and remains uncertain, that limitation stays visible."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/debrief-a-meeting",
+              "roleId": "operations-chief-of-staff",
+              "context": "Turn a completed general meeting into grounded decisions, commitments, actions, follow-up drafts, and proposed system updates."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "A sales conversation or candidate interview may need specialist judgment. Those meetings can use the same reliable record while routing the interpretation to the Sales debrief or interview-feedback workflow."
+        }
+      ]
+    },
+    {
+      "id": "separate-discussion-from-outcome",
+      "title": "Separate the discussion from the outcome",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Meetings contain suggestions, requests, working assumptions, and half-formed ideas alongside actual decisions. Strawberry reads the full available record and keeps those categories separate. It does not turn a suggested owner into an assignment or a proposed date into a deadline simply because the final notes look tidier that way."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Relevant project records, earlier messages, and documents can help resolve a reference or show that the accepted outcome changes the current plan. Because the sources remain available in the browser, you can check the moment or record behind a consequential claim instead of trusting a summary with no trail."
+        }
+      ]
+    },
+    {
+      "id": "prepare-useful-debrief",
+      "title": "Prepare the work the meeting now requires",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The debrief should lead with what changed. Depending on the meeting, it can include accepted decisions, owned actions, unresolved questions, risks, a follow-up message, and proposed updates to tasks, projects, documents, or calendars. If nothing was decided, it can say that plainly."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Private notes and sensitive hypotheses stay separate from the shared recap. A promised answer or asset that does not exist in the meeting record or approved company material remains a gap rather than becoming plausible-sounding copy."
+        }
+      ]
+    },
+    {
+      "id": "finish-follow-through",
+      "title": "Finish the follow-through without losing control",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Your companion can move from the debrief into the exact message thread, task, project record, or document that needs attention. The user can inspect that destination and review the proposed change before it is applied. A recap, a message, an assignment, and a system update remain separate actions."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/close-open-loops",
+              "roleId": "operations-chief-of-staff",
+              "context": "Track commitments beyond the immediate follow-through and find later gaps across systems."
+            },
+            {
+              "id": "strawberry/sales/debrief-a-sales-meeting",
+              "roleId": "sales-business-development",
+              "context": "Use the Sales debrief when account, opportunity, qualification, or commercial judgment is central."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "After a few reviewed meetings, Strawberry can retain the accepted note shape, voice, destinations, and review behavior. An event-triggered Routine can prepare a new debrief when the meeting record is ready, then wait when the meeting match, speaker attribution, privacy boundary, or next decision is unclear."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Prepare for meetings from the context you already have",
+      "description": "Build a concise brief for the conversation ahead.",
+      "href": "/blog/ai-for-meeting-prep"
+    },
+    {
+      "title": "How to use AI for Operations work",
+      "description": "Connect meeting follow-through with daily priorities, open commitments, and team workflows.",
+      "href": "/playbooks/operations"
+    }
+  ]
+}

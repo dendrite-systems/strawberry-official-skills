@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-business-trip-planning",
+  "title": "How to plan a business trip with AI",
+  "description": "Use AI to compare live travel options, build a coherent itinerary, complete approved bookings, and organize the trip in one place.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "A workable business trip depends on more than the fare. The arrival has to fit the meeting, the stay has to suit the location and working pattern, the choice has to fit policy, and each part has to remain available long enough to make a decision.",
+    "A list of travel links from an AI search only solves the first part. You still have to reopen the results, recover the current price, sign in, check the terms, and rebuild the itinerary before you can book anything.",
+    "Strawberry does the research in the browser alongside you. Your companion can use the calendar, policy, preferences, and trip context already available, compare live provider pages, keep the useful options open for inspection, and continue into a booking once you approve the exact choice."
+  ],
+  "sections": [
+    {
+      "id": "start-with-trip-that-has-to-work",
+      "title": "Start with the trip that has to work",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The purpose, travelers, origin, destination, dates, required arrival window, calendar commitments, budget, policy, flexibility, and personal requirements shape the search. Strawberry can infer much of that from the context you have made available, then ask only about a gap that would materially change the options."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/plan-a-business-trip",
+              "roleId": "operations-chief-of-staff",
+              "context": "Research and compare a traveler-specific work itinerary, then complete only the bookings and follow-through you approve."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The search can include flights, rail, ground transport, and the accommodation types that fit the trip: hotels, short-term rentals, serviced apartments, company lodging, or another suitable stay. One category is not treated as the default for every traveler."
+        }
+      ]
+    },
+    {
+      "id": "search-live-options",
+      "title": "Search live options in the browser",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Your companion can move across relevant travel sites, follow promising results to the provider's own page, and use logged-in services when you have made them available. The useful tabs, observed prices, currencies, key terms, and time checked stay visible, so you can inspect the evidence or take over the search."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Internal context can change the recommendation just as much as a fare. A travel policy may rule out one option, a calendar event may require a longer arrival buffer, and a preferred location may save enough local travel to justify a higher room rate. Strawberry can reason across those details without requiring a fresh prompt for each provider."
+        }
+      ]
+    },
+    {
+      "id": "compare-coherent-itineraries",
+      "title": "Compare coherent itineraries",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The best comparison is a small set of complete trips rather than a large table of isolated fares. It should account for door-to-door time, transfers, total expected cost, location, workability, change and cancellation terms, policy fit, accessibility, preferences, and any uncertainty that could affect the choice."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strawberry keeps estimates, live quoted prices, tentative holds, and confirmed purchases distinct. It can recommend the best option and explain the tradeoff without pretending a starting fare already includes the material fees or that separate legs are guaranteed to work together."
+        }
+      ]
+    },
+    {
+      "id": "book-and-organize",
+      "title": "Book and organize the trip you choose",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Immediately before a booking, the companion rechecks the availability, price, dates, traveler, currency, and important terms. If something material changed, it returns the decision to you. Approval of a preferred itinerary or budget is not approval to spend; each purchase, cancellation, upgrade, calendar change, and message remains its own reviewable action."
+        },
+        {
+          "kind": "paragraph",
+          "text": "After an approved booking, Strawberry can verify the confirmation and assemble one shareable itinerary with local times, addresses, transfer logic, confirmation references, contacts, and cancellation deadlines. It can prepare calendar entries, traveler messages, and an expense handoff without exposing sensitive identity or payment information in the shared version."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Travel is often better handled on request than through a Routine. When plans change, the same companion can return to the current bookings, research alternatives, and preserve the comparison and approval boundaries without asking you to reconstruct the trip."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for Operations work",
+      "description": "See how browser-native travel work fits into a broader Operations workflow.",
+      "href": "/playbooks/operations"
+    }
+  ]
+}

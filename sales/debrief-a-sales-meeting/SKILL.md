@@ -22,11 +22,11 @@ calendar event, use attendee names, email addresses, and company or domain conte
 speakers and account, then search CRM, email, and other sources narrowly with those exact
 identifiers. Broaden the search only when the calendar match is missing or ambiguous.
 
-Use the existing relationship and desired meeting outcome when available. If the meeting still
-needs to be recorded or transcribed, use
-`strawberry/operations/transcribe-meetings-follow-up`. Continue here when a transcript, notes, or
-another reliable record is ready for a sales-specific debrief. If the record lives in another
-meeting-notes app, use an available connection or ask the user to connect it when helpful.
+Use the existing relationship and desired meeting outcome when available. Strawberry can capture
+supported conversations without adding a visible meeting bot when the meeting still needs a
+reliable record. Continue here when a transcript, notes, or another reliable record is ready for a
+sales-specific debrief. If the record lives in another meeting-notes app, use an available
+connection or ask the user to connect it when helpful.
 
 ### 2. Ground the debrief in what was said
 

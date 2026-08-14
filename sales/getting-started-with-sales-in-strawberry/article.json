@@ -108,11 +108,6 @@
       ],
       "skills": [
         {
-          "id": "strawberry/operations/transcribe-meetings-follow-up",
-          "roleId": "sales-business-development",
-          "context": "Capture the conversation without a meeting bot and turn it into a reliable record."
-        },
-        {
           "id": "strawberry/sales/debrief-a-sales-meeting",
           "roleId": "sales-business-development",
           "context": "Turn the conversation into a sales debrief, grounded follow-up, CRM changes, and next actions."

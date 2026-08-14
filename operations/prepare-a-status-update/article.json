@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-status-updates",
+  "title": "How to write better status updates with AI",
+  "description": "Use AI to turn current project, meeting, message, and dashboard context into a clear update for a specific audience.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "Writing a status update is often less work than assembling one. Before the first sentence, someone has to check the project record, recent meetings, team messages, a dashboard, and the last update to work out what has actually changed.",
+    "A normal AI chat can improve the prose once that context has been pasted in. Strawberry can help with the earlier part as well. Your companion can use the tabs, logged-in tools, connected apps, files, and meeting records behind the work, compare them, and keep the useful evidence close to the draft.",
+    "The result should tell a particular audience what they need to understand or do next. It should not be a polished diary of everything the team completed."
+  ],
+  "sections": [
+    {
+      "id": "start-with-audience",
+      "title": "Start with the audience and purpose",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A leadership update, project-team post, and cross-functional note may describe the same work very differently. Leaders may need the consequence of a delay and a clear decision. A delivery team may need the changed priority, owner, and dependency. Partners need to know what affects them and by when."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/prepare-a-status-update",
+              "roleId": "operations-chief-of-staff",
+              "context": "Prepare one concise, audience-specific update from the sources that represent the current work."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "A trusted previous update can supply the voice, structure, and expected detail. Without one, Strawberry can begin with a concise draft instead of imposing traffic lights or a project-report template the team does not use."
+        }
+      ]
+    },
+    {
+      "id": "assemble-current-picture",
+      "title": "Assemble the current picture",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The source of truth may differ by claim: a task system for ownership, a dashboard for a metric, a decision document for an approved choice, and a meeting record for the context behind it. Strawberry can work across those sources without asking you to summarize each one first."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When two sources disagree, the update should not quietly choose whichever version creates the cleanest story. Your companion can flag the conflict, show which evidence is current, and keep facts, plans, forecasts, and recommendations distinct where the difference affects trust."
+        }
+      ]
+    },
+    {
+      "id": "write-what-changed",
+      "title": "Lead with what changed and what it means",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A useful update usually needs a clear headline, meaningful progress or change, the risks or decisions that require attention, and the next milestone. Links can sit beside important claims for readers who need the detail. Activity that does not change understanding can stay out."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the source work is too inconsistent to support the update, resolve that first. An open-loop audit can find a missing owner or conflicting status before the error is repeated in a message to the wider team."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/close-open-loops",
+              "roleId": "operations-chief-of-staff",
+              "context": "Reconcile missing ownership, open commitments, or conflicting records before drafting the update."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prepare-for-the-real-channel",
+      "title": "Prepare it for the real channel",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Strawberry can format the update for Slack, email, a document, or the destination the team actually uses. You can review the audience, facts, names, dates, metrics, links, tone, and sensitive context before the companion creates an external draft or posts anything."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For a recurring update, feedback can preserve the accepted sources, definitions, voice, and review behavior. A Routine can compare the latest context with the last accepted update and prepare a fresh draft on the right cadence, stopping when material evidence conflicts or private context could reach the wrong audience."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for Operations work",
+      "description": "Connect status updates with daily priorities, open commitments, and meeting preparation.",
+      "href": "/playbooks/operations"
+    }
+  ]
+}

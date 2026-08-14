@@ -24,4 +24,7 @@ Design an interview loop that gathers decision-relevant evidence consistently an
 
 The output is a draft plan for the hiring team to approve. Do not schedule, send candidate materials, or change ATS records without explicit approval for that action.
 
-After interviews, use `strawberry/operations/transcribe-meetings-follow-up` to create a reliable record when authorized, then `strawberry/recruiting/synthesize-interview-feedback` to map evidence to the accepted scorecard. Offer to save an accepted interview kit as a custom skill; add a Routine only for stable preparation or follow-up steps, never for the hiring decision.
+After interviews, use Strawberry's meeting capture or another reliable record when authorized, then
+use `strawberry/recruiting/synthesize-interview-feedback` to map evidence to the accepted scorecard.
+Offer to save an accepted interview kit as a custom skill; add a Routine only for stable preparation
+or follow-up steps, never for the hiring decision.

@@ -48,14 +48,14 @@
       ],
       "skills": [
         {
-          "id": "strawberry/sales/prepare-for-calls",
+          "id": "strawberry/operations/prepare-for-meetings",
           "roleId": "other",
           "context": "Walk into today’s important calls with the context that matters."
         },
         {
-          "id": "strawberry/operations/transcribe-meetings-follow-up",
+          "id": "strawberry/operations/debrief-a-meeting",
           "roleId": "other",
-          "context": "Turn each meeting into notes, decisions, and reviewable follow-up."
+          "context": "Turn the reliable meeting record into decisions, actions, and reviewable follow-up."
         }
       ]
     },
@@ -68,9 +68,9 @@
       ],
       "skills": [
         {
-          "id": "strawberry/operations/reach-inbox-zero",
+          "id": "strawberry/operations/triage-my-inbox",
           "roleId": "founder-executive",
-          "context": "Organize the inbox and build a reliable way to keep it under control."
+          "context": "Triage the email, LinkedIn, or other communication queue that needs attention."
         }
       ]
     },

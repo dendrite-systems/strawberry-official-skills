@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-for-meeting-prep",
+  "title": "Prepare for meetings from the context you already have",
+  "description": "Turn the calendar event, prior conversations, current work, files, and relevant web context into a concise meeting brief.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-06-04T08:02:52.087Z",
+  "noindex": false,
+  "introduction": [
+    "The best meeting briefs are short enough to use and specific enough to change the conversation. They help you understand what has changed, ask better questions, and leave with a useful decision or next step without summarizing every attendee and attached document.",
+    "Gathering that context is often the slow part. The calendar has the event, earlier decisions are in meeting notes, the working detail is in a project tool or message thread, and useful external context may sit on a company website or another open tab.",
+    "Strawberry can bring those sources together in the same browser where you work. Your companion can match the right meeting and participants, follow relevant links through logged-in tools and the public web, and prepare a short brief with the evidence still easy to inspect."
+  ],
+  "sections": [
+    {
+      "id": "start-with-outcome",
+      "title": "Begin with what you need from the meeting",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A board discussion, vendor review, project decision, one-to-one, and customer conversation need different preparation. Strawberry starts from the calendar event and the result you likely need: a decision, alignment, feedback, an introduction, an update, or a concrete next step. If the meeting is close, it can give you the essentials first."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/prepare-for-meetings",
+              "roleId": "operations-chief-of-staff",
+              "context": "Prepare a concise brief for an upcoming general meeting from the context that could change the conversation."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the meeting depends on specialist judgment, use the focused workflow for that domain. Sales preparation can reason about the account, opportunity, and commercial next step. Candidate-interview preparation can work from the accepted role criteria and scorecard."
+        }
+      ]
+    },
+    {
+      "id": "follow-useful-context",
+      "title": "Follow the context that could change the conversation",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Your companion can move from the invite into earlier messages, project records, prior meetings, documents, dashboards, and relevant websites. It does not need every available source. It needs the few sources that change a question, explain a tension, confirm a promise, or reveal that the apparent plan is out of date."
+        },
+        {
+          "kind": "paragraph",
+          "text": "This is where Strawberry's shared browser is useful. You can see which person, organization, and record the companion matched, open the supporting evidence, or take over the research. The brief does not arrive as a detached summary with no practical way to verify the path behind it."
+        }
+      ]
+    },
+    {
+      "id": "make-brief-usable",
+      "title": "Make the brief usable five minutes before the meeting",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A practical brief normally fits in a quick scan: what to aim for, who is involved and why now, the few things worth knowing, what to bring, the questions worth asking, and any sensitive point or dependency to watch. Source links sit beside claims that may need checking."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Private hypotheses stay separate from anything shared with attendees. Facts, prior decisions, and other people's claims also remain distinct when collapsing them would give the user false confidence."
+        }
+      ]
+    },
+    {
+      "id": "carry-context-forward",
+      "title": "Carry the context through the meeting",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Strawberry can capture supported conversations without adding a visible meeting bot. Afterward, the reliable record can feed a general meeting debrief or a specialist Sales or interview workflow. The preparation, conversation, and follow-through stay connected instead of asking you to explain the relationship again."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/debrief-a-meeting",
+              "roleId": "operations-chief-of-staff",
+              "context": "Turn a completed general meeting into grounded decisions, actions, follow-up drafts, and proposed system updates."
+            },
+            {
+              "id": "strawberry/sales/prepare-for-sales-meetings",
+              "roleId": "sales-business-development",
+              "context": "Use the Sales-specific workflow when account, opportunity, pipeline, or commercial judgment is central."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Feedback on real briefs can teach your companion which sources you trust, how much depth helps, and the way you like to prepare. Once that method is reliable, a Routine can prepare briefs before matching calendar events and stop when the event, attendee, or privacy boundary is unclear."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Turn every useful meeting into decisions and follow-up",
+      "description": "Use the reliable meeting record to prepare a debrief and complete the useful follow-through.",
+      "href": "/blog/strawberry-for-meetings"
+    },
+    {
+      "title": "How to use AI for Operations work",
+      "description": "See how meeting preparation connects with daily priorities and cross-functional follow-through.",
+      "href": "/playbooks/operations"
+    }
+  ]
+}

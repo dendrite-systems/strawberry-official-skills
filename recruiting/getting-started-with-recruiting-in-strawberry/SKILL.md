@@ -17,7 +17,8 @@ Recommend only the routes that fit the user's immediate decision:
 - Use `strawberry/recruiting/review-applications` for an inbound application set or backlog.
 - Use `strawberry/recruiting/send-candidate-outreach` for approved candidates or segments that need candidate-specific messaging.
 - Use `strawberry/recruiting/prepare-candidate-interviews` before interviews.
-- Use `strawberry/operations/transcribe-meetings-follow-up`, then `strawberry/recruiting/synthesize-interview-feedback`, after interviews when the user needs a reliable record and scorecard-based synthesis.
+- After an authorized interview, use Strawberry's meeting capture or another reliable record, then
+  use `strawberry/recruiting/synthesize-interview-feedback` for scorecard-based synthesis.
 - Use `strawberry/recruiting/review-recruiting-pipeline` for priorities, stalled candidates, evidence gaps, candidate-experience risk, ATS corrections, or coverage against hiring goals.
 
 For broad requests, ask about the role or roles, the decision due next, current pipeline state, source systems, and approval boundaries only when the answer changes the route. Do not force a full setup before useful work.

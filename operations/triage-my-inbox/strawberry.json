@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Triage My Inbox",
+  "summary": "Prioritize an email, LinkedIn, or other inbox, draft replies, and review the cleanup that would bring it under control.",
+  "icon": "inbox",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 114,
+      "title": "Triage an inbox",
+      "message": "Help me triage this inbox. Bring forward what needs attention, draft the useful replies, and show me any cleanup or delegation before taking action."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 92,
+      "title": "Bring an inbox under control",
+      "message": "Review the communication queue I choose and help me deal with the important messages without treating every unread item as urgent."
+    },
+    {
+      "roleId": "other",
+      "weight": 80,
+      "title": "Sort incoming messages",
+      "message": "Prioritize this email, LinkedIn, or messaging inbox and prepare the replies, follow-ups, and cleanup I should review."
+    }
+  ]
+}

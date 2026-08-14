@@ -71,7 +71,7 @@ deadlines, and review points.
 
 When the founder approves a contact list and wants messages, use
 `strawberry/sales/send-personalized-outreach`; keep its verification, drafting, and sending rules
-there. Use `strawberry/sales/prepare-for-calls` for scheduled investor conversations. Drafting does not
+there. Use `strawberry/operations/prepare-for-meetings` for scheduled investor conversations. Drafting does not
 authorize sending: contacting investors, sharing sensitive materials, granting access, or changing
 pipeline records always requires explicit approval.
 

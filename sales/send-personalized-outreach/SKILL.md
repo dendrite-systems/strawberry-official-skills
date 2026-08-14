@@ -24,7 +24,8 @@ relationships separate from the genuinely repeatable audience.
 
 When meeting notes or a transcript should ground the follow-up, use
 `strawberry/sales/debrief-a-sales-meeting` rather than reconstructing what was said. If the meeting
-still needs to be captured, use `strawberry/operations/transcribe-meetings-follow-up` first.
+still needs a reliable record, Strawberry can capture supported conversations without adding a
+visible meeting bot.
 
 If the user still needs recipients, use `strawberry/sales/find-new-customers`. If a list needs better
 data or verification, use `strawberry/sales/enrich-lead-list`.

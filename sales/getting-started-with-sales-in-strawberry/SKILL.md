@@ -54,8 +54,8 @@ workflow. A useful process that repeats can later become a custom skill.
 - **Prepare for an upcoming sales conversation:** read
   `strawberry/sales/prepare-for-sales-meetings`.
 - **Turn a conversation into next steps:** when a transcript or notes exist, read
-  `strawberry/sales/debrief-a-sales-meeting`. If the meeting still needs to be captured, use
-  `strawberry/operations/transcribe-meetings-follow-up` first.
+  `strawberry/sales/debrief-a-sales-meeting`. Strawberry can capture supported conversations
+  without adding a visible meeting bot when the meeting still needs a reliable record.
 - **Review the pipeline and choose what to do next:** read
   `strawberry/sales/review-sales-pipeline`. Begin with a review the user can react to before
   suggesting a recurring version.

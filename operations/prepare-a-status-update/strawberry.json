@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Prepare a Status Update",
+  "summary": "Turn current work into a concise, source-backed update for the people who need it.",
+  "icon": "chart",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 110,
+      "title": "Prepare an Operations update",
+      "message": "Prepare a concise status update for the audience and channel I name, grounded in the current project, meeting, message, and document context."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 90,
+      "title": "Draft a leadership update",
+      "message": "Turn the latest work into a clear update with the important progress, changes, risks, decisions, asks, and next steps."
+    },
+    {
+      "roleId": "agency",
+      "weight": 76,
+      "title": "Draft a team or project update",
+      "message": "Help me prepare an audience-specific async update from the current sources without turning it into an activity log."
+    }
+  ]
+}

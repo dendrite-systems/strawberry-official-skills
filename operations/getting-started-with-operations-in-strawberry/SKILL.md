@@ -1,90 +1,125 @@
 ---
 name: getting-started-with-operations-in-strawberry
-description: Best practices for anyone getting started with operations in Strawberry. Use when helping a user choose, set up, or expand recurring queues, handoffs, reports, support, or shared team workflows.
+description: Help someone get started with Operations in Strawberry. Understand the work already in front of them, recommend up to three useful first wins when needed, route to the focused workflow that fits, and help them build a connected way of working over time.
 ---
 
-# Getting Started with Operations in Strawberry
+# Get Started with Operations in Strawberry
 
-Strawberry can connect email, calendars, project tools, documents, team communication, and
-dashboards to reduce repetitive coordination. This is not a fixed methodology. Enter wherever the
-user or team has a real bottleneck, choose one small valuable result, and skip what already works.
-Over time, help them adopt only the adjacent workflows that genuinely suit how the operation runs.
+Help the user see how their companion can take on real Operations work across the places where it
+already happens. Briefly show the larger possibility, then start with one useful result from the
+work in front of them.
 
-## Set up Strawberry around the process
+## Paint the picture
 
-Start with what eats the user's time each day or week. While the starting point is broad, ask one
-short question at a time and offer concise choices when useful. Ask whether the user wants to
-answer a few questions, let Strawberry look through relevant connected apps, or combine both.
-Before looking, explain briefly what would be useful to find—for example, an existing report
-template, the dashboards it draws from, or where the team tracks owners and deadlines. No
-particular source or connected app is required unless the chosen result depends on it.
+Explain that Strawberry is more than a chat box. The companion can work with the user's browser
+tabs and logged-in sites, email, calendars, team communication, meetings, documents, project tools,
+files, approved apps, and the public web. It can carry useful context and feedback forward instead
+of making the user reconstruct the same background each time.
 
-Learn the owners, inputs, decisions, exceptions, approvals, audience, destination, and success
-criteria for the chosen result. Use approved examples to understand writing style, escalation
-rules, and report structure. Before substantial work, summarize the intended process and open
-uncertainties in a concise plan, then wait for the user to confirm or adjust it.
+Make the difference concrete. The companion can follow work across real records, keep the path
+visible for the user to inspect or take over, and continue from research into reviewable replies,
+forms, system updates, bookings, or other approved actions. This is more useful than returning a
+detached answer that leaves the user to finish every step elsewhere.
 
-## Start with one concise briefing
+Show how individual jobs can connect: a daily brief can reveal an inbox item or open commitment; a
+meeting brief can lead into a debrief and follow-through; onboarding can expose a repeatable team
+workflow. Keep this introduction brief and useful rather than turning it into a feature tour.
 
-A morning brief is often a useful first result. With approval, Strawberry can combine urgent or
-unanswered email, today's calendar, external-attendee research, team communication that needs
-attention, and tasks due today. Let the user choose what belongs, highlight priorities, and include
-working links so the result feels like a briefing rather than an essay. For deeper meeting
-preparation, read `strawberry/sales/prepare-for-calls`.
+## Find the right first win
 
-Review the first briefing together and preserve the accepted sources, priorities, depth, and
-format. Do not schedule it yet.
+Start with the real task the user already has. If they know what they need, follow their lead. If
+they are unsure, use the conversation, memory, open tabs, files, calendar, and approved apps to
+notice where Strawberry could help. Recommend no more than three situational options and explain
+briefly why each fits what is visible now.
 
-## Turn recurring reporting into a repeatable workflow
+Possible starting moments include:
 
-For a report or summary, learn how the user currently compiles it: the reporting period, source
-dashboards, metrics, audience, format, and destination. When available and approved, a previous
-report or template is often the fastest calibration. Gather independent sources in parallel only
-when their scopes are clear, then reconcile them into the user's preferred format with working
-source links. For project or client reporting, read
-`strawberry/operations/build-client-progress-report-project-tools`.
+- getting oriented for the day;
+- bringing a communication inbox under control;
+- finding commitments or ownership gaps that are slipping between systems;
+- preparing an update, meeting, or meeting follow-through;
+- onboarding a teammate;
+- planning a work trip or professional event; or
+- turning a trusted personal workflow into a shared team method.
 
-Review one complete report before preserving its accepted sources and format. Offer to prepare a
-sendable draft, but do not send it or schedule recurring preparation without approval.
+Adapt these ideas to the user rather than presenting a menu of every Operations skill. Suggest an
+app connection only when it would materially improve the chosen result, and say what it would
+unlock. Continue from visible tabs, uploaded files, or details the user provides when those are
+enough to begin.
 
-## Calibrate recurring queues
+## Use the focused skill that owns the result
 
-Strawberry can triage incoming work against user-owned rules and prepare replies in an established
-style. Read `strawberry/operations/reach-inbox-zero` for inbox organization and reviewable drafts, or
-`strawberry/operations/automate-customer-support` when the repeated queue is customer support. Start with a
-small representative sample so the user can correct urgency, routing, tone, and source-grounded
-accuracy before a full sweep. Nothing sends, auto-files, auto-replies, or changes an external
-record without approval.
+First understand the outcome the user wants. When one focused skill fits, read it and adapt it to
+the situation. When another collection owns the specialist judgment, use that workflow instead. If
+no focused skill fits, help normally rather than forcing the work into the nearest package.
 
-## Support decisions with reviewable evidence
+- **See what needs attention today:** read
+  `strawberry/operations/prepare-a-daily-brief`.
+- **Sort an email, LinkedIn, or other communication queue:** read
+  `strawberry/operations/triage-my-inbox`.
+- **Find unresolved commitments or conflicting status across systems:** read
+  `strawberry/operations/close-open-loops`.
+- **Prepare one audience-specific async update:** read
+  `strawberry/operations/prepare-a-status-update`.
+- **Get ready for a general meeting:** read
+  `strawberry/operations/prepare-for-meetings`. Use the specialist Sales or Recruiting workflow
+  when that domain's judgment is central.
+- **Turn a completed general meeting into decisions and follow-through:** read
+  `strawberry/operations/debrief-a-meeting`. Meeting capture and transcription are product
+  capabilities and evidence sources, not a separate skill.
+- **Bring a confirmed hire or internal mover up to speed:** read
+  `strawberry/operations/onboard-a-new-teammate`.
+- **Research, compare, and complete approved work-trip bookings:** read
+  `strawberry/operations/plan-a-business-trip`.
+- **Plan and coordinate a professional event:** read
+  `strawberry/operations/plan-an-event`.
+- **Turn a proven individual method into a shared workflow:** read
+  `strawberry/operations/set-up-shared-team-workflow`.
 
-Strawberry can compare vendors against agreed criteria while preserving source links and open
-questions. Read `strawberry/venture-capital/do-due-diligence-vendor-or-supplier` for vendor work. When a decision
-needs repeated fields from websites, agree on the schema and scope, then read
-`strawberry/research-analysis/extract-web-data` to create a reviewable dataset.
+When several skills could help, recommend the best first one and no more than two alternatives.
+Choose the result that is useful now, not the most ambitious setup.
 
-## Close handoffs, then connect the team
+## Teach through real work
 
-After a useful meeting, Strawberry can turn what was actually said into decisions, open questions,
-owned actions, and a follow-up draft. Read `strawberry/operations/transcribe-meetings-follow-up`; nothing sends
-or writes to an external system without approval.
+Help the user get better results from their companion while completing the task:
 
-When an accepted individual process should become shared, read
-`strawberry/operations/set-up-shared-team-workflow` to make owners, destinations, field meanings, privacy
-boundaries, and approval behavior explicit, then verify one real handoff before scaling.
+- **Use the context that matters:** explain why a particular tab, file, app, meeting, or example
+  would improve this result rather than asking the user to connect everything.
+- **Start small when judgment matters:** use a manageable, varied first set for subjective,
+  expensive, high-volume, or consequential work so the user can correct the approach before it
+  expands.
+- **Learn from feedback:** carry forward useful sources, priorities, voice, definitions, and review
+  preferences without turning one exception into a permanent rule.
+- **Save a method when it proves reusable:** offer a custom skill after durable criteria or steps
+  emerge from accepted work.
+- **Share only what helps:** share an approved artifact for one result, a team skill for a trusted
+  method, or the full companion when teammates need ongoing context and several workflows.
+- **Use a Routine when there is a real trigger:** define the cadence or event, systems checked,
+  actions, output, approvals, and stop conditions after the underlying workflow is trusted.
 
-## Other things to try
+Do not make these progression steps a checklist the user must complete. Introduce the next layer
+only when the work creates a reason for it.
 
-These are useful discovery ideas, not complete standalone workflows:
+## Connect one useful next step
 
-- Summarize a long contract or vendor agreement before a decision.
-- Create a concise weekly summary from approved team and project context.
-- Find unresolved follow-ups by comparing recent meetings with sent communication.
-- Prepare the logistics, attendees, and priorities for a business trip or event.
+After delivering a useful result, suggest one adjacent workflow when it would help. For example:
 
-## Make the process reliable
+- daily brief -> inbox triage or open-loop audit;
+- meeting preparation -> capture -> meeting debrief -> later commitment tracking;
+- open-loop audit -> status update or preparation for a decision meeting;
+- event planning -> traveler-specific business trips;
+- onboarding -> a shared team workflow after the method proves useful; or
+- repeated accepted work -> custom skill -> team sharing or a precise Routine.
 
-Run the process manually on a small sample and confirm missing-data behavior, exceptions, and
-escalation paths. Save the accepted process as a user- or team-owned skill, including its sources,
-destinations, owners, field meanings, privacy boundaries, and approval behavior. Add a Routine only
-after the team trusts the inputs, decisions, handoffs, and review behavior.
+On later visits, build on the workflows the user has adopted. Improve them, connect the next useful
+piece, or take on something more ambitious instead of restarting onboarding.
+
+## Keep the user in control
+
+Research, drafting, creating an external draft, sending, posting, booking, purchasing, inviting,
+changing permissions, and updating records are different actions. Treat approval of one as approval
+of that action only. Keep important sources, unresolved conflicts, and material uncertainty visible
+before they affect a decision or external change.
+
+The guide has done its job when the user understands the larger Operations possibility, completes
+one useful piece of real work, and knows the most relevant way their companion can help next.

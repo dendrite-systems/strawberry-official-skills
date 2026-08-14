@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "displayName": "Getting Started with Operations in Strawberry",
-  "summary": "Get started with operations in Strawberry through recurring admin, coordination, support, and team workflows.",
+  "summary": "Choose a useful Operations workflow from the work already in front of you and build toward a connected way of working over time.",
   "icon": "sparkles",
   "tags": [
     "getting-started-guide"
@@ -10,20 +10,20 @@
     {
       "roleId": "operations-chief-of-staff",
       "weight": 120,
-      "title": "Getting Started with Operations in Strawberry",
-      "message": "I want to get started with operations in Strawberry and automate repetitive work."
+      "title": "Get started with Operations in Strawberry",
+      "message": "Show me how my Strawberry companion can help with the Operations work already in front of me, then recommend the best place to begin."
     },
     {
       "roleId": "founder-executive",
-      "weight": 82,
-      "title": "Getting Started with Operations in Strawberry",
-      "message": "I want to get started with operations in Strawberry and take repetitive admin work off my plate."
+      "weight": 94,
+      "title": "Build a more connected Operations workflow",
+      "message": "Help me choose one useful Operations task for my Strawberry companion and show me how it could grow into a connected workflow."
     },
     {
       "roleId": "other",
-      "weight": 79,
-      "title": "Getting Started with Operations in Strawberry",
-      "message": "I want to get started with operations in Strawberry and take repetitive admin work off my plate."
+      "weight": 82,
+      "title": "Get help with Operations work",
+      "message": "Look at the Operations work I have in front of me and help me choose one useful place to start in Strawberry."
     }
   ]
 }

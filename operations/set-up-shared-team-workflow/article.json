@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "strawberry-for-teams",
   "title": "Turn a workflow that works into a shared team process",
-  "description": "Preserve useful context, ownership, review points, and privacy boundaries so teammates can repeat an accepted workflow.",
+  "description": "Preserve the useful context, judgment, ownership, review points, and privacy boundaries behind one proven workflow.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -15,58 +15,87 @@
   "publishedAt": "2026-06-17T20:19:00.000Z",
   "noindex": false,
   "introduction": [
-    "A shared AI workflow is useful when teammates can repeat the result without guessing which context, destination, or approval rule another person intended. Sharing everything is not the goal. Preserving the accepted parts of one working process is.",
-    "Strawberry can keep team guidance, shared artifacts, ownership, and recurring work together while personal or client-confidential context stays within its approved boundary. Start with one proven workflow and verify one real handoff."
+    "A useful AI workflow can easily remain personal. One person knows which sources to trust, how to judge an exception, what the final result should look like, and which actions still need review. A teammate sees only the finished output and has to reconstruct the method.",
+    "Turning that workflow into a generic process document rarely fixes the problem. The team needs the working context, ownership, judgment, and handoffs that made the original result reliable—without copying one person's private notes or sharing more than the work requires.",
+    "Strawberry can preserve that method as a team skill, connect it with approved shared context, and run it across the real tabs, files, communication tools, and apps the team uses. Start with one accepted workflow and verify that someone else can complete one real handoff."
   ],
   "sections": [
     {
-      "id": "start-with-one-proven-workflow",
-      "title": "Start with one proven workflow",
-      "paragraphs": [
-        "Choose a process that already creates a useful result for one person. Clarify its inputs, owners, destination, field meanings, review points, exceptions, and what a successful handoff means before trying to standardize it.",
-        "Use an existing example or template when one is available. The aim is to preserve the team's judgment, not replace it with a generic process document."
-      ],
-      "skills": [
+      "id": "start-with-proven-workflow",
+      "title": "Start with a workflow that already works",
+      "blocks": [
         {
-          "id": "strawberry/operations/set-up-shared-team-workflow",
-          "roleId": "operations-chief-of-staff",
-          "context": "Use this to map an accepted workflow into a clear shared process."
+          "kind": "paragraph",
+          "text": "Choose a result that one person has already produced and corrected. The accepted example reveals the real inputs, source priority, judgment, output, review points, and exceptions. Without that evidence, a shared workflow is only a proposed policy."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/set-up-shared-team-workflow",
+              "roleId": "operations-chief-of-staff",
+              "context": "Turn one trusted individual workflow into a shared team method with clear ownership, privacy boundaries, a verified handoff, and a concrete Routine."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the underlying result has not been tested yet, complete or calibrate the focused workflow first. The team should preserve what proved useful rather than standardize an assumption."
         }
       ]
     },
     {
-      "id": "share-the-right-context",
-      "title": "Share the right context, not every context",
-      "paragraphs": [
-        "Put reusable guidance and approved shared artifacts in the team workspace. Keep personal, client-confidential, and unapproved material out, and keep different clients' data separated.",
-        "A shared skill can preserve the team's sources, structure, writing conventions, and review rules. Shared memory should hold durable context that is genuinely useful across the team rather than becoming a dump of every conversation."
-      ],
-      "skills": []
+      "id": "choose-sharing-layer",
+      "title": "Share the smallest useful layer",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Sometimes the team only needs the approved artifact. Sometimes several people need the method, so a team skill is the right layer. A shared companion is useful when the team needs ongoing approved context, memory, and several connected workflows. Those are different choices, and a working personal method does not need to become a company-wide system."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The reusable guidance should contain the trigger, inputs, source of truth, owners, reviewers, destination, decisions the companion may make, actions a person must approve, and exceptions that stop the work. Personal preferences, client-confidential context, and temporary workarounds stay outside unless they are deliberately approved for the team."
+        }
+      ]
     },
     {
-      "id": "make-handoffs-visible",
-      "title": "Make ownership and handoffs visible",
-      "paragraphs": [
-        "Map approved inputs to a reviewable output, keep source links where they matter, and make responsibility and approval boundaries explicit. Pilot the process with the people who own the work and verify permissions, field meanings, handoffs, and review behavior.",
-        "Ask before sending sensitive communication, changing access, or making irreversible updates. A shared process should make control clearer, not bury it."
-      ],
-      "skills": []
+      "id": "build-in-real-workspace",
+      "title": "Build and test it in the real workspace",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Strawberry can follow the workflow through visible tabs, logged-in sites, shared files, communication tools, and connected apps while the user watches or takes over. That makes it possible to test more than the written instructions: whether links and permissions work, field meanings are shared, the destination is correct, and the next owner can actually pick up the result."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Pilot one representative handoff with the people who will use and review it. A small run exposes missing access, tribal knowledge, unclear ownership, and review steps that looked obvious to the original operator. Correct the team skill and rerun the handoff that failed before broadening it."
+        }
+      ]
     },
     {
-      "id": "add-recurrence-only-when-ready",
-      "title": "Add recurrence only when the team trusts the process",
-      "paragraphs": [
-        "Preserve the accepted process as a team-visible custom skill after the first handoff works. Add a Routine only when the team explicitly wants recurring execution and has agreed on ownership, review, exceptions, and notification behavior.",
-        "When the workflow is part of joining or leaving the team, connect it to a reviewed onboarding or offboarding checklist so access and responsibilities do not drift."
-      ],
-      "skills": []
+      "id": "define-routine",
+      "title": "Add a Routine when the method is ready",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A useful Routine is more specific than a schedule. It names the event or cadence that starts the work, the approved systems it checks, what it gathers or prepares, where the result appears, who reviews it, which external changes wait for approval, and the conditions that stop the run."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Recurrence should come after the team trusts the handoff. When the trigger is weak, the method is still changing, or on-request use is enough, keep the Routine as a proposal. Team sharing, enabling the Routine, inviting people, and changing external systems remain separate decisions."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The finished handoff includes the verified team skill, shared destination, ownership map, pilot result, and Routine plan. Later runs can improve the method as tools and teams change without allowing one exception to rewrite the whole workflow."
+        }
+      ]
     }
   ],
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How operations teams use Strawberry",
-      "description": "Choose a recurring process and turn it into reliable operational work.",
+      "title": "How to use AI for Operations work",
+      "description": "Choose a useful Operations workflow and build toward a connected team method over time.",
       "href": "/playbooks/operations"
     }
   ]

@@ -46,8 +46,9 @@ contradictions and keep every material claim traceable.
 ## Prepare for and preserve meetings
 
 Strawberry can gather relevant company, market, founder, and relationship context before a call.
-Read `strawberry/sales/prepare-for-calls` for preparation. Afterwards,
-`strawberry/operations/transcribe-meetings-follow-up` can turn the transcript into decisions, actions,
+Read `strawberry/operations/prepare-for-meetings` for preparation. Strawberry can capture supported
+conversations without adding a visible meeting bot. Afterwards,
+`strawberry/operations/debrief-a-meeting` can turn the reliable record into decisions, actions,
 structured records, and draft follow-up without sending anything automatically.
 
 ## Other things to try

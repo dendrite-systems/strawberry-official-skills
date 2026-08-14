@@ -87,14 +87,14 @@
           "context": "Build a clear account of progress, attention points, and unresolved blockers."
         },
         {
-          "id": "strawberry/sales/prepare-for-calls",
+          "id": "strawberry/operations/prepare-for-meetings",
           "roleId": "agency",
           "context": "Prepare a concise brief for the client conversations that matter."
         },
         {
-          "id": "strawberry/operations/transcribe-meetings-follow-up",
+          "id": "strawberry/operations/debrief-a-meeting",
           "roleId": "agency",
-          "context": "Capture decisions and draft reviewable follow-up after the call."
+          "context": "Turn the reliable meeting record into decisions, actions, and reviewable follow-up."
         }
       ]
     },

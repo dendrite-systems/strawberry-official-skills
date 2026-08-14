@@ -44,9 +44,10 @@ skill so the domain-specific decisions do not disappear inside a generic extract
 ## Preserve product decisions from meetings
 
 Meetings often contain customer evidence, product decisions, owners, and follow-up that otherwise
-gets lost. Read `strawberry/operations/transcribe-meetings-follow-up` to preserve those details in the agreed
-structure and draft the next actions. Once the team trusts the result, it can become a tailored
-post-meeting skill or routine.
+gets lost. Strawberry can capture supported conversations without adding a visible meeting bot.
+Read `strawberry/operations/debrief-a-meeting` to turn the reliable record into decisions, evidence,
+owners, and draft next actions in the agreed structure. Once the team trusts the result, it can
+become a tailored post-meeting skill or Routine.
 
 ## Understand markets, competitors, and customer signals
 

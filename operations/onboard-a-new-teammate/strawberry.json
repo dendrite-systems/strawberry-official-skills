@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Onboard a New Teammate",
+  "summary": "Build a role-aware context pack, setup plan, first-week path, and verified onboarding handoff.",
+  "icon": "people",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 110,
+      "title": "Onboard a new teammate",
+      "message": "Help me prepare a role-aware onboarding plan with the right company context, people, projects, tools, access, and first-week priorities."
+    },
+    {
+      "roleId": "recruiting-people",
+      "weight": 88,
+      "title": "Hand a confirmed hire into onboarding",
+      "message": "The hire is confirmed. Build the context, setup, introductions, and first-week path they need after the Recruiting handoff."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 84,
+      "title": "Get a new teammate up to speed",
+      "message": "Help me turn our current company and team context into a practical onboarding path for this new teammate."
+    }
+  ]
+}

@@ -88,14 +88,14 @@
           "context": "Use this for a bounded diligence brief with risks and unresolved questions."
         },
         {
-          "id": "strawberry/sales/prepare-for-calls",
+          "id": "strawberry/operations/prepare-for-meetings",
           "roleId": "venture-capital",
           "context": "Prepare a concise, evidence-backed brief for an important company call."
         },
         {
-          "id": "strawberry/operations/transcribe-meetings-follow-up",
+          "id": "strawberry/operations/debrief-a-meeting",
           "roleId": "venture-capital",
-          "context": "Preserve decisions, evidence, and next steps after the conversation."
+          "context": "Turn the reliable meeting record into decisions, evidence, and next steps."
         }
       ]
     },
