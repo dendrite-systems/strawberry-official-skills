@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-consulting-recommendations",
   "title": "Turn consulting research into recommendations",
   "description": "Use Strawberry to compare credible options and turn client research into a defensible recommendation, memo, deck, workshop, or supporting sheet.",
@@ -13,7 +13,7 @@
     "avatarAlt": "Oliver Jones"
   },
   "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "noindex": false,
   "introduction": [
     "Research can be accurate and still leave a client unsure what to do. A market map, interview synthesis, or company dataset becomes useful advice only when it is connected to a clear decision, credible options, and the tradeoffs between them.",
     "Strawberry keeps that path connected. Your companion can work from the engagement brief and existing research, fill material gaps in the visible browser, and carry the reviewed evidence into a recommendation and client artifact. You can inspect where a claim came from instead of accepting a polished conclusion on trust."

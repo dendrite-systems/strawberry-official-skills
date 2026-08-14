@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-consulting-proposal",
   "title": "How to create a consulting proposal with AI",
   "description": "Turn discovery notes, an RFP, approved pricing, and delivery context into a clear consulting proposal without inventing commitments.",
@@ -13,7 +13,7 @@
     "avatarAlt": "Oliver Jones"
   },
   "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "noindex": false,
   "introduction": [
     "A consulting proposal has to make three things agree: what the client needs, what the consultant plans to deliver, and what the firm is prepared to commit to. The information behind those decisions is usually spread across discovery notes, an RFP, email, past work, pricing, and delivery plans.",
     "Strawberry is an agentic browser and workspace with built-in AI agents. Your companion can work from the opportunity record that already exists, keep the supporting material beside the draft, and turn it into a proposal ready for commercial and delivery review. That makes it easier to catch a missing decision before it becomes an accidental promise."

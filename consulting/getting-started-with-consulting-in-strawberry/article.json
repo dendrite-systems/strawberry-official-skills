@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "consulting",
   "title": "How to use AI for consulting work",
   "description": "Use Strawberry across client research, proposals, meetings, recommendations, and follow-through while keeping evidence and approvals clear.",
@@ -13,7 +13,7 @@
     "avatarAlt": "Oliver Jones"
   },
   "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "noindex": false,
   "introduction": [
     "Most consultants already have plenty of context. It is spread across meeting notes, email threads, an RFP portal, research tabs, and past deliverables. The tedious part is bringing the right pieces into the next decision without rebuilding the project each time.",
     "Strawberry works in the same visible browser as that material. Your companion can use what is already open or connected, follow research into logged-in sites, and carry what matters into a proposal, recommendation, brief, or deck. Start with the job in front of you."
