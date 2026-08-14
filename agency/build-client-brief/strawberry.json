@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "displayName": "Build a Client Brief",
-  "summary": "Turn scattered kickoff context into one reliable, client-specific brief.",
+  "displayName": "Start a Client Engagement",
+  "summary": "Turn accepted work into one reliable brief for delivery, evidence, communication, systems, risks, and client restrictions.",
   "icon": "files",
-  "tags": [],
+  "tags": ["good-first-skill"],
   "useCases": [
     {
       "roleId": "agency",
       "weight": 106,
-      "title": "Turn client context into a clear brief",
-      "message": "I want to turn our kickoff documents, scope, emails, and discovery notes into a clear client brief."
+      "title": "Start a client engagement",
+      "message": "Turn the accepted scope, kickoff context, and client restrictions into one reliable engagement brief for the delivery team."
     },
     {
       "roleId": "consultant",
-      "weight": 94,
-      "title": "Turn client context into a clear brief",
-      "message": "I want to turn the context for an engagement into a clear, reviewable client brief."
+      "weight": 108,
+      "title": "Start a client engagement",
+      "message": "Turn this accepted work into a clear engagement brief covering scope, stakeholders, milestones, evidence, communication, systems, risks, and client-data restrictions."
     }
   ]
 }

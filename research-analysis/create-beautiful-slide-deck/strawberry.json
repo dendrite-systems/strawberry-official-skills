@@ -24,6 +24,12 @@
       "message": "I want to turn my work into a beautiful slide deck."
     },
     {
+      "roleId": "consultant",
+      "weight": 96,
+      "title": "Create a polished client presentation",
+      "message": "Turn this reviewed proposal, recommendation, or body of client work into a polished, evidence-grounded slide deck."
+    },
+    {
       "roleId": "other",
       "weight": 94,
       "title": "Create a beautiful slide deck for me",

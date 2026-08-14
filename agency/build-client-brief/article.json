@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-client-engagement-setup",
+  "title": "How to start a client engagement with AI",
+  "description": "Turn accepted work into a reliable engagement brief for scope, stakeholders, milestones, evidence, communication, systems, risks, and client restrictions.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "The awkward part of starting a client engagement is that the work has been agreed, but the delivery team still has to reconstruct what the agreement means in practice. Scope sits in the proposal, expectations in meetings and email, and important restrictions in a contract or client system.",
+    "Strawberry can bring that accepted context together in the same workspace and turn it into one engagement brief. The result gives the team a reliable starting point without treating every sales note as a commitment or carrying another client's setup into the work."
+  ],
+  "sections": [
+    {
+      "id": "begin-after-the-work-is-accepted",
+      "title": "Begin after the work is accepted",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A proposal explains what the consultant is offering. The engagement brief begins after acceptance and explains how the team will deliver it. Strawberry confirms the accepted piece of work, the people responsible, the current phase, and where the brief should live before assembling the handoff."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Your companion can work from the approved proposal or statement of work, kickoff material, discovery records, email, meeting notes, delivery plans, and relevant client systems. Because those sources stay available beside the brief, a delivery lead can inspect the wording behind an assumption instead of relying on a summary alone."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/agency/build-client-brief",
+              "roleId": "consultant",
+              "context": "Turn one accepted piece of work into a reliable engagement brief before delivery begins."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capture-what-delivery-needs",
+      "title": "Capture what delivery needs",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The brief should be concise enough to use and complete enough to prevent avoidable rework. Strawberry separates accepted facts, working interpretations, and open questions, with source links beside decisions the team may need to check later."
+        },
+        {
+          "kind": "table",
+          "columns": ["Part of the brief", "What it should make clear"],
+          "rows": [
+            ["Scope and outcomes", "What is being delivered, what is excluded, and how the client will judge it."],
+            ["People and milestones", "Who decides, reviews, contributes, and owns each important handoff."],
+            ["Evidence and systems", "Which definitions, sources, files, tools, and checks the work will rely on."],
+            ["Communication and risk", "How the engagement will run, where issues escalate, and which assumptions remain open."],
+            ["Client restrictions", "Who may access the work and how confidential, personal, legal, or retained data must be handled."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "When sources disagree, the brief keeps the conflict visible and identifies who must resolve it. Strawberry does not invent acceptance criteria, dates, permissions, authority, or access simply to make kickoff look complete."
+        }
+      ]
+    },
+    {
+      "id": "keep-client-context-separate",
+      "title": "Keep client context separate",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Boutique firms often reuse a familiar engagement shape, but the sources and restrictions must be replaced for every client. Strawberry can learn the accepted structure and review method without copying another client's facts, pricing, strategy, credentials, or confidential examples."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Before any sharing path is suggested, Strawberry establishes the audience, access model, and destination. An internal working brief, a client-facing kickoff document, a team skill, and a public artifact are different things. Approval of the brief does not authorize sending it or changing a project or CRM record."
+        }
+      ]
+    },
+    {
+      "id": "use-the-brief-through-the-engagement",
+      "title": "Use the brief through the engagement",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Once reviewed, the brief becomes useful context for market research, company analysis, recommendations, meeting preparation, debriefs, and status updates. The team does not have to re-explain the client, evidence standard, or delivery boundary at every handoff."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/consulting/turn-client-research-into-recommendations",
+              "roleId": "consultant",
+              "context": "Use the accepted engagement context to turn research into credible options and a client recommendation."
+            },
+            {
+              "id": "strawberry/operations/prepare-a-status-update",
+              "roleId": "consultant",
+              "context": "Prepare a source-backed update for the client or internal team as the engagement moves forward."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "When scope, ownership, evidence standards, access, or restrictions change, Strawberry proposes an update and keeps the previous agreement traceable. Proposed changes do not become accepted facts until the right person reviews them."
+        }
+      ]
+    },
+    {
+      "id": "reuse-the-method-not-the-client",
+      "title": "Reuse the method, not the client",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "After a few successful engagements, the firm can save the accepted brief structure, source checklist, evidence standards, communication choices, and review behavior as a custom skill. A sanitized method can be shared with a boutique team once its audience and destination are agreed."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Engagement setup is usually event-driven, so it does not need a scheduled Routine. A later status or brief refresh can become draft-first automation when the sources, cadence, owner, destination, approval behavior, and stop conditions are stable."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to create a consulting proposal with AI",
+      "description": "Turn the opportunity record into a clear proposal before accepted work moves into delivery.",
+      "href": "/blog/ai-consulting-proposal"
+    },
+    {
+      "title": "How to use AI for consulting work",
+      "description": "Choose the right Strawberry workflow across research, meetings, proposals, recommendations, and follow-through.",
+      "href": "/playbooks/consulting"
+    }
+  ]
+}

@@ -10,6 +10,12 @@
       "weight": 76,
       "title": "Keep my CRM up to date",
       "message": "Help me keep my CRM current from recent emails, meetings, and sales activity. Use the CRM and context already available, then show me a small set of proposed updates with their sources so I can correct the mapping before anything changes."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 90,
+      "title": "Keep client relationship records current",
+      "message": "Use approved client emails, meetings, and commercial activity to propose the exact CRM updates I should review before anything changes."
     }
   ]
 }

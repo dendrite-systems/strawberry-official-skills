@@ -20,6 +20,12 @@
       "message": "Give me a short, practical view of today's priorities, meetings, decisions, risks, and follow-ups."
     },
     {
+      "roleId": "consultant",
+      "weight": 106,
+      "title": "See what needs attention across my clients",
+      "message": "Prepare a concise view of today's client meetings, messages, commitments, risks, and decisions, while keeping each client's context separate."
+    },
+    {
       "roleId": "other",
       "weight": 82,
       "title": "Get oriented for the day",

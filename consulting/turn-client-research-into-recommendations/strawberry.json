@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Turn Client Research into Recommendations",
+  "summary": "Compare credible options and turn client evidence into a defensible recommendation and decision-ready artifact.",
+  "icon": "chart",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "consultant",
+      "weight": 114,
+      "title": "Turn research into a client recommendation",
+      "message": "Use the available client research and engagement context to compare credible options, recommend a path, and create the right decision-ready memo, deck, workshop artifact, or supporting sheet."
+    }
+  ]
+}

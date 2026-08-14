@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Getting Started with Consulting in Strawberry",
+  "summary": "Choose a useful first consulting workflow, then carry trusted client context from research and meetings into proposals, recommendations, and follow-through.",
+  "icon": "chart",
+  "tags": ["getting-started-guide"],
+  "useCases": [
+    {
+      "roleId": "consultant",
+      "weight": 124,
+      "title": "Get started with consulting in Strawberry",
+      "message": "Show me how Strawberry can help with the consulting work in front of me, then help me complete one useful result."
+    }
+  ]
+}

@@ -22,6 +22,12 @@
       "weight": 80,
       "title": "Share a proven working method",
       "message": "Build a reusable team skill and concrete Routine proposal from this workflow after we verify a real handoff."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 92,
+      "title": "Make a consulting method reusable",
+      "message": "Turn this accepted consulting workflow into a reusable boutique-team method without carrying client-specific context into it."
     }
   ]
 }

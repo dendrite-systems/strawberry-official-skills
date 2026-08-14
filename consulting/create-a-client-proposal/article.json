@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-consulting-proposal",
+  "title": "How to create a consulting proposal with AI",
+  "description": "Turn discovery notes, an RFP, approved pricing, and delivery context into a clear consulting proposal without inventing commitments.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "A consulting proposal has to make three things agree: what the client needs, what the consultant plans to deliver, and what the firm is prepared to commit to. The information behind those decisions is usually spread across discovery notes, an RFP, email, past work, pricing, and delivery plans.",
+    "Strawberry is an agentic browser and workspace with built-in AI agents. Your companion can work from the opportunity record that already exists, keep the supporting material beside the draft, and turn it into a proposal ready for commercial and delivery review. That makes it easier to catch a missing decision before it becomes an accidental promise."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-real-opportunity",
+      "title": "Start with the real opportunity",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The source material may include an RFP in a logged-in portal, a discovery transcript, the latest email thread, an approved offer, or a prior proposal whose structure the firm wants to reuse. Strawberry can follow it across visible tabs, files, meetings, and connected apps without asking you to rebuild the whole opportunity in a prompt."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Your companion establishes which client decision the proposal needs to support, who will read it, what format they expect, and when it is due. If an important account or meeting gap remains, it can use the relevant research or debrief workflow instead of quietly filling the gap with a plausible assumption."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/consulting/create-a-client-proposal",
+              "roleId": "consultant",
+              "context": "Turn one live opportunity, RFP, or discovery record into a complete consulting proposal ready for review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agree-the-scope-before-polishing",
+      "title": "Agree the scope before polishing the document",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A well-written proposal can still be wrong. The client may have asked for an outcome without agreeing how it will be measured. A delivery date may depend on access the client has not promised. The price sheet may not cover the option discussed in the final meeting. The proposal has to resolve those decisions before its wording can be trusted."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Before building the finished document, Strawberry prepares a concise outline and separates the client's stated requirements, the consultant's proposed approach, and the points that are still unresolved. Reviewing that outline gives the consultant a manageable place to correct the scope before time goes into layout and detailed prose."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "The client problem, intended outcomes, and important constraints.",
+            "The proposed approach, deliverables, responsibilities, and timeline.",
+            "Approved fees, payment terms, assumptions, exclusions, and other terms.",
+            "Dependencies, unsupported claims, and decisions that still need an owner."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "When an approved answer is missing, the draft keeps a clear placeholder or decision note. It does not invent a fee, discount, ROI claim, legal clause, delivery date, or authority simply because a complete-looking proposal would read more smoothly."
+        }
+      ]
+    },
+    {
+      "id": "use-the-format-the-decision-needs",
+      "title": "Use the format the client decision needs",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A detailed statement of work usually belongs in a document. A proposal that will be presented to a buying group may work better as a deck with one clear point on each slide. If the proposal includes delivery options, staffing, fees, or scenario calculations, a supporting spreadsheet can make the inputs and formulas visible."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strawberry carries the accepted scope into the chosen artifact, so the consultant does not have to brief a separate writing, presentation, or spreadsheet tool from scratch. The proposal, deck, and supporting model stay aligned because they come from the same reviewed decisions."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/create-beautiful-slide-deck",
+              "roleId": "consultant",
+              "context": "Turn the approved proposal story into a polished client presentation when a deck is the right format."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "review-the-proposal-as-a-commitment",
+      "title": "Review the proposal as a commitment",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Proposal review needs a different standard from ordinary editing. Each promise should be supported by the opportunity record and by the consultant's authority to make it. Scope, acceptance criteria, client dependencies, staffing, schedule, pricing, outcomes, confidentiality, and terms all deserve attention when they affect what either side is agreeing to."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Because the supporting record remains available in the same workspace, your companion can show the material decisions and recommend an answer when the evidence supports one. Finance, delivery, leadership, or legal reviewers still make the approvals that belong to them. Strawberry makes those review points easier to inspect; it does not turn a polished draft into commercial or legal authority."
+        }
+      ]
+    },
+    {
+      "id": "keep-each-approval-separate",
+      "title": "Keep review, sending, and acceptance separate",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "An internal reviewer approving the content does not automatically approve client delivery. Before suggesting how to share it, Strawberry checks who should see it, what access they need, and where it should go. The editable source, exported deck or document, supporting links, and any client data all need to be appropriate for those recipients."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sending the proposal, changing the CRM opportunity, and accepting legal terms remain separate actions. Strawberry can prepare the email or proposed record change from the same context, but each action stays reviewable before it happens."
+        }
+      ]
+    },
+    {
+      "id": "carry-the-context-into-delivery",
+      "title": "Carry the accepted context into delivery",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Once the work is accepted, the useful context should not disappear into an attachment. Strawberry can carry the approved scope, stakeholders, milestones, assumptions, evidence standards, communication plan, and client-data restrictions into the engagement brief. The delivery team starts from the agreement that was actually reviewed instead of reconstructing it during kickoff."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/agency/build-client-brief",
+              "roleId": "consultant",
+              "context": "Turn accepted work into one reliable engagement brief before delivery begins."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "After a few successful proposals, your companion can preserve the accepted structure, sources, claims, voice, pricing rules, and review points as a custom skill. That gives the next proposal a better starting point without carrying one client's confidential facts or terms into another engagement."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Start with one real opportunity. Strawberry can turn the material you already have into a proposal outline, surface the decisions that still need owners, and build the finished document only after the scope is sound."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to research a company before the next step",
+      "description": "Build a sourced view of the company, relationship, and useful way forward.",
+      "href": "/blog/ai-sales-account-research"
+    },
+    {
+      "title": "How to debrief a client or new-business meeting",
+      "description": "Turn the conversation into grounded decisions, follow-through, and proposed CRM changes.",
+      "href": "/blog/ai-sales-meeting-notes-follow-up"
+    }
+  ]
+}

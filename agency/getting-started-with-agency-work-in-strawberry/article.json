@@ -59,7 +59,7 @@
         {
           "id": "strawberry/agency/build-client-brief",
           "roleId": "agency",
-          "context": "Turn approved kickoff context into a reliable client brief."
+          "context": "Start accepted work with one reliable engagement brief for delivery."
         },
         {
           "id": "strawberry/marketing/run-competitor-analysis",
@@ -122,7 +122,7 @@
       "href": "/prompts/find-new-customers"
     },
     {
-      "title": "Build a client brief",
+      "title": "Start a client engagement",
       "description": "Open the focused Official Skill for preserving approved client context.",
       "href": "/prompts/build-client-brief"
     }

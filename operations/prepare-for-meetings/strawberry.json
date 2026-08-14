@@ -20,6 +20,12 @@
       "message": "Use the relevant calendar, relationship, project, message, document, and web context to prepare a brief for this meeting."
     },
     {
+      "roleId": "consultant",
+      "weight": 102,
+      "title": "Prepare for a client or delivery meeting",
+      "message": "Prepare me for this client, workshop, steering, delivery, or internal meeting using the context that could change the conversation."
+    },
+    {
       "roleId": "other",
       "weight": 86,
       "title": "Walk into a meeting prepared",
