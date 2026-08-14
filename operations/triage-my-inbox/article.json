@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-inbox-triage",
+  "title": "How to triage your inbox with AI",
+  "description": "Use AI to prioritize email, LinkedIn, or another inbox, draft useful replies, and review cleanup without losing the surrounding context.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "Inbox triage is usually described as an email problem, but the queue that needs attention may be LinkedIn messages, connection requests, a professional messaging service, or several channels used for different relationships.",
+    "Getting the queue under control may not leave a screen with zero messages. What matters is knowing that the important work has been answered, delegated, scheduled, or consciously left alone—and that a bulk cleanup has not hidden something you still need.",
+    "Strawberry can work inside the real, logged-in inbox with you. Your companion can read the full thread, use relevant calendar or project context, prepare the reply in the right channel, and show the exact provider controls it proposes to use."
+  ],
+  "sections": [
+    {
+      "id": "choose-the-queue",
+      "title": "Choose the queue and decide what done looks like",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Start with one inbox and a manageable time window. You may want a priority view, drafted replies, delegation, cleanup, or a combination. Strawberry adapts to the service rather than assuming that email labels, LinkedIn connection states, and another provider's assignment controls mean the same thing."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/triage-my-inbox",
+              "roleId": "operations-chief-of-staff",
+              "context": "Prioritize the selected email, LinkedIn, or other communication queue and prepare the right replies, delegation, and cleanup for review."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "For a large or unfamiliar queue, begin with a varied sample. A few messages from important relationships, obvious noise, unresolved threads, and ambiguous cases reveal much more about the right sorting rules than a blind archive of everything old."
+        }
+      ]
+    },
+    {
+      "id": "read-the-thread-and-context",
+      "title": "Read the thread before deciding what matters",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "An unread message is not automatically important, and an unanswered one is not automatically an obligation. Strawberry can inspect the full conversation and sent history, then bring in a meeting, calendar event, project record, or file when it changes the meaning of the message. That makes the draft reply more useful than one produced from the latest line alone."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Because this happens in the visible browser, you can inspect the exact thread, profile, account, and available controls. You can correct the classification or take over without trying to recreate the state from a separate AI summary."
+        }
+      ]
+    },
+    {
+      "id": "separate-decisions-from-actions",
+      "title": "Separate the priority decision from the action",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A compact control view should lead with messages that could change what you do next. It can include why each item matters, a reply in your established voice, a delegation or follow-up suggestion, and a cleanup group supported by the selected service."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reviewing that view does not approve every later step. Creating an external draft, sending it, accepting a connection, archiving a thread, muting a sender, unsubscribing, and deleting are different actions. Strawberry can carry your approved choice into the real inbox, then verify what changed."
+        }
+      ]
+    },
+    {
+      "id": "follow-work-beyond-the-inbox",
+      "title": "Follow important work beyond the inbox",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Some inbox items reveal a wider coordination problem: a promise made in a meeting is absent from the task system, or a response depends on a decision recorded elsewhere. That is the point to move from inbox triage into an open-loop audit rather than stretching one communication queue into a view of the whole company."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/close-open-loops",
+              "roleId": "operations-chief-of-staff",
+              "context": "Check the commitment across meetings, messages, tasks, and project records when it cannot be resolved inside one inbox."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "After a few reviewed passes, Strawberry can remember the priorities, exceptions, voice, delegation rules, and definition of done that actually work for this queue. If there is a useful cadence, a Routine can prepare the next priority view and proposed replies while keeping sends and provider changes reviewable."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for Operations work",
+      "description": "Connect inbox triage with daily priorities, meetings, open commitments, and team workflows.",
+      "href": "/playbooks/operations"
+    }
+  ]
+}

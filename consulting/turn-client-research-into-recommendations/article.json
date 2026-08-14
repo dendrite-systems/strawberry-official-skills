@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-consulting-recommendations",
+  "title": "Turn consulting research into recommendations",
+  "description": "Use Strawberry to compare credible options and turn client research into a defensible recommendation, memo, deck, workshop, or supporting sheet.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Research can be accurate and still leave a client unsure what to do. A market map, interview synthesis, or company dataset becomes useful advice only when it is connected to a clear decision, credible options, and the tradeoffs between them.",
+    "Strawberry keeps that path connected. Your companion can work from the engagement brief and existing research, fill material gaps in the visible browser, and carry the reviewed evidence into a recommendation and client artifact. You can inspect where a claim came from instead of accepting a polished conclusion on trust."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-decision",
+      "title": "Start with the decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The same evidence can support different answers depending on the decision owner, time horizon, constraints, and appetite for risk. Strawberry first establishes what the client must decide, which criteria matter, what would change the answer, and how the recommendation will be used."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the request is still to map a market or collect comparable company data, the work stays with the relevant research workflow. The recommendation begins when the client needs a point of view rather than another pile of findings."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/consulting/turn-client-research-into-recommendations",
+              "roleId": "consultant",
+              "context": "Turn the evidence for one client decision into credible options, a recommendation, and the right decision-ready artifact."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fill-only-the-gaps-that-matter",
+      "title": "Fill only the gaps that matter",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Client evidence often sits in several forms: meeting records, interview notes, internal files, prior analysis, source links, and logged-in research sites. Strawberry can use those sources together while keeping the browser work visible, so the consultant can correct a category, inspect a source, or take over when a site needs judgment or access."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Before expanding the research, your companion identifies the gaps that could actually change the options or recommendation. A broad new run is unnecessary when the existing evidence is enough. When scale is needed, repeated fields across many pages belong in a validated dataset, with a small varied sample reviewed before the run expands."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/map-a-market",
+              "roleId": "consultant",
+              "context": "Define the market, categories, and relationships when the landscape itself is still unclear."
+            },
+            {
+              "id": "strawberry/research-analysis/extract-web-data",
+              "roleId": "consultant",
+              "context": "Collect and validate repeated fields across many companies or pages when the evidence needs scale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "show-the-path-from-evidence-to-advice",
+      "title": "Show the path from evidence to advice",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A defensible recommendation makes its reasoning inspectable. Strawberry separates observed facts, client statements, calculations, and consultant inference; reconciles definitions; and keeps contradictions or stale evidence visible. It then compares credible options against the agreed criteria."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The result should explain why one path is recommended, the strongest alternative, the tradeoffs and dependencies, and what new evidence would change the answer. If the evidence is thin, a bounded recommendation or a focused next research step is more useful than manufactured certainty."
+        }
+      ]
+    },
+    {
+      "id": "choose-the-artifact-the-decision-needs",
+      "title": "Choose the artifact the decision needs",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A memo suits a decision that needs detailed reasoning. A deck works for a client readout. A workshop artifact helps a group weigh options together, while a supporting spreadsheet keeps comparisons and calculations transparent. Large datasets remain the evidence layer rather than becoming the recommendation by default."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Because the artifact is built from the same reviewed evidence and criteria, the consultant does not have to rebrief a separate presentation or spreadsheet tool. Sources, assumptions, and formulas can stay traceable while the client-facing result becomes concise and polished."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/create-beautiful-slide-deck",
+              "roleId": "consultant",
+              "context": "Turn the accepted recommendation into a polished client readout when a presentation is the right format."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "review-before-the-recommendation-travels",
+      "title": "Review before the recommendation travels",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Before delivery, Strawberry checks material claims against their sources and looks for counterevidence, inconsistent definitions, unsupported calculations, feasibility constraints, and facts that may have changed. The consultant still owns the judgment and the client decides what to do."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Internal review, client delivery, public sharing, CRM changes, and implementation are separate actions. Strawberry establishes who should see the artifact, what access they need, and where it belongs before suggesting a sharing path. Client-specific evidence stays with that engagement."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the method is trusted, your companion can preserve the accepted sources, criteria, artifact structure, and review behavior as a custom skill. A stable evidence refresh can become a draft-first Routine, but it should stop when sources conflict, access changes, calculations cannot be reproduced, or the client decision has moved on."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for consulting work",
+      "description": "Choose a useful first consulting workflow and carry trusted client context into the next step.",
+      "href": "/playbooks/consulting"
+    },
+    {
+      "title": "How to create a consulting proposal with AI",
+      "description": "Turn opportunity context into a clear commercial and delivery proposal without inventing commitments.",
+      "href": "/blog/ai-consulting-proposal"
+    }
+  ]
+}

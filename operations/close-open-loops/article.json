@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "track-commitments-with-ai",
+  "title": "How to track commitments across your tools",
+  "description": "Use AI to find promises, follow-ups, ownership gaps, and conflicting status across meetings, messages, tasks, and project tools.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "A surprising amount of Operations work begins with a vague feeling that something has been missed. Someone promised an introduction, a meeting ended with an owner, or a decision was made—but the message, task, and project record no longer tell the same story.",
+    "Finding those gaps is difficult for an AI tool that sees only one application or the text pasted into a chat. The useful evidence may sit in a transcript, a Slack thread, an email, and a task that has not been touched since the conversation.",
+    "Strawberry can follow that evidence across visible tabs, logged-in tools, connected apps, meetings, and files. It keeps the sources attached to the finding and can continue into the right reply or record once you have decided how the loop should close."
+  ],
+  "sections": [
+    {
+      "id": "define-what-closed-means",
+      "title": "Start by defining what closed means",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Different teams close commitments in different ways. A reply may be enough for one request; another may need a named owner, a delivered document, an accepted decision, and an updated system of record. Establishing that standard keeps the audit from turning every unanswered message into overdue work."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/close-open-loops",
+              "roleId": "operations-chief-of-staff",
+              "context": "Find important open commitments and reconcile the evidence behind them before proposing the smallest useful resolution."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Begin with one workstream, team, or recent time window. This produces a result you can correct before the search expands into older or less relevant parts of the workspace."
+        }
+      ]
+    },
+    {
+      "id": "reconcile-before-escalating",
+      "title": "Reconcile the evidence before escalating",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A candidate loop may already have been completed, delegated, declined, or superseded somewhere else. Strawberry can compare the meeting moment where the commitment was made with later communication and the current work record. Direct, recent evidence gets more weight than an old task label, while unresolved contradictions stay visible."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The visible browser matters here. You can open the underlying conversation and record, check whether the people and projects were matched correctly, and steer the investigation while it is happening. The result is an inspectable exception list, not a detached claim that a model found something overdue."
+        }
+      ]
+    },
+    {
+      "id": "return-the-exceptions",
+      "title": "Show the exceptions with their evidence",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A good result groups references to the same commitment and shows why it matters, the supported owner or date, the systems checked, the gap, and the smallest proposed next action. It distinguishes confirmed open work from a likely gap, conflicting status, and something blocked on another person."
+        },
+        {
+          "kind": "paragraph",
+          "text": "This is usually more useful than a complete audit trail in the main view. Resolved items can stay behind the summary, along with the sources that were checked and any material areas that were unavailable."
+        }
+      ]
+    },
+    {
+      "id": "close-and-communicate",
+      "title": "Close the loop in the right place",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The resolution may be a nudge, a clarified owner, a corrected task, a recorded decision, or an explicit closure. Strawberry can prepare each action beside its evidence, then use the same logged-in workspace to make the approved change. Messages, assignments, and record updates remain separate decisions."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/prepare-a-status-update",
+              "roleId": "operations-chief-of-staff",
+              "context": "Turn accepted findings into an audience-specific update when several people need the current picture."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the team trusts the definition of an open loop and the sources behind it, the audit can run before a coordination meeting or on an agreed cadence. A Routine should surface only new or materially changed exceptions and wait when identity, ownership, privacy, or the source of truth is unclear."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for Operations work",
+      "description": "See how open-loop audits connect with daily briefings, meetings, and status updates.",
+      "href": "/playbooks/operations"
+    }
+  ]
+}

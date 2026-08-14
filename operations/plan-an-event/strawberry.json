@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Plan an Event",
+  "summary": "Plan a professional event across the concept, venues, vendors, budget, invitations, logistics, and run-of-show.",
+  "icon": "calendar",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 108,
+      "title": "Plan a professional event",
+      "message": "Help me turn this event idea into a practical concept, shortlist, working budget, critical path, and plan for approved execution."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 86,
+      "title": "Plan an offsite or company event",
+      "message": "Use our team context and live venue and vendor research to recommend an event plan I can inspect and act on."
+    },
+    {
+      "roleId": "marketing-content",
+      "weight": 80,
+      "title": "Coordinate an external event",
+      "message": "Plan this customer, partner, or professional event across guests, venue, vendors, budget, invitations, agenda, and logistics."
+    }
+  ]
+}

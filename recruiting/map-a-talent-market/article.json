@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-talent-market-mapping",
+  "title": "How to map a talent market with AI",
+  "description": "Understand titles, employers, adjacent backgrounds, geography, compensation, source coverage, and supply before scaling candidate sourcing.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-13T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "When a candidate search keeps coming up thin, it is tempting to search harder. But the real problem may be the market definition: the title is too narrow, the best people describe themselves differently, or the location and compensation constraints do not fit together.",
+    "Strawberry can work across LinkedIn, company pages, public professional work, approved ATS history, and compensation or market sources to show how the talent pool is actually shaped.",
+    "The result is a map of the search space—not a disguised candidate shortlist."
+  ],
+  "sections": [
+    {
+      "id": "define-the-question",
+      "title": "Start with the hiring question",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A useful map begins with the role, the hiring goal, and the uncertainty the team needs to resolve. That might be title language, target employers, adjacent backgrounds, geography, compensation, working pattern, or whether the market can support the timeline at all."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/map-a-talent-market",
+              "roleId": "recruiting-people",
+              "context": "Map the search space and expose the tradeoffs before scaling sourcing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build-the-map",
+      "title": "See the market from more than one angle",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The same capability can hide behind several titles, industries, and career paths. Strawberry can connect those signals into a practical map:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Title and seniority variants.",
+            "Target employers and adjacent company groups.",
+            "Relevant career paths and transferable backgrounds.",
+            "Geographies, working arrangements, and compensation evidence.",
+            "Useful source channels and the parts of the market they miss.",
+            "Representative profiles that make each segment concrete."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Representative people are examples of the market, not candidates the team has qualified or received permission to contact."
+        }
+      ]
+    },
+    {
+      "id": "calibrate-the-definition",
+      "title": "Calibrate the definition before going wide",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "When the terminology or constraints are uncertain, a small first view is enough to expose the problem. A few title groups, employer segments, and representative examples make it easier to correct the taxonomy before time and credits go into a larger map."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the shape feels right, your companion can deepen the relevant segments and show the tradeoffs of widening a title, geography, employer group, adjacent background, or compensation range."
+        }
+      ]
+    },
+    {
+      "id": "be-honest-about-coverage",
+      "title": "Be honest about what the sources can show",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "LinkedIn, public websites, internal records, and compensation sources each reveal a different slice of the market. A useful map shows which titles, employers, channels, and geographies were covered—and where the evidence is thin or stale."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Observed profile counts are not automatically the size of the market. Keep source counts, directional estimates, and genuine unknowns distinct rather than presenting false precision."
+        }
+      ]
+    },
+    {
+      "id": "move-into-sourcing",
+      "title": "Turn the accepted map into a candidate search",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The team decides which market definition and search levers to accept. Only then should the work move into sourcing, with its own candidate fields, scale, sources, and review point."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/source-candidates",
+              "roleId": "recruiting-people",
+              "context": "Build a small, evidence-backed candidate set from the accepted market definition."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "A market map does not authorize candidate outreach, ATS changes, or public sharing of representative profiles. Those remain separate steps."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Source candidates with evidence",
+      "description": "Turn an accepted talent-market definition into a calibrated shortlist.",
+      "href": "/blog/ai-candidate-sourcing"
+    },
+    {
+      "title": "Create a better job description",
+      "description": "Clarify the role before testing the talent market.",
+      "href": "/blog/ai-job-description"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Prepare for Meetings",
+  "summary": "Build a concise brief from the calendar event, participants, prior conversations, current work, files, and relevant web context.",
+  "icon": "calendar",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 114,
+      "title": "Prepare for an upcoming meeting",
+      "message": "Prepare me for my upcoming meeting with the context that could change the conversation, the outcome to aim for, and the questions worth asking."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 96,
+      "title": "Get a concise meeting brief",
+      "message": "Use the relevant calendar, relationship, project, message, document, and web context to prepare a brief for this meeting."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 102,
+      "title": "Prepare for a client or delivery meeting",
+      "message": "Prepare me for this client, workshop, steering, delivery, or internal meeting using the context that could change the conversation."
+    },
+    {
+      "roleId": "other",
+      "weight": 86,
+      "title": "Walk into a meeting prepared",
+      "message": "Help me understand what matters for this meeting, what has changed, what to bring, and what I should try to resolve."
+    }
+  ]
+}

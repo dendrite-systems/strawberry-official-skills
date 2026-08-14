@@ -15,6 +15,7 @@ preparation, and follow-up without duplicating the focused instructions.
 - **Founder & Executive** — customers, fundraising, hiring, and company operations
 - **Sales** — prospecting, account research, outreach, and pipeline work
 - **Agency** — winning clients, turning context into strong work, and repeatable delivery
+- **Consulting** — proposals, engagement setup, research, recommendations, and client follow-through
 - **Recruiting** — sourcing, screening, interviews, and hiring operations
 - **Operations** — coordination, support, administration, and recurring work
 - **Marketing** — research, campaigns, content, SEO, and distribution

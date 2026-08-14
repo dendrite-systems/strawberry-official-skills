@@ -25,7 +25,7 @@ uncertainty, and open questions distinct. Confirm the intended approach before s
 
 Strawberry can identify important companies and relationships in a startup ecosystem. Read
 `strawberry/venture-capital/map-startup-ecosystem` for startup discovery or
-`strawberry/venture-capital/map-key-players-industry-or-ecosystem` for a broader market map. Review a small,
+`strawberry/research-analysis/map-a-market` for a broader market map. Review a small,
 evidence-backed sample before widening the search.
 
 ## Research and diligence an opportunity
@@ -46,8 +46,9 @@ contradictions and keep every material claim traceable.
 ## Prepare for and preserve meetings
 
 Strawberry can gather relevant company, market, founder, and relationship context before a call.
-Read `strawberry/sales/prepare-for-calls` for preparation. Afterwards,
-`strawberry/operations/transcribe-meetings-follow-up` can turn the transcript into decisions, actions,
+Read `strawberry/operations/prepare-for-meetings` for preparation. Strawberry can capture supported
+conversations without adding a visible meeting bot. Afterwards,
+`strawberry/operations/debrief-a-meeting` can turn the reliable record into decisions, actions,
 structured records, and draft follow-up without sending anything automatically.
 
 ## Other things to try

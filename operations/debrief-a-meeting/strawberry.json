@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Debrief a Meeting",
+  "summary": "Turn a completed meeting into grounded decisions, actions, follow-up drafts, and proposed updates to the right systems.",
+  "icon": "files",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 112,
+      "title": "Debrief a completed meeting",
+      "message": "Use the reliable meeting record to show what changed, what was decided, who committed to what, and which follow-up or system updates I should review."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 92,
+      "title": "Turn a meeting into follow-through",
+      "message": "Prepare a concise debrief from this meeting, including decisions, commitments, open questions, and the useful next actions."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 100,
+      "title": "Debrief a client or delivery meeting",
+      "message": "Turn this reliable meeting record into grounded decisions, commitments, actions, follow-up drafts, and proposed engagement updates."
+    },
+    {
+      "roleId": "other",
+      "weight": 84,
+      "title": "Capture decisions and next steps",
+      "message": "Turn this transcript or set of notes into a grounded recap, owned actions, follow-up drafts, and proposed record changes."
+    }
+  ]
+}

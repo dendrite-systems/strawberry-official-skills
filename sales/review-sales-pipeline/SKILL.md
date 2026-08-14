@@ -65,7 +65,25 @@ Lead with the priorities. A useful output normally includes:
 Use a compact table when comparing several deals. Avoid false precision, padded lists, and scores
 that hide the underlying judgment.
 
-### 6. Review changes before updating anything
+### 6. Assess whether coverage can support the goal
+
+Use the user's targets, qualification bar, stages, timing, and known conversion patterns. Assess
+volume, quality, stage balance, concentration, timing, momentum, loss risk, and missing evidence.
+Do not impose universal coverage ratios or a generic health score. If targets or conversion context
+are missing, say that sufficiency is not reliably assessable.
+
+Give one pipeline-coverage conclusion and explain its evidence and uncertainty:
+
+- **sufficient**;
+- **potentially insufficient**;
+- **insufficient**; or
+- **not assessable**.
+
+Coverage may be inadequate because qualified volume is low, stages are imbalanced, results depend
+too heavily on a few deals, timing cannot meet the target, or the pipeline is dominated by weak or
+stalled opportunities.
+
+### 7. Review changes before updating anything
 
 Keep the first review read-only. Show proposed changes with their source and reason, then ask for
 approval of the specific records and fields before using `strawberry/sales/keep-crm-updated` to
@@ -75,7 +93,19 @@ Do not create tasks, change records, or contact anyone without approval for that
 priority deal needs deeper research, use `strawberry/sales/research-an-account`; when the next move
 is outreach, use `strawberry/sales/send-personalized-outreach`.
 
-### 7. Make the next review easier
+When coverage is potentially insufficient or insufficient, recommend the best separate handoff:
+
+- use `strawberry/research-analysis/map-a-market` when the market, segment, territory, or account
+  universe needs clarification; or
+- use `strawberry/sales/find-new-customers` when the target market is sufficiently understood and
+  more qualified prospects are needed.
+
+A review-only request reports the gap and offers the handoff; it does not start it. If the user
+explicitly asks to diagnose and rebuild the pipeline, continue only after confirming the target
+definition, scope, sources, scale, fields, and review point. Never begin broad or expensive research
+merely because the review detected a weakness.
+
+### 8. Make the next review easier
 
 After the user corrects the priorities and signals, offer to share the approved review brief with
 the relevant teammates before the pipeline meeting. Keep sensitive notes and unapproved CRM changes

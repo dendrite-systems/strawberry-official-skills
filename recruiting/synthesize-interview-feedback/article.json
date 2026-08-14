@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-candidate-interview-feedback",
+  "title": "How to synthesize candidate interview feedback with AI",
+  "description": "Bring transcripts, notes, and scorecards into one evidence-backed assessment without flattening disagreement or automating the hiring decision.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-13T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "The difficult part of an interview debrief is rarely collecting opinions. It is working out what the panel actually learned, where people disagree, and whether the most important parts of the role were tested at all.",
+    "Strawberry can bring together transcripts, notes, scorecards, work samples, and approved candidate context, then organize them against the role the team agreed to hire for. The result is a draft assessment people can inspect—not one artificial score that hides the record underneath.",
+    "A useful first pass can begin with one candidate. Review how the evidence was interpreted before using the same approach across the rest of the process."
+  ],
+  "sections": [
+    {
+      "id": "bring-the-record-together",
+      "title": "Bring the interview record together",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Start with the accepted role criteria and the materials the team is authorized to use: submitted scorecards, interview notes, transcripts, work samples, and relevant earlier-stage evidence. Strawberry can show what arrived, what is still missing, and where two sources conflict."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Transcripts and notes are not perfect. If a name, number, technical detail, or statement could change the assessment, return to the source rather than smoothing over the ambiguity."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/synthesize-interview-feedback",
+              "roleId": "recruiting-people",
+              "context": "Prepare an evidence-backed draft assessment for qualified human review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keep-evidence-and-interpretation-apart",
+      "title": "Keep evidence and interpretation apart",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "For every material point, preserve whether it came from observed behavior, a candidate claim, an interviewer's interpretation, or Strawberry's own inference. Keep the source close enough that a reviewer can check it."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Supporting evidence and counter-evidence for each criterion.",
+            "The source and interviewer behind each material observation.",
+            "Confidence, contradictions, and relevant unknowns.",
+            "Criteria that were repeated, weakly tested, or not tested at all."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "show-the-disagreement",
+      "title": "Make disagreement useful",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Two interviewers can hear the same answer and reach different conclusions. Strawberry can map both views to the scorecard, show the evidence each person used, and surface whether the disagreement is about facts, interpretation, or the hiring bar itself."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Use the scoring anchors the team already accepted, but do not force confidence that the record does not support. A clear gap is more useful than a precise-looking average."
+        }
+      ]
+    },
+    {
+      "id": "leave-the-decision-with-people",
+      "title": "Leave the consequential decision with people",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The draft can give understandable fit guidance—strong potential fit, potential fit with questions, limited fit based on current evidence, or unable to assess—alongside the evidence, counter-evidence, confidence, and gaps behind it. It is not a comparative ranking or a recommendation to reject or advance."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A qualified person decides whether to advance, reject, gather more evidence, or change the process. Turning missing evidence into a negative and communicating a decision stay outside the synthesis."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If an important question remains open, prepare a focused follow-up rather than repeating the whole loop. Keep that interview, any candidate message, and any ATS change as separately reviewable actions."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/prepare-candidate-interviews",
+              "roleId": "recruiting-people",
+              "context": "Prepare a focused follow-up when a material evidence gap remains."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "share-and-improve-the-process",
+      "title": "Share the assessment carefully—and improve the loop",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Keep candidate assessments in an approved, access-controlled destination with the people who need them. Candidate transcripts, private notes, and hiring judgments are not suitable for Strawberry's publicly viewable published artifacts."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Across several interviews, the same synthesis can reveal questions that produce weak evidence, criteria nobody owns, and feedback that routinely arrives late. Those patterns can improve the next interview plan and surface delays in the wider recruiting pipeline."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/review-recruiting-pipeline",
+              "roleId": "recruiting-people",
+              "context": "Find missing feedback and stalled decisions across the wider pipeline."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Prepare structured candidate interviews",
+      "description": "Build the scorecard and evidence plan that synthesis relies on.",
+      "href": "/blog/ai-candidate-interview-preparation"
+    }
+  ]
+}

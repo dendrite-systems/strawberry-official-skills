@@ -1,23 +1,11 @@
 {
   "schemaVersion": 1,
   "displayName": "Getting Started with Recruiting in Strawberry",
-  "summary": "Get started with recruiting in Strawberry through candidate sourcing, interviews, and reliable hiring workflows.",
+  "summary": "Choose the right Strawberry workflow for defining jobs, mapping talent, sourcing, application review, interviews, feedback, outreach, and pipeline follow-through.",
   "icon": "people",
-  "tags": [
-    "getting-started-guide"
-  ],
+  "tags": ["getting-started-guide"],
   "useCases": [
-    {
-      "roleId": "recruiting-people",
-      "weight": 120,
-      "title": "Getting Started with Recruiting in Strawberry",
-      "message": "I want to get started with recruiting in Strawberry and improve our hiring process."
-    },
-    {
-      "roleId": "founder-executive",
-      "weight": 90,
-      "title": "Getting Started with Recruiting in Strawberry",
-      "message": "I want to get started with recruiting in Strawberry and build a repeatable hiring process."
-    }
+    { "roleId": "recruiting-people", "weight": 120, "title": "Get started with recruiting in Strawberry", "message": "Show me the best place to start with recruiting in Strawberry for the hiring decision in front of me." },
+    { "roleId": "founder-executive", "weight": 90, "title": "Build a better hiring workflow", "message": "Help me choose the right Strawberry workflow for our next key hire." }
   ]
 }

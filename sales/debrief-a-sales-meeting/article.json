@@ -40,16 +40,6 @@
         {
           "kind": "paragraph",
           "text": "If the meeting has not happened yet, let Strawberry transcribe it without adding a bot to the call. If it was recorded elsewhere, connect the relevant meeting-notes app when available or bring in the transcript or notes. Your companion should work from what was actually said rather than ask you to reconstruct the conversation from memory."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/transcribe-meetings-follow-up",
-              "roleId": "sales-business-development",
-              "context": "Set up bot-free transcription so the conversation is ready when the meeting ends."
-            }
-          ]
         }
       ]
     },

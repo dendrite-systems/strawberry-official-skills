@@ -27,21 +27,21 @@ A concise morning brief can be a useful first result when attention is the bottl
 relevant approved context, surface urgent or unanswered messages, work due today, and the few
 meetings that need preparation. Keep it actionable and include links back to useful sources.
 
-When one conversation matters most, read `strawberry/sales/prepare-for-calls`. It turns relevant
+When one conversation matters most, read `strawberry/operations/prepare-for-meetings`. It turns relevant
 calendar, company, person, and relationship context into a brief the founder can scan before the
 meeting.
 
-After the meeting, read `strawberry/operations/transcribe-meetings-follow-up` to turn the transcript into
-decisions, action items, owners, filed notes, and a grounded follow-up draft. Keep messages as
-drafts and obtain approval before sending them or making consequential changes in external
-systems.
+Strawberry can capture supported conversations without adding a visible meeting bot. After the
+meeting, read `strawberry/operations/debrief-a-meeting` to turn the reliable record into decisions,
+action items, owners, filed notes, and a grounded follow-up draft. Keep messages as drafts and
+obtain approval before sending them or making consequential changes in external systems.
 
 ## Calibrate around the founder's judgment
 
 Review the first result and let the founder correct its assumptions, depth, format, tone, sources,
 or tool choices. Preserve accepted preferences instead of restarting from generic instructions.
 
-If that first run reveals a larger communication backlog, read `strawberry/operations/reach-inbox-zero`. It
+If that first run reveals a larger communication backlog, read `strawberry/operations/triage-my-inbox`. It
 helps the founder define useful categories, learn reply style from approved examples, surface what
 deserves attention, and prepare reviewable drafts. Nothing is sent, deleted, archived,
 unsubscribed, or changed in bulk without explicit approval.
@@ -59,6 +59,10 @@ source types, depth, and desired output. Read `strawberry/research-analysis/rese
 sourced visual brief, or `strawberry/marketing/run-competitor-analysis` for a broader comparison. Preserve
 source links and dates, distinguish facts from inference, expose uncertainty or contradictions,
 and interpret the evidence for the founder's decision.
+
+When the founder needs to understand a market before choosing a segment, entering a geography,
+building an account universe, or mapping an ecosystem, read `strawberry/research-analysis/map-a-market`.
+Keep the landscape separate from any later prospect list, investment recommendation, or outreach.
 
 ## Other things to try
 

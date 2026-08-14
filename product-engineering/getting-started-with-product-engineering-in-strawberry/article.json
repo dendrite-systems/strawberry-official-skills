@@ -58,9 +58,9 @@
       ],
       "skills": [
         {
-          "id": "strawberry/operations/transcribe-meetings-follow-up",
+          "id": "strawberry/operations/debrief-a-meeting",
           "roleId": "engineering-development",
-          "context": "Use this to turn customer conversations into product insight."
+          "context": "Turn customer conversations into grounded decisions, evidence, and follow-through."
         },
         {
           "id": "strawberry/marketing/run-competitor-analysis",

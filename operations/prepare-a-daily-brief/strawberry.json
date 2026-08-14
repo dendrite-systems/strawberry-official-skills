@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Prepare a Daily Brief",
+  "summary": "See the priorities, meetings, messages, risks, and decisions that deserve attention today.",
+  "icon": "calendar",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 116,
+      "title": "Prepare today's Operations brief",
+      "message": "Prepare a concise brief of what needs my attention today, using the work context available to you and linking the important sources."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 94,
+      "title": "See what needs attention today",
+      "message": "Give me a short, practical view of today's priorities, meetings, decisions, risks, and follow-ups."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 106,
+      "title": "See what needs attention across my clients",
+      "message": "Prepare a concise view of today's client meetings, messages, commitments, risks, and decisions, while keeping each client's context separate."
+    },
+    {
+      "roleId": "other",
+      "weight": 82,
+      "title": "Get oriented for the day",
+      "message": "Help me work out what matters today from my calendar, messages, tasks, meetings, and current work."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-candidate-outreach",
+  "title": "How to write better candidate outreach with AI",
+  "description": "Create relevant candidate outreach from verified professional context, an honest employer proposition, and a clearly approved send.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-13T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "The quickest way to make candidate outreach feel automated is to pretend you know more about someone than you do.",
+    "Strawberry can research the professional context that genuinely connects a person with the role, then turn it into a message that is specific without becoming invasive. It can also check approved ATS or prior-contact context before treating someone as new.",
+    "The message stays a draft until the exact recipients, channel, sender, and timing are approved."
+  ],
+  "sections": [
+    {
+      "id": "start-from-an-approved-candidate",
+      "title": "Start from an approved candidate or group",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A profile used as an example in a talent-market map is not ready for outreach. Candidate communication begins after the person or segment has been sourced and approved for contact."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where approved context is available, your companion can check duplicates, active applications, prior messages, opt-outs, ownership, and the intended channel. Missing state remains visible rather than becoming an assumption."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/send-candidate-outreach",
+              "roleId": "recruiting-people",
+              "context": "Prepare relevant outreach for approved candidates and review the exact send."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "find-the-real-connection",
+      "title": "Use a real reason to reach out",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "LinkedIn, GitHub, portfolios, talks, company pages, and other public professional work can reveal a credible connection with the role. The useful detail is one that helps the person understand why the opportunity may be relevant—not proof that someone searched every corner of the internet."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strawberry keeps verified facts separate from inference and does not invent familiarity, motivation, availability, contact details, or employer claims. Personalization should stay professional and proportionate."
+        }
+      ]
+    },
+    {
+      "id": "make-the-opportunity-honest",
+      "title": "Make the employer proposition honest",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The message should make the role worth understanding without overselling it. When known and approved, include the scope, why the work matters, location or working pattern, compensation, and what happens next."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Sourced prospects, applicants, referrals, interview-stage candidates, and former candidates have different relationships with the company. Their messages and follow-ups should reflect that context."
+        }
+      ]
+    },
+    {
+      "id": "calibrate-the-messages",
+      "title": "Review a few representative messages first",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "For a new audience or message family, a small set makes the tone and personalization easy to correct before the work expands. Review the opener, body, call to action, source notes, and any follow-up branch together."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Follow-ups should remain proportionate, easy to decline, and consistent with the candidate experience the team wants to create."
+        }
+      ]
+    },
+    {
+      "id": "approve-the-send",
+      "title": "Approve the exact send",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Before anything leaves Strawberry, review the exact recipients, messages or accepted template and variables, channel, sender, and timing. Approval for one draft or batch does not authorize new recipients, another channel, or later follow-ups."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Replies, scheduling, ATS updates, and hiring decisions remain separate. When a candidate agrees to continue, the interview preparation workflow can carry the accepted role and candidate context into the next step."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/prepare-candidate-interviews",
+              "roleId": "recruiting-people",
+              "context": "Prepare the interview once a candidate agrees to proceed."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Source candidates with evidence",
+      "description": "Build and approve the shortlist before outreach begins.",
+      "href": "/blog/ai-candidate-sourcing"
+    }
+  ]
+}

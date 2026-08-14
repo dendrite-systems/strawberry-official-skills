@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-job-description",
+  "title": "How to create a better job description with AI",
+  "description": "Define the role your team needs and turn it into a clear, honest candidate-facing job description without mixing the two audiences.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-13T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "A job description often starts as three different things at once: a business need, a hiring wish list, and the page candidates will use to decide whether the role is worth considering.",
+    "Those pieces need to agree, but they should not be the same document. Strawberry can help define the internal role first, then turn the approved facts into an honest candidate-facing job description.",
+    "The result is clearer for the team and more useful for candidates—and it is still a draft until the right people approve it."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-need",
+      "title": "Start with why the role exists",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Your companion can bring together hiring notes, workforce plans, existing JDs, scorecards, and approved leveling or compensation guidance. The first question is not how to word the advert. It is what this person should make possible."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "What should be different six or twelve months after the person joins?",
+            "What scope, ownership, and level does that require?",
+            "Which capabilities are essential, and which are only one possible route to success?",
+            "What location, working pattern, compensation, or timing constraints matter?"
+          ]
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/create-a-job-description",
+              "roleId": "recruiting-people",
+              "context": "Turn the real hiring need into an internal role profile, external JD, or both."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "separate-the-documents",
+      "title": "Write for the team and the candidate separately",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The internal role profile can hold the business rationale, outcomes, level, must-haves, useful adjacencies, dealbreakers, evidence plan, and unresolved decisions. It gives the hiring team something precise to align around."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The external JD should tell candidates what they will work on, why it matters, what success looks like, and what the process involves. Sensitive planning notes and internal shorthand do not belong there."
+        }
+      ]
+    },
+    {
+      "id": "make-requirements-earn-their-place",
+      "title": "Make every requirement earn its place",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Old job descriptions accumulate requirements. A credential copied from the last hire can become a must-have. A vague trait can stand in for evidence. Two reasonable constraints can combine into a market that barely exists."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strawberry can flag that inflation and show the decisions still needed, but the team owns the level, compensation, job-related bar, and legal or policy review. Polished wording should never hide an unresolved role decision."
+        }
+      ]
+    },
+    {
+      "id": "test-before-publishing",
+      "title": "Test the role before publishing it",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "If the title, target background, geography, or compensation still feels uncertain, a talent-market map can test the search space before a large sourcing run begins. The findings may strengthen the JD or reveal a tradeoff the team needs to make."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/map-a-talent-market",
+              "roleId": "recruiting-people",
+              "context": "Test whether the role definition creates a plausible talent market."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Creating or revising the document does not publish it. The exact careers page or job-board post remains a separate approval."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Map a talent market before sourcing",
+      "description": "Test the title, target backgrounds, geography, compensation, and supply.",
+      "href": "/blog/ai-talent-market-mapping"
+    },
+    {
+      "title": "Build a hiring process that keeps its context",
+      "description": "See how the role definition carries into sourcing and interviews.",
+      "href": "/playbooks/recruiting"
+    }
+  ]
+}

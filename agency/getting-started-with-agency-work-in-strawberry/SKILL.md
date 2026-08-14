@@ -61,10 +61,11 @@ before comparing platforms or accounts.
 ## Keep meetings and delivery connected
 
 Strawberry can prepare concise client-call briefs, capture decisions and owners during meetings,
-and turn action items into owned work afterwards. Read `strawberry/sales/prepare-for-calls` to bring
+and turn action items into owned work afterwards. Read `strawberry/operations/prepare-for-meetings` to bring
 together relevant client results, account changes, relationship history, open items, and useful
-questions before a meeting. Afterwards, read `strawberry/operations/transcribe-meetings-follow-up` to capture
-decisions, action items, and owners, then draft a follow-up that reflects what was actually said.
+questions before a meeting. Strawberry can capture supported conversations without adding a visible
+meeting bot. Afterwards, read `strawberry/operations/debrief-a-meeting` to turn the reliable record
+into decisions, action items, owners, and a follow-up that reflects what was actually said.
 Nothing is sent without the user's explicit approval.
 
 ## Other things to try

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Create a Client Proposal",
+  "summary": "Turn an RFP, discovery record, and approved commercial context into a clear proposal ready for review.",
+  "icon": "files",
+  "tags": ["good-first-skill"],
+  "useCases": [
+    {
+      "roleId": "consultant",
+      "weight": 112,
+      "title": "Create a client proposal",
+      "message": "Turn this opportunity, RFP, or discovery record into a complete consulting proposal using our approved scope, pricing, terms, and delivery material."
+    }
+  ]
+}

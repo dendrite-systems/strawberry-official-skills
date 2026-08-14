@@ -156,6 +156,39 @@
       ]
     },
     {
+      "id": "assess-pipeline-coverage",
+      "title": "Assess whether the pipeline can support the goal",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Use the team's targets, qualification bar, stages, timing, and known conversion patterns to assess volume, quality, stage balance, concentration, momentum, timing, loss risk, and missing evidence. Do not impose a universal coverage ratio or generic health score."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The review should conclude that coverage is sufficient, potentially insufficient, insufficient, or not assessable, and explain why. If targets or conversion context are missing, not assessable is more useful than false certainty."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When coverage is weak, recommend the best separate handoff. Map the market when the segment, territory, or account universe needs clarification. Find new customers when the target market is understood and more qualified prospects are needed. A review-only request offers the handoff without starting broad research."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/map-a-market",
+              "roleId": "sales-business-development",
+              "context": "Clarify the market, segment, territory, or account universe before rebuilding pipeline."
+            },
+            {
+              "id": "strawberry/sales/find-new-customers",
+              "roleId": "sales-business-development",
+              "context": "Build more qualified prospects after the target market is accepted."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "make-it-a-weekly-rhythm",
       "title": "Turn the review into a weekly sales rhythm",
       "blocks": [

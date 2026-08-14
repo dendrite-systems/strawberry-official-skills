@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Close Open Loops",
+  "summary": "Find commitments, unanswered follow-ups, ownership gaps, and conflicting status across the systems where work happened.",
+  "icon": "lightbulb",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 112,
+      "title": "Find work that is slipping",
+      "message": "Check the relevant meetings, messages, tasks, and project records for open commitments, missing owners, and conflicting status, then recommend the smallest next actions."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 90,
+      "title": "Close important follow-ups",
+      "message": "Help me find important promises, decisions, and follow-ups that have not been completed or recorded properly."
+    },
+    {
+      "roleId": "other",
+      "weight": 76,
+      "title": "Audit open commitments",
+      "message": "Reconcile recent commitments across the sources I provide and show me what is still open, unclear, or waiting on someone."
+    }
+  ]
+}

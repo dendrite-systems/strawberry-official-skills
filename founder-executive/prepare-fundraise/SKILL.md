@@ -51,9 +51,9 @@ research or artifact creation.
 
 1. Define the target profile using the fundraise stage, relevant thesis, geography, check size,
    trusted fit signals, and explicit exclusions.
-2. Use `strawberry/venture-capital/map-key-players-industry-or-ecosystem` for the detailed sourcing, evidence, and
-   calibration workflow. Treat firms and relevant partners as separate entities where that
-   distinction matters.
+2. Use `strawberry/research-analysis/map-a-market` to define the relevant investor and ecosystem
+   landscape before building the contact list. Treat firms and relevant partners as separate
+   entities where that distinction matters.
 3. Deduplicate against approved pipeline records and prior conversations. For each candidate,
    preserve current source links and dates, give a concise evidence-backed fit reason, and identify
    a relevant partner or possible introduction path only when the evidence supports it. Never
@@ -71,7 +71,7 @@ deadlines, and review points.
 
 When the founder approves a contact list and wants messages, use
 `strawberry/sales/send-personalized-outreach`; keep its verification, drafting, and sending rules
-there. Use `strawberry/sales/prepare-for-calls` for scheduled investor conversations. Drafting does not
+there. Use `strawberry/operations/prepare-for-meetings` for scheduled investor conversations. Drafting does not
 authorize sending: contacting investors, sharing sensitive materials, granting access, or changing
 pipeline records always requires explicit approval.
 

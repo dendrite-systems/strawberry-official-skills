@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-event-planning",
+  "title": "How to plan a work event with AI",
+  "description": "Use AI to combine team context with live venue and vendor research, then coordinate the budget, guests, agenda, and run-of-show.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "Professional events usually begin with a short request—find somewhere for the offsite, organize a customer dinner, plan a workshop—and quickly spread across calendars, guest lists, venue pages, vendor emails, budgets, invitations, and a run-of-show.",
+    "AI research can suggest themes or return a list of venues. The difficult part starts when you need to check what is actually available, understand the terms, compare the full cost, contact the provider, and keep every answer aligned with the event the team is trying to create.",
+    "Strawberry can do that work in the browser alongside you. Your companion can use the team's calendar, brief, prior events, files, and messages, open live venue and vendor sites, and carry an approved direction into inquiries, coordination, and the tools where the event is run."
+  ],
+  "sections": [
+    {
+      "id": "define-event",
+      "title": "Define the event before filling the schedule",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The event needs a clear outcome, audience, likely size, format, dates, location, budget, and decision owner. Accessibility, dietary, privacy, technology, and brand needs may also change the plan. Strawberry can infer what is already present in the brief and workspace, then focus questions on the gaps that would genuinely alter the recommendation."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/plan-an-event",
+              "roleId": "operations-chief-of-staff",
+              "context": "Turn a professional event idea into a concept, live shortlist, working budget, critical path, and plan for approved execution."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Useful planning can begin while some choices remain open. Invitations, contracts, deposits, and other commitments wait until the decisions they depend on are clear."
+        }
+      ]
+    },
+    {
+      "id": "combine-internal-and-external-context",
+      "title": "Combine the team context with the live market",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The right venue or vendor depends on more than a search query. Team calendars affect the dates, the guest list affects capacity and privacy, the budget affects the service mix, and lessons from a previous event may change what is worth paying for. Strawberry can bring those sources into the same piece of work."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In the shared browser, the companion can search venue, catering, activity, production, equipment, and transport sites, follow promising options to their real pages, and keep the evidence open for inspection. It records what is advertised, what still needs a quote, and when the information was checked rather than treating a listing as confirmed availability."
+        }
+      ]
+    },
+    {
+      "id": "recommend-shortlist",
+      "title": "Recommend a direction the user can choose",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A useful first result is a small number of event concepts or provider combinations that could genuinely work. The comparison should make the important tradeoffs clear: experience, location, capacity, accessibility, availability, flexibility, effort, full expected cost, and the decisions or deadlines that could hold things up."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The working budget distinguishes advertised prices, estimates, requested quotes, received quotes, tentative holds, deposits, and confirmed bookings. A draft agenda or experience arc belongs in the recommendation when it helps decide between the options, not because every early plan needs a minute-by-minute schedule."
+        }
+      ]
+    },
+    {
+      "id": "continue-into-execution",
+      "title": "Continue from the choice into execution",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Once you choose a direction, the same companion can open inquiry forms, prepare vendor messages, compare incoming quotes with the current plan, and work through an approved booking or purchase. You can inspect the exact recipient, dates, services, information shared, cost, and terms before each consequential step."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strawberry can then maintain one current view of bookings, budget, guests, deadlines, risks, and owners; prepare invitations and attendee tracking; and build the agenda, briefing materials, vendor instructions, and run-of-show the event needs. Important updates are made in the actual calendar, project tool, document, or message thread and verified there."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/plan-a-business-trip",
+              "roleId": "operations-chief-of-staff",
+              "context": "Handle traveler-specific options, bookings, confirmations, and itinerary changes for people attending the event."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reuse-what-works",
+      "title": "Reuse what works for the next event",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Feedback and the final outcome can preserve useful venue criteria, vendor experience, accessibility practices, budget rules, timelines, and run-of-show patterns. For a longer event project, a milestone Routine can check the guest list, tasks, budget, calendar, and vendor threads and prepare a short draft update. On-request coordination remains perfectly reasonable when the event does not need that machinery."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for Operations work",
+      "description": "See how event planning connects with travel, status updates, and repeatable team workflows.",
+      "href": "/playbooks/operations"
+    }
+  ]
+}

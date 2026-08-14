@@ -50,11 +50,17 @@
       "id": "build-the-top-of-funnel",
       "title": "Find the right customers and reach out like yourself",
       "paragraphs": [
+        "When the market, segment, territory, or account universe is still unclear, map the landscape first. A market map can define the relevant universe, expose whitespace and concentration, compare regions or verticals, and show where prospecting should focus without pretending the result is already a qualified lead list.",
         "When you need new pipeline, Strawberry can work from a description of the customer, an ICP document, or examples of accounts you already win. It can search sources such as LinkedIn and company websites, explain why each prospect fits, and bring the result back to a sheet, CRM, dashboard, or chat.",
         "Valuable sales signals often live outside standard databases. Strawberry can investigate niche directories, public websites, and older databases to uncover relevant evidence, while keeping the source behind each finding.",
         "Try a small, varied set first and give your agent feedback before going wider. If you already have the companies, enrich the list instead. When you are ready, it can prepare and send personalized outreach in your voice, starting with representative messages and adding a sequence when follow-ups would help."
       ],
       "skills": [
+        {
+          "id": "strawberry/research-analysis/map-a-market",
+          "roleId": "sales-business-development",
+          "context": "Define the target market, account universe, whitespace, concentration, and where prospecting should focus."
+        },
         {
           "id": "strawberry/sales/find-new-customers",
           "roleId": "sales-business-development",
@@ -102,11 +108,6 @@
       ],
       "skills": [
         {
-          "id": "strawberry/operations/transcribe-meetings-follow-up",
-          "roleId": "sales-business-development",
-          "context": "Capture the conversation without a meeting bot and turn it into a reliable record."
-        },
-        {
           "id": "strawberry/sales/debrief-a-sales-meeting",
           "roleId": "sales-business-development",
           "context": "Turn the conversation into a sales debrief, grounded follow-up, CRM changes, and next actions."
@@ -128,7 +129,8 @@
       "title": "Turn your pipeline into the next best move",
       "paragraphs": [
         "Connect the CRM your team already uses and Strawberry can work with the records there instead of relying on an export or another round of copy-paste. It can combine deal stages with recent meetings, email activity, commitments, missing information, and fresh account signals.",
-        "That turns a pipeline review into more than a CRM summary. Strawberry can spot stalled deals, neglected follow-ups, and the actions most likely to move something forward, then propose updates for you to review.",
+        "That turns a pipeline review into more than a CRM summary. Strawberry can spot stalled deals, neglected follow-ups, and the actions most likely to move something forward, then propose updates for you to review. It can also assess whether volume, quality, stage balance, concentration, timing, momentum, and loss risk plausibly support your stated goal without imposing a generic coverage ratio.",
+        "When coverage is weak, the review recommends the next separate workflow: map the market if the segment or account universe is unclear, or find more qualified customers if the target is already understood. A review-only request does not launch broad research automatically.",
         "Start with a review you can talk through together. Once the team trusts the signals and recommendations, your companion can prepare it regularly as a Routine."
       ],
       "skills": [
@@ -136,6 +138,16 @@
           "id": "strawberry/sales/review-sales-pipeline",
           "roleId": "sales-business-development",
           "context": "Review pipeline health and turn it into a small, evidence-backed next-action plan."
+        },
+        {
+          "id": "strawberry/research-analysis/map-a-market",
+          "roleId": "sales-business-development",
+          "context": "Clarify the market, segment, territory, or account universe when coverage problems begin upstream."
+        },
+        {
+          "id": "strawberry/sales/find-new-customers",
+          "roleId": "sales-business-development",
+          "context": "Build more qualified pipeline after the target market is sufficiently understood."
         }
       ]
     },

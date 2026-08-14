@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-employee-onboarding",
+  "title": "How to onboard a new team member with AI",
+  "description": "Use AI to build a role-aware context pack, access plan, first-week path, and verified handoff from the company systems you already use.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "New teammates are often given plenty to read and very little help deciding what matters first. The company handbook, team pages, project documents, Slack channels, meetings, and access requests arrive as separate pieces, even though the person needs one practical path into the role.",
+    "AI can write an onboarding checklist from a job title. That is useful up to a point. A strong onboarding plan depends on the company's current context: which project the person will learn through, who owns the relevant decisions, which documents are still accurate, and what access they actually need to contribute.",
+    "Strawberry can assemble that picture across Notion, Slack, Drive, calendars, project tools, files, and the admin pages available in the browser. It can keep the teammate-facing guide separate from the internal setup view, then help complete and verify the actions the onboarding owner approves."
+  ],
+  "sections": [
+    {
+      "id": "begin-after-handoff",
+      "title": "Begin with a confirmed role and start",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "This workflow begins after the hire or internal move is agreed. The role, manager, start date, working pattern, and first useful outcomes shape everything that follows. Recruiting still owns candidate assessment and the offer; offboarding remains a separate job with different controls."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/onboard-a-new-teammate",
+              "roleId": "operations-chief-of-staff",
+              "context": "Build a role-aware context pack, setup plan, first-week path, and verified onboarding handoff."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "When one of those facts is still uncertain, Strawberry can prepare the useful context and coordination plan while leaving identity-dependent accounts, invitations, and permissions untouched."
+        }
+      ]
+    },
+    {
+      "id": "build-role-aware-context",
+      "title": "Build a path through the company context",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The companion can follow links through the real company workspace and identify the goals, active projects, recent decisions, risks, people, working norms, and authoritative reading that matter for this role. It can flag a stale team page or conflicting project record instead of copying both into a polished welcome pack."
+        },
+        {
+          "kind": "paragraph",
+          "text": "That rich context makes the result more specific without asking the onboarding owner to paste a summary from every tool. It also helps keep sensitive information out: private messages, compensation, health, performance, and candidate material do not belong in the teammate-facing guide unless an approved process genuinely requires them."
+        }
+      ]
+    },
+    {
+      "id": "set-up-right-access",
+      "title": "Set up the access the role needs",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Access should follow the role, accepted policy, current projects, and manager input—not the broadest permissions held by a roughly similar colleague. Strawberry can organize what is needed before day one, what can wait for the first week, what is optional, and what is blocked on approval, licensing, hardware, or identity."
+        },
+        {
+          "kind": "paragraph",
+          "text": "In the logged-in browser, the companion can prepare or complete approved invitations, access requests, group membership, calendar changes, and setup messages. You can see the exact teammate, account, access level, and destination before the change. A sent request is not marked complete until the source system shows the expected result."
+        }
+      ]
+    },
+    {
+      "id": "create-first-week",
+      "title": "Create a first week built around useful work",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The final plan can combine a concise welcome, priority reading, people to meet and why, tools and access, the first project or outcomes, useful checkpoints, and unresolved blockers. Existing meetings and real project work are often better ways to learn than a generic 30/60/90 template."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The onboarding owner gets a control view of what is ready, scheduled, waiting, blocked, and verified. The new teammate gets only the context and plan meant for them. Messages, calendar invitations, and permissions remain separately reviewable."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/set-up-shared-team-workflow",
+              "roleId": "operations-chief-of-staff",
+              "context": "Turn the onboarding method into a shared team workflow after a real handoff has proved it works."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Feedback from the teammate, manager, and onboarding owner can improve the next run. For organizations that onboard regularly, a milestone-based Routine can prepare readiness checks and draft reminders before the start and during the first week, while leaving access changes and messages within the agreed review boundary."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for Operations work",
+      "description": "See how onboarding connects with meetings, shared context, and repeatable team workflows.",
+      "href": "/playbooks/operations"
+    }
+  ]
+}

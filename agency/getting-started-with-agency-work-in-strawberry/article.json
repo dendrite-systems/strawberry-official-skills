@@ -59,7 +59,7 @@
         {
           "id": "strawberry/agency/build-client-brief",
           "roleId": "agency",
-          "context": "Turn approved kickoff context into a reliable client brief."
+          "context": "Start accepted work with one reliable engagement brief for delivery."
         },
         {
           "id": "strawberry/marketing/run-competitor-analysis",
@@ -87,14 +87,14 @@
           "context": "Build a clear account of progress, attention points, and unresolved blockers."
         },
         {
-          "id": "strawberry/sales/prepare-for-calls",
+          "id": "strawberry/operations/prepare-for-meetings",
           "roleId": "agency",
           "context": "Prepare a concise brief for the client conversations that matter."
         },
         {
-          "id": "strawberry/operations/transcribe-meetings-follow-up",
+          "id": "strawberry/operations/debrief-a-meeting",
           "roleId": "agency",
-          "context": "Capture decisions and draft reviewable follow-up after the call."
+          "context": "Turn the reliable meeting record into decisions, actions, and reviewable follow-up."
         }
       ]
     },
@@ -122,7 +122,7 @@
       "href": "/prompts/find-new-customers"
     },
     {
-      "title": "Build a client brief",
+      "title": "Start a client engagement",
       "description": "Open the focused Official Skill for preserving approved client context.",
       "href": "/prompts/build-client-brief"
     }

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Plan a Business Trip",
+  "summary": "Compare a coherent work itinerary, complete approved bookings, and organize confirmations, calendars, and sharing.",
+  "icon": "calendar",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 106,
+      "title": "Plan a business trip",
+      "message": "Plan this work trip around the travelers, calendar, policy, budget, and preferences, then compare a few live options before any booking."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 88,
+      "title": "Research and organize work travel",
+      "message": "Find a practical end-to-end itinerary for this trip, including transport and suitable accommodation, and keep every booking separately reviewable."
+    },
+    {
+      "roleId": "other",
+      "weight": 74,
+      "title": "Compare live travel options",
+      "message": "Use my dates, constraints, and preferences to compare current travel options and organize the trip I approve."
+    }
+  ]
+}

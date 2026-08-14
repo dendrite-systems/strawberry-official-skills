@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-candidate-interview-preparation",
+  "title": "How to prepare better candidate interviews with AI",
+  "description": "Build a coordinated interview plan with useful candidate briefs, structured questions, clear evidence ownership, and practical scorecards.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-13T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "An interview loop can look organized on the calendar and still leave the team without the evidence it needs. Two people test the same thing, an important criterion has no owner, and the final conversation turns on impressions nobody planned to collect.",
+    "Strawberry can bring the role definition, scorecard, candidate materials, earlier-stage evidence, calendar context, and team process into one coordinated interview kit. Each person can see what they own, what is already known, and what still needs checking.",
+    "Start with one candidate or one interview loop. The plan can improve as the team sees which questions produce useful evidence and which ones do not."
+  ],
+  "sections": [
+    {
+      "id": "build-the-evidence-plan",
+      "title": "Build the evidence plan before the question list",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Begin with the accepted role profile or job description, the scorecard, and any evidence already collected through applications, sourcing, calls, or work samples. Strawberry can turn that context into the outcomes and competencies the interview loop still needs to test."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Map each important criterion to an interviewer and format. If the role definition is still contested, resolve that first; a polished interview plan cannot repair an unclear hiring bar."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/prepare-candidate-interviews",
+              "roleId": "recruiting-people",
+              "context": "Turn the accepted role and current candidate evidence into a coordinated interview plan."
+            },
+            {
+              "id": "strawberry/recruiting/create-a-job-description",
+              "roleId": "recruiting-people",
+              "context": "Clarify the role and internal success profile before designing the interview loop."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "give-each-interviewer-a-brief",
+      "title": "Give each interviewer a useful brief",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A useful brief is short enough to read before the call. It covers the interviewer's evidence area, the candidate context relevant to that area, important claims or gaps to verify, and what a good record should contain."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Keep candidate-specific probes separate from the shared framework, and include only relevant, authorized information. Private notes, protected characteristics, and unrelated personal details do not belong in the panel packet."
+        }
+      ]
+    },
+    {
+      "id": "write-questions-that-can-be-scored",
+      "title": "Write questions that produce usable evidence",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Use the same job-related core questions for comparable candidates, with follow-up probes that help an interviewer get beyond a rehearsed answer. Pair them with practical scoring anchors so the team knows what strong, mixed, and weak evidence looks like."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The scorecard should help people record what happened, not manufacture precision. Leave space for counter-evidence, uncertainty, and important questions the interview did not answer."
+        }
+      ]
+    },
+    {
+      "id": "protect-the-candidate-experience",
+      "title": "Make the loop easier for the candidate too",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Prepare a clear candidate-facing agenda, realistic timing, clean handoffs, and any accessibility considerations the candidate has shared. Make it obvious who will explain the role, who will answer questions, and what happens next."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The kit can include draft scheduling or candidate communication, but sending a message or changing the calendar remains a separate approval."
+        }
+      ]
+    },
+    {
+      "id": "carry-the-record-forward",
+      "title": "Carry the evidence into the decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "After an authorized interview, transcripts or structured notes can create a reliable record. Automated transcription is fallible, so consequential ambiguity should be checked before the record is used."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/recruiting/synthesize-interview-feedback",
+              "roleId": "recruiting-people",
+              "context": "Map the interview record and panel feedback to the accepted scorecard."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Share the approved interview kit through an access-controlled team tool when colleagues need it. Once the method works, save the accepted structure as a reusable skill; a Routine can prepare future kits only after the sources, timing, and review point are agreed."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Synthesize interview feedback without losing the evidence",
+      "description": "Bring transcripts, notes, and scorecards into a clear human review.",
+      "href": "/blog/ai-candidate-interview-feedback"
+    },
+    {
+      "title": "Build a hiring process that keeps its context",
+      "description": "Connect interview preparation to the wider Recruiting journey.",
+      "href": "/playbooks/recruiting"
+    }
+  ]
+}
