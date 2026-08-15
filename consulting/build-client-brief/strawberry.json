@@ -13,7 +13,7 @@
     },
     {
       "roleId": "consultant",
-      "weight": 108,
+      "weight": 112,
       "title": "Start a client engagement",
       "message": "Turn this accepted work into a clear engagement brief covering scope, stakeholders, milestones, evidence, communication, systems, risks, and client-data restrictions."
     }

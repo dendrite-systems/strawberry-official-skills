@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-daily-brief",
   "title": "How to create a useful daily brief with AI",
   "description": "Use AI to bring together your calendar, messages, meetings, tasks, and current work into a short brief for the day ahead.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "Most daily briefs are easy to generate and hard to use. They repeat the calendar, summarize a few messages, and leave you to decide which items are connected and what actually deserves attention.",
     "A better brief does some of that judgment before the day gets busy. It brings together the meetings, promises, deadlines, messages, blockers, and changes that could affect your plan, then keeps the underlying sources close enough to check.",

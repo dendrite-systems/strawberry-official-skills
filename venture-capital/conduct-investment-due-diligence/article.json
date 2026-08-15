@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-investment-due-diligence",
+  "title": "How to Conduct Investment Due Diligence with AI",
+  "description": "Test the claims and risks behind a private-company investment with traceable sources, calculations, and open questions.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "More research does not automatically create better diligence. The useful work is testing the claims and risks that could change the investment decision, then showing where the evidence supports, weakens, or fails to resolve them.",
+    "Strawberry can work across approved data-room material, company documents, logged-in research tools, current web sources, meeting records, and the firm's own analysis. The investor can inspect the same evidence in the browser, while sensitive access, reference outreach, sharing, and the final decision remain separately controlled."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-questions",
+      "title": "Start with the questions that could change the decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The right diligence scope depends on the opportunity, investment stage, stakes, timeline, and what the firm already knows. Strawberry starts from the thesis, screening work, founder conversations, existing memo, and accepted diligence questions rather than applying every possible workstream at equal depth."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/venture-capital/conduct-investment-due-diligence",
+              "roleId": "venture-capital",
+              "context": "Investigate the material underwriting questions and produce a source-linked diligence record."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choose-the-right-workstreams",
+      "title": "Choose the right workstreams",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Market, product, customers, go-to-market, competition, team, technology, financials, cap table, legal exposure, security, references, and terms may matter. The decision determines which ones need a focused check, a deeper investigation, or specialist review."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Access to one data room or folder does not authorize unrelated files, exports, or sharing. Strawberry keeps the company, room, scope, and sensitive-data conditions visible before entering restricted material."
+        }
+      ]
+    },
+    {
+      "id": "test-rather-than-summarize",
+      "title": "Test the claims instead of summarizing them",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "For each material question",
+            "What the record should show"
+          ],
+          "rows": [
+            [
+              "Claim",
+              "What is being asserted and which decision it affects"
+            ],
+            [
+              "Evidence",
+              "The strongest supporting and conflicting sources"
+            ],
+            [
+              "Quality",
+              "Dates, definitions, denominators, source limits, and access constraints"
+            ],
+            [
+              "Gap",
+              "What remains unresolved and the best next way to test it"
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Company materials are claims to evaluate, not independent confirmation. When metrics, customer definitions, market estimates, or ownership records conflict, the diligence record preserves the conflict and recalculates only when the underlying data supports it."
+        }
+      ]
+    },
+    {
+      "id": "keep-outreach-and-judgment-controlled",
+      "title": "Keep outreach and judgment controlled",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Reference, customer, expert, founder, or co-investor outreach can resolve an important gap, but it can also reveal confidential deal context or burden a relationship. Strawberry can find a credible path and prepare the ask; contacting anyone remains a separate approved action."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/make-a-warm-introduction",
+              "roleId": "venture-capital",
+              "context": "Verify the relationship path and prepare a considerate reference or expert introduction."
+            },
+            {
+              "id": "strawberry/venture-capital/write-an-investment-memo",
+              "roleId": "venture-capital",
+              "context": "Carry accepted diligence into the investment case and decision record."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The final record leads with what the evidence changed, the supported findings, contradictions, calculations, risks, specialist reviews, and unresolved questions. It can inform an investment recommendation, but the companion does not approve, reject, vote on, or communicate the decision."
+        }
+      ]
+    },
+    {
+      "id": "preserve-the-method-not-the-template",
+      "title": "Preserve the method, not a generic checklist",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "After a reviewed run, the firm can save its workstreams, evidence hierarchy, calculation rules, and review points as a team skill. Those choices make later diligence more consistent; they should still adapt when the company, sector, stakes, or decision changes."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting started with venture capital in Strawberry",
+      "description": "See how diligence connects with sourcing, company research, meetings, and the investment memo.",
+      "href": "/playbooks/venture-capital-investing"
+    }
+  ]
+}

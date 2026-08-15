@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "displayName": "Run a competitor analysis",
-  "summary": "Get a strategic breakdown of what your top competitors are doing.",
+  "displayName": "Run a Competitor Analysis",
+  "summary": "Compare competitors with current, source-linked evidence and turn the findings into implications for a real business decision.",
   "icon": "chart",
   "tags": [],
   "useCases": [
@@ -9,7 +9,13 @@
       "roleId": "marketing-content",
       "weight": 104,
       "title": "Run a competitor analysis",
-      "message": "I want to understand what my top competitors are doing. You might want to start by identifying them from what you know about my company and product. Then analyse their positioning, pricing, and most recent content. Ask me if I want to add any others."
+      "message": "Help me compare our top competitors and explain what the evidence means for our positioning and next decisions."
+    },
+    {
+      "roleId": "agency",
+      "weight": 100,
+      "title": "Run a sourced competitor analysis for a client",
+      "message": "Help me compare this client's competitors using the client's approved context and public evidence. Keep observed facts, hypotheses, and recommendations separate."
     }
   ]
 }

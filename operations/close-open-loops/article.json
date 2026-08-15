@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "track-commitments-with-ai",
   "title": "How to track commitments across your tools",
   "description": "Use AI to find promises, follow-ups, ownership gaps, and conflicting status across meetings, messages, tasks, and project tools.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "A surprising amount of Operations work begins with a vague feeling that something has been missed. Someone promised an introduction, a meeting ended with an owner, or a decision was made—but the message, task, and project record no longer tell the same story.",
     "Finding those gaps is difficult for an AI tool that sees only one application or the text pasted into a chat. The useful evidence may sit in a transcript, a Slack thread, an email, and a task that has not been touched since the conversation.",

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Monitor a Portfolio Company",
+  "summary": "Find and explain material company changes without producing a stream of weak alerts.",
+  "icon": "inbox",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "venture-capital",
+      "weight": 104,
+      "title": "See what changed at a portfolio company",
+      "message": "Review what has materially changed at this portfolio company since our last reliable update. Check the agreed company and market signals, verify the sources, and explain what may need attention or support."
+    }
+  ]
+}

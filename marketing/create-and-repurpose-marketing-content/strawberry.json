@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Create and Repurpose Marketing Content",
+  "summary": "Create source-grounded marketing words and adapt the idea into useful channel-specific variants without flattening the brand voice.",
+  "icon": "sparkles",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 106,
+      "title": "Create and repurpose marketing content",
+      "message": "Create this marketing asset from our approved brief and evidence, then adapt it into useful variants for the channels we actually need."
+    }
+  ]
+}

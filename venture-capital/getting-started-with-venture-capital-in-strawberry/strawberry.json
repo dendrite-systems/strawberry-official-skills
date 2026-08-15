@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "displayName": "Getting Started with Venture Capital in Strawberry",
-  "summary": "Get started with investing in Strawberry through company research, market maps, diligence, and investment memos.",
+  "summary": "Connect market intelligence, deal flow, investment decisions, introductions, and portfolio monitoring.",
   "icon": "chart",
   "tags": [
     "getting-started-guide"
@@ -9,15 +9,15 @@
   "useCases": [
     {
       "roleId": "venture-capital",
-      "weight": 120,
+      "weight": 122,
       "title": "Getting Started with Venture Capital in Strawberry",
-      "message": "I want to get started with venture capital in Strawberry and improve how I research companies and make investment decisions."
+      "message": "Show me how Strawberry can support my investment view, deal flow, diligence, decisions, and portfolio work, then help me choose a useful first task."
     },
     {
       "roleId": "founder-executive",
       "weight": 70,
-      "title": "Getting Started with Venture Capital in Strawberry",
-      "message": "I want to get started with venture capital in Strawberry for company, investor, and market research."
+      "title": "Explore venture investing workflows",
+      "message": "Show me how Strawberry can help with private-market company, investor, market, and portfolio research."
     }
   ]
 }

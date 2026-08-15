@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Synthesize Customer Feedback",
+  "summary": "Turn approved feedback into source-linked product themes, tensions, examples, gaps, and confidence without automatically prioritizing the roadmap.",
+  "icon": "people",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "engineering-development",
+      "weight": 114,
+      "title": "Synthesize customer feedback",
+      "message": "Synthesize this customer feedback into source-linked themes, tensions, examples, evidence gaps, and confidence without jumping straight to roadmap priorities."
+    }
+  ]
+}

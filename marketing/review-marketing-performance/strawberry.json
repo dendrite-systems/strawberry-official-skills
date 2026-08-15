@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Review Marketing Performance",
+  "summary": "Reconcile marketing definitions and evidence, explain meaningful performance changes, and recommend the next decision or experiment.",
+  "icon": "chart",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 110,
+      "title": "Review marketing performance",
+      "message": "Review our marketing performance, make the attribution and data limits clear, and recommend the decisions or experiments the evidence supports."
+    }
+  ]
+}

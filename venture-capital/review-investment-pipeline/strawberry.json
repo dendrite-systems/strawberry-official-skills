@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Review the Investment Pipeline",
+  "summary": "Turn pipeline and recent context into priorities, missing evidence, and next actions.",
+  "icon": "chart",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "venture-capital",
+      "weight": 106,
+      "title": "Review my investment pipeline",
+      "message": "Review our active investment opportunities using our actual stages and recent context. Show where attention, evidence, ownership, or a decision is needed, and keep proposed CRM changes separate."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-seo-audit",
+  "title": "How to run an SEO audit with AI",
+  "description": "Use AI to combine search, analytics, site, and competitor evidence into a prioritized SEO report with practical next actions.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "An SEO audit can produce hundreds of findings and still avoid the decision: what should the team do next? The useful work is connecting search demand, site performance, content, technical constraints, competitors, product fit, and conversion value into a credible priority.",
+    "Strawberry can inspect the live site and search results in the browser while working with approved Search Console, analytics, crawl, rank, and research tools. Your companion can keep links and screenshots beside important findings and make sampled, estimated, stale, or conflicting data visible."
+  ],
+  "sections": [
+    {
+      "id": "define-the-site-and-decision",
+      "title": "Define the site and decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Clarify the site, audience, market, priority products or pages, competitors, timeframe, and decision the audit should support. Choose a focused question, first-pass audit, recurring review, or redesign of an existing process rather than assuming every property and page needs equal depth."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/audit-seo-create-report",
+              "roleId": "marketing-content",
+              "context": "Audit the organic-search evidence behind a current site decision and produce a prioritized, source-linked report."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "align-the-evidence-before-diagnosing",
+      "title": "Align the evidence before diagnosing",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Use the approved sources most likely to change the decision: Search Console, analytics, rank or crawl tools, previous audits, keyword research, the live site, competitor sites, and current search results. None is an automatic prerequisite."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Align properties, periods, markets, devices, attribution windows, query definitions, and tool methods before comparing them. A platform estimate and an observed site outcome should not carry the same confidence."
+        }
+      ]
+    },
+    {
+      "id": "look-for-problems-and-opportunities-that-matter",
+      "title": "Look for problems and opportunities that matter",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Queries and pages with meaningful impressions but weak position or click-through.",
+            "Pages or templates losing visibility, traffic, conversion contribution, or index coverage.",
+            "Search needs and competitor formats the site does not credibly serve.",
+            "Overlapping, stale, thin, or unsupported content.",
+            "Technical, rendering, crawl, structured-data, internal-linking, or page-experience issues.",
+            "Material differences by brand, market, device, page type, funnel stage, or audience."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Do not infer opportunity from search volume alone. Consider intent, authority, product fit, competition, conversion value, effort, and whether the team can create something genuinely useful."
+        }
+      ]
+    },
+    {
+      "id": "prioritize-the-underlying-issues",
+      "title": "Prioritize the underlying issues",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Group related symptoms into the underlying issue when the evidence supports it. Prioritize by likely impact, confidence, effort, dependency, risk, and time to learn rather than presenting an inflated checklist."
+        },
+        {
+          "kind": "table",
+          "columns": ["For each priority", "Make clear"],
+          "rows": [
+            ["Evidence", "The source, date, scope, and what was actually observed."],
+            ["Why it matters", "The audience, search, product, or conversion consequence."],
+            ["Next action", "The concrete owner, dependency, and smallest useful change or investigation."],
+            ["How to learn", "The baseline, expected signal, review window, and uncertainty that remains."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deliver-a-report-that-leads-to-action",
+      "title": "Deliver a report that leads to action",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Lead with the decision-relevant findings and action plan. Include scope and source limits, the current baseline where available, supporting links or screenshots, owners, dependencies, and a sensible review point."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A report does not approve changes to site copy, technical settings, publishing, tracking, paid search, or spend. Keep those actions separately scoped and verify completed work."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/run-competitor-analysis",
+              "roleId": "marketing-content",
+              "context": "Move into broader competitor research when the question extends beyond organic-search opportunity."
+            },
+            {
+              "id": "strawberry/marketing/build-a-content-plan",
+              "roleId": "marketing-content",
+              "context": "Turn accepted search opportunities into realistic themes, briefs, owners, dependencies, and review points."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting Started with Marketing in Strawberry",
+      "description": "Connect SEO decisions to audience evidence, content planning, competitor work, and performance learning.",
+      "href": "/playbooks/marketing"
+    }
+  ]
+}

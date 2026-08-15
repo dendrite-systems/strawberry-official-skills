@@ -43,12 +43,12 @@ before spending time on deep research.
 When the output should make an argument rather than list entities, agree on the evidence standard
 and expected artifact before the research expands.
 
-## Investigate vendors and complex topics
+## Investigate complex topics
 
-For a consequential vendor or supplier decision, read
-`strawberry/venture-capital/do-due-diligence-vendor-or-supplier`. For a new or complex field, first define the
-decision and evidence standard so the result becomes a useful path through the evidence rather
-than an unranked list of links.
+For a new or complex field, first define the decision and evidence standard so the result becomes
+a useful path through the evidence rather than an unranked list of links. When no focused skill
+owns the specialist judgment, complete the research normally and preserve the accepted method only
+after the user has reviewed a real result.
 
 ## Turn sources into structured evidence
 

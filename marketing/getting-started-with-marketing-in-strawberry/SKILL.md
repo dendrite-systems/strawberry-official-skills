@@ -1,90 +1,98 @@
 ---
 name: getting-started-with-marketing-in-strawberry
-description: Best practices for anyone getting started with marketing in Strawberry. Use when helping a user choose, set up, or expand audience research, creation, distribution, measurement, or team workflows.
+description: Help an in-house marketer get started in Strawberry with one useful result, then connect audience evidence, campaign planning, content, SEO, competitor work, and performance learning into a coherent marketing system.
 ---
 
 # Getting Started with Marketing in Strawberry
 
-Strawberry can connect audience research, competitor signals, content creation, distribution, and
-measurement without flattening the team's brand. This is not a fixed methodology. Enter wherever
-the user or team has a real bottleneck, ask one short question at a time until a useful starting
-point is clear, and skip what already works. Over time, help them connect only the workflows that
-genuinely suit their audience, brand, and channels.
+Help the marketer see how Strawberry can connect the full in-house marketing system, then finish
+one useful piece of work inside it. Do not require the whole system to be configured before
+delivering value.
 
-## Begin with one useful result
+## Paint the marketing learning loop
 
-Ask what the team needs now, then offer to learn through a few questions, approved context, or a
-combination of both. Relevant context may include the product, audience, website, prior campaigns,
-channel performance, existing report or campaign formats, and approved examples.
+Explain briefly that marketing is not a line that ends when content is published. Audience
+evidence shapes positioning and campaigns; campaigns create content and distribution needs;
+performance reveals what resonated, where the funnel broke, and what the team should learn next.
+That learning should improve the audience view and the next cycle.
 
-Choose one small, reviewable result: audience themes, a competitor snapshot, a content sample, a
-creator shortlist, or one reporting period. Confirm the audience, goal, channel, expected artifact,
-scope or time period, success signal, and intended approach before collecting or creating at scale.
-Show that first result and let the user correct assumptions, format, depth, tone, or tool choices
-before expanding the work.
+Strawberry can keep this loop connected across visible browser tabs, logged-in marketing tools,
+customer evidence, the website, analytics, campaigns, brand examples, content, meetings, files,
+approved apps, and the live web. The companion can preserve the team's corrections to audience,
+voice, evidence, attribution, and review behavior instead of rebuilding the brief at every handoff.
 
-Learn the visual direction, structure, banned phrases, and approval preferences relevant to that
-result. When the voice is not already understood, read `strawberry/general/learn-writing-style` to learn and
-preserve it from approved guidelines, messaging documents, prior campaigns, authored examples, or
-website and account copy.
+Show the larger possibility without turning it into a feature tour or a mandatory waterfall. The
+team can enter at audience research, campaign planning, content, SEO, competitor work, or
+performance; the value comes from letting accepted evidence and judgment improve the other parts.
 
-## Understand the audience
+## Find a useful first win
 
-Strawberry can gather reviews, comments, community posts, and brand mentions into evidence-backed
-themes. Use `strawberry/research-analysis/extract-web-data` to collect approved public evidence into a consistent
-schema. Look for what people complain about, value, and repeatedly ask, keep repeated evidence
-separate from an interesting anecdote, and preserve source links so the user can verify each theme.
+Understand the product, audience, outcome, timing, channels, evidence already available, and the
+decision that matters now. Use the approved context most likely to improve it.
 
-## Learn from competitors
+If the user is unsure where to start, offer a small, prioritized set of relevant options. Explain
+why each fits, and avoid presenting the whole catalog:
 
-Strawberry can compare relevant accounts, websites, campaigns, and public activity after it
-understands the user's own offer. Read `strawberry/marketing/run-competitor-analysis` for the detailed
-workflow. When relevant, include company and founder-led accounts and compare positioning, offers,
-topics, formats, engagement, and landing pages. Keep observed behavior separate from hypotheses
-about why it works, and turn the evidence into implications for the user's business rather than an
-undigested list of examples.
+- understand an audience from source-linked evidence;
+- plan a campaign the team can approve;
+- turn an accepted strategy into a content plan or first asset;
+- investigate a competitor or SEO question; or
+- review performance and decide what to learn or change next.
 
-## Create and repurpose content
+Suggest another connection only when it materially improves the first result. Begin with a
+reviewable piece of work rather than setup or production at scale.
 
-Treat content work as a brief: audience, goal, channel, desired action, constraints, and success
-signal. Read `strawberry/research-analysis/create-beautiful-slide-deck` when the result should be a visual artifact,
-or `strawberry/research-analysis/research-companies-create-decks` when research and presentation belong in the same
-workflow. Ground ideas in audience or competitor evidence, and draft a small reviewable sample
-before scaling. Adaptation should preserve the idea and voice rather than merely shorten the
-original.
+## Connect the core marketing loop
 
-## Find the right creators and distribution
+Route each stage to the focused skill that owns its judgment:
 
-Strawberry can shortlist creators using niche alignment, engagement quality, audience overlap, and
-actual recent content rather than follower count alone. Use `strawberry/research-analysis/extract-web-data` to create
-the reviewable research dataset, then `strawberry/sales/send-personalized-outreach` when verified work
-and approved context should become personalized draft outreach rather than generic praise. Nothing
-should be sent without approval.
+1. Use `strawberry/marketing/research-an-audience` for evidence-backed segments, needs, language,
+   behavior, channels, tensions, and gaps. It does not build named contact or creator lists.
+2. Use `strawberry/marketing/plan-a-marketing-campaign` to research and produce an approval-ready
+   objective, audience, proposition, channel plan, asset needs, owners, measurement, and risks. It
+   stops before configuration, launch, or spend changes.
+3. Use `strawberry/marketing/build-a-content-plan` for themes, formats, cadence, briefs,
+   dependencies, owners, and reuse opportunities.
+4. Use `strawberry/marketing/create-and-repurpose-marketing-content` for source-grounded words and
+   meaningful channel variants. Keep substantial visual production and publishing separate.
+5. Use `strawberry/marketing/review-marketing-performance` to reconcile definitions, attribution,
+   funnel behavior, audiences, creative, and recommendations. Use shared Data capabilities when the
+   data work itself becomes substantial.
 
-## Measure what is working
+The stages reinforce one another, but they are not a required sequence. Enter where the current
+marketing decision sits and carry accepted evidence forward only when it improves the next part.
 
-Strawberry can compare consistent time periods and explain what changed, what remains uncertain,
-and which experiment is worth running next. Read `strawberry/marketing/audit-seo-create-report` for a
-substantive SEO workflow. For paid growth, agree on the platforms, metrics, and comparison period,
-then make the first result one clean cross-platform read. Keep each platform's reported numbers
-separate from interpretation, flag attribution gaps and low-confidence conclusions, and require
-approval before changing a live ad account. For other channels, first agree on a stable
-measurement method and review one result before making it repeatable.
+## Use specialist branches where they belong
 
-## Other things to try
+- Use `strawberry/marketing/run-competitor-analysis` for a current, source-linked comparison tied
+  to a positioning, campaign, product, or market decision.
+- Use `strawberry/marketing/audit-seo-create-report` for a prioritized organic-search audit and
+  action plan.
+- Use `strawberry/research-analysis/create-beautiful-slide-deck` when approved marketing material
+  should become a polished presentation.
+- Use `strawberry/operations/set-up-shared-team-workflow` after a marketing method has worked and
+  needs clear team ownership, destinations, boundaries, and review behavior.
 
-These are useful discovery ideas, not complete standalone workflows:
+For agency work, use the Agency Getting Started overlay to establish client separation, briefing,
+delivery, and reporting boundaries. The selected functional bundle still owns the Marketing, Sales,
+Operations, Design, or Research workflow. Operations owns multi-source client progress reporting.
 
-- Monitor brand mentions and group recurring themes.
-- Repurpose one strong idea for another channel without losing the voice.
-- Shortlist creators whose audiences genuinely match the product.
-- Build a content calendar from evidence about what already performs.
+## Learn through real work
 
-## Make the process yours
+Calibrate with a small, varied first set when voice, evidence, targeting, production volume, or cost
+makes early correction valuable. Let the marketer correct the audience, evidence bar, source mix,
+brand voice, visual direction, attribution assumptions, format, and review points before expanding.
 
-Review one useful result before scaling. Save accepted voice, formatting, sources, distribution,
-measurement, and review choices as a user-owned skill. When teammates need the same inputs,
-destinations, ownership, privacy boundaries, and review behavior, read
-`strawberry/operations/set-up-shared-team-workflow` and pilot the accepted process with them. Add monitoring or
-a Routine only after the team trusts the underlying method and has agreed what should trigger a
-notification or external action.
+Preserve durable preferences only after they have been demonstrated. Add a Routine when the team
+trusts the workflow and has a real cadence or trigger, useful inputs, meaningful-change rule,
+destination, owner, and stop conditions.
+
+## Work within the current permission
+
+Follow Strawberry's active scoped permission for the action, account, destination, and conditions.
+Research, drafting, publishing, sending, CMS edits, tracking changes, campaign configuration, and
+spend changes are separate actions. Draft or ask when permission is insufficient. Stop when
+identity, scope, impact, or sensitive-data handling changes, and verify completed external actions.
+
+The guide is working when the marketer has a useful result, understands the next marketing
+decision, and can build on accepted evidence and judgment instead of restarting from a blank brief.

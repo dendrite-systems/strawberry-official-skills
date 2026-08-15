@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "marketing",
-  "title": "Move from research to finished marketing work",
-  "description": "Connect market research, campaign inputs, visual production, and repeatable publishing work.",
+  "title": "Getting Started with Marketing in Strawberry",
+  "description": "Connect audience evidence, campaign planning, content, and performance learning without losing the brand or the reasoning between steps.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -12,90 +12,162 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "publishedAt": "2026-08-14T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Marketing work becomes more useful when market evidence, brand context, production, and performance stay connected. Strawberry can research across the browser, prepare finished artifacts, and keep the accepted process without flattening the team’s judgment or voice.",
-    "Begin with one result whose quality the team can review. Learn through a few questions, relevant connected apps, or both, then preserve the accepted audience, sources, voice, format, and review behavior."
+    "Marketing often breaks at the handoffs. Audience research becomes a slide nobody uses. A campaign plan loses its evidence when production starts. Performance arrives later as a dashboard with no memory of why the work looked that way.",
+    "Strawberry can keep those steps connected. The same companion can work across the visible browser, logged-in marketing tools, customer evidence, documents, meetings, and the live web. It can remember the team's accepted sources, brand judgment, and corrections, then carry them from one useful result into the next."
   ],
   "sections": [
     {
-      "id": "set-up-the-context",
-      "title": "Start with the audience, voice, and result",
-      "paragraphs": [
-        "Clarify the business, audience, channel, and result before producing content. Existing website copy, approved campaigns, brand documents, social posts, and competitor examples can help when available, but they are not prerequisites.",
-        "Strawberry can learn the team’s writing style from concrete approved examples or start with a small draft and use feedback to calibrate. Before substantial work, confirm a concise plan and how success will be judged."
-      ],
-      "skills": []
-    },
-    {
-      "id": "learn-the-market",
-      "title": "Learn the market before making the artifact",
-      "paragraphs": [
-        "Analyse competitor websites and approved social profiles for positioning, offers, formats, engagement, and the content receiving traction. Social listening across relevant feeds, comments, topics, and communities should produce actionable themes with real source links.",
-        "Separate observed performance from hypotheses about why something worked, then adapt useful patterns in the user’s brand voice rather than copying competitor content."
-      ],
-      "skills": [
+      "id": "see-the-in-house-marketing-system",
+      "title": "See the in-house marketing system",
+      "blocks": [
         {
-          "id": "strawberry/marketing/audit-seo-create-report",
-          "roleId": "marketing-content",
-          "context": "Use this when the result should be a prioritized SEO report."
+          "kind": "paragraph",
+          "text": "You do not need to build the whole system before beginning. Bring the product, audience, campaign, content, search, or performance question that matters now. Strawberry can recommend a few relevant starting points and complete one result the team can review while keeping the larger system visible."
         },
         {
-          "id": "strawberry/research-analysis/create-beautiful-slide-deck",
-          "roleId": "marketing-content",
-          "context": "Use this when the result should be a polished visual artifact."
+          "kind": "table",
+          "columns": ["Marketing lane", "What Strawberry can help carry"],
+          "rows": [
+            ["Audience evidence", "Needs, language, behaviors, channels, tensions, source links, and confidence."],
+            ["Campaign decisions", "The objective, proposition, offer, channel roles, assets, owners, measurement, and risks."],
+            ["Content system", "Themes, briefs, capacity, source material, production, and channel-specific reuse."],
+            ["Performance learning", "Definitions, baselines, attribution limits, meaningful changes, hypotheses, and next experiments."],
+            ["Specialist branches", "Competitor analysis and SEO when their distinct sources and judgment are the real job."]
+          ]
         },
         {
-          "id": "strawberry/marketing/run-competitor-analysis",
-          "roleId": "marketing-content",
-          "context": "Compare competitors using traceable market and content evidence."
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/getting-started-with-marketing-in-strawberry",
+              "roleId": "marketing-content",
+              "context": "Choose and complete the marketing workflow that would help most right now."
+            }
+          ]
+        }
+        ,
+        {
+          "kind": "paragraph",
+          "text": "Because the work happens beside your real tabs and logged-in tools, you can inspect the sources, coach the judgment, take over when needed, and decide whether a draft should become an external action."
         }
       ]
     },
     {
-      "id": "listen-for-real-signals",
-      "title": "Listen for the questions and language customers use",
-      "paragraphs": [
-        "Useful social listening looks beyond follower counts. Search relevant feeds, comments, reviews, communities, and support patterns for repeated questions, complaints, excitement, and language the market actually uses.",
-        "Return themes with source links and explain which observations are evidence versus interpretation. The goal is a set of useful decisions or experiments, not a pile of mentions."
-      ],
-      "skills": []
-    },
-    {
-      "id": "find-the-right-creators",
-      "title": "Find creators from their actual work",
-      "paragraphs": [
-        "Shortlist creators by niche alignment, engagement quality, audience overlap, and their actual recent content. Suggested outreach angles should reference verified work rather than generic praise, and messages remain drafts until approved."
-      ],
-      "skills": [
+      "id": "begin-with-audience-evidence",
+      "title": "Begin with audience evidence, then make the campaign decision",
+      "blocks": [
         {
-          "id": "strawberry/sales/send-personalized-outreach",
-          "roleId": "marketing-content",
-          "context": "Draft reviewable creator or partner outreach grounded in verified work."
+          "kind": "paragraph",
+          "text": "Good audience work joins qualitative and quantitative evidence without pretending every source represents the same population. Interviews, support conversations, reviews, communities, search behavior, analytics, and campaign data can reveal needs, language, behavior, channels, and tensions. Strawberry keeps representative examples and links close to the synthesis, along with the gaps and confidence behind it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "An accepted audience view can become a campaign plan with a clear objective, proposition, offer, channel roles, asset needs, owners, dependencies, measurement, and risks. Planning stops before platform configuration, launch, or spend changes, so the team approves the strategy before operational momentum makes it harder to correct."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/research-an-audience",
+              "roleId": "marketing-content",
+              "context": "Turn approved customer and market evidence into a source-linked audience view."
+            },
+            {
+              "id": "strawberry/marketing/plan-a-marketing-campaign",
+              "roleId": "marketing-content",
+              "context": "Build the evidence into an approval-ready campaign plan without launching it."
+            }
+          ]
         }
       ]
     },
     {
-      "id": "connect-performance-to-next-actions",
-      "title": "Connect performance to the next action",
-      "paragraphs": [
-        "Compile approved metrics from several platforms while labeling platform-specific measures clearly. Deliver the accepted report to the team’s Sheet, Notion page, document, or communication destination with source links, limitations, and prioritized experiments."
-      ],
-      "skills": []
+      "id": "connect-the-plan-to-content-people-can-use",
+      "title": "Connect the plan to content people can use",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A content plan should explain why each theme and format exists, which evidence supports it, who owns it, and how the work can be reused. It should also respect the team's actual capacity. Filling a calendar is not the same as making a plan."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When a brief is ready, Strawberry can create the anchor asset and adapt its idea across articles, email, social, landing pages, and similar formats. Repurposing changes the structure, depth, proof, and call to action for the channel; it does not simply make the same copy shorter. Substantial visual work and publishing remain their own steps."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/build-a-content-plan",
+              "roleId": "marketing-content",
+              "context": "Turn the strategy and evidence into themes, briefs, owners, cadence, and reuse."
+            },
+            {
+              "id": "strawberry/marketing/create-and-repurpose-marketing-content",
+              "roleId": "marketing-content",
+              "context": "Create source-grounded content and useful channel-specific variants."
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": "reuse-the-accepted-pattern",
-      "title": "Reuse the accepted pattern",
-      "paragraphs": [
-        "Once the team accepts the research depth, voice, audience, report structure, visual direction, and approval behavior, preserve those choices as a reusable skill rather than recreating the brief for every campaign.",
-        "Introduce recurring monitoring only after one reviewed run has proved the underlying sources, meaningful-change rules, destination, and notification behavior."
-      ],
-      "skills": [
+      "id": "measure-without-pretending-attribution-is-clean",
+      "title": "Measure without pretending attribution is clean",
+      "blocks": [
         {
-          "id": "strawberry/operations/set-up-shared-team-workflow",
-          "roleId": "marketing-content",
-          "context": "Turn an accepted marketing workflow into a shared team process."
+          "kind": "paragraph",
+          "text": "Marketing performance becomes easier to act on when definitions come before conclusions. Strawberry can reconcile periods, currencies, funnel stages, attribution windows, and source quality, then show which audience, channel, message, creative, or operational change may explain the result."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Observed change, plausible explanation, and recommendation remain separate. One platform's model is not treated as ground truth, and a before-and-after chart is not automatically a causal result. When extraction, joins, statistical work, or validation becomes substantial, shared Data capabilities can handle that layer while Marketing keeps the interpretive judgment."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/review-marketing-performance",
+              "roleId": "marketing-content",
+              "context": "Reconcile the evidence, explain the changes that matter, and recommend the next decision or experiment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "use-specialists-at-the-real-branches",
+      "title": "Use specialists at the real branches",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Competitor analysis and SEO remain focused workflows because they bring their own sources and judgment. Agency work adds client separation, briefing, delivery, and reporting boundaries rather than changing the underlying Marketing method. After an in-house workflow has worked, Operations can help turn the accepted sources, owners, destination, privacy rules, and review behavior into a shared team process."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Keep external actions distinct. Research does not approve contact-list building. A campaign plan does not approve launch. Copy approval does not approve publishing, sending, CMS changes, tracking changes, or spend. Strawberry follows the active permission for the exact account, destination, action, and conditions, and verifies work it completes."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/run-competitor-analysis",
+              "roleId": "marketing-content",
+              "context": "Compare competitors around a real positioning, campaign, product, or market decision."
+            },
+            {
+              "id": "strawberry/marketing/audit-seo-create-report",
+              "roleId": "marketing-content",
+              "context": "Turn organic-search evidence into a prioritized action plan."
+            },
+            {
+              "id": "strawberry/operations/set-up-shared-team-workflow",
+              "roleId": "marketing-content",
+              "context": "Turn a proven marketing method into a shared workflow with clear ownership and boundaries."
+            }
+          ]
         }
       ]
     }
@@ -106,16 +178,11 @@
       "title": "How to prompt AI as a marketer",
       "description": "The existing article on campaign research, content, and analysis.",
       "href": "/blog/how-to-prompt-ai-as-a-marketer"
-    },
-    {
-      "title": "Build a 90-day content calendar",
-      "description": "Open a focused Official Skill for a repeatable content plan.",
-      "href": "/prompts/build-90-day-content-calendar"
     }
   ],
   "navigation": {
-    "title": "Social Listening",
-    "tagline": "Reddit, X, and review sites",
+    "title": "Marketing",
+    "tagline": "Audience evidence, campaigns, content, and learning",
     "icons": [
       "reddit",
       "x",

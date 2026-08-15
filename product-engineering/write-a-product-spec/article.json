@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-product-specification",
+  "title": "How to write a product specification with AI",
+  "description": "Use AI to turn an accepted product problem into a source-linked specification with clear flows, requirements, edge cases, and acceptance criteria.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "A polished product specification can still hide the decision that matters. If the problem, user, outcome, or scope is unsettled, filling in a PRD template only makes the uncertainty harder to see.",
+    "Strawberry can work across customer evidence, product analytics, current browser behavior, documents, meetings, related tickets, and approved repository context. Your companion can trace requirements back to the accepted problem and keep open decisions visible instead of smoothing them into confident prose."
+  ],
+  "sections": [
+    {
+      "id": "confirm-the-accepted-problem",
+      "title": "Confirm the accepted problem",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Clarify the problem, affected users and situations, desired outcome, decision owner, scope, timing, constraints, evidence, and why the team is specifying it now. If the problem or priority is not accepted, write the smallest decision brief or open-question list needed to resolve it first."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/write-a-product-spec",
+              "roleId": "engineering-development",
+              "context": "Turn an accepted product problem and its evidence into a shared product definition and observable acceptance criteria."
+            },
+            {
+              "id": "strawberry/product-engineering/synthesize-customer-feedback",
+              "roleId": "engineering-development",
+              "context": "Synthesize the customer evidence first when the underlying problem is still unclear."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inspect-the-current-product",
+      "title": "Inspect the current product",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Review the current flow, relevant surfaces, existing documentation, related tickets, past decisions, constraints, dependencies, and known product behavior. Use the browser, analytics, meetings, documents, and repository context only where they change the definition."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Keep current behavior, customer evidence, stakeholder request, product judgment, and technical constraint distinct. Surface conflicts and stale assumptions rather than choosing the most convenient source."
+        }
+      ]
+    },
+    {
+      "id": "define-the-product-change",
+      "title": "Define the product change",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": ["Part of the specification", "What it should resolve"],
+          "rows": [
+            ["Problem and outcomes", "Who is affected, in which situations, what should improve, and the evidence behind it."],
+            ["Goals, non-goals, and scope", "What this work will and will not attempt to change."],
+            ["Flows and states", "The main path plus alternate, empty, error, permission, and recovery behavior."],
+            ["Requirements and rules", "Observable product behavior, content or data needs, dependencies, and rollout considerations."],
+            ["Measurement and acceptance", "How the team will know the outcome improved and whether the implementation meets the definition."],
+            ["Open decisions and risks", "The owner, evidence needed, and why the unresolved choice could change the work."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Describe product behavior and outcome, not an implementation disguised as a requirement. Architecture, detailed system design, task breakdown, and code changes belong to the relevant Engineering workflow."
+        }
+      ]
+    },
+    {
+      "id": "review-the-high-risk-parts-first",
+      "title": "Review the high-risk parts first",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "When the interaction or scope is uncertain, review the critical flow and highest-risk choices before expanding the document. Trace consequential requirements to the accepted problem, evidence, constraint, or decision."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Check for contradictory rules, missing states, hidden dependencies, undefined terms, untestable criteria, accidental scope growth, and metrics that cannot answer whether the outcome improved. Ask each specialist only about decisions they genuinely own."
+        }
+      ]
+    },
+    {
+      "id": "apply-only-the-approved-document-action",
+      "title": "Apply only the approved document action",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Deliver the concise decision summary, source links, flows, requirements, acceptance criteria, and remaining decisions in the team's useful format. Creating or updating that document does not approve tickets, roadmap changes, architecture, implementation, release, or customer communication."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/review-product-metrics",
+              "roleId": "engineering-development",
+              "context": "Define success measures or review the baseline when the specification's measurement still needs work."
+            },
+            {
+              "id": "strawberry/product-engineering/audit-a-product-flow",
+              "roleId": "engineering-development",
+              "context": "Test the accepted flow and its important states in a safe environment once there is something to inspect."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting Started with Product and Engineering in Strawberry",
+      "description": "Connect specifications to customer evidence, metrics, browser-based QA, and grounded bug reports.",
+      "href": "/playbooks/product-engineering"
+    }
+  ]
+}

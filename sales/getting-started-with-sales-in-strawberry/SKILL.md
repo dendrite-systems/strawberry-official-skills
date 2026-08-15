@@ -37,9 +37,9 @@ lead. If they are unsure, offer a small set of useful starting points:
 
 Adapt the choices and wording to the conversation rather than treating this list as a script or a
 closed menu. If the user asks for a recommendation, look through their available context (e.g. apps, tabs, memory) and
-suggest no more than three strong options. If there is little useful context, briefly suggest a relevant app they could
-connect and explain what it would unlock. Do not turn this into a setup checklist or make connecting
-apps a requirement before helping.
+suggest a small, prioritized set of strong options and explain why they fit. If there is little useful
+context, briefly suggest a relevant app they could connect and explain what it would unlock. Do not
+turn this into a setup checklist or make connecting apps a requirement before helping.
 
 ## Use a focused skill when it fits
 
@@ -74,8 +74,8 @@ workflow. A useful process that repeats can later become a custom skill.
   for the next customer decision.
 - **Clean or update CRM records:** read `strawberry/sales/keep-crm-updated`.
 
-When several options fit, recommend the best first one and no more than two alternatives. Explain
-why they fit the user's situation instead of listing every skill.
+When several options fit, recommend a small prioritized set and explain why they fit the user's
+situation instead of listing every skill.
 
 ## Teach through the work
 

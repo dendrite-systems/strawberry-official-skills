@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-job-description",
   "title": "How to create a better job description with AI",
   "description": "Define the role your team needs and turn it into a clear, honest candidate-facing job description without mixing the two audiences.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-13T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "A job description often starts as three different things at once: a business need, a hiring wish list, and the page candidates will use to decide whether the role is worth considering.",
     "Those pieces need to agree, but they should not be the same document. Strawberry can help define the internal role first, then turn the approved facts into an honest candidate-facing job description.",

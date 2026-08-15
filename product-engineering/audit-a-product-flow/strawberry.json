@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Audit a Product Flow",
+  "summary": "Navigate and test a product flow, then return inspectable passes, regressions, browser evidence, scope, and uncertainty.",
+  "icon": "binoculars",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "engineering-development",
+      "weight": 116,
+      "title": "Audit a product flow",
+      "message": "Audit this product flow in the approved environment and give me a reviewable record of passes, regressions, browser evidence, scope, and uncertainty."
+    }
+  ]
+}

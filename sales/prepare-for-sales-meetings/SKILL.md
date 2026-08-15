@@ -94,5 +94,5 @@ After feedback, offer to save the accepted sources, depth, priorities, format, d
 review behavior as a custom or team skill. When preparation has a useful trigger or cadence,
 suggest a Routine that checks the agreed calendar events plus relevant email, CRM, prior meetings,
 and account changes, then prepares the brief in the chosen destination. Stop and ask when the
-  meeting or participant match is unclear, private context may be exposed, or the preparation
-  depends on a decision only the user can make.
+meeting or participant match is unclear, private context may be exposed, or the preparation depends
+on a decision only the user can make.

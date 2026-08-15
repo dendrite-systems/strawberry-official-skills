@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-business-trip-planning",
   "title": "How to plan a business trip with AI",
   "description": "Use AI to compare live travel options, build a coherent itinerary, complete approved bookings, and organize the trip in one place.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "A workable business trip depends on more than the fare. The arrival has to fit the meeting, the stay has to suit the location and working pattern, the choice has to fit policy, and each part has to remain available long enough to make a decision.",
     "A list of travel links from an AI search only solves the first part. You still have to reopen the results, recover the current price, sign in, check the terms, and rebuild the itinerary before you can book anything.",

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-investment-memo",
+  "title": "How to Write an Investment Memo with AI",
+  "description": "Turn company research and diligence into a source-linked investment case, countercase, and decision record.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "An investment memo is useful when another person can inspect the evidence, understand the reasoning, and see what remains uncertain. Polished prose is not enough if the strongest claims cannot be traced or the counterevidence has disappeared.",
+    "Strawberry can bring together the firm's thesis and memo style with company research, founder conversations, diligence, market work, data-room material, and calculations. Feedback on one memo can carry into the next without turning the firm's judgment into a rigid generic template."
+  ],
+  "sections": [
+    {
+      "id": "write-for-the-decision",
+      "title": "Write for the decision in front of the firm",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "An initial screen, partner discussion, full underwriting memo, investment committee document, and post-decision record need different depth. Strawberry begins with the audience, timing, decision stage, and the firm's existing structure before drafting or commissioning more research."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/venture-capital/write-an-investment-memo",
+              "roleId": "venture-capital",
+              "context": "Build a clear, source-linked memo in the firm's accepted style and decision structure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assemble-the-current-record",
+      "title": "Assemble the current investment record",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The memo starts with reliable research, meetings, diligence, market evidence, financial analysis, references, and internal notes already available. Strawberry can inspect those sources across files, connected tools, and the browser, then research a missing area only when it could change the decision."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Company claims, independent evidence, calculations, internal observations, and interpretation remain distinct. Material claims stay linked to their source and date, and changing definitions or contradictory evidence remain visible."
+        }
+      ]
+    },
+    {
+      "id": "make-the-case-and-countercase-visible",
+      "title": "Make the case and countercase visible",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "The company and opportunity in plain language.",
+            "Why it may fit the thesis and why now.",
+            "The evidence on product, customer, market, competition, team, traction, and business model that matters to this decision.",
+            "The strongest case for and against the investment.",
+            "Risks, sensitivities, contradictions, and missing evidence.",
+            "The recommendation or next gate the investor is responsible for."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The firm's own format takes precedence. When no template exists, the decision should shape the sections rather than a checklist that gives every topic equal space. An unsupported conclusion stays unresolved instead of being made confident by the writing."
+        }
+      ]
+    },
+    {
+      "id": "keep-the-memo-reviewable",
+      "title": "Keep the memo reviewable",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Before delivery, Strawberry checks material claims, calculations, quotations, dates, and sources and confirms that the strongest counterevidence is not hidden. Private hypotheses and sensitive context stay separate from versions intended for a wider audience."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Drafting, internal review, investment committee circulation, founder or portfolio sharing, CRM changes, and external messages are different states. The companion can continue into an approved document or system, but each audience and destination remains explicit."
+        }
+      ]
+    },
+    {
+      "id": "keep-the-record-alive",
+      "title": "Keep the record alive as the evidence changes",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A memo can absorb new diligence, meetings, and material company updates instead of being rebuilt from scratch. Strawberry carries the accepted structure and definitions forward and flags what changed for review rather than silently rewriting the investment history."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/venture-capital/research-an-investment-opportunity",
+              "roleId": "venture-capital",
+              "context": "Build the initial company view before a full memo is warranted."
+            },
+            {
+              "id": "strawberry/venture-capital/conduct-investment-due-diligence",
+              "roleId": "venture-capital",
+              "context": "Investigate the material questions the memo still cannot answer."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting started with venture capital in Strawberry",
+      "description": "See how the memo fits into the wider investment process.",
+      "href": "/playbooks/venture-capital-investing"
+    }
+  ]
+}

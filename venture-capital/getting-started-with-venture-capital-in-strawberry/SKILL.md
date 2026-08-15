@@ -1,67 +1,115 @@
 ---
 name: getting-started-with-venture-capital-in-strawberry
-description: Best practices for anyone getting started with venture capital work in Strawberry. Use when helping an investor choose, set up, or expand sourcing, market mapping, diligence, memo, meeting, or portfolio workflows.
+description: Help a venture investor use Strawberry across market intelligence, deal sourcing, company research, pipeline review, meetings, diligence, investment memos, introductions, and portfolio monitoring. Use when someone wants a useful first investing workflow or a connected way to run venture work over time.
 ---
 
-# Getting Started with Venture Capital in Strawberry
+# Get Started with Venture Capital in Strawberry
 
-Strawberry can connect sourcing, market mapping, company research, diligence, memos, and meetings
-around an investor's own thesis. This is not a fixed methodology. Enter wherever the investor or
-team has a real bottleneck, interview them candidly until the best starting point is clear, and
-skip what already works. Over time, help them adopt the workflows here that genuinely suit their
-investment process. Preliminary signals should never be presented as proof of quality.
+Help the user see how their companion can support the whole investment process, then complete one
+useful piece of work. Do not require a full firm setup or force every investor through the same
+funnel.
 
-## Set up Strawberry around the thesis
+## Paint the investing system
 
-Offer to learn through a few questions, approved investment context, or a combination of both.
-Relevant context may include thesis documents, prior memos, CRM records, founder-call transcripts,
-portfolio material, and pass reasons.
+Explain briefly that Strawberry can work across visible browser tabs, logged-in research tools,
+email, calendar, meetings, CRM records, data rooms, files, approved apps, and the public web. It can
+keep sources beside claims, carry accepted thesis context and feedback forward, and continue from
+research into reviewable drafts or approved record changes.
 
-Learn the stage, geography, check size, trusted signals, evidence standards, memo structure, and
-review boundaries relevant to the first result. Keep sourced facts, calculations, inference,
-uncertainty, and open questions distinct. Confirm the intended approach before substantial work.
+Show four connected parts of venture work:
 
-## Map a market and discover companies
+- **Develop the investment view:** understand markets, startup ecosystems, and how relevant
+  investors are deploying capital.
+- **Build and manage deal flow:** source companies, research and qualify opportunities, use the
+  network thoughtfully, and keep the pipeline useful.
+- **Evaluate and decide:** prepare for founder conversations, test the important questions, and
+  build a traceable memo or decision record.
+- **Support and monitor the portfolio:** notice material company changes, make useful connections,
+  and carry current context into firm and portfolio work.
 
-Strawberry can identify important companies and relationships in a startup ecosystem. Read
-`strawberry/venture-capital/map-startup-ecosystem` for startup discovery or
-`strawberry/research-analysis/map-a-market` for a broader market map. Review a small,
-evidence-backed sample before widening the search.
+The central deal-flow path often runs **source → research and qualify → meet → diligence → memo and
+decision**, but users may enter anywhere. Keep the system visible without treating it as a required
+sequence.
 
-## Research and diligence an opportunity
+## Find a useful first win
 
-Strawberry can prepare a company brief using approved internal context and current external
-sources. Read `strawberry/venture-capital/build-structured-investment-memo-any-company` when the result should
-connect the research to an investment decision. For deeper commercial or operational diligence,
-read `strawberry/venture-capital/do-due-diligence-vendor-or-supplier` and adapt its evidence discipline to the
-agreed investment question.
+Start with the live investment work in front of the user. If they are unsure, use approved thesis,
+pipeline, calendar, tabs, files, memory, and connected context to suggest a small set of relevant
+options and explain why they fit. Useful starting moments include:
 
-## Turn evidence into an investment memo
+- researching one company before deciding whether to spend more time on it;
+- mapping a market or startup ecosystem around an investment question;
+- sourcing a calibrated set of companies against the firm's thesis;
+- preparing for an upcoming founder or partner meeting;
+- reviewing active opportunities and deciding what needs attention; or
+- checking what has materially changed at a portfolio company.
 
-Strawberry can combine company, market, competitor, founder, reference, and call evidence in the
-investor's existing memo structure. Read
-`strawberry/venture-capital/build-structured-investment-memo-any-company` for the detailed workflow. Surface
-contradictions and keep every material claim traceable.
+Suggest another app only when it would materially improve the chosen result. Continue from visible
+tabs, files, or details the user provides when those are enough.
 
-## Prepare for and preserve meetings
+## Develop the investment view
 
-Strawberry can gather relevant company, market, founder, and relationship context before a call.
-Read `strawberry/operations/prepare-for-meetings` for preparation. Strawberry can capture supported
-conversations without adding a visible meeting bot. Afterwards,
-`strawberry/operations/debrief-a-meeting` can turn the reliable record into decisions, actions,
-structured records, and draft follow-up without sending anything automatically.
+- **Map a startup ecosystem:** read `strawberry/venture-capital/map-startup-ecosystem` for the
+  companies, investors, accelerators, relationships, and investment activity shaping a startup
+  market.
+- **Map a broader market:** read `strawberry/research-analysis/map-a-market` when the decision
+  depends on category boundaries, value chains, experts, associations, or established companies
+  beyond the startup ecosystem.
 
-## Other things to try
+## Build and manage deal flow
 
-These are useful discovery ideas, not complete standalone workflows:
+- **Source thesis-matched companies:** read
+  `strawberry/venture-capital/source-investment-opportunities`. Begin with a varied sample so the
+  investor can correct the interpretation before the search expands.
+- **Research one opportunity:** read
+  `strawberry/venture-capital/research-an-investment-opportunity` for a source-linked company view,
+  preliminary thesis fit, contradictions, and the questions worth resolving next.
+- **Review the active pipeline:** read
+  `strawberry/venture-capital/review-investment-pipeline` to identify priorities, stale assumptions,
+  missing evidence, and useful next actions.
+- **Find a network path and prepare an introduction:** read
+  `strawberry/operations/make-a-warm-introduction`. Never imply a current relationship without
+  evidence or send before the people, context, and destination are approved.
+- **Apply approved CRM changes:** read `strawberry/sales/keep-crm-updated`. Follow the investment
+  team's actual objects, stages, fields, and source-of-truth rules rather than importing sales
+  semantics.
 
-- Map plausible acquirers and the evidence behind each relationship.
-- Prepare a founder or customer reference brief before a call.
-- Turn approved portfolio context into a concise update.
-- Compare potential investors against a fundraising strategy.
+## Evaluate and decide
 
-## Make the process yours
+- **Prepare for a founder, partner, or expert conversation:** read
+  `strawberry/operations/prepare-for-meetings`.
+- **Turn a completed conversation into evidence and follow-through:** read
+  `strawberry/operations/debrief-a-meeting`.
+- **Test the material underwriting questions:** read
+  `strawberry/venture-capital/conduct-investment-due-diligence`.
+- **Build the investment case and decision record:** read
+  `strawberry/venture-capital/write-an-investment-memo`.
 
-Review one useful result against the investor's judgment, then save the accepted thesis signals,
-sources, rubric, memo structure, and review points as a user-owned skill. Connect another part of
-the investment lifecycle only when it removes a real handoff.
+Keep company claims, independent evidence, calculations, internal context, interpretation, and
+unresolved questions distinct. Preliminary fit is not proof of investment quality, and the
+companion does not autonomously approve, reject, or communicate an investment decision.
+
+## Support and monitor the portfolio
+
+- **Review material company changes:** read
+  `strawberry/venture-capital/monitor-a-portfolio-company` for current news, financing, leadership,
+  hiring, product, customer, regulatory, and market signals that match the accepted monitoring bar.
+- **Prepare a firm or portfolio update:** read `strawberry/operations/prepare-a-status-update`.
+- **Find commitments or ownership gaps:** read `strawberry/operations/close-open-loops`.
+- **Make a useful connection:** read `strawberry/operations/make-a-warm-introduction` and preserve
+  private relationship context until sharing is approved.
+
+## Improve the process through real work
+
+Use feedback on actual results to learn the firm's thesis interpretation, trusted sources,
+qualification bar, memo structure, writing style, materiality rules, and review preferences. Save a
+custom or team skill only after those choices prove durable.
+
+Suggest a Routine only when the trigger and signal rules are clear—for example, a weekly pipeline
+review or a portfolio monitor that checks agreed sources and drafts a digest when a material change
+appears. Define the systems, output, destination, approval behavior, and stop conditions. Do not
+automate introductions, investment decisions, data-room access, CRM writes, or external messages
+without sufficient scoped permission.
+
+The guide has done its job when the user understands the larger system, completes one useful piece
+of investment work, and can see the most relevant next step.

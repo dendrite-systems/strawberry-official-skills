@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "product-engineering",
-  "title": "Turn product signals into work the team can act on",
-  "description": "Connect customer evidence, technical investigation, data extraction, and clear artifacts.",
+  "title": "Getting Started with Product and Engineering in Strawberry",
+  "description": "Connect customer evidence, product specs, metrics, browser-based QA, and grounded bug reports without losing the reasoning between steps.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -12,75 +12,160 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "publishedAt": "2026-08-14T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Product and engineering work often starts with scattered evidence: customer calls, issue trackers, repositories, logs, analytics, and pages inside internal tools. Strawberry can connect that evidence to a bounded investigation or artifact without asking the team to copy everything into a separate chat.",
-    "Start with the bottleneck hurting users or slowing the team. Learn through a few questions, relevant connected apps, or both, show the intended approach, and keep code or production changes reviewable."
+    "Product work often loses its reasoning as it moves. Customer feedback becomes a theme without its source. A theme becomes a spec without an explicit decision. The thing that ships is then judged by a dashboard whose definitions nobody checked.",
+    "Engineering has a related gap: the observed product behavior, browser evidence, team discussion, recent code changes, and final ticket often live in different places. Strawberry can work across those real surfaces, remember accepted context, and keep the evidence connected while the team remains in control of consequential actions."
   ],
   "sections": [
     {
-      "id": "start-with-the-signal",
-      "title": "Start with the signal hurting users",
-      "paragraphs": [
-        "Collect the evidence around one problem from approved feedback, support conversations, issue trackers, logs, analytics, or recent changes. Distinguish confirmed symptoms from likely causes and search for related or duplicate reports.",
-        "Agree on the next bounded investigation and explain the plan before changing code or production systems. A useful first result may be a reproduction, a concise diagnosis, a prioritized issue, or a draft fix the team can review."
-      ],
-      "skills": [
+      "id": "see-the-connected-product-and-engineering-system",
+      "title": "See the connected Product and Engineering system",
+      "blocks": [
         {
-          "id": "strawberry/product-engineering/investigate-fix-app-issues",
-          "roleId": "engineering-development",
-          "context": "Use this to investigate product and application problems with evidence."
-        }
-      ]
-    },
-    {
-      "id": "build-a-data-advantage",
-      "title": "Turn useful web data into a product asset",
-      "paragraphs": [
-        "When the product depends on public or approved web data, define the source, entities, fields, row target, depth, and destination before scaling. Start with a representative sample of 10–20 rows so the team can correct the schema and evidence standard.",
-        "Prefer stable structured data when available, preserve source links, and make missing or low-confidence values visible. Handle pagination and detail pages with the simplest reliable approach, then validate duplicates, formats, and completeness before delivery."
-      ],
-      "skills": [
-        {
-          "id": "strawberry/research-analysis/extract-web-data",
-          "roleId": "engineering-development",
-          "context": "Build a clean, source-linked dataset from approved web sources."
-        }
-      ]
-    },
-    {
-      "id": "make-the-evidence-usable",
-      "title": "Turn customer evidence into product direction",
-      "paragraphs": [
-        "Customer calls, support conversations, and issue histories can be turned into a structured view of recurring needs, friction, and unresolved questions. Keep the underlying evidence attached so the team can inspect how a theme was formed.",
-        "Competitive research can add product, pricing, positioning, release, job, review, and sentiment evidence. Separate observed facts from interpretation and focus the result on a real product decision."
-      ],
-      "skills": [
-        {
-          "id": "strawberry/operations/debrief-a-meeting",
-          "roleId": "engineering-development",
-          "context": "Turn customer conversations into grounded decisions, evidence, and follow-through."
+          "kind": "paragraph",
+          "text": "Bring the product question, customer feedback, critical flow, metric, or unexpected behavior that matters now. Strawberry can recommend a few relevant starting points and complete one result the team can inspect while keeping both Product learning and Engineering quality in view."
         },
         {
-          "id": "strawberry/marketing/run-competitor-analysis",
-          "roleId": "engineering-development",
-          "context": "Build a sourced comparison around a real product or positioning decision."
+          "kind": "table",
+          "columns": ["Connected lane", "What Strawberry can help carry"],
+          "rows": [
+            ["Product learning", "Customer evidence → accepted problem → product specification → metric definition and review."],
+            ["Engineering quality", "Observed behavior → bounded browser audit → grounded issue → requested fix and proportionate validation."],
+            ["Operating layer", "Meeting decisions, open commitments, status, onboarding, and shared methods across both lanes."]
+          ]
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/getting-started-with-product-engineering-in-strawberry",
+              "roleId": "engineering-development",
+              "context": "Choose and complete the product or engineering workflow that would help most right now."
+            }
+          ]
+        }
+        ,
+        {
+          "kind": "paragraph",
+          "text": "The companion can move through visible browser tabs and logged-in tools, follow links into the underlying source, and let a teammate observe or take over. Evidence can continue into an approved document or issue without another copy-and-paste handoff."
         }
       ]
     },
     {
-      "id": "make-the-process-repeatable",
-      "title": "Keep useful investigations repeatable",
-      "paragraphs": [
-        "Preserve the accepted evidence sources, severity rules, schema, output, and review points as a team-specific skill. For repositories or CI, keep proposed changes in reviewable branches or drafts and run the project’s own validation before presenting them.",
-        "Create a Routine only after a successful reviewed run, with an agreed scope, frequency, meaningful-change rule, cost, and notification destination."
-      ],
-      "skills": [
+      "id": "move-from-feedback-to-an-accepted-product-definition",
+      "title": "Move from feedback to an accepted product definition",
+      "blocks": [
         {
-          "id": "strawberry/operations/set-up-shared-team-workflow",
-          "roleId": "engineering-development",
-          "context": "Turn an accepted product or engineering workflow into a shared process."
+          "kind": "paragraph",
+          "text": "Feedback synthesis should preserve the situation around the comment: who encountered the problem, in which flow or version, with what outcome, and how representative the source can be. Strawberry keeps themes, tensions, examples, gaps, and confidence connected to the underlying records. A thin sample produces questions and evidence gaps, not an automatic roadmap rank."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the team accepts the problem, the product spec can define users, outcomes, requirements, flows, edge cases, dependencies, open questions, and acceptance criteria. It describes the product behavior to create without quietly deciding architecture or implementation on Engineering's behalf."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/synthesize-customer-feedback",
+              "roleId": "engineering-development",
+              "context": "Turn approved feedback into source-linked product themes, tensions, examples, gaps, and confidence."
+            },
+            {
+              "id": "strawberry/product-engineering/write-a-product-spec",
+              "roleId": "engineering-development",
+              "context": "Turn an accepted problem into a clear product definition and acceptance criteria."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "define-the-measure-before-reading-the-chart",
+      "title": "Define the measure before reading the chart",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A product metric is only useful when the behavior, population, numerator, denominator, time window, source, and exclusions are clear. Strawberry can define the smallest metric framework a decision needs, reconcile competing dashboard definitions, and review baselines, trends, funnels, cohorts, segments, guardrails, and data quality."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Observed movement, plausible explanation, and product implication remain separate. When the work requires substantial SQL, joins, statistics, or validation, shared Data capabilities can own that layer while Product keeps the decision and metric meaning. Instrumentation changes stay with Engineering."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/review-product-metrics",
+              "roleId": "engineering-development",
+              "context": "Define the metric framework, review supported performance, and make the gaps and implications clear."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "test-the-product-and-ground-the-bug-report",
+      "title": "Test the product and ground the bug report",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A Product Flow Audit actually navigates the experience. It checks the critical path and the few variations most likely to reveal a material problem, then returns passes, regressions, screenshots, relevant console or network evidence, exclusions, and uncertainty. Public live sites are appropriate for read-only inspection; authenticated or stateful paths belong in staging, preview environments, or dedicated test accounts when possible."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When a finding is a real bug, Strawberry can connect that evidence to approved Slack or Teams discussion, GitHub context and recent changes, logs, existing issues, and the team's actual ticketing system. It searches for a duplicate before preparing or filing the issue. If the user also wants a fix, the companion can continue through the available coding workflow under the normal repository and validation boundaries."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/audit-a-product-flow",
+              "roleId": "engineering-development",
+              "context": "Navigate and test a critical flow, then return inspectable browser evidence."
+            },
+            {
+              "id": "strawberry/product-engineering/research-and-report-a-bug",
+              "roleId": "engineering-development",
+              "context": "Research unexpected behavior, find duplicates, and prepare or file a grounded issue within scope."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keep-the-operating-layer-connected",
+      "title": "Keep the operating layer connected",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Product and engineering work still depends on the shared operating layer. Meeting preparation and debrief keep decisions attached to their records. Open-loop reviews reconcile commitments and ownership across systems. Status updates turn the accepted view into the right message for leadership or the team. Onboarding gives a new teammate a role-aware path through current work instead of a document dump."
+        },
+        {
+          "kind": "paragraph",
+          "text": "After one of these methods has worked, a shared-team workflow can preserve its sources, owners, destination, privacy boundaries, and review behavior. Keep every external action distinct: product testing does not approve a ticket, a ticket does not approve a code change, and a code change does not approve merging, deployment, production data changes, or customer communication."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/close-open-loops",
+              "roleId": "engineering-development",
+              "context": "Reconcile product and engineering commitments, ownership gaps, and conflicting status."
+            },
+            {
+              "id": "strawberry/operations/prepare-a-status-update",
+              "roleId": "engineering-development",
+              "context": "Turn accepted delivery evidence into an audience-specific update."
+            },
+            {
+              "id": "strawberry/operations/onboard-a-new-teammate",
+              "roleId": "engineering-development",
+              "context": "Build a role-aware context pack, setup plan, and first-week path."
+            }
+          ]
         }
       ]
     }
@@ -88,19 +173,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Extract structured web data",
-      "description": "Open the focused Official Skill for collecting clean, reviewable rows.",
-      "href": "/prompts/extract-web-data"
+      "title": "Explore Getting Started skills",
+      "description": "Choose another practical journey for getting useful work done in Strawberry.",
+      "href": "/playbooks"
     }
   ],
   "navigation": {
-    "title": "Web Data Extraction",
-    "tagline": "Pricing and listing data",
+    "title": "Product & Engineering",
+    "tagline": "Customer evidence, product decisions, metrics, and QA",
     "icons": [
-      "crunchbase",
-      "google-maps",
-      "yelp",
-      "zillow"
+      "jira",
+      "slack",
+      "google-sheets",
+      "g2"
     ],
     "order": 5
   }

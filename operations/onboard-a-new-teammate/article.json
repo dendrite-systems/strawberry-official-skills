@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-employee-onboarding",
   "title": "How to onboard a new team member with AI",
   "description": "Use AI to build a role-aware context pack, access plan, first-week path, and verified handoff from the company systems you already use.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "New teammates are often given plenty to read and very little help deciding what matters first. The company handbook, team pages, project documents, Slack channels, meetings, and access requests arrive as separate pieces, even though the person needs one practical path into the role.",
     "AI can write an onboarding checklist from a job title. That is useful up to a point. A strong onboarding plan depends on the company's current context: which project the person will learn through, who owns the relevant decisions, which documents are still accurate, and what access they actually need to contribute.",

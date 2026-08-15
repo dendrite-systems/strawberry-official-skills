@@ -20,6 +20,12 @@
       "message": "Help me find important promises, decisions, and follow-ups that have not been completed or recorded properly."
     },
     {
+      "roleId": "engineering-development",
+      "weight": 86,
+      "title": "Find product and engineering work that is slipping",
+      "message": "Reconcile our product and engineering commitments across meetings, messages, tickets, and project records, then show missing owners, conflicting status, and the smallest next actions."
+    },
+    {
       "roleId": "other",
       "weight": 76,
       "title": "Audit open commitments",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "displayName": "Getting Started with Marketing in Strawberry",
-  "summary": "Get started with marketing in Strawberry through research, campaigns, content, SEO, and distribution.",
+  "summary": "Choose a useful first marketing workflow, then connect audience evidence, competitor research, SEO, reporting, content, and distribution over time.",
   "icon": "sparkles",
   "tags": [
     "getting-started-guide"
@@ -11,13 +11,7 @@
       "roleId": "marketing-content",
       "weight": 120,
       "title": "Getting Started with Marketing in Strawberry",
-      "message": "I want to get started with marketing in Strawberry and build a repeatable marketing engine."
-    },
-    {
-      "roleId": "agency",
-      "weight": 102,
-      "title": "Getting Started with Marketing in Strawberry",
-      "message": "I want to get started with marketing in Strawberry and build repeatable client workflows."
+      "message": "Help me choose the most useful marketing workflow from the work and context already in front of me."
     }
   ]
 }

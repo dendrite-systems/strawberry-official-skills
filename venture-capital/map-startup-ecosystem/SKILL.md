@@ -1,66 +1,66 @@
 ---
 name: map-startup-ecosystem
-description: Build a sourced, reviewable map of the startups, investors, accelerators, and key players in a market or geography. Use when the user wants to understand an ecosystem, sector, or investment landscape.
+description: Build a sourced map of the startups, investors, accelerators, investment activity, and relationships shaping a market or geography. Use when an investor wants to understand an ecosystem, refine a thesis, find white space, or see where relevant firms are investing; use sourcing separately when the desired result is a qualified deal list.
 ---
 
-# Map a startup ecosystem
+# Map a Startup Ecosystem
 
-## Context, setup, and planning
+Build a map that helps the user understand how a startup market is taking shape. Keep landscape
+research separate from selecting companies for active outreach or an investment pipeline.
 
-Try to understand the decision this map will inform and the market or geography it should cover.
-Useful context may include:
+## 1. Start with the investment question
 
-- the sectors, stages, company types, time period, and geographic boundaries in scope;
-- what the user considers an active startup, key investor, accelerator, or notable player;
-- the thesis, signals, or examples that reflect the user's taste;
-- the intended audience, decision, evidence standard, research depth, and desired artifact.
+Understand what the map should help the user decide: refine a thesis, learn a new sector, identify
+clusters or white space, understand capital flows, prepare for a market discussion, or decide where
+to source next. Establish the geography, stage, time period, company types, and important
+exclusions.
 
-Approved thesis documents, internal research, CRM records, passed deals, and network or industry
-context can provide a head start when they exist. They are not prerequisites. Offer to learn the
-scope through a few questions, inspect relevant approved context, or combine both.
+Use approved thesis documents, internal research, CRM records, portfolio and pass history, or prior
+market work when available. Ask only for definitions that cannot be inferred safely. Agree on a
+lighter scan or a deeper map before broad research.
 
-Agree on depth before starting. A broad sweep is lighter and faster; focused parallel research
-produces richer profiles. Propose a concise plan and confirm it before going wide.
+## 2. Build a useful landscape
 
-## Execution
+Search across current company sites, funding announcements, investor portfolios, accelerator
+batches, databases available in the user's logged-in browser, regulatory or company records, news,
+hiring, product launches, and other sources relevant to the market.
 
-1. Search broadly for relevant startups, investors, accelerators, and other key players before
-   choosing where to go deep. The web, LinkedIn, Crunchbase or Dealroom, accelerator batches, news,
-   and internal records may be useful when available and approved.
-2. Use plain-English searches as well as standard sector categories so companies that do not fit
-   clean industry codes are not missed. When useful, find lookalikes from a company the user
-   already considers relevant.
-3. For startups, gather the evidence that matters to the agreed scope. This may include product,
-   team and founder backgrounds, funding and investors, geography, stage, recent news, hiring,
-   launches, partnerships, and other traction or momentum signals.
-4. For investors and accelerators, capture their relevant focus, stage, geography, portfolio or
-   cohort evidence, and their relationship to the mapped companies.
-5. Keep every fact traceable to a source and date. Distinguish facts from inference, expose
-   contradictions, and flag evidence that is missing, uncertain, or stale.
-6. Dedupe against existing CRM records, internal research, and passed companies when that context
-   is available and relevant.
-7. Present a small representative sample first—around ten companies can work for an initial VC
-   sourcing map—so the user can correct the scope, taxonomy, evidence bar, and ranking before the
-   full sweep.
-8. Expand the accepted approach. If the user wants a ranked shortlist, include a short reason for
-   each fit rather than presenting an unexplained score.
+Capture the players that explain the ecosystem:
 
-When visual evidence helps the map, save useful founder profile pictures, product screenshots,
-demo images, or team photos from their original sources.
+- startups and emerging categories;
+- relevant investors and their evidenced stage, geography, thesis, and recent activity;
+- accelerators, universities, communities, experts, and other sources of company formation;
+- meaningful partnerships, funding relationships, founder histories, and market dependencies; and
+- visible changes in capital, talent, technology, regulation, or customer demand.
 
-## Suggested outcome
+Do not infer an investor's strategy from one deal or repeat a firm's stated thesis as proof of how
+it invests. Use dated portfolio and transaction evidence to show patterns, exceptions, and gaps.
 
-Produce a sourced market map that makes the important companies, investors, accelerators,
-relationships, funding, and momentum easy to review. Shape it as the brief, table, report, or
-presentation the user needs; do not force one artifact.
+## 3. Calibrate before expanding
 
-## Suggested next steps
+Start with a small, varied cross-section when the taxonomy or scope is subjective. Let the user
+correct category boundaries, important players, evidence depth, and what makes a relationship
+meaningful before widening the map.
 
-If useful, offer to:
+Deduplicate against internal records when available. Keep every material fact linked to a source
+and date, and separate sourced facts from classification, interpretation, and missing evidence.
 
-- turn the map into a recurring thesis or market-monitoring workflow;
-- deepen research on a shortlist, or read
-  `strawberry/venture-capital/build-structured-investment-memo-any-company` when the user wants investment memos;
-- preserve the accepted scope, sources, evidence standard, and output as a user-owned skill.
+## 4. Deliver the map for the decision
 
-Never invent missing facts or assume an external action was approved.
+Shape the result as a table, brief, visual map, dataset, or presentation. Make it easy to see:
+
+- the important categories and how they relate;
+- representative companies and why they belong;
+- active investors and evidenced investment patterns;
+- important relationships, clusters, and white space;
+- recent changes that could alter the thesis; and
+- uncertain areas or next research questions.
+
+If the user wants a thesis-matched candidate set, continue with
+`strawberry/venture-capital/source-investment-opportunities`. Use
+`strawberry/venture-capital/research-an-investment-opportunity` to deepen one company.
+
+After the map is accepted, offer to preserve its scope, taxonomy, trusted sources, and evidence bar
+as a custom or team skill. A monitoring Routine may refresh agreed sources on a useful cadence and
+report only material additions or changes; stop when the market definition or source access has
+changed enough to require review.

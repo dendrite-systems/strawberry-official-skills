@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-content-planning",
+  "title": "How to build a content plan with AI",
+  "description": "Use AI to turn audience, campaign, SEO, product, and performance evidence into a focused content plan your team can produce.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "A full calendar can still be a weak content plan. Useful planning connects audience needs and business goals to themes, formats, evidence, owners, capacity, and a way to learn what deserves another cycle.",
+    "Strawberry can work across audience research, campaign plans, product material, customer conversations, search evidence, prior content, performance, and the live web. Your companion can keep those sources connected to each brief and remember the corrections that make the plan realistic for your team."
+  ],
+  "sections": [
+    {
+      "id": "define-the-job-and-the-capacity",
+      "title": "Define the job and the capacity",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Clarify the audience, outcome, period, channels, available people, brand constraints, and the decision the plan should improve. Use an accepted campaign plan when one exists; otherwise identify the product, lifecycle, search, community, education, or brand need behind the work."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/build-a-content-plan",
+              "roleId": "marketing-content",
+              "context": "Build a focused content plan around the audience, goal, evidence, channels, and capacity the team actually has."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "find-opportunities-not-filler",
+      "title": "Find opportunities, not filler",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Look for repeated audience needs, questions, objections, search intent, proof, product moments, underused source material, channel gaps, and valuable updates to existing work. Keep evidence separate from ideas."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Prioritize by contribution to the goal, audience relevance, evidence, timing, reuse potential, and production cost. A steady cadence is useful only when each item earns its place."
+        }
+      ]
+    },
+    {
+      "id": "make-each-part-of-the-plan-do-a-job",
+      "title": "Make each part of the plan do a job",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "A small set of themes or content jobs tied to the audience and outcome.",
+            "A clear role for each channel and format.",
+            "A realistic cadence and sequence.",
+            "Source material, proof, subject-matter input, owners, and dependencies.",
+            "Briefs with the audience, angle, promise, evidence, CTA, and review point.",
+            "Reuse paths that change the structure and value for each channel.",
+            "Measures and review points that can improve the next cycle."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Preserve the difference between a theme, a production-ready brief, and a distribution variant. Otherwise the plan becomes a list that still leaves the hard decisions to the writer."
+        }
+      ]
+    },
+    {
+      "id": "test-a-representative-slice",
+      "title": "Test a representative slice",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "For a large program, review one representative period or content cluster first. Coach the mix, depth, voice, workload, and reuse before the calendar expands."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Check for repeated angles, unsupported claims, missing source material, channel-format mismatch, unrealistic production load, unclear owners, and hidden review dependencies."
+        }
+      ]
+    },
+    {
+      "id": "move-from-the-plan-to-the-words",
+      "title": "Move from the plan to the words",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The content plan owns themes, briefs, cadence, dependencies, owners, and reuse opportunities. It does not write every asset, produce substantial visuals, publish, schedule, or change the CMS."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/create-and-repurpose-marketing-content",
+              "roleId": "marketing-content",
+              "context": "Turn an accepted brief and evidence into the anchor asset and useful channel-specific variants."
+            },
+            {
+              "id": "strawberry/marketing/review-marketing-performance",
+              "roleId": "marketing-content",
+              "context": "Use later performance evidence to improve the next content cycle."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting Started with Marketing in Strawberry",
+      "description": "Connect content planning to audience evidence, campaigns, production, and performance learning.",
+      "href": "/playbooks/marketing"
+    }
+  ]
+}

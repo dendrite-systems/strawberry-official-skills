@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-product-flow-testing",
+  "title": "How to audit a product flow with AI",
+  "description": "Use a browser agent to navigate and test a product flow, capture inspectable evidence, and separate regressions from uncertainty and observation.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "A product audit should show what happened in the experience, not merely generate a test plan. The useful record connects the expected behavior, environment, steps, screenshots, browser evidence, passes, regressions, and uncertainty.",
+    "Strawberry's companion can navigate the real product in a visible browser workspace while a teammate observes or takes over. It can inspect console and network evidence when relevant, follow accepted specifications and issue context, and carry a confirmed finding into a grounded bug report without losing the original evidence."
+  ],
+  "sections": [
+    {
+      "id": "set-a-useful-audit-boundary",
+      "title": "Set a useful audit boundary",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Clarify the product or URL, environment, user and account state, critical flow, expected result, changed area or release context, test data, important platforms or viewports, deadline, and reviewer. Prioritize the smallest set of paths and variations that can answer the question."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/audit-a-product-flow",
+              "roleId": "engineering-development",
+              "context": "Navigate and test a critical product flow in the approved environment, then return an inspectable audit record."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choose-the-safe-environment-and-state",
+      "title": "Choose the safe environment and state",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": ["Flow type", "Preferred test boundary"],
+          "rows": [
+            ["Public, read-only path", "The live site can be appropriate when the audit cannot create or change state."],
+            ["Authenticated or stateful path", "Prefer staging, a preview environment, or a dedicated test account."],
+            ["Transactional, destructive, or permission-changing path", "Use an explicitly approved safe environment, account, data set, action, and cleanup plan."],
+            ["Production-only path", "Keep the audit read-only unless active permission covers the exact state change and conditions."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Confirm the account role, data, credentials, side effects, and cleanup. Use synthetic or approved test data, and keep secrets or private user content out of screenshots, logs, URLs, and reports."
+        }
+      ]
+    },
+    {
+      "id": "navigate-the-real-flow",
+      "title": "Navigate the real flow",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "ordered",
+          "items": [
+            "Record the environment, build or version, account role, feature flags, and starting state.",
+            "Run the critical path end to end and compare the expected and observed behavior.",
+            "Check the few high-risk variations: validation, recovery, permissions, empty and error states, responsive behavior, and the changed area.",
+            "Capture screenshots, relevant console or network evidence, URLs or product locations, blocked paths, exclusions, and cleanup state as the work happens."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Adapt to the product and release risk instead of running a generic checklist. The audit complements the team's test strategy; it does not pretend one browser pass proves the whole system."
+        }
+      ]
+    },
+    {
+      "id": "classify-before-escalating",
+      "title": "Classify before escalating",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": ["Finding", "What the audit should say"],
+          "rows": [
+            ["Confirmed regression or failure", "The reproducible evidence, impact, scope, and conditions."],
+            ["Unexpected behavior with unclear requirement", "What happened and which product decision or source is missing."],
+            ["Usability observation", "The observed friction without labeling it a defect."],
+            ["Blocked or untested path", "Why it could not be checked and what would unblock it."],
+            ["Pass", "The exact path and conditions that passed within scope."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Repeat an important failure when safe and check a nearby control path when it could isolate the condition. Do not claim a root cause from browser symptoms alone."
+        }
+      ]
+    },
+    {
+      "id": "route-confirmed-bugs-with-the-evidence-attached",
+      "title": "Route confirmed bugs with the evidence attached",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Deliver the scope, environment, flow, evidence, passes, regressions, blocked paths, exclusions, cleanup, and uncertainty. Lead with findings that could change a release or product decision."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Testing a product does not approve creating a ticket, changing code, merging, deploying, changing production data, or notifying customers. Move a real bug into the reporting workflow and follow the permission for each later action."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/research-and-report-a-bug",
+              "roleId": "engineering-development",
+              "context": "Connect the audit evidence to team, repository, and ticket context, search for duplicates, and prepare or file a grounded issue."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting Started with Product and Engineering in Strawberry",
+      "description": "Connect browser-based QA to product evidence, specifications, metrics, grounded issues, and team follow-through.",
+      "href": "/playbooks/product-engineering"
+    }
+  ]
+}

@@ -1,92 +1,117 @@
 ---
 name: getting-started-as-a-founder-in-strawberry
-description: Best practices for founders and executives getting started in Strawberry. Use when helping them choose, set up, or expand useful company, communication, research, and team workflows.
+description: Help a founder get started in Strawberry with one useful piece of company work, then connect company reviews, meetings, customer growth, fundraising, hiring, and follow-through into a trusted operating rhythm.
 ---
 
 # Getting Started as a Founder in Strawberry
 
-Start with one result the founder needs, then turn what works into a process the company can rely
-on. This is not a fixed sequence. Enter wherever the founder or team has a real bottleneck, skip
-what already works, and suggest the next workflow only when it solves a real problem.
+Help the founder see how one companion can support the connected work of running the company, then
+finish one useful piece of that work. Use the focused skills that already own specialist judgment
+rather than recreating them here.
 
-## Find one useful starting result
+## Paint the Founder Operating System
 
-Keep early discovery light. Ask what result would make the next week easier, such as preparing for
-today, clearing an overloaded inbox, drafting an investor update, or understanding a market
-decision. Ask one short question at a time until one result is concrete.
+Explain briefly that Strawberry can become a connected working layer across the company, not
+another dashboard the founder has to maintain. The founder and their companion can work together
+across visible browser tabs, logged-in tools, calendar, email, team messages, meetings, documents,
+dashboards, CRM, files, approved apps, and the public web. Useful context and corrections can carry
+from one workflow into the next.
 
-Useful context may include approved calendar, inbox, Slack, Drive or Notion documents, CRM,
-dashboards, past meeting notes, and accepted examples. Treat these as options, not prerequisites.
-Offer to learn through questions, relevant approved context, or both. Inspect what is already
-available before asking the founder to repeat it, then confirm the intended result, important
-uncertainties, and approach in a concise plan before substantial work.
+Show the larger system through a few reinforcing loops:
 
-## Prepare for today, then close the loop
+- **Daily attention:** prepare for the day and important conversations, then preserve the decisions
+  and commitments that follow.
+- **Company visibility:** when a cross-company view would help, reconcile priorities, risks,
+  ownership, and pipeline exceptions, then turn the accepted picture into the right leadership or
+  board update.
+- **Company building:** connect market and customer evidence to growth, fundraising, hiring, and
+  the decisions that change the plan.
+- **Team leverage:** turn a founder's accepted method into shared context, a team workflow, or a
+  precise Routine only after it works.
 
-A concise morning brief can be a useful first result when attention is the bottleneck. With
-relevant approved context, surface urgent or unanswered messages, work due today, and the few
-meetings that need preparation. Keep it actionable and include links back to useful sources.
+Keep this picture concise and credible. These loops reinforce one another, but the founder can enter
+wherever the company needs help; do not make one workflow a mandatory path through the system.
 
-When one conversation matters most, read `strawberry/operations/prepare-for-meetings`. It turns relevant
-calendar, company, person, and relationship context into a brief the founder can scan before the
-meeting.
+## Find a useful first win
 
-Strawberry can capture supported conversations without adding a visible meeting bot. After the
-meeting, read `strawberry/operations/debrief-a-meeting` to turn the reliable record into decisions,
-action items, owners, filed notes, and a grounded follow-up draft. Keep messages as drafts and
-obtain approval before sending them or making consequential changes in external systems.
+Understand what is pressing now, what decision or result would help, and when it is needed. Use the
+approved context most likely to change that result.
 
-## Calibrate around the founder's judgment
+If they are unsure where to begin, offer a small, prioritized set of relevant starting points.
+Draw from the different operating loops when that helps show the choice, and explain why each fits:
 
-Review the first result and let the founder correct its assumptions, depth, format, tone, sources,
-or tool choices. Preserve accepted preferences instead of restarting from generic instructions.
+- preparation for today or an important leadership, board, customer, or partner meeting;
+- customer growth, fundraising, hiring, or a sourced market decision;
+- a cross-company view of changed priorities, risks, decisions, and ownership; or
+- a trusted founder method that should become easier for the team to reuse.
 
-If that first run reveals a larger communication backlog, read `strawberry/operations/triage-my-inbox`. It
-helps the founder define useful categories, learn reply style from approved examples, surface what
-deserves attention, and prepare reviewable drafts. Nothing is sent, deleted, archived,
-unsubscribed, or changed in bulk without explicit approval.
+Suggest connecting another source only when it would materially improve the first result; do not
+turn the run into setup.
 
-## Turn company context into a clear artifact
+## Work through the four operating loops
 
-For an investor, board, or company update, establish which metrics and milestones matter, where
-they live, who will read the result, and whether an accepted report or deck should set the
-structure. Read `strawberry/research-analysis/create-beautiful-slide-deck` when the result should be a polished
-presentation built from the founder's source material. Keep external delivery subject to the
-founder's approval.
+Use the smallest route that fits the result. The four loops are parallel ways into the Founder
+Operating System, not stages the founder must complete.
 
-When the artifact depends on outside research, start with the decision, scope, evidence standard,
-source types, depth, and desired output. Read `strawberry/research-analysis/research-companies-create-decks` for a
-sourced visual brief, or `strawberry/marketing/run-competitor-analysis` for a broader comparison. Preserve
-source links and dates, distinguish facts from inference, expose uncertainty or contradictions,
-and interpret the evidence for the founder's decision.
+### Daily attention
 
-When the founder needs to understand a market before choosing a segment, entering a geography,
-building an account universe, or mapping an ecosystem, read `strawberry/research-analysis/map-a-market`.
-Keep the landscape separate from any later prospect list, investment recommendation, or outreach.
+Use `strawberry/operations/prepare-a-daily-brief` when the founder needs a concise view of what
+deserves attention. Use `strawberry/operations/prepare-for-meetings`, then
+`strawberry/operations/debrief-a-meeting` from a reliable record, to prepare for and close a
+leadership, board, customer, or partner conversation. Prefer the Sales or Recruiting meeting owner
+when its domain judgment dominates.
 
-## Other things to try
+### Company visibility
 
-Offer these as discovery ideas once a core workflow is useful, not as complete standalone
-instructions:
+When priorities and commitments have spread across teams and tools, use
+`strawberry/operations/close-open-loops` for a one-off or recurring exception and ownership view.
+Call `strawberry/sales/review-sales-pipeline` or
+`strawberry/recruiting/review-recruiting-pipeline` only when that pipeline is material. Use
+`strawberry/operations/prepare-a-status-update` when the accepted company picture should become an
+audience-specific leadership or board update. Do not assume a weekly review or invent a meeting.
 
-- Model a major decision with options, second-order effects, and a recommendation.
-- Mine approved product telemetry for patterns and surprises.
-- Prepare a weekly one-page review of company KPIs with suggested next actions.
-- Assemble a data-room or diligence-answer pack when a round or deal moves, or a quarter-end memo
-  from win-loss and usage trends.
+### Company building
 
-## Grow one accepted process into a team workflow
+- **Drive customer growth:** use `strawberry/sales/find-new-customers` for a calibrated first set,
+  `strawberry/sales/research-an-account` for a priority company, and
+  `strawberry/sales/send-personalized-outreach` when accepted research should become messages.
+- **Prepare a fundraise:** use `strawberry/founder-executive/prepare-fundraise` for the story,
+  evidence, first investor set, materials, and near-term process.
+- **Understand a market or competitor:** use `strawberry/research-analysis/map-a-market` or
+  `strawberry/marketing/run-competitor-analysis`, depending on the decision. Use
+  `strawberry/research-analysis/research-companies-create-decks` when research should become a
+  sourced visual brief, or `strawberry/research-analysis/create-beautiful-slide-deck` when approved
+  material is ready for presentation.
+- **Hire and onboard:** begin with
+  `strawberry/recruiting/getting-started-with-recruiting-in-strawberry`; use
+  `strawberry/operations/onboard-a-new-teammate` once someone is joining.
 
-After one result is accepted, preserve its sources, format, voice, review points, and exceptions as
-a user-owned skill. If several people need consistent inputs, ownership, destinations, or review
-behavior, read `strawberry/operations/set-up-shared-team-workflow`. Start from that accepted individual
-workflow, make privacy and approval boundaries explicit, and verify one real handoff before
-scaling it.
+### Team leverage
 
-Add a Routine only after the underlying workflow has worked a few times and the founder wants it
-to recur. Do not invite teammates, move personal or confidential context into shared files, or
-automate consequential actions without explicit approval.
+After a founder method has worked, use `strawberry/operations/set-up-shared-team-workflow` when
+several people need the same sources, ownership, destination, privacy boundaries, and review
+behavior. Share the accepted artifact, method, or full companion only when that is the smallest
+useful step and the audience and access are clear.
 
-When the work becomes primarily sales, recruiting, product and engineering, operations,
-marketing, research, or another domain, load that domain's Getting Started skill rather than
-stretching this guide beyond its purpose.
+After any good run, suggest one adjacent workflow only when it advances the work already completed.
+
+## Learn through the work
+
+Use a small, varied first result when the work is subjective, expensive, high-volume, or
+consequential. Let the founder correct sources, priorities, assumptions, depth, voice, format, and
+review points before expanding it.
+
+Preserve durable preferences after they have been demonstrated. Create a Routine only after the
+workflow is trusted and has a real cadence or trigger.
+
+## Work within the founder's permission
+
+Follow Strawberry's active scoped permission for the action, account, destination, and conditions.
+Research, drafting, sharing, sending, changing records, changing access, spending, and inviting
+people are different actions. Draft or ask when the current permission is insufficient. Stop when
+identity, scope, impact, or sensitive-data handling changes, and verify any completed external
+action.
+
+Keep confidential company, personnel, investor, and customer context inside its approved boundary.
+The guide is working when the founder has a useful result, understands the next decision, and can
+return to a company rhythm that is becoming easier rather than restarting from scratch.

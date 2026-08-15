@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-investment-pipeline-review",
+  "title": "How to Review an Investment Pipeline with AI",
+  "description": "Reconcile investment CRM and recent context to find priority opportunities, missing evidence, and the next decisions.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "An investment pipeline can look current while the real decision has moved on. The latest founder email, partner note, meeting transcript, diligence finding, or ownership change may not yet be reflected in the CRM.",
+    "Strawberry can compare those records in the same browser workspace, show where they disagree, and prepare a review around the firm's actual stages and investment cadence. It separates the analysis from any proposed CRM changes, so a useful review does not require silent record updates."
+  ],
+  "sections": [
+    {
+      "id": "use-the-firms-real-process",
+      "title": "Use the firm's real process",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Venture pipelines differ. A stage may describe relationship progress, evidence gathered, an internal gate, or a formal decision. Strawberry starts with the firm's definitions, ownership rules, review cadence, and current source of truth instead of importing a sales funnel."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/venture-capital/review-investment-pipeline",
+              "roleId": "venture-capital",
+              "context": "Review active opportunities using the firm's real stages, evidence, and decision rules."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reconcile-the-record",
+      "title": "Reconcile the record before ranking attention",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Opportunities waiting on a decision, owner, meeting, follow-up, or evidence.",
+            "Promising companies receiving too little attention.",
+            "Stages, dates, owners, or next steps that appear stale.",
+            "Conflicts between the CRM and newer source records.",
+            "Repeated delay or pass patterns worth understanding.",
+            "Coverage or concentration gaps against the firm's strategy."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "A meeting request, draft memo, or reference call does not prove that a stage changed. The review keeps observed activity, the current CRM value, and the investment interpretation separate."
+        }
+      ]
+    },
+    {
+      "id": "focus-on-the-next-decision",
+      "title": "Focus on the next decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The output should make attention easier to allocate. It leads with the opportunities that matter now, why they matter, what remains missing, and the smallest useful next action. An unexplained composite score is less useful than the evidence and decision cost behind the priority."
+        },
+        {
+          "kind": "table",
+          "columns": [
+            "Review output",
+            "What it helps the team decide"
+          ],
+          "rows": [
+            [
+              "Priority opportunities",
+              "Where partner or investor attention is most valuable"
+            ],
+            [
+              "Stalled decisions",
+              "Which missing action or evidence is blocking progress"
+            ],
+            [
+              "Ownership gaps",
+              "Who needs to carry the next step"
+            ],
+            [
+              "Proposed record corrections",
+              "What should be reviewed before the CRM changes"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turn-the-review-into-follow-through",
+      "title": "Turn the review into follow-through",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A partner-meeting brief, assignment, founder message, and CRM update are different actions. Strawberry can prepare each one and keep its audience and scope visible. Approved record changes use the investment team's actual objects and fields, then the affected records are checked again."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/prepare-for-meetings",
+              "roleId": "venture-capital",
+              "context": "Turn the pipeline view into a concise partner or deal-flow meeting brief."
+            },
+            {
+              "id": "strawberry/sales/keep-crm-updated",
+              "roleId": "venture-capital",
+              "context": "Apply only the reviewed investment-record changes and verify the result."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "After the team accepts the review logic, a weekly Routine can check the pipeline and recent context and prepare a draft before the investment meeting. It should stop when records conflict materially, the firm's stage rules change, or a decision needs human judgment."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting started with venture capital in Strawberry",
+      "description": "See how pipeline review fits into the wider venture operating system.",
+      "href": "/playbooks/venture-capital-investing"
+    }
+  ]
+}

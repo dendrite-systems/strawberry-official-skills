@@ -7,9 +7,15 @@
   "useCases": [
     {
       "roleId": "consultant",
-      "weight": 114,
+      "weight": 116,
       "title": "Turn research into a client recommendation",
       "message": "Use the available client research and engagement context to compare credible options, recommend a path, and create the right decision-ready memo, deck, workshop artifact, or supporting sheet."
+    },
+    {
+      "roleId": "agency",
+      "weight": 98,
+      "title": "Turn client research into a recommendation",
+      "message": "Use this client's approved research and engagement context to compare credible options, recommend a path, and prepare the right decision-ready artifact."
     }
   ]
 }

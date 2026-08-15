@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-client-engagement-setup",
   "title": "How to start a client engagement with AI",
   "description": "Turn accepted work into a reliable engagement brief for scope, stakeholders, milestones, evidence, communication, systems, risks, and client restrictions.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "The awkward part of starting a client engagement is that the work has been agreed, but the delivery team still has to reconstruct what the agreement means in practice. Scope sits in the proposal, expectations in meetings and email, and important restrictions in a contract or client system.",
     "Strawberry can bring that accepted context together in the same workspace and turn it into one engagement brief. The result gives the team a reliable starting point without treating every sales note as a commitment or carrying another client's setup into the work."
@@ -35,7 +35,7 @@
           "kind": "skills",
           "items": [
             {
-              "id": "strawberry/agency/build-client-brief",
+              "id": "strawberry/consulting/build-client-brief",
               "roleId": "consultant",
               "context": "Turn one accepted piece of work into a reliable engagement brief before delivery begins."
             }

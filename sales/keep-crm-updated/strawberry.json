@@ -7,7 +7,7 @@
   "useCases": [
     {
       "roleId": "sales-business-development",
-      "weight": 76,
+      "weight": 104,
       "title": "Keep my CRM up to date",
       "message": "Help me keep my CRM current from recent emails, meetings, and sales activity. Use the CRM and context already available, then show me a small set of proposed updates with their sources so I can correct the mapping before anything changes."
     },
@@ -16,6 +16,12 @@
       "weight": 90,
       "title": "Keep client relationship records current",
       "message": "Use approved client emails, meetings, and commercial activity to propose the exact CRM updates I should review before anything changes."
+    },
+    {
+      "roleId": "venture-capital",
+      "weight": 94,
+      "title": "Keep investment records current",
+      "message": "Use approved founder emails, meetings, diligence, and investment activity to propose accurate CRM updates using our actual objects, stages, fields, and source-of-truth rules."
     }
   ]
 }

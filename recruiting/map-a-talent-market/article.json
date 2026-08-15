@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-talent-market-mapping",
   "title": "How to map a talent market with AI",
   "description": "Understand titles, employers, adjacent backgrounds, geography, compensation, source coverage, and supply before scaling candidate sourcing.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-13T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "When a candidate search keeps coming up thin, it is tempting to search harder. But the real problem may be the market definition: the title is too narrow, the best people describe themselves differently, or the location and compensation constraints do not fit together.",
     "Strawberry can work across LinkedIn, company pages, public professional work, approved ATS history, and compensation or market sources to show how the talent pool is actually shaped.",

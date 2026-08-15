@@ -22,6 +22,12 @@
       "weight": 84,
       "title": "Get a new teammate up to speed",
       "message": "Help me turn our current company and team context into a practical onboarding path for this new teammate."
+    },
+    {
+      "roleId": "engineering-development",
+      "weight": 80,
+      "title": "Onboard a product or engineering teammate",
+      "message": "Build a role-aware context pack, setup plan, and first-week path through our current product, engineering systems, people, and priorities."
     }
   ]
 }

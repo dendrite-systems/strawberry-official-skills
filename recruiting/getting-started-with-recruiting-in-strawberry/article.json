@@ -16,21 +16,35 @@
   "noindex": false,
   "introduction": [
     "Recruiting gets fragmented quickly. The role lives in a document, candidates are spread across LinkedIn and the ATS, interview evidence sits in notes and transcripts, and the reason behind a decision is often still in someone's head.",
-    "Strawberry is a browser with built-in AI agents. Your companion can work across those places with you, keeping the role, evidence, open questions, and next step connected from the first search through the pipeline review.",
-    "You do not need to redesign the whole hiring process to begin. Start with the decision that is holding up one real role."
+    "Strawberry is an agentic browser and workspace with built-in AI agents. Your companion can work across visible tabs, logged-in sourcing tools, the ATS, meetings, documents, and approved apps. It can remember the team's accepted hiring bar and keep the evidence, open questions, and next step connected from role definition through pipeline review."
   ],
   "sections": [
     {
       "id": "choose-the-right-start",
-      "title": "Start with the decision in front of you",
+      "title": "See the hiring system, then choose where to begin",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The right first workflow depends on what is unclear. You may need to define the job, test whether the talent market is realistic, or find a small set of candidates worth reviewing."
+          "text": "You do not need to redesign the whole hiring process to begin. Start with the decision holding up one real role while keeping the complete system visible."
+        },
+        {
+          "kind": "table",
+          "columns": ["Hiring lane", "What Strawberry can help carry"],
+          "rows": [
+            ["Define the search", "The internal role, honest job description, talent-market reality, and accepted hiring criteria."],
+            ["Build the pipeline", "A calibrated candidate set, inbound application review, candidate communication, and ATS context."],
+            ["Evaluate consistently", "Interview evidence plans, candidate and panel briefs, scorecards, transcripts, tensions, and unknowns."],
+            ["Run the process", "Pipeline health, ownership, proposed record changes, approved communications, and reusable team methods."]
+          ]
         },
         {
           "kind": "skills",
           "items": [
+            {
+              "id": "strawberry/recruiting/getting-started-with-recruiting-in-strawberry",
+              "roleId": "recruiting-people",
+              "context": "Choose and complete the recruiting workflow that would help this role most now."
+            },
             {
               "id": "strawberry/recruiting/create-a-job-description",
               "roleId": "recruiting-people",
@@ -50,7 +64,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Strawberry can use the documents, tabs, connected apps, and approved history already available. A useful first result should not depend on completing a long setup checklist."
+          "text": "Use the documents, tabs, connected apps, and approved history already available. Coach the first result before expanding the search or changing an external record; useful work should not depend on a long setup checklist."
         }
       ]
     },

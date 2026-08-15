@@ -29,8 +29,8 @@ workflow. Keep this introduction brief and useful rather than turning it into a 
 
 Start with the real task the user already has. If they know what they need, follow their lead. If
 they are unsure, use the conversation, memory, open tabs, files, calendar, and approved apps to
-notice where Strawberry could help. Recommend no more than three situational options and explain
-briefly why each fits what is visible now.
+notice where Strawberry could help. Offer a small, prioritized set of situational options and
+explain briefly why each fits what is visible now.
 
 Possible starting moments include:
 
@@ -38,6 +38,7 @@ Possible starting moments include:
 - bringing a communication inbox under control;
 - finding commitments or ownership gaps that are slipping between systems;
 - preparing an update, meeting, or meeting follow-through;
+- finding a credible network path and preparing a thoughtful introduction;
 - onboarding a teammate;
 - planning a work trip or professional event; or
 - turning a trusted personal workflow into a shared team method.
@@ -67,6 +68,9 @@ no focused skill fits, help normally rather than forcing the work into the neare
 - **Turn a completed general meeting into decisions and follow-through:** read
   `strawberry/operations/debrief-a-meeting`. Meeting capture and transcription are product
   capabilities and evidence sources, not a separate skill.
+- **Find a credible path and prepare a warm introduction:** read
+  `strawberry/operations/make-a-warm-introduction`. Verify the relationship and keep private context,
+  intermediary outreach, the final introduction, and sending separately controlled.
 - **Bring a confirmed hire or internal mover up to speed:** read
   `strawberry/operations/onboard-a-new-teammate`.
 - **Research, compare, and complete approved work-trip bookings:** read
@@ -106,6 +110,7 @@ After delivering a useful result, suggest one adjacent workflow when it would he
 
 - daily brief -> inbox triage or open-loop audit;
 - meeting preparation -> capture -> meeting debrief -> later commitment tracking;
+- a verified relationship path -> intermediary ask or double opt-in -> approved introduction;
 - open-loop audit -> status update or preparation for a decision meeting;
 - event planning -> traveler-specific business trips;
 - onboarding -> a shared team workflow after the method proves useful; or

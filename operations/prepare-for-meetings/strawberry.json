@@ -20,10 +20,22 @@
       "message": "Use the relevant calendar, relationship, project, message, document, and web context to prepare a brief for this meeting."
     },
     {
+      "roleId": "venture-capital",
+      "weight": 96,
+      "title": "Prepare for a founder or partner meeting",
+      "message": "Prepare me for this founder, partner, expert, or portfolio meeting using the investment, relationship, market, and recent company context that could change the conversation."
+    },
+    {
       "roleId": "consultant",
       "weight": 102,
       "title": "Prepare for a client or delivery meeting",
       "message": "Prepare me for this client, workshop, steering, delivery, or internal meeting using the context that could change the conversation."
+    },
+    {
+      "roleId": "sales-business-development",
+      "weight": 96,
+      "title": "Prepare for a general sales-team meeting",
+      "message": "Prepare me for this internal, partner, or cross-functional meeting using the context that could change the conversation. Use the Sales meeting skill instead when account or deal judgment dominates."
     },
     {
       "roleId": "other",

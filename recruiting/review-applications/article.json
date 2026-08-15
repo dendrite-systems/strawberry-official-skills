@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-job-application-review",
   "title": "How to review job applications with AI",
   "description": "Review applications against the accepted role, explain the fit evidence and uncertainty, and keep consequential hiring decisions with people.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-13T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "A busy application queue creates an uncomfortable tradeoff: move quickly and risk shallow judgment, or read everything carefully while strong candidates wait for an answer.",
     "Strawberry can work with the accepted role criteria, application materials, and approved ATS context to make the first review more consistent. It shows the evidence behind its fit guidance and the questions a person still needs to answer.",

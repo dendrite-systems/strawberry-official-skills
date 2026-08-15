@@ -1,91 +1,63 @@
 ---
 name: getting-started-with-agency-work-in-strawberry
-description: Best practices for anyone getting started with agency work in Strawberry. Use when helping an agency choose, set up, or expand client acquisition, delivery, reporting, or team workflows.
+description: Help an agency get started in Strawberry by adding client separation, briefing, delivery, reporting, and approval boundaries to the functional workflows its team already uses.
 ---
 
 # Getting Started with Agency Work in Strawberry
 
-Strawberry can help an agency win clients, turn scattered account context into useful work, and
-make delivery and reporting easier to repeat. This is not a fixed methodology. Enter wherever the
-user or team has a real bottleneck, interview them candidly until the best starting point is clear,
-and skip what already works. Over time, help the agency adopt the workflows here that genuinely
-suit how it wins and serves clients.
+Agency is an organization overlay, not a second copy of Marketing, Sales, Operations, Design, or
+Research. Help the user complete one useful client or agency result, then route the specialist work
+to the functional bundle they selected.
 
-## Start with one useful result
+## Start with one account and one result
 
-Choose one task the agency already needs: a prospect workup, one client deliverable, one report, or
-preparation for a client call. Ask whether the user wants to answer a few short questions, let
-Strawberry look through relevant connected apps, or combine both. Useful context may include the
-agency website, onboarding documents, scopes of work, winning pitches, prior reports, sent emails,
-and connected client systems; do not assume that any particular source exists. When available,
-examples of work the agency won or the client accepted are useful calibration for structure,
-voice, and what good looks like.
+Identify the client or prospect, service, desired result, owner, destination, deadline, approved
+sources, and review boundary. Use examples the agency won or the client accepted when they help
+calibrate the work.
 
-Learn the service, client or prospect, current deliverable, owner, destination, presentation style,
-and approval boundaries relevant to that result. Keep every client's context strictly separated.
-Before substantial work, summarize the understood context, open uncertainties, and intended
-approach in a concise plan, then wait for confirmation or adjustment.
+Keep every client's accounts, source material, calculations, conclusions, and output separate. Do
+not use one client as an unstated example, benchmark, or source for another. Start with one account
+before applying a method across the book.
 
-## Win one client before scaling acquisition
+## Establish the client boundary
 
-Before researching widely, name the prospect or fit criteria, the service being pitched, what a
-strong angle looks like, and the desired output. Start with one prospect or a small sample so the
-user can check the bar. Strawberry can then find prospective clients, explain why they fit, and
-prepare personalized outreach. Read `strawberry/sales/find-new-customers` to build the reviewable shortlist
-and `strawberry/sales/send-personalized-outreach` to draft messages in the agency's accepted voice.
+Use `strawberry/consulting/build-client-brief` once work is accepted. The brief owns the client's goals,
+measures, voice, stakeholders, source access, restrictions, delivery expectations, and approval
+points.
 
-A concrete finding backed by current evidence is often more useful than a generic capabilities
-pitch. For a visual account teardown, read `strawberry/research-analysis/research-companies-create-decks`. Nothing
-client-facing is sent without the user's explicit approval. Once a client begins working with the
-agency, read `strawberry/agency/build-client-brief` to turn approved kickoff context into a reliable brief
-covering the account's goals, measures, voice, and data restrictions.
+The brief adds client context; it does not replace the functional skill that produces the result.
 
-## Produce client-ready work
+## Route to the selected function
 
-Ask which deliverable consumes the most time and what a good version looks like. Confirm the
-decision it supports, scope and depth, and expected artifact before starting. Strawberry can gather
-the slow raw material, preserve source evidence, distinguish findings from recommendations, and
-shape the result in the client's agreed format. Read `strawberry/marketing/run-competitor-analysis` for
-competitor work or `strawberry/marketing/audit-seo-create-report` for an SEO review. Review one complete,
-client-ready deliverable before repeating the process.
+- **Win clients:** use `strawberry/sales/find-new-customers`,
+  `strawberry/sales/research-an-account`, and
+  `strawberry/sales/send-personalized-outreach` as the work progresses.
+- **Deliver Marketing work:** use the Marketing Getting Started guide and its focused audience,
+  campaign, content, competitor, SEO, and performance skills when Marketing is the selected role.
+- **Report progress:** use
+  `strawberry/operations/build-client-progress-report-project-tools` to reconcile one client's
+  project, analytics, advertising, and communication evidence into a reviewable report.
+- **Prepare and follow through on client meetings:** use
+  `strawberry/operations/prepare-for-meetings` and
+  `strawberry/operations/debrief-a-meeting`.
+- **Research or present:** use the focused Research and presentation skill that owns the evidence
+  or artifact.
 
-## Prove the reporting flow with one account
+The organization context may change confidentiality, account matching, voice, delivery, and review.
+It does not create a duplicate functional workflow.
 
-Agree what the client's report includes, its cadence, comparison period, destination, and level of
-detail. Build one client's report first so the user can check the format and metrics before reusing
-the flow. Read `strawberry/operations/build-client-progress-report-project-tools` to turn approved project
-information into a clear account of what changed, why, what needs attention next, and any unresolved
-blockers. Preserve source links, and reconcile currencies, date ranges, and metric definitions
-before comparing platforms or accounts.
+## Deliver, learn, and reuse
 
-## Keep meetings and delivery connected
+Review one complete client-ready result before scaling it. Keep source links, definitions,
+assumptions, recommendations, unresolved gaps, and the intended audience clear.
 
-Strawberry can prepare concise client-call briefs, capture decisions and owners during meetings,
-and turn action items into owned work afterwards. Read `strawberry/operations/prepare-for-meetings` to bring
-together relevant client results, account changes, relationship history, open items, and useful
-questions before a meeting. Strawberry can capture supported conversations without adding a visible
-meeting bot. Afterwards, read `strawberry/operations/debrief-a-meeting` to turn the reliable record
-into decisions, action items, owners, and a follow-up that reflects what was actually said.
-Nothing is sent without the user's explicit approval.
+After the method works, preserve the accepted client brief, functional workflow, owners,
+destinations, and approval behavior. Use `strawberry/operations/set-up-shared-team-workflow` when
+the agency needs a shared method. Add a Routine only when the trigger or cadence, account boundary,
+inputs, destination, owner, review behavior, and stop conditions are explicit.
 
-## Other things to try
-
-These are useful discovery ideas, not complete standalone workflows:
-
-- Prepare a campaign-status brief before each client check-in.
-- Build a QBR or strategy deck from the quarter's approved account data.
-- Create a cross-account roll-up that flags overspend, sudden drops, or quiet accounts for review.
-- Make accepted proposals, decks, reports, and transcripts searchable as the agency's knowledge
-  base.
-
-## Grow the accepted process into a team system
-
-When a first run works, preserve its accepted inputs, fields, sources, style, review points, and
-client restrictions as a user-owned skill. Reuse the method with another client only after loading
-that client's own context. When the workflow should become a team process, read
-`strawberry/operations/set-up-shared-team-workflow` to agree on owners, destinations, conventions, and
-approvals. After the team trusts the underlying workflow through repeated review, suggest a Routine
-for preparation rather than premature automation: for example, prepare monthly report drafts,
-morning client-call briefs, or competitor and account-change alerts. Routines must preserve client
-separation and every approval boundary; they do not authorize external communication or live
-account changes.
+Follow Strawberry's active scoped permission for the action, client account, destination, and
+conditions. Draft or ask when permission is insufficient. Stop when identity, account, scope,
+impact, or sensitive-data handling changes, and verify completed external actions. A client brief,
+deliverable, report, message, live account change, spend change, and public publication are
+different permission states.

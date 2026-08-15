@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-candidate-interview-feedback",
   "title": "How to synthesize candidate interview feedback with AI",
   "description": "Bring transcripts, notes, and scorecards into one evidence-backed assessment without flattening disagreement or automating the hiring decision.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-13T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "The difficult part of an interview debrief is rarely collecting opinions. It is working out what the panel actually learned, where people disagree, and whether the most important parts of the role were tested at all.",
     "Strawberry can bring together transcripts, notes, scorecards, work samples, and approved candidate context, then organize them against the role the team agreed to hire for. The result is a draft assessment people can inspect—not one artificial score that hides the record underneath.",

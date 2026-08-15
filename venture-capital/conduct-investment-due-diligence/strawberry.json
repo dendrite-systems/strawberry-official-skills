@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Conduct Investment Due Diligence",
+  "summary": "Test material underwriting questions and produce a traceable diligence record.",
+  "icon": "files",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "venture-capital",
+      "weight": 108,
+      "title": "Investigate the questions behind an investment",
+      "message": "Help me conduct due diligence on this opportunity. Start from the claims and risks that could change the decision, cross-check them with the right evidence, and make contradictions and unresolved questions easy to review."
+    }
+  ]
+}

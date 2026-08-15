@@ -18,10 +18,22 @@
       "message": "Prepare a concise debrief from this meeting, including decisions, commitments, open questions, and the useful next actions."
     },
     {
+      "roleId": "venture-capital",
+      "weight": 94,
+      "title": "Turn an investment meeting into evidence and next steps",
+      "message": "Use the reliable meeting record to capture what changed in the investment view, the evidence and questions that surfaced, commitments, and the follow-through I should review."
+    },
+    {
       "roleId": "consultant",
       "weight": 100,
       "title": "Debrief a client or delivery meeting",
       "message": "Turn this reliable meeting record into grounded decisions, commitments, actions, follow-up drafts, and proposed engagement updates."
+    },
+    {
+      "roleId": "sales-business-development",
+      "weight": 94,
+      "title": "Debrief a general sales-team meeting",
+      "message": "Turn this internal, partner, or cross-functional meeting into grounded decisions, commitments, actions, and follow-up drafts. Use the Sales debrief when commercial and CRM judgment dominates."
     },
     {
       "roleId": "other",

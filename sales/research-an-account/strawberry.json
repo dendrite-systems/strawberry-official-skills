@@ -7,7 +7,7 @@
   "useCases": [
     {
       "roleId": "sales-business-development",
-      "weight": 104,
+      "weight": 114,
       "title": "Research an account and find a way in",
       "message": "Research this account and help me understand the company, our existing relationship, what matters now, and the most useful way forward. Start with the context already available and give me a concise sourced brief before offering a deeper pass."
     },

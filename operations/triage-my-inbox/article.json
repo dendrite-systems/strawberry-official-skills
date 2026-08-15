@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-inbox-triage",
   "title": "How to triage your inbox with AI",
   "description": "Use AI to prioritize email, LinkedIn, or another inbox, draft useful replies, and review cleanup without losing the surrounding context.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "Inbox triage is usually described as an email problem, but the queue that needs attention may be LinkedIn messages, connection requests, a professional messaging service, or several channels used for different relationships.",
     "Getting the queue under control may not leave a screen with zero messages. What matters is knowing that the important work has been answered, delegated, scheduled, or consciously left alone—and that a bulk cleanup has not hidden something you still need.",

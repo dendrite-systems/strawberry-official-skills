@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Research and Report a Bug",
+  "summary": "Reproduce and research unexpected behavior, find duplicates, and prepare or file a privacy-safe issue in the team's actual ticketing system.",
+  "icon": "code",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "engineering-development",
+      "weight": 112,
+      "title": "Research and report a bug",
+      "message": "Research this product problem, check the relevant team and code context, search our actual ticketing system for duplicates, and prepare or file a grounded issue within the current permission."
+    }
+  ]
+}

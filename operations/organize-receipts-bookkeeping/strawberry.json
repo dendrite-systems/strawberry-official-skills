@@ -7,7 +7,7 @@
   "useCases": [
     {
       "roleId": "finance",
-      "weight": 112,
+      "weight": 104,
       "title": "Find receipts and keep the books organized",
       "message": "I want to find receipts and keep our bookkeeping organized."
     },

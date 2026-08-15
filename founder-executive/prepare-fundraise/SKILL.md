@@ -8,77 +8,93 @@ description: Prepare a focused fundraising process with an evidence-backed story
 Help the founder prepare a credible fundraising process without inventing traction, market evidence,
 or investor fit.
 
-## Context, setup, and planning
+## 1. Define the raise and first useful result
 
 Establish the stage, amount, intended use of funds, runway, timing, and the decision the raise
-should unlock. Also clarify the immediate result, audience, deadline, and which artifact would be
-most useful first.
+should unlock. Clarify the immediate audience, deadline, and result that would help most now: a
+fundraising brief, story review, first investor set, deck, evidence gap review, data-room plan, or
+near-term process.
 
-Ask whether the founder wants to answer a few questions, let Strawberry look through relevant
-connected apps, or combine both. Useful context may include the latest board or investor deck,
+Use the founder's existing process when one exists. Otherwise propose a concise approach covering
+the story, material evidence gaps, investor profile, research depth, first artifact, and review
+point. Resolve high-impact ambiguity before substantial research or artifact creation without
+turning the run into a setup exercise.
+
+## 2. Build the evidence foundation
+
+Use relevant approved context already available across the visible browser, connected apps, files,
+meetings, and company systems. Useful sources may include the latest board or investor deck,
 financial model and dashboards, cap table, prior investor conversations or pipeline, product and
 market research, customer evidence, team material, and an existing data room. These are possible
-sources, not prerequisites; ask only about important gaps.
-If the founder's writing style is not already clear, use `strawberry/general/learn-writing-style` with
-approved examples.
+sources, not prerequisites.
 
 Reconcile financial and cap-table figures against their approved source systems. Treat any
 model-produced number as a draft until the founder has checked it. For every material claim,
-preserve the source and relevant date, distinguish fact from inference, keep internal figures
-separate from outside benchmarks, and expose stale, low-confidence, missing, or contradictory
-evidence.
+preserve the source and date, distinguish fact from inference, keep internal figures separate from
+outside benchmarks, and expose stale, low-confidence, missing, or contradictory evidence.
 
-Present a concise plan covering the proposed story, evidence gaps, investor profile, research depth,
-first artifact, and review point. Wait for the founder to confirm or adjust it before substantial
-research or artifact creation.
+If the founder's writing style is not already clear, use the internal
+`strawberry/general/learn-writing-style` skill installed by the Strawberry harness with approved
+examples; it is not part of this public repository.
 
-## Build the story and materials
+## 3. Shape the story and reviewable materials
 
-1. Shape a concise narrative around the problem, why now, product, market, traction, advantage,
-   team, plan, and ask.
-2. Pressure-test it through the questions investors underwrite: market, team, traction, moat, and
-   risks. Use approved company, market, competitor, customer, and reference evidence. Surface
-   evidence that conflicts with the founder's story instead of polishing over it.
-3. Create only the materials needed for the accepted first run. These may include a fundraising
-   brief, deck, financial appendix, data-room checklist or diligence-answer pack, and pipeline
-   tracker. Use `strawberry/research-analysis/create-beautiful-slide-deck` for a finished deck rather than duplicating
-   its presentation workflow.
-4. Keep confidential files inside approved destinations. Source extracted diligence answers and
-   leave unresolved questions visible. Do not share a data room, change access, or send an external
-   artifact without explicit approval.
+Build a concise narrative around the problem, why now, product, market, traction, advantage, team,
+plan, and ask. Pressure-test it through the questions investors underwrite: market, team, traction,
+moat, economics, execution, and risk. Surface evidence that conflicts with the story instead of
+polishing over it.
 
-## Research and select investors
+Create only the materials needed for the accepted first run. These may include a fundraising brief,
+deck, financial appendix, data-room checklist, diligence-answer pack, or pipeline tracker. Use
+`strawberry/research-analysis/create-beautiful-slide-deck` when the approved material should become
+a finished deck rather than duplicating its presentation workflow.
 
-1. Define the target profile using the fundraise stage, relevant thesis, geography, check size,
-   trusted fit signals, and explicit exclusions.
-2. Use `strawberry/research-analysis/map-a-market` to define the relevant investor and ecosystem
-   landscape before building the contact list. Treat firms and relevant partners as separate
-   entities where that distinction matters.
-3. Deduplicate against approved pipeline records and prior conversations. For each candidate,
-   preserve current source links and dates, give a concise evidence-backed fit reason, and identify
-   a relevant partner or possible introduction path only when the evidence supports it. Never
-   imply a relationship or warm path that has not been verified.
-4. Review a small first list—around ten investors can be enough for calibration—before expanding
-   the research. Report how many candidates were reviewed and narrowed, and flag borderline,
-   stale, contradictory, or missing evidence rather than padding the list.
+Source extracted diligence answers and keep unresolved questions visible. Separate internal
+working material from anything intended for investors, and keep confidential files inside their
+approved destinations.
 
-## Calibrate and plan the next two weeks
+## 4. Build and calibrate the investor set
 
-Review the story, initial investor list, and one selected artifact with the founder. Incorporate
-their corrections before expanding the list, building the remaining materials, or drafting
-outreach. Turn the accepted process into a two-week plan with owners, next actions, dependencies,
-deadlines, and review points.
+Define the target profile from the fundraise stage, thesis, geography, check size, relevant
+experience, trusted fit signals, and explicit exclusions. Use
+`strawberry/research-analysis/map-a-market` when the investor or ecosystem landscape itself needs
+to be mapped before list building.
 
-When the founder approves a contact list and wants messages, use
-`strawberry/sales/send-personalized-outreach`; keep its verification, drafting, and sending rules
-there. Use `strawberry/operations/prepare-for-meetings` for scheduled investor conversations. Drafting does not
-authorize sending: contacting investors, sharing sensitive materials, granting access, or changing
-pipeline records always requires explicit approval.
+Treat firms and relevant partners as separate entities where the distinction matters. Deduplicate
+against approved pipeline records and prior conversations. For each candidate, preserve current
+source links and dates, give a concise evidence-backed fit reason, and identify a partner or
+possible introduction path only when supported. Never imply a relationship, interest, or warm path
+that has not been verified.
 
-## Expected result
+Review a small, varied first set before expanding the research. Around ten investors can be enough
+for calibration, but adapt the size to the raise and evidence. Report coverage, borderline cases,
+stale or contradictory evidence, and meaningful gaps instead of padding the list.
 
-Produce an evidence-backed fundraising brief, a calibrated first investor list, a practical
-two-week process, and one reviewable artifact chosen with the founder. Do not present uncertain
-claims as fact or promise a fundraising outcome. After the process proves useful, offer to preserve
-the accepted story, evidence standard, investor criteria, artifacts, and review rules as a
-user-owned skill.
+## 5. Turn the accepted work into a process
+
+Review the story, first investor set, evidence gaps, and one selected artifact with the founder.
+Carry their corrections into the remaining materials and research. Build a practical near-term plan
+with owners, next actions, dependencies, deadlines, and review points; use a two-week horizon when
+it matches the founder's process rather than treating it as mandatory.
+
+When an approved contact list should become messages, use
+`strawberry/sales/send-personalized-outreach`; keep its research, drafting, verification, and send
+rules there. Use `strawberry/operations/prepare-for-meetings` for scheduled investor conversations
+and preserve decisions and commitments after a reliable record exists.
+
+Deliver an evidence-backed fundraising brief, calibrated first investor set, practical process,
+and the reviewable artifact agreed with the founder. Do not present uncertain claims as fact or
+promise a fundraising outcome.
+
+## 6. Keep sensitive actions scoped
+
+Follow Strawberry's active scoped permission for every company system, investor source, account,
+destination, and action. Research, drafting, changing pipeline records, contacting investors,
+sharing materials, granting data-room access, changing access, and sending external artifacts are
+separate actions. Draft or ask when permission is insufficient, stop when identity, scope, impact,
+or sensitive-data handling changes, and verify completed external actions.
+
+After the process proves useful, preserve the accepted story, evidence standard, investor criteria,
+source rules, artifact choices, and review points as a custom or team skill. Add a Routine only
+when the team has a real trigger or cadence, stable systems, a reviewable output, clear approval
+behavior, and stop conditions.

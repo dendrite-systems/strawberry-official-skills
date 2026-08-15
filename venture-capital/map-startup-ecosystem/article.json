@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-startup-ecosystem-mapping",
+  "title": "How to Map a Startup Ecosystem with AI",
+  "description": "Map startups, investors, activity, and relationships around a venture investment question with traceable evidence.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "A useful startup map explains how a market is forming: which companies define it, where talent and capital are moving, who is investing, and which relationships matter. A long list of company names does not answer those questions.",
+    "Strawberry can inspect current company pages, funding announcements, investor portfolios, accelerator cohorts, databases in your logged-in browser, hiring, and news while keeping the evidence visible. Your firm's thesis, portfolio, and pass history can shape the map without being copied into a public research tool."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-question",
+      "title": "Start with the investment question",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The scope changes depending on whether you are refining a thesis, learning a new geography, looking for white space, understanding capital flows, or preparing to source. Strawberry begins with that decision and the boundaries that matter: stage, geography, company type, time period, and exclusions."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/venture-capital/map-startup-ecosystem",
+              "roleId": "venture-capital",
+              "context": "Build a sourced startup landscape around the market question you need to answer."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map-the-system-not-just-the-companies",
+      "title": "Map the system, not just the companies",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Startups and the emerging categories they represent.",
+            "Investors, their evidenced stage and geography, and recent investment patterns.",
+            "Accelerators, universities, communities, and other sources of company formation.",
+            "Funding, founder, talent, partnership, and market relationships.",
+            "Changes in capital, technology, regulation, talent, or customer demand."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "An investor's website describes an intended thesis. Dated portfolio and transaction evidence shows how that thesis appears in practice. Strawberry keeps the two separate, so one deal does not become a false pattern and a marketing statement does not become proof."
+        }
+      ]
+    },
+    {
+      "id": "calibrate-the-taxonomy",
+      "title": "Calibrate the taxonomy before going wide",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Category boundaries are judgment calls. Strawberry starts with a varied cross-section when the scope is subjective, giving you a manageable view to correct before time and credits go into a broader sweep. You can refine which companies belong, which relationships matter, and how much evidence each row needs."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The finished map keeps source links and dates beside material facts and distinguishes classification from evidence. It can become a table, visual landscape, dataset, brief, or presentation depending on the decision."
+        }
+      ]
+    },
+    {
+      "id": "move-from-landscape-to-action",
+      "title": "Move from landscape to action",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Mapping and sourcing are related, but they are not the same job. A landscape explains the ecosystem. Sourcing applies the firm's thesis to create a reviewable set of opportunities. Research then deepens one selected company."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/venture-capital/source-investment-opportunities",
+              "roleId": "venture-capital",
+              "context": "Turn the accepted landscape and thesis into a qualified first set of investment opportunities."
+            },
+            {
+              "id": "strawberry/venture-capital/research-an-investment-opportunity",
+              "roleId": "venture-capital",
+              "context": "Build an evidence-backed view of one company that deserves attention."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the scope and source hierarchy are trusted, save them as a firm skill. A Routine can later refresh agreed sources and report material additions or changes without rebuilding the map from scratch."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting started with venture capital in Strawberry",
+      "description": "See how market intelligence connects with deal flow, investment decisions, and portfolio support.",
+      "href": "/playbooks/venture-capital-investing"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-venture-deal-sourcing",
+  "title": "How to Source Venture Deals with AI",
+  "description": "Turn an investment thesis into a sourced, calibrated set of private-company opportunities without losing the evidence.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "Deal sourcing becomes noisy when a nuanced investment thesis is reduced to a few database filters. The result may be large, but it is difficult to tell which companies truly fit, which were already considered, and why any row deserves attention.",
+    "Strawberry can use the firm's thesis, portfolio, pass history, CRM, and accepted examples alongside current web and logged-in research sources. It shows the evidence behind each candidate and begins with a varied first set that the investor can correct before the search expands."
+  ],
+  "sections": [
+    {
+      "id": "translate-the-thesis",
+      "title": "Translate the thesis into observable signals",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Stage, geography, check size, business model, ownership, and sector may be hard boundaries. Team, product, traction, timing, or a change in the market may be useful signals. Some questions cannot be answered from public evidence at all. Strawberry keeps those categories distinct instead of hiding them inside one fit score."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/venture-capital/source-investment-opportunities",
+              "roleId": "venture-capital",
+              "context": "Find a thesis-matched first set with evidence, fit rationale, and material unknowns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "search-beyond-standard-categories",
+      "title": "Search beyond standard categories",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Relevant companies often describe themselves differently from the category an investor has in mind. Strawberry can search by problem, customer, technology change, business model, adjacent market, and known lookalike as well as standard labels. It can follow company sites, accelerator cohorts, investor portfolios, launch platforms, founder writing, hiring, funding records, and databases available in the visible browser."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The source of a deal can matter. Each candidate retains its provenance, and the list is checked against the portfolio, active pipeline, pass history, and existing records before it is presented as new."
+        }
+      ]
+    },
+    {
+      "id": "review-a-varied-first-set",
+      "title": "Review a varied first set",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "What to review",
+            "What it prevents"
+          ],
+          "rows": [
+            [
+              "Why the company may fit",
+              "An unexplained ranking or opaque score"
+            ],
+            [
+              "The evidence and its date",
+              "Stale or repeated claims presented as current facts"
+            ],
+            [
+              "What remains unknown",
+              "Public proxies being mistaken for diligence"
+            ],
+            [
+              "Duplicates and pass history",
+              "Reintroducing companies the firm already knows"
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "A manageable first set lets the investor correct the interpretation, sources, exclusions, and useful fields before the search consumes more time or credits. The goal is a better funnel, not an arbitrary row count."
+        }
+      ]
+    },
+    {
+      "id": "hand-the-company-to-the-next-owner",
+      "title": "Hand each company to the next owner",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Sourcing stops at the reviewable candidate set. Research deepens one company; an introduction uses relationship evidence; CRM changes require their own approved scope. Keeping those boundaries explicit makes the funnel easier to trust and improve."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/venture-capital/research-an-investment-opportunity",
+              "roleId": "venture-capital",
+              "context": "Research a selected company before deciding whether deeper work is warranted."
+            },
+            {
+              "id": "strawberry/operations/make-a-warm-introduction",
+              "roleId": "venture-capital",
+              "context": "Find and verify a credible network path, then prepare the right introduction or ask."
+            },
+            {
+              "id": "strawberry/sales/keep-crm-updated",
+              "roleId": "venture-capital",
+              "context": "Apply separately reviewed company or opportunity updates to the investment CRM."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the firm accepts the thesis translation and source mix, save them as a firm skill. A Routine can later look for new companies, deduplicate them against the current pipeline, and prepare only the additions worth reviewing."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting started with venture capital in Strawberry",
+      "description": "See how sourcing connects with research, meetings, diligence, decisions, and portfolio work.",
+      "href": "/playbooks/venture-capital-investing"
+    }
+  ]
+}

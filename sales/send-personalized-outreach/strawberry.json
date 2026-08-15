@@ -7,7 +7,7 @@
   "useCases": [
     {
       "roleId": "sales-business-development",
-      "weight": 104,
+      "weight": 112,
       "title": "Send personalized outreach that sounds like me",
       "message": "Help me send personalized outreach to this list. Use what you know about my voice and context, research only where it will help, and start with a small set I can review. Before sending, show me the exact recipients, messages, channels, and timing—and explain when thoughtful follow-ups or a sequence would be useful."
     },
@@ -16,12 +16,6 @@
       "weight": 98,
       "title": "Send founder-led outreach that sounds like me",
       "message": "Help me reach out to these customers, partners, or investors in my own voice. Use the context already available, research only where it helps, and start with a small set I can review before anything is sent."
-    },
-    {
-      "roleId": "recruiting-people",
-      "weight": 94,
-      "title": "Reach out to a candidate shortlist in my voice",
-      "message": "Help me contact this candidate shortlist with messages that sound like me and fit each relationship. Start with a representative set I can review before anything is sent."
     },
     {
       "roleId": "agency",

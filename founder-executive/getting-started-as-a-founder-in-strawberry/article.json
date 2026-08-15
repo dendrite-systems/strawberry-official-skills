@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "founder-executive",
   "title": "Getting Started as a Founder in Strawberry",
-  "description": "Practical ways to prepare for the day, keep company communication moving, research important decisions, and turn repeated founder work into useful company workflows.",
+  "description": "Connect company reviews, meetings, growth, fundraising, and follow-through without rebuilding context for every decision.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -12,111 +12,152 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "publishedAt": "2026-08-14T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Founders move between meetings, customers, hiring, investor updates, inboxes, and company decisions. Strawberry is most useful when it takes one piece of that work from scattered context to a result you can review.",
-    "Start with the pressure that matters now. Strawberry can learn through a few questions, relevant connected apps, or both. Once the first result is useful, keep the accepted sources, format, voice, and review points so the same work gets easier next time."
+    "A founder's day rarely respects functional boundaries. A customer conversation changes the product story. A hiring delay changes the plan. A board question sends you back through a spreadsheet, a meeting, and three Slack threads.",
+    "That is where Strawberry is most useful. The same companion can work across visible browser tabs, logged-in tools, meetings, messages, documents, dashboards, approved apps, and the public web. It can remember accepted context, so each good result can improve the next one instead of disappearing into another isolated chat."
   ],
   "sections": [
     {
-      "id": "start-with-one-result",
-      "title": "Start with one result that matters this week",
-      "paragraphs": [
-        "Do not begin by redesigning the company. Pick a result that would make the next week easier: prepare for an important day, find the next customers, make progress on a fundraise, fill a priority role, or remove a recurring piece of administrative work.",
-        "Keep discovery light. Strawberry can ask one short question at a time, check relevant approved context in connected apps, or combine both. Before doing substantial work, confirm the result, the important uncertainties, and a concise plan."
-      ],
-      "skills": [
+      "id": "see-the-whole-founder-operating-system",
+      "title": "See the whole Founder Operating System",
+      "blocks": [
         {
-          "id": "strawberry/sales/find-new-customers",
-          "roleId": "founder-executive",
-          "context": "Build and calibrate a reviewable shortlist of the next customers."
+          "kind": "paragraph",
+          "text": "You do not need to configure the whole system before Strawberry becomes useful. Bring the company work that matters now. Your companion can recommend a few relevant starting points and help finish one reviewable piece while keeping the wider company picture in view."
         },
         {
-          "id": "strawberry/founder-executive/prepare-fundraise",
-          "roleId": "founder-executive",
-          "context": "Turn the next fundraise into a clear story, target list, and practical process."
+          "kind": "table",
+          "columns": ["Operating loop", "What Strawberry can help carry"],
+          "rows": [
+            ["Daily attention", "Prepare for the day and important conversations, then preserve the decisions and commitments that follow."],
+            ["Company visibility", "Reconcile changed priorities, risks, ownership, and material pipeline exceptions, then shape the accepted view for leadership or the board."],
+            ["Company building", "Connect market and customer evidence to growth, fundraising, hiring, and the decisions that change the plan."],
+            ["Team leverage", "Turn a founder's accepted method into shared context, a team workflow, or a Routine only after it works."]
+          ]
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/founder-executive/getting-started-as-a-founder-in-strawberry",
+              "roleId": "founder-executive",
+              "context": "Choose and complete the founder workflow that would help most right now."
+            }
+          ]
         }
       ]
     },
     {
-      "id": "prepare-for-the-day",
-      "title": "Prepare for the day, then close the loop",
-      "paragraphs": [
-        "When attention is the bottleneck, a concise morning brief is a strong first workflow. Strawberry can bring together urgent messages, work due today, and the meetings that need preparation, with links back to the useful source material.",
-        "Before an important call, it can turn calendar, company, person, and relationship context into a brief you can scan. Afterward, the transcript can become decisions, action items, owners, filed notes, and a grounded follow-up draft. Messages remain drafts until you approve them."
-      ],
-      "skills": [
+      "id": "keep-attention-and-visibility-connected",
+      "title": "Keep attention and visibility connected",
+      "blocks": [
         {
-          "id": "strawberry/operations/prepare-for-meetings",
-          "roleId": "other",
-          "context": "Walk into today’s important calls with the context that matters."
+          "kind": "paragraph",
+          "text": "A daily brief can surface the meetings, messages, commitments, and decisions that deserve attention. Meeting preparation can gather the context that might change a conversation; a reliable transcript or set of notes can carry the decisions and follow-through into the next step."
         },
         {
-          "id": "strawberry/operations/debrief-a-meeting",
-          "roleId": "other",
-          "context": "Turn the reliable meeting record into decisions, actions, and reviewable follow-up."
+          "kind": "paragraph",
+          "text": "When you need a broader company view, Strawberry can reconcile commitments across the systems where work happens and show what changed, what is blocked, where ownership is unclear, and which decisions need you. Use that once or within a cadence you already have; do not invent a weekly review. Keep source links, conflicts, and gaps visible, then turn only the accepted picture into a leadership or board update."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/prepare-a-daily-brief",
+              "roleId": "founder-executive",
+              "context": "See which meetings, messages, commitments, risks, and decisions deserve attention today."
+            },
+            {
+              "id": "strawberry/operations/prepare-for-meetings",
+              "roleId": "founder-executive",
+              "context": "Prepare for a leadership, board, customer, or partner conversation using context that could change it."
+            },
+            {
+              "id": "strawberry/operations/close-open-loops",
+              "roleId": "founder-executive",
+              "context": "Reconcile commitments and produce an exception and ownership view when one would help."
+            },
+            {
+              "id": "strawberry/operations/prepare-a-status-update",
+              "roleId": "founder-executive",
+              "context": "Turn the accepted company picture into a concise leadership or board update."
+            }
+          ]
         }
       ]
     },
     {
-      "id": "control-company-communication",
-      "title": "Keep company communication moving",
-      "paragraphs": [
-        "An overloaded inbox is a useful place to calibrate Strawberry around your judgment. Define the categories that matter, let it learn your reply style from approved examples, and review a small batch before expanding the workflow.",
-        "Strawberry can surface what deserves attention and prepare replies in your voice. It should not send, delete, archive, unsubscribe, or make bulk changes without explicit approval."
-      ],
-      "skills": [
+      "id": "build-the-company-with-specialist-judgment",
+      "title": "Build the company with specialist judgment",
+      "blocks": [
         {
-          "id": "strawberry/operations/triage-my-inbox",
-          "roleId": "founder-executive",
-          "context": "Triage the email, LinkedIn, or other communication queue that needs attention."
+          "kind": "paragraph",
+          "text": "Founders touch every function, but they do not need a founder-specific copy of every workflow. Strawberry can route customer growth to Sales judgment, hiring to Recruiting, market evidence to Research, and follow-through to Operations while the founder keeps the company decision."
+        },
+        {
+          "kind": "table",
+          "columns": ["When the company needs", "Use the specialist workflow"],
+          "rows": [
+            ["Customer growth", "Find and calibrate customers, research priority accounts, then prepare grounded outreach."],
+            ["A fundraise", "Reconcile the story with traction, build a first investor set, prepare the needed materials, and plan the near-term process."],
+            ["A market decision", "Map the market or analyze competitors before turning approved evidence into a brief or deck."],
+            ["Hiring and onboarding", "Use the Recruiting system for the search and Operations when someone is ready to join."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Context can continue across these handoffs. A market map can sharpen the first customer set; customer and product evidence can strengthen a fundraising story. The goal of raising still does not grant permission to contact investors, share materials, or expose a data room."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/find-new-customers",
+              "roleId": "founder-executive",
+              "context": "Build and correct a small, qualified customer set before widening the search."
+            },
+            {
+              "id": "strawberry/founder-executive/prepare-fundraise",
+              "roleId": "founder-executive",
+              "context": "Prepare an evidence-backed story, first investor list, and practical near-term process."
+            },
+            {
+              "id": "strawberry/research-analysis/map-a-market",
+              "roleId": "founder-executive",
+              "context": "Understand the market, account universe, whitespace, concentration, and evidence behind a company decision."
+            },
+            {
+              "id": "strawberry/recruiting/getting-started-with-recruiting-in-strawberry",
+              "roleId": "founder-executive",
+              "context": "Choose the right hiring workflow, from defining the role through interview decisions and pipeline review."
+            }
+          ]
         }
       ]
     },
     {
-      "id": "turn-context-into-decisions",
-      "title": "Turn company context into decisions and clear artifacts",
-      "paragraphs": [
-        "Investor updates, board materials, company reports, and market decisions often begin with information spread across dashboards, documents, Slack, meeting notes, and the web. Establish which metrics and milestones matter, where they live, who will read the result, and whether an accepted report or deck should set the structure.",
-        "For outside research, agree on the decision, scope, evidence standard, depth, and desired output. Keep source links and dates, separate facts from inference, and make uncertainty or conflicting evidence visible."
-      ],
-      "skills": [
+      "id": "turn-a-good-run-into-a-company-rhythm",
+      "title": "Turn a good run into a company rhythm",
+      "blocks": [
         {
-          "id": "strawberry/research-analysis/map-a-market",
-          "roleId": "founder-executive",
-          "context": "Map a market before choosing a segment, entering a geography, or building an account universe."
+          "kind": "paragraph",
+          "text": "Treat early work as a draft you can coach. Correct the sources, priorities, assumptions, depth, voice, and review points. Strawberry can remember the accepted method, so the next run starts with what the company learned rather than a blank prompt."
         },
         {
-          "id": "strawberry/research-analysis/create-beautiful-slide-deck",
-          "roleId": "other",
-          "context": "Turn approved source material into a polished, on-brand presentation."
+          "kind": "paragraph",
+          "text": "Share the approved result when someone needs the artifact. Set up a shared workflow when the team needs the same inputs, ownership, destination, privacy boundaries, and review behavior. Add a Routine only when the method is trusted and the cadence or trigger is real. That is how a useful first result becomes a Founder Operating System without creating another layer of administration."
         },
         {
-          "id": "strawberry/research-analysis/research-companies-create-decks",
-          "roleId": "other",
-          "context": "Research companies and turn the findings into a clear visual brief."
-        }
-      ]
-    },
-    {
-      "id": "grow-what-works",
-      "title": "Grow one accepted result into a company workflow",
-      "paragraphs": [
-        "Review the first result and correct its assumptions, depth, format, tone, sources, and tool choices. If the process proves useful, preserve those accepted choices as a company-specific skill instead of starting from generic instructions next time.",
-        "When several people need the same inputs, ownership, destination, or review behavior, turn the individual workflow into a shared one. Verify one real handoff before scaling it. Add a routine only after the underlying process has worked a few times and the team wants it to recur.",
-        "Other useful directions include modelling a major decision, mining approved product telemetry for patterns, preparing a weekly KPI review, or assembling a diligence pack. Introduce them when they solve a real problem rather than presenting a long list all at once."
-      ],
-      "skills": [
-        {
-          "id": "strawberry/recruiting/source-candidates",
-          "roleId": "founder-executive",
-          "context": "Find people for a priority role when hiring becomes the next constraint."
-        },
-        {
-          "id": "strawberry/operations/set-up-shared-team-workflow",
-          "roleId": "founder-executive",
-          "context": "Make a proven workflow reusable across the team with clear review points."
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/set-up-shared-team-workflow",
+              "roleId": "founder-executive",
+              "context": "Turn a proven founder workflow into a shared method with clear ownership and boundaries."
+            }
+          ]
         }
       ]
     }
@@ -131,7 +172,7 @@
   ],
   "navigation": {
     "title": "Founder & Executive",
-    "tagline": "Meetings, inbox, research, and team workflows",
+    "tagline": "Company priorities, meetings, growth, and follow-through",
     "icons": [
       "google-sheets",
       "slack",

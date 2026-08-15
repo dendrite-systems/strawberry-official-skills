@@ -7,9 +7,15 @@
   "useCases": [
     {
       "roleId": "consultant",
-      "weight": 112,
+      "weight": 114,
       "title": "Create a client proposal",
       "message": "Turn this opportunity, RFP, or discovery record into a complete consulting proposal using our approved scope, pricing, terms, and delivery material."
+    },
+    {
+      "roleId": "agency",
+      "weight": 104,
+      "title": "Create a client proposal",
+      "message": "Turn this client opportunity, RFP, or discovery record into a clear proposal using our approved scope, pricing, terms, brand, and delivery material."
     }
   ]
 }

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-warm-introductions",
+  "title": "How to Make a Warm Introduction with AI",
+  "description": "Find a credible relationship path and prepare a useful, considerate introduction without overstating the connection.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "A good warm introduction depends on more than finding a shared contact. The intermediary needs a real relationship, the reason for connecting should make sense to both sides, and private context should not leak into a message simply because it helped identify the path.",
+    "Strawberry can inspect approved email, calendar, meetings, CRM, team messages, professional networks, files, memory, and public profiles in the same visible browser. It distinguishes verified relationships from inferred connections, then prepares the smallest considerate ask or introduction for review."
+  ],
+  "sections": [
+    {
+      "id": "start-with-why-both-people-should-meet",
+      "title": "Start with why both people should meet",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The first question is not who can reach whom. It is why the connection could help each person now. Strawberry establishes the people, timing, purpose, and whether the user needs a path, an intermediary ask, a double opt-in, or a final introduction."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/make-a-warm-introduction",
+              "roleId": "operations-chief-of-staff",
+              "context": "Find a credible path and prepare the right ask or introduction without exposing private context."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verify-the-relationship",
+      "title": "Verify the relationship before using it",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "A direct relationship versus a shared affiliation or inferred connection.",
+            "Recent interaction versus stale history.",
+            "Evidence that the intermediary knows both sides versus a profile-level connection.",
+            "The relevance of the introduction versus the apparent strength of the relationship.",
+            "Context safe to share versus information that must stay private."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "A shared company, school, event, or social-network edge can reveal a path worth investigating. It does not prove that the intermediary is close, willing, or able to introduce. Strawberry shows the evidence and freshness so the user can make that judgment."
+        }
+      ]
+    },
+    {
+      "id": "choose-the-lowest-friction-approach",
+      "title": "Choose a considerate path",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "Situation",
+            "Possible approach"
+          ],
+          "rows": [
+            [
+              "The intermediary is well placed but consent is unclear",
+              "Prepare a concise ask with an easy way to decline"
+            ],
+            [
+              "The intermediary wants something forwardable",
+              "Draft a short note explaining who the requester is and why the meeting may help"
+            ],
+            [
+              "The context is sensitive or the relationship is valuable",
+              "Use a double opt-in before connecting the two sides"
+            ],
+            [
+              "No credible warm path exists",
+              "Say so plainly and consider a respectful direct approach"
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The strongest path is not always the most relevant one. The recommendation should consider the intermediary's burden, conflicts, confidentiality, timing, and the cost of a poorly framed ask."
+        }
+      ]
+    },
+    {
+      "id": "draft-with-the-minimum-useful-context",
+      "title": "Draft with the minimum useful context",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The message explains who each person is, why the connection may help both sides, and what a sensible next step looks like. It uses the user's established voice, avoids manufactured familiarity, and does not reveal sensitive investment, customer, candidate, employment, financial, health, or personal details simply because they were available during the search."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Finding the path, drafting an ask, contacting the intermediary, contacting either participant, sending the introduction, scheduling, and updating a record remain separate actions. Before any send, Strawberry shows the sender, recipients, channel, exact message, and context being disclosed unless an active scoped permission already covers them."
+        }
+      ]
+    },
+    {
+      "id": "verify-the-follow-through",
+      "title": "Verify the follow-through",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "After an approved send, Strawberry checks the actual destination and reports the delivery state instead of treating a draft or accepted request as proof. Promised introductions can move into open-loop tracking, and approved relationship changes can move into the CRM without collapsing those jobs into the introduction itself."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/close-open-loops",
+              "roleId": "operations-chief-of-staff",
+              "context": "Track a promised introduction or follow-up that should not be lost."
+            },
+            {
+              "id": "strawberry/sales/keep-crm-updated",
+              "roleId": "sales-business-development",
+              "context": "Apply separately approved relationship or activity changes to the CRM."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Feedback can preserve the user's tone, consent preference, and trusted relationship signals. Warm introductions usually remain on demand; the judgment and privacy involved make them a poor candidate for unattended automation."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting started with venture capital in Strawberry",
+      "description": "See how warm introductions support deal flow, diligence, and portfolio work.",
+      "href": "/playbooks/venture-capital-investing"
+    }
+  ]
+}

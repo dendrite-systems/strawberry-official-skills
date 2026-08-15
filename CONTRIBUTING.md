@@ -18,3 +18,7 @@ Place a skill in the collection that most clearly owns the result. Cross-referen
 skill from `SKILL.md` when a Getting Started guide needs the same workflow. Duplicate it only when
 the actual process, inputs, review points, or output meaningfully differ. The collection and folder
 name become the canonical Strawberry id, such as `strawberry/sales/find-new-customers`.
+
+For a role-based entry point or routed bundle, also follow
+[the role bundle standards](role-bundle-standards.md). The canonical Official Skill Package Builder
+contains the detailed research, editorial, review, migration, and release gates.

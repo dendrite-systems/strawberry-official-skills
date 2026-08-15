@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "displayName": "Getting Started as a Founder in Strawberry",
-  "summary": "Get started as a founder in Strawberry with customers, hiring, decisions, or the work slowing your company down.",
+  "summary": "Choose a useful first founder workflow, then connect company reviews, meetings, customer growth, fundraising, research, and team follow-through over time.",
   "icon": "lightbulb",
   "tags": [
     "getting-started-guide"
@@ -11,7 +11,7 @@
       "roleId": "founder-executive",
       "weight": 124,
       "title": "Getting Started as a Founder in Strawberry",
-      "message": "I want to get started as a founder in Strawberry and find the highest-impact way to move my company forward."
+      "message": "Help me choose the most useful place to start in Strawberry from the company work already in front of me."
     }
   ]
 }

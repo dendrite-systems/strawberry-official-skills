@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Write an Investment Memo",
+  "summary": "Turn research and diligence into a clear, source-linked investment decision record.",
+  "icon": "files",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "venture-capital",
+      "weight": 110,
+      "title": "Write an investment memo",
+      "message": "Use our thesis, memo style, company research, meetings, and diligence to draft a source-linked investment memo. Keep the strongest case, counterevidence, risks, and open questions visible."
+    }
+  ]
+}

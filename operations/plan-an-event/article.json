@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-event-planning",
   "title": "How to plan a work event with AI",
   "description": "Use AI to combine team context with live venue and vendor research, then coordinate the budget, guests, agenda, and run-of-show.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "Professional events usually begin with a short request—find somewhere for the offsite, organize a customer dinner, plan a workshop—and quickly spread across calendars, guest lists, venue pages, vendor emails, budgets, invitations, and a run-of-show.",
     "AI research can suggest themes or return a list of venues. The difficult part starts when you need to check what is actually available, understand the terms, compare the full cost, contact the provider, and keep every answer aligned with the event the team is trying to create.",

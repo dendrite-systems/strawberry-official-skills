@@ -7,7 +7,7 @@
   "useCases": [
     {
       "roleId": "customer-support-success",
-      "weight": 120,
+      "weight": 110,
       "title": "Automate repetitive customer support",
       "message": "I want to automate repetitive customer support without losing our tone or judgment."
     },

@@ -5,7 +5,7 @@
   "icon": "files",
   "tags": ["good-first-skill"],
   "useCases": [
-    { "roleId": "recruiting-people", "weight": 112, "title": "Create a job description", "message": "Create an internal role profile and an external candidate-facing job description for this role." },
+    { "roleId": "recruiting-people", "weight": 114, "title": "Create a job description", "message": "Create an internal role profile and an external candidate-facing job description for this role." },
     { "roleId": "founder-executive", "weight": 96, "title": "Define a key hire", "message": "Help me define this key role and turn it into an honest job description we can review." }
   ]
 }

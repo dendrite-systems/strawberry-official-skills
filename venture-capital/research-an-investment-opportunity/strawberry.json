@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Research an Investment Opportunity",
+  "summary": "Build a source-linked company view with preliminary thesis fit, tensions, and next questions.",
+  "icon": "binoculars",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "venture-capital",
+      "weight": 116,
+      "title": "Research an investment opportunity",
+      "message": "Research this company for the investment decision in front of me. Use relevant internal context and current sources, then show the strongest fit signals, tensions, recent changes, and questions worth resolving next."
+    }
+  ]
+}

@@ -9,6 +9,6 @@
     { "roleId": "sales-business-development", "weight": 108, "title": "Map a target market", "message": "Map this target market, define the relevant account universe, show whitespace and concentration, and recommend where prospecting should focus." },
     { "roleId": "venture-capital", "weight": 104, "title": "Map an industry ecosystem", "message": "Map the companies, investors, associations, experts, and relationships shaping this ecosystem." },
     { "roleId": "founder-executive", "weight": 100, "title": "Map a market before entering it", "message": "Help me map this market before we decide where to enter or which segment to pursue." },
-    { "roleId": "consultant", "weight": 76, "title": "Build a client-ready market map", "message": "Build a sourced market landscape for this client decision, including taxonomy, representative entities, patterns, uncertainty, and implications." }
+    { "roleId": "consultant", "weight": 110, "title": "Build a client-ready market map", "message": "Build a sourced market landscape for this client decision, including taxonomy, representative entities, patterns, uncertainty, and implications." }
   ]
 }

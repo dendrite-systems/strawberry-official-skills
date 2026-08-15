@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "displayName": "Getting Started with Product and Engineering in Strawberry",
-  "summary": "Get started with product and engineering in Strawberry through product insight, issue investigation, and delivery workflows.",
+  "summary": "Choose a useful first workflow, then connect customer evidence, product specs, metrics, product-flow audits, grounded bug reports, and team follow-through.",
   "icon": "code",
   "tags": [
     "getting-started-guide"
@@ -11,7 +11,7 @@
       "roleId": "engineering-development",
       "weight": 120,
       "title": "Getting Started with Product and Engineering in Strawberry",
-      "message": "I want to get started with product and engineering in Strawberry and connect product insight with delivery."
+      "message": "Help me choose the most useful product or engineering workflow from the problem and context already in front of me."
     }
   ]
 }

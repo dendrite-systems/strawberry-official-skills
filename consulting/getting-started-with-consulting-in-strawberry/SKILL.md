@@ -21,10 +21,10 @@ team workflows without going through pricing, acquisition, or contract steps.
 
 ## 2. Choose one useful starting point
 
-Recommend no more than three relevant options, then help the user complete one:
+Offer a small, prioritized set of relevant options, then help the user complete one:
 
 - For a concise view of today's priorities, client meetings, messages, commitments, and risks, use
-  `strawberry/operations/prepare-a-daily-brief` after the Operations package is available.
+  `strawberry/operations/prepare-a-daily-brief`.
 - For an upcoming client, workshop, steering, delivery, or internal meeting, use
   `strawberry/operations/prepare-for-meetings`. When prospect, partner, account, or pipeline
   judgment is central, use `strawberry/sales/prepare-for-sales-meetings`.
@@ -33,7 +33,7 @@ Recommend no more than three relevant options, then help the user complete one:
   central.
 - For a live opportunity or RFP, use `strawberry/consulting/create-a-client-proposal`.
 - When accepted work needs one reliable working brief, use
-  `strawberry/agency/build-client-brief`, displayed as Start a Client Engagement.
+  `strawberry/consulting/build-client-brief`, displayed as Start a Client Engagement.
 - When research needs to become options and a client decision, use
   `strawberry/consulting/turn-client-research-into-recommendations`.
 

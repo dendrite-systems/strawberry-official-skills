@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-content-repurposing",
+  "title": "How to create and repurpose marketing content with AI",
+  "description": "Use AI to create source-grounded marketing content and adapt the idea into useful channel-specific versions without flattening your brand.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Repurposing is useful when the idea survives the move between channels. It fails when one generic draft is shortened five times and presented as a content system.",
+    "Strawberry can work beside the approved brief, source material, product, customer evidence, brand examples, and live channel context. Your companion can preserve the proof behind the words, learn from edits, and adapt the structure and call to action without losing the accepted voice."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-content-job",
+      "title": "Start with the content job",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Clarify the audience, outcome, source of truth, message, proof, format, channel, CTA, deadline, review point, and any brand or legal constraint. Use an accepted brief when one exists; resolve only the gaps that could materially change the work."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/create-and-repurpose-marketing-content",
+              "roleId": "marketing-content",
+              "context": "Create the anchor asset from an approved brief and evidence, then adapt it for the channels that matter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build-the-anchor-from-evidence",
+      "title": "Build the anchor from evidence",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Use approved facts, quotes, examples, research, product details, and claims. Keep the source close enough to inspect and flag anything unsupported, stale, contradictory, or pending approval."
+        },
+        {
+          "kind": "table",
+          "columns": ["The draft should preserve", "What to avoid"],
+          "rows": [
+            ["The audience's real problem and language", "A generic pain point that could describe any buyer"],
+            ["Specific proof and useful detail", "Unsupported superlatives or invented precision"],
+            ["The brand's rhythm and point of view", "A style checklist pasted onto generic copy"],
+            ["One clear next action", "Competing calls to action added for completeness"]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Review the anchor asset before producing a large family of variants. Coach the angle, depth, proof, voice, and CTA while changes are still cheap."
+        }
+      ]
+    },
+    {
+      "id": "adapt-the-idea-not-just-the-length",
+      "title": "Adapt the idea, not just the length",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": ["Channel", "What should change"],
+          "rows": [
+            ["Article", "Depth, evidence, structure, examples, and a reason to keep reading."],
+            ["Email", "Relationship context, one useful promise, scannable proof, and a clear response or next step."],
+            ["Social", "A sharp idea, native pacing, credible specificity, and a format that fits the conversation."],
+            ["Landing page", "Message hierarchy, objections, proof, CTA sequence, and continuity with the source campaign."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "A variant should earn its format. Keep the central claim and evidence consistent while changing the entry point, structure, depth, proof, and CTA for the channel."
+        }
+      ]
+    },
+    {
+      "id": "review-the-work-in-context",
+      "title": "Review the work in context",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Use the browser to inspect the draft beside the page, campaign, prior content, or channel where it will live. Check factual accuracy, brand fit, audience value, duplication, accessibility, links, and whether each version still makes sense on its own."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Preserve the edits that represent durable brand or audience judgment. Do not save one-off campaign language as a universal voice rule."
+        }
+      ]
+    },
+    {
+      "id": "keep-production-and-publishing-separate",
+      "title": "Keep production and publishing separate",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Writing approval does not approve substantial visual production, CMS changes, scheduling, publishing, sending, audience uploads, or campaign launch. Follow the active permission for each account, destination, action, and condition, and verify completed external work."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/build-a-content-plan",
+              "roleId": "marketing-content",
+              "context": "Return to content planning when the team needs themes, briefs, capacity, cadence, and a broader reuse system."
+            },
+            {
+              "id": "strawberry/marketing/review-marketing-performance",
+              "roleId": "marketing-content",
+              "context": "Use later audience, channel, and creative evidence to improve the next production cycle."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting Started with Marketing in Strawberry",
+      "description": "Connect content creation to audience evidence, campaigns, planning, and performance learning.",
+      "href": "/playbooks/marketing"
+    }
+  ]
+}
