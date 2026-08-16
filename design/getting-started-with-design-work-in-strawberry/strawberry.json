@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "displayName": "Getting Started with Design Work in Strawberry",
+  "displayName": "Getting Started with Design in Strawberry",
   "summary": "Audit the live interface for drift, ground decisions in real feedback, and turn accepted work into something the team can build.",
   "icon": "sparkles",
   "tags": [
@@ -10,7 +10,7 @@
     {
       "roleId": "design",
       "weight": 124,
-      "title": "Getting Started with Design Work in Strawberry",
+      "title": "Getting Started with Design in Strawberry",
       "message": "I want to get started in Strawberry with auditing our interface, understanding users, and presenting design work."
     }
   ]

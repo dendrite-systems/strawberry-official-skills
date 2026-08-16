@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "displayName": "Getting Started with Data Work in Strawberry",
+  "displayName": "Getting Started with Data & Analytics in Strawberry",
   "summary": "Collect the data you need, analyze what you already have, settle conflicting definitions, and present findings people act on.",
   "icon": "chart",
   "tags": [
@@ -10,7 +10,7 @@
     {
       "roleId": "data-analytics",
       "weight": 124,
-      "title": "Getting Started with Data Work in Strawberry",
+      "title": "Getting Started with Data & Analytics in Strawberry",
       "message": "I want to get started in Strawberry with collecting, analyzing, and presenting data."
     }
   ]
