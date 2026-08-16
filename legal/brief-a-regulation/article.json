@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-regulation-briefing",
+  "title": "How to brief a new regulation with AI",
+  "description": "Turn a new law, enforcement action, or piece of guidance into who it applies to, what has to happen, and by when, written for whoever has to read it.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Something lands, and within an hour three people have asked whether it applies to us. The honest answer usually depends on a threshold buried in Article 3 and an exemption that only makes sense if you already know how the definitions work.",
+    "That's why briefing a regulation is mostly scope rather than summary. Anyone can restate what a law says. The useful work is deciding who's actually caught by it, what they have to do, and when the clock started."
+  ],
+  "sections": [
+    {
+      "id": "start-with-what-it-is",
+      "title": "Start with what it actually is",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Binding law in force, law adopted but not yet applicable, a proposal still moving, and non-binding guidance are four different things, and people act on all of them as though they were the first one."
+        },
+        {
+          "kind": "paragraph",
+          "text": "So the briefing establishes that up front and keeps the distinction all the way through. It's the single most common way a regulatory update misleads the person reading it."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/legal/brief-a-regulation",
+              "roleId": "legal",
+              "context": "Brief me on this instrument and what it requires."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "work-from-the-instrument",
+      "title": "Work from the instrument, not the coverage",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Most of what's written about a new law in its first week is written from other people's summaries. Strawberry can go to the official register, the regulator's own site, and the subscriptions you already have, then read the provisions themselves and use commentary afterwards to check that reading."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Matter details stay out of the search box while it does that. The instrument is public; your interest in it may not be."
+        }
+      ]
+    },
+    {
+      "id": "written-for-whoever-reads-it",
+      "title": "Written for whoever has to read it",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The same instrument needs to become three quite different documents, and the register matters as much as the content:"
+        },
+        {
+          "kind": "table",
+          "columns": ["Reader", "What lands"],
+          "rows": [
+            ["A specialist", "Full detail with article-level references, no explanation of terms they already use daily"],
+            ["A client", "Plain language, defined terms, and a numbered list of what they need to do"],
+            ["A board", "One page, the headline exposure, and the number attached to getting it wrong"]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Underneath, the substance is the same: what changed and where, who's caught and at what threshold, which obligations fall on which kind of actor, the penalties, and the dates that matter. In force, applicable from, transition ending, deadline. Those get confused constantly and they're the part people plan against."
+        }
+      ]
+    },
+    {
+      "id": "checked-before-it-goes-out",
+      "title": "Checked before it goes out",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Every provision reference is confirmed against the instrument itself. Article and section numbers are structural and hold up well. Page references don't, and get treated as unverified until someone looks."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Dates come from the official text rather than from reporting about it, and the version is checked for amendments since publication. Anything that can't be confirmed is flagged rather than left sitting there looking as solid as the rest."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you track an area continuously, this becomes a Routine that watches the agreed official sources and tells you only when something genuinely moves. Worth setting up once you know which sources count and what you'd want to be interrupted for.",
+          "emphasis": [
+            "Routine"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to do legal research with AI",
+      "description": "The wider system: research, jurisdiction comparison, and the ways this work goes wrong.",
+      "href": "/playbooks/legal-research"
+    },
+    {
+      "title": "How to compare laws across jurisdictions with AI",
+      "description": "When the same obligation has to be met in several places at once.",
+      "href": "/playbooks/ai-jurisdiction-comparison"
+    },
+    {
+      "title": "How to answer a legal question with AI",
+      "description": "When the need is an answer to a question rather than a briefing on an instrument.",
+      "href": "/playbooks/ai-legal-question"
+    }
+  ]
+}
