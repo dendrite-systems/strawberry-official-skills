@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-customer-health-review",
   "title": "How to review customer health with AI",
   "description": "Use AI to reconcile customer outcomes, adoption, support, relationships, commitments, risks, and opportunities from real evidence.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "Customer health is easy to oversimplify. Product usage can look strong while a critical issue remains unresolved. A quiet champion may signal risk, or they may simply be busy. A score is only useful when the team agrees on what it means and can inspect the evidence behind it.",
     "Strawberry can bring goals, product use, support history, meetings, account records, communication, and open commitments into one review. Your companion can show where the signals agree, where they conflict, and what is missing instead of turning incomplete data into a confident churn label."
@@ -25,7 +25,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Start with the account, lifecycle stage, goals, success measures, stakeholders, review period, and next decision. Use the team's accepted health model when one exists. Keep company-wide signals separate from promises and conditions that apply only to this account."
+          "text": "Start with the account, lifecycle stage, goals, success measures, stakeholders, review period, and next decision. Use the team's agreed health model when one exists. Keep company-wide signals separate from promises and conditions that apply only to this account."
         },
         {
           "kind": "skills",
@@ -68,7 +68,7 @@
             ],
             [
               "Commercial context",
-              "Approved renewal, expansion, contraction, or billing context that changes the next decision."
+              "Renewal, expansion, contraction, or billing context that the team is allowed to use and that changes the next decision."
             ]
           ]
         },
@@ -84,14 +84,14 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Compare the evidence instead of averaging it into false precision. Separate observed facts, customer statements, team judgment, companion inference, stale data, and unknowns. If the team uses a score, apply its accepted definitions and show the support for each component rather than inventing weights."
+          "text": "Compare the signals instead of averaging them into false precision. Separate observed facts, customer statements, team judgment, AI inference, stale data, and unknowns. If the team uses a score, apply its agreed definitions and show the support for each component rather than inventing weights."
         },
         {
           "kind": "list",
           "style": "unordered",
           "items": [
             "What outcome has the customer achieved, and what remains unproven?",
-            "Which material signal changed since the last accepted review?",
+            "Which material signal changed since the last agreed review?",
             "Where do usage, relationship, support, and commitment signals disagree?",
             "What action or conversation could most improve the customer's outcome now?"
           ]
@@ -104,7 +104,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Lead with outcome progress, material changes, supported strengths and risks, open commitments, missing evidence, and a prioritized next-action plan. If the next step is a QBR, EBR, check-in, renewal, or escalation conversation, carry the accepted account evidence into meeting preparation."
+          "text": "Lead with outcome progress, material changes, supported strengths and risks, open commitments, missing information, and a prioritized next-action plan. If the next step is a QBR, EBR, check-in, renewal, or escalation conversation, carry the current account picture into meeting preparation."
         },
         {
           "kind": "skills",
@@ -123,7 +123,10 @@
         },
         {
           "kind": "paragraph",
-          "text": "Contacting the customer, changing CRM fields or a health score, offering commercial terms, and committing product or delivery work are separate actions. Once the review method is trusted, a Routine can prepare the next view from named sources and stop when the goals, model, coverage, audience, or sensitive context changes."
+          "text": "Save the health-review method as a team skill when account owners should use the same sources, definitions, and review shape. Once it is trusted, a Routine can prepare the next view and stop when the goals, model, coverage, audience, or sensitive context changes.",
+          "emphasis": [
+            "Routine"
+          ]
         }
       ]
     }
@@ -131,9 +134,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Customer Support and Success in Strawberry",
-      "description": "Connect health reviews with onboarding, customer conversations, support, and follow-through.",
-      "href": "/playbooks/customer-support-success"
+      "title": "How to onboard customers with AI",
+      "description": "Turn accepted goals and commitments into a clear path to first value.",
+      "href": "/playbooks/ai-customer-onboarding"
+    },
+    {
+      "title": "Prepare for meetings from the context you already have",
+      "description": "Carry the current account picture into a customer check-in, QBR, renewal, or escalation.",
+      "href": "/playbooks/ai-for-meeting-prep"
+    },
+    {
+      "title": "How to escalate customer issues with AI",
+      "description": "Give the right internal owner a grounded brief when unresolved impact needs action.",
+      "href": "/playbooks/ai-customer-escalation"
     }
   ]
 }

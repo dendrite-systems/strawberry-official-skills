@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-customer-question-answering",
   "title": "How to research and answer customer questions with AI",
   "description": "Use AI to reconcile product knowledge, account history, prior cases, and current sources into a reliable customer response.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "The fastest support answer is not useful if it relies on an outdated help article, ignores what the customer was promised, or turns an internal discussion into a product commitment. Reliable answers often require several sources and a clear view of which one is authoritative.",
-    "Strawberry can search approved docs, help content, support history, account notes, messages, project records, and official external sources without making the user copy each result into a new chat. Your companion keeps the sources and dates visible, then prepares the answer for the actual customer and channel."
+    "Strawberry can search product docs, help content, support history, account notes, messages, project records, and official external sources without asking you to copy each result into a new chat. Your companion keeps the sources and dates visible, then prepares the answer for the actual customer and channel."
   ],
   "sections": [
     {
@@ -100,7 +100,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "After the team confirms the answer, Strawberry can remember trusted source preferences, product terminology, tone, and review rules. A recurring question may deserve a help-center update, but private account history should not become reusable customer guidance. Sending the reply and updating the ticket remain separate actions."
+          "text": "After the team confirms the answer, Strawberry can remember trusted sources, product terminology, tone, and review rules. Save that method as a team skill when colleagues should research and answer similar questions the same way. A recurring question may deserve a help-center update, but private account history should not become reusable customer guidance."
         },
         {
           "kind": "skills",
@@ -118,9 +118,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Customer Support and Success in Strawberry",
-      "description": "See how grounded answers connect to triage, escalation, onboarding, and learning.",
-      "href": "/playbooks/customer-support-success"
+      "title": "How to triage customer requests with AI",
+      "description": "Assess the request and decide whether it needs an answer, escalation, or another route.",
+      "href": "/playbooks/ai-customer-request-triage"
+    },
+    {
+      "title": "How to create better help-center articles with AI",
+      "description": "Turn a verified recurring answer into clear, findable customer documentation.",
+      "href": "/playbooks/ai-help-center-articles"
+    },
+    {
+      "title": "How to escalate customer issues with AI",
+      "description": "Package the customer impact and exact internal ask when another team needs to act.",
+      "href": "/playbooks/ai-customer-escalation"
     }
   ]
 }

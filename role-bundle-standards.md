@@ -48,8 +48,11 @@ They share a recognizable journey without forcing every skill into the same temp
 - **Evidence:** Separate sourced facts, observations, inferences, assumptions, missing evidence,
   and product judgment. Be honest when research is thin. Consequential claims remain traceable to
   their sources. Treat technically possible behavior, observed private use, and an officially
-  recommended public workflow as different evidence states. A bundle may deliberately stop before
-  a technically available action when the audience, controls, or trust are not ready.
+  recommended public workflow as different evidence states. A useful customer example can shape a
+  workflow without making that customer's exact reviewer, handoff, company type, or terminology the
+  public default. Preserve the specific job and generalize the variable destination. A bundle may
+  deliberately stop before a technically available action when the audience, controls, or trust
+  are not ready.
 - **Release for the audience that exists now:** Frame the first bundle around the users and
   workflows with credible near-term value. Paint a larger system without implying enterprise
   maturity, regulatory readiness, or autonomous ownership that has not been validated. Defer
@@ -111,9 +114,25 @@ They share a recognizable journey without forcing every skill into the same temp
   compact rather than repeating the same hierarchy twice. Preserve useful skill-card detail in the
   authored copy above it; reserve expanded cards for entries that stand on their own. Use authored
   inline emphasis sparingly for genuine scan anchors such as a key decision or Strawberry concept;
-  never highlight every feature mention. A
-  focused article can place one quiet, tailored “Want to try it?” invitation above its own skill
-  card, using the reviewed starting message. Do not repeat it above adjacent workflow cards.
+  when helpful, emphasize the first meaningful mention of a named concept such as **Routine**, not
+  every repetition. A
+  focused article should place one quiet, tailored “Want to try it?” invitation above the first
+  instance of its own skill card, using the reviewed starting message. Do not repeat the invitation
+  above later instances of that card or above adjacent workflow cards.
+- **Close at the right reuse layer:** When feedback makes a workflow meaningfully reusable, explain
+  the next layer near the end in plain language: share the finished result when teammates only need
+  the output; save and share a team skill when they should follow the same method; share the wider
+  companion when they need the same ongoing context across several workflows; and add a Routine
+  only when the trigger, sources, destination, review behavior, and stop conditions are stable.
+  Make an explicit reuse decision during article review, but omit the close for genuinely one-off
+  work rather than pasting the same paragraph into every article.
+- **Show where a focused skill fits:** Near the top of a focused article, use a compact `Part of`
+  row linking to the published Getting Started guides that actually feature that skill. Derive the
+  relationship from article references rather than role metadata, put the owning collection first,
+  keep no more than three guide chips visible before an accessible overflow, and render ordinary
+  crawlable links. Replace the same guide destinations in `Keep reading` with genuine adjacent
+  workflows when they exist. During migration, keep an existing guide link temporarily rather than
+  leave the section empty or add filler merely to remove the repetition.
 - **Inspire before reassuring:** A Getting Started article should make the role possibilities and
   Strawberry advantage feel concrete. Do not foreground generic approval, permission, or safety
   reassurance. Focused articles and skills explain those boundaries where an actual action makes
@@ -128,7 +147,8 @@ They share a recognizable journey without forcing every skill into the same temp
 - **Public article routes:** A skill card opens the focused article when one is published. Keep an
   unlinked workflow card in the operating-system map when its article is not ready; do not send the
   reader from an article to a raw-only skill page. For now, a focused article's own card may jump to
-  the raw skill embedded on that page. Treat the embedded raw file as a deferred product decision,
+  the raw skill embedded on that page. Its cue should point down for the in-page jump; reserve a
+  rightward arrow for navigation to another page. Treat the embedded raw file as a deferred product decision,
   not the permanent article CTA. Do not assume the Strawberry app is installed or auto-run work
   from a public page without an explicit launch-and-fallback design. Before a role checkpoint,
   audit every card at three levels: the referenced

@@ -16,7 +16,7 @@ help center, email, team messages, meetings, project tracker, product, files, an
 The companion can bring together the context that changes the response, keep sources beside claims,
 and carry accepted account goals, tone, and review rules into the next interaction.
 
-Show the system through four connected lanes:
+Show the system through five connected lanes:
 
 - **Understand the customer:** bring together goals, history, product context, health signals, prior
   commitments, and the current question.
@@ -24,8 +24,10 @@ Show the system through four connected lanes:
   the next owner and follow-through visible.
 - **Coordinate and escalate:** package customer impact, route bugs and sensitive cases, and maintain
   the customer relationship while specialist work continues.
-- **Learn and prevent:** improve the help center, notice recurring product feedback, onboard
-  customers, and review whether customers are reaching the outcomes they bought for.
+- **Help customers reach value:** turn accepted goals into onboarding, progress reviews, useful
+  customer conversations, and clear next actions.
+- **Learn and improve:** turn verified resolutions into better help content and recurring customer
+  feedback into source-linked product insight.
 
 Support often moves from request to context, response or escalation, resolution, and learning.
 Success may begin with onboarding, a health review, or a planned conversation. Enter where the
@@ -76,9 +78,10 @@ When tone, priority, routing, or health rules are new, calibrate with a small, v
 scaling. Preserve accepted sources, tone, definitions, ownership, and review rules after they prove
 durable. Keep customer-specific private context out of broad trend reports and reusable methods.
 
-Share an approved artifact when that is enough. Save a team skill when the group should use the
-same method. Offer a Routine only after a workflow has a real trigger, named sources, output,
-destination, approval behavior, and stop conditions.
+Share an approved artifact when teammates only need the result. Save a team skill when the group
+should use the same method. Share the full companion when they need the same ongoing customer
+context across several workflows. Offer a Routine only after a workflow has a real trigger, named
+sources, output, destination, approval behavior, and stop conditions.
 
 ## Keep judgment and actions clear
 
@@ -91,4 +94,3 @@ Follow Strawberry's active scoped permission for the exact account, destination,
 or ask when permission is insufficient; stop when identity, scope, impact, or sensitive-data
 handling changes; verify completed external actions. Suspected security, privacy, data-loss, legal,
 regulated, or active incident cases go immediately to the team's accepted specialist path.
-

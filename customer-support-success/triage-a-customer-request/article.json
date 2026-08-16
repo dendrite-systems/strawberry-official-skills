@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-customer-request-triage",
   "title": "How to triage customer requests with AI",
   "description": "Use AI to assess customer impact, apply your real support rules, find known context, and prepare the right next action.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "A short customer message can hide several different jobs. The team may need to answer a question, restore a blocked workflow, find a known issue, involve Security, or simply acknowledge the impact while someone investigates.",
     "Strawberry can read the complete thread, inspect relevant account and product context, search the support desk and project tracker, and prepare the route and first response in the same visible workspace. The priority still comes from the team's policy and the evidence, not a generic AI severity ladder."
@@ -35,6 +35,13 @@
               "roleId": "customer-support-success",
               "context": "Assess the request using the team's actual impact, priority, SLA, ownership, and escalation rules."
             }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the team trusts the categories, priority rules, routes, and response pattern, save the method as a team skill so the queue is handled consistently. A Routine can prepare the next triage view when the trigger, sources, review point, and stop conditions are clear.",
+          "emphasis": [
+            "Routine"
           ]
         }
       ]
@@ -117,9 +124,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Customer Support and Success in Strawberry",
-      "description": "Connect request handling with escalation, onboarding, health, and learning.",
-      "href": "/playbooks/customer-support-success"
+      "title": "How to research and answer customer questions with AI",
+      "description": "Find a reliable answer when the available support context is incomplete or contradictory.",
+      "href": "/playbooks/ai-customer-question-answering"
+    },
+    {
+      "title": "How to escalate customer issues with AI",
+      "description": "Prepare a complete customer-impact brief when another team needs to act.",
+      "href": "/playbooks/ai-customer-escalation"
+    },
+    {
+      "title": "How to research and report software bugs with AI",
+      "description": "Move from a customer-reported product problem to reproduction, duplicate search, and an issue record.",
+      "href": "/playbooks/ai-bug-reporting"
     }
   ]
 }
