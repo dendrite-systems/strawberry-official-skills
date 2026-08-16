@@ -245,21 +245,12 @@
       ]
     },
     {
-      "id": "make-what-works-repeatable",
-      "title": "Make what works repeatable",
+      "id": "make-customer-work-repeatable",
+      "title": "Make customer work repeatable",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Once a workflow is working well, Strawberry can preserve the sources, tone, definitions, routing, and review points your team agrees on. Choose the smallest layer that helps the next person."
-        },
-        {
-          "kind": "list",
-          "style": "unordered",
-          "items": [
-            "Share the reviewed result when teammates only need the answer, brief, or account plan.",
-            "Save and share a team skill when colleagues should follow the same method.",
-            "Share the wider companion when the team needs the same customer context across several workflows. Add a Routine only when the trigger and review behavior are clear."
-          ]
+          "text": "A useful Support or Success method should not live with one person. Once the team trusts a workflow, Strawberry can preserve the sources, customer context, tone, routing, ownership, and review points behind it."
         },
         {
           "kind": "skills",
@@ -267,8 +258,15 @@
             {
               "id": "strawberry/operations/set-up-shared-team-workflow",
               "roleId": "customer-support-success",
-              "context": "Turn one trusted customer workflow into a shared team method with clear ownership, context, review, and stop conditions."
+              "context": "Turn a trusted customer workflow into a shared team method with clear context, ownership, review points, and stop conditions."
             }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Share the reviewed result when teammates only need the answer, brief, or account plan. Save the method as a team skill when they should follow the same process. Add a Routine only after the trigger, owner, review behavior, and stop conditions are stable.",
+          "emphasis": [
+            "Routine"
           ]
         }
       ]
