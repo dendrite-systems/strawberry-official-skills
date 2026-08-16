@@ -61,4 +61,3 @@ Use `strawberry/customer-support-success/review-customer-health` once onboarding
 ongoing view of outcomes, adoption, relationships, support experience, and risk. Preserve the
 accepted onboarding method only after it works; a Routine should surface changed milestones and
 exceptions, not silently change the plan.
-

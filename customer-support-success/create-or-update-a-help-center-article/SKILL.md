@@ -55,4 +55,3 @@ and verify any completed change.
 After publication, preserve the accepted structure and source rules. A maintenance Routine may
 surface stale links, changed product behavior, repeated low-helpfulness searches, or recurring
 tickets, but should prepare updates for review rather than silently changing customer guidance.
-

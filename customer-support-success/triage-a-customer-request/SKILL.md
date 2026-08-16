@@ -66,4 +66,3 @@ After the team accepts the categories, signals, routing, and response pattern, p
 later requests. A queue Routine may surface new and changed requests using named rules, but it
 should stop on ambiguous identity, unusual impact, sensitive content, or a case outside the accepted
 policy.
-

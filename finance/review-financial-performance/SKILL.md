@@ -60,4 +60,3 @@ sources and stops when a source version, definition, company, period, or materia
 
 This workflow is read-only analysis. Do not change a budget, forecast, ledger, source report, or
 external record, or share the result beyond the accepted audience.
-

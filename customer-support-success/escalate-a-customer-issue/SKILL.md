@@ -63,4 +63,3 @@ Track the accepted owner, next update, and resolution evidence. Use
 `strawberry/operations/close-open-loops` when the follow-through spans several teams or systems.
 Close the customer loop only when the outcome is verified; capture a reusable answer or help-center
 improvement when the resolution is stable.
-
