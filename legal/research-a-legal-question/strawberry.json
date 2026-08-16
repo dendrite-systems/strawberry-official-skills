@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Research a Legal Question",
+  "summary": "Answer a legal question in a named jurisdiction, with binding and persuasive authority separated and every citation verified or flagged.",
+  "icon": "books",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "legal",
+      "weight": 116,
+      "title": "Research a legal question",
+      "message": "Research this legal question in my jurisdiction. Start with secondary sources, then primary law, separate binding from persuasive authority, and flag anything you could not verify."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 84,
+      "title": "Understand the rules that apply to a client question",
+      "message": "Research the legal or regulatory position behind this client question, and keep the sources and their authority clear."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 86,
+      "title": "Understand the rules before a decision",
+      "message": "Research the legal position on this before I decide. Tell me which jurisdiction applies and what is settled versus contested."
+    }
+  ]
+}

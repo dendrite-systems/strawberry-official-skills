@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Brief a Regulation",
+  "summary": "Turn a new law, enforcement action, or guidance into a briefing covering scope, obligations, penalties, and dates, pitched at its audience.",
+  "icon": "files",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "legal",
+      "weight": 108,
+      "title": "Brief a new law or enforcement action",
+      "message": "Brief me on this instrument: what changed, who it applies to, the obligations, penalties, and key dates, with provision references I can check."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 82,
+      "title": "Understand a new rule that affects us",
+      "message": "Explain what this new regulation means for a company like ours, what we would have to do, and by when."
+    }
+  ]
+}

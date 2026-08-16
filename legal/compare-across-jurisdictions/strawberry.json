@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Compare Across Jurisdictions",
+  "summary": "Answer the same legal question across several jurisdictions in one like-for-like table, and explain what the differences mean in practice.",
+  "icon": "chart",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "legal",
+      "weight": 104,
+      "title": "Compare a question across jurisdictions",
+      "message": "Compare how this question is treated across these jurisdictions. Keep the columns like-for-like and tell me where they converge and diverge."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 80,
+      "title": "Understand the rules across our markets",
+      "message": "Compare the rules on this across the markets we operate in, and tell me what a single policy would have to satisfy."
+    }
+  ]
+}
