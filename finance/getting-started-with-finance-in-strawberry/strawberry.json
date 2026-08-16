@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "displayName": "Getting Started with Finance in Strawberry",
-  "summary": "Connect bookkeeping preparation, financial performance, forecasts, and follow-through, then choose a useful first workflow.",
+  "summary": "Connect recurring report preparation, bookkeeping support, financial performance, forecasts, and follow-through, then choose a useful first workflow.",
   "icon": "chart",
   "tags": [
     "getting-started-guide"
@@ -11,13 +11,13 @@
       "roleId": "finance",
       "weight": 122,
       "title": "Getting Started with Finance in Strawberry",
-      "message": "Show me how Strawberry can help with the practical Finance work in front of our team, then help me choose a useful first workflow."
+      "message": "Show me how Strawberry can help with the practical finance work in front of our team, then help me choose a useful first workflow."
     },
     {
       "roleId": "founder-executive",
       "weight": 90,
       "title": "Get a clearer financial picture",
-      "message": "Help me choose the Finance workflow that would most improve our records, current financial picture, forecast, or next update."
+      "message": "Help me choose the finance workflow that would most improve our records, current financial picture, forecast, or next update."
     }
   ]
 }

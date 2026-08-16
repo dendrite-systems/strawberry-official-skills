@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-financial-forecasting",
   "title": "How to build a financial forecast with AI",
   "description": "Use AI to build an assumption-led financial forecast with inspectable drivers, scenarios, cash, and runway.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "A forecast is useful when someone can change an assumption and understand what happens next. It is much less useful when the numbers arrive from a model that hides the source actuals, mixes inputs with formulas, or produces scenarios no one asked for.",
     "Strawberry can work in the existing spreadsheet while checking approved operating context in the browser and connected apps. Your companion can keep source versions and assumptions visible, update the calculations, and carry accepted performance drivers into the forward view."
@@ -103,7 +103,14 @@
         },
         {
           "kind": "paragraph",
-          "text": "Deliver the model with a concise assumption log, the base view, decision-relevant scenarios, cash or runway implications, and the questions that remain. Strawberry can remember the accepted model logic for the next update, but overwriting an approved budget, publishing the forecast, or changing an operating plan remains a separate decision."
+          "text": "Deliver the model with a concise assumption log, the base view, decision-relevant scenarios, cash or runway implications, and the questions that remain. Once the team trusts the model logic, save the method as a team skill so later updates use the same drivers and checks. A Routine can prepare a recurring draft and stop when the actuals, model version, or operating assumptions no longer match the accepted setup.",
+          "emphasis": [
+            "Routine"
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Overwriting an approved budget, publishing the forecast, or changing an operating plan remains a separate decision."
         },
         {
           "kind": "skills",
@@ -121,9 +128,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Finance in Strawberry",
-      "description": "Connect forecasting with clean financial evidence, performance analysis, and follow-through.",
-      "href": "/playbooks/finance"
+      "title": "How to organize invoices and receipts with AI",
+      "description": "Prepare traceable records and resolve gaps before they become model inputs.",
+      "href": "/playbooks/ai-invoice-receipt-bookkeeping"
+    },
+    {
+      "title": "How to review financial performance with AI",
+      "description": "Compare future actuals with the accepted forecast and explain the important movements.",
+      "href": "/playbooks/ai-financial-performance-analysis"
+    },
+    {
+      "title": "How to prepare for a fundraise with AI",
+      "description": "Carry the accepted financial view into the wider investor story and fundraising process.",
+      "href": "/playbooks/ai-fundraising-preparation"
     }
   ]
 }

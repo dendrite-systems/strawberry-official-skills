@@ -1,19 +1,19 @@
 ---
 name: organize-receipts-bookkeeping
-description: Gather invoices, receipts, and payment evidence from approved email, vendor portals, files, and records; build a traceable transaction register; separate missing or ambiguous items; and prepare an accountant handoff. Use for recurring bookkeeping preparation without making payments, posting entries, or changing source records.
+description: Gather invoices, receipts, and payment evidence from approved email, vendor portals, files, and records; build a traceable transaction register; separate missing or ambiguous items; and prepare the next finance review or handoff. Use for recurring bookkeeping preparation without making payments, posting entries, or changing source records.
 ---
 
 # Organize Receipts and Bookkeeping
 
-Turn scattered invoices, receipts, and payment evidence into a traceable register and clean
-accountant handoff. Prepare the evidence; do not decide the accounting treatment or alter a
-financial record.
+Turn scattered invoices, receipts, and payment evidence into a traceable register and clean review
+handoff. Prepare the records for the owner, finance team, bookkeeper, accountant, or other accepted
+reviewer; do not decide the accounting treatment or alter a financial record.
 
 ## 1. Define the handoff
 
 Establish the company or entity, period, currencies, approved sources, destination, reviewer, and
-definition of complete. Learn the existing register fields, file naming, matching rules, and
-accountant handoff format when they exist.
+definition of complete. Learn the existing register fields, file naming, matching rules, and review
+or handoff format when they exist.
 
 Useful approved sources may include email, vendor portals, billing tools, payment records, files,
 and an existing spreadsheet or accounting export. Work through visible, logged-in browser tabs when
@@ -51,7 +51,7 @@ Reconcile the register count and totals to the source set where possible. Check 
 currency consistency, links, filenames, and whether every exception is visible.
 
 Deliver the organized evidence, register, and exception list with a short handoff note covering
-scope, sources, coverage, unresolved items, and questions for the accountant or reviewer. Do not
+scope, sources, coverage, unresolved items, and questions for the accepted reviewer. Do not
 claim the books are complete or reconciled when only the supporting evidence has been prepared.
 
 Use `strawberry/finance/review-financial-performance` after the accepted records are ready and the

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Prepare a Recurring Finance Report",
+  "summary": "Turn approved portal or export data into a validated recurring finance report with clear exceptions and a review-ready handoff.",
+  "icon": "chart",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "finance",
+      "weight": 114,
+      "title": "Prepare a recurring finance report",
+      "message": "Prepare this recurring finance report from the approved sources, apply our accepted format and checks, and surface anything that needs review."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 88,
+      "title": "Prepare a recurring finance report",
+      "message": "Prepare this recurring finance report from the approved portals or exports, validate it, and show me the exceptions before it is shared."
+    }
+  ]
+}

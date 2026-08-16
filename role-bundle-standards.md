@@ -104,6 +104,9 @@ They share a recognizable journey without forcing every skill into the same temp
   sentence-economy pass after the structure is sound: tighten headings, table labels, transitions,
   and coaching language without
   removing the examples or connective reasoning that make the page useful.
+  Treat role names as ordinary nouns in reader-facing prose—“finance work,” “the marketing team,”
+  “a sales process”—unless they begin a sentence or appear in a formal title, navigation label, or
+  proper name. Internal role-label capitalization should not leak into article or card copy.
 - **Focused articles:** Teach one job rather than repainting the whole role. Use the smallest
   scannable structure that clarifies its real decisions—a heading outline, sequence, checklist,
   comparison, or example—not a visual quota or a copy of the Getting Started layout. Explain the
@@ -126,6 +129,10 @@ They share a recognizable journey without forcing every skill into the same temp
   only when the trigger, sources, destination, review behavior, and stop conditions are stable.
   Make an explicit reuse decision during article review, but omit the close for genuinely one-off
   work rather than pasting the same paragraph into every article.
+  Sharing and reuse are normally a maturity layer, not one of the role's headline use cases. Keep
+  them out of the early operating-system map and mention them briefly after the concrete workflows.
+  Give team setup its own section or card only when creating a shared method is itself a likely task
+  for that audience.
 - **Show where a focused skill fits:** Near the top of a focused article, use a compact `Part of`
   row linking to the published Getting Started guides that actually feature that skill. Derive the
   relationship from article references rather than role metadata, put the owning collection first,

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-invoice-receipt-bookkeeping",
   "title": "How to organize invoices and receipts with AI",
-  "description": "Use AI to gather financial documents, build a traceable register, surface exceptions, and prepare an accountant handoff.",
+  "description": "Use AI to gather financial documents, build a traceable register, surface exceptions, and prepare the next finance review.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -12,20 +12,20 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "Invoice and receipt collection is a good example of work that is simple in theory and tedious in practice. The evidence may be split across email, vendor portals, payment records, downloads, and a spreadsheet that only makes sense to the person who assembled it.",
-    "Strawberry can work through those sources in the visible, logged-in browser, keep each document connected to its origin, and prepare a register another person can review. The useful result is not autonomous bookkeeping. It is a cleaner handoff with fewer missing documents and fewer forced matches."
+    "Strawberry can work through those sources in the visible, logged-in browser, keep each document connected to its origin, and prepare a register another person can review. The useful result is not autonomous bookkeeping. It is a cleaner review with fewer missing documents and fewer forced matches."
   ],
   "sections": [
     {
       "id": "define-the-handoff-first",
-      "title": "Define the handoff first",
+      "title": "Decide what the reviewer needs",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Start with the company, period, currencies, approved sources, destination, and reviewer. If the accountant already uses a register, filename convention, or exception format, keep it. A new template is not an improvement when it creates more translation at the end."
+          "text": "Start with the company, period, currencies, approved sources, destination, and reviewer. If the owner, finance lead, bookkeeper, or accountant already uses a register, filename convention, or exception format, keep it. A new template is not an improvement when it creates more translation at the end."
         },
         {
           "kind": "skills",
@@ -33,7 +33,7 @@
             {
               "id": "strawberry/operations/organize-receipts-bookkeeping",
               "roleId": "finance",
-              "context": "Prepare the documents, register, and exceptions for the accountant or reviewer without altering financial records."
+              "context": "Prepare the documents, register, and exceptions for the accepted reviewer without altering financial records."
             }
           ]
         }
@@ -100,7 +100,10 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "After the accountant or operator accepts the sources, fields, filing convention, and matching rules, the companion can carry those choices into the next period. A Routine can collect from named sources and prepare a new register and exception list, stopping when the company, account, period, destination, or matching confidence changes."
+          "text": "After the reviewer accepts the sources, fields, filing convention, and matching rules, the companion can carry those choices into the next period. A Routine can collect from named sources and prepare a new register and exception list, stopping when the company, account, period, destination, or matching confidence changes.",
+          "emphasis": [
+            "Routine"
+          ]
         },
         {
           "kind": "paragraph",
@@ -112,9 +115,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Finance in Strawberry",
-      "description": "Connect bookkeeping preparation with financial performance, forecasting, and follow-through.",
-      "href": "/playbooks/finance"
+      "title": "How to use AI for Operations work",
+      "description": "Connect recurring finance administration with the wider operating system around it.",
+      "href": "/playbooks/operations"
+    },
+    {
+      "title": "How to review financial performance with AI",
+      "description": "Use accepted records to explain what changed and what needs attention.",
+      "href": "/playbooks/ai-financial-performance-analysis"
+    },
+    {
+      "title": "How to build a financial forecast with AI",
+      "description": "Carry the accepted current picture into a forecast for cash, runway, and operating decisions.",
+      "href": "/playbooks/ai-financial-forecasting"
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-financial-performance-analysis",
   "title": "How to review financial performance with AI",
   "description": "Use AI to validate financial comparisons, explain material drivers, and keep supported causes separate from hypotheses.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "A financial review often starts with a spreadsheet and ends with a story about why the numbers moved. The calculation is usually easier than the explanation. Different source versions, metric definitions, and comparison periods can distort the result before the analysis even begins.",
     "Strawberry can work across the model, approved dashboards, operating records, and meeting context while keeping sources beside the claims. That lets the companion test an explanation instead of turning the first plausible narrative into a fact."
@@ -119,7 +119,14 @@
         },
         {
           "kind": "paragraph",
-          "text": "The performance review remains read-only. Strawberry can remember accepted definitions, source mappings, and materiality for the next cycle, but it does not change the budget, forecast, ledger, or source report."
+          "text": "Once the team trusts the definitions, source mappings, materiality, and comparison logic, save that review method as a team skill. A Routine can prepare the next draft on schedule and stop when a source version, definition, entity, or period changes.",
+          "emphasis": [
+            "Routine"
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The performance review remains read-only. Strawberry does not change the budget, forecast, ledger, or source report."
         }
       ]
     }
@@ -127,9 +134,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Finance in Strawberry",
-      "description": "See how financial records, performance, forecasts, and follow-through connect.",
-      "href": "/playbooks/finance"
+      "title": "How to prepare for a fundraise with AI",
+      "description": "Carry the accepted financial picture into the wider investor story and fundraising process.",
+      "href": "/playbooks/ai-fundraising-preparation"
+    },
+    {
+      "title": "How to build a financial forecast with AI",
+      "description": "Carry accepted performance drivers into a forecast and test the scenarios that matter.",
+      "href": "/playbooks/ai-financial-forecasting"
+    },
+    {
+      "title": "How to organize invoices and receipts with AI",
+      "description": "Gather the documents and exceptions that support a cleaner financial picture.",
+      "href": "/playbooks/ai-invoice-receipt-bookkeeping"
     }
   ]
 }
