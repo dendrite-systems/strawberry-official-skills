@@ -52,6 +52,24 @@
       "weight": 94,
       "title": "Create a beautiful slide deck for me",
       "message": "I want to create a beautiful slide deck."
+    },
+    {
+      "roleId": "student",
+      "weight": 88,
+      "title": "Turn my work into a presentation",
+      "message": "Turn this work into a clear, well-designed presentation I can actually present."
+    },
+    {
+      "roleId": "data-analytics",
+      "weight": 80,
+      "title": "Present findings to stakeholders",
+      "message": "Turn this accepted analysis into a presentation that leads with the finding and keeps the evidence traceable."
+    },
+    {
+      "roleId": "education",
+      "weight": 92,
+      "title": "Turn a lesson into presentable material",
+      "message": "Turn this lesson or topic into clear teaching material I can present."
     }
   ]
 }

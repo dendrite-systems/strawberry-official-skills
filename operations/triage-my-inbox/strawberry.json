@@ -24,6 +24,12 @@
       "weight": 80,
       "title": "Sort incoming messages",
       "message": "Prioritize this email, LinkedIn, or messaging inbox and prepare the replies, follow-ups, and cleanup I should review."
+    },
+    {
+      "roleId": "healthcare",
+      "weight": 84,
+      "title": "Prioritize an overloaded inbox",
+      "message": "Prioritize my inbox, show me what genuinely needs a reply, and draft the routine responses for my review."
     }
   ]
 }

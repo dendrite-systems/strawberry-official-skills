@@ -18,6 +18,12 @@
       "weight": 88,
       "title": "Prepare a recurring finance report",
       "message": "Prepare this recurring finance report from the approved portals or exports, validate it, and show me the exceptions before it is shared."
+    },
+    {
+      "roleId": "data-analytics",
+      "weight": 84,
+      "title": "Build a validated recurring report",
+      "message": "Turn this approved data into a validated recurring report, and show me the checks behind the figures."
     }
   ]
 }

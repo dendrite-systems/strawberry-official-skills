@@ -10,6 +10,12 @@
       "weight": 108,
       "title": "Define and review product metrics",
       "message": "Define the product metrics this decision needs, review the performance we can support with current data, and make the definitions, gaps, and implications clear."
+    },
+    {
+      "roleId": "data-analytics",
+      "weight": 96,
+      "title": "Define or review a metric framework",
+      "message": "Help me define a useful metric framework, or review real performance against the one we already use."
     }
   ]
 }

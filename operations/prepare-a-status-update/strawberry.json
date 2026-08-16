@@ -46,6 +46,12 @@
       "weight": 88,
       "title": "Prepare a customer or account update",
       "message": "Turn the accepted customer, support, onboarding, or health evidence into a concise update for the right internal or customer audience."
+    },
+    {
+      "roleId": "education",
+      "weight": 78,
+      "title": "Prepare an update for parents or faculty",
+      "message": "Turn my current work into a concise, accurate update for the people who need it."
     }
   ]
 }

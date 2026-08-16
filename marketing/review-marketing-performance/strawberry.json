@@ -10,6 +10,12 @@
       "weight": 110,
       "title": "Review marketing performance",
       "message": "Review our marketing performance, make the attribution and data limits clear, and recommend the decisions or experiments the evidence supports."
+    },
+    {
+      "roleId": "data-analytics",
+      "weight": 86,
+      "title": "Reconcile conflicting performance definitions",
+      "message": "Reconcile how these metrics are defined across sources, explain the meaningful changes, and show what the numbers cannot support."
     }
   ]
 }

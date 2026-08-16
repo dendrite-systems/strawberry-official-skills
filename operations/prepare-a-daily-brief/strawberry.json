@@ -36,6 +36,12 @@
       "weight": 82,
       "title": "Get oriented for the day",
       "message": "Help me work out what matters today from my calendar, messages, tasks, meetings, and current work."
+    },
+    {
+      "roleId": "student",
+      "weight": 82,
+      "title": "See what needs attention today",
+      "message": "Show me what deserves my attention today across my calendar, messages, and deadlines."
     }
   ]
 }

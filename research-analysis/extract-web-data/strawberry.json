@@ -34,6 +34,18 @@
       "weight": 84,
       "title": "Turn websites into a clean spreadsheet",
       "message": "I want to extract structured data from websites into a clean spreadsheet."
+    },
+    {
+      "roleId": "student",
+      "weight": 90,
+      "title": "Build a dataset for a project or dissertation",
+      "message": "Collect these repeated fields across the sources I need into one clean, checkable spreadsheet."
+    },
+    {
+      "roleId": "legal",
+      "weight": 84,
+      "title": "Collect repeated records across many sources",
+      "message": "Collect the same fields across these registers, filings, or case records into one validated table with a source link per row."
     }
   ]
 }

@@ -30,6 +30,36 @@
       "weight": 82,
       "title": "Research a company",
       "message": "Research this company around the question I need answered and give me a concise brief with the important findings and source links."
+    },
+    {
+      "roleId": "student",
+      "weight": 96,
+      "title": "Research an organization before applying or interviewing",
+      "message": "Research this organization around what I need to know before I apply, interview, or reach out. Give me a concise brief with source links."
+    },
+    {
+      "roleId": "writer-creator",
+      "weight": 90,
+      "title": "Research a subject before writing about it",
+      "message": "Research this company or organization around the story I am writing. Show me what is verified, what is the subject’s own claim, and what is still uncertain."
+    },
+    {
+      "roleId": "education",
+      "weight": 84,
+      "title": "Research an organization or institution",
+      "message": "Research this organization around the question I need answered, and keep the sources easy to check."
+    },
+    {
+      "roleId": "legal",
+      "weight": 92,
+      "title": "Research a counterparty or opposing organization",
+      "message": "Research this organization as a counterparty. Cover corporate identity, jurisdiction, public regulatory history, and recent changes, with sources beside each finding."
+    },
+    {
+      "roleId": "healthcare",
+      "weight": 78,
+      "title": "Research a supplier, insurer, or employer",
+      "message": "Research this organization around the administrative or commercial question in front of me, and keep the sources easy to inspect."
     }
   ]
 }

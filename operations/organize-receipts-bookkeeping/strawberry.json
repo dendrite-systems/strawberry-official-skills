@@ -30,6 +30,12 @@
       "weight": 82,
       "title": "Find my receipts and organize my bookkeeping",
       "message": "I want to find my receipts and organize my bookkeeping."
+    },
+    {
+      "roleId": "healthcare",
+      "weight": 80,
+      "title": "Organize practice admin and receipts",
+      "message": "Gather my invoices and receipts, build a traceable register, and show me what is missing."
     }
   ]
 }

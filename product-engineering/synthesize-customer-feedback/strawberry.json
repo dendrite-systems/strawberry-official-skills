@@ -16,6 +16,12 @@
       "weight": 96,
       "title": "Synthesize recurring customer feedback",
       "message": "Turn the approved customer feedback across tickets, conversations, and account context into source-linked themes, tensions, examples, and gaps for Product without automatically prioritizing the roadmap."
+    },
+    {
+      "roleId": "design",
+      "weight": 84,
+      "title": "Turn feedback into design themes",
+      "message": "Turn this approved feedback into source-linked themes, tensions, and examples I can design against."
     }
   ]
 }
