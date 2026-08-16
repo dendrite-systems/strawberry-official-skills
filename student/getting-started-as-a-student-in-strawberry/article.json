@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "student",
+  "title": "How to use AI as a student",
+  "description": "Understand difficult material, gather sources that hold up to scrutiny, produce what is due, and keep track of a whole term.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Student work is mostly research and production under a deadline. The reading you have bounced off three times, the sources that need to hold up when a marker checks them, the essay and the group project and the form that all come due in the same week—that is where the time actually goes.",
+    "Most AI tools offer to write the essay, which is the part you are meant to do. Strawberry works in the browser instead, so it can follow a reading list into the databases and journals your institution already gives you access to, compare what it finds against your own course material, and keep the link and date next to every claim. What comes back is something you can check and build on."
+  ],
+  "sections": [
+    {
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
+      "blocks": [
+        {
+          "kind": "section-nav",
+          "items": [
+            {
+              "href": "#understand-the-material",
+              "title": "Understand the material",
+              "description": "Get a hard topic explained at the level you actually need, against your own readings."
+            },
+            {
+              "href": "#find-sources-that-hold-up",
+              "title": "Find sources that hold up",
+              "description": "Gather current, credible sources with links and dates you can cite and defend."
+            },
+            {
+              "href": "#produce-what-is-due",
+              "title": "Produce what is due",
+              "description": "Strengthen your own argument, structure, and evidence into the essay, dataset, or presentation."
+            },
+            {
+              "href": "#stay-ahead-of-the-term",
+              "title": "Stay ahead of the term",
+              "description": "See what needs attention today and catch the commitments you have forgotten."
+            }
+          ]
+        },
+        {
+          "kind": "guided-entry",
+          "text": "Not sure where to start? Tell your companion what is due and when, and it can suggest the most useful thing to do first.",
+          "skill": {
+            "id": "strawberry/student/getting-started-as-a-student-in-strawberry",
+            "roleId": "student",
+            "context": "Help me work out where to start with what I have due."
+          }
+        }
+      ]
+    },
+    {
+      "id": "understand-the-material",
+      "title": "Understand the material",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Being stuck on a reading is rarely about vocabulary. Usually a paper assumes a debate you have not met yet, and no amount of rereading the paragraph will supply it. What helps is someone mapping the argument around it—what position this author is arguing against, and why it mattered enough to publish."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Your companion can explain the topic at the level you actually need and work from your own set readings rather than a generic summary, which matters when a popular explanation online quietly contradicts what your course expects you to know."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/map-a-market",
+              "roleId": "student",
+              "context": "Map this field so I can see the main positions and who is worth reading."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "find-sources-that-hold-up",
+      "title": "Find sources that hold up",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A citation is a promise that someone else can go and check. That is why fabricated references are so damaging, and why a source you have not opened is a liability rather than an asset."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strawberry can work through the library databases, journal subscriptions, and reading lists you are already entitled to use, then bring what it finds together with the open web. It keeps the link and the date beside each claim, separates what a source actually says from an interpretation of it, and flags where two credible sources disagree instead of quietly picking one."
+        },
+        {
+          "kind": "paragraph",
+          "text": "That last part is worth more than it sounds. A genuine disagreement between two respected sources is usually a better paragraph than another citation that agrees with you."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/extract-web-data",
+              "roleId": "student",
+              "context": "Collect these fields across the papers or records I need into one clean table."
+            },
+            {
+              "id": "strawberry/research-analysis/research-a-company",
+              "roleId": "student",
+              "context": "Research this organization before my application or interview."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "produce-what-is-due",
+      "title": "Produce what is due",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Strawberry will not write an assessed submission for you, or invent a quotation to fill a gap. It will pressure-test an outline that does not hold, find evidence where your argument is thin, name the counterargument you have avoided, and give honest feedback on a draft you wrote. That is supervisor work, and most students get too little of it."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/create-beautiful-slide-deck",
+              "roleId": "student",
+              "context": "Turn this work into a presentation I can actually present."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stay-ahead-of-the-term",
+      "title": "Stay ahead of the term",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Deadlines rarely fail because the work was too hard. They fail because a reading, a form, a supervisor's email, and a group project all came due in the same week and nothing was tracking them together."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "See today clearly",
+              "text": "What deserves your attention now, across deadlines, calendar, and messages.",
+              "skill": {
+                "id": "strawberry/operations/prepare-a-daily-brief",
+                "roleId": "student",
+                "context": "Show me what deserves my attention today."
+              }
+            },
+            {
+              "title": "Catch what you have forgotten",
+              "text": "The commitments, unanswered emails, and follow-ups that have gone quiet.",
+              "skill": {
+                "id": "strawberry/operations/close-open-loops",
+                "roleId": "student",
+                "context": "Find the commitments and replies I still owe."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once a way of working proves useful, it can be saved—your citation style, the sources you trust, how you like feedback delivered—so the next essay starts from that instead of a blank page. If something genuinely recurs, like watching a journal or a funding call for new material, it can become a Routine.",
+          "emphasis": [
+            "Routine"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for research and analysis",
+      "description": "Go deeper on sourcing, market mapping, structured evidence, and keeping research current.",
+      "href": "/playbooks/research-analysis"
+    },
+    {
+      "title": "How to research a company with AI",
+      "description": "Build a source-linked view of one organization before an application, interview, or case study.",
+      "href": "/playbooks/ai-company-research"
+    },
+    {
+      "title": "How to use AI for operations work",
+      "description": "Bring deadlines, messages, and commitments into one place you can actually act on.",
+      "href": "/playbooks/operations"
+    }
+  ]
+}

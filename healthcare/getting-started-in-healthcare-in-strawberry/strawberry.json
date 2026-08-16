@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Getting Started in Healthcare in Strawberry",
+  "summary": "Take back time from administrative load, and keep up with new research, trials, and guidance in your field.",
+  "icon": "inbox",
+  "tags": [
+    "getting-started-guide"
+  ],
+  "useCases": [
+    {
+      "roleId": "healthcare",
+      "weight": 124,
+      "title": "Getting Started in Healthcare in Strawberry",
+      "message": "I want to get started in Strawberry with my admin load and keeping up with my field."
+    }
+  ]
+}

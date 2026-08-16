@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Getting Started in Education in Strawberry",
+  "summary": "Prepare material from current sources, explain a topic at the right level, and keep on top of feedback and admin.",
+  "icon": "books",
+  "tags": [
+    "getting-started-guide"
+  ],
+  "useCases": [
+    {
+      "roleId": "education",
+      "weight": 124,
+      "title": "Getting Started in Education in Strawberry",
+      "message": "I want to get started in Strawberry with lesson preparation, explanations, and feedback."
+    }
+  ]
+}

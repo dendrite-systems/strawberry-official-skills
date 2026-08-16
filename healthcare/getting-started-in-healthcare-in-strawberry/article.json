@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "healthcare",
+  "title": "How to use AI for healthcare admin and research",
+  "description": "Take back time from inbox and practice admin, and keep up with new papers, trials, and guidance in your field.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "The admin is the part nobody trained for. Referral chasing, indemnity paperwork, an inbox that refills faster than it empties, and a literature you meant to keep up with in 2023—none of it is clinical work, and all of it happens after the clinical work is done.",
+    "This is deliberately not a clinical tool. Strawberry does not diagnose, recommend treatment, or interpret results, and it should not be given identifiable patient data. What it can do is take the administrative load and the reading, working in the browser across your inbox, your practice paperwork, and the journals and registries you already have access to."
+  ],
+  "sections": [
+    {
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
+      "blocks": [
+        {
+          "kind": "section-nav",
+          "items": [
+            {
+              "href": "#take-back-the-admin-hours",
+              "title": "Take back the admin hours",
+              "description": "An inbox that gets prioritized, follow-ups that get caught, paperwork that gets filed."
+            },
+            {
+              "href": "#keep-up-with-the-field",
+              "title": "Keep up with the field",
+              "description": "New papers, trials, and guidance in your area, with citations and dates attached."
+            },
+            {
+              "href": "#everything-around-the-clinical-work",
+              "title": "The work around the clinic",
+              "description": "Suppliers, insurers, indemnity, and employers, researched with sources attached."
+            }
+          ]
+        },
+        {
+          "kind": "guided-entry",
+          "text": "Not sure where to start? Tell your companion which part of the week costs you most and it can suggest a first step.",
+          "skill": {
+            "id": "strawberry/healthcare/getting-started-in-healthcare-in-strawberry",
+            "roleId": "healthcare",
+            "context": "Help me take back some time from admin or keeping up with my field."
+          }
+        }
+      ]
+    },
+    {
+      "id": "take-back-the-admin-hours",
+      "title": "Take back the admin hours",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Most of this load is not hard, it is just relentless, and it arrives in the gaps between everything else. That is exactly the kind of work worth handing over."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Get through the inbox",
+              "text": "Prioritize what genuinely needs you, with the routine replies drafted for your review.",
+              "skill": {
+                "id": "strawberry/operations/triage-my-inbox",
+                "roleId": "healthcare",
+                "context": "Prioritize my inbox and draft the routine replies."
+              }
+            },
+            {
+              "title": "Catch what has gone quiet",
+              "text": "The referrals, follow-ups, and commitments waiting on you or on someone else.",
+              "skill": {
+                "id": "strawberry/operations/close-open-loops",
+                "roleId": "healthcare",
+                "context": "Find the follow-ups and commitments I still owe."
+              }
+            },
+            {
+              "title": "File the practice paperwork",
+              "text": "Invoices and receipts gathered into a traceable register, with the gaps flagged.",
+              "skill": {
+                "id": "strawberry/operations/organize-receipts-bookkeeping",
+                "roleId": "healthcare",
+                "context": "Organize my practice receipts and show me what is missing."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keep-up-with-the-field",
+      "title": "Keep up with the field",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Falling behind on the literature is not a motivation problem. Reading it is unpaid, unscheduled, and competes with everything that has a patient attached to it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strawberry can build a current picture of your area from published sources—journals, trial registries, regulators, professional bodies, and whatever your institution subscribes to. It keeps the citation and date beside each finding, separates a peer-reviewed result from a preprint or a press release, and says when the evidence is contested rather than presenting one study as settled."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Start by just asking. When the same question comes round every month, it can become a Routine that watches agreed sources and reports only what has genuinely changed—but that is worth setting up after the ad hoc version has earned it, not before.",
+          "emphasis": [
+            "Routine"
+          ]
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/map-a-market",
+              "roleId": "healthcare",
+              "context": "Show me the current research, trials, and guidance in this area."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "everything-around-the-clinical-work",
+      "title": "The work around the clinic",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Choosing an indemnity provider, checking a supplier, or looking properly at a prospective employer all take an evening you do not have. Strawberry can research any of them and keep the sources attached, so you are deciding from evidence rather than from whoever markets hardest."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/research-a-company",
+              "roleId": "healthcare",
+              "context": "Research this supplier, insurer, or employer for me."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for operations work",
+      "description": "Go deeper on inbox triage, open commitments, and the admin that fills the gaps.",
+      "href": "/playbooks/operations"
+    },
+    {
+      "title": "How to use AI for research and analysis",
+      "description": "Go deeper on sourcing, mapping a field, and keeping research current.",
+      "href": "/playbooks/research-analysis"
+    },
+    {
+      "title": "How to research a company with AI",
+      "description": "Build a source-linked view of a supplier, insurer, or prospective employer.",
+      "href": "/playbooks/ai-company-research"
+    }
+  ]
+}

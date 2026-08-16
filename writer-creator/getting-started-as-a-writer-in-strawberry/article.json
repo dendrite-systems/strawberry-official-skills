@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-writing",
+  "title": "How to write with AI and still sound like you",
+  "description": "Research a subject properly, draft in your own voice, and adapt finished work across the channels you publish on.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "You can always tell. The rhythm flattens, every paragraph resolves into the same tidy takeaway, and nothing in it could only have been written by one person. Which is why most writers who try it end up rewriting the draft completely and deciding the whole thing costs more than it saves.",
+    "That happens because generating prose is the one part of writing you should not outsource. The parts worth handing over are the ones that eat the day: learning a subject well enough to say something true about it, finding the sources that hold up, and turning one finished piece into the five formats it owes. Strawberry works in the browser, so it can research a subject across real sites and logged-in tools, keep the link and date beside every claim, and learn your voice from work you have already published."
+  ],
+  "sections": [
+    {
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
+      "blocks": [
+        {
+          "kind": "section-nav",
+          "items": [
+            {
+              "href": "#know-the-subject",
+              "title": "Know the subject",
+              "description": "Learn a topic well enough to have a position, with sources that hold up."
+            },
+            {
+              "href": "#sound-like-yourself",
+              "title": "Sound like yourself",
+              "description": "Teach your companion your voice from work you have already published."
+            },
+            {
+              "href": "#make-the-piece-owe-less",
+              "title": "Make one piece go further",
+              "description": "Adapt finished work into the other formats it owes without flattening it."
+            },
+            {
+              "href": "#decide-what-is-next",
+              "title": "Decide what is next",
+              "description": "Plan what to publish based on what worked and what you have not covered."
+            }
+          ]
+        },
+        {
+          "kind": "guided-entry",
+          "text": "Not sure where to start? Tell your companion what you are working on and it can suggest the most useful first step.",
+          "skill": {
+            "id": "strawberry/writer-creator/getting-started-as-a-writer-in-strawberry",
+            "roleId": "writer-creator",
+            "context": "Help me work out where to start with the piece I am writing."
+          }
+        }
+      ]
+    },
+    {
+      "id": "know-the-subject",
+      "title": "Know the subject",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Writing that falls flat usually fails on substance rather than style. The author read three summaries, found nothing anyone else had missed, and wrote around the gap."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strawberry can follow a subject across real sources instead of stopping at the first page of results—into documentation, filings, forums, archives, and the logged-in tools you already pay for. What you want from that is not coverage but the detail worth building a piece around: the contradiction, the number smaller than everyone assumes, the thing practitioners say that the marketing does not."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Map an unfamiliar subject",
+              "text": "See the main positions, who is worth reading, and which arguments are already exhausted.",
+              "skill": {
+                "id": "strawberry/research-analysis/map-a-market",
+                "roleId": "writer-creator",
+                "context": "Map this topic so I understand the landscape before I write."
+              }
+            },
+            {
+              "title": "Research one organization",
+              "text": "Separate what a company claims about itself from what is independently supported.",
+              "skill": {
+                "id": "strawberry/research-analysis/research-a-company",
+                "roleId": "writer-creator",
+                "context": "Research this organization for the piece I am writing."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sound-like-yourself",
+      "title": "Sound like yourself",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Give your companion two or three pieces you are happy with and it can work from your actual voice—your sentence rhythm, how much you qualify, whether you use humor, what you refuse to say. That is a different exercise from asking for a tone, and it is the difference between a draft you edit and a draft you bin."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It will not invent a quotation, a statistic, or a person to make a paragraph land. For anything you publish under your own name, that matters more than any amount of fluency."
+        }
+      ]
+    },
+    {
+      "id": "make-the-piece-owe-less",
+      "title": "Make one piece go further",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A finished piece usually owes several more: the newsletter version, the thread, the talk, the client-facing one-pager. Most of that work is mechanical, which is exactly why it gets done badly or not at all."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Adapt it across channels",
+              "text": "Rework the same argument for the places you actually publish, without compressing it into something generic.",
+              "skill": {
+                "id": "strawberry/marketing/create-and-repurpose-marketing-content",
+                "roleId": "writer-creator",
+                "context": "Adapt this finished piece for the other channels I publish on."
+              }
+            },
+            {
+              "title": "Turn it into something presented",
+              "text": "Move from a written argument to a talk or deck when the audience needs to watch rather than read.",
+              "skill": {
+                "id": "strawberry/research-analysis/create-beautiful-slide-deck",
+                "roleId": "writer-creator",
+                "context": "Turn this piece into a presentation."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decide-what-is-next",
+      "title": "Decide what is next",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The hardest editorial question is what to make next, and most people answer it from whatever they read that morning. A plan built from what has actually worked and what you have not covered yet beats that."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/build-a-content-plan",
+              "roleId": "writer-creator",
+              "context": "Help me plan what to publish next."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once this works, the accepted voice, sources, structure, and editing style can be saved so the next piece starts there. If you cover a beat, watching a set of sources for material worth writing about can become a Routine.",
+          "emphasis": [
+            "Routine"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for research and analysis",
+      "description": "Go deeper on sourcing, mapping a subject, and building structured evidence.",
+      "href": "/playbooks/research-analysis"
+    },
+    {
+      "title": "How to use AI for marketing",
+      "description": "Take the same work into audience research, campaigns, and channel planning.",
+      "href": "/playbooks/marketing"
+    },
+    {
+      "title": "How to research a company with AI",
+      "description": "Build a source-linked view of one organization when a piece turns on what it actually does.",
+      "href": "/playbooks/ai-company-research"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "education",
+  "title": "How to use AI to prepare teaching material",
+  "description": "Prepare material from current sources, explain a topic at the level your students are actually at, and keep on top of feedback and admin.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Teaching a topic you know well still takes a whole evening to prepare, because the work is not recalling the material. It is finding a current example, deciding which of the four explanations will land with this particular group, and building something that matches the specification they will actually be assessed on.",
+    "Strawberry can take the searching and assembling part. It works in the browser, so it can pull current material from real sources, work against your own curriculum or set texts rather than a generic version of the topic, and keep the link and date beside anything you will stand up and present as fact."
+  ],
+  "sections": [
+    {
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
+      "blocks": [
+        {
+          "kind": "section-nav",
+          "items": [
+            {
+              "href": "#pitch-it-right",
+              "title": "Pitch it at the right level",
+              "description": "Several explanations of the same idea, aimed at the group actually in the room."
+            },
+            {
+              "href": "#build-from-current-sources",
+              "title": "Build from current sources",
+              "description": "Prepare material against your specification, with sources you can stand behind."
+            },
+            {
+              "href": "#feedback-without-outsourcing-judgment",
+              "title": "Give feedback faster",
+              "description": "Work from your rubric and your judgment, with the drafting taken off your plate."
+            },
+            {
+              "href": "#stay-on-top-of-the-term",
+              "title": "Stay on top of the term",
+              "description": "Catch what you owe students and colleagues before it becomes a problem."
+            }
+          ]
+        },
+        {
+          "kind": "guided-entry",
+          "text": "Not sure where to start? Tell your companion what you are teaching and to whom, and it can suggest a useful first step.",
+          "skill": {
+            "id": "strawberry/education/getting-started-in-education-in-strawberry",
+            "roleId": "education",
+            "context": "Help me prepare what I am teaching next."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pitch-it-right",
+      "title": "Pitch it at the right level",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The usual failure is material that is accurate and aimed slightly past the room. Ask for an explanation of a topic and most tools give you the canonical one, which is often the version written for people who already understand it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It is more useful to get several: an analogy, a worked example, and the misconception students reliably arrive with. You know which will land with your group; the work you want taken off your plate is producing all three."
+        }
+      ]
+    },
+    {
+      "id": "build-from-current-sources",
+      "title": "Build from current sources",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Material presented to a class carries your authority behind it, so a fabricated statistic is a different kind of problem than it is elsewhere. Strawberry keeps the link and date beside each claim, and it will not invent a source to complete a slide."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Teach into an unfamiliar field",
+              "text": "Get the main positions, key sources, and current debates before you build the course.",
+              "skill": {
+                "id": "strawberry/research-analysis/map-a-market",
+                "roleId": "education",
+                "context": "Map this subject area before I build the material."
+              }
+            },
+            {
+              "title": "Turn it into something teachable",
+              "text": "Move from prepared material to slides sequenced by what students need to understand first.",
+              "skill": {
+                "id": "strawberry/research-analysis/create-beautiful-slide-deck",
+                "roleId": "education",
+                "context": "Turn this lesson into presentable material."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feedback-without-outsourcing-judgment",
+      "title": "Give feedback faster",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Marking is slow because writing the comment takes longer than forming the judgment. Your companion can work from your rubric to draft comments you edit, show patterns across a whole set of work, and flag where you have applied a criterion inconsistently between the first script and the twentieth."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It does not assign the grade. That stays yours, and so does the judgment behind it."
+        }
+      ]
+    },
+    {
+      "id": "stay-on-top-of-the-term",
+      "title": "Stay on top of the term",
+      "blocks": [
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Catch what you owe",
+              "text": "The commitments, unanswered emails, and follow-ups to students and colleagues that have gone quiet.",
+              "skill": {
+                "id": "strawberry/operations/close-open-loops",
+                "roleId": "education",
+                "context": "Find the follow-ups and commitments I still owe."
+              }
+            },
+            {
+              "title": "Write the update",
+              "text": "A concise, accurate update when faculty, parents, or a department need one.",
+              "skill": {
+                "id": "strawberry/operations/prepare-a-status-update",
+                "roleId": "education",
+                "context": "Turn my current work into a concise update."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once a module works, the accepted level, structure, sources, and feedback style can be saved so next year starts from there rather than from scratch. Watching a syllabus area for new material worth teaching can become a Routine.",
+          "emphasis": [
+            "Routine"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for research and analysis",
+      "description": "Go deeper on sourcing, mapping a field, and keeping material current.",
+      "href": "/playbooks/research-analysis"
+    },
+    {
+      "title": "How to use AI as a student",
+      "description": "The other side of the same work: understanding material, sourcing it, and meeting deadlines.",
+      "href": "/playbooks/student"
+    },
+    {
+      "title": "How to use AI for operations work",
+      "description": "Bring deadlines, messages, and commitments into one place you can act on.",
+      "href": "/playbooks/operations"
+    }
+  ]
+}

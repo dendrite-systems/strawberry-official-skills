@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Getting Started as a Student in Strawberry",
+  "summary": "Understand a hard topic, gather sources that hold up, produce what is due, and stay ahead of deadlines.",
+  "icon": "books",
+  "tags": [
+    "getting-started-guide"
+  ],
+  "useCases": [
+    {
+      "roleId": "student",
+      "weight": 124,
+      "title": "Getting Started as a Student in Strawberry",
+      "message": "I want to get started in Strawberry with my coursework, reading, and deadlines."
+    }
+  ]
+}
