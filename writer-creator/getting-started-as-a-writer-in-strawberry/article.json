@@ -16,7 +16,7 @@
   "noindex": false,
   "introduction": [
     "You can always tell. The rhythm flattens, every paragraph resolves into the same tidy takeaway, and nothing in it could only have been written by one person. Which is why most writers who try it end up rewriting the draft completely and deciding the whole thing costs more than it saves.",
-    "That happens because generating prose is the one part of writing you should not outsource. The parts worth handing over are the ones that eat the day: learning a subject well enough to say something true about it, finding the sources that hold up, and turning one finished piece into the five formats it owes. Strawberry works in the browser, so it can research a subject across real sites and logged-in tools, keep the link and date beside every claim, and learn your voice from work you have already published."
+    "That happens because generating prose is the one part of writing you shouldn't outsource. The parts worth handing over are the ones that eat the day: learning a subject well enough to say something true about it, finding the sources that hold up, and turning one finished piece into the five formats it owes. Strawberry works in the browser, so it can research a subject across real sites and logged-in tools, keep the link and date beside every claim, and learn your voice from work you have already published."
   ],
   "sections": [
     {
@@ -69,7 +69,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Strawberry can follow a subject across real sources instead of stopping at the first page of results—into documentation, filings, forums, archives, and the logged-in tools you already pay for. What you want from that is not coverage but the detail worth building a piece around: the contradiction, the number smaller than everyone assumes, the thing practitioners say that the marketing does not."
+          "text": "Strawberry can follow a subject past the first page of results, into documentation, filings, forums, archives, and the logged-in tools you already pay for. What you want out of that isn't coverage. It's the one detail worth building a piece around: the contradiction, the number smaller than everyone assumes, the thing practitioners say that the marketing doesn't."
         },
         {
           "kind": "skill-lanes",
@@ -102,11 +102,11 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Give your companion two or three pieces you are happy with and it can work from your actual voice—your sentence rhythm, how much you qualify, whether you use humor, what you refuse to say. That is a different exercise from asking for a tone, and it is the difference between a draft you edit and a draft you bin."
+          "text": "Give your companion two or three pieces you're happy with and it works from your actual voice. Your sentence rhythm, how much you qualify, whether you use humor, what you refuse to say. That's a different exercise from asking for a tone, and it's the difference between a draft you edit and a draft you bin."
         },
         {
           "kind": "paragraph",
-          "text": "It will not invent a quotation, a statistic, or a person to make a paragraph land. For anything you publish under your own name, that matters more than any amount of fluency."
+          "text": "It won't invent a quotation, a statistic, or a person to make a paragraph land. For anything going out under your own name, that matters more than any amount of fluency."
         }
       ]
     },
@@ -149,7 +149,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The hardest editorial question is what to make next, and most people answer it from whatever they read that morning. A plan built from what has actually worked and what you have not covered yet beats that."
+          "text": "The hardest editorial question is what to make next, and most people answer it from whatever they read that morning. A plan built from what's actually worked, and what you haven't covered yet, beats that."
         },
         {
           "kind": "skills",
@@ -160,12 +160,29 @@
               "context": "Help me plan what to publish next."
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "keep-what-works",
+      "title": "Keep what works",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Voice is the part worth protecting. Once your companion has it right, that calibration can be saved along with the sources you trust, the structure you tend to use, and how blunt you want the feedback. The next piece starts from there rather than from a cold start."
         },
         {
           "kind": "paragraph",
-          "text": "Once this works, the accepted voice, sources, structure, and editing style can be saved so the next piece starts there. If you cover a beat, watching a set of sources for material worth writing about can become a Routine.",
-          "emphasis": [
-            "Routine"
+          "text": "If you write with an editor, a team, or a client, the accepted voice and standards can be shared so the work stays recognisably yours no matter who briefs it."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/set-up-shared-team-workflow",
+              "roleId": "writer-creator",
+              "context": "Turn our accepted voice and standards into something the team can reuse."
+            }
           ]
         }
       ]

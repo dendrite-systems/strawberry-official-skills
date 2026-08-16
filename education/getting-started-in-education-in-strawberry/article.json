@@ -146,10 +146,34 @@
               }
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "reuse-it-next-year",
+      "title": "Reuse it next year",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Teaching material has a strange lifecycle. You build it once under pressure, use it, and then rebuild most of it a year later because the thinking behind it lives in your head rather than in the file."
         },
         {
           "kind": "paragraph",
-          "text": "Once a module works, the accepted level, structure, sources, and feedback style can be saved so next year starts from there rather than from scratch. Watching a syllabus area for new material worth teaching can become a Routine.",
+          "text": "Once a module works, the level you pitched it at, the sources you trusted, the structure, and the way you give feedback can all be saved. Next year starts from that. If your department teaches the same course from different rooms, that accepted approach can be shared so nobody rebuilds it in parallel."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/set-up-shared-team-workflow",
+              "roleId": "education",
+              "context": "Turn this teaching approach into something the department can reuse."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Watching a syllabus area, a journal, or an exam board for material worth teaching can become a Routine once you know what you actually want flagged.",
           "emphasis": [
             "Routine"
           ]

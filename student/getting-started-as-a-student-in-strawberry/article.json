@@ -15,8 +15,8 @@
   "publishedAt": "2026-08-16T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Student work is mostly research and production under a deadline. The reading you have bounced off three times, the sources that need to hold up when a marker checks them, the essay and the group project and the form that all come due in the same week—that is where the time actually goes.",
-    "Most AI tools offer to write the essay, which is the part you are meant to do. Strawberry works in the browser instead, so it can follow a reading list into the databases and journals your institution already gives you access to, compare what it finds against your own course material, and keep the link and date next to every claim. What comes back is something you can check and build on."
+    "Student work is mostly research and production under a deadline. The reading you have bounced off three times, the sources that need to hold up when a marker checks them, the essay and the group project and the form that all land in the same week. That's where the time actually goes.",
+    "Most AI tools offer to write the essay, which is the part you're meant to do. Strawberry works in the browser instead, so it can follow a reading list into the databases and journals your institution already gives you access to, compare what it finds against your own course material, and keep the link and date next to every claim. What comes back is something you can check and build on."
   ],
   "sections": [
     {
@@ -50,7 +50,7 @@
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to start? Tell your companion what is due and when, and it can suggest the most useful thing to do first.",
+          "text": "Not sure where to start? Tell your companion what's due and when, and it can suggest the most useful thing to do first.",
           "skill": {
             "id": "strawberry/student/getting-started-as-a-student-in-strawberry",
             "roleId": "student",
@@ -65,7 +65,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Being stuck on a reading is rarely about vocabulary. Usually a paper assumes a debate you have not met yet, and no amount of rereading the paragraph will supply it. What helps is someone mapping the argument around it—what position this author is arguing against, and why it mattered enough to publish."
+          "text": "Being stuck on a reading is rarely about vocabulary. Usually a paper assumes a debate you haven't met yet, and no amount of rereading the paragraph will supply it. What helps is someone mapping the argument around it. Which position is this author writing against, and why did it matter enough to publish?"
         },
         {
           "kind": "paragraph",
@@ -89,7 +89,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A citation is a promise that someone else can go and check. That is why fabricated references are so damaging, and why a source you have not opened is a liability rather than an asset."
+          "text": "A citation is a promise that someone else can go and check. That's why invented references do so much damage, and why a source you haven't opened is a liability rather than an asset."
         },
         {
           "kind": "paragraph",
@@ -122,7 +122,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry will not write an assessed submission for you, or invent a quotation to fill a gap. It will pressure-test an outline that does not hold, find evidence where your argument is thin, name the counterargument you have avoided, and give honest feedback on a draft you wrote. That is supervisor work, and most students get too little of it."
+          "text": "Strawberry won't write an assessed submission for you, or invent a quotation to fill a gap. It will pressure-test an outline that doesn't hold, find evidence where your argument is thin, name the counterargument you have avoided, and give honest feedback on a draft you wrote. That's supervisor work, and most students get far too little of it."
         },
         {
           "kind": "skills",
@@ -169,7 +169,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Once a way of working proves useful, it can be saved—your citation style, the sources you trust, how you like feedback delivered—so the next essay starts from that instead of a blank page. If something genuinely recurs, like watching a journal or a funding call for new material, it can become a Routine.",
+          "text": "Once a way of working proves useful, it can be saved. Your citation style, the sources you trust, how you like feedback delivered. The next essay starts from there instead of a blank page. If something genuinely recurs, like watching a journal or a funding call for new material, it can become a Routine.",
           "emphasis": [
             "Routine"
           ]
