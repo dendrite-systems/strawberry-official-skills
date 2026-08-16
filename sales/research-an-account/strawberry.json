@@ -14,8 +14,8 @@
     {
       "roleId": "founder-executive",
       "weight": 96,
-      "title": "Help me understand this company",
-      "message": "Research this company for me. Use the context I already have, investigate the sources that matter, and tell me what is most important for the decision or conversation ahead."
+      "title": "Research an account and the way forward",
+      "message": "Research this company as an account. Start with the relationship and context we already have, then tell me what matters now and the most useful next step."
     },
     {
       "roleId": "agency",
@@ -26,8 +26,8 @@
     {
       "roleId": "consultant",
       "weight": 88,
-      "title": "Research a company before advising them",
-      "message": "Help me understand this company before I advise or meet with them. Focus the research on the decision I need to make and keep the important sources easy to inspect."
+      "title": "Research a prospective client relationship",
+      "message": "Research this company as a client or prospect. Cover the existing relationship, what has changed, and the most useful way to move the engagement forward."
     },
     {
       "roleId": "venture-capital",

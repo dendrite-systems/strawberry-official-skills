@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-company-research",
+  "title": "How to research a company with AI",
+  "description": "Research one company across current public and authorized sources, then turn the strongest findings into a concise, source-linked brief.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Ask most AI tools about a company and the answer comes back in the same shape every time: what it does, roughly how big it is, when it raised money, a few recent headlines. That is reasonable background, and it is almost never the thing you needed. If you are deciding whether to build on someone's API, the question that matters is how often it breaks and how they behave when it does—which no company profile contains.",
+    "Strawberry can research a company the way you would with an afternoon to spend on it: reading the documentation, working through sites and tools you already have access to, opening sources you might not have thought to check, and comparing all of it against files or data you provide. What comes back is an answer to the question you actually asked, with the sources sitting next to the claims."
+  ],
+  "sections": [
+    {
+      "id": "the-question-decides-the-research",
+      "title": "What you're deciding changes what's worth reading",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The same company supports very different investigations. Sizing up a potential vendor means looking hard at reliability, support, pricing history, and who else already depends on them. Understanding a competitor who has just entered your market is closer to product detail, hiring, and where their attention is going. Reading up on a company before a first conversation may need nothing more than a current, accurate picture of what they actually sell."
+        },
+        {
+          "kind": "paragraph",
+          "text": "So it helps to say what you are deciding and how much the answer is worth. A bounded question should come back quickly with something useful. A consequential one deserves a second pass into the places where the evidence is still thin."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/research-a-company",
+              "roleId": "research-analysis",
+              "context": "Research this company around the question or decision I need help with."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "go-where-the-evidence-lives",
+      "title": "Go where the evidence actually lives",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A company's marketing pages are the least informative thing it publishes. The useful material sits further in—a changelog that shows how fast the product really moves, documentation that reveals what the integration will actually require, a status history, a pricing page read against the version archived last year, a support forum where the same complaint keeps reappearing."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Most of that is reachable but tedious. Some of it sits behind a login you already have: an analyst database your team subscribes to, a procurement portal, a shared drive holding last year's evaluation. Strawberry can work through both—following a promising link several levels down, searching inside a site rather than around it, and using the sources you are authorized to use—then bring what it finds together with the public web. You don't have to work out in advance which sources will matter and paste them in."
+        }
+      ]
+    },
+    {
+      "id": "find-what-changes-the-view",
+      "title": "Find what changes the view",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A brief earns its length by being clear about what it knows. It should be obvious which claims are the company's own, which are corroborated somewhere independent, which are inference, and where the evidence simply isn't there yet."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "The clearest answer to the question you started with.",
+            "The company context needed to understand that answer.",
+            "Important changes, patterns, or tensions.",
+            "Source links and dates beside the findings that matter.",
+            "Contradictions, gaps, and useful questions to investigate next."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contradictions are worth more than they first appear. When a company's job postings and its published roadmap disagree about where the product is going, that gap is often the most useful line in the brief—and it only shows up if the two sources are read against each other rather than summarized separately."
+        }
+      ]
+    },
+    {
+      "id": "route-into-the-specialist-decision",
+      "title": "Use the right lens for the next decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A general brief stops at a clear, source-linked view of the company. When the decision has its own discipline behind it, the evidence should carry into that workflow rather than one brief stretching to cover all of them."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "For a sales account",
+              "text": "Combine company evidence with the relationship, stakeholders, and most useful sales next step.",
+              "skill": {
+                "id": "strawberry/sales/research-an-account",
+                "roleId": "sales-business-development",
+                "context": "Research this company as an account and relationship for the sales decision ahead."
+              }
+            },
+            {
+              "title": "For an investment screen",
+              "text": "Assess the preliminary thesis fit, tensions, risks, and questions worth resolving next.",
+              "skill": {
+                "id": "strawberry/venture-capital/research-an-investment-opportunity",
+                "roleId": "venture-capital",
+                "context": "Research this company as an investment opportunity and show what deserves deeper attention."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turn-the-brief-into-the-next-artifact",
+      "title": "Turn the accepted brief into the next artifact",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Research and design are separate jobs, and running them together usually costs the research. Once the company view is accepted, Strawberry can build the presentation from it without reopening the investigation."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/create-beautiful-slide-deck",
+              "roleId": "research-analysis",
+              "context": "Turn this accepted company brief into a polished, source-grounded presentation."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "If your team researches companies the same way repeatedly, the accepted sources, questions, depth, and brief format can be saved as a shared skill. A recurring update can become a Routine once the sources, the changes worth tracking, the cadence, and the review point are clear.",
+          "emphasis": [
+            "Routine"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for research and analysis",
+      "description": "See how company research fits with market mapping, structured evidence, and recurring research.",
+      "href": "/playbooks/research-analysis"
+    },
+    {
+      "title": "How to map a market with AI",
+      "description": "Move from one company to the categories, relationships, and patterns shaping a broader landscape.",
+      "href": "/playbooks/ai-market-mapping"
+    },
+    {
+      "title": "How to use AI for consulting work",
+      "description": "Carry company research into client recommendations, proposals, meetings, and delivery.",
+      "href": "/playbooks/consulting"
+    }
+  ]
+}

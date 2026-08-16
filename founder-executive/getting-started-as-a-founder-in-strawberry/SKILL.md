@@ -79,9 +79,9 @@ audience-specific leadership or board update. Do not assume a weekly review or i
   evidence, first investor set, materials, and near-term process.
 - **Understand a market or competitor:** use `strawberry/research-analysis/map-a-market` or
   `strawberry/marketing/run-competitor-analysis`, depending on the decision. Use
-  `strawberry/research-analysis/research-companies-create-decks` when research should become a
-  sourced visual brief, or `strawberry/research-analysis/create-beautiful-slide-deck` when approved
-  material is ready for presentation.
+  `strawberry/research-analysis/research-a-company` for a sourced brief on one company, or
+  `strawberry/research-analysis/create-beautiful-slide-deck` when approved material is ready for
+  presentation.
 - **Hire and onboard:** begin with
   `strawberry/recruiting/getting-started-with-recruiting-in-strawberry`; use
   `strawberry/operations/onboard-a-new-teammate` once someone is joining.

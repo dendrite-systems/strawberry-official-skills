@@ -57,11 +57,12 @@ engagement or into a reusable team method.
 
 Choose the shared research skill that fits the job rather than creating a Consultant version:
 
-- `strawberry/sales/research-an-account` for one company or relationship;
+- `strawberry/research-analysis/research-a-company` for a sourced brief on one company;
+- `strawberry/sales/research-an-account` when the company matters as a commercial relationship;
 - `strawberry/research-analysis/map-a-market` for boundaries, categories, and relationships;
 - `strawberry/research-analysis/extract-web-data` for repeated fields across many rows;
-- `strawberry/research-analysis/research-companies-create-decks` when company research should end
-  as a visual presentation.
+- `strawberry/research-analysis/create-beautiful-slide-deck` when accepted research should end as a
+  visual presentation.
 
 When the client needs a point of view, continue to
 `strawberry/consulting/turn-client-research-into-recommendations`. Keep evidence, client claims,

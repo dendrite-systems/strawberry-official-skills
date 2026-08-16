@@ -30,9 +30,10 @@ Use existing research skills for the work they already own:
 - `strawberry/research-analysis/map-a-market` for a landscape, taxonomy, or relationship map;
 - `strawberry/research-analysis/extract-web-data` for repeated fields across many rows, including
   large company-research runs;
-- `strawberry/research-analysis/research-companies-create-decks` when company research should end
-  primarily as a visual presentation;
-- `strawberry/sales/research-an-account` for one company or commercial relationship.
+- `strawberry/research-analysis/research-a-company` for a sourced brief on one company;
+- `strawberry/research-analysis/create-beautiful-slide-deck` when accepted research should become a
+  visual presentation;
+- `strawberry/sales/research-an-account` when the company matters as a commercial relationship.
 
 Strawberry can combine this work with material in visible logged-in browser sessions and connected
 sources while keeping the supporting evidence inspectable. Propose the sources, depth, likely time

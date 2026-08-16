@@ -30,6 +30,24 @@
       "message": "Turn this reviewed proposal, recommendation, or body of client work into a polished, evidence-grounded slide deck."
     },
     {
+      "roleId": "sales-business-development",
+      "weight": 94,
+      "title": "Turn account research into a beautiful sales deck",
+      "message": "Turn this accepted account research into a polished, evidence-grounded sales deck."
+    },
+    {
+      "roleId": "agency",
+      "weight": 92,
+      "title": "Create a beautiful client pitch deck",
+      "message": "Turn this accepted client or prospect research into a polished pitch deck."
+    },
+    {
+      "roleId": "research-analysis",
+      "weight": 84,
+      "title": "Turn an accepted brief into a beautiful deck",
+      "message": "Turn this accepted research brief into a polished, source-grounded slide deck."
+    },
+    {
       "roleId": "other",
       "weight": 94,
       "title": "Create a beautiful slide deck for me",
