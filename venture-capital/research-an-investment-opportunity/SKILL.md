@@ -40,7 +40,7 @@ quietly.
 
 ## 3. Explain what matters next
 
-Lead with a short view of why the opportunity may or may not deserve the next unit of attention.
+Lead with a short view of why the opportunity may or may not deserve more attention now.
 Include:
 
 - the company in plain language;

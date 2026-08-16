@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-venture-deal-sourcing",
-  "title": "How to Source Venture Deals with AI",
+  "title": "How to source venture deals with AI",
   "description": "Turn an investment thesis into a sourced, calibrated set of private-company opportunities without losing the evidence.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "Deal sourcing becomes noisy when a nuanced investment thesis is reduced to a few database filters. The result may be large, but it is difficult to tell which companies truly fit, which were already considered, and why any row deserves attention.",
     "Strawberry can use the firm's thesis, portfolio, pass history, CRM, and accepted examples alongside current web and logged-in research sources. It shows the evidence behind each candidate and begins with a varied first set that the investor can correct before the search expands."
@@ -126,9 +126,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting started with venture capital in Strawberry",
+      "title": "How to use AI for startup investing",
       "description": "See how sourcing connects with research, meetings, diligence, decisions, and portfolio work.",
       "href": "/playbooks/venture-capital-investing"
+    },
+    {
+      "title": "How to map a startup ecosystem with AI",
+      "description": "Build the market and investor view that can sharpen a sourcing thesis.",
+      "href": "/playbooks/ai-startup-ecosystem-mapping"
+    },
+    {
+      "title": "How to review an investment pipeline with AI",
+      "description": "Connect new opportunities with the firm's active pipeline and current priorities.",
+      "href": "/playbooks/ai-investment-pipeline-review"
     }
   ]
 }

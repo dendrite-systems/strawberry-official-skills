@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-investment-pipeline-review",
-  "title": "How to Review an Investment Pipeline with AI",
+  "title": "How to review an investment pipeline with AI",
   "description": "Reconcile investment CRM and recent context to find priority opportunities, missing evidence, and the next decisions.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "An investment pipeline can look current while the real decision has moved on. The latest founder email, partner note, meeting transcript, diligence finding, or ownership change may not yet be reflected in the CRM.",
     "Strawberry can compare those records in the same browser workspace, show where they disagree, and prepare a review around the firm's actual stages and investment cadence. It separates the analysis from any proposed CRM changes, so a useful review does not require silent record updates."
@@ -129,9 +129,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting started with venture capital in Strawberry",
+      "title": "How to use AI for startup investing",
       "description": "See how pipeline review fits into the wider venture operating system.",
       "href": "/playbooks/venture-capital-investing"
+    },
+    {
+      "title": "How to source venture deals with AI",
+      "description": "Build a thesis-matched set of new companies for the pipeline.",
+      "href": "/playbooks/ai-venture-deal-sourcing"
+    },
+    {
+      "title": "How to monitor a portfolio company with AI",
+      "description": "Carry the same materiality and source discipline into portfolio work.",
+      "href": "/playbooks/ai-portfolio-company-monitoring"
     }
   ]
 }

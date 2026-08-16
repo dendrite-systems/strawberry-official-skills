@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-investment-memo",
-  "title": "How to Write an Investment Memo with AI",
+  "title": "How to write an investment memo with AI",
   "description": "Turn company research and diligence into a source-linked investment case, countercase, and decision record.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "An investment memo is useful when another person can inspect the evidence, understand the reasoning, and see what remains uncertain. Polished prose is not enough if the strongest claims cannot be traced or the counterevidence has disappeared.",
     "Strawberry can bring together the firm's thesis and memo style with company research, founder conversations, diligence, market work, data-room material, and calculations. Feedback on one memo can carry into the next without turning the firm's judgment into a rigid generic template."
@@ -118,9 +118,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting started with venture capital in Strawberry",
+      "title": "How to use AI for startup investing",
       "description": "See how the memo fits into the wider investment process.",
       "href": "/playbooks/venture-capital-investing"
+    },
+    {
+      "title": "How to review an investment pipeline with AI",
+      "description": "See how active opportunities, missing evidence, and decisions fit across the firm.",
+      "href": "/playbooks/ai-investment-pipeline-review"
+    },
+    {
+      "title": "How to prepare for a fundraise with AI",
+      "description": "Understand the evidence, materials, and process on the founder's side of the table.",
+      "href": "/playbooks/ai-fundraising-preparation"
     }
   ]
 }

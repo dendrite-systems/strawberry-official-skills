@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-market-mapping",
   "title": "How to map a market with AI",
   "description": "Build a sourced market landscape around a Sales, Research, or VC decision, with clear boundaries, coverage, patterns, and uncertainty.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-13T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "A spreadsheet of company names is not yet a market map. The useful part is seeing how the landscape fits together: which categories matter, where the important relationships sit, what the current view covers, and what it means for the decision in front of you.",
     "Strawberry can research across company sites, LinkedIn, industry directories, databases, reports, news, connected files, and other relevant sources. It can follow relationships across the web while keeping the evidence and uncertainty visible.",
@@ -129,14 +129,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting started with Research in Strawberry",
+      "title": "Turn open-ended research into a decision-ready artifact",
       "description": "See how market mapping fits into broader research work.",
-      "href": "/playbooks/research"
+      "href": "/playbooks/research-analysis"
     },
     {
-      "title": "How to use AI for sales prospecting",
-      "description": "Turn an accepted Sales market into a qualified prospect search.",
-      "href": "/blog/ai-sales-prospecting"
+      "title": "How to automate your sales pipeline with AI",
+      "description": "Turn an accepted market into focused prospecting and sales work.",
+      "href": "/playbooks/automate-sales-pipeline"
+    },
+    {
+      "title": "How to use AI for startup investing",
+      "description": "Use market maps across the venture investment system.",
+      "href": "/playbooks/venture-capital-investing"
     }
   ]
 }

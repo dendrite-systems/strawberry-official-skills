@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-investment-due-diligence",
-  "title": "How to Conduct Investment Due Diligence with AI",
+  "title": "How to conduct investment due diligence with AI",
   "description": "Test the claims and risks behind a private-company investment with traceable sources, calculations, and open questions.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "More research does not automatically create better diligence. The useful work is testing the claims and risks that could change the investment decision, then showing where the evidence supports, weakens, or fails to resolve them.",
     "Strawberry can work across approved data-room material, company documents, logged-in research tools, current web sources, meeting records, and the firm's own analysis. The investor can inspect the same evidence in the browser, while sensitive access, reference outreach, sharing, and the final decision remain separately controlled."
@@ -131,9 +131,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting started with venture capital in Strawberry",
+      "title": "How to use AI for startup investing",
       "description": "See how diligence connects with sourcing, company research, meetings, and the investment memo.",
       "href": "/playbooks/venture-capital-investing"
+    },
+    {
+      "title": "How to research an investment opportunity with AI",
+      "description": "Build the preliminary company view that identifies the questions worth testing.",
+      "href": "/playbooks/ai-investment-opportunity-research"
+    },
+    {
+      "title": "How to review an investment pipeline with AI",
+      "description": "Connect diligence gaps and decisions back to the active pipeline.",
+      "href": "/playbooks/ai-investment-pipeline-review"
     }
   ]
 }

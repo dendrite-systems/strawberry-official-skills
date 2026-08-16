@@ -68,8 +68,17 @@ They share a recognizable journey without forcing every skill into the same temp
 - **Permissions:** Follow Strawberry's active scoped permission for the action, account,
   destination, and conditions. Draft or ask when permission is insufficient. Stop when identity,
   scope, impact, or sensitive-data handling changes. Verify completed external actions.
-- **Editorial:** Use the established `Getting Started with <role> in Strawberry` name unless natural
-  grammar calls for a small variation. Articles open like a human explanation, make one clear
+- **Names and search titles are separate interfaces:** Use the established
+  `Getting Started with <role> in Strawberry` convention for the executable entry skill, package,
+  and in-product display name unless natural grammar calls for a small variation. Do not copy that
+  branded name into the public article by default. Give the public entry article a natural,
+  sentence-case title built around credible non-branded search intent—often
+  `How to use AI for <role or work>` or a concrete outcome—while keeping the navigation label short
+  and role-based. Treat the skill name, article title, navigation title, description, and preserved
+  public slug as five deliberate decisions. Compare them with accepted live bundles before the
+  article checkpoint; do not infer one from another or rename an accepted slug merely to match a
+  new title.
+- **Editorial:** Articles open like a human explanation, make one clear
   product argument, and show the few Strawberry differences that matter. Preserve a concise,
   recognizable problem-to-product opening; do not replace it with internal routing language merely
   to make the page shorter, or with a perfectly symmetrical list of what each tool contains. The
@@ -121,7 +130,11 @@ They share a recognizable journey without forcing every skill into the same temp
   reader from an article to a raw-only skill page. For now, a focused article's own card may jump to
   the raw skill embedded on that page. Treat the embedded raw file as a deferred product decision,
   not the permanent article CTA. Do not assume the Strawberry app is installed or auto-run work
-  from a public page without an explicit launch-and-fallback design.
+  from a public page without an explicit launch-and-fallback design. Before a role checkpoint,
+  audit every card at three levels: the referenced
+  package exists, an accepted article draft and slug exist when the workflow is meant to be
+  clickable at release, and the local preview route resolves. Record deliberately static cards as
+  an explicit product decision; do not mistake a valid skill package for a complete article route.
 - **Organization context versus functional ownership:** Agency is an organization overlay: it adds
   client separation, delivery, reporting, and approval context while routing specialist work to the
   selected function. Consulting owns distinct advisory deliverables such as proposals, engagement

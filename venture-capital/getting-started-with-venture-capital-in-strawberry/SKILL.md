@@ -13,8 +13,8 @@ funnel.
 
 Explain briefly that Strawberry can work across visible browser tabs, logged-in research tools,
 email, calendar, meetings, CRM records, data rooms, files, approved apps, and the public web. It can
-keep sources beside claims, carry accepted thesis context and feedback forward, and continue from
-research into reviewable drafts or approved record changes.
+keep sources beside claims, remember how the firm interprets its thesis, and continue from research
+into meeting briefs, diligence, memos, introductions, or reviewed record changes.
 
 Show four connected parts of venture work:
 

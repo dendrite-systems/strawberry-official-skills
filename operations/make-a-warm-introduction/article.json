@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-warm-introductions",
-  "title": "How to Make a Warm Introduction with AI",
+  "title": "How to make a warm introduction with AI",
   "description": "Find a credible relationship path and prepare a useful, considerate introduction without overstating the connection.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "A good warm introduction depends on more than finding a shared contact. The intermediary needs a real relationship, the reason for connecting should make sense to both sides, and private context should not leak into a message simply because it helped identify the path.",
     "Strawberry can inspect approved email, calendar, meetings, CRM, team messages, professional networks, files, memory, and public profiles in the same visible browser. It distinguishes verified relationships from inferred connections, then prepares the smallest considerate ask or introduction for review."
@@ -142,9 +142,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting started with venture capital in Strawberry",
+      "title": "How to use AI for startup investing",
       "description": "See how warm introductions support deal flow, diligence, and portfolio work.",
       "href": "/playbooks/venture-capital-investing"
+    },
+    {
+      "title": "How to use AI for Operations work",
+      "description": "Use introductions alongside meetings, open loops, and team follow-through.",
+      "href": "/playbooks/operations"
+    },
+    {
+      "title": "Getting Started as a Founder in Strawberry",
+      "description": "Connect introductions with fundraising, hiring, customers, and company building.",
+      "href": "/playbooks/founder-executive"
     }
   ]
 }
