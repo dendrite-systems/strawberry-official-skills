@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-slide-decks",
+  "title": "How to make a slide deck with AI",
+  "description": "Settle the narrative before designing anything, build from your own source material, and get a deck that leads with the finding rather than burying it.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Most bad decks aren't badly designed. They're twenty slides of accurate material with the point somewhere on slide fourteen, and everyone in the room working out what they're supposed to think about it.",
+    "So the useful thing isn't a tool that makes slides look nice. It's one that settles what you're actually arguing first, builds from your own material rather than inventing supporting detail, and puts the conclusion where people will see it."
+  ],
+  "sections": [
+    {
+      "id": "agree-the-story-first",
+      "title": "Agree the story before anything gets designed",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The expensive mistake is building forty slides and then discovering the argument doesn't hold. So the narrative comes first: who's in the room, what they need to decide, and what a good outcome actually looks like."
+        },
+        {
+          "kind": "paragraph",
+          "text": "You get a plan for the story and sections before the design starts, which is a much cheaper place to change your mind. If you have a past deck that landed well, or a template and brand you work to, those calibrate the structure and visual standard. They're useful, not required."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/create-beautiful-slide-deck",
+              "roleId": "research-analysis",
+              "context": "Turn this material into a deck. Start with the narrative."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built-from-your-material",
+      "title": "Built from your material, not around it",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The failure mode people worry about with AI decks is the confident slide with nothing behind it. A result nobody measured, a customer quote nobody said, a market size that sounds about right."
+        },
+        {
+          "kind": "paragraph",
+          "text": "That doesn't happen here. Claims, results, and evidence come from what you provide. Where the material is thin, the gap gets surfaced rather than smoothed over with a plausible-looking number, and facts stay distinguishable from interpretation."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For a board, investor, or client deck, the source links and dates stay attached to the claims that matter, so someone can check the slide that decides the meeting."
+        }
+      ]
+    },
+    {
+      "id": "lead-with-the-finding",
+      "title": "Lead with the finding",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "For anything that asks a room to decide something, the conclusion goes first and the evidence follows. Not a build-up, not a tour of the analysis. The audience should know what you think by slide two and spend the rest of the time interrogating it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Each slide gets one job. Screenshots, product images, logos, and charts earn their place when they make the argument land harder than a sentence would, and get left out when they're decoration."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Responding to an RFP or a proposal works differently. There the requirements get mapped explicitly to the deck, so nothing in the brief quietly goes unanswered."
+        }
+      ]
+    },
+    {
+      "id": "review-before-it-leaves",
+      "title": "Review it before it leaves the building",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The finished deck gets checked for the things that embarrass you in a meeting: an argument that stops making sense in the middle, text too small to read from the back, inconsistent styling, a claim nothing supports."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Anything going to a client, board, or investor waits for your approval before it's sent. And once the structure, voice, evidence standard, and visual direction are right, they can be saved so the next deck starts from your way of doing this rather than a blank file."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to research a company with AI",
+      "description": "Build the source-linked company view before it becomes a deck.",
+      "href": "/playbooks/ai-company-research"
+    },
+    {
+      "title": "How to use AI for research and analysis",
+      "description": "The evidence side: sourcing, market mapping, and structured data.",
+      "href": "/playbooks/research-analysis"
+    },
+    {
+      "title": "How to use AI for consulting work",
+      "description": "Carry accepted research into proposals, recommendations, and client delivery.",
+      "href": "/playbooks/consulting"
+    }
+  ]
+}

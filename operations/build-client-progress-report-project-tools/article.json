@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-client-progress-reports",
+  "title": "How to build a client report with AI",
+  "description": "Pull the project, analytics, and communication evidence into one reviewable client report, with the definitions reconciled and the gaps visible.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Client reporting eats a particular kind of afternoon. The numbers live in four tools that don't agree, half the context is in an email thread, and the actual writing is the last twenty minutes of a three-hour job.",
+    "Strawberry works in the browser, so it can go into the project tool, the analytics account, and the ad platform you already have open, line up what they're each measuring, and bring back something you can edit rather than assemble."
+  ],
+  "sections": [
+    {
+      "id": "learn-the-report-you-already-send",
+      "title": "Start from the report you already send",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "You almost certainly have a format that works. Rather than describing it from scratch, point your companion at a previous report you were happy with. It picks up the structure, the depth, the tone, the field definitions, and where it ends up."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Then agree the client, the period, and what this particular report is for. A weekly snapshot for live paid media and a quarterly strategic review are different documents, and knowing which you're writing changes what belongs in it."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/build-client-progress-report-project-tools",
+              "roleId": "agency",
+              "context": "Build this client's report for the period, from our usual sources."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reconcile-before-comparing",
+      "title": "Reconcile before comparing anything",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "This is where client reports quietly go wrong. Two tools report the same campaign differently, and the difference isn't an error, it's a definition:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Date ranges that start on different days of the week.",
+            "Attribution windows that credit a conversion to different touches.",
+            "Currencies converted on different days, or not at all.",
+            "Metrics that share a name and count different things."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Those get lined up before any comparison is drawn, and where two sources genuinely disagree, you're told rather than handed a reconciled number that hides it. Missing or delayed data is flagged as missing, not quietly treated as zero."
+        }
+      ]
+    },
+    {
+      "id": "written-for-the-client",
+      "title": "Written for the client, not for the dashboard",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A metric dump makes the client do the work. What they want is what changed, why it matters, and what happens next, in the language you'd use on a call."
+        },
+        {
+          "kind": "paragraph",
+          "text": "So the report leads with the summary and keeps the detail underneath: progress against goals, work completed, performance with comparisons that are actually comparable, risks and decisions needed, and clearly owned next actions. Recommendations stay visibly separate from results, and the strategic call stays yours."
+        }
+      ]
+    },
+    {
+      "id": "one-client-at-a-time",
+      "title": "One client at a time, deliberately",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Each client's accounts, evidence, calculations, and output stay strictly separate. No client is ever used as an unstated benchmark for another, and a cross-client roll-up only happens where you have permission to compare those accounts."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Build one report first and correct it before the process goes near the rest of the book. Once it's right, it can be saved per client with that client's sources, definitions, format, and destination, and prepared on a cadence that matches the work."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Nothing gets sent to a client, and nothing gets written back to their systems, without your approval.",
+          "emphasis": [
+            "approval"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for agency work",
+      "description": "The wider system: winning clients, delivery, and keeping accounts separate.",
+      "href": "/playbooks/agency-work"
+    },
+    {
+      "title": "How to use AI for operations work",
+      "description": "Status updates, open commitments, and the coordination around the reporting.",
+      "href": "/playbooks/operations"
+    },
+    {
+      "title": "How to analyze data with AI",
+      "description": "Go deeper on reconciling definitions and getting a defensible number.",
+      "href": "/playbooks/data-analysis"
+    }
+  ]
+}
