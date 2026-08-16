@@ -17,6 +17,9 @@ They share a recognizable journey without forcing every skill into the same temp
 - **Route or add:** Route when an existing skill already owns the inputs, specialist judgment,
   review points, and result. Add only when the work itself differs, not just the audience. A role
   guide explains the handoff; it does not copy the focused workflow.
+  A lane in a role map does not need its own focused skill. Add one only when it owns a recurring,
+  demonstrable result or specialist judgment that the general companion or an existing skill does
+  not preserve. Do not manufacture packages merely to give every lane a clickable card.
   - **Worked boundary—meeting preparation and account research:** Meeting preparation owns the
     upcoming conversation, time remaining, relationship context, desired outcome, and concise
     brief. Account research owns deeper company and stakeholder investigation when those gaps could
@@ -28,6 +31,10 @@ They share a recognizable journey without forcing every skill into the same temp
   relationship or communication ownership. For example, Support can own customer impact and the
   update while Engineering owns reproduction and the issue record. One shared case does not require
   one oversized skill.
+- **Separate work that has independent value:** Research, analysis, and artifact production may
+  form one journey without belonging in one skill. When each stage has a useful standalone result,
+  keep the owners separate and route the reviewed output forward. Combine them only when separating
+  them would destroy essential judgment or make the result materially less useful.
 - **Give combined roles parallel visibility:** When one selector entry intentionally combines two
   related functions, paint both modes early and let users enter either one. The side with more
   focused skills should not automatically become the whole role story.
@@ -96,6 +103,9 @@ They share a recognizable journey without forcing every skill into the same temp
   sequences only when they make the page easier to understand. Shared-skill cards appear only at
   genuine branches—not as an inventory or prompt library. Keep cards visually light: one crisp
   outcome sentence and small truthful actions, with the article owning the hook and education.
+  Within each role lane, lead with the result a reader can get and the situations it helps with.
+  Keep methodological checklists for the focused skill or article when they materially help someone
+  execute or review the work; do not use process bullets as the main reason to try a workflow.
   Related links should lead to a genuine next workflow or an adjacent role's Getting Started map;
   do not add generic links merely for SEO or repeat routes already clear in the body. Published
   articles normally offer three distinct `Keep reading` choices. Role maps should bias toward
@@ -151,6 +161,17 @@ They share a recognizable journey without forcing every skill into the same temp
   source inspection, memory of accepted corrections, user takeover, scoped actions, and verified
   completion. Connect each mechanism to the role constraint and user outcome; do not turn the
   article into a feature roll-call or repeat the whole product argument in every section.
+  When browser-native work is the difference, lead with what the access unlocks: richer evidence,
+  greater depth, or continuity beyond ordinary public search. Explain in the audience's language
+  that Strawberry can work with sources the user is already authorized to access and discover
+  relevant sources the user may not already know to check. Keep those as distinct benefits: deep
+  research is not limited to the user's existing source list. Name concrete
+  actions such as following links, clicking, scrolling, typing, or moving between tabs only when
+  they clarify how the result becomes possible; visibility and takeover are supporting benefits,
+  not automatically the main product argument. Do not imply universal compatibility or claim an
+  accuracy, completeness, or time-saving advantage that the evidence has not measured. For
+  research-led work, show how the evidence continues into the shortlist, map, report, spreadsheet,
+  record, or decision the user actually needs.
 - **Public article routes:** A skill card opens the focused article when one is published. Keep an
   unlinked workflow card in the operating-system map when its article is not ready; do not send the
   reader from an article to a raw-only skill page. For now, a focused article's own card may jump to
