@@ -48,6 +48,18 @@
       "weight": 94,
       "title": "Prepare for a customer conversation",
       "message": "Prepare me for this customer check-in, QBR, EBR, renewal, or escalation conversation using the goals, health, history, open commitments, and current evidence that could change it."
+    },
+    {
+      "roleId": "design",
+      "weight": 80,
+      "title": "Prepare for a design review",
+      "message": "Prepare me for this design review. Pull together what was decided last time, what has changed since, and the open questions I need answers to."
+    },
+    {
+      "roleId": "data-analytics",
+      "weight": 78,
+      "title": "Prepare for a data or metrics review",
+      "message": "Prepare me for this review. Bring the current numbers, what moved since last time, and the questions people are likely to ask."
     }
   ]
 }

@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "design",
+  "title": "How to use AI for design work",
+  "description": "Walk the live product to find where it has drifted from your system, ground decisions in real feedback, and turn accepted work into something buildable.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Design reviews argue about screenshots. Meanwhile the thing your users actually load has quietly moved. A radius that isn't quite the token, a focus state that never shipped, an empty screen nobody has looked at since the release it went out in.",
+    "Your system is probably in good shape wherever it's defined. It's the built product that drifts, and checking all of it is tedious enough that it doesn't happen. Strawberry works in the browser, so it can go and look at the real thing: the pages that render, in the states that actually break, across the breakpoints and themes you care about."
+  ],
+  "sections": [
+    {
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
+      "blocks": [
+        {
+          "kind": "section-nav",
+          "items": [
+            {
+              "href": "#find-the-drift",
+              "title": "Find where it has drifted",
+              "description": "Walk the live product and see where the build stopped matching the system."
+            },
+            {
+              "href": "#ground-it-in-what-users-said",
+              "title": "Ground it in what users said",
+              "description": "Turn real feedback into themes, so the argument isn't whoever spoke last."
+            },
+            {
+              "href": "#hand-it-over-cleanly",
+              "title": "Hand it over cleanly",
+              "description": "Turn an accepted decision into something the people building it can follow."
+            },
+            {
+              "href": "#make-reviews-stick",
+              "title": "Make reviews stick",
+              "description": "Walk in prepared, and leave with the decisions actually written down."
+            }
+          ]
+        },
+        {
+          "kind": "guided-entry",
+          "text": "Not sure where to start? Tell your companion what you're working on and it can suggest a first step.",
+          "skill": {
+            "id": "strawberry/design/getting-started-with-design-work-in-strawberry",
+            "roleId": "design",
+            "context": "Help me work out where to start with this design work."
+          }
+        }
+      ]
+    },
+    {
+      "id": "find-the-drift",
+      "title": "Find where it has drifted",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Drift is invisible one page at a time and obvious in aggregate. A single button with the wrong radius is nothing. The same button rendered four different ways across one signup flow is a system problem, and you only see it if someone walks the whole thing."
+        },
+        {
+          "kind": "paragraph",
+          "text": "That walk is tedious, which is why it doesn't happen. Your companion can do it against the live product, in the states that actually break:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Spacing that isn't on the scale, and type outside the ramp.",
+            "Colours that are nearly a token but not the token, and text that fails contrast on its real background.",
+            "The same component built three ways, or a variant used somewhere it wasn't meant for.",
+            "Focus that isn't visible, hover that does nothing, disabled that doesn't look disabled.",
+            "Empty and error states, where drift concentrates because they get built last and reviewed least."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Findings come back grouped by cause rather than by page. Twelve instances of one wrong token is a single fix, and it should read like one. Accessibility failures come first, then anything on a primary flow, then the cosmetic drift."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It also won't file a deliberate exception as a bug. Where something looks intentional, it asks rather than assuming.",
+          "emphasis": [
+            "asks"
+          ]
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Audit the system",
+              "text": "Walk agreed pages and record where the built interface has left the system, with evidence you can inspect.",
+              "skill": {
+                "id": "strawberry/design/audit-a-design-system",
+                "roleId": "design",
+                "context": "Walk these pages and show me where we have drifted from our design system."
+              }
+            },
+            {
+              "title": "Audit the flow",
+              "text": "A different question: not whether it is consistent, but whether it actually works.",
+              "skill": {
+                "id": "strawberry/product-engineering/audit-a-product-flow",
+                "roleId": "design",
+                "context": "Walk this flow and show me where it breaks."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ground-it-in-what-users-said",
+      "title": "Ground it in what users said",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Design reviews go badly when the strongest evidence in the room is a preference. Themes pulled from actual feedback, with the quotes still attached, tend to end the argument faster than another round of opinions."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Turn feedback into themes",
+              "text": "Source-linked patterns and tensions from feedback you already have.",
+              "skill": {
+                "id": "strawberry/product-engineering/synthesize-customer-feedback",
+                "roleId": "design",
+                "context": "Turn this feedback into themes I can design against."
+              }
+            },
+            {
+              "title": "Understand the audience",
+              "text": "A sourced picture of who you are actually designing for.",
+              "skill": {
+                "id": "strawberry/marketing/research-an-audience",
+                "roleId": "design",
+                "context": "Help me understand who I am designing for."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hand-it-over-cleanly",
+      "title": "Hand it over cleanly",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A design decision that lives only in a file gets rebuilt from memory. Turning it into a spec, or into something presentable for the people who have to agree to it, is the part that decides whether it survives contact with a sprint."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Specify it",
+              "text": "Turn the accepted decision into something the people building it can follow.",
+              "skill": {
+                "id": "strawberry/product-engineering/write-a-product-spec",
+                "roleId": "design",
+                "context": "Turn this design decision into a spec."
+              }
+            },
+            {
+              "title": "Present it",
+              "text": "Move from a file to something a room can follow and respond to.",
+              "skill": {
+                "id": "strawberry/research-analysis/create-beautiful-slide-deck",
+                "roleId": "design",
+                "context": "Turn this design work into a presentation."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-reviews-stick",
+      "title": "Make reviews stick",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Design decisions get made in a room and then quietly evaporate. Three weeks later the same debate runs again, because nobody wrote down what was settled or why."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Walk in prepared",
+              "text": "What was decided last time, what has changed since, and the questions you need answered.",
+              "skill": {
+                "id": "strawberry/operations/prepare-for-meetings",
+                "roleId": "design",
+                "context": "Prepare me for this design review."
+              }
+            },
+            {
+              "title": "Leave with it written down",
+              "text": "The decisions, the open questions, and who owns the next move.",
+              "skill": {
+                "id": "strawberry/operations/debrief-a-meeting",
+                "roleId": "design",
+                "context": "Turn this design review into decisions and next steps."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keep-the-product-honest",
+      "title": "Keep the product honest",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Drift comes back. It always does, because it's the by-product of shipping quickly rather than of anyone being careless."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once an audit is right, the system it checks against, the surfaces it walks, and the states it covers can be saved. If the whole team should be checking the same way, that method can be shared rather than living with whoever set it up."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/set-up-shared-team-workflow",
+              "roleId": "design",
+              "context": "Turn this audit into something the design team runs the same way."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "After that, a Routine can re-walk the agreed surfaces once a release has landed and tell you only what is newly broken.",
+          "emphasis": [
+            "Routine"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for product and engineering work",
+      "description": "Flow audits, bug research, specs, and metrics from the build side of the same product.",
+      "href": "/playbooks/product-engineering"
+    },
+    {
+      "title": "How to use AI for marketing",
+      "description": "Audience research and positioning work that feeds design decisions.",
+      "href": "/playbooks/marketing"
+    },
+    {
+      "title": "How to use AI for research and analysis",
+      "description": "Sourcing, landscape mapping, and structured evidence behind a design argument.",
+      "href": "/playbooks/research-analysis"
+    }
+  ]
+}

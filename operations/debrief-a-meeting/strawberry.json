@@ -40,6 +40,18 @@
       "weight": 84,
       "title": "Capture decisions and next steps",
       "message": "Turn this transcript or set of notes into a grounded recap, owned actions, follow-up drafts, and proposed record changes."
+    },
+    {
+      "roleId": "design",
+      "weight": 78,
+      "title": "Capture what a critique decided",
+      "message": "Turn this design review into the decisions, the open questions, and who owns what next."
+    },
+    {
+      "roleId": "data-analytics",
+      "weight": 76,
+      "title": "Capture what a data review decided",
+      "message": "Turn this review into decisions, follow-up questions, and the analysis someone still owes."
     }
   ]
 }

@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "data-analysis",
+  "title": "How to analyze data with AI",
+  "description": "Collect what you need, get a defensible answer out of what you have, settle the definitions people argue about, and show the working.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Almost nobody's data problem is the analysis. It's that the export quietly dropped cancelled orders, two dashboards define an active user differently, and the join duplicated eleven percent of the rows. The maths was never the hard part.",
+    "So the useful thing isn't a tool that runs a regression. It's one that looks at the file properly before it answers, tells you what it found, and shows the working behind every number so you can reproduce it without asking how it was made."
+  ],
+  "sections": [
+    {
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
+      "blocks": [
+        {
+          "kind": "section-nav",
+          "items": [
+            {
+              "href": "#get-an-answer-out-of-what-you-have",
+              "title": "Get an answer out of what you have",
+              "description": "Quality problems caught first, then the question answered, with the limits stated."
+            },
+            {
+              "href": "#collect-what-does-not-exist-yet",
+              "title": "Collect what doesn't exist yet",
+              "description": "The same fields across many sources, into a table you can trust."
+            },
+            {
+              "href": "#settle-the-definitions",
+              "title": "Settle the definitions",
+              "description": "When two tools disagree about the same number, work out which is right."
+            },
+            {
+              "href": "#show-people-what-you-found",
+              "title": "Show people what you found",
+              "description": "Turn an accepted analysis into something a room will actually act on."
+            },
+            {
+              "href": "#keep-the-room-honest",
+              "title": "Keep the room honest",
+              "description": "Walk into the review with the numbers and leave with the questions written down."
+            }
+          ]
+        },
+        {
+          "kind": "guided-entry",
+          "text": "Not sure where to start? Tell your companion what decision the number is for, and it'll suggest the right place to begin.",
+          "skill": {
+            "id": "strawberry/data-analytics/getting-started-with-data-work-in-strawberry",
+            "roleId": "data-analytics",
+            "context": "Help me work out where to start with this data question."
+          }
+        }
+      ]
+    },
+    {
+      "id": "get-an-answer-out-of-what-you-have",
+      "title": "Get an answer out of what you have",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The most valuable thing here usually isn't the analysis. It's catching the reason the analysis would have been wrong. So the file gets inspected before anything is calculated, and you hear what turned up:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "What one row actually represents, which is not always what the column headers suggest.",
+            "Missing values, and whether they're missing at random or in a pattern that means something.",
+            "Duplicates, and whether they're genuine repeats or a join that went wrong.",
+            "Numbers stored as text, mixed date formats, and the other quiet type problems.",
+            "Outliers, which are either errors or the most interesting thing in the dataset."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "You get told that before you see a chart. Finding out about a broken join afterwards means you've already half-believed the answer."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Then the working shows: which filters were applied, which rows were excluded and why, and the formula behind any figure that matters. And what the data shows stays separate from what it implies. A drop in signups the same week as a price change is a correlation with a good story attached, and it gets labelled as one."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/analyze-a-dataset",
+              "roleId": "data-analytics",
+              "context": "Analyze this dataset for the question I need answered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collect-what-does-not-exist-yet",
+      "title": "Collect what doesn't exist yet",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Sometimes the dataset you need isn't anywhere. It's spread across a few hundred pages that each hold one row of it. Strawberry works in the browser, so it can go and get those fields, validate them as it goes, and hand back a table with a source against each row."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/extract-web-data",
+              "roleId": "data-analytics",
+              "context": "Collect these fields across these sources into a clean table."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "settle-the-definitions",
+      "title": "Settle the definitions",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Most arguments about numbers are really arguments about definitions. What counts as active. Whether the month is calendar or rolling. Which timezone the day ends in. Two tools can both be right and still disagree."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Because your companion works across the logged-in tools you already have open, it can compare how each one defines the same metric rather than taking one dashboard's word for it. That's usually where the discrepancy turns out to live."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Reconcile conflicting numbers",
+              "text": "Work out why two sources disagree, and which definition should win.",
+              "skill": {
+                "id": "strawberry/marketing/review-marketing-performance",
+                "roleId": "data-analytics",
+                "context": "Reconcile how these metrics are defined across sources."
+              }
+            },
+            {
+              "title": "Check the framework itself",
+              "text": "Decide whether you are measuring the right things before optimising the numbers.",
+              "skill": {
+                "id": "strawberry/product-engineering/review-product-metrics",
+                "roleId": "data-analytics",
+                "context": "Review whether this metric framework is measuring the right things."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "show-people-what-you-found",
+      "title": "Show people what you found",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "An analysis nobody acts on may as well not have run. Once the findings are accepted, they can become a presentation that leads with the answer and keeps the evidence traceable underneath it."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/create-beautiful-slide-deck",
+              "roleId": "data-analytics",
+              "context": "Turn this accepted analysis into a presentation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keep-the-room-honest",
+      "title": "Keep the room honest",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Most analysis meets its real test in a meeting, where someone asks why this number disagrees with the one in their dashboard. Turning up with the definitions already reconciled is the difference between a review and an ambush."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Walk in with the numbers",
+              "text": "The current figures, what moved since last time, and the questions people are likely to ask.",
+              "skill": {
+                "id": "strawberry/operations/prepare-for-meetings",
+                "roleId": "data-analytics",
+                "context": "Prepare me for this metrics review."
+              }
+            },
+            {
+              "title": "Capture what was decided",
+              "text": "The decisions, the follow-up questions, and the analysis someone still owes.",
+              "skill": {
+                "id": "strawberry/operations/debrief-a-meeting",
+                "roleId": "data-analytics",
+                "context": "Turn this review into decisions and follow-ups."
+              }
+            },
+            {
+              "title": "Write the recurring update",
+              "text": "A concise, accurate update for the people who need the numbers but were not in the room.",
+              "skill": {
+                "id": "strawberry/operations/prepare-a-status-update",
+                "roleId": "data-analytics",
+                "context": "Turn the current numbers into an update."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stop-rebuilding-the-same-report",
+      "title": "Stop rebuilding the same report",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Recurring reports have a habit of drifting. The definitions move slightly, someone applies a different filter, and two quarters stop being comparable without anyone deciding that."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once a report is right, the definitions, filters, quality checks, and output can be saved so next period runs the same way. If several people build versions of the same thing, that accepted method can be shared instead."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/set-up-shared-team-workflow",
+              "roleId": "data-analytics",
+              "context": "Turn this report into something the team runs the same way every period."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "When it genuinely repeats on a schedule, it can become a Routine that pulls the data, runs the same checks, and brings you the result to review.",
+          "emphasis": [
+            "Routine"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to use AI for research and analysis",
+      "description": "The wider research system: sourcing, mapping a landscape, and structured evidence.",
+      "href": "/playbooks/research-analysis"
+    },
+    {
+      "title": "How to extract data from websites with AI",
+      "description": "Build the dataset itself when the numbers you need are spread across many pages.",
+      "href": "/playbooks/ai-data-extraction"
+    },
+    {
+      "title": "How to use AI for finance work",
+      "description": "Take the same validation discipline into recurring reporting and performance review.",
+      "href": "/playbooks/finance"
+    }
+  ]
+}

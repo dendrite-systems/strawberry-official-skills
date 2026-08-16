@@ -52,6 +52,12 @@
       "weight": 78,
       "title": "Prepare an update for parents or faculty",
       "message": "Turn my current work into a concise, accurate update for the people who need it."
+    },
+    {
+      "roleId": "data-analytics",
+      "weight": 82,
+      "title": "Turn the numbers into an update",
+      "message": "Turn the current numbers into a concise, accurate update for the people who need it, with the definitions clear."
     }
   ]
 }

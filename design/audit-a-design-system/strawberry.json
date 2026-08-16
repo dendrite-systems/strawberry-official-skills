@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Audit a Design System",
+  "summary": "Walk a live product and find where the built interface has drifted from its design system, with inspectable evidence for each finding.",
+  "icon": "sparkles",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "design",
+      "weight": 116,
+      "title": "Find where the interface has drifted",
+      "message": "Walk these pages and show me where the built interface has drifted from our design system. Cover the states and breakpoints, and group the findings by cause."
+    },
+    {
+      "roleId": "engineering-development",
+      "weight": 88,
+      "title": "Find UI inconsistencies across the product",
+      "message": "Click through these flows and record where components, spacing, colour, and states are inconsistent with the rest of the product."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Analyze a Dataset",
+  "summary": "Get a defensible answer out of data you already have, with the quality problems caught before the analysis rather than after.",
+  "icon": "chart",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "data-analytics",
+      "weight": 116,
+      "title": "Analyze a dataset I already have",
+      "message": "Analyze this dataset for the question I need answered. Check the data quality first, agree the definitions, show your working, and tell me what the data cannot support."
+    },
+    {
+      "roleId": "research-analysis",
+      "weight": 108,
+      "title": "Make sense of data I have collected",
+      "message": "Analyze this dataset around my research question, show the working behind each figure, and be clear about the limits."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 92,
+      "title": "Get an answer out of a spreadsheet",
+      "message": "Look at this data and answer the question I actually have. Tell me what is solid and what is too thin to rely on."
+    },
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 86,
+      "title": "Turn an export into an answer",
+      "message": "Analyze this export for the decision in front of me, and flag any data quality problems before the conclusions."
+    }
+  ]
+}
