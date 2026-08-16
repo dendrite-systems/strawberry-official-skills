@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Escalate a Customer Issue",
+  "summary": "Package customer impact, evidence, history, current communication, and the exact internal ask for the right owner.",
+  "icon": "files",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "customer-support-success",
+      "weight": 104,
+      "title": "Escalate a customer issue",
+      "message": "Prepare a grounded escalation for this customer issue with the impact, timeline, evidence, current communication, exact internal ask, and next owner clear."
+    },
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 88,
+      "title": "Coordinate a customer escalation",
+      "message": "Package this customer escalation for the right internal owner and keep the decision, update, and follow-through clear."
+    }
+  ]
+}

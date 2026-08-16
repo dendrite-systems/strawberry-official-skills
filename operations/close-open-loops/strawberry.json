@@ -30,6 +30,12 @@
       "weight": 76,
       "title": "Audit open commitments",
       "message": "Reconcile recent commitments across the sources I provide and show me what is still open, unclear, or waiting on someone."
+    },
+    {
+      "roleId": "customer-support-success",
+      "weight": 86,
+      "title": "Close customer follow-ups",
+      "message": "Reconcile customer commitments across tickets, messages, meetings, account records, and project work, then show missing owners, conflicting status, and the smallest next actions."
     }
   ]
 }

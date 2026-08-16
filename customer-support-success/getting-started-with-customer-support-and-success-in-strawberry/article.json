@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "customer-support-success",
+  "title": "Getting Started with Customer Support and Success in Strawberry",
+  "description": "Use Strawberry across customer context, request handling, escalation, onboarding, health, and recurring learning.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "navigation": {
+    "title": "Customer Support & Success",
+    "tagline": "Requests, outcomes, escalation, and learning",
+    "icons": [
+      "gmail",
+      "slack",
+      "notion"
+    ],
+    "order": 9
+  },
+  "introduction": [
+    "Customer work rarely lives in one ticket. The answer may depend on a help article, an account promise, a product issue, a recent meeting, or a message from the team. The same context also matters after the ticket closes, when Customer Success needs to know whether the customer is reaching the outcome they bought for.",
+    "Strawberry can work across those sources in one visible browser workspace. Your companion can keep evidence beside the response, carry accepted account goals and communication preferences forward, and prepare the next action while sending, account changes, refunds, and product commitments remain separately controlled."
+  ],
+  "sections": [
+    {
+      "id": "see-the-whole-customer-system",
+      "title": "See the whole customer system",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "Part of the system",
+            "What Strawberry can help with"
+          ],
+          "rows": [
+            [
+              "Understand the customer",
+              "Bring together goals, history, product context, health signals, prior commitments, and the current question."
+            ],
+            [
+              "Respond and resolve",
+              "Triage requests, research grounded answers, communicate clearly, and keep ownership visible."
+            ],
+            [
+              "Coordinate and escalate",
+              "Package customer impact, route product and sensitive issues, and maintain the customer relationship."
+            ],
+            [
+              "Learn and prevent",
+              "Improve help content, synthesize recurring feedback, onboard customers, and review progress toward outcomes."
+            ]
+          ]
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/customer-support-success/getting-started-with-customer-support-and-success-in-strawberry",
+              "roleId": "customer-support-success",
+              "context": "Start with the customer work already in front of you and choose the Support or Success workflow that would help most."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Support and Success reinforce one another, but they do not need one forced sequence. One new request, one unanswered question, one onboarding, or one account review is enough to begin."
+        }
+      ]
+    },
+    {
+      "id": "respond-with-the-right-context",
+      "title": "Respond with the right context",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Good triage starts with impact and the team's real policy, not a severity scale invented by the AI. Strawberry can read the full thread, check support history and known issues, inspect the relevant account context, and show which evidence changed the priority or route."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the answer is not obvious, the companion can search current product docs, help content, prior cases, team discussions, and official external sources. It keeps contradictions and dates visible, then prepares a customer response that separates the verified answer from what still needs review."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/customer-support-success/triage-a-customer-request",
+              "roleId": "customer-support-success",
+              "context": "Assess impact and urgency, find the right owner, and prepare the next action and first response."
+            },
+            {
+              "id": "strawberry/customer-support-success/research-and-answer-a-customer-question",
+              "roleId": "customer-support-success",
+              "context": "Find a reliable answer across approved sources and prepare the customer response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "escalate-without-losing-the-customer",
+      "title": "Escalate without losing the customer",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "An escalation should tell the receiving team what happened, who is affected, what has been tried, what the customer has heard, and what decision or investigation is needed. It should also keep the next customer update owned."
+        },
+        {
+          "kind": "paragraph",
+          "text": "For a product bug, Customer Support owns the impact, history, and relationship. Product and Engineering owns reproduction, technical context, duplicate issue search, and the issue record. Strawberry can carry the evidence between those workflows without copying private account details into a broad engineering ticket."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/customer-support-success/escalate-a-customer-issue",
+              "roleId": "customer-support-success",
+              "context": "Prepare the customer-impact brief, current communication, exact internal ask, and next owner."
+            },
+            {
+              "id": "strawberry/product-engineering/research-and-report-a-bug",
+              "roleId": "customer-support-success",
+              "context": "Reproduce and research the product problem, find duplicates, and prepare or file the engineering issue."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "help-customers-reach-value",
+      "title": "Help customers reach value",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Customer Success begins with the outcome the customer expects, not a generic product tour. Strawberry can reconcile the signed scope, sales notes, meetings, account records, setup dependencies, stakeholders, and success measures into an onboarding path with clear ownership."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Later, a health review can compare those goals with product use, support experience, relationships, and open commitments. The result should explain the signals and gaps, not hide them behind a churn score that the team never defined."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/customer-support-success/onboard-a-customer",
+              "roleId": "customer-support-success",
+              "context": "Turn accepted goals and commitments into an owned path to first value."
+            },
+            {
+              "id": "strawberry/customer-support-success/review-customer-health",
+              "roleId": "customer-support-success",
+              "context": "Review outcomes, adoption, support experience, relationships, commitments, risks, and opportunities."
+            },
+            {
+              "id": "strawberry/operations/prepare-for-meetings",
+              "roleId": "customer-support-success",
+              "context": "Prepare for a customer check-in, QBR, EBR, renewal, or escalation using the relevant account evidence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turn-resolutions-into-learning",
+      "title": "Turn resolutions into learning",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A verified resolution can improve the help center; a pattern across tickets and conversations can become product evidence. These are different jobs. Customer documentation should help the next customer solve the problem. Feedback synthesis should preserve themes, tensions, examples, and gaps for Product without automatically deciding the roadmap."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/customer-support-success/create-or-update-a-help-center-article",
+              "roleId": "customer-support-success",
+              "context": "Turn verified current behavior into clear, findable customer documentation."
+            },
+            {
+              "id": "strawberry/product-engineering/synthesize-customer-feedback",
+              "roleId": "customer-support-success",
+              "context": "Turn approved customer evidence into source-linked product themes, tensions, examples, and gaps."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once a method works, Strawberry can remember the accepted sources, tone, definitions, and review points. A Routine can surface new exceptions or material changes, but it should stop when the customer, audience, policy, permissions, or sensitive-data scope changes."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": []
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-customer-escalation",
+  "title": "How to escalate customer issues with AI",
+  "description": "Use AI to package customer impact, history, evidence, communication, ownership, and the exact internal ask.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "A customer escalation often fails in one of two directions. It is either too thin for the receiving team to act on, or it becomes a long ticket history with no clear question. Meanwhile, the customer is still waiting for an update.",
+    "Strawberry can bring together the ticket, account history, team discussion, product evidence, previous attempts, and current commitments in one visible workspace. Your companion can prepare the internal brief and the customer update from the same evidence while keeping those audiences separate."
+  ],
+  "sections": [
+    {
+      "id": "explain-why-the-normal-path-is-not-enough",
+      "title": "Explain why the normal path is not enough",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Start with what is happening, who is affected, how long it has persisted, what has been tried, and what changed now. Use the team's escalation and incident policy to choose the route. Suspected security, privacy, data loss, legal, regulated, or active incident cases should follow the urgent specialist path immediately."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/customer-support-success/escalate-a-customer-issue",
+              "roleId": "customer-support-success",
+              "context": "Build an actionable escalation while keeping the customer impact and communication owned."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build-one-evidence-backed-timeline",
+      "title": "Build one evidence-backed timeline",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Link the original request, material customer updates, and attempted resolutions.",
+            "Preserve timestamps, affected environments, exact errors, screenshots, and relevant logs.",
+            "Separate verified impact from inferred churn, revenue, or reputation risk.",
+            "Show the current workaround, owner, and next promised customer update."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Connected context reduces reconstruction, but it should not create a data dump. Include only the commercial, account, and technical detail the receiving team needs, and keep private or sensitive context out of broadly visible records."
+        }
+      ]
+    },
+    {
+      "id": "split-customer-impact-from-product-evidence",
+      "title": "Split customer impact from product evidence",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "Owner",
+            "What it contributes"
+          ],
+          "rows": [
+            [
+              "Customer Support or Success",
+              "Customer impact, relationship history, escalation timing, current communication, and next update."
+            ],
+            [
+              "Product and Engineering",
+              "Reproduction, environment, technical context, duplicate search, and the engineering issue."
+            ],
+            [
+              "Receiving specialist",
+              "The investigation, decision, approval, or exception the escalation requests."
+            ]
+          ]
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/research-and-report-a-bug",
+              "roleId": "customer-support-success",
+              "context": "Research and reproduce a product bug, find duplicate issues, and prepare or file the engineering record."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ask-for-a-specific-next-move",
+      "title": "Ask for a specific next move",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "State whether the team needs an investigation, reproduction, decision, safe response, approved exception, owner, or update time. Then track that commitment and maintain the customer communication until the outcome is verified. Posting the escalation, filing an issue, sending the update, and offering a commercial remedy are separate actions."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/close-open-loops",
+              "roleId": "customer-support-success",
+              "context": "Track ownership and unresolved commitments when the escalation spans several teams or systems."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting Started with Customer Support and Success in Strawberry",
+      "description": "Connect escalation with triage, product issues, customer communication, and learning.",
+      "href": "/playbooks/customer-support-success"
+    }
+  ]
+}

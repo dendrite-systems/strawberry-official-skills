@@ -5,19 +5,18 @@
   "title": "How to create a useful daily brief with AI",
   "description": "Use AI to bring together your calendar, messages, meetings, tasks, and current work into a short brief for the day ahead.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
   "publishedAt": "2026-08-15T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Most daily briefs are easy to generate and hard to use. They repeat the calendar, summarize a few messages, and leave you to decide which items are connected and what actually deserves attention.",
-    "A better brief does some of that judgment before the day gets busy. It brings together the meetings, promises, deadlines, messages, blockers, and changes that could affect your plan, then keeps the underlying sources close enough to check.",
-    "Strawberry is particularly useful for this because your companion can work across the browser tabs, logged-in tools, connected apps, meeting records, and files where the day is already taking shape. You do not have to paste a separate summary from each one before it can help."
+    "A better brief does some of that judgment before the day gets busy. Strawberry can check the browser tabs, logged-in tools, connected apps, meeting records, and files where the day is already taking shape, then bring together the meetings, promises, deadlines, messages, blockers, and changes that could affect your plan. The underlying sources stay close enough to check."
   ],
   "sections": [
     {
@@ -26,11 +25,13 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The point of a daily brief is to help you decide how to use the day. A long list of everything that changed overnight is usually worse than a short view of the few things that may alter a priority, require preparation, or block someone else."
+          "text": "The point of a daily brief is to help you decide how to use the day. A long list of everything that changed overnight is usually worse than a short view of the few things that may alter a priority, require preparation, or block someone else.",
+          "emphasis": ["decide how to use the day"]
         },
         {
           "kind": "paragraph",
-          "text": "Strawberry can check the selected calendar, communication, task, project, and meeting sources together. If a meeting note says you promised a draft today, the project record still has no owner, and the relevant email thread has gone quiet, those are parts of one situation rather than three unrelated notifications. Your brief can show the connection and link back to each source."
+          "text": "Strawberry can check the selected calendar, communication, task, project, and meeting sources together. If a meeting note says you promised a draft today, the project record still has no owner, and the relevant email thread has gone quiet, those are parts of one situation rather than three unrelated notifications. Your brief can show the connection and link back to each source.",
+          "emphasis": ["one situation"]
         },
         {
           "kind": "skills",
@@ -53,8 +54,14 @@
           "text": "You do not need to connect every company system before the first run. Strawberry can begin with an open calendar, a few relevant tabs, uploaded files, meeting notes, or the apps that are already available. When another connection would materially improve the result, your companion can explain what it would add instead of turning the morning into a setup project."
         },
         {
-          "kind": "paragraph",
-          "text": "A useful first version is compact: the outcomes to focus on, the parts of the schedule that need preparation, messages or decisions that need attention, and a short watch list. When two sources disagree, the brief should say so. It should not quietly turn an old task status into today's plan."
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "The outcomes and decisions that deserve focus today.",
+            "The meetings or schedule changes that need preparation.",
+            "The messages, promises, or blockers that need attention.",
+            "A short watch list, including any sources that disagree."
+          ]
         }
       ]
     },
@@ -64,20 +71,29 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The brief may reveal that one inbox needs a proper pass, a particular meeting needs deeper preparation, or a commitment has fallen between the meeting notes and the project tracker. Strawberry can carry the relevant context into that next workflow, so you are not starting again from a blank chat."
+          "text": "The brief may reveal that one inbox needs a proper pass, a particular meeting needs deeper preparation, or a commitment has fallen between the meeting notes and the project tracker. Strawberry can carry the relevant context into that next workflow, so you are not starting again from a blank chat.",
+          "emphasis": ["not starting again from a blank chat"]
         },
         {
-          "kind": "skills",
+          "kind": "skill-lanes",
           "items": [
             {
-              "id": "strawberry/operations/triage-my-inbox",
-              "roleId": "operations-chief-of-staff",
-              "context": "Process the communication queue that needs deeper attention, replies, delegation, or cleanup."
+              "title": "Go deeper on the inbox",
+              "text": "Process the communication queue that needs replies, delegation, a decision, or cleanup.",
+              "skill": {
+                "id": "strawberry/operations/triage-my-inbox",
+                "roleId": "operations-chief-of-staff",
+                "context": "Process the communication queue that needs deeper attention, replies, delegation, or cleanup."
+              }
             },
             {
-              "id": "strawberry/operations/close-open-loops",
-              "roleId": "operations-chief-of-staff",
-              "context": "Reconcile commitments and ownership when the evidence is spread across several systems."
+              "title": "Resolve a commitment that fell between tools",
+              "text": "Reconcile the evidence, owner, and smallest useful next step when the status is unclear.",
+              "skill": {
+                "id": "strawberry/operations/close-open-loops",
+                "roleId": "operations-chief-of-staff",
+                "context": "Reconcile commitments and ownership when the evidence is spread across several systems."
+              }
             }
           ]
         },
@@ -97,7 +113,8 @@
         },
         {
           "kind": "paragraph",
-          "text": "Once the method is reliable, it can become a Routine for the workdays and destination you choose. The Routine can check the agreed sources and prepare the brief at the right time, while messages, calendar changes, assignments, and other external actions stay within the review behavior you approved."
+          "text": "Once the method is reliable, it can become a Routine for the workdays and destination you choose. It can check the agreed sources and prepare the brief at the right time, while messages, calendar changes, assignments, and other external actions stay within the review behavior you approved.",
+          "emphasis": ["Routine"]
         }
       ]
     }

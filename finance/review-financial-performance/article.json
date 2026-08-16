@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-financial-performance-analysis",
+  "title": "How to review financial performance with AI",
+  "description": "Use AI to validate financial comparisons, explain material drivers, and keep supported causes separate from hypotheses.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "A financial review often starts with a spreadsheet and ends with a story about why the numbers moved. The calculation is usually easier than the explanation. Different source versions, metric definitions, and comparison periods can distort the result before the analysis even begins.",
+    "Strawberry can work across the model, approved dashboards, operating records, and meeting context while keeping sources beside the claims. That lets the companion test an explanation instead of turning the first plausible narrative into a fact."
+  ],
+  "sections": [
+    {
+      "id": "choose-the-comparison-that-matters",
+      "title": "Choose the comparison that matters",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Actual versus budget answers a different question from actual versus the latest forecast or last month. Start with the company, period, audience, and decision, then use the baseline and materiality that fit that decision."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/finance/review-financial-performance",
+              "roleId": "finance",
+              "context": "Validate the figures, explain the important movements, and show what needs attention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-the-figures-comparable",
+      "title": "Make the figures comparable",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "ordered",
+          "items": [
+            "Confirm the accepted version of actuals and the baseline.",
+            "Align periods, currencies, units, dimensions, filters, and signs.",
+            "Recalculate material totals and variances.",
+            "Keep accounting measures separate from management metrics when their definitions differ."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Because Strawberry can inspect the spreadsheet and the surrounding source systems in the same workspace, it can show where two reports disagree instead of silently choosing the cleaner-looking number."
+        }
+      ]
+    },
+    {
+      "id": "separate-movement-from-cause",
+      "title": "Separate movement from cause",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "What the evidence shows",
+            "How to present it"
+          ],
+          "rows": [
+            [
+              "A calculated contribution",
+              "Show the formula, source figures, and any residual."
+            ],
+            [
+              "A cause supported by operating evidence",
+              "Link the contract, headcount record, sales data, usage record, or accepted commentary."
+            ],
+            [
+              "A plausible explanation without support",
+              "Label it as a hypothesis and name what would confirm it."
+            ],
+            [
+              "Conflicting or incomplete sources",
+              "Keep the conflict visible and avoid a final claim."
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "This is where connected context improves the analysis. A hiring plan, customer movement, vendor commitment, or meeting decision may explain the result, but only if it refers to the same period and business scope."
+        }
+      ]
+    },
+    {
+      "id": "finish-with-the-next-decision",
+      "title": "Finish with the next decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Lead with the few movements that change understanding or action. A compact scorecard, supported drivers, open questions, and source problems are usually more useful than a complete recital of every line. If the accepted findings change the forward view, carry them into the forecast. If they need to reach a wider audience, prepare a separate update for that audience."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/finance/build-a-financial-forecast",
+              "roleId": "finance",
+              "context": "Carry accepted performance drivers into the forward view and test the scenarios that matter."
+            },
+            {
+              "id": "strawberry/operations/prepare-a-status-update",
+              "roleId": "finance",
+              "context": "Turn accepted analysis into a concise update for the intended team or leadership audience."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The performance review remains read-only. Strawberry can remember accepted definitions, source mappings, and materiality for the next cycle, but it does not change the budget, forecast, ledger, or source report."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting Started with Finance in Strawberry",
+      "description": "See how financial records, performance, forecasts, and follow-through connect.",
+      "href": "/playbooks/finance"
+    }
+  ]
+}

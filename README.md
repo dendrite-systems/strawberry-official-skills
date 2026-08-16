@@ -14,10 +14,12 @@ preparation, and follow-up without duplicating the focused instructions.
 
 - **Founder & Executive** — customers, fundraising, hiring, and company operations
 - **Sales** — prospecting, account research, outreach, and pipeline work
+- **Customer Support & Success** — customer requests, answers, escalation, onboarding, and health
 - **Agency** — winning clients, turning context into strong work, and repeatable delivery
 - **Consulting** — proposals, engagement setup, research, recommendations, and client follow-through
 - **Recruiting** — sourcing, screening, interviews, and hiring operations
 - **Operations** — coordination, support, administration, and recurring work
+- **Finance** — bookkeeping preparation, performance analysis, forecasting, and follow-through
 - **Marketing** — research, campaigns, content, SEO, and distribution
 - **Product & Engineering** — product insight, issue investigation, and delivery
 - **Research & Analysis** — evidence gathering, structured data, and clear outputs

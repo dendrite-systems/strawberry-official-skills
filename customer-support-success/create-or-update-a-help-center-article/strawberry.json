@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Create or Update a Help Center Article",
+  "summary": "Turn verified support knowledge into clear, findable customer documentation and prepare it for the right review.",
+  "icon": "files",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "customer-support-success",
+      "weight": 100,
+      "title": "Create or update a help center article",
+      "message": "Turn this verified resolution or recurring question into a clear help-center article, check for overlapping content, verify the current behavior, and prepare it for review."
+    }
+  ]
+}

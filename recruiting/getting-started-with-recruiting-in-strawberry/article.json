@@ -12,81 +12,119 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "publishedAt": "2026-08-16T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Recruiting gets fragmented quickly. The role lives in a document, candidates are spread across LinkedIn and the ATS, interview evidence sits in notes and transcripts, and the reason behind a decision is often still in someone's head.",
-    "Strawberry is an agentic browser and workspace with built-in AI agents. Your companion can work across visible tabs, logged-in sourcing tools, the ATS, meetings, documents, and approved apps. It can remember the team's accepted hiring bar and keep the evidence, open questions, and next step connected from role definition through pipeline review."
+    "Strawberry can work across the visible browser, logged-in sourcing tools, the ATS, meetings, documents, and the other places that hold the hiring context. A job definition can stay connected to the search, the search to the interviews, and the interview evidence to the pipeline decision. As the team corrects the work, the companion can remember the hiring bar and the sources it trusts."
   ],
   "sections": [
     {
-      "id": "choose-the-right-start",
-      "title": "See the hiring system, then choose where to begin",
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
       "blocks": [
         {
-          "kind": "paragraph",
-          "text": "You do not need to redesign the whole hiring process to begin. Start with the decision holding up one real role while keeping the complete system visible."
-        },
-        {
-          "kind": "table",
-          "columns": ["Hiring lane", "What Strawberry can help carry"],
-          "rows": [
-            ["Define the search", "The internal role, honest job description, talent-market reality, and accepted hiring criteria."],
-            ["Build the pipeline", "A calibrated candidate set, inbound application review, candidate communication, and ATS context."],
-            ["Evaluate consistently", "Interview evidence plans, candidate and panel briefs, scorecards, transcripts, tensions, and unknowns."],
-            ["Run the process", "Pipeline health, ownership, proposed record changes, approved communications, and reusable team methods."]
-          ]
-        },
-        {
-          "kind": "skills",
+          "kind": "section-nav",
           "items": [
             {
-              "id": "strawberry/recruiting/getting-started-with-recruiting-in-strawberry",
-              "roleId": "recruiting-people",
-              "context": "Choose and complete the recruiting workflow that would help this role most now."
+              "href": "#define-the-role-and-search",
+              "title": "Define the role and search",
+              "description": "Turn the hiring need into honest criteria, a clear job description, and a realistic talent market."
             },
             {
-              "id": "strawberry/recruiting/create-a-job-description",
-              "roleId": "recruiting-people",
-              "context": "Define the internal role and create an honest candidate-facing job description."
+              "href": "#find-and-review-candidates",
+              "title": "Find and review candidates",
+              "description": "Build a calibrated candidate set and review inbound applications against the same evidence bar."
             },
             {
-              "id": "strawberry/recruiting/map-a-talent-market",
-              "roleId": "recruiting-people",
-              "context": "Clarify titles, employers, adjacent backgrounds, geography, compensation, and supply."
+              "href": "#carry-the-bar-through-interviews",
+              "title": "Prepare interviews and synthesize feedback",
+              "description": "Decide what each interviewer should learn, then bring the evidence back to the criteria."
             },
             {
-              "id": "strawberry/recruiting/source-candidates",
-              "roleId": "recruiting-people",
-              "context": "Build a small, evidence-backed candidate set and refine the search before scaling."
+              "href": "#keep-actions-deliberate",
+              "title": "Communicate with candidates",
+              "description": "Draft relevant outreach and follow-up with the relationship and prior contact in view."
+            },
+            {
+              "href": "#see-the-whole-pipeline",
+              "title": "Review the recruiting pipeline",
+              "description": "See bottlenecks, ownership, candidate experience, and whether the current mix can support the goal."
             }
           ]
         },
         {
-          "kind": "paragraph",
-          "text": "Use the documents, tabs, connected apps, and approved history already available. Coach the first result before expanding the search or changing an external record; useful work should not depend on a long setup checklist."
+          "kind": "guided-entry",
+          "text": "Not sure where to begin? Your companion can look at the role and hiring work you have open and suggest a useful skill to try first.",
+          "skill": {
+            "id": "strawberry/recruiting/getting-started-with-recruiting-in-strawberry",
+            "roleId": "recruiting-people",
+            "context": "Choose and complete the recruiting workflow that would help this role most now."
+          }
         }
       ]
     },
     {
-      "id": "review-candidates",
-      "title": "Make candidate review easier to challenge",
+      "id": "define-the-role-and-search",
+      "title": "Define the role and search",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Sourced candidates and inbound applicants arrive differently, but both need the same discipline: job-related criteria, visible evidence, clear uncertainty, and a human decision."
+          "text": "A good search starts by separating the internal hiring need from the candidate-facing job description. Strawberry can use the plan, org context, role history, manager input, and current market evidence to make the criteria explicit, write the role honestly, and test whether the expected titles, backgrounds, location, and compensation make sense."
         },
         {
-          "kind": "paragraph",
-          "text": "Your companion can explain why someone may fit, what evidence supports that view, and what still needs checking. It can also flag duplicates, prior contact, and missing ATS context without silently rejecting, advancing, or changing anyone's record."
-        },
-        {
-          "kind": "skills",
+          "kind": "skill-steps",
           "items": [
             {
-              "id": "strawberry/recruiting/review-applications",
-              "roleId": "recruiting-people",
-              "context": "Review an application set against the accepted role criteria."
+              "title": "Define the job",
+              "text": "Clarify the outcomes, responsibilities, evidence of success, constraints, and honest candidate-facing description.",
+              "skill": {
+                "id": "strawberry/recruiting/create-a-job-description",
+                "roleId": "recruiting-people",
+                "context": "Define the internal role and create an honest candidate-facing job description."
+              }
+            },
+            {
+              "title": "Map the talent market",
+              "text": "Check the titles, employers, adjacent backgrounds, geography, compensation, and likely supply before scaling the search.",
+              "skill": {
+                "id": "strawberry/recruiting/map-a-talent-market",
+                "roleId": "recruiting-people",
+                "context": "Clarify titles, employers, adjacent backgrounds, geography, compensation, and supply."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "find-and-review-candidates",
+      "title": "Find and review candidates",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Sourced candidates and inbound applicants arrive differently, but both need job-related criteria, visible evidence, clear uncertainty, and a human decision. Strawberry can work through the relevant profiles, applications, ATS history, and prior contact, explain why someone may fit, and keep what still needs checking visible."
+        },
+        {
+          "kind": "skill-steps",
+          "items": [
+            {
+              "title": "Build the candidate set",
+              "text": "Review a varied sample first, correct the search, and then complete the set at the scale the role needs.",
+              "skill": {
+                "id": "strawberry/recruiting/source-candidates",
+                "roleId": "recruiting-people",
+                "context": "Build an evidence-backed candidate set and refine the search before scaling."
+              }
+            },
+            {
+              "title": "Review inbound applications",
+              "text": "Apply the same accepted criteria to the application set while preserving evidence, uncertainty, and the human decision.",
+              "skill": {
+                "id": "strawberry/recruiting/review-applications",
+                "roleId": "recruiting-people",
+                "context": "Review an application set against the accepted role criteria."
+              }
             }
           ]
         }
@@ -105,17 +143,25 @@
           "text": "Afterward, the transcript and panel feedback can be mapped back to the same criteria. Contradictions, candidate claims, interviewer judgments, and unknowns stay visible instead of disappearing into one confident score."
         },
         {
-          "kind": "skills",
+          "kind": "skill-steps",
           "items": [
             {
-              "id": "strawberry/recruiting/prepare-candidate-interviews",
-              "roleId": "recruiting-people",
-              "context": "Prepare the interview plan, candidate and panel briefs, questions, probes, and scorecards."
+              "title": "Prepare the evidence plan",
+              "text": "Give each interviewer a clear area to test, useful questions and probes, and the context they need about the candidate.",
+              "skill": {
+                "id": "strawberry/recruiting/prepare-candidate-interviews",
+                "roleId": "recruiting-people",
+                "context": "Prepare the interview plan, candidate and panel briefs, questions, probes, and scorecards."
+              }
             },
             {
-              "id": "strawberry/recruiting/synthesize-interview-feedback",
-              "roleId": "recruiting-people",
-              "context": "Turn transcripts and feedback into an evidence-backed draft assessment for human review."
+              "title": "Bring the evidence back together",
+              "text": "Map transcripts and panel feedback to the criteria while keeping contradictions, judgments, and unknowns visible.",
+              "skill": {
+                "id": "strawberry/recruiting/synthesize-interview-feedback",
+                "roleId": "recruiting-people",
+                "context": "Turn transcripts and feedback into an evidence-backed draft assessment for human review."
+              }
             }
           ]
         }
@@ -123,15 +169,11 @@
     },
     {
       "id": "keep-actions-deliberate",
-      "title": "Keep communication and record changes deliberate",
+      "title": "Communicate with candidates",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Candidate outreach has a different relationship and responsibility from sales outreach. It needs an honest employer proposition, relevant professional context, prior-contact and privacy checks, thoughtful follow-up, and approval of the exact send."
-        },
-        {
-          "kind": "paragraph",
-          "text": "The same principle applies to job publication, interview scheduling, and ATS uploads. A reviewed draft or shortlist is not permission to take the next external action."
+          "text": "Candidate outreach has a different relationship from sales outreach. Strawberry can use the role, professional context, prior contact, and the team's employer story to draft a message that explains why the conversation may be worth having. It can also prepare thoughtful follow-up without turning a candidate list into an automatic sequence."
         },
         {
           "kind": "skills",
@@ -169,7 +211,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Once one workflow works, save the accepted criteria, sources, fields, and review points as a skill. Share sensitive recruiting results only through an approved, access-controlled destination; sharing the method or wider Recruiting companion is a separate choice. Add a Routine after the workflow is trusted—not before."
+          "text": "Once one workflow works, preserve the accepted criteria, sources, fields, and review points so the next role does not begin from a generic template. Share the result, the method, or the wider Recruiting companion only when that level of context is actually useful. Add a Routine after the process and ownership have settled."
         }
       ]
     }
@@ -177,14 +219,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to prompt AI as a recruiter",
-      "description": "Explore more practical recruiting ideas for Strawberry.",
-      "href": "/blog/how-to-prompt-ai-as-a-recruiter"
+      "title": "Getting Started as a Founder in Strawberry",
+      "description": "See how hiring fits alongside company priorities, growth, fundraising, and team leverage.",
+      "href": "/playbooks/founder-executive"
     },
     {
-      "title": "Source candidates with evidence",
-      "description": "Start with the hero workflow for finding and reviewing candidates.",
-      "href": "/blog/ai-candidate-sourcing"
+      "title": "Getting Started with Operations in Strawberry",
+      "description": "See how meetings, open loops, updates, and onboarding support the hiring process.",
+      "href": "/playbooks/operations"
+    },
+    {
+      "title": "Getting Started with Research and Analysis in Strawberry",
+      "description": "Use deeper source finding, market mapping, synthesis, and comparison when the talent question needs it.",
+      "href": "/playbooks/research-analysis"
     }
   ],
   "navigation": {

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-customer-question-answering",
+  "title": "How to research and answer customer questions with AI",
+  "description": "Use AI to reconcile product knowledge, account history, prior cases, and current sources into a reliable customer response.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "The fastest support answer is not useful if it relies on an outdated help article, ignores what the customer was promised, or turns an internal discussion into a product commitment. Reliable answers often require several sources and a clear view of which one is authoritative.",
+    "Strawberry can search approved docs, help content, support history, account notes, messages, project records, and official external sources without making the user copy each result into a new chat. Your companion keeps the sources and dates visible, then prepares the answer for the actual customer and channel."
+  ],
+  "sections": [
+    {
+      "id": "define-the-real-question",
+      "title": "Define the real question",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Read the full thread and identify the exact question, account, audience, deadline, and decision the response should support. Flag roadmap, pricing, contracts, security, privacy, compliance, billing, refunds, and custom configurations because they may need a named reviewer even when the likely answer is clear."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/customer-support-success/research-and-answer-a-customer-question",
+              "roleId": "customer-support-success",
+              "context": "Find the strongest available answer and prepare a response that fits this customer and channel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "search-in-an-order-that-protects-accuracy",
+      "title": "Search in an order that protects accuracy",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "ordered",
+          "items": [
+            "Check current approved product documentation, policy, help content, and known issues.",
+            "Use support history and account context for prior treatment, commitments, and customer-specific facts.",
+            "Use team discussions and project records to identify current work without treating informal notes as customer-ready truth.",
+            "Use official external documentation when a partner, integration, or current public fact matters."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Keep the source, date, product version, and account scope beside each material finding. A past reply may explain the relationship while still being wrong about current behavior."
+        }
+      ]
+    },
+    {
+      "id": "show-what-is-known-and-what-is-not",
+      "title": "Show what is known and what is not",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "When sources disagree, explain which is more authoritative or recent and what still needs confirmation. Separate verified product behavior, account-specific history, inference, and unknowns. If no reliable source answers the question, identify the smallest useful check rather than filling the gap with a plausible response."
+        },
+        {
+          "kind": "table",
+          "columns": [
+            "Result",
+            "What the reviewer should see"
+          ],
+          "rows": [
+            [
+              "Direct answer",
+              "The bottom line in the customer's language."
+            ],
+            [
+              "Evidence",
+              "Current source links, dates, and versions that support it."
+            ],
+            [
+              "Caveats",
+              "Contradictions, account-specific limits, and questions still open."
+            ],
+            [
+              "Response draft",
+              "Customer-ready wording plus internal notes that should not be sent."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reuse-the-answer-carefully",
+      "title": "Reuse the answer carefully",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "After the team confirms the answer, Strawberry can remember trusted source preferences, product terminology, tone, and review rules. A recurring question may deserve a help-center update, but private account history should not become reusable customer guidance. Sending the reply and updating the ticket remain separate actions."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/customer-support-success/create-or-update-a-help-center-article",
+              "roleId": "customer-support-success",
+              "context": "Turn a verified recurring answer into current, findable customer documentation."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting Started with Customer Support and Success in Strawberry",
+      "description": "See how grounded answers connect to triage, escalation, onboarding, and learning.",
+      "href": "/playbooks/customer-support-success"
+    }
+  ]
+}

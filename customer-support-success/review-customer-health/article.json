@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-customer-health-review",
+  "title": "How to review customer health with AI",
+  "description": "Use AI to reconcile customer outcomes, adoption, support, relationships, commitments, risks, and opportunities from real evidence.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "Customer health is easy to oversimplify. Product usage can look strong while a critical issue remains unresolved. A quiet champion may signal risk, or they may simply be busy. A score is only useful when the team agrees on what it means and can inspect the evidence behind it.",
+    "Strawberry can bring goals, product use, support history, meetings, account records, communication, and open commitments into one review. Your companion can show where the signals agree, where they conflict, and what is missing instead of turning incomplete data into a confident churn label."
+  ],
+  "sections": [
+    {
+      "id": "define-health-from-the-customer-outcome",
+      "title": "Define health from the customer outcome",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Start with the account, lifecycle stage, goals, success measures, stakeholders, review period, and next decision. Use the team's accepted health model when one exists. Keep company-wide signals separate from promises and conditions that apply only to this account."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/customer-support-success/review-customer-health",
+              "roleId": "customer-support-success",
+              "context": "Review whether the customer is reaching value, what has changed, and what deserves attention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build-the-view-from-several-kinds-of-evidence",
+      "title": "Build the view from several kinds of evidence",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "Signal",
+            "What to examine"
+          ],
+          "rows": [
+            [
+              "Outcome progress",
+              "The customer's stated goals, success measures, and evidence of value."
+            ],
+            [
+              "Adoption",
+              "Meaningful product use and the workflows or users that matter, not activity volume alone."
+            ],
+            [
+              "Experience",
+              "Support impact, onboarding progress, unresolved issues, and delivery commitments."
+            ],
+            [
+              "Relationships",
+              "Champion strength, stakeholder engagement, decision-makers, and relationship gaps."
+            ],
+            [
+              "Commercial context",
+              "Approved renewal, expansion, contraction, or billing context that changes the next decision."
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Keep source dates, definitions, and coverage visible. A stale usage report or incomplete support history should weaken the conclusion rather than disappear inside the score."
+        }
+      ]
+    },
+    {
+      "id": "reconcile-the-signals",
+      "title": "Reconcile the signals",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Compare the evidence instead of averaging it into false precision. Separate observed facts, customer statements, team judgment, companion inference, stale data, and unknowns. If the team uses a score, apply its accepted definitions and show the support for each component rather than inventing weights."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "What outcome has the customer achieved, and what remains unproven?",
+            "Which material signal changed since the last accepted review?",
+            "Where do usage, relationship, support, and commitment signals disagree?",
+            "What action or conversation could most improve the customer's outcome now?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "turn-the-review-into-the-next-right-action",
+      "title": "Turn the review into the next right action",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Lead with outcome progress, material changes, supported strengths and risks, open commitments, missing evidence, and a prioritized next-action plan. If the next step is a QBR, EBR, check-in, renewal, or escalation conversation, carry the accepted account evidence into meeting preparation."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/prepare-for-meetings",
+              "roleId": "customer-support-success",
+              "context": "Prepare the customer conversation from the current goals, health, history, and open decisions."
+            },
+            {
+              "id": "strawberry/customer-support-success/escalate-a-customer-issue",
+              "roleId": "customer-support-success",
+              "context": "Package unresolved customer impact for the internal owner who needs to act."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contacting the customer, changing CRM fields or a health score, offering commercial terms, and committing product or delivery work are separate actions. Once the review method is trusted, a Routine can prepare the next view from named sources and stop when the goals, model, coverage, audience, or sensitive context changes."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting Started with Customer Support and Success in Strawberry",
+      "description": "Connect health reviews with onboarding, customer conversations, support, and follow-through.",
+      "href": "/playbooks/customer-support-success"
+    }
+  ]
+}

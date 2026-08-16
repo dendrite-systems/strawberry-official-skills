@@ -21,7 +21,7 @@
   "sections": [
     {
       "id": "confirm-the-accepted-problem",
-      "title": "Confirm the accepted problem",
+      "title": "Start with the problem worth solving",
       "blocks": [
         {
           "kind": "paragraph",
@@ -96,7 +96,7 @@
     },
     {
       "id": "apply-only-the-approved-document-action",
-      "title": "Apply only the approved document action",
+      "title": "Put the spec where the team can use it",
       "blocks": [
         {
           "kind": "paragraph",

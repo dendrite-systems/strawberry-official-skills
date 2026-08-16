@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "automate-sales-pipeline",
   "title": "How to automate your sales pipeline with AI",
-  "description": "Learn how to automate your sales pipeline with AI across prospecting, research, meetings, outreach, CRM updates, and pipeline reviews.",
+  "description": "Learn how Strawberry's Sales skills can help with prospecting, research, customer conversations, CRM updates, and pipeline review.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -15,208 +15,219 @@
   "publishedAt": "2026-07-24T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Sales work gets fragmented quickly. The CRM has the stage, email has the relationship, meetings hold the commitments, and LinkedIn or a company website may have the signal that changes what you do next. A lot of time goes into rebuilding that context before anyone can make a useful move.",
-    "Strawberry is an agentic browser and workspace with built-in AI agents. The agent working alongside you—your companion—can use visible tabs, logged-in tools, meetings, files, connected apps, and the public web. It can remember accepted context and carry it from prospecting through research, conversations, follow-up, and pipeline decisions. You can start with one piece of real work and connect the system as it proves useful."
+    "Sales teams rarely have the full picture in one place. The CRM shows part of it; the rest is spread across emails, meeting notes, LinkedIn, company websites, and the other tabs your team uses. Pulling that picture together again for every prospect, meeting, and follow-up takes time.",
+    "Most sales AI sees one slice of that picture: a CRM record, a call, or whatever you pasted into a chat. Strawberry works across the browser and apps your team already uses. It can open the current sources, use your logged-in tools, bring the account history together, and keep it available for the next task."
   ],
   "sections": [
     {
-      "id": "start-with-the-sales-work-in-front-of-you",
-      "title": "Start with the sales work in front of you",
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
       "blocks": [
         {
-          "kind": "paragraph",
-          "text": "The best starting point depends on what is happening now. Strawberry can use the context already available to recommend a small set of relevant options and help complete one. If another app would materially improve the result, your companion can explain what connecting it would unlock without turning the session into setup."
-        },
-        {
-          "kind": "table",
-          "columns": ["What needs attention", "A useful place to start"],
-          "rows": [
-            ["You need more right-fit pipeline", "Clarify the market when needed, then find a calibrated first set and prepare grounded outreach."],
-            ["An account or meeting needs attention", "Research the account, prepare for the meeting, and carry the reliable record into follow-up."],
-            ["The pipeline is unclear or stale", "Review current deal signals, identify the next moves, and prepare the CRM changes that keep the record useful."],
-            ["A proven method should scale", "Keep the accepted sources and judgment, then share or schedule the workflow only when the team is ready."]
-          ]
-        },
-        {
-          "kind": "skills",
+          "kind": "section-nav",
           "items": [
             {
-              "id": "strawberry/sales/getting-started-with-sales-in-strawberry",
-              "roleId": "sales-business-development",
-              "context": "Use the work and context already in front of you to choose and complete the most useful first Sales workflow."
+              "href": "#find-and-reach-the-right-customers",
+              "title": "Find and reach the right customers",
+              "description": "Research a market, build and enrich a prospect list, then turn the evidence into outreach."
+            },
+            {
+              "href": "#prepare-for-and-follow-up-on-customer-conversations",
+              "title": "Prepare for and follow up on customer conversations",
+              "description": "Research the account, get ready for the meeting, follow up, and create what the deal needs next."
+            },
+            {
+              "href": "#review-pipeline-and-keep-the-crm-current",
+              "title": "Review pipeline and keep the CRM current",
+              "description": "Spot stalled deals, focus the team, and keep the CRM worth trusting."
+            },
+            {
+              "href": "#reuse-what-works",
+              "title": "Reuse what works",
+              "description": "Teach your companion what good looks like, then share or schedule workflows that hold up."
             }
           ]
         },
         {
-          "kind": "paragraph",
-          "text": "Treat the first result as a draft you can coach. Correct the sources, qualification bar, tone, detail, or review point before the next run. Do not turn one unusual example into a permanent rule."
+          "kind": "guided-entry",
+          "text": "Not sure where to start? Your companion can look at the sales work you have open and suggest a useful skill to try first.",
+          "skill": {
+            "id": "strawberry/sales/getting-started-with-sales-in-strawberry",
+            "roleId": "sales-business-development",
+            "context": "Use the work and context already in front of you to choose a useful first Sales skill."
+          }
         }
       ]
     },
     {
-      "id": "build-pipeline-from-evidence",
+      "id": "find-and-reach-the-right-customers",
       "title": "Find and reach the right customers",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The route into new pipeline depends on what you already know. A team entering a market may need to understand the account universe first; another may already have the companies and only need verified contacts or better outreach. Working in the browser, Strawberry can follow evidence across company sites, LinkedIn, niche directories, and logged-in tools, then carry accepted research into the next step."
+          "text": "Prospecting can start with a new market or a list already sitting in your CRM. Strawberry can research across company sites, LinkedIn, directories, and logged-in tools, show why each prospect fits, and move from a checked sample to the full list you asked for. The same research can then feed contact enrichment and outreach without another round of copy-and-paste."
         },
         {
-          "kind": "list",
-          "style": "ordered",
-          "items": [
-            "Clarify the market when the segment, territory, or account universe is still uncertain.",
-            "Find a small, varied first set of companies and review the evidence behind why each one fits.",
-            "Enrich an accepted list with only the contacts and qualification fields the next step requires.",
-            "Turn approved research into representative outreach in your voice, keeping enrollment and sending separately reviewable."
-          ]
-        },
-        {
-          "kind": "skills",
+          "kind": "skill-steps",
           "items": [
             {
-              "id": "strawberry/research-analysis/map-a-market",
-              "roleId": "sales-business-development",
-              "context": "Define the target market, account universe, whitespace, concentration, and where prospecting should focus."
+              "title": "Find the part of the market worth pursuing",
+              "text": "Compare segments, companies, and current signals before you spend time building the list.",
+              "skill": {
+                "id": "strawberry/research-analysis/map-a-market",
+                "roleId": "sales-business-development",
+                "context": "Map the market from current sources and show where the strongest opportunities are."
+              }
             },
             {
-              "id": "strawberry/sales/find-new-customers",
-              "roleId": "sales-business-development",
-              "context": "Calibrate a small first set, then build a sourced and qualified customer list."
+              "title": "Build the prospect list",
+              "text": "Strawberry checks a varied sample with you, then completes the list at the scale you asked for.",
+              "skill": {
+                "id": "strawberry/sales/find-new-customers",
+                "roleId": "sales-business-development",
+                "context": "Find and qualify companies, with the evidence for why each one belongs."
+              }
             },
             {
-              "id": "strawberry/sales/enrich-lead-list",
-              "roleId": "sales-business-development",
-              "context": "Add verified contacts and agreed qualification fields to an existing list."
+              "title": "Find the right people",
+              "text": "Add the contacts and details needed for outreach or qualification without padding the file with fields you will not use.",
+              "skill": {
+                "id": "strawberry/sales/enrich-lead-list",
+                "roleId": "sales-business-development",
+                "context": "Add and verify the contacts and details you need for the next step."
+              }
             },
             {
-              "id": "strawberry/sales/send-personalized-outreach",
-              "roleId": "sales-business-development",
-              "context": "Turn accepted research into personalized outreach, with sending kept separately reviewable."
+              "title": "Turn the research into outreach",
+              "text": "Draft a single message, a batch, or a coordinated sequence in your voice. You review sending and enrollment separately.",
+              "skill": {
+                "id": "strawberry/sales/send-personalized-outreach",
+                "roleId": "sales-business-development",
+                "context": "Create personalized outreach or a multi-touch sequence from the research you approved."
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "carry-context-through-customer-conversations",
-      "title": "Carry context through customer conversations",
+      "id": "prepare-for-and-follow-up-on-customer-conversations",
+      "title": "Prepare for and follow up on customer conversations",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "An important customer conversation is rarely one task. The useful context starts before the meeting and should still be available when it is time to follow up."
+          "text": "Good meeting prep and follow-up depend on the same account story. Strawberry can pull together the calendar invite, CRM, email thread, call history, LinkedIn, and current company news before the meeting. Afterward, it can use the transcript or notes to draft the follow-up and update the next steps. You do not have to brief a different tool at every stage."
         },
         {
-          "kind": "list",
-          "style": "ordered",
-          "items": [
-            "Research the account and people when missing evidence could change the conversation.",
-            "Turn the relevant relationship, calendar, CRM, email, and web context into a concise meeting brief.",
-            "Use the reliable transcript or notes to capture the debrief, follow-up, next actions, and proposed CRM changes.",
-            "Create a one-pager, deck, tailored page, or other sales asset when the next customer decision needs more than an email."
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "Because this work happens in the browser you can see, your companion can open the real sources, use logged-in pages, and let you inspect or redirect the research. The accepted context can continue into the next step without rebuilding the account history in another tool. Reviewing a debrief still does not automatically send a message, share an asset, or change a record."
-        },
-        {
-          "kind": "skills",
+          "kind": "skill-steps",
           "items": [
             {
-              "id": "strawberry/sales/research-an-account",
-              "roleId": "sales-business-development",
-              "context": "Research the account, people, relationship, and credible way into the conversation."
+              "title": "Learn what matters before the call",
+              "text": "Go deeper on the company, people, relationship, or recent changes when they could affect the conversation.",
+              "skill": {
+                "id": "strawberry/sales/research-an-account",
+                "roleId": "sales-business-development",
+                "context": "Research the account, people, relationship, and a credible way into the conversation."
+              }
             },
             {
-              "id": "strawberry/sales/prepare-for-sales-meetings",
-              "roleId": "sales-business-development",
-              "context": "Turn the calendar, relationship, account, and current web context into a concise meeting brief."
+              "title": "Walk in prepared",
+              "text": "Bring the account history, meeting goal, open questions, and useful evidence into one short brief.",
+              "skill": {
+                "id": "strawberry/sales/prepare-for-sales-meetings",
+                "roleId": "sales-business-development",
+                "context": "Turn the meeting and account context into a concise brief you can use on the call."
+              }
             },
             {
-              "id": "strawberry/sales/debrief-a-sales-meeting",
-              "roleId": "sales-business-development",
-              "context": "Turn the reliable conversation record into a debrief, grounded follow-up, and next actions."
+              "title": "Follow through while the details are fresh",
+              "text": "Turn the transcript or notes into the follow-up, next actions, and CRM changes that need review.",
+              "skill": {
+                "id": "strawberry/sales/debrief-a-sales-meeting",
+                "roleId": "sales-business-development",
+                "context": "Create the debrief, follow-up, next actions, and proposed CRM updates."
+              }
             },
             {
-              "id": "strawberry/sales/create-a-sales-asset",
-              "roleId": "sales-business-development",
-              "context": "Use accepted account and meeting context to build the customer-facing asset needed for the next decision."
+              "title": "Build what the buyer needs next",
+              "text": "When an email is not enough, create a one-pager, deck, or tailored page from the same account context.",
+              "skill": {
+                "id": "strawberry/sales/create-a-sales-asset",
+                "roleId": "sales-business-development",
+                "context": "Create the simplest useful sales asset for the next customer decision."
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "see-what-needs-attention-across-the-pipeline",
-      "title": "See what needs attention across the pipeline",
+      "id": "review-pipeline-and-keep-the-crm-current",
+      "title": "Review pipeline and keep the CRM current",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A useful pipeline review needs more than the stage field. Strawberry can combine the CRM with recent meetings, email activity, commitments, missing information, and fresh account signals, then show stalled deals, neglected follow-ups, concentration, timing, and the actions most likely to move something forward."
+          "text": "The CRM is useful only when it reflects what is actually happening. Strawberry can compare the record with recent meetings, email, commitments, and account signals, then show where deals are stuck and prepare the updates that would make the pipeline trustworthy again."
         },
         {
-          "kind": "table",
-          "columns": ["What the review shows", "Useful next move"],
-          "rows": [
-            ["The market or territory is still unclear", "Map the account universe before treating companies as pipeline."],
-            ["The target is understood but qualified coverage is thin", "Find and calibrate more customers against the accepted criteria."],
-            ["A deal lacks evidence or a credible next step", "Research the account or prepare for the next conversation."],
-            ["The work happened but the record is stale", "Prepare the source-backed CRM changes for review."]
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "The review diagnoses the next workflow; it does not launch broad research, send follow-up, or rewrite the CRM automatically. Around that review, a daily brief can surface the meetings, messages, commitments, and risks that deserve attention, while a status update can turn the accepted picture into a concise view for leadership or the wider team."
-        },
-        {
-          "kind": "skills",
+          "kind": "skill-lanes",
           "items": [
             {
-              "id": "strawberry/sales/review-sales-pipeline",
-              "roleId": "sales-business-development",
-              "context": "Review pipeline health and turn it into a small, evidence-backed next-action plan."
+              "title": "See where deals need attention",
+              "text": "Review the activity and commitments behind each stage to find stalled deals, missing next steps, and the actions most likely to move them forward.",
+              "skill": {
+                "id": "strawberry/sales/review-sales-pipeline",
+                "roleId": "sales-business-development",
+                "context": "Find stalled deals, missing next steps, and the actions most likely to move something forward."
+              }
             },
             {
-              "id": "strawberry/sales/keep-crm-updated",
-              "roleId": "sales-business-development",
-              "context": "Review and apply approved CRM changes with the source and target record visible."
+              "title": "Keep the record current",
+              "text": "After a meeting or follow-up, prepare the exact field changes and show the source before applying them.",
+              "skill": {
+                "id": "strawberry/sales/keep-crm-updated",
+                "roleId": "sales-business-development",
+                "context": "Review and apply CRM changes with the source and target record in view."
+              }
             },
             {
-              "id": "strawberry/operations/prepare-a-daily-brief",
-              "roleId": "sales-business-development",
-              "context": "See which sales meetings, messages, commitments, risks, and decisions deserve attention today."
+              "title": "Know what matters today",
+              "text": "Bring today's meetings, messages, risks, and commitments into one short sales brief.",
+              "skill": {
+                "id": "strawberry/operations/prepare-a-daily-brief",
+                "roleId": "sales-business-development",
+                "context": "See the sales work that deserves your attention today."
+              }
             },
             {
-              "id": "strawberry/operations/prepare-a-status-update",
-              "roleId": "sales-business-development",
-              "context": "Turn the accepted sales picture into a concise update for leadership or the team."
+              "title": "Share a clear sales picture",
+              "text": "Turn the reviewed pipeline into a concise update for leadership or the team.",
+              "skill": {
+                "id": "strawberry/operations/prepare-a-status-update",
+                "roleId": "sales-business-development",
+                "context": "Create an update from the sales picture you have already reviewed."
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "keep-the-method-not-just-the-result",
-      "title": "Keep the method, not just the result",
+      "id": "reuse-what-works",
+      "title": "Reuse what works",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "As you correct real work, your companion can learn the sources you trust, the way you qualify accounts, the tone you use, the CRM fields that matter, and where you want to review changes. A later run can begin with the accepted method instead of a generic template."
+          "text": "As you correct real work, your companion can remember the sources you trust, how you qualify accounts, your writing style, the CRM fields that matter, and where you want to review changes. The next prospect list, brief, or follow-up can start closer to the way your team actually works."
         },
         {
           "kind": "list",
           "style": "unordered",
           "items": [
-            "Share the approved artifact when a teammate only needs this result.",
-            "Share the method as a team skill when people need the same sources, judgment, and review points.",
-            "Share the companion when the team needs ongoing context across several connected sales workflows.",
-            "Create a Routine only after the workflow has a trusted trigger or cadence, clear systems, an expected output, approval behavior, and stop conditions."
+            "Share an approved result when a teammate only needs the output.",
+            "Turn a workflow into a team skill when everyone should use the same sources, judgment, and review points.",
+            "Create a Routine after the trigger, destination, permissions, and stop conditions are clear."
           ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "Until the method is trusted, keep improving it through actual work. Open the Getting Started with Sales skill when you want Strawberry to help choose the first useful piece."
         },
         {
           "kind": "skills",
@@ -224,9 +235,13 @@
             {
               "id": "strawberry/operations/set-up-shared-team-workflow",
               "roleId": "sales-business-development",
-              "context": "Bring a trusted individual workflow into the shared Sales companion so teammates can use and improve it together."
+              "context": "Turn a Sales workflow that already works into a shared method for the team."
             }
           ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "You do not need to automate the whole sales process at once. Pick one job that repeats this week, make the result genuinely useful, and build from there. Strawberry becomes more valuable as the research, conversations, and records stop resetting between steps."
         }
       ]
     }
@@ -234,35 +249,25 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Strawberry for sales",
-      "description": "Explore more sales use cases, prompts, and ideas for skills and Routines.",
-      "href": "/blog/strawberry-for-sales"
+      "title": "Getting Started as a Founder in Strawberry",
+      "description": "Connect customer growth with company visibility, fundraising, hiring, and the rest of the founder's work.",
+      "href": "/playbooks/founder-executive"
     },
     {
-      "title": "How to prompt AI as a sales rep",
-      "description": "More examples of lead generation, account research, outreach, and CRM work.",
-      "href": "/blog/how-to-prompt-ai-as-a-sales-rep"
+      "title": "Getting Started with Marketing in Strawberry",
+      "description": "See how audience insights, campaigns, content, and performance can support the same customer journey.",
+      "href": "/playbooks/marketing"
     },
     {
-      "title": "Prepare for a sales call",
-      "description": "Open the focused workflow for creating a concise, connected meeting brief.",
-      "href": "/playbooks/ai-sales-meeting-preparation"
-    },
-    {
-      "title": "Research an account",
-      "description": "Open the focused workflow for sourced account and relationship research.",
-      "href": "/playbooks/ai-sales-account-research"
+      "title": "Getting Started with Operations in Strawberry",
+      "description": "Connect sales meetings and pipeline work with daily attention, open loops, status updates, and team workflows.",
+      "href": "/playbooks/operations"
     }
   ],
   "navigation": {
     "title": "Sales",
     "tagline": "Research, conversations, follow-through, and pipeline",
-    "icons": [
-      "linkedin",
-      "salesforce",
-      "gmail",
-      "apollo"
-    ],
+    "icons": ["linkedin", "salesforce", "gmail", "apollo"],
     "order": 1
   }
 }

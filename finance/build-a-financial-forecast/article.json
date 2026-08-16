@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-financial-forecasting",
+  "title": "How to build a financial forecast with AI",
+  "description": "Use AI to build an assumption-led financial forecast with inspectable drivers, scenarios, cash, and runway.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "A forecast is useful when someone can change an assumption and understand what happens next. It is much less useful when the numbers arrive from a model that hides the source actuals, mixes inputs with formulas, or produces scenarios no one asked for.",
+    "Strawberry can work in the existing spreadsheet while checking approved operating context in the browser and connected apps. Your companion can keep source versions and assumptions visible, update the calculations, and carry accepted performance drivers into the forward view."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-decision",
+      "title": "Start with the decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A hiring decision, runway discussion, annual budget, and rolling forecast need different horizons and drivers. Define the company, time grain, currency, audience, and decision before changing the model. Preserve a reliable existing model rather than replacing it with a generic template."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/finance/build-a-financial-forecast",
+              "roleId": "finance",
+              "context": "Build or update the model around the decision, accepted actuals, and operating drivers that matter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-the-model-inspectable",
+      "title": "Make the model inspectable",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "Layer",
+            "What to keep clear"
+          ],
+          "rows": [
+            [
+              "Actuals",
+              "Accepted source, version, period, currency, and as-of date."
+            ],
+            [
+              "Operating inputs",
+              "Contracts, pipeline, pricing, usage, headcount, vendor commitments, and cash evidence."
+            ],
+            [
+              "Assumptions",
+              "Owner, rationale, date, and what would cause the assumption to change."
+            ],
+            [
+              "Calculations and outputs",
+              "Formulas, dependencies, scenario switches, and the decisions the output informs."
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Historical patterns can inform an assumption, but they do not prove that it will continue. Keep that choice visible rather than burying it inside a formula."
+        }
+      ]
+    },
+    {
+      "id": "use-scenarios-to-answer-real-questions",
+      "title": "Use scenarios to answer real questions",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Build the accepted base view first. Add an upside, downside, or sensitivity only when it changes a real decision. A useful scenario changes a few meaningful drivers and explains what they represent; it is not a second spreadsheet full of arbitrary percentages."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "For runway, test collections, hiring, revenue timing, one-time costs, and financing only where they are material.",
+            "For hiring, show the start date, compensation, related costs, and operating effect.",
+            "For revenue, separate volume, price, timing, churn, and collection assumptions when the distinction matters."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "validate-before-sharing-the-view",
+      "title": "Validate before sharing the view",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Reconcile the opening actuals and period roll-forward. Check totals, signs, formulas, dates, units, cash movements, linked schedules, and scenario switches. Investigate implausible jumps and disclose stale inputs, missing drivers, or manual overrides."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Deliver the model with a concise assumption log, the base view, decision-relevant scenarios, cash or runway implications, and the questions that remain. Strawberry can remember the accepted model logic for the next update, but overwriting an approved budget, publishing the forecast, or changing an operating plan remains a separate decision."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/finance/review-financial-performance",
+              "roleId": "finance",
+              "context": "Compare future actuals with the accepted forecast and explain the material drivers."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting Started with Finance in Strawberry",
+      "description": "Connect forecasting with clean financial evidence, performance analysis, and follow-through.",
+      "href": "/playbooks/finance"
+    }
+  ]
+}

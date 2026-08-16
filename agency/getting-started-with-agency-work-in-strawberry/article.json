@@ -100,7 +100,7 @@
     },
     {
       "id": "make-delivery-repeatable",
-      "title": "Make the accepted process repeatable",
+      "title": "Make a good client process repeatable",
       "paragraphs": [
         "When a first run works, preserve its accepted inputs, sources, style, review points, and client restrictions as an agency-owned skill. Reuse the method only after loading the next client’s own context.",
         "Bring the process to the team by agreeing on owners, destinations, conventions, and approvals. Add a Routine only after repeated review has made the underlying workflow trustworthy."

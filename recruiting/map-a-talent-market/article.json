@@ -96,7 +96,7 @@
     },
     {
       "id": "move-into-sourcing",
-      "title": "Turn the accepted map into a candidate search",
+      "title": "Turn the talent map into a candidate search",
       "blocks": [
         {
           "kind": "paragraph",

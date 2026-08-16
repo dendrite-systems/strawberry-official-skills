@@ -23,6 +23,14 @@ They share a recognizable journey without forcing every skill into the same temp
     change the conversation. Preparation hands up to research when depth is needed; research hands
     down to preparation when the next job is turning evidence into a meeting plan. Keep the two
     owners and their outputs distinct instead of merging or duplicating them.
+- **Make cross-functional handoffs explicit:** When one customer or project moves across roles,
+  name the artifact each workflow owns, what evidence crosses the boundary, and who retains
+  relationship or communication ownership. For example, Support can own customer impact and the
+  update while Engineering owns reproduction and the issue record. One shared case does not require
+  one oversized skill.
+- **Give combined roles parallel visibility:** When one selector entry intentionally combines two
+  related functions, paint both modes early and let users enter either one. The side with more
+  focused skills should not automatically become the whole role story.
 - **Merchandise across roles deliberately:** Add a secondary-role use case when that role performs
   the same recurring job, the focused skill's judgment transfers without a role-specific fork, and
   discovery would materially improve. Do not add every plausible audience or use cross-role reach
@@ -39,7 +47,13 @@ They share a recognizable journey without forcing every skill into the same temp
   for the weight ladder.
 - **Evidence:** Separate sourced facts, observations, inferences, assumptions, missing evidence,
   and product judgment. Be honest when research is thin. Consequential claims remain traceable to
-  their sources.
+  their sources. Treat technically possible behavior, observed private use, and an officially
+  recommended public workflow as different evidence states. A bundle may deliberately stop before
+  a technically available action when the audience, controls, or trust are not ready.
+- **Release for the audience that exists now:** Frame the first bundle around the users and
+  workflows with credible near-term value. Paint a larger system without implying enterprise
+  maturity, regulatory readiness, or autonomous ownership that has not been validated. Defer
+  specialist workflows when the evidence or control model is weaker than the public promise.
 - **First result:** Start with a bounded piece of real work from context the user has approved.
   Connect another app only when it materially improves the result, and calibrate with a small,
   varied sample only when correction before scale is valuable. Fast first value follows the
@@ -56,16 +70,45 @@ They share a recognizable journey without forcing every skill into the same temp
   scope, impact, or sensitive-data handling changes. Verify completed external actions.
 - **Editorial:** Use the established `Getting Started with <role> in Strawberry` name unless natural
   grammar calls for a small variation. Articles open like a human explanation, make one clear
-  product argument, show the few Strawberry differences that matter, and use an early entry card.
+  product argument, and show the few Strawberry differences that matter. Preserve a concise,
+  recognizable problem-to-product opening; do not replace it with internal routing language merely
+  to make the page shorter, or with a perfectly symmetrical list of what each tool contains. The
+  executable Getting Started skill is an optional guided route, not a required hero card. Mention
+  it quietly near the system map or closing when the page already makes the concrete workflows easy
+  to discover.
   Keep the opening lean enough to scan even when the body is rich: near the top, a reader should be
   able to identify the work, why Strawberry fits, the larger role system, and a useful way to begin.
   This is a page-hierarchy test, not a fixed paragraph or word-count rule. A Getting Started article
   is the role's operating-system map; focused articles teach the individual workflows. Use a linear
   progression only when the work really progresses that way, and use tables, lists, or numbered
   sequences only when they make the page easier to understand. Shared-skill cards appear only at
-  genuine branches—not as an inventory or prompt library. Run a sentence-economy pass after the
-  structure is sound: tighten headings, table labels, transitions, and coaching language without
+  genuine branches—not as an inventory or prompt library. Keep cards visually light: one crisp
+  outcome sentence and small truthful actions, with the article owning the hook and education.
+  Related links should lead to a genuine next workflow or an adjacent role's Getting Started map;
+  do not add generic links merely for SEO or repeat routes already clear in the body. Published
+  articles normally offer three distinct `Keep reading` choices. Role maps should bias toward
+  adjacent role maps; focused articles can mix the parent role with related focused or role-level
+  guides. Use fewer only when another link would be filler. Run a
+  sentence-economy pass after the structure is sound: tighten headings, table labels, transitions,
+  and coaching language without
   removing the examples or connective reasoning that make the page useful.
+- **Focused articles:** Teach one job rather than repainting the whole role. Use the smallest
+  scannable structure that clarifies its real decisions—a heading outline, sequence, checklist,
+  comparison, or example—not a visual quota or a copy of the Getting Started layout. Explain the
+  relevant Strawberry advantage where it changes the work, and keep the skill entry point light.
+  Write headings for the reader: name the choice, outcome, or useful next move, not a third-person
+  “user,” internal permission state, or companion-facing phase copied from `SKILL.md`.
+  When a numbered explanation or parallel lane already introduces a skill, make the skill entry
+  compact rather than repeating the same hierarchy twice. Preserve useful skill-card detail in the
+  authored copy above it; reserve expanded cards for entries that stand on their own. Use authored
+  inline emphasis sparingly for genuine scan anchors such as a key decision or Strawberry concept;
+  never highlight every feature mention. A
+  focused article can place one quiet, tailored “Want to try it?” invitation above its own skill
+  card, using the reviewed starting message. Do not repeat it above adjacent workflow cards.
+- **Inspire before reassuring:** A Getting Started article should make the role possibilities and
+  Strawberry advantage feel concrete. Do not foreground generic approval, permission, or safety
+  reassurance. Focused articles and skills explain those boundaries where an actual action makes
+  them relevant.
 - **Make the product difference concrete:** A reader should not leave wondering why the workflow
   belongs in Strawberry rather than an ordinary chat. Near the opening, establish the relevant
   connected working surface; later, repeat a product mechanism only where it changes the workflow.

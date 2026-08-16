@@ -5,65 +5,67 @@
   "title": "How to use AI for Operations work",
   "description": "Use AI across inboxes, meetings, projects, onboarding, travel, events, and team workflows without losing context or control.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
   "publishedAt": "2026-07-24T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Operations rarely stays inside one job description. A leadership meeting becomes a missing owner, a new teammate's access, an overdue update, or venue options for an offsite. Much of the work is finding the current evidence before anyone can act.",
-    "Strawberry is an agentic browser and workspace with built-in AI agents. Your companion can use visible tabs, logged-in tools, connected apps, meetings, documents, and files, then remember the sources, definitions, and review points you accept. Choose something you need to finish now and connect the system as it proves useful."
+    "Operations work often starts with a simple question—what needs attention today?—and turns into checking the calendar, Slack, email, project tools, meeting notes, and a few browser tabs before anyone can answer it. The next step may be an update, an introduction, a new teammate's access, or a booking that still needs to happen somewhere else.",
+    "Strawberry can do that checking in the same browser and apps where the work continues. Your companion can compare the current sources, show where they disagree, prepare the next useful action, and remember the definitions and review points you accept. That lets a brief, meeting, or project update feed the next task instead of becoming another isolated result."
   ],
   "sections": [
     {
-      "id": "start-with-something-you-need-to-get-done",
-      "title": "See the Operations system, then start with real work",
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
       "blocks": [
         {
-          "kind": "paragraph",
-          "text": "You do not need to connect every tool or design the complete system first. Bring today's priorities, an inbox, an update, a meeting, a new starter, a trip, or an event while keeping the wider Operations picture visible."
-        },
-        {
-          "kind": "table",
-          "columns": ["Operations lane", "What Strawberry can help carry"],
-          "rows": [
-            ["Daily attention", "Priorities, inbox decisions, commitments, ownership gaps, and the evidence behind them."],
-            ["Communication and meetings", "Audience-specific updates, meeting preparation, reliable decisions, and reviewable follow-through."],
-            ["People and logistics", "Role-aware onboarding, travel, events, live options, policy, approvals, and cleanup."],
-            ["Team leverage", "Accepted sources, definitions, methods, ownership, shared workflows, and trusted Routines."]
-          ]
-        },
-        {
-          "kind": "skills",
+          "kind": "section-nav",
           "items": [
             {
-              "id": "strawberry/operations/getting-started-with-operations-in-strawberry",
-              "roleId": "operations-chief-of-staff",
-              "context": "Use the work and context already in front of you to choose and complete the most useful first Operations workflow."
+              "href": "#get-a-clearer-view-of-the-day",
+              "title": "Get a clearer view of the day",
+              "description": "Bring priorities, messages, decisions, risks, and open commitments into focus."
+            },
+            {
+              "href": "#write-updates-people-can-use",
+              "title": "Write updates people can use",
+              "description": "Compare the current sources and shape the result for the people who need it."
+            },
+            {
+              "href": "#prepare-for-meetings-and-finish-the-follow-up",
+              "title": "Prepare for meetings and follow through",
+              "description": "Carry useful context into the conversation, then preserve decisions and commitments."
+            },
+            {
+              "href": "#plan-trips-and-events",
+              "title": "Plan trips and events",
+              "description": "Research travel or events, inspect live options, and continue into the approved next step."
+            },
+            {
+              "href": "#help-a-new-teammate-find-their-feet",
+              "title": "Help a new teammate get started",
+              "description": "Build a role-aware path through people, projects, knowledge, access, and the first week."
+            },
+            {
+              "href": "#keep-the-methods-that-work",
+              "title": "Keep the methods that work",
+              "description": "Turn accepted sources, definitions, ownership, and review points into shared workflows."
             }
           ]
         },
         {
-          "kind": "paragraph",
-          "text": "When the starting point is unclear, your companion can recommend a few relevant options from the context already available. Treat the first result as a draft you can coach: correct what mattered, which sources you trust, the level of detail, and what it missed."
-        }
-      ]
-    },
-    {
-      "id": "why-strawberry-fits-operations",
-      "title": "Why Strawberry is a strong fit for Operations",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "A typical AI chat starts with what you paste into it; a narrow automation works best when the source, rule, and next action are already known. Operations often has to discover which source is current, reconcile an exception, and carry the answer into another tool. Strawberry can compare a project record with the meeting where the owner was agreed, read the full thread before drafting a reply, or use the travel policy and calendar while checking live options."
-        },
-        {
-          "kind": "paragraph",
-          "text": "The browser is shared with you, so you can inspect the sources, redirect the work, or take over. After a decision, the same companion can prepare the message, update the record, or continue through the provider's form—with each consequential action still separately approved. Your corrections can teach it which sources to trust, how the team defines an open commitment, what a good update sounds like, and where review belongs."
+          "kind": "guided-entry",
+          "text": "Not sure where to begin? Your companion can look at the Operations work you have open and suggest a useful skill to try first.",
+          "skill": {
+            "id": "strawberry/operations/getting-started-with-operations-in-strawberry",
+            "roleId": "operations-chief-of-staff",
+            "context": "Use the work and context already in front of you to choose and complete the most useful first Operations workflow."
+          }
         }
       ]
     },
@@ -84,22 +86,34 @@
           "text": "Some follow-ups are harder to spot because the evidence is spread around. A meeting note may name an owner, while the project tracker has no assignment and a later Slack message suggests the work is already finished. Close Open Loops checks those sources together and shows you the mismatch, the evidence behind it, and the smallest useful next step."
         },
         {
-          "kind": "skills",
+          "kind": "skill-lanes",
           "items": [
             {
-              "id": "strawberry/operations/prepare-a-daily-brief",
-              "roleId": "operations-chief-of-staff",
-              "context": "See the priorities, meetings, messages, risks, and decisions that need attention today."
+              "title": "See what needs attention today",
+              "text": "Review the calendar, messages, tasks, meeting notes, and current work, then bring forward what could change the day.",
+              "skill": {
+                "id": "strawberry/operations/prepare-a-daily-brief",
+                "roleId": "operations-chief-of-staff",
+                "context": "See the priorities, meetings, messages, risks, and decisions that need attention today."
+              }
             },
             {
-              "id": "strawberry/operations/triage-my-inbox",
-              "roleId": "operations-chief-of-staff",
-              "context": "Bring an email, LinkedIn, or other communication queue under control with reviewable replies and cleanup."
+              "title": "Bring an inbox under control",
+              "text": "Read the useful surrounding context across email, LinkedIn, or another queue, find what needs a decision, and prepare replies or cleanup for review.",
+              "skill": {
+                "id": "strawberry/operations/triage-my-inbox",
+                "roleId": "operations-chief-of-staff",
+                "context": "Bring an email, LinkedIn, or other communication queue under control with reviewable replies and cleanup."
+              }
             },
             {
-              "id": "strawberry/operations/close-open-loops",
-              "roleId": "operations-chief-of-staff",
-              "context": "Find commitments, follow-ups, ownership gaps, and conflicting status across the systems where work happened."
+              "title": "Find the open loops",
+              "text": "Reconcile commitments, follow-ups, ownership gaps, and conflicting status across the systems where work happened.",
+              "skill": {
+                "id": "strawberry/operations/close-open-loops",
+                "roleId": "operations-chief-of-staff",
+                "context": "Find commitments, follow-ups, ownership gaps, and conflicting status across the systems where work happened."
+              }
             }
           ]
         }
@@ -146,30 +160,42 @@
           "text": "When the next step is an introduction, Strawberry can inspect approved relationship context, verify whether a warm path is credible, and prepare an intermediary ask or double opt-in without exposing private context."
         },
         {
-          "kind": "skills",
+          "kind": "skill-lanes",
           "items": [
             {
-              "id": "strawberry/operations/prepare-for-meetings",
-              "roleId": "operations-chief-of-staff",
-              "context": "Prepare a concise brief for a general internal or external meeting."
+              "title": "Walk into the meeting prepared",
+              "text": "Bring together the people, history, changed context, desired outcome, and questions worth asking.",
+              "skill": {
+                "id": "strawberry/operations/prepare-for-meetings",
+                "roleId": "operations-chief-of-staff",
+                "context": "Prepare a concise brief for a general internal or external meeting."
+              }
             },
-          {
-            "id": "strawberry/operations/debrief-a-meeting",
-            "roleId": "operations-chief-of-staff",
-            "context": "Turn a completed meeting into grounded decisions, actions, follow-up, and proposed system updates."
-          },
-          {
-            "id": "strawberry/operations/make-a-warm-introduction",
-            "roleId": "operations-chief-of-staff",
-            "context": "Find a credible relationship path and prepare a considerate introduction or intermediary ask."
-          }
+            {
+              "title": "Turn the conversation into follow-through",
+              "text": "Separate discussion from decisions and prepare the actions, messages, and record updates that follow.",
+              "skill": {
+                "id": "strawberry/operations/debrief-a-meeting",
+                "roleId": "operations-chief-of-staff",
+                "context": "Turn a completed meeting into grounded decisions, actions, follow-up, and proposed system updates."
+              }
+            },
+            {
+              "title": "Make a considerate introduction",
+              "text": "Check whether the relationship path is credible and prepare the right intermediary ask or double opt-in.",
+              "skill": {
+                "id": "strawberry/operations/make-a-warm-introduction",
+                "roleId": "operations-chief-of-staff",
+                "context": "Find a credible relationship path and prepare a considerate introduction or intermediary ask."
+              }
+            }
           ]
         }
       ]
     },
     {
-      "id": "keep-going-in-the-browser",
-      "title": "Keep going in the browser",
+      "id": "plan-trips-and-events",
+      "title": "Plan trips and events",
       "blocks": [
         {
           "kind": "paragraph",
@@ -184,17 +210,25 @@
           "text": "In Strawberry, that work happens in the same browser you can see. Your companion can start from the dates, policy, budget, and preferences already available, open the relevant flight, rail, accommodation, venue, catering, and vendor sites, and keep the useful options ready for you to inspect. After you choose, it can continue through an inquiry or booking flow. Contacting a provider, accepting terms, and spending money remain separate approvals."
         },
         {
-          "kind": "skills",
+          "kind": "skill-lanes",
           "items": [
             {
-              "id": "strawberry/operations/plan-a-business-trip",
-              "roleId": "operations-chief-of-staff",
-              "context": "Compare a coherent work itinerary, complete approved bookings, and organize confirmations."
+              "title": "Plan a business trip",
+              "text": "Use the dates, policy, budget, calendar, and preferences to compare a coherent itinerary, continue into approved bookings, and organize the confirmations.",
+              "skill": {
+                "id": "strawberry/operations/plan-a-business-trip",
+                "roleId": "operations-chief-of-staff",
+                "context": "Compare a coherent work itinerary, complete approved bookings, and organize confirmations."
+              }
             },
             {
-              "id": "strawberry/operations/plan-an-event",
-              "roleId": "operations-chief-of-staff",
-              "context": "Plan an event across the concept, venues, vendors, budget, invitations, logistics, and run-of-show."
+              "title": "Plan a work event",
+              "text": "Connect the concept, attendees, venues, vendors, budget, invitations, logistics, and run-of-show.",
+              "skill": {
+                "id": "strawberry/operations/plan-an-event",
+                "roleId": "operations-chief-of-staff",
+                "context": "Plan an event across the concept, venues, vendors, budget, invitations, logistics, and run-of-show."
+              }
             }
           ]
         }
@@ -233,12 +267,14 @@
           "text": "After you have corrected a few real results, you will start to see which parts should stay consistent: the sources to check, the order of work, the team's definitions, the format, and the points that need a person to review them. Those details can become a custom skill so the next run begins with the method you have already worked out."
         },
         {
-          "kind": "paragraph",
-          "text": "If colleagues need the result, you can share the approved artifact. If they need the method, you can share it as a team skill. A shared companion is useful when the team wants to carry context and several workflows together. These are separate choices, so a useful personal workflow does not have to become a company-wide system."
-        },
-        {
-          "kind": "paragraph",
-          "text": "A Routine becomes useful when the work has a clear cadence or trigger. It should say which systems to check, what to prepare, where the result goes, which actions still need approval, and when to stop. Setting that up after a few reviewed runs gives the team a much better starting point than trying to automate a process that is still changing."
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Share an approved artifact when someone only needs the result.",
+            "Share a team skill when colleagues need the same sources, definitions, method, and review points.",
+            "Use a shared companion when several workflows need the same ongoing context.",
+            "Create a Routine when the trigger, systems, destination, ownership, and stop conditions are clear."
+          ]
         },
         {
           "kind": "skills",
@@ -249,10 +285,6 @@
               "context": "Turn a proven individual workflow into a shared method with ownership, privacy boundaries, a verified handoff, and a precise Routine."
             }
           ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "The easiest way to begin is to open the Getting Started with Operations skill and bring it something you already need to finish. Strawberry can help choose the first workflow and use what it learns to make the next one easier."
         }
       ]
     }
@@ -260,14 +292,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to prompt AI for operations",
-      "description": "Explore more practical ideas for recurring administrative and operational work.",
-      "href": "/blog/how-to-prompt-ai-for-operations"
+      "title": "Getting Started as a Founder in Strawberry",
+      "description": "See how daily attention, company visibility, company building, and team leverage connect for founders.",
+      "href": "/playbooks/founder-executive"
     },
     {
-      "title": "Strawberry for meetings",
-      "description": "See how preparation, meeting capture, debriefs, and follow-through can connect.",
-      "href": "/blog/strawberry-for-meetings"
+      "title": "Getting Started with Consulting in Strawberry",
+      "description": "See how research, proposals, meetings, recommendations, and delivery can share the same context.",
+      "href": "/playbooks/consulting"
+    },
+    {
+      "title": "Getting Started with Sales in Strawberry",
+      "description": "Connect meetings, pipeline decisions, CRM work, and follow-through with the wider sales system.",
+      "href": "/playbooks/automate-sales-pipeline"
     }
   ],
   "navigation": {

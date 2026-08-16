@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Build a Financial Forecast",
+  "summary": "Build or update an assumption-led forecast with decision scenarios, cash, and runway where relevant.",
+  "icon": "chart",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "finance",
+      "weight": 104,
+      "title": "Build or update a financial forecast",
+      "message": "Build or update our forecast from accepted actuals and operating drivers, make the material assumptions clear, and test the scenarios this decision needs."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 90,
+      "title": "Model cash and runway decisions",
+      "message": "Help me build a clear forecast for this decision, including cash, runway, assumptions, and the scenarios that could materially change the answer."
+    }
+  ]
+}

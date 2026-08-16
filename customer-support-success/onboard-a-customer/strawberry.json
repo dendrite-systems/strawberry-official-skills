@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Onboard a Customer",
+  "summary": "Turn accepted customer goals and commitments into an owned path to first value, with milestones, risks, and next actions clear.",
+  "icon": "people",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "customer-support-success",
+      "weight": 110,
+      "title": "Onboard a customer",
+      "message": "Build a practical onboarding path for this customer from their accepted goals, stakeholders, commitments, setup, milestones, risks, and current progress."
+    },
+    {
+      "roleId": "sales-business-development",
+      "weight": 88,
+      "title": "Hand a new customer into onboarding",
+      "message": "Turn the accepted sales commitments and customer goals into a clear onboarding handoff with owners, open questions, and the first value milestone."
+    }
+  ]
+}

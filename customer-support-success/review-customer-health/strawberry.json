@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Review Customer Health",
+  "summary": "Review customer outcomes, adoption, relationships, support experience, commitments, risks, and opportunities from traceable evidence.",
+  "icon": "chart",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "customer-support-success",
+      "weight": 114,
+      "title": "Review customer health",
+      "message": "Review this customer account against its accepted goals and health definitions, reconcile the current signals, and show the risks, opportunities, evidence gaps, and next actions."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 86,
+      "title": "Understand a key customer account",
+      "message": "Help me understand whether this customer is reaching value, what has changed, and what deserves attention next."
+    }
+  ]
+}

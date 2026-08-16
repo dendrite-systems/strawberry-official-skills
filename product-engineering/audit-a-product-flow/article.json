@@ -102,7 +102,7 @@
     },
     {
       "id": "route-confirmed-bugs-with-the-evidence-attached",
-      "title": "Route confirmed bugs with the evidence attached",
+      "title": "Turn confirmed bugs into useful issues",
       "blocks": [
         {
           "kind": "paragraph",

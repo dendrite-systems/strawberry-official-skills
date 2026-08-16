@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Triage a Customer Request",
+  "summary": "Assess impact and urgency, check known context, and prepare the right owner, next action, and first response.",
+  "icon": "inbox",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "customer-support-success",
+      "weight": 116,
+      "title": "Triage a customer request",
+      "message": "Triage this customer request using our actual priority, SLA, ownership, and escalation rules, then prepare the right next action and first response."
+    },
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 90,
+      "title": "Triage a customer issue",
+      "message": "Help me understand the impact and urgency of this customer issue, find the right owner, and prepare the next action."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 84,
+      "title": "Decide what this customer issue needs",
+      "message": "Triage this customer issue, show me what matters, and recommend the right owner and response."
+    }
+  ]
+}

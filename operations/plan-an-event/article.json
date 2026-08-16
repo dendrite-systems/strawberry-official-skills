@@ -5,12 +5,12 @@
   "title": "How to plan a work event with AI",
   "description": "Use AI to combine team context with live venue and vendor research, then coordinate the budget, guests, agenda, and run-of-show.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
   "publishedAt": "2026-08-15T00:00:00.000Z",
   "noindex": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "recommend-shortlist",
-      "title": "Recommend a direction the user can choose",
+      "title": "Choose the event plan that fits best",
       "blocks": [
         {
           "kind": "paragraph",
@@ -74,7 +74,7 @@
     },
     {
       "id": "continue-into-execution",
-      "title": "Continue from the choice into execution",
+      "title": "Book and coordinate the plan you choose",
       "blocks": [
         {
           "kind": "paragraph",
@@ -110,9 +110,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "Getting Started with Operations in Strawberry",
       "description": "See how event planning connects with travel, status updates, and repeatable team workflows.",
       "href": "/playbooks/operations"
+    },
+    {
+      "title": "Getting Started with Marketing in Strawberry",
+      "description": "Connect the event with audience insights, campaign planning, content, and performance learning.",
+      "href": "/playbooks/marketing"
+    },
+    {
+      "title": "Getting Started with Sales in Strawberry",
+      "description": "Connect customer events with account research, meeting preparation, follow-up, and relationship context.",
+      "href": "/playbooks/automate-sales-pipeline"
     }
   ]
 }

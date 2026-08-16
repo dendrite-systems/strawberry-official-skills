@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "ai-customer-onboarding",
+  "title": "How to onboard customers with AI",
+  "description": "Use AI to turn accepted customer goals, commitments, stakeholders, setup, and risks into an owned path to first value.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "introduction": [
+    "Customer onboarding is where the signed agreement, the sales conversation, the product, and the customer's internal reality have to meet. A generic checklist can look organized while missing the outcome the customer actually expects.",
+    "Strawberry can bring together approved sales notes, commitments, account records, meetings, email, product context, and implementation work in one visible workspace. Your companion can turn that evidence into an owned path to first value without quietly expanding the scope or changing access and configuration."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-outcome",
+      "title": "Start with the outcome",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Define what the customer bought, the business goal, intended users, stakeholders, target dates, success measures, constraints, and next value milestone. Separate signed terms, accepted commitments, informal discussion, assumptions, and open questions."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/customer-support-success/onboard-a-customer",
+              "roleId": "customer-support-success",
+              "context": "Turn the accepted customer outcome and commitments into a practical onboarding path."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reconcile-readiness-before-building-the-plan",
+      "title": "Reconcile readiness before building the plan",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "Area",
+            "Questions worth resolving"
+          ],
+          "rows": [
+            [
+              "People",
+              "Who owns the outcome, setup, decisions, training, and communication?"
+            ],
+            [
+              "Product and data",
+              "What access, configuration, integration, migration, or data preparation is actually required?"
+            ],
+            [
+              "Customer change",
+              "Which users need to adopt a new behavior, and what will help them do it?"
+            ],
+            [
+              "Risk and scope",
+              "Which assumptions, security questions, custom work, or unclear commitments need an owner?"
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "If access, privacy, security, legal, billing, or custom technical work is unclear, route it before presenting the onboarding as ready."
+        }
+      ]
+    },
+    {
+      "id": "build-the-path-to-first-value",
+      "title": "Build the path to first value",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Create milestones from the customer's outcome rather than a complete tour of the product. Keep owners, dependencies, target dates, risks, decisions, and the evidence of progress visible. A 30/60/90-day plan is useful only when it fits the actual implementation."
+        },
+        {
+          "kind": "list",
+          "style": "ordered",
+          "items": [
+            "Confirm the outcome and first value milestone.",
+            "Assign the customer and internal owners for each dependency.",
+            "Prepare the setup, enablement, and adoption work that the outcome needs.",
+            "Define the progress evidence and next decision point."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carry-the-context-into-each-conversation",
+      "title": "Carry the context into each conversation",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Use the accepted goals, stakeholders, plan, and open decisions to prepare the kickoff and later check-ins. After the meeting, preserve decisions and commitments from a reliable record so the plan reflects what actually changed. Strawberry can remember the accepted onboarding method, but sending, scheduling, access changes, configuration, data movement, and record updates remain separate actions."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/prepare-for-meetings",
+              "roleId": "customer-support-success",
+              "context": "Prepare the kickoff or customer check-in from the relevant goals, stakeholders, progress, and open decisions."
+            },
+            {
+              "id": "strawberry/customer-support-success/review-customer-health",
+              "roleId": "customer-support-success",
+              "context": "Carry the accepted outcomes and progress evidence into an ongoing account review."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Getting Started with Customer Support and Success in Strawberry",
+      "description": "Connect onboarding with customer health, conversations, support, and follow-through.",
+      "href": "/playbooks/customer-support-success"
+    }
+  ]
+}

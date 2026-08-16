@@ -40,6 +40,12 @@
       "weight": 82,
       "title": "Prepare a product or engineering status update",
       "message": "Turn the latest product and engineering evidence into an audience-specific update with progress, changes, risks, decisions, asks, and next steps."
+    },
+    {
+      "roleId": "customer-support-success",
+      "weight": 88,
+      "title": "Prepare a customer or account update",
+      "message": "Turn the accepted customer, support, onboarding, or health evidence into a concise update for the right internal or customer audience."
     }
   ]
 }

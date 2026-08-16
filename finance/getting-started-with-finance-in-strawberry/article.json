@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "publicSlug": "finance",
+  "title": "Getting Started with Finance in Strawberry",
+  "description": "Use Strawberry to organize financial evidence, understand performance, build forecasts, and prepare the next update.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "noindex": true,
+  "navigation": {
+    "title": "Finance",
+    "tagline": "Records, performance, forecasts, and follow-through",
+    "icons": [
+      "gmail",
+      "google-sheets",
+      "notion"
+    ],
+    "order": 8
+  },
+  "introduction": [
+    "In a small company, Finance work often means switching between email, vendor portals, payment records, spreadsheets, and a conversation with the accountant. The hard part is less about producing another summary than keeping the evidence behind it complete and reviewable.",
+    "Strawberry can work through those sources in the same visible browser where the work already happens. Your companion can collect the records, keep links beside important figures, learn the definitions you correct, and carry accepted context into analysis and planning. Payment, accounting, and filing actions remain outside this bundle."
+  ],
+  "sections": [
+    {
+      "id": "see-the-finance-system",
+      "title": "See the Finance system",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "Part of the system",
+            "What Strawberry can help with"
+          ],
+          "rows": [
+            [
+              "Keep the books ready",
+              "Gather invoices, receipts, and payment evidence; build a traceable register; and prepare the exceptions for an accountant."
+            ],
+            [
+              "Understand the position",
+              "Review cash, runway, income, costs, and performance against the comparison that matters."
+            ],
+            [
+              "Plan ahead",
+              "Build or update a forecast and test the assumptions behind an operating decision."
+            ],
+            [
+              "Communicate and follow through",
+              "Turn accepted evidence into the right update and keep unresolved questions visible."
+            ]
+          ]
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/finance/getting-started-with-finance-in-strawberry",
+              "roleId": "finance",
+              "context": "Start with the financial work already in front of you and choose the workflow that would make the next decision easier."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "You do not need a fully connected Finance stack to begin. One month of documents, one cash question, one forecast decision, or one accepted set of figures is enough."
+        }
+      ]
+    },
+    {
+      "id": "start-with-the-records-that-support-the-answer",
+      "title": "Start with the records that support the answer",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A spreadsheet is only useful if someone can trace its rows back to the source. Strawberry can open an approved inbox, follow a vendor link, work in the logged-in portal, retrieve the relevant invoice, and place its source beside the payment record or transaction. Because the work stays visible, you can inspect a match or take over when access or judgment changes."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Keep supported matches separate from missing documents, ambiguous items, and possible duplicates.",
+            "Review a small, varied sample when the matching or filing rules are new.",
+            "Prepare the register and exception list for the accountant without claiming the books are final."
+          ]
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/organize-receipts-bookkeeping",
+              "roleId": "finance",
+              "context": "Collect invoices, receipts, and payment evidence, then prepare a traceable register and accountant handoff."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "understand-what-changed",
+      "title": "Understand what changed",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A financial review should begin with the comparison that could change a decision: actual versus budget, forecast, last month, or last year. Strawberry can reconcile definitions and source versions before calculating the movement, then use operating records and meeting context to test the reasons behind it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "That distinction matters. A formula can show that costs increased; it cannot prove that hiring, price, timing, or one unusual expense caused the increase. The review keeps calculated contributions, supported explanations, hypotheses, and missing evidence separate."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/finance/review-financial-performance",
+              "roleId": "finance",
+              "context": "Validate the latest figures, explain material movements, and show what deserves a decision or follow-up."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build-a-forecast-people-can-question",
+      "title": "Build a forecast people can question",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A useful forecast exposes its assumptions. Start with accepted actuals and the operating drivers that matter—such as pricing, pipeline, hiring, collections, vendor commitments, and cash—then keep those inputs separate from calculations and outputs."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Scenarios should answer a real question. A hiring decision may need a base case and one downside case; a runway discussion may need sensitivity to collections and funding. Strawberry can update the model in the spreadsheet, check the roll-forward, and preserve the assumptions you accept without overwriting an approved budget or changing an operating plan."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/finance/build-a-financial-forecast",
+              "roleId": "finance",
+              "context": "Build or update an assumption-led forecast with the decision scenarios, cash, and runway that matter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keep-the-boundary-clear",
+      "title": "Keep preparation separate from financial action",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Reading a payment record is different from making a payment. This bundle prepares evidence, spreadsheets, analysis, models, exception lists, and communications. It does not initiate or approve payments, post accounting entries, change ledgers or bank records, file returns, or share sensitive financial material beyond the accepted audience."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once a workflow is trusted, Strawberry can remember the accepted sources, fields, definitions, assumptions, and review points. A Routine can prepare the next register or review from named sources, but it should stop when the company, account, period, access, or evidence falls outside the accepted scope."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/prepare-a-status-update",
+              "roleId": "finance",
+              "context": "Turn accepted financial evidence into a concise update for the intended team or leadership audience."
+            },
+            {
+              "id": "strawberry/founder-executive/prepare-fundraise",
+              "roleId": "finance",
+              "context": "Carry accepted financial context into the wider fundraising story, investor preparation, and process."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": []
+}
