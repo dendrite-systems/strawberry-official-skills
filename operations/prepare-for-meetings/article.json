@@ -107,12 +107,17 @@
     {
       "title": "Turn every useful meeting into decisions and follow-up",
       "description": "Use the reliable meeting record to prepare a debrief and complete the useful follow-through.",
-      "href": "/blog/strawberry-for-meetings"
+      "href": "/playbooks/strawberry-for-meetings"
     },
     {
-      "title": "How to use AI for Operations work",
-      "description": "See how meeting preparation connects with daily priorities and cross-functional follow-through.",
-      "href": "/playbooks/operations"
+      "title": "How to create a useful daily brief with AI",
+      "description": "Bring upcoming meetings together with the other work that needs attention today.",
+      "href": "/playbooks/ai-daily-brief"
+    },
+    {
+      "title": "How to track commitments across your tools",
+      "description": "Follow decisions and promises from meetings into the systems where the work continues.",
+      "href": "/playbooks/track-commitments-with-ai"
     }
   ]
 }
