@@ -88,6 +88,15 @@
               }
             },
             {
+              "title": "Investigate one company closely",
+              "text": "Build a concise, source-linked view of a single company when the client question turns on what that business actually does or where it is heading.",
+              "skill": {
+                "id": "strawberry/research-analysis/research-a-company",
+                "roleId": "consultant",
+                "context": "Research this company around the client question I need to answer."
+              }
+            },
+            {
               "title": "Collect repeated web evidence at scale",
               "text": "Collect the same fields across many pages into a validated dataset when the analysis needs breadth.",
               "skill": {

@@ -28,12 +28,6 @@
       "weight": 88,
       "title": "Research a prospective client relationship",
       "message": "Research this company as a client or prospect. Cover the existing relationship, what has changed, and the most useful way to move the engagement forward."
-    },
-    {
-      "roleId": "venture-capital",
-      "weight": 84,
-      "title": "Research a company before taking the next step",
-      "message": "Research this company and give me a concise, sourced view of what it does, what has changed, the people who matter, and which questions I should investigate next."
     }
   ]
 }

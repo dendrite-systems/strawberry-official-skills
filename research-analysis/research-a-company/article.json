@@ -20,8 +20,8 @@
   ],
   "sections": [
     {
-      "id": "the-question-decides-the-research",
-      "title": "What you're deciding changes what's worth reading",
+      "id": "start-with-the-question",
+      "title": "Start with the question, not the company",
       "blocks": [
         {
           "kind": "paragraph",
@@ -30,6 +30,10 @@
         {
           "kind": "paragraph",
           "text": "So it helps to say what you are deciding and how much the answer is worth. A bounded question should come back quickly with something useful. A consequential one deserves a second pass into the places where the evidence is still thin."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ask your Strawberry companion to research the company around that question, and it will work through the sources with you rather than handing back a profile."
         },
         {
           "kind": "skills",
@@ -44,12 +48,12 @@
       ]
     },
     {
-      "id": "go-where-the-evidence-lives",
-      "title": "Go where the evidence actually lives",
+      "id": "read-past-the-marketing-pages",
+      "title": "Read past the marketing pages",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A company's marketing pages are the least informative thing it publishes. The useful material sits further in—a changelog that shows how fast the product really moves, documentation that reveals what the integration will actually require, a status history, a pricing page read against the version archived last year, a support forum where the same complaint keeps reappearing."
+          "text": "A company's marketing pages tell you what it wants understood, which is rarely the thing you came to find out. The more useful material usually sits further in—a changelog that shows how fast the product really moves, documentation that reveals what the integration will actually require, a status history, a pricing page read against the version archived last year, a support forum where the same complaint keeps reappearing."
         },
         {
           "kind": "paragraph",
@@ -58,8 +62,8 @@
       ]
     },
     {
-      "id": "find-what-changes-the-view",
-      "title": "Find what changes the view",
+      "id": "keep-the-gaps-visible",
+      "title": "Keep the gaps and contradictions visible",
       "blocks": [
         {
           "kind": "paragraph",
@@ -83,19 +87,19 @@
       ]
     },
     {
-      "id": "route-into-the-specialist-decision",
-      "title": "Use the right lens for the next decision",
+      "id": "when-its-a-sales-or-investment-question",
+      "title": "Know when it's really a sales or investment question",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A general brief stops at a clear, source-linked view of the company. When the decision has its own discipline behind it, the evidence should carry into that workflow rather than one brief stretching to cover all of them."
+          "text": "A general brief stops at a clear, source-linked view of the company. Some decisions carry their own discipline behind them—running a deal, testing a fund's thesis—and those are better served by the workflow built for them than by one brief stretched to cover everything."
         },
         {
           "kind": "skill-lanes",
           "items": [
             {
               "title": "For a sales account",
-              "text": "Combine company evidence with the relationship, stakeholders, and most useful sales next step.",
+              "text": "Combine what you found with the relationship, stakeholders, and most useful sales next step.",
               "skill": {
                 "id": "strawberry/sales/research-an-account",
                 "roleId": "sales-business-development",
@@ -116,12 +120,12 @@
       ]
     },
     {
-      "id": "turn-the-brief-into-the-next-artifact",
-      "title": "Turn the accepted brief into the next artifact",
+      "id": "finish-research-before-the-deck",
+      "title": "Finish the research before you design the deck",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Research and design are separate jobs, and running them together usually costs the research. Once the company view is accepted, Strawberry can build the presentation from it without reopening the investigation."
+          "text": "Research and design are separate jobs. When they run together the research tends to lose, because slides that look finished are easy to mistake for questions that are settled. Once the company view is accepted, Strawberry can build the presentation from it without reopening the investigation."
         },
         {
           "kind": "skills",

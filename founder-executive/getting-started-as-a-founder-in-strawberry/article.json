@@ -191,6 +191,15 @@
               }
             },
             {
+              "title": "Understand one company in depth",
+              "text": "Get a current, source-linked read on a partner, vendor, competitor, or acquirer before you commit to anything.",
+              "skill": {
+                "id": "strawberry/research-analysis/research-a-company",
+                "roleId": "founder-executive",
+                "context": "Research this company around the decision in front of me."
+              }
+            },
+            {
               "title": "Build the team",
               "text": "Move from defining the role through sourcing, interviews, decisions, pipeline review, and onboarding.",
               "skill": {
