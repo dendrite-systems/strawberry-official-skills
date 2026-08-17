@@ -28,6 +28,12 @@
       "weight": 92,
       "title": "Make a consulting method reusable",
       "message": "Turn this accepted consulting workflow into a reusable boutique-team method without carrying client-specific context into it."
+    },
+    {
+      "roleId": "design",
+      "weight": 78,
+      "title": "Make a design process reusable",
+      "message": "Turn this accepted design process into a reusable team method with clear ownership and review points."
     }
   ]
 }

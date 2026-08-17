@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Review Financial Performance",
+  "summary": "Validate the figures, explain material performance drivers, and show what the evidence means for the next decision.",
+  "icon": "chart",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "finance",
+      "weight": 108,
+      "title": "Review financial performance",
+      "message": "Review our latest financial performance against the right baseline, validate the figures, explain the material drivers, and show what needs attention."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 92,
+      "title": "Understand what changed in the numbers",
+      "message": "Help me understand what materially changed in our cash, income, costs, or runway and what needs a decision or follow-up."
+    }
+  ]
+}

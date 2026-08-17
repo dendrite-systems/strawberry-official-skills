@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-help-center-articles",
+  "title": "How to create better help-center articles with AI",
+  "description": "Use AI to turn verified support knowledge into accurate, findable, and maintainable customer documentation.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "The best source for a help article is not always the latest support reply. A reply may contain customer-specific context, a temporary workaround, or a confident explanation that no one has verified against the current product.",
+    "Strawberry can connect the resolved case with approved product documentation, release information, existing help content, and the live product in an approved test account. That makes it possible to draft from the full resolution and verify the path before anyone publishes it."
+  ],
+  "sections": [
+    {
+      "id": "confirm-the-answer-is-stable",
+      "title": "Confirm the answer is stable",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Identify the customer task or symptom, verified answer, affected version or configuration, audience, and source owner. If the behavior is still disputed, temporary, or awaiting a fix, prepare an internal note or maintained known-issue draft rather than presenting it as permanent guidance."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/customer-support-success/create-or-update-a-help-center-article",
+              "roleId": "customer-support-success",
+              "context": "Turn verified current behavior into clear customer documentation and prepare it for review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "improve-the-canonical-article",
+      "title": "Improve the canonical article",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Search the help center using the customer's language, exact errors, product terms, and common synonyms. Decide whether to create, update, merge, cross-link, or retire content. Another near-duplicate can make the answer harder to find and harder to maintain."
+        },
+        {
+          "kind": "table",
+          "columns": [
+            "Article type",
+            "Use it when"
+          ],
+          "rows": [
+            [
+              "How-to",
+              "The customer needs a sequence to complete a task."
+            ],
+            [
+              "Troubleshooting",
+              "The customer starts from a symptom or error."
+            ],
+            [
+              "FAQ",
+              "A direct answer resolves a recurring question."
+            ],
+            [
+              "Known issue",
+              "Current status, affected scope, and a maintained workaround need to stay visible."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "write-for-the-task-and-the-search",
+      "title": "Write for the task and the search",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Lead with the task or symptom. Use numbered steps for sequence, exact UI labels and errors where they help, and a clear statement of what success looks like. Keep the title and opening in the words a customer would search for rather than internal product language."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "State prerequisites that genuinely change the path.",
+            "Keep one customer problem or task per article.",
+            "Include the most useful recovery path, not every adjacent issue.",
+            "Remove private customer and account details from reusable guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verify-before-publishing",
+      "title": "Verify before publishing",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Strawberry can navigate the visible product in an approved test account while you inspect the steps or take over. Recheck links, screenshots, permissions, plan assumptions, terminology, and any destructive action. Deliver the draft with its sources, last verified date, overlapping content, and required reviewer."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Save the writing, source, verification, and review method as a team skill when several people maintain customer guidance. A maintenance Routine can then surface product changes, stale links, and recurring searches for review without silently rewriting published content.",
+          "emphasis": [
+            "Routine"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to research and answer customer questions with AI",
+      "description": "Find a reliable answer before turning it into reusable customer guidance.",
+      "href": "/playbooks/ai-customer-question-answering"
+    },
+    {
+      "title": "How to synthesize customer feedback with AI",
+      "description": "Turn recurring customer evidence into source-linked product themes and gaps.",
+      "href": "/playbooks/ai-customer-feedback-analysis"
+    },
+    {
+      "title": "How to audit a product flow with AI",
+      "description": "Check the current product experience when the documented path needs direct verification.",
+      "href": "/playbooks/ai-product-flow-testing"
+    }
+  ]
+}

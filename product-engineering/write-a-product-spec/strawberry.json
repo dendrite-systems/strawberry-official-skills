@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Write a Product Spec",
+  "summary": "Turn an accepted product problem into a source-linked specification with clear flows, requirements, edge cases, dependencies, and acceptance criteria.",
+  "icon": "files",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "engineering-development",
+      "weight": 110,
+      "title": "Write a product spec",
+      "message": "Turn this accepted product problem and its evidence into a clear spec with user flows, requirements, edge cases, dependencies, open questions, and acceptance criteria."
+    }
+  ]
+}

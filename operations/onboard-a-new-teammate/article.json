@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-employee-onboarding",
   "title": "How to onboard a new team member with AI",
   "description": "Use AI to build a role-aware context pack, access plan, first-week path, and verified handoff from the company systems you already use.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
-    "New teammates are often given plenty to read and very little help deciding what matters first. The company handbook, team pages, project documents, Slack channels, meetings, and access requests arrive as separate pieces, even though the person needs one practical path into the role.",
-    "AI can write an onboarding checklist from a job title. That is useful up to a point. A strong onboarding plan depends on the company's current context: which project the person will learn through, who owns the relevant decisions, which documents are still accurate, and what access they actually need to contribute.",
-    "Strawberry can assemble that picture across Notion, Slack, Drive, calendars, project tools, files, and the admin pages available in the browser. It can keep the teammate-facing guide separate from the internal setup view, then help complete and verify the actions the onboarding owner approves."
+    "A new teammate gets plenty to read and very little help deciding what matters first. Handbook, team pages, project docs, Slack, meetings, access requests. All separate, when what they need is one path into the job.",
+    "Any AI can write a checklist from a job title. A good plan needs your specifics. Which project they'll learn through, who owns the decisions, which documents are still accurate, what access they actually need.",
+    "Strawberry can pull that together across Notion, Slack, Drive, calendars, and your admin pages. It keeps the teammate-facing guide separate from the internal setup list, then completes and verifies the steps you approve."
   ],
   "sections": [
     {
@@ -64,7 +64,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Access should follow the role, accepted policy, current projects, and manager input—not the broadest permissions held by a roughly similar colleague. Strawberry can organize what is needed before day one, what can wait for the first week, what is optional, and what is blocked on approval, licensing, hardware, or identity."
+          "text": "Access should follow the role, accepted policy, current projects, and manager input, not the broadest permissions held by a roughly similar colleague. Strawberry can organize what is needed before day one, what can wait for the first week, what is optional, and what is blocked on approval, licensing, hardware, or identity."
         },
         {
           "kind": "paragraph",
@@ -104,7 +104,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "Run an AI-native ops team",
       "description": "See how onboarding connects with meetings, shared context, and repeatable team workflows.",
       "href": "/playbooks/operations"
     }

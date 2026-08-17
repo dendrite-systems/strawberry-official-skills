@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-06-04T04:06:51.757Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Web extraction is valuable when repeated information needs to become a table you can inspect, filter, and use. The hard part is rarely copying text from one page. It is covering the full source, keeping a consistent schema, and knowing which values are missing, uncertain, or stale.",
@@ -22,50 +22,74 @@
     {
       "id": "start-with-the-decision-and-schema",
       "title": "Start with the decision and the schema",
-      "paragraphs": [
-        "Define the entities, exact fields, source boundaries, exclusions, freshness requirements, and the decision the dataset should support. Agree on the approximate row count and how much enrichment each row needs; collecting a base list is materially different from researching every entity deeply.",
-        "Inspect an approved destination's existing columns when one exists. Otherwise, propose a concise schema with source URLs and explicit missing values rather than inventing fields to make the table look complete."
-      ],
-      "skills": []
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Define the entities, exact fields, source boundaries, exclusions, freshness requirements, and the decision the dataset should support. Agree on the approximate row count and how much enrichment each row needs; collecting a base list is materially different from researching every entity deeply."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Inspect an approved destination's existing columns when one exists. Otherwise, propose a concise schema with source URLs and explicit missing values rather than inventing fields to make the table look complete."
+        }
+      ]
     },
     {
       "id": "validate-before-scaling",
       "title": "Validate a representative sample",
-      "paragraphs": [
-        "Extract roughly 10 to 20 representative rows first. Check field meanings, formats, missing-data behavior, duplicates, and whether the source actually supports the requested claims. At high volume, a small systematic error can create thousands of bad records.",
-        "Prefer a clean page API or semantic extraction over brittle selectors when the approved source exposes one. Handle pagination, load-more controls, infinite scroll, and detail pages systematically so the run does not silently stop early."
-      ],
-      "skills": [
+      "blocks": [
         {
-          "id": "strawberry/research-analysis/extract-web-data",
-          "roleId": "data-analytics",
-          "context": "Use this to agree the schema, validate a sample, and run the complete extraction."
+          "kind": "paragraph",
+          "text": "Extract roughly 10 to 20 representative rows first. Check field meanings, formats, missing-data behavior, duplicates, and whether the source actually supports the requested claims. At high volume, a small systematic error can create thousands of bad records."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Prefer a clean page API or semantic extraction over brittle selectors when the approved source exposes one. Handle pagination, load-more controls, infinite scroll, and detail pages systematically so the run does not silently stop early."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/extract-web-data",
+              "roleId": "data-analytics",
+              "context": "Use this to agree the schema, validate a sample, and run the complete extraction."
+            }
+          ]
         }
       ]
     },
     {
       "id": "separate-extraction-from-enrichment",
       "title": "Separate extraction from enrichment",
-      "paragraphs": [
-        "Collect the base data once, then enrich only the agreed fields or strongest rows. This keeps the run cheaper, easier to resume, and easier to audit than repeatedly researching every entity from scratch.",
-        "Normalize formats, deduplicate entities, preserve source links, and flag low-confidence or unusual values. Slow down when a source rate-limits or blocks access, and return CAPTCHA, authentication, or permission boundaries to the user."
-      ],
-      "skills": []
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Collect the base data once, then enrich only the agreed fields or strongest rows. This keeps the run cheaper, easier to resume, and easier to audit than repeatedly researching every entity from scratch."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Normalize formats, deduplicate entities, preserve source links, and flag low-confidence or unusual values. Slow down when a source rate-limits or blocks access, and return CAPTCHA, authentication, or permission boundaries to the user."
+        }
+      ]
     },
     {
       "id": "deliver-a-dataset-people-can-trust",
       "title": "Deliver a dataset people can trust",
-      "paragraphs": [
-        "Export the accepted schema to the requested spreadsheet, database, or connected tool with consistent columns, source links, explicit missing values, and a short validation summary. Spot-check a representative sample after the full run rather than assuming that a successful export proves correctness.",
-        "If the source, schema, validation rules, and destination will be reused, preserve the accepted process as a custom skill. Add a Routine only after the extraction has worked and the user has agreed on cadence, cost, and what counts as a meaningful change."
-      ],
-      "skills": []
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Export the accepted schema to the requested spreadsheet, database, or connected tool with consistent columns, source links, explicit missing values, and a short validation summary. Spot-check a representative sample after the full run rather than assuming that a successful export proves correctness."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the source, schema, validation rules, and destination will be reused, preserve the accepted process as a custom skill. Add a Routine only after the extraction has worked and the user has agreed on cadence, cost, and what counts as a meaningful change."
+        }
+      ]
     }
   ],
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Turn open-ended research into a decision-ready artifact",
+      "title": "Research deep enough to bet on",
       "description": "Define the question, evidence standard, and useful final format.",
       "href": "/playbooks/research-analysis"
     },

@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "venture-capital-investing",
-  "title": "Build an investment process with traceable evidence",
-  "description": "Connect market mapping, company research, diligence, investment memos, and buyer analysis.",
+  "title": "Find the next unicorn first",
+  "description": "Use Strawberry across market intelligence, deal flow, investment decisions, introductions, and portfolio monitoring.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -12,105 +12,287 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
+  "navigation": {
+    "title": "Venture Capital & Investing",
+    "tagline": "Markets, deal flow, decisions, and portfolio support",
+    "icons": [
+      "linkedin",
+      "gmail",
+      "notion"
+    ],
+    "order": 7
+  },
   "introduction": [
-    "Investment work becomes reusable when the thesis, decision, evidence standard, and uncertainty are explicit. Strawberry can help source companies, assemble diligence, prepare calls, and keep a living investment record without hiding the evidence behind a score.",
-    "Begin with one bounded artifact rather than an open-ended request to research everything. Learn the firm’s style through a few questions, relevant connected apps, or both, then connect workflows only after the team agrees on what makes the result reviewable."
+    "Venture work rarely lives in one system. Market research, founder conversations, pipeline notes, data rooms, portfolio updates, and the firm's own investment history can all shape the next decision.",
+    "Strawberry works across those sources in the browser alongside the investor. It can inspect current company information and logged-in tools, connect them with the firm's thesis and prior decisions, and keep that context available as the work moves from sourcing to meetings, diligence, memos, and portfolio support."
   ],
   "sections": [
     {
-      "id": "choose-the-decision",
-      "title": "Start with the decision",
-      "paragraphs": [
-        "Clarify whether the work supports sourcing, an investment decision, an acquisition, a market thesis, or a company meeting. The evidence and useful output change with that decision.",
-        "When useful and approved, existing thesis documents, CRM records, pass reasons, prior memos, email, and call notes can reveal the firm’s real criteria and writing style. They are inputs, not prerequisites."
-      ],
-      "skills": [
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
+      "blocks": [
         {
-          "id": "strawberry/research-analysis/map-a-market",
-          "roleId": "venture-capital",
-          "context": "Map companies, investors, associations, experts, and relationships across a broad market ecosystem."
+          "kind": "section-nav",
+          "items": [
+            {
+              "href": "#build-the-investment-view",
+              "title": "Build the investment view",
+              "description": "Map markets and startup ecosystems, follow investor activity, and sharpen the firm's thesis."
+            },
+            {
+              "href": "#find-and-manage-opportunities",
+              "title": "Find and manage opportunities",
+              "description": "Source companies, research the strongest prospects, use the network, and keep the pipeline current."
+            },
+            {
+              "href": "#evaluate-the-investment",
+              "title": "Evaluate the investment",
+              "description": "Prepare for conversations, test the important questions, and build a traceable investment memo."
+            },
+            {
+              "href": "#support-portfolio-companies",
+              "title": "Support portfolio companies",
+              "description": "Notice meaningful changes, prepare updates, track follow-through, and make useful connections."
+            }
+          ]
         },
         {
-          "id": "strawberry/venture-capital/build-structured-investment-memo-any-company",
-          "roleId": "venture-capital",
-          "context": "Use this when the output is a sourced, reviewable investment memo."
-        },
-        {
-          "id": "strawberry/venture-capital/map-startup-ecosystem",
-          "roleId": "venture-capital",
-          "context": "Use this when the decision depends on understanding companies, investors, and relationships in a market."
+          "kind": "guided-entry",
+          "text": "Not sure where to begin? Your companion can look at the investment work you have open and suggest a useful skill to try first.",
+          "skill": {
+            "id": "strawberry/venture-capital/getting-started-with-venture-capital-in-strawberry",
+            "roleId": "venture-capital",
+            "context": "Use the investment work and context already in front of you to choose a useful first Venture Capital skill."
+          }
         }
       ]
     },
     {
-      "id": "source-against-the-thesis",
-      "title": "Source companies against the actual thesis",
-      "paragraphs": [
-        "Translate the thesis into practical signals such as stage, geography, check size, sector, business model, team, traction, or a specific change in the market. Start with a varied sample so the investor can correct the interpretation before expanding.",
-        "Search across relevant company, investor, hiring, funding, product, and founder signals. Dedupe against the CRM or existing portfolio when available, show why each company fits, and keep the source evidence visible."
-      ],
-      "skills": [
+      "id": "build-the-investment-view",
+      "title": "Build the investment view",
+      "blocks": [
         {
-          "id": "strawberry/venture-capital/map-startup-ecosystem",
-          "roleId": "venture-capital",
-          "context": "Map companies, investors, and relationships around an investment thesis."
-        }
-      ]
-    },
-    {
-      "id": "build-a-living-memo",
-      "title": "Build a memo that can absorb new evidence",
-      "paragraphs": [
-        "Use the firm’s accepted underwriting questions and memo style when available. Combine company materials, market evidence, conversations, and diligence while preserving conflicting evidence, quotes, sources, and unresolved questions.",
-        "A strong memo is a living decision record, not a one-time summary. Update it as new calls, documents, and evidence arrive rather than rebuilding the thesis from scratch."
-      ],
-      "skills": [
-        {
-          "id": "strawberry/venture-capital/build-structured-investment-memo-any-company",
-          "roleId": "venture-capital",
-          "context": "Build a sourced investment memo around the firm’s real decision criteria."
-        }
-      ]
-    },
-    {
-      "id": "make-the-evidence-reviewable",
-      "title": "Make the evidence reviewable",
-      "paragraphs": [
-        "Keep source links beside claims, separate confirmed facts from interpretation, and surface evidence that weakens the thesis. Review the structure before expanding the research.",
-        "For diligence, define the claims to test, the acceptable source types, the risk categories, and who owns unresolved questions. For calls, prepare from current relationship and company context, then preserve decisions and follow-up from what was actually said."
-      ],
-      "skills": [
-        {
-          "id": "strawberry/venture-capital/do-due-diligence-vendor-or-supplier",
-          "roleId": "venture-capital",
-          "context": "Use this for a bounded diligence brief with risks and unresolved questions."
+          "kind": "paragraph",
+          "text": "A startup map should explain how a market is taking shape, not merely return a list of companies. Strawberry can follow current company pages, funding announcements, investor portfolios, accelerator cohorts, logged-in databases, hiring, and news while keeping source dates beside the findings."
         },
         {
-          "id": "strawberry/operations/prepare-for-meetings",
-          "roleId": "venture-capital",
-          "context": "Prepare a concise, evidence-backed brief for an important company call."
+          "kind": "paragraph",
+          "text": "That makes it easier to compare what investors say they focus on with where they have actually invested, spot clusters and white space, and connect the landscape back to the firm's thesis and pass history."
         },
         {
-          "id": "strawberry/operations/debrief-a-meeting",
-          "roleId": "venture-capital",
-          "context": "Turn the reliable meeting record into decisions, evidence, and next steps."
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Map a startup ecosystem",
+              "text": "Understand the startups, investors, activity, and relationships shaping an emerging market.",
+              "skill": {
+                "id": "strawberry/venture-capital/map-startup-ecosystem",
+                "roleId": "venture-capital",
+                "context": "Map startups, investors, accelerators, investment activity, and relationships around an investment question."
+              }
+            },
+            {
+              "title": "Map the broader market",
+              "text": "Go beyond startups when category boundaries, value chains, experts, or established companies matter.",
+              "skill": {
+                "id": "strawberry/research-analysis/map-a-market",
+                "roleId": "venture-capital",
+                "context": "Map the broader market when category boundaries, value chains, experts, or established companies matter."
+              }
+            }
+          ]
         }
       ]
     },
     {
-      "id": "make-the-process-repeatable",
-      "title": "Preserve the firm’s accepted process",
-      "paragraphs": [
-        "Once the team accepts the sourcing criteria, memo structure, evidence standard, and review behavior, preserve those choices as firm-specific skills. The official workflows remain starting points rather than a substitute for the firm’s judgment.",
-        "Create monitoring or recurring routines only after a reviewed run has established the scope, meaningful-change rules, destination, and ownership."
-      ],
-      "skills": [
+      "id": "find-and-manage-opportunities",
+      "title": "Find and manage opportunities",
+      "blocks": [
         {
-          "id": "strawberry/operations/set-up-shared-team-workflow",
-          "roleId": "venture-capital",
-          "context": "Turn an accepted investment workflow into a shared firm process."
+          "kind": "paragraph",
+          "text": "Deal sourcing has a natural progression, but each step answers a different question. Which companies fit the thesis? Which deserve more time? Where has the process stalled? Strawberry can carry the evidence forward without blurring those decisions together."
+        },
+        {
+          "kind": "skill-steps",
+          "items": [
+            {
+              "title": "Source against the firm's thesis",
+              "text": "Start with a varied, evidence-backed set that can be corrected before the search expands.",
+              "skill": {
+                "id": "strawberry/venture-capital/source-investment-opportunities",
+                "roleId": "venture-capital",
+                "context": "Turn the firm's thesis into a calibrated, sourced set of companies worth reviewing."
+              }
+            },
+            {
+              "title": "Research the companies that stand out",
+              "text": "Build a concise view of the company, thesis fit, tensions, recent changes, and unanswered questions.",
+              "skill": {
+                "id": "strawberry/venture-capital/research-an-investment-opportunity",
+                "roleId": "venture-capital",
+                "context": "Build a source-linked company view with preliminary thesis fit, tensions, and next questions."
+              }
+            },
+            {
+              "title": "Review where the pipeline needs attention",
+              "text": "Compare the CRM with recent meetings, messages, and diligence to find stale records, missing next steps, and decisions that have stalled.",
+              "skill": {
+                "id": "strawberry/venture-capital/review-investment-pipeline",
+                "roleId": "venture-capital",
+                "context": "Review active opportunities using the firm's actual stages, decision rules, and recent context."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The next move may depend on a credible relationship path or an accurate CRM record. Strawberry can inspect the evidence for the connection, prepare the appropriate ask, and propose the exact record changes without treating either as part of the research by default."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Make a warm introduction",
+              "text": "Verify the relationship path and prepare a considerate intermediary ask or double opt-in.",
+              "skill": {
+                "id": "strawberry/operations/make-a-warm-introduction",
+                "roleId": "venture-capital",
+                "context": "Find a credible network path and prepare the appropriate introduction or intermediary ask."
+              }
+            },
+            {
+              "title": "Keep the investment CRM current",
+              "text": "Prepare and verify changes using the firm's real objects, stages, and source-of-truth rules.",
+              "skill": {
+                "id": "strawberry/sales/keep-crm-updated",
+                "roleId": "venture-capital",
+                "context": "Apply reviewed investment-record changes using the team's real CRM schema."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evaluate-the-investment",
+      "title": "Evaluate the investment",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Founder calls, expert conversations, diligence, and the investment memo should build on the same company record. Strawberry can prepare from the calendar and relationship history, preserve what was actually learned, and keep the supporting sources close as the firm tests the case."
+        },
+        {
+          "kind": "skill-steps",
+          "items": [
+            {
+              "title": "Prepare for the conversation",
+              "text": "Bring together the company history, people, open questions, and recent evidence for a founder, partner, or expert meeting.",
+              "skill": {
+                "id": "strawberry/operations/prepare-for-meetings",
+                "roleId": "venture-capital",
+                "context": "Prepare for a founder, partner, expert, board, or portfolio conversation."
+              }
+            },
+            {
+              "title": "Capture what changed",
+              "text": "Turn a reliable record into evidence, commitments, questions, and the follow-through that needs review.",
+              "skill": {
+                "id": "strawberry/operations/debrief-a-meeting",
+                "roleId": "venture-capital",
+                "context": "Turn the reliable meeting record into evidence, commitments, questions, and follow-through."
+              }
+            },
+            {
+              "title": "Test the important questions",
+              "text": "Use appropriately deep diligence to investigate the claims and risks that could change the decision.",
+              "skill": {
+                "id": "strawberry/venture-capital/conduct-investment-due-diligence",
+                "roleId": "venture-capital",
+                "context": "Test the claims and risks that could change the investment decision."
+              }
+            },
+            {
+              "title": "Write the investment memo",
+              "text": "Bring the case, counterevidence, risks, and open questions into a source-linked decision record.",
+              "skill": {
+                "id": "strawberry/venture-capital/write-an-investment-memo",
+                "roleId": "venture-capital",
+                "context": "Turn research and diligence into a source-linked investment memo or decision record."
+              }
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The companion can help the firm inspect the evidence and articulate its reasoning. The investment recommendation and decision still belong to the investors responsible for them."
+        }
+      ]
+    },
+    {
+      "id": "support-portfolio-companies",
+      "title": "Support portfolio companies",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Portfolio monitoring becomes useful when the firm agrees on what would actually matter. A financing, leadership change, product launch, customer signal, regulatory issue, or market shift may deserve attention; repeated coverage of the same announcement usually does not."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strawberry can compare current signals with the last reliable company view, then carry meaningful changes into a board brief, portfolio update, open commitment, or useful introduction. Start with one review. A Routine makes sense only after the sources and signal rules hold up."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "See what changed",
+              "text": "Check current company and market signals against a reliable baseline and explain what may matter.",
+              "skill": {
+                "id": "strawberry/venture-capital/monitor-a-portfolio-company",
+                "roleId": "venture-capital",
+                "context": "Review meaningful portfolio-company changes against a reliable baseline and monitoring bar."
+              }
+            },
+            {
+              "title": "Prepare the portfolio update",
+              "text": "Turn the reviewed company or portfolio picture into a concise update for the right audience.",
+              "skill": {
+                "id": "strawberry/operations/prepare-a-status-update",
+                "roleId": "venture-capital",
+                "context": "Turn reviewed company or portfolio context into a concise update for the right audience."
+              }
+            },
+            {
+              "title": "Close the important open loops",
+              "text": "Find commitments, ownership gaps, and conflicting status across the places the work happened.",
+              "skill": {
+                "id": "strawberry/operations/close-open-loops",
+                "roleId": "venture-capital",
+                "context": "Reconcile commitments, ownership, and conflicting status across portfolio or firm work."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teach-the-companion-how-the-firm-invests",
+      "title": "Teach the companion how the firm invests",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The firm's edge lives in how it interprets its thesis, which sources it trusts, why it passes, which questions it asks, and how it builds conviction. As the team corrects real work, the companion can remember those choices so the next search, company brief, or memo starts closer to the firm's way of working."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Share an approved result when someone only needs the artifact.",
+            "Save a firm skill when the team should reuse the same sources, judgment, and review points.",
+            "Use a shared companion when several workflows need the same ongoing context.",
+            "Create a Routine after the trigger, sources, destination, and stop conditions are clear."
+          ]
         }
       ]
     }
@@ -118,9 +300,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to prompt AI as a researcher",
-      "description": "The existing guide to traceable research, synthesis, and useful outputs.",
-      "href": "/blog/how-to-prompt-ai-as-a-researcher"
+      "title": "Run your whole company from one place",
+      "description": "See how fundraising, customer growth, hiring, and company visibility fit together from the founder's side.",
+      "href": "/playbooks/founder-executive"
+    },
+    {
+      "title": "Research deep enough to bet on",
+      "description": "Explore the broader research workflows behind market maps, company work, and sourced decision artifacts.",
+      "href": "/playbooks/research-analysis"
+    },
+    {
+      "title": "Run an AI-native ops team",
+      "description": "Connect meetings, introductions, updates, and open-loop follow-through across the firm.",
+      "href": "/playbooks/operations"
     }
   ]
 }

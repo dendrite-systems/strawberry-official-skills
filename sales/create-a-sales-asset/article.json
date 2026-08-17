@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "ai-sales-collateral",
   "title": "How to create better sales collateral with AI",
-  "description": "Turn CRM, meeting, email, and account context into personalized sales collateral—from one-pagers and slides to interactive pages.",
+  "description": "Turn CRM, meeting, email, and account context into personalized sales collateral, from one-pagers and slides to interactive pages.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -12,11 +12,11 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-11T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Most sales collateral starts with a scavenger hunt. The useful context is spread across meeting notes, email, CRM, old decks, product material, and someone’s memory. By the time it becomes a one-pager or presentation, it is often generic, stale, or disconnected from the conversation it is meant to move forward.",
-    "Strawberry is a browser with built-in AI agents. Your companion can work with the context already available across your tabs, meetings, files, CRM, email, connected apps, and past work—then turn it into a customer-facing asset built for the decision in front of you. That asset might be a one-pager, slide deck, tailored page, interactive calculator, workflow visual, or something else entirely."
+    "Most sales collateral starts with a scavenger hunt. The useful context is spread across meeting notes, email, the CRM, old decks, and someone's memory. By the time it's a one-pager, it's generic or stale.",
+    "Strawberry can work with the context already in your tabs, meetings, files, CRM, and past work, then turn it into something customer-facing built for the decision in front of you. A one-pager, a deck, a tailored page, a calculator."
   ],
   "sections": [
     {
@@ -131,7 +131,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Spend a little more time on the first asset. Your companion can learn from the version you accept—your narrative, brand direction, preferred sources, claim rules, and review style—so the next one starts much further ahead. Share the accepted creation method as a team skill when others should reuse it, or share the full companion when the team needs the same customer context across several sales workflows."
+          "text": "Spend a little more time on the first asset. Your companion can learn from the version you accept, your narrative, brand direction, preferred sources, claim rules, and review style, so the next one starts much further ahead. Share the accepted creation method as a team skill when others should reuse it, or share the full companion when the team needs the same customer context across several sales workflows."
         }
       ]
     },

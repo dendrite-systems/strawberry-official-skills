@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-marketing-competitor-analysis",
+  "title": "How to run a marketing competitor analysis with AI",
+  "description": "Use AI to compare competitors with current source-linked evidence and turn the findings into a real marketing decision.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "A competitor analysis is useful when it changes a decision. A long matrix of company facts can look thorough while leaving positioning, pricing, campaign, product, or market choices exactly where they started.",
+    "Strawberry can research the live web beside your approved product, positioning, campaign, and customer context. Your companion can follow sources beyond search-result summaries, inspect logged-in competitive tools when permitted, and keep facts, claims, outside interpretation, and inference distinct."
+  ],
+  "sections": [
+    {
+      "id": "start-from-the-decision",
+      "title": "Start from the decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Clarify the decision, audience, market boundary, timeframe, deadline, and useful output. Identify the direct competitors, indirect alternatives, and emerging players that could change that decision. Review the comparison set before deep research when the landscape is uncertain."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/run-competitor-analysis",
+              "roleId": "marketing-content",
+              "context": "Compare the competitors and dimensions that matter for a current positioning, pricing, product, campaign, market, or partnership decision."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "research-the-live-evidence",
+      "title": "Research the live evidence",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Use current primary sources where possible: product and pricing pages, offers, campaigns, ads, launches, partnerships, job posts, leadership commentary, and other material the competitor controls. Add reputable secondary sources, reviews, and community discussion when they can corroborate or expose a different perspective."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Preserve the URL and publication or observation date behind material claims. Record what was checked, what could not be verified, and which evidence may be stale or incomplete."
+        }
+      ]
+    },
+    {
+      "id": "compare-without-flattening",
+      "title": "Compare without flattening the evidence",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": ["Evidence type", "How to treat it"],
+          "rows": [
+            ["Observed product, price, message, or action", "Record the scope, market, package, period, and direct source."],
+            ["Competitor claim", "Attribute it; do not turn positioning language into independently verified performance."],
+            ["Customer or community sentiment", "Show the population and examples without treating volume or visibility as representativeness."],
+            ["Inference", "Explain the observed signal and the reasoning, then keep uncertainty visible."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Normalize enough to support like-for-like claims, but do not erase meaningful differences in audience, geography, currency, period, package, or source definition."
+        }
+      ]
+    },
+    {
+      "id": "turn-difference-into-an-implication",
+      "title": "Turn difference into an implication",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Identify crowded claims, meaningful gaps, credible opportunities, risks, and questions worth testing. A difference becomes an advantage only when you can explain why the target audience should care and why your company can credibly act on it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Lead the result with the decision-relevant conclusions, then show the evidence, uncertainty, and implications. Let the team coach the comparison set, evidence bar, dimensions, depth, and interpretation before the work expands."
+        }
+      ]
+    },
+    {
+      "id": "route-the-real-branch",
+      "title": "Go deeper on search or the wider market",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Use the SEO workflow when the question is primarily organic search opportunity. Use market mapping when the work needs a broader taxonomy and entity landscape. Public research, logged-in tools, internal artifacts, sharing, and changes to campaigns, websites, products, or pricing are separate actions with separate permissions."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/audit-seo-create-report",
+              "roleId": "marketing-content",
+              "context": "Investigate competitor and query gaps when organic search is the primary decision."
+            },
+            {
+              "id": "strawberry/research-analysis/map-a-market",
+              "roleId": "marketing-content",
+              "context": "Map the broader market, entity universe, whitespace, and concentration when the comparison set is only one part of the question."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Market like a team of ten",
+      "description": "Connect competitor evidence to audience, campaign, content, performance, and SEO decisions.",
+      "href": "/playbooks/marketing"
+    }
+  ]
+}

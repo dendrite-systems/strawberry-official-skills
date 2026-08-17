@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Synthesize Customer Feedback",
+  "summary": "Turn approved feedback into source-linked product themes, tensions, examples, gaps, and confidence without automatically prioritizing the roadmap.",
+  "icon": "people",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "engineering-development",
+      "weight": 114,
+      "title": "Synthesize customer feedback",
+      "message": "Synthesize this customer feedback into source-linked themes, tensions, examples, evidence gaps, and confidence without jumping straight to roadmap priorities."
+    },
+    {
+      "roleId": "customer-support-success",
+      "weight": 96,
+      "title": "Synthesize recurring customer feedback",
+      "message": "Turn the approved customer feedback across tickets, conversations, and account context into source-linked themes, tensions, examples, and gaps for Product without automatically prioritizing the roadmap."
+    },
+    {
+      "roleId": "design",
+      "weight": 84,
+      "title": "Turn feedback into design themes",
+      "message": "Turn this approved feedback into source-linked themes, tensions, and examples I can design against."
+    }
+  ]
+}

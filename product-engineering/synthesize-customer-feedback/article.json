@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-customer-feedback-analysis",
+  "title": "How to synthesize customer feedback with AI",
+  "description": "Use AI to turn feedback across support, sales, research, surveys, and reviews into source-linked product evidence without jumping to the roadmap.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Customer feedback is usually scattered across interviews, support cases, sales calls, surveys, reviews, meetings, and community discussion. Summarizing it is easy; preserving the situation, source, tension, and limits behind each theme is the harder product work.",
+    "Strawberry can work across those real systems in the browser and approved apps, follow findings back to the underlying record, and keep customer language separate from team interpretation. Your companion can remember the source boundaries and coding the team accepts without treating old themes as permanent product truth."
+  ],
+  "sections": [
+    {
+      "id": "define-the-question-and-sample",
+      "title": "Define the product question and sample",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Clarify the product area, affected user or customer, period, source set, and decision the synthesis should inform. Decide whether the team is exploring a problem, checking a hypothesis, understanding a change, or reviewing a broader body of feedback."
+        },
+        {
+          "kind": "paragraph",
+          "text": "State what the sample can represent. A few customer conversations can reveal important problems and language; they cannot establish prevalence across the user base."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/synthesize-customer-feedback",
+              "roleId": "engineering-development",
+              "context": "Synthesize approved feedback around a real product question while preserving sources, situations, tensions, gaps, and confidence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preserve-the-situation-around-the-comment",
+      "title": "Preserve the situation around the comment",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": ["Keep with important feedback", "Why it matters"],
+          "rows": [
+            ["Source, date, and record link", "The team can inspect the original evidence and its freshness."],
+            ["User, account, or segment context", "The same words can mean something different for a new user, administrator, or mature customer."],
+            ["Product flow, platform, and version", "Behavior and expectations change across surfaces and releases."],
+            ["Outcome and workaround", "The impact is often clearer in what the customer could not complete or had to do instead."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Normalize enough to compare evidence without stripping away the context that gives it meaning. Aggregate or redact personal and account data when individual identity is not needed in the broader artifact."
+        }
+      ]
+    },
+    {
+      "id": "calibrate-before-expanding",
+      "title": "Calibrate before expanding",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "For a large source set, begin with a small, varied sample across source types, segments, severity, and viewpoints. Review the boundary and proposed coding before the companion expands."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Correct duplicate handling, theme boundaries, missing context, and over-represented sources early. Do not let one vivid anecdote become a repeated pattern merely because it is memorable."
+        }
+      ]
+    },
+    {
+      "id": "find-themes-and-tensions",
+      "title": "Find themes and tensions",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "The job, goal, or situation the user was in.",
+            "The friction, workaround, failure, confusion, or unmet expectation.",
+            "The effect on completion, trust, adoption, retention, or support burden.",
+            "The product area, flow, platform, version, or segment involved.",
+            "The language customers use to describe the problem or desired outcome.",
+            "Counterexamples, conflicting needs, and cases that do not fit the main pattern."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "For every material theme, report the evidence base, representative examples, affected situations, tensions, confidence, and what evidence would raise or lower that confidence."
+        }
+      ]
+    },
+    {
+      "id": "deliver-evidence-not-a-roadmap",
+      "title": "Deliver evidence, not a roadmap",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Return the scope, sources, dates, limits, themes, tensions, examples, affected situations, open questions, and missing evidence. Frame product implications as hypotheses or decisions to consider. Stop before roadmap ranking, effort estimates, or automatic prioritization."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/write-a-product-spec",
+              "roleId": "engineering-development",
+              "context": "Turn an accepted product problem into a clear definition, flows, requirements, edge cases, and acceptance criteria."
+            },
+            {
+              "id": "strawberry/product-engineering/review-product-metrics",
+              "roleId": "engineering-development",
+              "context": "Define or review the quantitative measures needed to understand the problem and later outcome."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Ship what customers actually asked for",
+      "description": "Connect customer evidence to product specifications, metrics, browser-based QA, and grounded bug reports.",
+      "href": "/playbooks/product-engineering"
+    }
+  ]
+}

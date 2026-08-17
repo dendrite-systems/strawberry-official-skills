@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-inbox-triage",
   "title": "How to triage your inbox with AI",
   "description": "Use AI to prioritize email, LinkedIn, or another inbox, draft useful replies, and review cleanup without losing the surrounding context.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
-    "Inbox triage is usually described as an email problem, but the queue that needs attention may be LinkedIn messages, connection requests, a professional messaging service, or several channels used for different relationships.",
-    "Getting the queue under control may not leave a screen with zero messages. What matters is knowing that the important work has been answered, delegated, scheduled, or consciously left alone—and that a bulk cleanup has not hidden something you still need.",
-    "Strawberry can work inside the real, logged-in inbox with you. Your companion can read the full thread, use relevant calendar or project context, prepare the reply in the right channel, and show the exact provider controls it proposes to use."
+    "Inbox triage gets described as an email problem, but the queue that needs attention might be LinkedIn messages, connection requests, or three channels you use for different relationships.",
+    "Getting it under control doesn't mean reaching zero. It means knowing the important things have been answered, delegated, or consciously left, and that a bulk cleanup hasn't buried something you needed.",
+    "Strawberry works inside the real, logged-in inbox with you. It can read the whole thread, use the calendar context, draft the reply in the right channel, and show you the exact controls it proposes to use."
   ],
   "sections": [
     {
@@ -100,7 +100,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "Run an AI-native ops team",
       "description": "Connect inbox triage with daily priorities, meetings, open commitments, and team workflows.",
       "href": "/playbooks/operations"
     }

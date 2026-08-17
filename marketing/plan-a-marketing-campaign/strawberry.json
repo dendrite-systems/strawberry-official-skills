@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Plan a Marketing Campaign",
+  "summary": "Research and build an approval-ready campaign plan with a clear audience, proposition, channel roles, assets, owners, measurement, and risks.",
+  "icon": "calendar",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 112,
+      "title": "Plan a marketing campaign",
+      "message": "Build an evidence-backed marketing campaign plan that our team can review and approve before any launch or spend changes."
+    }
+  ]
+}

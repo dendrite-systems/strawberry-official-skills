@@ -7,7 +7,7 @@
   "useCases": [
     {
       "roleId": "sales-business-development",
-      "weight": 76,
+      "weight": 102,
       "title": "Enrich a lead or account list",
       "message": "I have a lead or account list that needs better data. Help me decide which fields would make it useful, enrich a small sample for review, and then update the rest after I confirm the approach."
     }

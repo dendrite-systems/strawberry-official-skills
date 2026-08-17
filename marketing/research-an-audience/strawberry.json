@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Research an Audience",
+  "summary": "Turn approved customer, market, behavioral, and public evidence into a source-linked audience view with clear confidence and gaps.",
+  "icon": "binoculars",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 116,
+      "title": "Research an audience",
+      "message": "Research this audience and show me the evidence behind their needs, language, behaviors, channels, tensions, and meaningful segments."
+    },
+    {
+      "roleId": "design",
+      "weight": 82,
+      "title": "Understand who I am designing for",
+      "message": "Turn the available customer and market evidence into a sourced picture of who I am designing for."
+    }
+  ]
+}

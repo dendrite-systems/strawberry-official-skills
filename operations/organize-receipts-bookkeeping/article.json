@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-invoice-receipt-bookkeeping",
+  "title": "How to organize invoices and receipts with AI",
+  "description": "Use AI to gather financial documents, build a traceable register, surface exceptions, and prepare the next finance review.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Invoice and receipt collection is a good example of work that is simple in theory and tedious in practice. The evidence may be split across email, vendor portals, payment records, downloads, and a spreadsheet that only makes sense to the person who assembled it.",
+    "Strawberry can work through those sources in the visible, logged-in browser, keep each document connected to its origin, and prepare a register another person can review. The useful result is not autonomous bookkeeping. It is a cleaner review with fewer missing documents and fewer forced matches."
+  ],
+  "sections": [
+    {
+      "id": "define-the-handoff-first",
+      "title": "Decide what the reviewer needs",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Start with the company, period, currencies, approved sources, destination, and reviewer. If the owner, finance lead, bookkeeper, or accountant already uses a register, filename convention, or exception format, keep it. A new template is not an improvement when it creates more translation at the end."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/organize-receipts-bookkeeping",
+              "roleId": "finance",
+              "context": "Prepare the documents, register, and exceptions for the accepted reviewer without altering financial records."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keep-the-source-beside-each-row",
+      "title": "Keep the source beside each row",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The browser matters because many documents are not sitting in one export. Strawberry can inspect an approved inbox, follow the vendor link, use the logged-in portal, retrieve the right invoice, and return to the register without losing the path. You can watch the work, correct it, or take over at an access boundary."
+        },
+        {
+          "kind": "table",
+          "columns": [
+            "Keep for each item",
+            "Why it helps"
+          ],
+          "rows": [
+            [
+              "Vendor, date, amount, currency, and reference",
+              "Supports matching without relying on one ambiguous field."
+            ],
+            [
+              "Document and source link",
+              "Lets the reviewer trace the row back to the evidence."
+            ],
+            [
+              "Match state and note",
+              "Separates supported matches from missing, ambiguous, or duplicate items."
+            ],
+            [
+              "Retrieval date and original filename",
+              "Preserves what was found before files are organized or renamed."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "review-the-exceptions-not-just-the-completed-rows",
+      "title": "Review the exceptions, not just the completed rows",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A confident-looking match can still be wrong. Amount, date, currency, counterparty, and transaction reference should support one another; amount alone is not enough. When the rules are new, a small set with a clean match, missing document, duplicate-looking item, and ambiguous case is more useful than processing the entire month before anyone reviews the judgment."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Keep unmatched items visible instead of forcing completion.",
+            "Flag questions that need accounting or tax judgment.",
+            "Reconcile the register count and totals to the available source set where possible.",
+            "State the coverage and gaps in the handoff note."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-the-recurring-work-safer",
+      "title": "Make the recurring work safer",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "After the reviewer accepts the sources, fields, filing convention, and matching rules, the companion can carry those choices into the next period. A Routine can collect from named sources and prepare a new register and exception list, stopping when the company, account, period, destination, or matching confidence changes.",
+          "emphasis": [
+            "Routine"
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "This workflow does not make or approve payments, post entries, change invoices, or declare the books complete. Those are different actions with different ownership and risk."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Run an AI-native ops team",
+      "description": "Connect recurring finance administration with the wider operating system around it.",
+      "href": "/playbooks/operations"
+    },
+    {
+      "title": "How to review financial performance with AI",
+      "description": "Use accepted records to explain what changed and what needs attention.",
+      "href": "/playbooks/ai-financial-performance-analysis"
+    },
+    {
+      "title": "How to build a financial forecast with AI",
+      "description": "Carry the accepted current picture into a forecast for cash, runway, and operating decisions.",
+      "href": "/playbooks/ai-financial-forecasting"
+    }
+  ]
+}

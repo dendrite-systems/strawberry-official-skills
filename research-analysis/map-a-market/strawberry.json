@@ -9,6 +9,36 @@
     { "roleId": "sales-business-development", "weight": 108, "title": "Map a target market", "message": "Map this target market, define the relevant account universe, show whitespace and concentration, and recommend where prospecting should focus." },
     { "roleId": "venture-capital", "weight": 104, "title": "Map an industry ecosystem", "message": "Map the companies, investors, associations, experts, and relationships shaping this ecosystem." },
     { "roleId": "founder-executive", "weight": 100, "title": "Map a market before entering it", "message": "Help me map this market before we decide where to enter or which segment to pursue." },
-    { "roleId": "consultant", "weight": 76, "title": "Build a client-ready market map", "message": "Build a sourced market landscape for this client decision, including taxonomy, representative entities, patterns, uncertainty, and implications." }
+    { "roleId": "consultant", "weight": 110, "title": "Build a client-ready market map", "message": "Build a sourced market landscape for this client decision, including taxonomy, representative entities, patterns, uncertainty, and implications." },
+    {
+      "roleId": "student",
+      "weight": 94,
+      "title": "Understand a field, industry, or research area",
+      "message": "Map this field so I can see the main categories, the important players, and how they relate, with sources I can cite."
+    },
+    {
+      "roleId": "writer-creator",
+      "weight": 86,
+      "title": "Research a topic landscape before drafting",
+      "message": "Map this topic so I understand the landscape, the main positions, and who is worth reading before I start writing."
+    },
+    {
+      "roleId": "education",
+      "weight": 82,
+      "title": "Understand a field before teaching it",
+      "message": "Map this subject area so I can see the main concepts, sources, and current debates before I build the material."
+    },
+    {
+      "roleId": "legal",
+      "weight": 82,
+      "title": "Map a regulatory or market landscape",
+      "message": "Map this regulatory or market landscape, showing the relevant bodies, rules, and entities, with a source beside each entry."
+    },
+    {
+      "roleId": "healthcare",
+      "weight": 82,
+      "title": "Follow the research and treatment landscape in my area",
+      "message": "Map the current research, trials, guidance, and reporting in this clinical or scientific area, with sources and dates beside each finding."
+    }
   ]
 }

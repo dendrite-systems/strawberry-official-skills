@@ -5,7 +5,7 @@
   "icon": "inbox",
   "tags": [],
   "useCases": [
-    { "roleId": "recruiting-people", "weight": 110, "title": "Draft candidate outreach", "message": "Draft candidate outreach for this approved shortlist and show me the exact messages, recipients, channel, and follow-up branches before anything is sent." },
+    { "roleId": "recruiting-people", "weight": 104, "title": "Draft candidate outreach", "message": "Draft candidate outreach for this approved shortlist and show me the exact messages, recipients, channel, and follow-up branches before anything is sent." },
     { "roleId": "founder-executive", "weight": 84, "title": "Reach out to a key candidate", "message": "Help me write a truthful, personal message to this approved candidate and keep it as a draft for review." }
   ]
 }

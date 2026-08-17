@@ -16,7 +16,7 @@ support, deadline, and requested delivery format. Establish whether this is a ne
 response to an RFP, a statement of work, or a revision.
 
 If the work has already been accepted and the user needs to prepare delivery, use
-`strawberry/agency/build-client-brief` to start the engagement instead of reopening the proposal.
+`strawberry/consulting/build-client-brief` to start the engagement instead of reopening the proposal.
 
 ## 2. Bring together the approved context
 

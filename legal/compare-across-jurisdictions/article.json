@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-jurisdiction-comparison",
+  "title": "How to compare laws across jurisdictions with AI",
+  "description": "Research each jurisdiction on its own terms, normalise the columns so they genuinely compare, and keep real conflicts visible instead of resolving them.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "One question across five regimes is really five questions, and the shortcut everyone takes is to research the first one properly and then go hunting for its features in the other four. It feels efficient. What it actually does is quietly reshape four legal systems to look like the one you happened to start with.",
+    "The output looks fine, too. That's the problem. A neat comparison table is exactly as convincing when the columns don't mean the same thing."
+  ],
+  "sections": [
+    {
+      "id": "research-each-jurisdiction-alone",
+      "title": "Research each jurisdiction on its own terms",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "So each jurisdiction is worked on its own terms, and deliberately kept apart while that happens. Nothing from the German answer colors the French one, because they are not compared until each stands on its own."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Keeping them separate is what prevents the specific failure this work is prone to. It is a discipline about sequence rather than a claim about speed."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where a concept exists in one regime and simply has no counterpart in another, you get told that instead of getting an approximate equivalent invented to keep the row tidy."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/legal/compare-across-jurisdictions",
+              "roleId": "legal",
+              "context": "Compare this question across these jurisdictions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-the-columns-mean-the-same-thing",
+      "title": "Make the columns mean the same thing",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Normalisation is where a comparison is won or lost, and most of the traps look like nothing until someone acts on them:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Thresholds measured on different bases. Headcount in one regime, turnover in another, and they are not interchangeable.",
+            "Obligations that fall on differently defined actors, so \"the provider\" means two different companies.",
+            "Penalties written as a fixed cap in one place and a percentage of global turnover in another.",
+            "Dates where one column means \"in force\" and the next means \"applicable from\"."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where a difference won't normalise, it stays visible in the table rather than getting flattened into a cell that reads cleanly and misleads."
+        }
+      ]
+    },
+    {
+      "id": "the-answer-is-usually-the-strictest-row",
+      "title": "What the table is actually for",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The table is not the deliverable. What you actually need is where the regimes converge, where they genuinely diverge, and what someone operating across all of them has to do on Monday."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Taking the strictest position on each dimension is one possible baseline where a single policy has to satisfy every regime at once, but it is not the legal answer and it does not hold everywhere. Jurisdiction-specific exceptions stay visible, and where two regimes genuinely conflict, that conflict is reported rather than resolved by picking the stricter one."
+        }
+      ]
+    },
+    {
+      "id": "every-cell-is-a-citation",
+      "title": "Every cell is a citation",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "It's worth saying plainly: a comparison table is a dense stack of legal claims wearing a spreadsheet. Each entry has to point at a provision that exists, says what the cell claims, is current, and belongs to the jurisdiction it sits under."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Misattribution is both most likely and most damaging in exactly this format, because a row is short enough to look self-evidently right. Anything unverified is flagged rather than left looking as solid as the cells around it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When you compare the same regimes regularly, the accepted jurisdictions, dimensions, and sources can be saved so the next comparison starts from your shape rather than a blank table.",
+          "emphasis": [
+            "saved"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Your AI paralegal, in your own databases",
+      "description": "The wider system: research, briefings, and the ways this work goes wrong.",
+      "href": "/playbooks/legal-research"
+    },
+    {
+      "title": "How to brief a new regulation with AI",
+      "description": "When one instrument deserves a briefing of its own.",
+      "href": "/playbooks/ai-regulation-briefing"
+    },
+    {
+      "title": "How to map a market with AI",
+      "description": "The same discipline applied to a commercial landscape rather than a legal one.",
+      "href": "/playbooks/ai-market-mapping"
+    }
+  ]
+}

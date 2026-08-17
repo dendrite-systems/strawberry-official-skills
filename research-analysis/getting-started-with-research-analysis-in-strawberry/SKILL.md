@@ -1,74 +1,77 @@
 ---
 name: getting-started-with-research-analysis-in-strawberry
-description: Best practices for anyone getting started with research or analysis in Strawberry. Use when helping a user choose, set up, or expand evidence gathering, comparison, analysis, monitoring, or communication workflows.
+description: Help someone use Strawberry for open-ended research, market and ecosystem mapping, structured web data, synthesis, research artifacts, and recurring monitoring. Use when the user asks what Strawberry can do for research and analysis or has a broad research request without a clear starting workflow.
 ---
 
 # Getting Started with Research and Analysis in Strawberry
 
-Strawberry can help anyone beginning a research or analysis task turn a question into current,
-sourced evidence and a decision-ready brief, comparison, map, dataset, or deck. This is not a
-fixed methodology. Enter wherever the user or team has a real bottleneck, interview them candidly
-until the best starting point is clear, and skip what already works. Over time, help them adopt the
-workflows here that genuinely suit how they gather evidence, make decisions, and communicate
-findings.
+Help the user see the larger research system, then begin with the piece of work that matters now.
+Do not force every request through one methodology or make setup a prerequisite for a useful result.
 
-## Set up Strawberry around the decision
+## Paint the research system
 
-Ask what decision the research should support, who will use it, and how current it needs to be. If
-existing context could give the work a head start, ask whether Strawberry may look through relevant
-connected apps for internal documents, notes, or previous research. Offer a few questions,
-connected apps, or both; do not assume those sources exist.
+Show five connected kinds of work:
 
-Agree on the scope, source types, comparison set, depth, exclusions, evidence standard, and
-expected artifact. Explain the breadth-and-depth tradeoff: a broad sweep is quicker and lighter,
-while focused parallel research produces richer results but takes more time and credits. A useful
-default is to start broad, review the initial findings, then deepen the areas that matter.
+- **Investigate a question:** turn an open question into current, source-linked findings for a real
+  decision.
+- **Map a landscape:** define the categories, entities, relationships, coverage, and patterns that
+  make a market or ecosystem legible.
+- **Build structured evidence:** collect repeated fields from approved sources into a clean,
+  validated dataset.
+- **Explain the findings:** shape the reviewed evidence into the brief, comparison, spreadsheet, or
+  deck the audience can use.
+- **Keep it current:** preserve trusted sources and definitions, then monitor meaningful changes
+  once the method is stable.
 
-Use current primary sources where possible. Keep sourced facts, transformations, inference,
-uncertainty, and missing data distinct. Before deep research, summarize the intended approach and
-allow the user to correct it.
+These jobs can connect, but they are not a fixed sequence. Begin with the question, source set,
+dataset, map, or artifact already in front of the user.
 
-## Research companies and competitors
+## Choose a useful first result
 
-Strawberry can create a sourced company brief or compare competitors against an agreed rubric.
-Read `strawberry/research-analysis/research-companies-create-decks` when the result should be a sourced visual brief,
-or `strawberry/marketing/run-competitor-analysis` for a broader comparison.
+Understand the decision, audience, freshness, scope, acceptable sources, exclusions, depth, and
+useful output. Reuse relevant approved tabs, files, connected apps, prior research, and accepted
+definitions before asking the user to reconstruct them.
 
-## Map markets and ecosystems
+If the starting point is unclear, suggest a small situational set, such as:
 
-Strawberry can identify important companies, people, and relationships in a market. Read
-`strawberry/research-analysis/map-a-market` for a decision-specific landscape. Confirm the initial scope
-before spending time on deep research.
+- investigate one decision-critical question and return a cited brief;
+- map a market or ecosystem before choosing where to focus;
+- extract a representative dataset from a defined set of websites; or
+- research one company into a concise, source-linked brief.
 
-When the output should make an argument rather than list entities, agree on the evidence standard
-and expected artifact before the research expands.
+Explain the breadth, depth, freshness, and cost tradeoffs that materially affect the work. Calibrate
+with a varied first set when the taxonomy, schema, or research judgment is new and correction before
+scale would save time or credits.
 
-## Investigate vendors and complex topics
+## Route to the canonical owner
 
-For a consequential vendor or supplier decision, read
-`strawberry/venture-capital/do-due-diligence-vendor-or-supplier`. For a new or complex field, first define the
-decision and evidence standard so the result becomes a useful path through the evidence rather
-than an unranked list of links.
+- **Map a market or broad ecosystem:** use `strawberry/research-analysis/map-a-market`.
+- **Map a startup ecosystem:** use `strawberry/venture-capital/map-startup-ecosystem` when startups,
+  investors, and their relationships are the primary object.
+- **Compare marketing competitors:** use `strawberry/marketing/run-competitor-analysis` when the
+  specialist result is a competitor comparison for a marketing decision.
+- **Extract repeated web data:** use `strawberry/research-analysis/extract-web-data`.
+- **Research one company for a general decision:** use
+  `strawberry/research-analysis/research-a-company` for a source-linked company brief without a
+  sales, marketing, or investment lens.
+- **Research a company for sales:** use `strawberry/sales/research-an-account` when the specialist
+  result is an account and relationship brief for a sales decision.
+- **Research an investment opportunity:** use
+  `strawberry/venture-capital/research-an-investment-opportunity` when the specialist result is an
+  investment view.
+- **Turn accepted findings into a deck:** use
+  `strawberry/research-analysis/create-beautiful-slide-deck` when the research already exists and the
+  remaining job is presentation production.
 
-## Turn sources into structured evidence
+For open-ended research without a focused owner, complete the work normally. Keep source facts,
+claims, transformations, inference, contradictions, uncertainty, and missing evidence distinct.
 
-Strawberry can extract web data into an agreed schema and validate a sample before scaling. Read
-`strawberry/research-analysis/extract-web-data` for structured collection. When the result should become a polished
-visual artifact, read `strawberry/research-analysis/research-companies-create-decks`.
+## Make the next run better
 
-## Other things to try
+Deliver the artifact at the depth and format the audience needs, with links and dates beside the
+claims that matter. Preserve accepted source priorities, definitions, rubrics, schemas, formats,
+and review points after the user trusts a real result.
 
-These are useful discovery ideas, not complete standalone workflows:
-
-- Compare competitor pricing, tiers, and positioning.
-- Research a founder's background, track record, strengths, and possible risks.
-- Build a sourced literature overview from academic databases.
-- Analyze how a GitHub repository solves a specific technical problem.
-- Compare recent reviews and sentiment across the user's product and its competitors.
-
-## Make the process yours
-
-Deliver the result at the user's preferred depth and format, then save the reviewed sources,
-rubric, transformations, and presentation as a user-owned skill. Once the method is trusted,
-Strawberry can monitor agreed competitor or industry signals on a useful cadence and report only
-meaningful changes.
+Share the reviewed artifact when that is enough. Save a team method when colleagues should repeat
+the same process. Offer a Routine only when the source set, trigger or cadence, change threshold,
+audience, destination, review behavior, and stop conditions are stable.

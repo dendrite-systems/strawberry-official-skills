@@ -1,21 +1,23 @@
 {
   "schemaVersion": 1,
-  "displayName": "Map the startup ecosystem in a specific market",
-  "summary": "Map the startups, investors, and key players in any market.",
+  "displayName": "Map a Startup Ecosystem",
+  "summary": "Map the startups, investors, activity, and relationships shaping a market.",
   "icon": "binoculars",
-  "tags": [],
+  "tags": [
+    "good-first-skill"
+  ],
   "useCases": [
     {
       "roleId": "venture-capital",
-      "weight": 108,
-      "title": "Map the startup ecosystem in a specific market",
-      "message": "Help me map a startup ecosystem. Ask me which market or geography to cover. Then research active startups, key investors, accelerators, and notable players. You might want to flag any names or connections that overlap with what you know about my network or industry."
+      "weight": 110,
+      "title": "Map a startup ecosystem",
+      "message": "Map the startups, investors, accelerators, investment activity, and relationships shaping this market. Keep facts and interpretation distinct and show me a varied first view before going wide."
     },
     {
       "roleId": "research-analysis",
       "weight": 76,
-      "title": "Map the startup ecosystem in a specific market",
-      "message": "Help me map a startup ecosystem. Ask me which market or geography to cover. Then research active startups, key investors, accelerators, and notable players. You might want to flag any names or connections that overlap with what you know about my network or industry."
+      "title": "Map a startup ecosystem",
+      "message": "Build a sourced map of the startups, investors, accelerators, and relationships in this market or geography."
     }
   ]
 }

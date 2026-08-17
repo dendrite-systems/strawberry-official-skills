@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-fundraising-preparation",
+  "title": "How to prepare for a fundraise with AI",
+  "description": "Use AI to build an evidence-backed fundraising story, calibrate investor research, prepare reviewable materials, and run the next steps.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Preparing a fundraise is not one writing task. The story depends on current traction, customer evidence, the financial model, the market, the team, and the risks an investor will test. The process also has to find the right investors without turning a long list into false confidence.",
+    "Strawberry can work across the browser, company files, dashboards, meetings, approved apps, and the public web. Your companion can keep sources beside important claims, carry accepted context from the story into investor research and meeting preparation, and remember the standards you correct along the way."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-raise-and-the-next-decision",
+      "title": "Start with the raise and the next decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Define the stage, amount, use of funds, runway, timing, and what the raise should unlock. Then choose the first result that would reduce uncertainty now: a story review, evidence-gap brief, first investor set, deck, data-room plan, or near-term process."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Do not turn the first run into a complete fundraising program. A focused artifact gives you something real to correct before the companion expands the research or materials."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/founder-executive/prepare-fundraise",
+              "roleId": "founder-executive",
+              "context": "Prepare the fundraising result that would reduce uncertainty now, then connect the accepted work into a practical process."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build-the-evidence-before-polishing-the-story",
+      "title": "Build the evidence before polishing the story",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Use the latest approved sources that could change the case: the board or investor deck, financial model, dashboards, cap table, customer evidence, product and market research, team material, prior investor conversations, and existing data room. These are possible sources, not a setup checklist."
+        },
+        {
+          "kind": "table",
+          "columns": ["For each material claim", "What good preparation keeps visible"],
+          "rows": [
+            ["Traction or financial performance", "The source system, reporting period, definition, and any reconciliation issue."],
+            ["Market size or urgency", "The source, date, method, assumptions, and where outside evidence differs from the internal view."],
+            ["Customer proof", "What customers actually said or did, how representative it is, and what remains inference."],
+            ["Advantage or moat", "The evidence today, the mechanism that could strengthen it, and the risk that could weaken it."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Treat model-produced figures as drafts until checked. Keep facts, inferences, stale evidence, contradictions, and missing proof distinct; a polished unsupported claim is not progress."
+        }
+      ]
+    },
+    {
+      "id": "shape-a-story-that-can-survive-questions",
+      "title": "Shape a story that can survive questions",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Build the narrative around the problem, why now, product, market, traction, advantage, team, plan, and ask. Then pressure-test it through the questions investors will underwrite."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Which claims carry the story, and what evidence supports each one?",
+            "Where do the market, customer, product, and financial views disagree?",
+            "What has to be believed about execution, economics, defensibility, or timing?",
+            "Which risks should be answered now, and which should remain explicit open questions?"
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Create only the materials the accepted first run needs. When approved content should become a finished deck, use the dedicated slide workflow rather than treating fundraising preparation as presentation design."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/create-beautiful-slide-deck",
+              "roleId": "founder-executive",
+              "context": "Turn approved fundraising material into a finished, reviewable deck."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calibrate-the-investor-set-before-expanding-it",
+      "title": "Calibrate the investor set before expanding it",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Define fit from the stage, thesis, geography, check size, relevant experience, trusted signals, and explicit exclusions. Research firms and partners separately when the distinction matters, and deduplicate against approved pipeline records and prior conversations."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Review a small, varied first set, often around ten investors is enough, before going wider. Each candidate should have current source links, a concise fit reason, and a partner or introduction path only when the evidence supports it. Report borderline cases and coverage gaps instead of padding the list."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/map-a-market",
+              "roleId": "founder-executive",
+              "context": "Map the investor or ecosystem landscape when the relevant universe is still unclear."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keep-research-drafting-and-external-actions-separate",
+      "title": "Keep research, drafting, and external actions separate",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A goal to raise capital is not permission to contact investors, change pipeline records, share materials, grant data-room access, or expose confidential files. Keep internal working material separate from investor-ready artifacts and follow the active permission for each account, destination, and action."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Draft or ask when permission is insufficient. Stop when the identity, audience, scope, impact, or sensitive-data handling changes. Verify completed external actions rather than assuming they succeeded."
+        }
+      ]
+    },
+    {
+      "id": "turn-the-accepted-work-into-a-process",
+      "title": "Turn the preparation into a fundraising plan",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Review the story, first investor set, evidence gaps, and one selected artifact together. Carry the corrections into the remaining research and materials, then build a near-term plan with owners, dependencies, deadlines, and review points. Use a two-week horizon only when it matches the real process."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When an approved contact list should become messages, move into the outreach workflow. Use meeting preparation for scheduled investor conversations and preserve decisions and commitments from a reliable record afterward. Strawberry can remember the accepted story, evidence standard, investor criteria, and review points so the next step does not begin from a blank chat."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/send-personalized-outreach",
+              "roleId": "founder-executive",
+              "context": "Turn an approved investor list and accepted research into representative messages, keeping sending separately reviewable."
+            },
+            {
+              "id": "strawberry/operations/prepare-for-meetings",
+              "roleId": "founder-executive",
+              "context": "Prepare for an investor conversation using the company, relationship, and fundraising context that could change it."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Run your whole company from one place",
+      "description": "Connect fundraising with company visibility, customer growth, meetings, hiring, and team leverage.",
+      "href": "/playbooks/founder-executive"
+    }
+  ]
+}

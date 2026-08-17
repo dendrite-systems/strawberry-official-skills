@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-legal-question",
+  "title": "How to answer a legal question with AI",
+  "description": "Settle the jurisdiction, work from commentary to primary law, keep binding authority apart from persuasive, and check every citation.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "\"Research EU data protection\" isn't a research question. \"What are the lawful bases for processing under Article 6 GDPR, and how have EU courts read legitimate interest for large-scale profiling?\" is. The gap between those two sentences is most of the work, and it's the part that decides whether the answer is any good.",
+    "The rest is discipline that lawyers already have and most AI research doesn't. Know which law applies before you look anything up. Start with commentary and end with the statute. Never let a persuasive case pass for a binding one. And check the citation against the source rather than against a summary of it."
+  ],
+  "sections": [
+    {
+      "id": "settle-the-jurisdiction",
+      "title": "Settle the jurisdiction first",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A rule from the wrong jurisdiction still reads like an answer, which is what makes it dangerous. So nothing gets searched until that question is closed."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Name it, and your companion gets on with it. If the facts point somewhere else, it says so rather than going quiet.",
+            "Say nothing, and it asks before searching.",
+            "Genuinely unsure, and it sets out the plausible regimes and the factors that decide between them: where the parties sit, where the contract was formed, where the harm happened. That is a starting point for you or a qualified reviewer to confirm, not a ruling on which law governs.",
+            "Ask something general with no facts attached, and it says plainly that the answer is illustrative and shouldn't be relied on for any specific position."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "What it won't do is blend two systems into one tidy answer."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/legal/research-a-legal-question",
+              "roleId": "legal",
+              "context": "Research this legal question in my jurisdiction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commentary-first-then-the-law",
+      "title": "Commentary first, then the law",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "There's a reason this is taught that way. Treatises, practice guides, and firm analysis tell you what the landscape looks like and which authorities actually control it. Go straight to case law instead and you'll find something that says what you hoped, and miss the thing that governs."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strawberry can work through the databases and subscriptions you already pay for, then follow a citation out of the commentary and into the primary source. That second step is the one people skip, and it's where the difference shows."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Everything comes back labeled with three things: which jurisdiction it's from, whether it's primary or secondary, and whether it binds you or merely persuades. A persuasive authority from another system is often worth having on a novel question. It just has to arrive marked as one rather than sitting in the list looking like law."
+        }
+      ]
+    },
+    {
+      "id": "knowing-when-to-stop",
+      "title": "Knowing when to stop",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Legal research has no natural end. There's always another case, another commentary, another jurisdiction that might be interesting. Knowing when you're done is as much a skill as knowing where to start."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The signal is convergence. Independent sources start pointing at the same authorities, new searches return what you've already read, and the controlling statute and leading cases are identified. More work would add depth without changing the answer."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where authorities genuinely conflict, you get told that rather than getting one of them picked for you."
+        }
+      ]
+    },
+    {
+      "id": "what-arrives-and-what-you-check",
+      "title": "What arrives, and what you check",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "You get the answer first and the authority it rests on, with each proposition sitting next to the source that supports it. Then the uncertainty: what's contested, what's thin, what couldn't be verified."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It also tells you what was searched and what wasn't. A named gap is useful. A confident answer hiding one is the thing that gets people in trouble."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Then you verify, because that part is yours. Every source has to exist, say what it's cited for, carry a correct pinpoint, still be good law, and belong to the jurisdiction on its label. Anything that fails is pulled or flagged before it reaches you, so what you're doing is checking rather than salvaging."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once your jurisdictions, sources, citation system, and preferred output are settled, they can be saved so the next question starts there.",
+          "emphasis": [
+            "saved"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Your AI paralegal, in your own databases",
+      "description": "The wider system: briefings, jurisdiction comparison, and the ways this work goes wrong.",
+      "href": "/playbooks/legal-research"
+    },
+    {
+      "title": "How to compare laws across jurisdictions with AI",
+      "description": "When one question turns into five because you operate in five places.",
+      "href": "/playbooks/ai-jurisdiction-comparison"
+    },
+    {
+      "title": "How to research a company with AI",
+      "description": "For when the question turns on the counterparty rather than the law.",
+      "href": "/playbooks/ai-company-research"
+    }
+  ]
+}

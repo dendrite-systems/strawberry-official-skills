@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-marketing-campaign-planning",
+  "title": "How to plan a marketing campaign with AI",
+  "description": "Use AI to turn audience and market evidence into an approval-ready campaign plan without confusing planning with launch.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "A campaign plan should make a set of choices clear before production and platform work make them expensive to change. A calendar of assets is not enough; the team needs to understand the audience, proposition, channel roles, evidence, risks, and how it will learn.",
+    "Strawberry can bring customer evidence, prior campaigns, brand material, product context, competitor work, budgets, and live channel context into one inspectable browser workspace. Your companion can preserve the reasoning behind the plan and carry the accepted decisions into content and performance review."
+  ],
+  "sections": [
+    {
+      "id": "define-the-campaign-decision",
+      "title": "Define the campaign decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Clarify the business outcome, marketing objective, audience, offer, market, timing, budget boundary, constraints, decision makers, and approval deadline. Identify what is fixed and what the team is still choosing."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the audience or market is genuinely unclear, resolve that evidence gap first. Campaign planning should not disguise missing research as creative certainty."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/plan-a-marketing-campaign",
+              "roleId": "marketing-content",
+              "context": "Research and build the campaign plan the team needs to review before production, launch, or spend changes."
+            },
+            {
+              "id": "strawberry/marketing/research-an-audience",
+              "roleId": "marketing-content",
+              "context": "Strengthen the audience evidence before committing to the campaign strategy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "use-the-evidence-that-could-change-the-plan",
+      "title": "Use the evidence that could change the plan",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Inspect the useful approved context: audience research, customer and sales evidence, positioning, product facts, brand examples, competitor activity, channel history, previous campaigns, performance data, capacity, and operational constraints. None is a mandatory setup step."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Because Strawberry can work beside logged-in tools and the live web, the plan can use current channel and competitor context while keeping internal evidence within its approved boundary. Show stale, missing, or contradictory inputs instead of silently resolving them."
+        }
+      ]
+    },
+    {
+      "id": "make-the-strategy-reviewable",
+      "title": "Make the strategy reviewable",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": ["Campaign choice", "What the plan should make clear"],
+          "rows": [
+            ["Audience and problem", "Who the campaign is for, the situation it addresses, and the evidence behind that choice."],
+            ["Proposition and offer", "The promise, proof, CTA, objection handling, and why the audience should care now."],
+            ["Channel roles", "What each channel contributes rather than a list of places to publish."],
+            ["Assets and operations", "The required briefs, owners, dependencies, approvals, budget assumptions, and timing."],
+            ["Measurement and learning", "The baseline, success signals, attribution limits, review window, and decisions the result could change."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Show assumptions, tradeoffs, exclusions, and material risks. When several routes are plausible, compare them rather than hiding the decision inside one polished recommendation."
+        }
+      ]
+    },
+    {
+      "id": "approve-the-plan-before-launching-it",
+      "title": "Approve the plan before launching it",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Review the objective, audience, proposition, channel mix, representative brief, measurement, costs, and risks before expanding the production plan. A campaign plan does not grant permission to configure platforms, upload audiences, publish, send, or change spend."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Follow the active permission for the exact account, destination, action, and conditions. Draft or ask when it is insufficient; stop when identity, audience, scope, impact, or sensitive-data handling changes."
+        }
+      ]
+    },
+    {
+      "id": "carry-the-plan-into-production-and-learning",
+      "title": "Carry the plan into production and learning",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Once the strategy is accepted, build the content plan or create from an approved brief. After the campaign has enough evidence, review performance against the original objective, definitions, assumptions, and learning questions."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/build-a-content-plan",
+              "roleId": "marketing-content",
+              "context": "Turn the accepted campaign strategy into themes, briefs, owners, dependencies, cadence, and reuse."
+            },
+            {
+              "id": "strawberry/marketing/review-marketing-performance",
+              "roleId": "marketing-content",
+              "context": "Review what changed against the campaign's accepted objective, definitions, and learning questions."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Market like a team of ten",
+      "description": "See how campaign planning connects to audience evidence, content, performance, SEO, and competitor work.",
+      "href": "/playbooks/marketing"
+    }
+  ]
+}

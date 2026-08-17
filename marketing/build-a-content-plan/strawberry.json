@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Build a Content Plan",
+  "summary": "Turn audience, campaign, SEO, product, and performance evidence into a practical plan of themes, formats, briefs, owners, and reuse.",
+  "icon": "files",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "marketing-content",
+      "weight": 108,
+      "title": "Build a content plan",
+      "message": "Turn our audience, goals, evidence, channels, and capacity into a focused content plan with useful briefs and reuse opportunities."
+    },
+    {
+      "roleId": "writer-creator",
+      "weight": 84,
+      "title": "Plan what to publish next",
+      "message": "Turn what I know about my audience and what has worked into a practical plan for what to publish next."
+    }
+  ]
+}

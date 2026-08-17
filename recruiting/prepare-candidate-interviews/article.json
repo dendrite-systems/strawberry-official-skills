@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-candidate-interview-preparation",
   "title": "How to prepare better candidate interviews with AI",
   "description": "Build a coordinated interview plan with useful candidate briefs, structured questions, clear evidence ownership, and practical scorecards.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-13T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "An interview loop can look organized on the calendar and still leave the team without the evidence it needs. Two people test the same thing, an important criterion has no owner, and the final conversation turns on impressions nobody planned to collect.",
     "Strawberry can bring the role definition, scorecard, candidate materials, earlier-stage evidence, calendar context, and team process into one coordinated interview kit. Each person can see what they own, what is already known, and what still needs checking.",
@@ -119,12 +119,12 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Synthesize interview feedback without losing the evidence",
+      "title": "How to synthesize candidate interview feedback with AI",
       "description": "Bring transcripts, notes, and scorecards into a clear human review.",
       "href": "/blog/ai-candidate-interview-feedback"
     },
     {
-      "title": "Build a hiring process that keeps its context",
+      "title": "Find every candidate worth talking to",
       "description": "Connect interview preparation to the wider Recruiting journey.",
       "href": "/playbooks/recruiting"
     }

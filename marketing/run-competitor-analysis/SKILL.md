@@ -1,50 +1,91 @@
 ---
 name: run-competitor-analysis
-description: Get a strategic breakdown of what your top competitors are doing.
+description: Compare competitors using current, source-linked evidence and explain the patterns, gaps, opportunities, and implications for a real business decision. Use for positioning, pricing, product, campaign, market, partnership, or recurring competitor-research questions.
 ---
 
 # Run a competitor analysis
 
-## Context, setup, and planning
+Help the user understand a competitive landscape well enough to make a real positioning, pricing,
+product, campaign, market, or partnership decision. Deliver current evidence and interpretation,
+not a generic company fact sheet.
 
-Understand the decision the research will support. “Research Company X” could mean evaluating a
-partnership, preparing for a sales call, comparing positioning, or tracking where a market is
-headed; the purpose determines what to investigate and how deep to go.
+## 1. Start from the decision
 
-When useful, inspect approved company materials, the user's website, and prior research rather than
-starting from scratch. Use them to understand the user's business model, positioning, and market.
-Map direct competitors, indirect alternatives, and emerging players. If the comparison set is not
-already agreed, confirm it with the user before going deep.
+Clarify the decision, audience, deadline, market boundary, timeframe, and useful output. “Research
+Company X” could mean evaluating a partnership, preparing for a conversation, comparing
+positioning, or tracking where a market is headed; the purpose changes the evidence and depth.
 
-Agree on the timeframe, evidence standard, desired artifact, and depth. A broad sweep is a good
-starting point; focused research with one agent per competitor produces richer results but costs
-more. Explain that tradeoff when depth matters.
+Use approved company materials, the user's website, and prior research when they help establish the
+user's product, positioning, customers, and current assumptions. For client work, use only that
+client's approved context and keep its evidence, conclusions, and artifacts separate from every
+other client.
 
-## Execution
+Identify direct competitors, indirect alternatives, and emerging players that could change the
+decision. If the comparison set is uncertain, propose a reviewable set and explain the inclusions
+and exclusions before deep research.
 
-1. Search broadly before going deep. Prefer primary sources, preserve URLs and publication dates,
-   and flag information that may be outdated.
-2. For each competitor, investigate the product or service, pricing, positioning, recent news, and
-   traction. Useful signals can also include:
-   - job postings that reveal priorities and growth areas;
-   - founders' and executives' posts, talks, and articles;
-   - reviews and sentiment that expose strengths and gaps;
-   - funding, financial, hiring, launch, and partnership signals;
-   - marketing campaigns, ads, and changes in messaging or content strategy when relevant.
-3. Compare claims across sources. Separate facts, interpretations, uncertainty, contradictions, and
-   missing evidence.
-4. Interpret what the patterns mean for the user's decision. For example, hiring several enterprise
-   sellers in one region is a fact; a possible expansion into that market is an inference.
-5. Present the findings side by side when that helps. Go beyond listing facts to show patterns,
-   gaps, opportunities, and questions worth investigating.
+## 2. Choose the evidence and depth
 
-## Suggested outcome
+Agree on the dimensions that matter, such as product, pricing, positioning, audience, channels,
+traction, capabilities, geography, partnerships, or recent strategic changes. Reuse an accepted
+comparison frame when it still fits rather than asking the user to redesign it.
 
-Deliver the agreed brief, table, report, or presentation with sourced evidence, dates, implications,
-uncertainties, and clear distinctions between facts and inference.
+Start with a broad source check when the landscape is uncertain. Go deeper on the competitors and
+questions most likely to change the decision. Separate bounded companion passes can improve depth
+for a small comparison set, but they cost more; explain that tradeoff when it matters.
 
-## Suggested next steps
+Prefer current primary sources, preserve URLs and publication dates, and use reputable secondary
+sources to corroborate or fill material gaps. Treat company claims, review sentiment, estimates,
+and third-party analysis according to what each source can actually support.
 
-Offer to go deeper on selected competitors or questions. If competitor tracking becomes a recurring
-need and scheduling is available, suggest a weekly or monthly routine. Preserve the accepted scope,
-sources, depth, and output as a user-owned skill when the workflow proves useful.
+## 3. Research the competitors
+
+Use the visible browser, approved logged-in tools, prior materials, and the live web to inspect the
+evidence behind each comparison. Useful signals may include:
+
+- product or service details, packaging, pricing, and offers;
+- positioning, audience, campaigns, ads, and changes in messaging or content;
+- launches, partnerships, funding, financial, hiring, and geographic signals;
+- job postings, leadership posts, talks, and articles that reveal priorities; and
+- customer reviews or community discussion that expose strengths, gaps, and switching behavior.
+
+Follow useful links to their underlying source instead of relying on search-result summaries. Note
+what was checked, what could not be verified, and which evidence may be stale or incomplete.
+
+## 4. Compare and interpret
+
+Normalize the comparison enough to make like-for-like claims. Show important differences in scope,
+currency, package, period, geography, audience, or source definition instead of flattening them.
+
+Separate observed facts, competitor claims, other people's interpretations, and the companion's
+inferences. For example, hiring several enterprise sellers in one region is evidence; expansion
+into that market is a hypothesis. Surface contradictions and missing evidence rather than resolving
+them with guesses.
+
+Interpret what the patterns mean for the user's decision. Identify meaningful gaps, crowded claims,
+credible opportunities, risks, and questions worth testing. Do not turn difference into advantage
+without explaining why the target audience should care.
+
+## 5. Deliver and review the result
+
+Produce the agreed brief, comparison table, report, or presentation with source links and dates
+beside material claims. Lead with the decision-relevant conclusions, then show the evidence,
+uncertainty, and implications that support them.
+
+Let the user correct the comparison set, evidence bar, dimensions, depth, and interpretation before
+expanding the work. When the request becomes primarily SEO, use
+`strawberry/marketing/audit-seo-create-report`; when it requires a broader market taxonomy and
+entity landscape, use `strawberry/research-analysis/map-a-market`.
+
+## 6. Continue within the current permission
+
+Follow Strawberry's active scoped permission for every source, account, client, destination, and
+action. Public research, using logged-in competitive-intelligence tools, creating an internal
+artifact, sharing it, and changing a campaign, website, product, or pricing record are separate
+actions. Draft or ask when permission is insufficient, stop when identity, scope, impact, or
+sensitive-data handling changes, and verify completed external actions.
+
+After the workflow proves useful, preserve the accepted scope, comparison set, source rules,
+dimensions, depth, and output as a custom or team skill. Add a Routine only when the team has a real
+cadence or trigger; define the competitors, sources, meaningful-change rule, output, destination,
+review behavior, and stop conditions rather than assuming a weekly or monthly schedule.

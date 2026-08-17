@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-market-mapping",
   "title": "How to map a market with AI",
-  "description": "Build a sourced market landscape around a Sales, Research, or VC decision, with clear boundaries, coverage, patterns, and uncertainty.",
+  "description": "Build a sourced market landscape for a sales, research, or investment decision, with clear boundaries, coverage, patterns, and uncertainty.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -12,12 +12,12 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-13T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "A spreadsheet of company names is not yet a market map. The useful part is seeing how the landscape fits together: which categories matter, where the important relationships sit, what the current view covers, and what it means for the decision in front of you.",
-    "Strawberry can research across company sites, LinkedIn, industry directories, databases, reports, news, connected files, and other relevant sources. It can follow relationships across the web while keeping the evidence and uncertainty visible.",
-    "The same workflow can support a Sales territory decision, a Research landscape, or a VC ecosystem view without forcing every user into the same output."
+    "Strawberry can research across company sites, LinkedIn, industry directories, databases, reports, news, connected files, and other relevant sources. It can follow relationships across the web while keeping the sources, dates, and uncertainty visible.",
+    "The same workflow can support sales territory planning, an industry landscape, or an investor's ecosystem view without forcing each one into the same output."
   ],
   "sections": [
     {
@@ -66,9 +66,9 @@
           "kind": "list",
           "style": "unordered",
           "items": [
-            "For Sales: segment the target market, define the relevant account universe, expose whitespace or concentration, compare regions or verticals, and show where prospecting may be most useful.",
-            "For Research: map the entities, relationships, categories, signals, and patterns shaping a landscape.",
-            "For VC: connect companies, investors, associations, experts, and ecosystem relationships around the investment question."
+            "For sales: segment the target market, define the relevant account universe, expose whitespace or concentration, compare regions or verticals, and show where prospecting may be most useful.",
+            "For research: map the entities, relationships, categories, signals, and patterns shaping a landscape.",
+            "For investing: connect companies, investors, associations, experts, and ecosystem relationships around the investment question."
           ]
         },
         {
@@ -103,11 +103,11 @@
     },
     {
       "id": "continue-from-the-accepted-map",
-      "title": "Continue from the accepted map deliberately",
+      "title": "Put the market map to work",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Once a Sales user accepts the market definition, Strawberry can turn it into a qualified prospect search with an agreed scope and review point. Prospecting, enrichment, outreach, CRM changes, and external sharing remain separate decisions."
+          "text": "If the next job is sales prospecting, Strawberry can turn an accepted market definition into a qualified search with an agreed scope and review point. Prospecting, enrichment, outreach, CRM changes, and external sharing remain separate decisions."
         },
         {
           "kind": "skills",
@@ -115,13 +115,16 @@
             {
               "id": "strawberry/sales/find-new-customers",
               "roleId": "sales-business-development",
-              "context": "Turn an accepted Sales market definition into a qualified prospect list."
+              "context": "Turn an accepted sales market definition into a qualified prospect list."
             }
           ]
         },
         {
           "kind": "paragraph",
-          "text": "Share an approved landscape when colleagues need the result, or save the accepted taxonomy, sources, and review method as a reusable skill when the team should repeat the process. A recurring refresh can become a Routine only after the scope, cadence, audience, and review point are clear."
+          "text": "Share an approved landscape when colleagues need the result, or save the accepted taxonomy, sources, and review method as a reusable skill when the team should repeat the process. A recurring refresh can become a Routine only after the scope, cadence, audience, and review point are clear.",
+          "emphasis": [
+            "Routine"
+          ]
         }
       ]
     }
@@ -129,14 +132,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting started with Research in Strawberry",
+      "title": "Research deep enough to bet on",
       "description": "See how market mapping fits into broader research work.",
-      "href": "/playbooks/research"
+      "href": "/playbooks/research-analysis"
     },
     {
-      "title": "How to use AI for sales prospecting",
-      "description": "Turn an accepted Sales market into a qualified prospect search.",
-      "href": "/blog/ai-sales-prospecting"
+      "title": "Automate your sales pipeline",
+      "description": "Turn an accepted market into focused prospecting and sales work.",
+      "href": "/playbooks/automate-sales-pipeline"
+    },
+    {
+      "title": "Find the next unicorn first",
+      "description": "Use market maps across the venture investment system.",
+      "href": "/playbooks/venture-capital-investing"
     }
   ]
 }

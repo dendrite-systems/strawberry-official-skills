@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A consulting proposal has to make three things agree: what the client needs, what the consultant plans to deliver, and what the firm is prepared to commit to. The information behind those decisions is usually spread across discovery notes, an RFP, email, past work, pricing, and delivery plans.",
@@ -125,7 +125,7 @@
     },
     {
       "id": "carry-the-context-into-delivery",
-      "title": "Carry the accepted context into delivery",
+      "title": "Turn the proposal into a working engagement brief",
       "blocks": [
         {
           "kind": "paragraph",
@@ -135,7 +135,7 @@
           "kind": "skills",
           "items": [
             {
-              "id": "strawberry/agency/build-client-brief",
+              "id": "strawberry/consulting/build-client-brief",
               "roleId": "consultant",
               "context": "Turn accepted work into one reliable engagement brief before delivery begins."
             }
@@ -155,12 +155,12 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to research a company before the next step",
+      "title": "How to use AI for better sales account research",
       "description": "Build a sourced view of the company, relationship, and useful way forward.",
       "href": "/blog/ai-sales-account-research"
     },
     {
-      "title": "How to debrief a client or new-business meeting",
+      "title": "How to use AI for sales meeting notes and follow-up",
       "description": "Turn the conversation into grounded decisions, follow-through, and proposed CRM changes.",
       "href": "/blog/ai-sales-meeting-notes-follow-up"
     }

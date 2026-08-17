@@ -7,7 +7,7 @@
   "useCases": [
     {
       "roleId": "sales-business-development",
-      "weight": 98,
+      "weight": 100,
       "title": "Create a sales asset for this account",
       "message": "Create a customer-facing sales asset for this account. Use the meetings, CRM, email, files, tabs, and approved brand context already available, work out the audience and decision it should support, then recommend and create the simplest useful format."
     },

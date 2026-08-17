@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "displayName": "Audit SEO and Create a Report",
-  "summary": "Audit a website's search performance and turn the findings into a clear prioritized report. Use for a company or client SEO review covering technical issues, content opportunities, competitive context, and practical next actions.",
+  "summary": "Audit a website's search performance and turn technical, content, and competitive findings into a prioritized report with practical next actions.",
   "icon": "chart",
   "tags": [],
   "useCases": [

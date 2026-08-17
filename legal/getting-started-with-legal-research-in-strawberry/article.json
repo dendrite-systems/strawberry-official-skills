@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "legal-research",
+  "title": "Your AI paralegal, in your own databases",
+  "description": "Answer a legal question, brief a new instrument, or compare jurisdictions, with the authority and the checking handled the way legal work needs.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Lawyers don't distrust AI research because it isn't useful. They distrust it because a made-up citation looks exactly like a real one. Find that out in front of a judge, and no amount of time saved was worth it.",
+    "So the question isn't whether a companion can find the law. It's whether it works the way you already do. Jurisdiction settled first. Commentary, then primary law. Binding authority kept apart from persuasive. Every citation checked against the source, not a summary of it.",
+    "Strawberry works in your browser, so it can use the databases you already pay for, and follow a citation into the source instead of stopping at the search result."
+  ],
+  "sections": [
+    {
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
+      "blocks": [
+        {
+          "kind": "section-nav",
+          "items": [
+            {
+              "href": "#answer-a-question-about-the-law",
+              "title": "Answer a question about the law",
+              "description": "A sourced answer in your jurisdiction, with binding authority kept apart from persuasive."
+            },
+            {
+              "href": "#understand-a-new-instrument",
+              "title": "Understand what a new law requires",
+              "description": "Who it applies to, what you have to do, and by when."
+            },
+            {
+              "href": "#compare-across-your-markets",
+              "title": "Compare the rules across your markets",
+              "description": "One question, several regimes, in a table that actually compares like with like."
+            },
+            {
+              "href": "#know-who-you-are-dealing-with",
+              "title": "Know who you are dealing with",
+              "description": "A sourced view of a counterparty, a supplier, or the other side."
+            }
+          ]
+        },
+        {
+          "kind": "guided-entry",
+          "text": "Not sure where to start? Tell your companion the question and the jurisdiction, and it will suggest the right one.",
+          "skill": {
+            "id": "strawberry/legal/getting-started-with-legal-research-in-strawberry",
+            "roleId": "legal",
+            "context": "Help me choose the right legal research workflow for this question."
+          }
+        }
+      ]
+    },
+    {
+      "id": "answer-a-question-about-the-law",
+      "title": "Answer a question about the law",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A rule from the wrong jurisdiction is worse than no answer. It still looks like an answer. So nothing gets searched until that's settled:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "You name the jurisdiction, and it gets on with it. If the facts point somewhere else, it says so.",
+            "You don't name one, and it asks first.",
+            "You're not sure which applies, and it lays out the plausible regimes and what decides between them: where the parties are, where the contract was formed, where the harm happened. Confirming which one governs is yours, or a qualified reviewer's, before anything rests on it."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "From there it researches the way you were taught. Commentary first, to find the landscape and the authorities that actually control it. Then the statutes and cases that settle the question."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Everything comes back labeled: which jurisdiction, primary or secondary, binding on you or merely persuasive. A persuasive case from somewhere else can still be worth having on a novel question. It just arrives marked as one."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Your matter stays out of the search box, by the way. It searches the concept, not your client."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/legal/research-a-legal-question",
+              "roleId": "legal",
+              "context": "Research this legal question in my jurisdiction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "understand-a-new-instrument",
+      "title": "Understand what a new law requires",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Something lands, and the questions are immediately practical. Does this apply to us? What do we have to do? By when? Most of that work is scope rather than summary. The thresholds and exemptions are what decide whether you're in or out."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The same instrument comes back pitched at whoever has to read it:"
+        },
+        {
+          "kind": "table",
+          "columns": ["Written for", "What you get"],
+          "rows": [
+            ["A specialist", "Full detail, article-level references, no hand-holding"],
+            ["A client", "Plain language, what they need to do, terms defined"],
+            ["A board", "One page, the headline risk, and the number"]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Binding law, guidance, and proposals stay clearly apart throughout. People act on proposals as though they were already in force, and that's worth heading off."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/legal/brief-a-regulation",
+              "roleId": "legal",
+              "context": "Brief me on this new instrument and what it requires."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compare-across-your-markets",
+      "title": "Compare the rules across your markets",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "One question across five regimes is really five questions. The usual shortcut is to research the first one properly and then go looking for its features in the others, which quietly reshapes one regime to look like another."
+        },
+        {
+          "kind": "paragraph",
+          "text": "So each jurisdiction is researched on its own terms first, and kept apart while that happens. The point is that nothing from the German answer quietly colors the French one. Only once each stands on its own do the findings get compared."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Then the columns get normalised, because plenty of things look comparable and aren't:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Thresholds that are measured on different bases.",
+            "Penalties written as a fixed cap in one place and a percentage of turnover in another.",
+            "Dates that mean \"in force\" in one column and \"applicable from\" in the next."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Where a difference won't normalise, it stays visible instead of being tidied into a cell. What you usually want at the end is the strictest position on each row, because that's what a single global policy has to satisfy."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/legal/compare-across-jurisdictions",
+              "roleId": "legal",
+              "context": "Compare this question across these jurisdictions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "know-who-you-are-dealing-with",
+      "title": "Know who you are dealing with",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Plenty of legal work turns on the organization rather than the law. A counterparty before a deal, a supplier before you sign, the other side before you advise. That's company research with the sources kept attached, and it's the same companion doing it."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/research-a-company",
+              "roleId": "legal",
+              "context": "Research this organization as a counterparty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-ways-this-goes-wrong",
+      "title": "The seven ways AI legal research goes wrong",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "AI legal research fails in a small number of predictable ways. They're worth naming, because the workflow is built around heading off each one rather than hoping for the best."
+        },
+        {
+          "kind": "table",
+          "columns": ["How it goes wrong", "What stops it"],
+          "rows": [
+            ["Invented sources. The most dangerous one, because a fake citation looks exactly like a real one.", "Every source needs a URL or a database reference. Anything that can't be located is flagged as unverified, never quietly included."],
+            ["Invented pinpoints. The case is real, the paragraph number isn't.", "Quotations get pulled from the actual text rather than written from memory. Page numbers that can't be confirmed are marked approximate."],
+            ["Jurisdictional drift. A rule from one system presented as though it applies in another.", "Every rule is tagged with the jurisdiction it came from, in every output."],
+            ["Outdated law. A statute since amended, a case since overruled.", "Statutes get checked against the current version and cases for whether they still stand. In fast-moving areas, anything more than a couple of years old is flagged for a manual look."],
+            ["Persuasive authority dressed as binding.", "Each authority is labeled binding or persuasive for your jurisdiction, not left for you to infer."],
+            ["A blog post cited as though it were the law.", "Secondary source claims get traced back to the statute, case, or regulation, and that primary source is what gets cited."],
+            ["Confidentiality slipping into a search query.", "Client names, deal terms, and privileged facts never go into a search. It searches the concept instead."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "You still verify. That doesn't change. The difference is that the draft arrives with the predictable traps already handled, so your check is a check rather than a rescue."
+        }
+      ]
+    },
+    {
+      "id": "build-it-around-your-practice",
+      "title": "Build it around your practice area",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Most of the value turns up on the tenth matter rather than the first. Once a way of working is settled, it can be saved: the jurisdictions you work in, the sources you trust, your citation system, the shape of output you actually want."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Teams that go further build a companion around the practice area itself. The workflows that cover most of your matters, plus the regulatory landscape, the enforcement history, and samples of past work product so it knows what good looks like in your firm. That is real investment up front, and it only makes sense where the same kind of matter comes round often enough to repay it."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/set-up-shared-team-workflow",
+              "roleId": "legal",
+              "context": "Turn our accepted research method into something the team can reuse."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "For an area you track continuously, a Routine can watch agreed official sources and report only what has genuinely moved. Worth setting up once you know the sources, the cadence, and what counts as material.",
+          "emphasis": [
+            "Routine"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to research a company with AI",
+      "description": "Build a sourced view of a counterparty, supplier, or opposing organization.",
+      "href": "/playbooks/ai-company-research"
+    },
+    {
+      "title": "Research deep enough to bet on",
+      "description": "The wider research system: sourcing, mapping a landscape, and structured evidence.",
+      "href": "/playbooks/research-analysis"
+    },
+    {
+      "title": "Run an AI-native consultancy",
+      "description": "Carry regulatory research into client recommendations and decision-ready work.",
+      "href": "/playbooks/consulting"
+    }
+  ]
+}

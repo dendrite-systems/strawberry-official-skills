@@ -24,6 +24,12 @@
       "weight": 80,
       "title": "Sort incoming messages",
       "message": "Prioritize this email, LinkedIn, or messaging inbox and prepare the replies, follow-ups, and cleanup I should review."
+    },
+    {
+      "roleId": "healthcare",
+      "weight": 84,
+      "title": "Prioritize an overloaded inbox",
+      "message": "Prioritize my administrative inbox and draft routine replies for my review. Work only in the mailbox or folders I confirm are administrative, and stop and tell me if anything you open holds patient information."
     }
   ]
 }

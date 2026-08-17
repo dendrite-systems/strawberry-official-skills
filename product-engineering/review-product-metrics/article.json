@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-product-metrics-analysis",
+  "title": "How to review product metrics with AI",
+  "description": "Use AI to define product metrics, reconcile their sources, review real performance, and separate observed change from explanation and implication.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "A product metric can look familiar while meaning something different in every dashboard. Before a trend changes a roadmap or launch decision, the team needs to agree on the behavior, population, denominator, time window, source, exclusions, and limits behind it.",
+    "Strawberry can work across product documents, dashboards, event definitions, experiments, customer evidence, and approved data tools. Your companion can reconcile competing definitions, keep data-quality gaps visible, and remember the accepted metric framework for the next review."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-product-decision",
+      "title": "Start with the product decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Clarify the product outcome, user behavior, feature or flow, population, time horizon, decision, existing measures, and source systems. Decide whether the team needs a metric framework, a performance review, or both."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/review-product-metrics",
+              "roleId": "engineering-development",
+              "context": "Define the smallest useful metric framework, review supported performance, or do both for the decision in front of the team."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-each-metric-complete",
+      "title": "Make each metric complete",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": ["Definition element", "Question to answer"],
+          "rows": [
+            ["Behavior or outcome", "What does this measure represent in the product?"],
+            ["Population and calculation", "Who is eligible, what are the numerator and denominator, and how are identity and duplicates handled?"],
+            ["Source and freshness", "Which event or record owns the value, how is it transformed, and when was it updated?"],
+            ["Time and segmentation", "What window, cohort, attribution rule, segment, and exclusions apply?"],
+            ["Baseline, target, and guardrails", "What comparison or threshold is accepted, and which quality, trust, retention, reliability, or cost measures protect it?"]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Reconcile conflicting labels, event names, funnel stages, filters, and time zones. Flag sampled, modeled, delayed, missing, backfilled, or recently changed data before interpreting it."
+        }
+      ]
+    },
+    {
+      "id": "build-the-smallest-useful-framework",
+      "title": "Build the smallest useful framework",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "One outcome measure tied to the product decision.",
+            "The few input or leading measures that can explain movement.",
+            "Necessary guardrails.",
+            "Relevant funnel, retention, quality, or reliability measures.",
+            "The segments or cohorts most likely to hide a materially different result."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Explain why each measure belongs, how it is calculated, which source owns it, what gap blocks it, and which decision it could change. Do not build a large scorecard simply because the data exists."
+        }
+      ]
+    },
+    {
+      "id": "review-performance-without-inventing-causality",
+      "title": "Review performance without inventing causality",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Where reliable data exists, review baselines, trends, seasonality, funnels, cohorts, segments, concentration, anomalies, experiment context, and changes in product or instrumentation."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Separate observed movement, plausible explanations, alternatives, and product implications. Do not hide a thin denominator behind a percentage or treat correlation as a product cause."
+        }
+      ]
+    },
+    {
+      "id": "deliver-the-decision-and-the-gaps",
+      "title": "Deliver the decision and the gaps",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Return the outcome and decision, complete metric definitions, source quality, baseline and supported findings, hypotheses, alternatives, implications, and the next decision or experiment. Put instrumentation and data gaps into separate proposed work."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Use shared Data capabilities when SQL, joins, statistics, or validation becomes substantial. A metrics review does not approve instrumentation, production-data, dashboard, experiment, or product changes."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Ship what customers actually asked for",
+      "description": "Connect product metrics to customer evidence, specifications, browser-based QA, and delivery learning.",
+      "href": "/playbooks/product-engineering"
+    }
+  ]
+}

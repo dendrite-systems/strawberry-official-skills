@@ -20,10 +20,46 @@
       "message": "Help me find important promises, decisions, and follow-ups that have not been completed or recorded properly."
     },
     {
+      "roleId": "engineering-development",
+      "weight": 86,
+      "title": "Find product and engineering work that is slipping",
+      "message": "Reconcile our product and engineering commitments across meetings, messages, tickets, and project records, then show missing owners, conflicting status, and the smallest next actions."
+    },
+    {
       "roleId": "other",
       "weight": 76,
       "title": "Audit open commitments",
       "message": "Reconcile recent commitments across the sources I provide and show me what is still open, unclear, or waiting on someone."
+    },
+    {
+      "roleId": "customer-support-success",
+      "weight": 86,
+      "title": "Close customer follow-ups",
+      "message": "Reconcile customer commitments across tickets, messages, meetings, account records, and project work, then show missing owners, conflicting status, and the smallest next actions."
+    },
+    {
+      "roleId": "student",
+      "weight": 84,
+      "title": "Find what I have committed to and forgotten",
+      "message": "Go through my recent messages and notes and show me the commitments, deadlines, and replies I still owe."
+    },
+    {
+      "roleId": "education",
+      "weight": 80,
+      "title": "Track what I owe students and colleagues",
+      "message": "Find the outstanding commitments, unanswered messages, and follow-ups across my recent work."
+    },
+    {
+      "roleId": "legal",
+      "weight": 80,
+      "title": "Track commitments and unanswered items",
+      "message": "Find open commitments, unanswered follow-ups, and items waiting on someone else across my matters."
+    },
+    {
+      "roleId": "healthcare",
+      "weight": 86,
+      "title": "Track follow-ups and outstanding items",
+      "message": "Find the administrative follow-ups and commitments I still owe, across the sources I confirm are administrative. Stop and tell me if anything you open holds patient information."
     }
   ]
 }

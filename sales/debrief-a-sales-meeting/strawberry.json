@@ -7,7 +7,7 @@
   "useCases": [
     {
       "roleId": "sales-business-development",
-      "weight": 104,
+      "weight": 108,
       "title": "Turn this sales meeting into clear next steps",
       "message": "Debrief this sales meeting using the transcript or notes. Tell me what changed, prepare the right follow-up and next actions, and show any proposed CRM updates separately before changing anything."
     },

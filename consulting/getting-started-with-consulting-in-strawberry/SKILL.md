@@ -21,10 +21,10 @@ team workflows without going through pricing, acquisition, or contract steps.
 
 ## 2. Choose one useful starting point
 
-Recommend no more than three relevant options, then help the user complete one:
+Offer a small, prioritized set of relevant options, then help the user complete one:
 
 - For a concise view of today's priorities, client meetings, messages, commitments, and risks, use
-  `strawberry/operations/prepare-a-daily-brief` after the Operations package is available.
+  `strawberry/operations/prepare-a-daily-brief`.
 - For an upcoming client, workshop, steering, delivery, or internal meeting, use
   `strawberry/operations/prepare-for-meetings`. When prospect, partner, account, or pipeline
   judgment is central, use `strawberry/sales/prepare-for-sales-meetings`.
@@ -33,7 +33,7 @@ Recommend no more than three relevant options, then help the user complete one:
   central.
 - For a live opportunity or RFP, use `strawberry/consulting/create-a-client-proposal`.
 - When accepted work needs one reliable working brief, use
-  `strawberry/agency/build-client-brief`, displayed as Start a Client Engagement.
+  `strawberry/consulting/build-client-brief`, displayed as Start a Client Engagement.
 - When research needs to become options and a client decision, use
   `strawberry/consulting/turn-client-research-into-recommendations`.
 
@@ -57,11 +57,12 @@ engagement or into a reusable team method.
 
 Choose the shared research skill that fits the job rather than creating a Consultant version:
 
-- `strawberry/sales/research-an-account` for one company or relationship;
+- `strawberry/research-analysis/research-a-company` for a sourced brief on one company;
+- `strawberry/sales/research-an-account` when the company matters as a commercial relationship;
 - `strawberry/research-analysis/map-a-market` for boundaries, categories, and relationships;
 - `strawberry/research-analysis/extract-web-data` for repeated fields across many rows;
-- `strawberry/research-analysis/research-companies-create-decks` when company research should end
-  as a visual presentation.
+- `strawberry/research-analysis/create-beautiful-slide-deck` when accepted research should end as a
+  visual presentation.
 
 When the client needs a point of view, continue to
 `strawberry/consulting/turn-client-research-into-recommendations`. Keep evidence, client claims,

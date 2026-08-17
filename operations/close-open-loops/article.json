@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "track-commitments-with-ai",
-  "title": "How to track commitments across your tools",
+  "title": "How to track commitments with AI",
   "description": "Use AI to find promises, follow-ups, ownership gaps, and conflicting status across meetings, messages, tasks, and project tools.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
-    "A surprising amount of Operations work begins with a vague feeling that something has been missed. Someone promised an introduction, a meeting ended with an owner, or a decision was made—but the message, task, and project record no longer tell the same story.",
-    "Finding those gaps is difficult for an AI tool that sees only one application or the text pasted into a chat. The useful evidence may sit in a transcript, a Slack thread, an email, and a task that has not been touched since the conversation.",
-    "Strawberry can follow that evidence across visible tabs, logged-in tools, connected apps, meetings, and files. It keeps the sources attached to the finding and can continue into the right reply or record once you have decided how the loop should close."
+    "A lot of operations work starts with a vague feeling that something has been missed. Someone promised an introduction, a meeting ended with an owner, a decision was made. The message, the task, and the project record no longer agree.",
+    "That's hard for a tool that only sees one app. The evidence is spread across a transcript, a Slack thread, an email, and a task nobody has touched since.",
+    "Strawberry can follow it across your tabs, logged-in tools, meetings, and files, keep the source attached to each finding, and carry on into the reply once you've decided how the loop should close."
   ],
   "sections": [
     {
@@ -100,7 +100,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "Run an AI-native ops team",
       "description": "See how open-loop audits connect with daily briefings, meetings, and status updates.",
       "href": "/playbooks/operations"
     }

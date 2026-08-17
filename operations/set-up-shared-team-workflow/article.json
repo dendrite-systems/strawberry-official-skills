@@ -2,22 +2,22 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "strawberry-for-teams",
-  "title": "Turn a workflow that works into a shared team process",
+  "title": "How to turn your workflow into a team process with AI",
   "description": "Preserve the useful context, judgment, ownership, review points, and privacy boundaries behind one proven workflow.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-06-17T20:19:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "A useful AI workflow can easily remain personal. One person knows which sources to trust, how to judge an exception, what the final result should look like, and which actions still need review. A teammate sees only the finished output and has to reconstruct the method.",
-    "Turning that workflow into a generic process document rarely fixes the problem. The team needs the working context, ownership, judgment, and handoffs that made the original result reliable—without copying one person's private notes or sharing more than the work requires.",
-    "Strawberry can preserve that method as a team skill, connect it with approved shared context, and run it across the real tabs, files, communication tools, and apps the team uses. Start with one accepted workflow and verify that someone else can complete one real handoff."
+    "A useful AI workflow can easily stay personal. One person knows which sources to trust, how to judge an exception, and what still needs review. A teammate sees the output and has to reconstruct the method.",
+    "A generic process document rarely fixes that. What the team needs is the judgment and the handoffs that made the result reliable, without copying one person's private notes.",
+    "Strawberry can keep that method as a team skill, connect it to approved shared context, and run it across the tools the team already uses. Start with one workflow and check that someone else can complete a real handoff."
   ],
   "sections": [
     {
@@ -94,7 +94,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "Run an AI-native ops team",
       "description": "Choose a useful Operations workflow and build toward a connected team method over time.",
       "href": "/playbooks/operations"
     }

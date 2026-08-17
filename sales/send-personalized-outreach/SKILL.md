@@ -1,6 +1,6 @@
 ---
 name: send-personalized-outreach
-description: Research, write, review, send, and improve personalized outreach across email, LinkedIn, and other channels. Use when someone wants to contact known prospects, customers, candidates, partners, investors, or other recipients through one message, a small batch, or a coordinated sequence.
+description: Research, write, review, send, and improve personalized outreach across email, LinkedIn, and other channels. Use when someone wants to contact known prospects, customers, partners, investors, or other commercial recipients through one message, a small batch, or a coordinated sequence. Candidate outreach belongs to the Recruiting skill.
 ---
 
 # Send Personalized Outreach That Sounds Like You

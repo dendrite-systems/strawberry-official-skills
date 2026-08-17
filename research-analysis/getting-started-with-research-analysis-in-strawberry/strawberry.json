@@ -18,6 +18,12 @@
       "weight": 92,
       "title": "Getting Started with Research and Analysis in Strawberry",
       "message": "I want to get started with analysis in Strawberry and build a repeatable workflow."
+    },
+    {
+      "roleId": "finance",
+      "weight": 84,
+      "title": "Research a financial question",
+      "message": "Research this company, market, or investment question and turn current sources into a cited brief, comparison, spreadsheet, or map."
     }
   ]
 }

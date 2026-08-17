@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-design-system-audit",
+  "title": "How to audit a design system with AI",
+  "description": "Walk the live product, find where the build has drifted from the system, and get findings grouped by cause with evidence you can inspect.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Drift is invisible one page at a time. A button with a radius two pixels off is nothing. The same button rendered four different ways across one signup flow is a system problem, and the only way to see it is for somebody to walk the whole thing.",
+    "Nobody walks the whole thing. It's tedious, it's never the most urgent task, and by the time you'd notice, three releases have shipped on top of it."
+  ],
+  "sections": [
+    {
+      "id": "walk-the-real-pages",
+      "title": "Walk the real pages, in the states that break",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Strawberry works in the browser, so it can move through the live product the way a user does and inspect what's actually rendered rather than what a spec says should be. That distinction is the whole point: the drift you're looking for exists precisely because the build and the definition disagree."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It checks the states that get skipped in review, across the breakpoints and themes you care about:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Spacing off the scale, and type outside the ramp.",
+            "Colors that are nearly a token but not the token, and text failing contrast against its real background rather than its intended one.",
+            "The same component built three ways, or a variant doing a job it wasn't made for.",
+            "Focus that isn't visible, hover that changes nothing, disabled that doesn't read as disabled.",
+            "Empty and error states, where drift concentrates because they get built last and reviewed least."
+          ]
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/design/audit-a-design-system",
+              "roleId": "design",
+              "context": "Walk these pages and show me where we have drifted from our design system."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grouped-by-cause",
+      "title": "Findings grouped by cause, not by page",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A list of forty inconsistencies ordered by URL is a document nobody opens twice. Twelve instances of one wrong token is a single fix and should read like one, which changes it from a backlog into an afternoon."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Ordering follows what actually matters. Accessibility failures first, then anything sitting on a primary flow, then visible inconsistency, then cosmetic drift. And you're told which surfaces were walked and which weren't, so a bounded audit doesn't get read as full coverage."
+        }
+      ]
+    },
+    {
+      "id": "not-every-difference-is-a-defect",
+      "title": "Not every difference is a defect",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A deliberate exception, a legacy surface already scheduled for replacement, and a genuine mistake look identical from the outside. An audit that files all three as bugs gets ignored, and deservedly."
+        },
+        {
+          "kind": "paragraph",
+          "text": "So findings that look intentional get raised as questions rather than defects. You know which of them were decisions."
+        }
+      ]
+    },
+    {
+      "id": "keep-it-from-coming-back",
+      "title": "Keep it from coming back",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Drift returns. It's the by-product of shipping quickly rather than of anyone being careless, which is also why a one-off cleanup buys you about a quarter."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once an audit is set up the way you want it, the system it checks against, the surfaces it covers, and the states it inspects can be saved. After that it can run as a Routine that re-walks the agreed surfaces once a release lands and tells you only what's newly broken.",
+          "emphasis": [
+            "Routine"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Your AI design partner, from feedback to handoff",
+      "description": "The wider system: grounding decisions in feedback, reviews, and handing work over.",
+      "href": "/playbooks/design"
+    },
+    {
+      "title": "Ship what customers actually asked for",
+      "description": "Flow audits, bug research, and specs from the build side of the same product.",
+      "href": "/playbooks/product-engineering"
+    },
+    {
+      "title": "Research deep enough to bet on",
+      "description": "The evidence side: sourcing, structured data, and clear answers.",
+      "href": "/playbooks/research-analysis"
+    }
+  ]
+}

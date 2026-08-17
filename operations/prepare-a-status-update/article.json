@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-status-updates",
   "title": "How to write better status updates with AI",
   "description": "Use AI to turn current project, meeting, message, and dashboard context into a clear update for a specific audience.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
-    "Writing a status update is often less work than assembling one. Before the first sentence, someone has to check the project record, recent meetings, team messages, a dashboard, and the last update to work out what has actually changed.",
-    "A normal AI chat can improve the prose once that context has been pasted in. Strawberry can help with the earlier part as well. Your companion can use the tabs, logged-in tools, connected apps, files, and meeting records behind the work, compare them, and keep the useful evidence close to the draft.",
-    "The result should tell a particular audience what they need to understand or do next. It should not be a polished diary of everything the team completed."
+    "Writing a status update is less work than assembling one. Before the first sentence, someone checks the project record, recent meetings, team messages, a dashboard, and the last update to work out what actually changed.",
+    "A normal AI chat can improve the prose once you've pasted all that in. Strawberry can do the earlier part, using the tools and meeting records behind the work and keeping the evidence next to the draft.",
+    "The result should tell one audience what they need to understand or do next, not catalogue everything the team finished."
   ],
   "sections": [
     {
@@ -100,7 +100,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "Run an AI-native ops team",
       "description": "Connect status updates with daily priorities, open commitments, and meeting preparation.",
       "href": "/playbooks/operations"
     }

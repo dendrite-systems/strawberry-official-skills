@@ -7,7 +7,7 @@
   "useCases": [
     {
       "roleId": "sales-business-development",
-      "weight": 102,
+      "weight": 106,
       "title": "Review my pipeline and tell me where to focus",
       "message": "Review my current sales pipeline and help me decide where to focus this week. Use the CRM plus relevant recent email and meeting context, explain the biggest risks and opportunities, and show proposed CRM corrections separately before changing anything."
     },

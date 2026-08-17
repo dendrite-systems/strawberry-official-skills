@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-dataset-analysis",
+  "title": "How to analyze a dataset with AI",
+  "description": "Catch the data quality problems first, agree the definitions, answer the question, and show its work behind every number.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "At some point someone will ask how you got the number. That's when an analysis either holds up or quietly comes apart, and it's usually decided long before the chart.",
+    "So the valuable part isn't the answer. It's catching the reason the answer would have been wrong, before it's in a slide with your name on it."
+  ],
+  "sections": [
+    {
+      "id": "look-before-you-calculate",
+      "title": "Look at it before calculating anything",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The file gets inspected first, and you hear what turned up before you see a single number:"
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "What one row actually represents, which is not always what the header implies.",
+            "Missing values, and whether they're missing at random or in a pattern that means something.",
+            "Duplicates, and whether they're real repeats or a join that went wrong.",
+            "Numbers stored as text, mixed date formats, and the other quiet type problems that break a sum silently.",
+            "Outliers, which are either data entry errors or the most interesting thing in the file."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The order matters more than it sounds. Learning about a broken join after you've seen the chart means you've already half-believed the chart, and unbelieving it is surprisingly hard."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/research-analysis/analyze-a-dataset",
+              "roleId": "data-analytics",
+              "context": "Analyze this dataset for the question I need answered."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agree-what-the-words-mean",
+      "title": "Agree what the words mean",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Almost every argument about a number is really an argument about a definition. What counts as active. Whether a month is calendar or rolling. Which timezone the day ends in. Whether a refund reverses the sale or sits next to it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Those get pinned down before anything is calculated, and where your organization already has an accepted definition, that one wins over a more reasonable-looking alternative. Being consistent with the number everyone else quotes usually matters more than being marginally more correct in private."
+        }
+      ]
+    },
+    {
+      "id": "show-its-work",
+      "title": "Show its work",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Every figure that matters arrives with the filters applied, the rows excluded and why, and the formula behind it. You should be able to reproduce the number without asking anyone how it was made, because at some point someone will ask you to."
+        },
+        {
+          "kind": "paragraph",
+          "text": "And what the data shows stays separate from what it implies. Signups dropped the week you changed pricing is a correlation with a very good story attached. It gets labeled as one, rather than promoted to a cause because the timing is convenient."
+        }
+      ]
+    },
+    {
+      "id": "say-what-it-cannot-support",
+      "title": "Say what it can't support",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Sample too small to generalize. Period too short to call a trend. A segment with nine rows in it. Survivorship baked into how the data was collected in the first place, so the customers who left aren't in the file at all."
+        },
+        {
+          "kind": "paragraph",
+          "text": "These get stated plainly rather than buried, because a confident answer with an unstated limitation is worse than a hedged answer with a clear one. The first kind gets acted on."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the definitions, filters, and checks are right, they can be saved so the same report isn't rebuilt slightly differently every quarter. If it genuinely repeats on a schedule, it can become a Routine that runs the same checks and brings you the result to review.",
+          "emphasis": [
+            "Routine"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Your AI analyst for every number",
+      "description": "The wider system: collecting data, settling definitions, and presenting findings.",
+      "href": "/playbooks/data-analysis"
+    },
+    {
+      "title": "Turn websites into a clean, reviewable dataset",
+      "description": "For when the dataset you need doesn't exist yet.",
+      "href": "/playbooks/ai-data-extraction"
+    },
+    {
+      "title": "Run finance on autopilot",
+      "description": "The same validation discipline applied to recurring reporting.",
+      "href": "/playbooks/finance"
+    }
+  ]
+}

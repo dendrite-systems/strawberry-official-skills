@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "ai-sales-outreach-automation",
   "title": "How to automate personalized sales outreach with AI",
-  "description": "Learn how to research, write, send, and improve personalized AI sales outreach—from a first message to thoughtful follow-ups and Routines.",
+  "description": "Learn how to research, write, send, and improve personalized AI sales outreach, from a first message to thoughtful follow-ups and Routines.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-10T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "AI sales outreach often promises personalization at scale and delivers the opposite: more messages that sound generic, over-researched, or nothing like the person sending them. Useful automation should carry real context and your own judgment from research through sending and follow-up.",
@@ -87,7 +87,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Research depth should fit the goal. Important accounts may justify deeper work across company pages, LinkedIn, public databases, and less obvious sources; a familiar audience may need less. Because Strawberry works in the browser, it can follow real sources when the first answer is incomplete. The goal is evidence that improves the reason to reach out—not proof that an agent searched the recipient."
+          "text": "Research depth should fit the goal. Important accounts may justify deeper work across company pages, LinkedIn, public databases, and less obvious sources; a familiar audience may need less. Because Strawberry works in the browser, it can follow real sources when the first answer is incomplete. The goal is evidence that improves the reason to reach out, not proof that an agent searched the recipient."
         },
         {
           "kind": "paragraph",
@@ -146,7 +146,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Personalization does not require a recent post or clever personal detail in every message. Relationship history, segment context, or a clear explanation of why you chose the recipient may be stronger—and often sounds more human than forced praise."
+          "text": "Personalization does not require a recent post or clever personal detail in every message. Relationship history, segment context, or a clear explanation of why you chose the recipient may be stronger, and often sounds more human than forced praise."
         }
       ]
     },
@@ -190,7 +190,7 @@
             "Do the messages sound like you and fit each relationship?",
             "Is the reason for reaching out clear and credible?",
             "Are the channel, sender, destination, and timing right?",
-            "Is your companion preparing drafts or actually sending—and what happens after a reply?"
+            "Is your companion preparing drafts or actually sending, and what happens after a reply?"
           ]
         },
         {
@@ -273,7 +273,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to automate your sales pipeline with AI",
+      "title": "Automate your sales pipeline",
       "description": "Connect outreach with prospecting, account research, meetings, CRM work, and pipeline decisions.",
       "href": "/playbooks/automate-sales-pipeline"
     },

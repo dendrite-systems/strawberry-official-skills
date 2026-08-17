@@ -26,10 +26,22 @@
       "message": "Prepare a concise view of today's client meetings, messages, commitments, risks, and decisions, while keeping each client's context separate."
     },
     {
+      "roleId": "sales-business-development",
+      "weight": 98,
+      "title": "See what needs my attention across sales",
+      "message": "Prepare a concise view of today's sales meetings, messages, deal risks, commitments, and decisions, with links to the context that matters."
+    },
+    {
       "roleId": "other",
       "weight": 82,
       "title": "Get oriented for the day",
       "message": "Help me work out what matters today from my calendar, messages, tasks, meetings, and current work."
+    },
+    {
+      "roleId": "student",
+      "weight": 82,
+      "title": "See what needs attention today",
+      "message": "Show me what deserves my attention today across my calendar, messages, and deadlines."
     }
   ]
 }

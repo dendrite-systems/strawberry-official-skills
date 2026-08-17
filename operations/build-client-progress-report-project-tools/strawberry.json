@@ -10,6 +10,12 @@
       "weight": 76,
       "title": "Build a client progress report from your project tools",
       "message": "Help me put together a client progress report. Ask me which client and which time period to cover. Then pull relevant updates from my project tools and the email thread with the client, and draft a clean report I can send or present."
+    },
+    {
+      "roleId": "agency",
+      "weight": 104,
+      "title": "Build one client’s marketing performance report",
+      "message": "Help me reconcile one client's project, analytics, advertising, and communication context into a reviewable performance report. Keep this client's accounts and data separate from every other account."
     }
   ]
 }

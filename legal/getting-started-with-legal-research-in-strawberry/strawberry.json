@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Getting Started with Legal Research in Strawberry",
+  "summary": "Research a legal question, brief a new instrument, or compare regimes, with jurisdiction discipline and verification built in.",
+  "icon": "books",
+  "tags": [
+    "getting-started-guide"
+  ],
+  "useCases": [
+    {
+      "roleId": "legal",
+      "weight": 124,
+      "title": "Getting Started with Legal Research in Strawberry",
+      "message": "I want to get started in Strawberry with legal research, briefings, and comparing jurisdictions."
+    }
+  ]
+}

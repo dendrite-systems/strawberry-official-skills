@@ -2,22 +2,21 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "ai-for-meeting-prep",
-  "title": "Prepare for meetings from the context you already have",
+  "title": "How to prepare for any meeting with AI",
   "description": "Turn the calendar event, prior conversations, current work, files, and relevant web context into a concise meeting brief.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-06-04T08:02:52.087Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "The best meeting briefs are short enough to use and specific enough to change the conversation. They help you understand what has changed, ask better questions, and leave with a useful decision or next step without summarizing every attendee and attached document.",
-    "Gathering that context is often the slow part. The calendar has the event, earlier decisions are in meeting notes, the working detail is in a project tool or message thread, and useful external context may sit on a company website or another open tab.",
-    "Strawberry can bring those sources together in the same browser where you work. Your companion can match the right meeting and participants, follow relevant links through logged-in tools and the public web, and prepare a short brief with the evidence still easy to inspect."
+    "Five minutes before a meeting, you don't need a summary. You need to know what changed, and the one question worth asking.",
+    "That's spread across the invite, an old meeting note, a project thread, and the other side's website. Strawberry is a browser, so your companion can read all of it, including the tools you're already signed into, and come back with something short enough to use. Every claim shows its source."
   ],
   "sections": [
     {
@@ -105,14 +104,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Turn every useful meeting into decisions and follow-up",
+      "title": "How to turn meetings into decisions with AI",
       "description": "Use the reliable meeting record to prepare a debrief and complete the useful follow-through.",
-      "href": "/blog/strawberry-for-meetings"
+      "href": "/playbooks/strawberry-for-meetings"
     },
     {
-      "title": "How to use AI for Operations work",
-      "description": "See how meeting preparation connects with daily priorities and cross-functional follow-through.",
-      "href": "/playbooks/operations"
+      "title": "How to create a useful daily brief with AI",
+      "description": "Bring upcoming meetings together with the other work that needs attention today.",
+      "href": "/playbooks/ai-daily-brief"
+    },
+    {
+      "title": "How to track commitments with AI",
+      "description": "Follow decisions and promises from meetings into the systems where the work continues.",
+      "href": "/playbooks/track-commitments-with-ai"
     }
   ]
 }

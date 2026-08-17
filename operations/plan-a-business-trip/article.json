@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-business-trip-planning",
   "title": "How to plan a business trip with AI",
   "description": "Use AI to compare live travel options, build a coherent itinerary, complete approved bookings, and organize the trip in one place.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
-    "A workable business trip depends on more than the fare. The arrival has to fit the meeting, the stay has to suit the location and working pattern, the choice has to fit policy, and each part has to remain available long enough to make a decision.",
-    "A list of travel links from an AI search only solves the first part. You still have to reopen the results, recover the current price, sign in, check the terms, and rebuild the itinerary before you can book anything.",
-    "Strawberry does the research in the browser alongside you. Your companion can use the calendar, policy, preferences, and trip context already available, compare live provider pages, keep the useful options open for inspection, and continue into a booking once you approve the exact choice."
+    "A workable trip depends on more than the fare. The arrival has to fit the meeting, the stay has to fit how you work, the choice has to fit policy, and all of it has to still be available when you decide.",
+    "A list of travel links solves the first part. You still have to reopen everything, recover the real price, sign in, check the terms, and rebuild the itinerary.",
+    "Strawberry researches it in the browser beside you, using your calendar, policy, and preferences, comparing live provider pages, and continuing into a booking once you approve the exact choice."
   ],
   "sections": [
     {
@@ -94,7 +94,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "Run an AI-native ops team",
       "description": "See how browser-native travel work fits into a broader Operations workflow.",
       "href": "/playbooks/operations"
     }

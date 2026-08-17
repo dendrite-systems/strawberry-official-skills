@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "draft",
+  "status": "published",
   "publicSlug": "ai-candidate-outreach",
   "title": "How to write better candidate outreach with AI",
   "description": "Create relevant candidate outreach from verified professional context, an honest employer proposition, and a clearly approved send.",
@@ -12,8 +12,8 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-13T00:00:00.000Z",
-  "noindex": true,
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
   "introduction": [
     "The quickest way to make candidate outreach feel automated is to pretend you know more about someone than you do.",
     "Strawberry can research the professional context that genuinely connects a person with the role, then turn it into a message that is specific without becoming invasive. It can also check approved ATS or prior-contact context before treating someone as new.",
@@ -22,7 +22,7 @@
   "sections": [
     {
       "id": "start-from-an-approved-candidate",
-      "title": "Start from an approved candidate or group",
+      "title": "Start with the candidates you want to contact",
       "blocks": [
         {
           "kind": "paragraph",
@@ -50,7 +50,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "LinkedIn, GitHub, portfolios, talks, company pages, and other public professional work can reveal a credible connection with the role. The useful detail is one that helps the person understand why the opportunity may be relevant—not proof that someone searched every corner of the internet."
+          "text": "LinkedIn, GitHub, portfolios, talks, company pages, and other public professional work can reveal a credible connection with the role. The useful detail is one that helps the person understand why the opportunity may be relevant, not proof that someone searched every corner of the internet."
         },
         {
           "kind": "paragraph",
@@ -114,7 +114,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Source candidates with evidence",
+      "title": "How to use AI for candidate sourcing",
       "description": "Build and approve the shortlist before outreach begins.",
       "href": "/blog/ai-candidate-sourcing"
     }

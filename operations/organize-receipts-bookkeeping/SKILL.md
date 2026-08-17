@@ -1,52 +1,70 @@
 ---
 name: organize-receipts-bookkeeping
-description: Find receipts and organize bookkeeping evidence for review. Use when a user wants transactions matched to receipts, files organized, missing evidence identified, or a clean handoff prepared for accounting without making unsupported accounting judgments.
+description: Gather invoices, receipts, and payment evidence from approved email, vendor portals, files, and records; build a traceable transaction register; separate missing or ambiguous items; and prepare the next finance review or handoff. Use for recurring bookkeeping preparation without making payments, posting entries, or changing source records.
 ---
 
 # Organize Receipts and Bookkeeping
 
-This is a starting point for reducing repetitive receipt collection and transaction matching.
-Finance is deterministic while language models are probabilistic, so treat every number and match as
-a first draft to reconcile, not a final accounting judgment.
+Turn scattered invoices, receipts, and payment evidence into a traceable register and clean review
+handoff. Prepare the records for the owner, finance team, bookkeeper, accountant, or other accepted
+reviewer; do not decide the accounting treatment or alter a financial record.
 
-## Context, setup, and planning
+## 1. Define the handoff
 
-Try to understand:
+Establish the company or entity, period, currencies, approved sources, destination, reviewer, and
+definition of complete. Learn the existing register fields, file naming, matching rules, and review
+or handoff format when they exist.
 
-- the period, legal entities, currencies, accounts, and accounting system or ERP in scope;
-- where receipts arrive, how files should be named and routed, and who reviews them;
-- how much the user wants prepared automatically versus flagged for review;
-- the user's existing bookkeeping process and definition of done.
+Useful approved sources may include email, vendor portals, billing tools, payment records, files,
+and an existing spreadsheet or accounting export. Work through visible, logged-in browser tabs when
+that is where the evidence lives. Suggest a connection only when it improves the chosen result.
 
-When relevant and approved, useful context may come from the accounting system, inbox, bank feed,
-vendor portals, vendor list, prior reports, or an existing close checklist. Offer to inspect this
-context, ask a few questions, or combine both. Before scaling a sample into a recurring process,
-restate the scope and rough cost so the user can adjust it.
+## 2. Gather and record the evidence
 
-## Execution
+Retrieve only the documents and records in scope. Preserve the source link, document date, vendor
+or payee, amount, currency, transaction reference, retrieval date, and original filename where
+available. Store or rename files only in the accepted destination and convention.
 
-1. Find receipts in the approved sources. For inbox attachments, download and rename them using
-   vendor, date, and amount before routing them to the agreed destination. For portal-only vendors,
-   retrieve only the relevant documents.
-2. Match transactions conservatively. Clearly matched recurring lines may include regular vendors,
-   payroll, and customer payments. Escalate unknown payers, duplicate-looking lines, out-of-range
-   amounts, and other uncertain matches rather than forcing completion.
-3. Keep missing receipts, ambiguous matches, duplicates, and unsupported accounting treatment
-   explicit. Include the supporting document and source for each proposed match where possible.
-4. Present a small reviewable sample before processing the full period. Apply the user's corrections
-   to the remaining work.
-5. Ask before uploading, categorizing, posting, or changing live accounting records. Nothing posts
-   to live accounting without the user's approval.
+Build or update a reviewable register. Keep the original evidence available; do not turn a row in a
+spreadsheet into the only record of the transaction.
 
-## Suggested outcome
+## 3. Match conservatively
 
-Provide a reviewable reconciliation and organized receipt set in the user's chosen destination,
-with matched, missing, ambiguous, and duplicate items clearly separated. The user should be able to
-trace every proposed match to its supporting evidence and see what still needs judgment.
+Match a document to a payment or transaction only when identifiers, amount, currency, date,
+counterparty, and context support it. Do not force a match from amount alone.
 
-## Suggested next steps
+Separate:
 
-After the sample and filing conventions are accepted, save the process as a user-owned skill. If
-recurring collection would help, offer a Routine for the agreed cadence—for example, retrieving
-portal-only invoices monthly—but do not automate posting or other live accounting changes without
-explicit approval.
+- supported matches;
+- missing invoices or receipts;
+- ambiguous or partial matches;
+- possible duplicates;
+- unexpected vendors, payers, amounts, or dates; and
+- items that need accounting or tax judgment.
+
+When the rules or volume are new, present a small, varied sample before processing the full period.
+Apply accepted corrections to the remaining work.
+
+## 4. Check and deliver the handoff
+
+Reconcile the register count and totals to the source set where possible. Check duplicates, date and
+currency consistency, links, filenames, and whether every exception is visible.
+
+Deliver the organized evidence, register, and exception list with a short handoff note covering
+scope, sources, coverage, unresolved items, and questions for the accepted reviewer. Do not
+claim the books are complete or reconciled when only the supporting evidence has been prepared.
+
+Use `strawberry/finance/review-financial-performance` after the accepted records are ready and the
+next question is what changed in the financial picture.
+
+## 5. Make the next collection easier
+
+After the user accepts the fields, sources, matching rules, and filing convention, preserve them as
+a reusable method. A Routine may retrieve documents from named sources on an agreed cadence and
+prepare the register and exceptions for review. It should stop when the company, account, period,
+source, destination, or matching confidence falls outside the accepted scope.
+
+Reading a payment record is not permission to make a payment. Do not initiate, approve, schedule,
+or alter payments; post, reverse, categorize, or approve entries; change bank, ledger, payroll,
+invoice, or source records; or share the handoff beyond the accepted audience. Stop for review at
+MFA, new account access, an identity or entity change, or a broader sensitive-data scope.

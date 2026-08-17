@@ -12,83 +12,141 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-09T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "AI sales prospecting should help you find customers who fit for a reason—not produce another giant lead list for someone to clean up. The useful result is a smaller set of companies you can understand, challenge, and confidently act on.",
-    "Strawberry is a browser with built-in AI agents. It can learn from the context you already have, work across LinkedIn, company websites, connected apps, and public sources, and investigate the signals that matter for your business. That makes it possible to search beyond the standard fields in a shared lead database.",
-    "You do not need a perfect ICP or a fully automated outbound system to begin. Start with what you know about a good customer, review a real set of prospects with your companion, and use your feedback to sharpen the wider search."
+    "AI prospecting should find customers who fit for a reason, not produce another list for someone to clean up. The useful result is a smaller set you can understand and act on.",
+    "Strawberry works across LinkedIn, company sites, your connected apps, and the public web, learning from the context you already have. That lets it look past the standard fields in a shared lead database.",
+    "You don't need a perfect ICP to start. Review a real set of prospects with your companion and let your feedback sharpen the search."
   ],
   "sections": [
     {
       "id": "define-a-good-customer",
       "title": "Start with what makes a customer worth finding",
-      "paragraphs": [
-        "A useful search starts with the problem you solve and the evidence that a company might need it. Your website, ICP, strong customers, poor-fit examples, won accounts, CRM, and previous research can all help Strawberry understand that judgment without making you explain everything again.",
-        "The criteria can begin rough. Tell your companion what you know, what you are unsure about, and which exclusions matter. It can help turn that context into a working definition of fit, then improve it from real examples."
-      ],
-      "skills": [
+      "blocks": [
         {
-          "id": "strawberry/sales/find-new-customers",
-          "roleId": "sales-business-development",
-          "context": "Use this to define the search, find a first set of prospects, and refine the result before scaling."
+          "kind": "paragraph",
+          "text": "A useful search starts with the problem you solve and the evidence that a company might need it. Your website, ICP, strong customers, poor-fit examples, won accounts, CRM, and previous research can all help Strawberry understand that judgment without making you explain everything again."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The criteria can begin rough. Tell your companion what you know, what you are unsure about, and which exclusions matter. It can help turn that context into a working definition of fit, then improve it from real examples."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/find-new-customers",
+              "roleId": "sales-business-development",
+              "context": "Use this to define the search, find a first set of prospects, and refine the result before scaling."
+            }
+          ]
         }
       ]
     },
     {
       "id": "choose-search-depth",
       "title": "Choose between a wide search and a deep one",
-      "paragraphs": [
-        "A broad pass can screen more companies quickly and at a lower credit cost per prospect. A deeper pass can investigate harder-to-find signals, connect evidence across sources, and make a stronger case for why an account fits.",
-        "You rarely need to choose only one. For a large market, Strawberry can screen widely using lighter signals, narrow the pool, and spend the deeper research on the companies most likely to matter. Agree on the likely depth, scale, and destination before starting a large run."
-      ],
-      "skills": []
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A broad pass can screen more companies quickly and at a lower credit cost per prospect. A deeper pass can investigate harder-to-find signals, connect evidence across sources, and make a stronger case for why an account fits."
+        },
+        {
+          "kind": "paragraph",
+          "text": "You rarely need to choose only one. For a large market, Strawberry can screen widely using lighter signals, narrow the pool, and spend the deeper research on the companies most likely to matter. Agree on the likely depth, scale, and destination before starting a large run."
+        }
+      ]
     },
     {
       "id": "look-beyond-lead-databases",
       "title": "Look beyond the usual lead databases",
-      "paragraphs": [
-        "Useful sales signals often live in the messy edges of the web: company pages, niche directories, public databases, association sites, job listings, product changes, and other sources specific to the market. They may reveal a problem, technology choice, expansion, or moment of change that a standard company profile misses.",
-        "Because Strawberry is an agentic browser, it can open the real sources, follow useful links, search within sites, and keep digging when the first result is incomplete. It can combine that public evidence with relevant context from your CRM, files, tabs, and connected apps, while keeping the source behind the important findings."
-      ],
-      "skills": []
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Useful sales signals often live in the messy edges of the web: company pages, niche directories, public databases, association sites, job listings, product changes, and other sources specific to the market. They may reveal a problem, technology choice, expansion, or moment of change that a standard company profile misses."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Because Strawberry is an agentic browser, it can open the real sources, follow useful links, search within sites, and keep digging when the first result is incomplete. It can combine that public evidence with relevant context from your CRM, files, tabs, and connected apps, while keeping the source behind the important findings."
+        }
+      ]
     },
     {
       "id": "calibrate-before-scaling",
       "title": "Calibrate the judgment before scaling the list",
-      "paragraphs": [
-        "When the criteria are new or subjective, ask Strawberry for a small, varied first set. Review why each company was included, look at a few borderline examples, and tell your companion what feels right or wrong. If the definition is already trusted and the search is straightforward, you can move faster without forcing an extra review step.",
-        "This loop matters because prospecting depends on judgment. Your feedback can sharpen the criteria, sources, fields, and level of research before time and credits are spent on a larger run. Once the approach works, save those decisions as a custom skill so the next search starts further ahead."
-      ],
-      "skills": []
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "When the criteria are new or subjective, ask Strawberry for a small, varied first set. Review why each company was included, look at a few borderline examples, and tell your companion what feels right or wrong. If the definition is already trusted and the search is straightforward, you can move faster without forcing an extra review step."
+        },
+        {
+          "kind": "paragraph",
+          "text": "This loop matters because prospecting depends on judgment. Your feedback can sharpen the criteria, sources, fields, and level of research before time and credits are spent on a larger run. Once the approach works, save those decisions as a custom skill so the next search starts further ahead."
+        }
+      ]
     },
     {
       "id": "make-the-list-reviewable",
       "title": "Make every prospect easy to trust or reject",
-      "paragraphs": [
-        "A useful prospect list shows more than a name and a score. Keep a concise reason for fit, the important source links, requested company or contact fields, and visible uncertainty beside each prospect. Check the CRM and existing lists for duplicates, and never pad the result with weak matches to reach a number.",
-        "If you need people or contact details, research them only to the depth the next step requires. Confirm that someone still holds the relevant role and keep verification status visible for contact information. The result can stay in chat or land in a table, spreadsheet, CRM, document, or dashboard—wherever it is easiest to review and use."
-      ],
-      "skills": [
+      "blocks": [
         {
-          "id": "strawberry/sales/enrich-lead-list",
-          "roleId": "sales-business-development",
-          "context": "Use this when the companies are already known and the list mainly needs contacts or missing fields."
+          "kind": "paragraph",
+          "text": "A useful prospect list shows more than a name and a score. Keep a concise reason for fit, the important source links, requested company or contact fields, and visible uncertainty beside each prospect. Check the CRM and existing lists for duplicates, and never pad the result with weak matches to reach a number."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If you need people or contact details, research them only to the depth the next step requires. Confirm that someone still holds the relevant role and keep verification status visible for contact information. The result can stay in chat or land in a table, spreadsheet, CRM, document, or dashboard, wherever it is easiest to review and use."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/enrich-lead-list",
+              "roleId": "sales-business-development",
+              "context": "Use this when the companies are already known and the list mainly needs contacts or missing fields."
+            }
+          ]
         }
       ]
     },
     {
       "id": "turn-the-list-into-a-workflow",
-      "title": "Turn an approved list into the next useful step",
-      "paragraphs": [
-        "Once the prospect set feels right, your companion can research the strongest accounts more deeply, enrich the records you need, or build a customer outreach sequence in your voice. Finding prospects, adding them to the CRM, drafting messages, and enrolling or sending are separate decisions—you stay in control of each step.",
-        "Share the approved list when teammates need the result, or save and share the accepted sourcing method as a team skill when they should reuse the process. If the team needs the same customer context across prospecting, research, outreach, and other sales work, share the full companion. After the process has worked several times, it can become a Routine that looks for new companies or useful signals at the right cadence. The goal is not simply more leads. It is a prospecting system that gets better at recognizing the customers your business can genuinely help."
-      ],
-      "skills": [
+      "title": "Turn the customer list into research and outreach",
+      "blocks": [
         {
-          "id": "strawberry/sales/send-personalized-outreach",
-          "roleId": "sales-business-development",
-          "context": "Use this after the prospect set is approved to draft and send reviewable outreach."
+          "kind": "paragraph",
+          "text": "Once the prospect set feels right, your companion can research the strongest accounts more deeply, enrich the records you need, or build a customer outreach sequence in your voice. Finding prospects, adding them to the CRM, drafting messages, and enrolling or sending are separate decisions. You stay in control of each step."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once the method works, there are three ways to hand it on."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Share the list when teammates just need the result.",
+            "Save it as a team skill when they should reuse the process.",
+            "Share the whole companion when they need the same customer knowledge across prospecting, research, and outreach."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "After it has worked a few times, it can become a Routine that watches for new companies on its own. The goal isn't more leads. It's a system that gets better at spotting the customers you can genuinely help.",
+          "emphasis": [
+            "Routine"
+          ]
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/sales/send-personalized-outreach",
+              "roleId": "sales-business-development",
+              "context": "Use this after the prospect set is approved to draft and send reviewable outreach."
+            }
+          ]
         }
       ]
     }
@@ -96,7 +154,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to automate your sales pipeline with AI",
+      "title": "Automate your sales pipeline",
       "description": "Connect prospecting with research, meetings, follow-up, CRM work, and pipeline decisions.",
       "href": "/playbooks/automate-sales-pipeline"
     },

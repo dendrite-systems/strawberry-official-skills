@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Make a Warm Introduction",
+  "summary": "Find a credible network path and prepare a considerate, permission-aware introduction.",
+  "icon": "people",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 106,
+      "title": "Make a thoughtful warm introduction",
+      "message": "Find the strongest credible path between these people, explain the relationship evidence and sensitivity, and prepare the right introduction or intermediary ask for review."
+    },
+    {
+      "roleId": "venture-capital",
+      "weight": 104,
+      "title": "Find and prepare a useful introduction",
+      "message": "Use my approved network and relationship context to find a credible path between these people, then prepare a considerate introduction without overstating the relationship or sharing private deal context."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 88,
+      "title": "Make a useful warm introduction",
+      "message": "Help me connect these people thoughtfully. Verify the relationship path, protect private context, and draft the appropriate ask or introduction for review."
+    },
+    {
+      "roleId": "sales-business-development",
+      "weight": 92,
+      "title": "Find a credible path into an account",
+      "message": "Find a credible relationship path into this account and prepare a respectful intermediary ask or warm introduction for review."
+    },
+    {
+      "roleId": "recruiting-people",
+      "weight": 86,
+      "title": "Prepare a warm candidate introduction",
+      "message": "Help me find and verify a credible path to this person, then prepare a respectful introduction or referral ask without exposing private candidate context."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-investment-opportunity-research",
+  "title": "How to research an investment opportunity with AI",
+  "description": "Build an evidence-backed first view of a startup, its thesis fit, recent changes, tensions, and next questions.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Before a founder meeting or partner discussion, the practical question is usually the same: is this company worth more time, and what should we learn next? A generic company profile does not answer it.",
+    "Strawberry can combine the firm's thesis and relationship history with the company's current site, founder material, funding records, hiring, product signals, credible reporting, and other relevant sources. The work happens in the visible browser, so the investor can inspect the evidence and steer the research as it develops."
+  ],
+  "sections": [
+    {
+      "id": "match-the-research-to-the-decision",
+      "title": "Match the research to the decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A company may need a quick screen, a brief before a founder meeting, an answer to one partner question, or a decision about deeper diligence. Strawberry scales the work to that moment and starts from the firm's existing thesis, pipeline record, notes, and relationship history."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/venture-capital/research-an-investment-opportunity",
+              "roleId": "venture-capital",
+              "context": "Build a source-linked view of one company around the investment decision in front of you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "separate-claims-from-evidence",
+      "title": "Separate company claims from evidence",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The company's website and deck explain its story. Customer evidence, filings, funding records, product material, hiring, credible reporting, competitor sources, and internal conversations may support, qualify, or contradict it. Strawberry keeps those layers distinct and links material findings to their source and date.",
+          "emphasis": [
+            "keeps those layers distinct"
+          ]
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "What the product does, for whom, and how the company makes money.",
+            "Founders, team, ownership, financing, and relevant history.",
+            "Market, competition, positioning, and timing.",
+            "Traction signals and what those public proxies cannot prove.",
+            "Recent changes that could affect the investment view.",
+            "Thesis fit, tensions, and material evidence still missing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decide-what-deserves-a-deeper-look",
+      "title": "Decide what deserves a deeper look",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The brief should make it easy to see why the company may or may not deserve more attention, followed by the strongest evidence, tensions, recent changes, and questions worth resolving. Preliminary fit can organize that evidence, but it is not proof of investment quality."
+        },
+        {
+          "kind": "paragraph",
+          "text": "A clear unknown is often more useful than a weak conclusion. If revenue, customer retention, technical differentiation, ownership, or another material point is not supported, the brief should turn that gap into a specific next question.",
+          "emphasis": [
+            "A clear unknown"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carry-the-company-view-forward",
+      "title": "Carry the company view forward",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The same company view can support a meeting brief, deeper diligence, a memo, or a reviewed CRM update. Strawberry carries the sources and the investor's corrections forward, so the next piece of work begins with the current investment record rather than another blank chat."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/prepare-for-meetings",
+              "roleId": "venture-capital",
+              "context": "Turn the company view into a concise founder or partner meeting brief."
+            },
+            {
+              "id": "strawberry/venture-capital/conduct-investment-due-diligence",
+              "roleId": "venture-capital",
+              "context": "Investigate the accepted underwriting questions in greater depth."
+            },
+            {
+              "id": "strawberry/venture-capital/write-an-investment-memo",
+              "roleId": "venture-capital",
+              "context": "Build a decision record from accepted research, conversations, and diligence."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "As the investor corrects the first brief, Strawberry can remember the firm's trusted sources, thesis signals, screening questions, and preferred depth. When that method holds up across companies, it can become a reusable firm skill. One company's unusual facts should remain an exception, not become a permanent rule."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Find the next unicorn first",
+      "description": "See how company research connects with the rest of the investment system.",
+      "href": "/playbooks/venture-capital-investing"
+    },
+    {
+      "title": "How to source venture deals with AI",
+      "description": "Build the thesis-matched company set that feeds the research process.",
+      "href": "/playbooks/ai-venture-deal-sourcing"
+    },
+    {
+      "title": "How to map a startup ecosystem with AI",
+      "description": "Understand the market, investors, and relationships around an opportunity.",
+      "href": "/playbooks/ai-startup-ecosystem-mapping"
+    }
+  ]
+}

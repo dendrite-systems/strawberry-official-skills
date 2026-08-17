@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-recurring-finance-reporting",
+  "title": "How to prepare recurring finance reports with AI",
+  "description": "Use AI to gather approved finance data, apply trusted reporting rules, validate the result, and surface exceptions for review.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "A recurring finance report can look simple once it is finished. The awkward part happens earlier: downloading the right data from a portal or export, moving it into a file the team trusts, and checking the dates, totals, currencies, and exceptions before anyone relies on it.",
+    "Strawberry can do that work in the visible, logged-in browser where the source reports live. It can follow the team's existing mapping into a spreadsheet or file, keep the source trail intact, and prepare the finished report and its exceptions for review."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-report-people-already-use",
+      "title": "Start with the report people already use",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Define the entity, reporting period and cutoff, time zone, currencies, source accounts, output format, and reviewer. A trusted prior report or template is usually more useful than a new reporting pack because it already reflects how the team consumes the result."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/finance/prepare-a-recurring-finance-report",
+              "roleId": "finance",
+              "context": "Prepare the report from the approved sources, apply the accepted rules, validate the result, and surface anything that needs review."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-every-transformation-inspectable",
+      "title": "Make every transformation inspectable",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "Part of the report",
+            "What to preserve"
+          ],
+          "rows": [
+            [
+              "Source data",
+              "Portal or file, report version, filters, download time, and as-of date."
+            ],
+            [
+              "Field mapping",
+              "The source field, output column, and any join used between them."
+            ],
+            [
+              "Transformations",
+              "Signs, currencies, dates, formulas, aggregations, and exclusions."
+            ],
+            [
+              "Exceptions",
+              "Missing rows, failed mappings, duplicates, unsupported assumptions, and unresolved differences."
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "When the mapping is new, Strawberry can prepare a small, varied sample before processing the full period. Reviewing a normal row alongside the edge cases is a quicker way to catch a wrong sign, date rule, or field mapping before it spreads through the report."
+        }
+      ]
+    },
+    {
+      "id": "check-the-report-before-it-moves-on",
+      "title": "Check the report before it moves on",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Confirm the entity, period, cutoff, time zone, and currency coverage.",
+            "Compare row counts, control totals, and expected subtotals with the source set.",
+            "Check duplicates, gaps, failed mappings, signs, date conversions, and formulas.",
+            "Use an unexpected prior-period movement as a reason to investigate, not a reason to force the current result to match."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The useful handoff includes the report, a short validation summary, and a clear exception list. It should be easy for the reviewer to see what was checked, what changed, and what still needs judgment."
+        }
+      ]
+    },
+    {
+      "id": "keep-preparation-and-judgment-separate",
+      "title": "Keep preparation and judgment separate",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Preparing the file is different from approving an accounting treatment, posting an entry, making a payment, or sending sensitive material. Strawberry can draft the handoff and keep the source trail beside it; the people responsible for the report decide what happens next."
+        },
+        {
+          "kind": "paragraph",
+          "text": "If the next question is why the figures changed, move into a financial performance review. If the missing work is invoices, receipts, or payment evidence, collect those records separately rather than hiding the gap inside the report."
+        }
+      ]
+    },
+    {
+      "id": "make-the-next-run-easier",
+      "title": "Make the next run easier",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Once the team trusts the sources, mappings, checks, output, and handoff, save the method as a team skill. A Routine can prepare the next report on an agreed cadence and stop when MFA appears, a source changes, a control fails, or the entity, period, destination, or reviewer no longer matches the accepted setup.",
+          "emphasis": [
+            "Routine"
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to organize invoices and receipts with AI",
+      "description": "Gather supporting documents, build a traceable register, and show what is missing or ambiguous.",
+      "href": "/playbooks/ai-invoice-receipt-bookkeeping"
+    },
+    {
+      "title": "How to review financial performance with AI",
+      "description": "Use the accepted figures to explain the movements that matter and what needs attention.",
+      "href": "/playbooks/ai-financial-performance-analysis"
+    },
+    {
+      "title": "How to build a financial forecast with AI",
+      "description": "Carry accepted actuals and operating drivers into an inspectable forward view.",
+      "href": "/playbooks/ai-financial-forecasting"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Getting Started as a Writer or Creator in Strawberry",
+  "summary": "Research a subject properly, draft in your own voice, and adapt finished work across the channels you publish on.",
+  "icon": "lightbulb",
+  "tags": [
+    "getting-started-guide"
+  ],
+  "useCases": [
+    {
+      "roleId": "writer-creator",
+      "weight": 124,
+      "title": "Getting Started as a Writer or Creator in Strawberry",
+      "message": "I want to get started in Strawberry with research, drafting, and publishing my work."
+    }
+  ]
+}

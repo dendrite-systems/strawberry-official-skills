@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "consulting",
-  "title": "How to use AI for consulting work",
+  "title": "Run an AI-native consultancy",
   "description": "Use Strawberry across client research, proposals, meetings, recommendations, and follow-through while keeping evidence and approvals clear.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
@@ -12,40 +12,56 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
+  "navigation": {
+    "title": "Consulting",
+    "tagline": "Client research, proposals, delivery, and follow-through",
+    "icons": ["gmail", "google-sheets", "notion", "slack"],
+    "order": 10
+  },
   "introduction": [
     "Most consultants already have plenty of context. It is spread across meeting notes, email threads, an RFP portal, research tabs, and past deliverables. The tedious part is bringing the right pieces into the next decision without rebuilding the project each time.",
-    "Strawberry works in the same visible browser as that material. Your companion can use what is already open or connected, follow research into logged-in sites, and carry what matters into a proposal, recommendation, brief, or deck. Start with the job in front of you."
+    "Strawberry works in the same visible browser as that material. Your companion can use what is already open or connected, follow research into logged-in sites, and carry what matters into a proposal, recommendation, brief, or deck without rebuilding the engagement for each new task."
   ],
   "sections": [
     {
-      "id": "start-with-the-work-in-front-of-you",
-      "title": "Start with the work in front of you",
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
       "blocks": [
         {
-          "kind": "paragraph",
-          "text": "The useful first step depends on where the work is today. Strawberry recommends a small set of relevant options and helps complete one. Internal consultants can go straight to meetings, research, recommendations, or status work without passing through sales or proposal steps."
-        },
-        {
-          "kind": "table",
-          "columns": ["What is happening", "Start here"],
-          "rows": [
-            ["Several clients and commitments need attention today", "Prepare a concise daily brief."],
-            ["A client, prospect, workshop, or steering meeting is coming up", "Prepare the meeting, then debrief it from the reliable record."],
-            ["An opportunity is ready to move—or the work has just been accepted", "Create the proposal, then turn the agreement into an engagement brief."],
-            ["Research exists but the client needs a point of view", "Compare the options and build a recommendation with traceable evidence."]
-          ]
-        },
-        {
-          "kind": "skills",
+          "kind": "section-nav",
           "items": [
             {
-              "id": "strawberry/consulting/getting-started-with-consulting-in-strawberry",
-              "roleId": "consultant",
-              "context": "Find a useful starting point for your consulting work and complete one real result."
+              "href": "#turn-research-into-a-decision",
+              "title": "Turn research into a decision",
+              "description": "Move from sources and analysis to credible options, tradeoffs, and a recommendation the client can challenge."
+            },
+            {
+              "href": "#move-cleanly-from-sale-to-delivery",
+              "title": "Move from sale to delivery",
+              "description": "Carry the real opportunity into a proposal, then turn the accepted work into an engagement brief."
+            },
+            {
+              "href": "#use-meetings-to-keep-the-work-moving",
+              "title": "Prepare for meetings and follow through",
+              "description": "Bring the useful client context into the conversation, then preserve decisions and commitments."
+            },
+            {
+              "href": "#reuse-what-works",
+              "title": "Reuse what works",
+              "description": "Keep trusted sources, client boundaries, deliverable standards, and review points available."
             }
           ]
+        },
+        {
+          "kind": "guided-entry",
+          "text": "Not sure where to begin? Your companion can look at the client work you have open and suggest a useful skill to try first.",
+          "skill": {
+            "id": "strawberry/consulting/getting-started-with-consulting-in-strawberry",
+            "roleId": "consultant",
+            "context": "Find a useful starting point for your consulting work and complete one real result."
+          }
         }
       ]
     },
@@ -66,17 +82,34 @@
           "text": "The recommendation keeps evidence, client claims, calculations, and inference distinct. It can become a memo, deck, workshop artifact, or supporting spreadsheet, depending on how the client will make the decision."
         },
         {
-          "kind": "skills",
+          "kind": "skill-lanes",
           "items": [
             {
-              "id": "strawberry/consulting/turn-client-research-into-recommendations",
-              "roleId": "consultant",
-              "context": "Turn client research into credible options, a defensible recommendation, and the right decision-ready artifact."
+              "title": "Build the recommendation",
+              "text": "Turn the research into credible options and a defensible recommendation, keeping the evidence, client claims, calculations, tradeoffs, and inference clear in the artifact the decision needs.",
+              "skill": {
+                "id": "strawberry/consulting/turn-client-research-into-recommendations",
+                "roleId": "consultant",
+                "context": "Turn client research into credible options, a defensible recommendation, and the right decision-ready artifact."
+              }
             },
             {
-              "id": "strawberry/research-analysis/extract-web-data",
-              "roleId": "consultant",
-              "context": "Collect repeated fields across many pages into a validated dataset when the research needs scale."
+              "title": "Investigate one company closely",
+              "text": "Build a concise, source-linked view of a single company when the client question turns on what that business actually does or where it is heading.",
+              "skill": {
+                "id": "strawberry/research-analysis/research-a-company",
+                "roleId": "consultant",
+                "context": "Research this company around the client question I need to answer."
+              }
+            },
+            {
+              "title": "Collect repeated web evidence at scale",
+              "text": "Collect the same fields across many pages into a validated dataset when the analysis needs breadth.",
+              "skill": {
+                "id": "strawberry/research-analysis/extract-web-data",
+                "roleId": "consultant",
+                "context": "Collect repeated fields across many pages into a validated dataset when the research needs scale."
+              }
             }
           ]
         }
@@ -95,17 +128,25 @@
           "text": "After acceptance, the same reviewed context becomes the engagement brief, including the scope, stakeholders, milestones, evidence standards, and client restrictions. The delivery team does not have to reconstruct the agreement during kickoff."
         },
         {
-          "kind": "skills",
+          "kind": "skill-steps",
           "items": [
             {
-              "id": "strawberry/consulting/create-a-client-proposal",
-              "roleId": "consultant",
-              "context": "Turn an opportunity or RFP into a complete commercial and delivery proposal ready for review."
+              "title": "Define what is being promised",
+              "text": "Turn the real opportunity or RFP into the outcomes, work, responsibilities, timeline, fees, terms, and open questions.",
+              "skill": {
+                "id": "strawberry/consulting/create-a-client-proposal",
+                "roleId": "consultant",
+                "context": "Turn an opportunity or RFP into a complete commercial and delivery proposal ready for review."
+              }
             },
             {
-              "id": "strawberry/agency/build-client-brief",
-              "roleId": "consultant",
-              "context": "Start accepted work with one reliable engagement brief."
+              "title": "Turn the proposal into an engagement brief",
+              "text": "Carry the scope, stakeholders, milestones, evidence standards, and client restrictions into one engagement brief.",
+              "skill": {
+                "id": "strawberry/consulting/build-client-brief",
+                "roleId": "consultant",
+                "context": "Start accepted work with one reliable engagement brief."
+              }
             }
           ]
         }
@@ -124,22 +165,34 @@
           "text": "A daily brief connects that meeting loop to the rest of the consultant's work: which calls need preparation, which promises are due, and which risks or messages deserve attention. Follow-up emails, status updates, CRM changes, and project updates stay separately reviewable."
         },
         {
-          "kind": "skills",
+          "kind": "skill-lanes",
           "items": [
             {
-              "id": "strawberry/operations/prepare-a-daily-brief",
-              "roleId": "consultant",
-              "context": "See which clients, meetings, messages, commitments, and risks deserve attention today."
+              "title": "See what needs attention across clients",
+              "text": "Bring today's client calls, messages, commitments, risks, and decisions into one concise view.",
+              "skill": {
+                "id": "strawberry/operations/prepare-a-daily-brief",
+                "roleId": "consultant",
+                "context": "See which clients, meetings, messages, commitments, and risks deserve attention today."
+              }
             },
             {
-              "id": "strawberry/operations/prepare-for-meetings",
-              "roleId": "consultant",
-              "context": "Prepare a concise brief for an upcoming client, workshop, steering, delivery, or internal meeting."
+              "title": "Walk into the meeting prepared",
+              "text": "Pull together the few decisions, commitments, documents, and changes that should shape a client, workshop, steering, delivery, or internal meeting.",
+              "skill": {
+                "id": "strawberry/operations/prepare-for-meetings",
+                "roleId": "consultant",
+                "context": "Prepare a concise brief for an upcoming client, workshop, steering, delivery, or internal meeting."
+              }
             },
             {
-              "id": "strawberry/operations/debrief-a-meeting",
-              "roleId": "consultant",
-              "context": "Turn a completed meeting into decisions, commitments, actions, and controlled follow-through."
+              "title": "Turn the conversation into follow-through",
+              "text": "Separate discussion from decisions, capture commitments and actions, and prepare the right follow-up or system update for review.",
+              "skill": {
+                "id": "strawberry/operations/debrief-a-meeting",
+                "roleId": "consultant",
+                "context": "Turn a completed meeting into decisions, commitments, actions, and controlled follow-through."
+              }
             }
           ]
         }
@@ -154,8 +207,13 @@
           "text": "Feedback helps your companion learn which sources you trust, what a useful result looks like, and how you want drafts reviewed. Once the method works, save it as a custom skill or a sanitized team skill. Client details stay with the client they belong to."
         },
         {
-          "kind": "paragraph",
-          "text": "A recurring job such as a daily brief, meeting preparation, research refresh, or status update can become a draft-first Routine once its sources, output, and review step are settled. Until then, keep improving it on real work."
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Share an approved artifact when someone only needs the result.",
+            "Share a sanitized team skill when colleagues need the method but not another client's context.",
+            "Create a Routine when the sources, trigger, output, ownership, and review step have settled."
+          ]
         }
       ]
     }
@@ -163,19 +221,19 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to create a consulting proposal with AI",
-      "description": "Turn opportunity context into a clear commercial and delivery proposal without inventing commitments.",
-      "href": "/blog/ai-consulting-proposal"
+      "title": "Research deep enough to bet on",
+      "description": "See how source finding, extraction, synthesis, comparison, and reporting can support deeper client work.",
+      "href": "/playbooks/research-analysis"
     },
     {
-      "title": "How to turn consulting research into recommendations",
-      "description": "Move from evidence to credible options, a recommendation, and the right client artifact.",
-      "href": "/blog/ai-consulting-recommendations"
+      "title": "Run an AI-native ops team",
+      "description": "See how daily briefs, meetings, updates, open loops, and shared workflows support delivery.",
+      "href": "/playbooks/operations"
     },
     {
-      "title": "How to start a client engagement with AI",
-      "description": "Turn accepted work into one reliable brief for delivery, evidence, communication, and risk.",
-      "href": "/blog/ai-client-engagement-setup"
+      "title": "Automate your sales pipeline",
+      "description": "Connect new-business research, meetings, proposals, follow-up, and CRM work before delivery begins.",
+      "href": "/playbooks/automate-sales-pipeline"
     }
   ]
 }

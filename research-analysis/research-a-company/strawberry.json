@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Research a Company",
+  "summary": "Build a concise, source-linked company brief around the question or decision that matters.",
+  "icon": "binoculars",
+  "tags": [
+    "good-first-skill"
+  ],
+  "useCases": [
+    {
+      "roleId": "research-analysis",
+      "weight": 112,
+      "title": "Research a company",
+      "message": "Research this company around the question I need answered. Use relevant context and current sources, then give me a concise brief with the important findings, changes, tensions, gaps, and source links."
+    },
+    {
+      "roleId": "consultant",
+      "weight": 106,
+      "title": "Understand a company before advising it",
+      "message": "Research this company around the client or strategic question in front of me. Give me a concise, source-linked view of what matters, what has changed, and what remains uncertain."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 98,
+      "title": "Understand a company before making a decision",
+      "message": "Research this company for the decision in front of me. Focus on the few findings that should change my view and keep the important sources easy to inspect."
+    },
+    {
+      "roleId": "other",
+      "weight": 82,
+      "title": "Research a company",
+      "message": "Research this company around the question I need answered and give me a concise brief with the important findings and source links."
+    },
+    {
+      "roleId": "student",
+      "weight": 96,
+      "title": "Research an organization before applying or interviewing",
+      "message": "Research this organization around what I need to know before I apply, interview, or reach out. Give me a concise brief with source links."
+    },
+    {
+      "roleId": "writer-creator",
+      "weight": 90,
+      "title": "Research a subject before writing about it",
+      "message": "Research this company or organization around the story I am writing. Show me what is verified, what is the subject’s own claim, and what is still uncertain."
+    },
+    {
+      "roleId": "education",
+      "weight": 84,
+      "title": "Research an organization or institution",
+      "message": "Research this organization around the question I need answered, and keep the sources easy to check."
+    },
+    {
+      "roleId": "legal",
+      "weight": 92,
+      "title": "Research a counterparty or opposing organization",
+      "message": "Research this organization as a counterparty. Cover corporate identity, jurisdiction, public regulatory history, and recent changes, with sources beside each finding."
+    },
+    {
+      "roleId": "healthcare",
+      "weight": 78,
+      "title": "Research a supplier, insurer, or employer",
+      "message": "Research this organization around the administrative or commercial question in front of me, and keep the sources easy to inspect."
+    }
+  ]
+}

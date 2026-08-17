@@ -30,10 +30,46 @@
       "message": "Turn this reviewed proposal, recommendation, or body of client work into a polished, evidence-grounded slide deck."
     },
     {
+      "roleId": "sales-business-development",
+      "weight": 94,
+      "title": "Turn account research into a beautiful sales deck",
+      "message": "Turn this accepted account research into a polished, evidence-grounded sales deck."
+    },
+    {
+      "roleId": "agency",
+      "weight": 92,
+      "title": "Create a beautiful client pitch deck",
+      "message": "Turn this accepted client or prospect research into a polished pitch deck."
+    },
+    {
+      "roleId": "research-analysis",
+      "weight": 84,
+      "title": "Turn an accepted brief into a beautiful deck",
+      "message": "Turn this accepted research brief into a polished, source-grounded slide deck."
+    },
+    {
       "roleId": "other",
       "weight": 94,
       "title": "Create a beautiful slide deck for me",
       "message": "I want to create a beautiful slide deck."
+    },
+    {
+      "roleId": "student",
+      "weight": 88,
+      "title": "Present work I have finished",
+      "message": "Turn work I have already finished into a clear, well-designed presentation I can actually present."
+    },
+    {
+      "roleId": "data-analytics",
+      "weight": 80,
+      "title": "Present findings to stakeholders",
+      "message": "Turn this accepted analysis into a presentation that leads with the finding and keeps the evidence traceable."
+    },
+    {
+      "roleId": "education",
+      "weight": 92,
+      "title": "Turn a lesson into presentable material",
+      "message": "Turn this lesson or topic into clear teaching material I can present."
     }
   ]
 }

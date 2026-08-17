@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-marketing-performance-analysis",
+  "title": "How to analyze marketing performance with AI",
+  "description": "Use AI to reconcile marketing definitions, find meaningful performance changes, and recommend decisions without overstating attribution.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Marketing performance is easy to summarize and hard to interpret. Different platforms can count the same journey differently, definitions drift, and a visible change does not automatically explain why it happened.",
+    "Strawberry can work across logged-in campaign tools, analytics, CRM or lifecycle data, product signals, prior reports, and qualitative feedback. Your companion can preserve the definitions and source limits behind the analysis, then carry the accepted learning into the next campaign or content decision."
+  ],
+  "sections": [
+    {
+      "id": "define-the-review-and-the-decision",
+      "title": "Define the review and the decision",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Clarify the business and marketing goals, campaign or channel, audience, funnel, period, comparison, source systems, budget context, and decision the review should support. Begin with the slice most likely to change current work."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/review-marketing-performance",
+              "roleId": "marketing-content",
+              "context": "Review the performance evidence behind a current marketing decision and make the limits explicit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reconcile-before-comparing",
+      "title": "Reconcile before comparing",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": ["Check", "Why it changes the conclusion"],
+          "rows": [
+            ["Date range, time zone, and currency", "Periods that look aligned may contain different activity or budget."],
+            ["Metric and funnel definitions", "A lead, conversion, activation, or qualified opportunity may not mean the same thing across tools."],
+            ["Attribution window and model", "Platforms may claim the same outcome or omit effects they cannot observe."],
+            ["Identity, deduplication, and denominator", "Rates and audience comparisons fail when the counted populations differ."],
+            ["Freshness and modeled data", "Delayed, sampled, or estimated results should not carry the same confidence as observed records."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Use shared Data capabilities when extraction, joins, statistics, or validation becomes substantial. Marketing still owns the audience, channel, creative, funnel, and campaign interpretation."
+        }
+      ]
+    },
+    {
+      "id": "separate-change-explanation-and-action",
+      "title": "Separate change, explanation, and action",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Start with the few changes that matter across the objective, baseline, funnel, audience, geography, channel, placement, message, offer, creative, spend, and external context. Then test plausible explanations against both quantitative and qualitative evidence."
+        },
+        {
+          "kind": "list",
+          "style": "ordered",
+          "items": [
+            "State what changed and the evidence behind it.",
+            "List plausible explanations and credible alternatives.",
+            "Explain what the current evidence cannot distinguish.",
+            "Recommend the smallest decision, test, or measurement improvement that could reduce uncertainty."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Do not claim causation from a before-and-after chart or give one platform's attribution model more certainty than it deserves."
+        }
+      ]
+    },
+    {
+      "id": "leave-with-a-learning-plan",
+      "title": "Leave with a learning plan",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Recommend a small set of actions or experiments with the rationale, owner, expected signal, review window, and major dependency. Some results should lead to better measurement or a smaller test rather than immediate optimization."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The review can define a better metric framework. It does not change tracking, configure campaigns, edit creative, launch tests, or change spend. Keep each external action separately permitted and verifiable."
+        }
+      ]
+    },
+    {
+      "id": "carry-the-learning-back-into-marketing",
+      "title": "Carry the learning back into marketing",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Preserve accepted definitions, comparisons, source rules, analysis shape, and review behavior for the next cycle. Still check for definition drift and material data gaps rather than mechanically repeating the dashboard."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/plan-a-marketing-campaign",
+              "roleId": "marketing-content",
+              "context": "Use accepted performance learning to improve the next campaign decision."
+            },
+            {
+              "id": "strawberry/marketing/build-a-content-plan",
+              "roleId": "marketing-content",
+              "context": "Use audience, channel, and creative learning to improve the next content cycle."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Market like a team of ten",
+      "description": "Connect performance learning to audience research, campaigns, content, SEO, and competitor work.",
+      "href": "/playbooks/marketing"
+    }
+  ]
+}

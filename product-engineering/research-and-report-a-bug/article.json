@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-bug-reporting",
+  "title": "How to research and report software bugs with AI",
+  "description": "Use AI to reproduce unexpected behavior, gather team and code context, find duplicates, and prepare or file a grounded issue.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "A useful bug report connects what the user saw to the environment, expected behavior, reproduction, impact, recent changes, related discussion, and the team's existing issue history. Without that chain, the ticket often sends Engineering back to repeat the investigation.",
+    "Strawberry can reproduce the behavior in the browser and, when approved, inspect Slack or Teams discussion, GitHub context and recent changes, logs, existing issues, and the team's actual ticketing system. Your companion can search for duplicates and preserve uncertainty without inventing a root cause."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-observed-behavior",
+      "title": "Start with the observed behavior",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Capture what happened, what was expected, the user impact, environment, version, account role, frequency, scope, time, and evidence already available. Establish expected behavior from an accepted product source when possible; otherwise label the requirement gap."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/research-and-report-a-bug",
+              "roleId": "engineering-development",
+              "context": "Research unexpected behavior, find the relevant team and code context, search for duplicates, and prepare or file a grounded issue within scope."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gather-the-context-that-could-change-the-report",
+      "title": "Gather the context that could change the report",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": ["Context", "What it can add"],
+          "rows": [
+            ["Slack or Teams", "Prior reports, customer impact, workarounds, decisions, owners, and unresolved questions."],
+            ["GitHub and recent changes", "Affected components, related pull requests, release timing, regression range, and code-owner context."],
+            ["Logs, monitoring, console, and network", "Errors, failed requests, timing, frequency, and environment-specific evidence."],
+            ["The team's ticketing system", "Existing issues, current status, accepted fields, severity definitions, and the real project or destination."]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Use only approved sources that could materially improve the report. Keep private customer data, secrets, internal discussion, and repository context within their permitted boundaries; redact evidence when the ticket has a wider audience."
+        }
+      ]
+    },
+    {
+      "id": "reproduce-and-narrow-the-behavior",
+      "title": "Reproduce and narrow the behavior",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Reproduce the smallest safe path in the appropriate environment. Record exact steps, starting state, expected and observed behavior, evidence, frequency, and cleanup. Compare a nearby control path or prior version when that can isolate the changed condition."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Distinguish a confirmed behavior, likely affected component, suspected regression range, and unverified root-cause hypothesis. If reproduction is not possible, provide the strongest evidence chain available and say what is missing."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/product-engineering/audit-a-product-flow",
+              "roleId": "engineering-development",
+              "context": "Run a broader or proactive flow audit when the team needs passes, regressions, and browser evidence beyond one reported bug."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "search-before-filing",
+      "title": "Search before filing",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Search the actual ticketing system and relevant GitHub issues using the symptom, error text, flow, component, version, and likely synonyms. Compare behavior, environment, scope, and status before declaring a duplicate."
+        },
+        {
+          "kind": "paragraph",
+          "text": "When a matching issue exists, return the match and the new evidence worth adding. Commenting, updating, reopening, or changing priority is a separate action; do not create a second issue merely to complete the workflow."
+        }
+      ]
+    },
+    {
+      "id": "prepare-or-file-the-grounded-issue",
+      "title": "Prepare or file the grounded issue",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "A clear title and user impact.",
+            "Environment, version, account role, scope, and frequency.",
+            "Minimal reproduction steps and starting state.",
+            "Expected and observed behavior.",
+            "Privacy-safe screenshots, logs, browser evidence, and source links.",
+            "Severity or priority using the team's definitions.",
+            "Duplicate search, related work, suspected area, and regression range, with inference labeled.",
+            "Acceptance or verification notes, evidence gaps, uncertainty, and cleanup state."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Create the issue only when active permission covers the exact ticketing account, project, issue type, fields, destination, and action. Otherwise return a reviewable draft or ask. Verify the identifier, URL, fields, and attachments after filing."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The report does not end the work. If the user also requests a fix, the companion can continue through the available coding workflow under the normal repository, change, review, validation, and permission boundaries while preserving the original issue evidence."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Ship what customers actually asked for",
+      "description": "Connect grounded bug reports to browser-based QA, product evidence, specifications, metrics, and team follow-through.",
+      "href": "/playbooks/product-engineering"
+    }
+  ]
+}

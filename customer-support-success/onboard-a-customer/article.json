@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-customer-onboarding",
+  "title": "How to onboard customers with AI",
+  "description": "Use AI to turn customer goals, commitments, stakeholders, setup, and risks into an owned path to first value.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Customer onboarding is where the signed agreement, the sales conversation, the product, and the customer's internal reality have to meet. A generic checklist can look organized while missing the outcome the customer actually expects.",
+    "Strawberry can bring together sales notes, commitments, account records, meetings, email, product context, and implementation work in one visible workspace. Your companion can turn that context into an owned path to first value without quietly expanding the scope or changing access and configuration."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-outcome",
+      "title": "Start with the outcome",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Define what the customer bought, the business goal, intended users, stakeholders, target dates, success measures, constraints, and next value milestone. Separate signed terms and agreed commitments from informal discussion, assumptions, and open questions."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/customer-support-success/onboard-a-customer",
+              "roleId": "customer-support-success",
+              "context": "Turn the agreed customer outcome and commitments into a practical onboarding path."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reconcile-readiness-before-building-the-plan",
+      "title": "Reconcile readiness before building the plan",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "Area",
+            "Questions worth resolving"
+          ],
+          "rows": [
+            [
+              "People",
+              "Who owns the outcome, setup, decisions, training, and communication?"
+            ],
+            [
+              "Product and data",
+              "What access, configuration, integration, migration, or data preparation is actually required?"
+            ],
+            [
+              "Customer change",
+              "Which users need to adopt a new behavior, and what will help them do it?"
+            ],
+            [
+              "Risk and scope",
+              "Which assumptions, security questions, custom work, or unclear commitments need an owner?"
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "If access, privacy, security, legal, billing, or custom technical work is unclear, route it before presenting the onboarding as ready."
+        }
+      ]
+    },
+    {
+      "id": "build-the-path-to-first-value",
+      "title": "Build the path to first value",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Create milestones from the customer's outcome rather than a complete tour of the product. Keep owners, dependencies, target dates, risks, decisions, and the evidence of progress visible. A 30/60/90-day plan is useful only when it fits the actual implementation."
+        },
+        {
+          "kind": "list",
+          "style": "ordered",
+          "items": [
+            "Confirm the outcome and first value milestone.",
+            "Assign the customer and internal owners for each dependency.",
+            "Prepare the setup, enablement, and adoption work that the outcome needs.",
+            "Define the progress evidence and next decision point."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carry-the-context-into-each-conversation",
+      "title": "Carry the context into each conversation",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Use the agreed goals, stakeholders, plan, and open decisions to prepare the kickoff and later check-ins. After the meeting, preserve decisions and commitments from a reliable record so the plan reflects what actually changed. Save the onboarding method as a team skill when colleagues should use the same handoff and first-value structure; share the wider companion only when they need the same ongoing customer context across onboarding, health, and support."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/prepare-for-meetings",
+              "roleId": "customer-support-success",
+              "context": "Prepare the kickoff or customer check-in from the relevant goals, stakeholders, progress, and open decisions."
+            },
+            {
+              "id": "strawberry/customer-support-success/review-customer-health",
+              "roleId": "customer-support-success",
+              "context": "Carry the accepted outcomes and progress evidence into an ongoing account review."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "How to review customer health with AI",
+      "description": "Carry the accepted goals and progress evidence into the ongoing customer relationship.",
+      "href": "/playbooks/ai-customer-health-review"
+    },
+    {
+      "title": "How to prepare for any meeting with AI",
+      "description": "Prepare the kickoff or next customer check-in from the goals, stakeholders, and open decisions.",
+      "href": "/playbooks/ai-for-meeting-prep"
+    },
+    {
+      "title": "Automate your sales pipeline",
+      "description": "See how customer research, commitments, and meeting context can carry into a cleaner handoff.",
+      "href": "/playbooks/automate-sales-pipeline"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-portfolio-company-monitoring",
+  "title": "How to monitor a portfolio company with AI",
+  "description": "Track material portfolio-company changes against a reliable baseline without creating a stream of weak alerts.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Portfolio monitoring is easy to automate badly. A feed can repeat the same announcement across several sources, treat a job posting as proof of growth, and bury one meaningful change beneath a pile of weak alerts.",
+    "Strawberry can compare current public signals with approved board material, company updates, meetings, portfolio notes, and the last reliable baseline. It reports what is genuinely new, shows the sources, and explains why the change may matter before it becomes a meeting brief, firm update, or follow-up."
+  ],
+  "sections": [
+    {
+      "id": "define-material-change",
+      "title": "Define what would matter",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The monitoring bar depends on the company and the investor's role. Financing, leadership, hiring, product, customers, partnerships, regulation, litigation, security, reputation, or competitive movement may matter. Monitoring every available mention usually does not."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/venture-capital/monitor-a-portfolio-company",
+              "roleId": "venture-capital",
+              "context": "Review current signals against an accepted company baseline and materiality bar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "separate-new-from-known",
+      "title": "Separate what is new from what is merely visible",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Strawberry starts from the latest reliable internal record, then checks suitable current sources such as the company site, filings, funding records, product pages, job postings, executive profiles, customer or partner announcements, credible reporting, and relevant market sources."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It confirms the correct company, date, and underlying event, deduplicates repeated coverage, and distinguishes a company announcement from independent evidence. A hiring pattern may be a signal; it is not a verified revenue result."
+        }
+      ]
+    },
+    {
+      "id": "explain-the-implication",
+      "title": "Explain the implication without overstating it",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": [
+            "The update shows",
+            "The investor can review"
+          ],
+          "rows": [
+            [
+              "What changed and when",
+              "Whether the signal is genuinely new"
+            ],
+            [
+              "Source and evidence quality",
+              "How much confidence to place in it"
+            ],
+            [
+              "Relevant internal baseline",
+              "Whether it confirms or changes an expectation"
+            ],
+            [
+              "Possible implication",
+              "What question, support, or follow-through may now matter"
+            ]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "The implication is interpretation, not a sourced fact. No news is a valid result when the agreed sources support no material change."
+        }
+      ]
+    },
+    {
+      "id": "carry-the-update-into-useful-work",
+      "title": "Carry the update into useful work",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Current company context may support a board or founder meeting, a partner discussion, a portfolio update, an introduction, or no action at all. Strawberry can carry the accepted evidence into the next artifact without turning a monitoring alert into an automatic external action."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/prepare-for-meetings",
+              "roleId": "venture-capital",
+              "context": "Turn material company changes into a focused board, founder, or partner meeting brief."
+            },
+            {
+              "id": "strawberry/operations/prepare-a-status-update",
+              "roleId": "venture-capital",
+              "context": "Prepare a concise firm or portfolio update for the right audience."
+            },
+            {
+              "id": "strawberry/operations/make-a-warm-introduction",
+              "roleId": "venture-capital",
+              "context": "Prepare a useful connection when the company has a supported need."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "earn-the-routine",
+      "title": "Earn the monitoring Routine",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Begin with one review and correct the sources, signal areas, and materiality bar. Once those choices are trusted, a Routine can check the agreed companies on a useful cadence and draft a digest only when something material changes. It should stop when identity, source access, confidentiality, or the signal rules become unclear."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Find the next unicorn first",
+      "description": "See how portfolio monitoring connects with meetings, updates, introductions, and the wider investment process.",
+      "href": "/playbooks/venture-capital-investing"
+    },
+    {
+      "title": "How to review an investment pipeline with AI",
+      "description": "Apply the same current-source discipline to opportunities before investment.",
+      "href": "/playbooks/ai-investment-pipeline-review"
+    },
+    {
+      "title": "Run your whole company from one place",
+      "description": "See how company updates, fundraising, hiring, and customer work connect from the founder's side.",
+      "href": "/playbooks/founder-executive"
+    }
+  ]
+}

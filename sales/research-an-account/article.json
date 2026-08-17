@@ -12,10 +12,10 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-11T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Most AI account research ends with a company summary. You get a few facts and generic talking points—then still have to work out what they mean for the decision in front of you.",
+    "Most AI account research ends with a company summary. You get a few facts and generic talking points, then still have to work out what they mean for the decision in front of you.",
     "Strawberry is a browser with built-in AI agents. Your companion can investigate real sites and logged-in tools, then combine what it finds with your CRM, emails, meetings, files, tabs, and connected apps. It helps you understand the account and decide what to do next."
   ],
   "sections": [
@@ -71,7 +71,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "The goal is to know where else to look when obvious sources fall short—and when to stop."
+          "text": "The goal is to know where else to look when obvious sources fall short, and when to stop."
         }
       ]
     },
@@ -157,7 +157,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to automate your sales pipeline with AI",
+      "title": "Automate your sales pipeline",
       "description": "See how account research connects with prospecting, meetings, outreach, CRM work, and pipeline decisions.",
       "href": "/playbooks/automate-sales-pipeline"
     }

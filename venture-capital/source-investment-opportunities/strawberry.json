@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Source Investment Opportunities",
+  "summary": "Find and qualify a calibrated set of companies against an investor's real thesis.",
+  "icon": "people",
+  "tags": [],
+  "useCases": [
+    {
+      "roleId": "venture-capital",
+      "weight": 112,
+      "title": "Source companies against my thesis",
+      "message": "Use my thesis, portfolio, pass history, and available context to find a varied first set of investment opportunities. Explain why each may fit, show the sources, and check for pipeline duplicates."
+    }
+  ]
+}

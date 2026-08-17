@@ -28,6 +28,36 @@
       "weight": 98,
       "title": "Prepare a client engagement update",
       "message": "Turn the latest engagement evidence into a concise update for the client or internal team, with progress, changes, risks, decisions, asks, and next steps."
+    },
+    {
+      "roleId": "sales-business-development",
+      "weight": 92,
+      "title": "Prepare a sales status update",
+      "message": "Turn the latest sales evidence into a concise update for leadership or the team, with progress, changes, risks, decisions, asks, and next steps."
+    },
+    {
+      "roleId": "engineering-development",
+      "weight": 82,
+      "title": "Prepare a product or engineering status update",
+      "message": "Turn the latest product and engineering evidence into an audience-specific update with progress, changes, risks, decisions, asks, and next steps."
+    },
+    {
+      "roleId": "customer-support-success",
+      "weight": 88,
+      "title": "Prepare a customer or account update",
+      "message": "Turn the accepted customer, support, onboarding, or health evidence into a concise update for the right internal or customer audience."
+    },
+    {
+      "roleId": "education",
+      "weight": 78,
+      "title": "Prepare an update for parents or faculty",
+      "message": "Turn my current work into a concise, accurate update for the people who need it."
+    },
+    {
+      "roleId": "data-analytics",
+      "weight": 82,
+      "title": "Turn the numbers into an update",
+      "message": "Turn the current numbers into a concise, accurate update for the people who need it, with the definitions clear."
     }
   ]
 }

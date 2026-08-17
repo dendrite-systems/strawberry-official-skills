@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "finance",
+  "title": "Run finance on autopilot",
+  "description": "Use Strawberry to prepare recurring reports, organize finance records, understand performance, build forecasts, and prepare the next update.",
+  "author": {
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "navigation": {
+    "title": "Finance",
+    "tagline": "Records, performance, forecasts, and follow-through",
+    "icons": [
+      "gmail",
+      "google-sheets",
+      "notion"
+    ],
+    "order": 8
+  },
+  "introduction": [
+    "Finance work rarely lives in one system. A recurring report may begin in a payment portal, supporting documents may sit in email or vendor sites, and the latest model is in a spreadsheet. Pulling together the current picture can take longer than answering the question that prompted it.",
+    "A chat tool can summarize a file after you upload it. Strawberry can work through the visible browser and connected apps where the records already live, follow the team's reporting method, update a reviewable spreadsheet, and carry trusted definitions into the next review or forecast."
+  ],
+  "sections": [
+    {
+      "id": "what-strawberry-can-help-you-do",
+      "title": "What Strawberry can help you do",
+      "blocks": [
+        {
+          "kind": "section-nav",
+          "items": [
+            {
+              "href": "#prepare-reports-and-records",
+              "title": "Prepare reports and records",
+              "description": "Turn approved data into a validated report, or organize the records needed for the next review."
+            },
+            {
+              "href": "#understand-what-changed",
+              "title": "Understand what changed",
+              "description": "Compare the latest figures with the right baseline and explain the movements that matter."
+            },
+            {
+              "href": "#build-forecasts-and-test-decisions",
+              "title": "Build forecasts and test decisions",
+              "description": "Model cash, runway, hiring, or growth decisions with assumptions people can inspect."
+            },
+            {
+              "href": "#prepare-finance-updates",
+              "title": "Prepare finance updates",
+              "description": "Turn reviewed numbers into a useful team, board, or fundraising update."
+            }
+          ]
+        },
+        {
+          "kind": "guided-entry",
+          "text": "Not sure where to begin? Your companion can look at the finance work you have open and suggest a useful skill to try first.",
+          "skill": {
+            "id": "strawberry/finance/getting-started-with-finance-in-strawberry",
+            "roleId": "finance",
+            "context": "Use the finance work and context already in front of you to choose a useful first skill."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prepare-reports-and-records",
+      "title": "Prepare reports and records",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Some recurring finance jobs begin with a report that must be downloaded from a portal, transformed into the team's format, and checked before anyone relies on it. Strawberry can work through the logged-in source, follow the accepted mapping, update the file, and show the totals and exceptions that need review."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Other jobs start with the supporting records themselves: invoices in email, receipts in vendor sites, payment evidence, and an existing spreadsheet. Those belong in a traceable register that keeps missing documents, possible duplicates, and ambiguous matches visible."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Prepare a recurring report",
+              "text": "Turn approved portal or export data into the report format the team uses, then validate it and show the exceptions.",
+              "skill": {
+                "id": "strawberry/finance/prepare-a-recurring-finance-report",
+                "roleId": "finance",
+                "context": "Prepare the recurring report from the approved sources, apply the accepted rules, validate it, and surface anything that needs review."
+              }
+            },
+            {
+              "title": "Organize invoices and receipts",
+              "text": "Collect supporting documents and payment evidence into a traceable register for the next reviewer.",
+              "skill": {
+                "id": "strawberry/operations/organize-receipts-bookkeeping",
+                "roleId": "finance",
+                "context": "Collect invoices, receipts, and payment records, then prepare a traceable register and review handoff."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "understand-what-changed",
+      "title": "Understand what changed",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A useful financial review starts with the comparison that could change a decision: actual versus budget, the latest forecast, last month, or last year. Strawberry can check that the periods and definitions match, calculate the important movements, and use operating context to test what may have caused them."
+        },
+        {
+          "kind": "paragraph",
+          "text": "That keeps a calculated change separate from a plausible story about it. Supported explanations can point back to a contract, headcount plan, sales result, or accepted meeting decision; unresolved explanations remain questions rather than becoming facts."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/finance/review-financial-performance",
+              "roleId": "finance",
+              "context": "Validate the latest figures, explain the material movements, and show what needs attention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build-forecasts-and-test-decisions",
+      "title": "Build forecasts and test decisions",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A forecast is most useful when someone can inspect the actuals, change an assumption, and understand the result. Strawberry can work in the existing spreadsheet, bring in the operating drivers that matter, and keep inputs, assumptions, formulas, and outputs distinct."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Start with the decision. A hiring plan, runway discussion, and annual budget need different horizons and scenarios. Strawberry can update the model and check the roll-forward without replacing a model the team trusts or changing the approved plan."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/finance/build-a-financial-forecast",
+              "roleId": "finance",
+              "context": "Build or update an assumption-led forecast around the cash, runway, and scenarios that matter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prepare-finance-updates",
+      "title": "Prepare finance updates",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "The same reviewed numbers may need to become a weekly team update, a board note, material for the next finance review, or part of a fundraise. Strawberry can carry the figures and their source context into the right format instead of making the team rebuild the story for each audience."
+        },
+        {
+          "kind": "skill-lanes",
+          "items": [
+            {
+              "title": "Prepare a finance update",
+              "text": "Turn the reviewed financial picture into a concise update for the team or leadership.",
+              "skill": {
+                "id": "strawberry/operations/prepare-a-status-update",
+                "roleId": "finance",
+                "context": "Prepare a concise update from the financial figures and explanations already reviewed."
+              }
+            },
+            {
+              "title": "Prepare for a fundraise",
+              "text": "Connect the accepted financial picture with the wider investor story, materials, and process.",
+              "skill": {
+                "id": "strawberry/founder-executive/prepare-fundraise",
+                "roleId": "finance",
+                "context": "Carry accepted financial context into the wider fundraising story and process."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "make-finance-work-repeatable",
+      "title": "Make finance work repeatable",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Once a recurring report, review, or forecast holds up, the team should not have to reconstruct the method from the finished file. Strawberry can preserve the sources, mappings, definitions, ownership, and review points behind it."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/set-up-shared-team-workflow",
+              "roleId": "finance",
+              "context": "Turn a trusted finance workflow into a shared team method with clear sources, ownership, review points, and stop conditions."
+            }
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Share the reviewed result when teammates only need the output. Save the method as a team skill when they should follow the same process. A Routine makes sense when its period, sources, destination, reviewer, and stop conditions are stable.",
+          "emphasis": [
+            "Routine"
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "This bundle prepares records, spreadsheets, analysis, forecasts, and communications. Payments, accounting entries, filings, and final accounting judgment stay with the people authorized to make them."
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Run an AI-native ops team",
+      "description": "Connect finance work with status, meetings, decisions, and follow-through.",
+      "href": "/playbooks/operations"
+    },
+    {
+      "title": "Run your whole company from one place",
+      "description": "See how the financial picture connects with company priorities, fundraising, hiring, and growth.",
+      "href": "/playbooks/founder-executive"
+    },
+    {
+      "title": "Find the next unicorn first",
+      "description": "See how investors use market research, diligence, memos, and portfolio monitoring.",
+      "href": "/playbooks/venture-capital-investing"
+    }
+  ]
+}

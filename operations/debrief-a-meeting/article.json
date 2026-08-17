@@ -2,22 +2,22 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "strawberry-for-meetings",
-  "title": "Turn every useful meeting into decisions and follow-up",
+  "title": "How to turn meetings into decisions with AI",
   "description": "Capture the conversation without a meeting bot, then prepare grounded decisions, owned actions, drafts, and reviewable updates.",
   "author": {
-    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
-    "slug": "charles-maddock",
-    "name": "Charles Maddock",
-    "role": "CEO",
-    "avatarUrl": "/images/authors/charles-maddock.webp",
-    "avatarAlt": "Charles Maddock"
+    "id": "e54483aa-60f8-4069-853f-e0237368e856",
+    "slug": "oliver-jones",
+    "name": "Oliver Jones",
+    "role": "Founding GTM Lead",
+    "avatarUrl": "/images/authors/oliver-jones.png",
+    "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-06-17T15:55:30.530Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "The value of a meeting is often decided in the hour afterward. People need to find what was agreed, see who owns the actions, update the project record, and send the promised follow-up while the context is still fresh.",
-    "A transcript helps, but it is not the finished result. Someone still has to separate a decision from an idea, check whether an owner or date was actually accepted, and carry the useful outcomes into messages and work systems.",
-    "Strawberry can capture supported conversations without adding a visible meeting bot. Your companion can use that durable record alongside the calendar event, prior context, and relevant tools, then prepare the debrief and continue into the approved follow-through in the same workspace."
+    "A meeting's value is usually decided in the hour afterward. Someone has to find what was agreed, see who owns what, update the project record, and send the follow-up while it's all still fresh.",
+    "A transcript isn't the finished result. Someone still has to tell a decision from an idea, check whether an owner actually accepted, and carry the outcome into the systems where work happens.",
+    "Strawberry can capture supported conversations without a visible meeting bot, then use that record alongside the calendar event and your tools to prepare the debrief and continue into the follow-through you approve."
   ],
   "sections": [
     {
@@ -105,12 +105,12 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Prepare for meetings from the context you already have",
+      "title": "How to prepare for any meeting with AI",
       "description": "Build a concise brief for the conversation ahead.",
       "href": "/blog/ai-for-meeting-prep"
     },
     {
-      "title": "How to use AI for Operations work",
+      "title": "Run an AI-native ops team",
       "description": "Connect meeting follow-through with daily priorities, open commitments, and team workflows.",
       "href": "/playbooks/operations"
     }

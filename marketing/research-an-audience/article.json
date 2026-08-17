@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "status": "published",
+  "publicSlug": "ai-audience-research",
+  "title": "How to research your audience with AI",
+  "description": "Use AI to synthesize customer, market, behavioral, and public evidence into a source-linked audience view you can act on.",
+  "author": {
+    "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
+    "slug": "charles-maddock",
+    "name": "Charles Maddock",
+    "role": "CEO",
+    "avatarUrl": "/images/authors/charles-maddock.webp",
+    "avatarAlt": "Charles Maddock"
+  },
+  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "noindex": false,
+  "introduction": [
+    "Audience research becomes dangerous when a handful of vivid quotes turns into a precise-looking persona. Interviews, reviews, communities, search behavior, analytics, and campaign data can all help, but they describe different populations and answer different questions.",
+    "Strawberry can work across those sources in the browser and approved tools, preserve links and dates, and keep representative evidence beside the synthesis. Your companion can remember the boundaries and corrections the team accepts, so later campaign and content work starts from evidence rather than a generic persona."
+  ],
+  "sections": [
+    {
+      "id": "start-with-the-decision",
+      "title": "Start with the decision the research should improve",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Define the product or offer, market, geography, time horizon, audience boundary, and decision in front of the team. If the request is broad, begin with the audience or question most likely to change near-term work."
+        },
+        {
+          "kind": "paragraph",
+          "text": "This workflow studies audiences. It does not build lists of named prospects, contacts, creators, or partners. Keeping that boundary clear prevents behavioral evidence from quietly turning into outreach targeting."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/research-an-audience",
+              "roleId": "marketing-content",
+              "context": "Research the audience behind a real decision and produce a source-linked view of needs, language, behaviors, channels, tensions, and confidence."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keep-different-sources-honest",
+      "title": "Keep different sources honest",
+      "blocks": [
+        {
+          "kind": "table",
+          "columns": ["Source", "What it can reveal", "Common trap"],
+          "rows": [
+            ["Interviews and support conversations", "Needs, language, context, and tensions", "Treating a small selected group as prevalence"],
+            ["Reviews and communities", "Objections, alternatives, and naturally occurring language", "Overweighting unusually vocal participants"],
+            ["Search and website behavior", "Demand signals, discovery paths, and content needs", "Inferring motivation from behavior alone"],
+            ["Product and campaign data", "Observed usage or response within a defined population", "Ignoring denominator, attribution, or identity limits"]
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "Preserve source type, link or record identifier, date, population, and enough context to inspect important findings. Aggregate or redact personal data when individual identity is not needed."
+        }
+      ]
+    },
+    {
+      "id": "calibrate-before-going-wide",
+      "title": "Calibrate before going wide",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "When collection could expand quickly, start with a small, varied evidence set across relevant sources, segments, and viewpoints. Review what is included, what is missing, and how the companion proposes to synthesize it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Coach the boundary and evidence bar before expanding. Capture counterexamples and tensions rather than selecting only evidence that supports the current brief."
+        }
+      ]
+    },
+    {
+      "id": "synthesize-differences-that-change-the-work",
+      "title": "Synthesize differences that change the work",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Group evidence around distinctions that could change the message, channel, product story, or campaign, not around demographic detail that merely makes a persona look complete."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Needs, desired outcomes, and triggering moments.",
+            "Barriers, anxieties, objections, and alternatives.",
+            "Language, concepts, proof, and examples people use.",
+            "Discovery, evaluation, decision, and usage behavior.",
+            "Channels, communities, formats, and information sources.",
+            "Tensions or meaningful differences between situations and segments."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "For each important theme, show representative evidence, exceptions, confidence, and the marketing implication. Keep observation, interpretation, and recommendation separate."
+        }
+      ]
+    },
+    {
+      "id": "carry-the-accepted-view-forward",
+      "title": "Turn audience insights into the next plan",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Deliver a concise brief with the scope, sources, material limits, evidence-backed segments or situations, needs, language, behaviors, channels, tensions, implications, and open questions. Stop before campaign planning or contact-list building."
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/marketing/plan-a-marketing-campaign",
+              "roleId": "marketing-content",
+              "context": "Turn an accepted audience view into an approval-ready campaign decision."
+            },
+            {
+              "id": "strawberry/marketing/build-a-content-plan",
+              "roleId": "marketing-content",
+              "context": "Use accepted audience evidence to shape themes, briefs, formats, channels, and reuse."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "videos": [],
+  "relatedLinks": [
+    {
+      "title": "Market like a team of ten",
+      "description": "Connect audience evidence to campaigns, content, performance learning, SEO, and competitor work.",
+      "href": "/playbooks/marketing"
+    }
+  ]
+}
