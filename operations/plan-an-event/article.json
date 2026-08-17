@@ -110,17 +110,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for operations work",
+      "title": "Run an AI-native ops team",
       "description": "See how event planning connects with travel, status updates, and repeatable team workflows.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "How to use AI for marketing",
+      "title": "Market like a team of ten",
       "description": "Connect the event with audience insights, campaign planning, content, and performance learning.",
       "href": "/playbooks/marketing"
     },
     {
-      "title": "How to use AI for sales",
+      "title": "Automate your sales pipeline",
       "description": "Connect customer events with account research, meeting preparation, follow-up, and relationship context.",
       "href": "/playbooks/automate-sales-pipeline"
     }

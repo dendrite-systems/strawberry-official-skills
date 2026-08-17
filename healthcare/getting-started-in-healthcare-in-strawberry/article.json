@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "healthcare",
-  "title": "How to use AI for healthcare admin and research",
+  "title": "An AI admin assistant for your practice",
   "description": "Take back time from inbox and practice admin, and keep up with new papers, trials, and guidance in your field.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -175,12 +175,12 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for operations work",
+      "title": "Run an AI-native ops team",
       "description": "Go deeper on inbox triage, open commitments, and the admin that fills the gaps.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "How to use AI for research and analysis",
+      "title": "Research deep enough to bet on",
       "description": "Go deeper on sourcing, mapping a field, and keeping research current.",
       "href": "/playbooks/research-analysis"
     },

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "venture-capital-investing",
-  "title": "How to use AI for startup investing",
+  "title": "Find the next unicorn first",
   "description": "Use Strawberry across market intelligence, deal flow, investment decisions, introductions, and portfolio monitoring.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -300,17 +300,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI as a founder",
+      "title": "Run your whole company from one place",
       "description": "See how fundraising, customer growth, hiring, and company visibility fit together from the founder's side.",
       "href": "/playbooks/founder-executive"
     },
     {
-      "title": "How to use AI for research and analysis",
+      "title": "Research deep enough to bet on",
       "description": "Explore the broader research workflows behind market maps, company work, and sourced decision artifacts.",
       "href": "/playbooks/research-analysis"
     },
     {
-      "title": "How to use AI for operations work",
+      "title": "Run an AI-native ops team",
       "description": "Connect meetings, introductions, updates, and open-loop follow-through across the firm.",
       "href": "/playbooks/operations"
     }

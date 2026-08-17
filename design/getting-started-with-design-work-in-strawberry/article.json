@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "design",
-  "title": "How to use AI for design work",
+  "title": "Your AI design partner, from feedback to handoff",
   "description": "Walk the live product to find where it has drifted from your system, ground decisions in real feedback, and turn accepted work into something buildable.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -252,17 +252,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for product and engineering work",
+      "title": "Ship what customers actually asked for",
       "description": "Flow audits, bug research, specs, and metrics from the build side of the same product.",
       "href": "/playbooks/product-engineering"
     },
     {
-      "title": "How to use AI for marketing",
+      "title": "Market like a team of ten",
       "description": "Audience research and positioning work that feeds design decisions.",
       "href": "/playbooks/marketing"
     },
     {
-      "title": "How to use AI for research and analysis",
+      "title": "Research deep enough to bet on",
       "description": "Sourcing, landscape mapping, and structured evidence behind a design argument.",
       "href": "/playbooks/research-analysis"
     }

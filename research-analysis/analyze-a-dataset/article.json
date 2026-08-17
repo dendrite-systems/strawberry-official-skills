@@ -107,7 +107,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to analyze data with AI",
+      "title": "Your AI analyst for every number",
       "description": "The wider system: collecting data, settling definitions, and presenting findings.",
       "href": "/playbooks/data-analysis"
     },
@@ -117,7 +117,7 @@
       "href": "/playbooks/ai-data-extraction"
     },
     {
-      "title": "How to use AI for finance work",
+      "title": "Run finance on autopilot",
       "description": "The same validation discipline applied to recurring reporting.",
       "href": "/playbooks/finance"
     }

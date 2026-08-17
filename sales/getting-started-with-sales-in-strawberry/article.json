@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "automate-sales-pipeline",
-  "title": "How to use AI for sales",
+  "title": "Automate your sales pipeline",
   "description": "Learn how Strawberry's Sales skills can help with prospecting, research, customer conversations, CRM updates, and pipeline review.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
@@ -249,17 +249,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI as a founder",
+      "title": "Run your whole company from one place",
       "description": "Connect customer growth with company visibility, fundraising, hiring, and the rest of the founder's work.",
       "href": "/playbooks/founder-executive"
     },
     {
-      "title": "How to use AI for marketing",
+      "title": "Market like a team of ten",
       "description": "See how audience insights, campaigns, content, and performance can support the same customer journey.",
       "href": "/playbooks/marketing"
     },
     {
-      "title": "How to use AI for operations work",
+      "title": "Run an AI-native ops team",
       "description": "Connect sales meetings and pipeline work with daily attention, open loops, status updates, and team workflows.",
       "href": "/playbooks/operations"
     }

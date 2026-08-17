@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "legal-research",
-  "title": "How to do legal research with AI",
+  "title": "Your AI paralegal, in your own databases",
   "description": "Answer a legal question, brief a new instrument, or compare jurisdictions, with the authority and the checking handled the way legal work needs.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -266,12 +266,12 @@
       "href": "/playbooks/ai-company-research"
     },
     {
-      "title": "How to use AI for research and analysis",
+      "title": "Research deep enough to bet on",
       "description": "The wider research system: sourcing, mapping a landscape, and structured evidence.",
       "href": "/playbooks/research-analysis"
     },
     {
-      "title": "How to use AI for consulting work",
+      "title": "Run an AI-native consultancy",
       "description": "Carry regulatory research into client recommendations and decision-ready work.",
       "href": "/playbooks/consulting"
     }

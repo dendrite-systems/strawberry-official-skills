@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "customer-support-success",
-  "title": "How to use AI for customer support and success",
+  "title": "Support that knows every account",
   "description": "Connect customer context, request handling, escalation, onboarding, health, and recurring learning across the tools where customer work happens.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
@@ -275,17 +275,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for product and engineering work",
+      "title": "Ship what customers actually asked for",
       "description": "Carry recurring feedback and customer-reported problems into product insight, flow testing, and grounded bug reports.",
       "href": "/playbooks/product-engineering"
     },
     {
-      "title": "How to use AI for sales",
+      "title": "Automate your sales pipeline",
       "description": "See how account research, meetings, commitments, and customer context can carry into a cleaner handoff.",
       "href": "/playbooks/automate-sales-pipeline"
     },
     {
-      "title": "How to use AI for operations work",
+      "title": "Run an AI-native ops team",
       "description": "Connect customer work with meetings, open loops, status updates, and shared team workflows.",
       "href": "/playbooks/operations"
     }

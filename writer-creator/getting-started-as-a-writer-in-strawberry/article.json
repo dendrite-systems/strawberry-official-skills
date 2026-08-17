@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "ai-writing",
-  "title": "How to write with AI and still sound like you",
+  "title": "AI that writes in your voice, not its own",
   "description": "Research a subject properly, draft in your own voice, and adapt finished work across the channels you publish on.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -191,12 +191,12 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for research and analysis",
+      "title": "Research deep enough to bet on",
       "description": "Go deeper on sourcing, mapping a subject, and building structured evidence.",
       "href": "/playbooks/research-analysis"
     },
     {
-      "title": "How to use AI for marketing",
+      "title": "Market like a team of ten",
       "description": "Take the same work into audience research, campaigns, and channel planning.",
       "href": "/playbooks/marketing"
     },

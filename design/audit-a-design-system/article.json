@@ -103,17 +103,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for design work",
+      "title": "Your AI design partner, from feedback to handoff",
       "description": "The wider system: grounding decisions in feedback, reviews, and handing work over.",
       "href": "/playbooks/design"
     },
     {
-      "title": "How to use AI for product and engineering work",
+      "title": "Ship what customers actually asked for",
       "description": "Flow audits, bug research, and specs from the build side of the same product.",
       "href": "/playbooks/product-engineering"
     },
     {
-      "title": "How to use AI for research and analysis",
+      "title": "Research deep enough to bet on",
       "description": "The evidence side: sourcing, structured data, and clear answers.",
       "href": "/playbooks/research-analysis"
     }

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "consulting",
-  "title": "How to use AI for consulting work",
+  "title": "Run an AI-native consultancy",
   "description": "Use Strawberry across client research, proposals, meetings, recommendations, and follow-through while keeping evidence and approvals clear.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
@@ -221,17 +221,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for research and analysis",
+      "title": "Research deep enough to bet on",
       "description": "See how source finding, extraction, synthesis, comparison, and reporting can support deeper client work.",
       "href": "/playbooks/research-analysis"
     },
     {
-      "title": "How to use AI for operations work",
+      "title": "Run an AI-native ops team",
       "description": "See how daily briefs, meetings, updates, open loops, and shared workflows support delivery.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "How to use AI for sales",
+      "title": "Automate your sales pipeline",
       "description": "Connect new-business research, meetings, proposals, follow-up, and CRM work before delivery begins.",
       "href": "/playbooks/automate-sales-pipeline"
     }

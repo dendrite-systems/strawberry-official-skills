@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "finance",
-  "title": "How to use AI for finance work",
+  "title": "Run finance on autopilot",
   "description": "Use Strawberry to prepare recurring reports, organize finance records, understand performance, build forecasts, and prepare the next update.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
@@ -222,17 +222,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for operations work",
+      "title": "Run an AI-native ops team",
       "description": "Connect finance work with status, meetings, decisions, and follow-through.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "How to use AI as a founder",
+      "title": "Run your whole company from one place",
       "description": "See how the financial picture connects with company priorities, fundraising, hiring, and growth.",
       "href": "/playbooks/founder-executive"
     },
     {
-      "title": "How to use AI for startup investing",
+      "title": "Find the next unicorn first",
       "description": "See how investors use market research, diligence, memos, and portfolio monitoring.",
       "href": "/playbooks/venture-capital-investing"
     }

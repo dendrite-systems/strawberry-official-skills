@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "marketing",
-  "title": "How to use AI for marketing",
+  "title": "Market like a team of ten",
   "description": "Connect audience insights, campaign planning, content, and performance learning without losing the brand or the reasoning between steps.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -228,17 +228,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for sales",
+      "title": "Automate your sales pipeline",
       "description": "See how market research, account evidence, customer conversations, and pipeline learning connect to Sales.",
       "href": "/playbooks/automate-sales-pipeline"
     },
     {
-      "title": "How to use AI for operations work",
+      "title": "Run an AI-native ops team",
       "description": "See how recurring briefs, updates, meetings, and shared workflows can support the marketing system.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "How to use AI for research and analysis",
+      "title": "Research deep enough to bet on",
       "description": "Go deeper on source finding, market mapping, web extraction, synthesis, comparison, and reporting.",
       "href": "/playbooks/research-analysis"
     }

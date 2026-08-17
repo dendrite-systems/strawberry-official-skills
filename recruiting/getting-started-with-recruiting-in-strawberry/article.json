@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "recruiting",
-  "title": "Build a hiring process that keeps its context",
+  "title": "Find every candidate worth talking to",
   "description": "Use Strawberry across job definition, talent mapping, sourcing, applications, interviews, candidate outreach, and recruiting pipeline review.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -219,17 +219,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI as a founder",
+      "title": "Run your whole company from one place",
       "description": "See how hiring fits alongside company priorities, growth, fundraising, and team leverage.",
       "href": "/playbooks/founder-executive"
     },
     {
-      "title": "How to use AI for operations work",
+      "title": "Run an AI-native ops team",
       "description": "See how meetings, open loops, updates, and onboarding support the hiring process.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "How to use AI for research and analysis",
+      "title": "Research deep enough to bet on",
       "description": "Use deeper source finding, market mapping, synthesis, and comparison when the talent question needs it.",
       "href": "/playbooks/research-analysis"
     }

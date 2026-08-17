@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "product-engineering",
-  "title": "How to use AI for product and engineering work",
+  "title": "Ship what customers actually asked for",
   "description": "Connect customer insights, product specs, metrics, browser-based QA, and grounded bug reports without losing the reasoning between steps.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
@@ -230,17 +230,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for operations work",
+      "title": "Run an AI-native ops team",
       "description": "See how meetings, open loops, updates, onboarding, and shared workflows support the team.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "How to use AI for research and analysis",
+      "title": "Research deep enough to bet on",
       "description": "See how source finding, extraction, synthesis, comparison, and reporting can support deeper product work.",
       "href": "/playbooks/research-analysis"
     },
     {
-      "title": "How to use AI for marketing",
+      "title": "Market like a team of ten",
       "description": "Connect product insights and launches with audience research, campaigns, content, and performance learning.",
       "href": "/playbooks/marketing"
     }

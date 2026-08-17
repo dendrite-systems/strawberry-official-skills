@@ -106,17 +106,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Build an agency that delivers without losing context",
+      "title": "Run an AI-native agency",
       "description": "The wider system: winning clients, delivery, and keeping accounts separate.",
       "href": "/playbooks/agency-work"
     },
     {
-      "title": "How to use AI for operations work",
+      "title": "Run an AI-native ops team",
       "description": "Status updates, open commitments, and the coordination around the reporting.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "How to analyze data with AI",
+      "title": "Your AI analyst for every number",
       "description": "Go deeper on reconciling definitions and getting a defensible number.",
       "href": "/playbooks/data-analysis"
     }

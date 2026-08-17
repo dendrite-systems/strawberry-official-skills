@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "student",
-  "title": "How to use AI as a student",
+  "title": "An AI tutor with your library access",
   "description": "Understand difficult material, gather sources that hold up to scrutiny, strengthen your own drafts, and keep track of a whole term.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -180,7 +180,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for research and analysis",
+      "title": "Research deep enough to bet on",
       "description": "Go deeper on sourcing, market mapping, structured evidence, and keeping research current.",
       "href": "/playbooks/research-analysis"
     },
@@ -190,7 +190,7 @@
       "href": "/playbooks/ai-company-research"
     },
     {
-      "title": "How to use AI for operations work",
+      "title": "Run an AI-native ops team",
       "description": "Bring deadlines, messages, and commitments into one place you can actually act on.",
       "href": "/playbooks/operations"
     }

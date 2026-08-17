@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "research-analysis",
-  "title": "How to use AI for research and analysis",
+  "title": "Research deep enough to bet on",
   "description": "Use Strawberry to investigate questions, map markets, build structured evidence, and turn current sources into useful research.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -221,17 +221,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for consulting work",
+      "title": "Run an AI-native consultancy",
       "description": "Carry research into client recommendations, proposals, meetings, and delivery.",
       "href": "/playbooks/consulting"
     },
     {
-      "title": "How to use AI for marketing",
+      "title": "Market like a team of ten",
       "description": "Use audience, competitor, campaign, content, and performance research inside the marketing system.",
       "href": "/playbooks/marketing"
     },
     {
-      "title": "How to use AI for startup investing",
+      "title": "Find the next unicorn first",
       "description": "Apply market research across sourcing, diligence, investment decisions, and portfolio monitoring.",
       "href": "/playbooks/venture-capital-investing"
     }

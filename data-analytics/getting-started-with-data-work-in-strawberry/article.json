@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "data-analysis",
-  "title": "How to analyze data with AI",
+  "title": "Your AI analyst for every number",
   "description": "Collect what you need, get a defensible answer out of what you have, settle the definitions people argue about, and show its work.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -242,7 +242,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for research and analysis",
+      "title": "Research deep enough to bet on",
       "description": "The wider research system: sourcing, mapping a landscape, and structured evidence.",
       "href": "/playbooks/research-analysis"
     },
@@ -252,7 +252,7 @@
       "href": "/playbooks/ai-data-extraction"
     },
     {
-      "title": "How to use AI for finance work",
+      "title": "Run finance on autopilot",
       "description": "Take the same validation discipline into recurring reporting and performance review.",
       "href": "/playbooks/finance"
     }
