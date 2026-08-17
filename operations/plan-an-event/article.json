@@ -15,9 +15,9 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Professional events usually begin with a short request—find somewhere for the offsite, organize a customer dinner, plan a workshop—and quickly spread across calendars, guest lists, venue pages, vendor emails, budgets, invitations, and a run-of-show.",
-    "AI research can suggest themes or return a list of venues. The difficult part starts when you need to check what is actually available, understand the terms, compare the full cost, contact the provider, and keep every answer aligned with the event the team is trying to create.",
-    "Strawberry can do that work in the browser alongside you. Your companion can use the team's calendar, brief, prior events, files, and messages, open live venue and vendor sites, and carry an approved direction into inquiries, coordination, and the tools where the event is run."
+    "Events start with a short request. Find somewhere for the offsite. Then they spread across calendars, guest lists, vendor emails, budgets, and a run-of-show.",
+    "AI research can return a list of venues. The hard part is checking what's actually available, understanding the terms, comparing real cost, and keeping every answer aligned with the event you're trying to create.",
+    "Strawberry does that in the browser beside you. It can use the team's brief and prior events, open live venue and vendor pages, and carry an approved direction into inquiries and coordination."
   ],
   "sections": [
     {

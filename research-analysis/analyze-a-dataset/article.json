@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "ai-dataset-analysis",
   "title": "How to analyze a dataset with AI",
-  "description": "Catch the data quality problems first, agree the definitions, answer the question, and show the working behind every number.",
+  "description": "Catch the data quality problems first, agree the definitions, answer the question, and show its work behind every number.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -15,8 +15,8 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "The analysis is almost never the hard part. The hard part is that the export quietly excluded cancelled orders, the join duplicated a chunk of the rows, and nobody agrees what counts as an active user anyway.",
-    "Which means the most valuable thing here isn't the answer. It's catching the reason the answer would have been wrong, before it's in a slide with your name on it."
+    "At some point someone will ask how you got the number. That's when an analysis either holds up or quietly comes apart, and it's usually decided long before the chart.",
+    "So the valuable part isn't the answer. It's catching the reason the answer would have been wrong, before it's in a slide with your name on it."
   ],
   "sections": [
     {
@@ -64,13 +64,13 @@
         },
         {
           "kind": "paragraph",
-          "text": "Those get pinned down before anything is calculated, and where your organisation already has an accepted definition, that one wins over a more reasonable-looking alternative. Being consistent with the number everyone else quotes usually matters more than being marginally more correct in private."
+          "text": "Those get pinned down before anything is calculated, and where your organization already has an accepted definition, that one wins over a more reasonable-looking alternative. Being consistent with the number everyone else quotes usually matters more than being marginally more correct in private."
         }
       ]
     },
     {
-      "id": "show-the-working",
-      "title": "Show the working",
+      "id": "show-its-work",
+      "title": "Show its work",
       "blocks": [
         {
           "kind": "paragraph",
@@ -78,7 +78,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "And what the data shows stays separate from what it implies. Signups dropped the week you changed pricing is a correlation with a very good story attached. It gets labelled as one, rather than promoted to a cause because the timing is convenient."
+          "text": "And what the data shows stays separate from what it implies. Signups dropped the week you changed pricing is a correlation with a very good story attached. It gets labeled as one, rather than promoted to a cause because the timing is convenient."
         }
       ]
     },
@@ -88,7 +88,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Sample too small to generalise. Period too short to call a trend. A segment with nine rows in it. Survivorship baked into how the data was collected in the first place, so the customers who left aren't in the file at all."
+          "text": "Sample too small to generalize. Period too short to call a trend. A segment with nine rows in it. Survivorship baked into how the data was collected in the first place, so the customers who left aren't in the file at all."
         },
         {
           "kind": "paragraph",

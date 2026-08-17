@@ -16,8 +16,8 @@
   "noindex": false,
   "introduction": [
     "Lawyers don't distrust AI research because it isn't useful. They distrust it because a made-up citation looks exactly like a real one. Find that out in front of a judge, and no amount of time saved was worth it.",
-    "So the real question isn't whether a companion can find the law. It's whether it works the way you already do. Jurisdiction settled before anything else. Commentary first, then the primary law. Binding authority kept apart from persuasive. And every citation checked against the source, not against a summary of it.",
-    "Strawberry works in your browser, so it can use the databases you already pay for. It follows a citation into the source instead of stopping at the search result."
+    "So the question isn't whether a companion can find the law. It's whether it works the way you already do. Jurisdiction settled first. Commentary, then primary law. Binding authority kept apart from persuasive. Every citation checked against the source, not a summary of it.",
+    "Strawberry works in your browser, so it can use the databases you already pay for, and follow a citation into the source instead of stopping at the search result."
   ],
   "sections": [
     {
@@ -83,7 +83,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Everything comes back labelled: which jurisdiction, primary or secondary, binding on you or merely persuasive. A persuasive case from somewhere else can still be worth having on a novel question. It just arrives marked as one."
+          "text": "Everything comes back labeled: which jurisdiction, primary or secondary, binding on you or merely persuasive. A persuasive case from somewhere else can still be worth having on a novel question. It just arrives marked as one."
         },
         {
           "kind": "paragraph",
@@ -148,7 +148,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "So each jurisdiction is researched on its own terms first, and kept apart while that happens. The point is that nothing from the German answer quietly colours the French one. Only once each stands on its own do the findings get compared."
+          "text": "So each jurisdiction is researched on its own terms first, and kept apart while that happens. The point is that nothing from the German answer quietly colors the French one. Only once each stands on its own do the findings get compared."
         },
         {
           "kind": "paragraph",
@@ -185,7 +185,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Plenty of legal work turns on the organisation rather than the law. A counterparty before a deal, a supplier before you sign, the other side before you advise. That's company research with the sources kept attached, and it's the same companion doing it."
+          "text": "Plenty of legal work turns on the organization rather than the law. A counterparty before a deal, a supplier before you sign, the other side before you advise. That's company research with the sources kept attached, and it's the same companion doing it."
         },
         {
           "kind": "skills",
@@ -215,7 +215,7 @@
             ["Invented pinpoints. The case is real, the paragraph number isn't.", "Quotations get pulled from the actual text rather than written from memory. Page numbers that can't be confirmed are marked approximate."],
             ["Jurisdictional drift. A rule from one system presented as though it applies in another.", "Every rule is tagged with the jurisdiction it came from, in every output."],
             ["Outdated law. A statute since amended, a case since overruled.", "Statutes get checked against the current version and cases for whether they still stand. In fast-moving areas, anything more than a couple of years old is flagged for a manual look."],
-            ["Persuasive authority dressed as binding.", "Each authority is labelled binding or persuasive for your jurisdiction, not left for you to infer."],
+            ["Persuasive authority dressed as binding.", "Each authority is labeled binding or persuasive for your jurisdiction, not left for you to infer."],
             ["A blog post cited as though it were the law.", "Secondary source claims get traced back to the statute, case, or regulation, and that primary source is what gets cited."],
             ["Confidentiality slipping into a search query.", "Client names, deal terms, and privileged facts never go into a search. It searches the concept instead."]
           ]

@@ -16,7 +16,7 @@
   "noindex": false,
   "introduction": [
     "A sales pipeline review should help you decide what to do next. Too often, it becomes a tour of CRM fields while the most useful context still lives somewhere else.",
-    "Strawberry is a browser with built-in AI agents. Your companion can work with your CRM alongside recent emails, meetings, calendar events, files, open tabs, and connected apps. That makes it possible to review not only what the pipeline says, but what has actually happened around each deal—and turn that context into a useful plan for the week."
+    "Strawberry is a browser with built-in AI agents. Your companion can work with your CRM alongside recent emails, meetings, calendar events, files, open tabs, and connected apps. That makes it possible to review not only what the pipeline says, but what has actually happened around each deal, and turn that context into a useful plan for the week."
   ],
   "sections": [
     {
@@ -202,7 +202,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Open the Review Your Sales Pipeline skill with one real pipeline or useful slice. Your companion will help you find the decisions that matter now—and make the next review easier."
+          "text": "Open the Review Your Sales Pipeline skill with one real pipeline or useful slice. Your companion will help you find the decisions that matter now, and make the next review easier."
         }
       ]
     }

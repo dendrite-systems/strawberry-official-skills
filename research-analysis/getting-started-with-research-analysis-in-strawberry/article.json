@@ -15,8 +15,8 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Research rarely begins and ends in one place. The useful source may be a company site, a report, a database, a PDF, an old internal document, or a thread that changes how the public evidence should be read. The hard part is keeping the question, sources, and final argument connected as the research grows.",
-    "The most useful information often lives beyond the obvious search results—in sources you already use and places you may never have thought to look. Strawberry can go deeper than typical AI search tools: searching the web, working through sites you have access to, comparing information across pages and tools, and combining it with files or data you provide. Instead of returning a pile of links, it can turn the research into a sourced shortlist, market map, briefing, report, or updated spreadsheet."
+    "Research rarely stays in one place. The useful source might be a company site, a report, a database, or an internal doc from three years ago. The hard part is keeping the question, the sources, and the argument connected as it grows.",
+    "Strawberry can search the web, work through sites you already have access to, and compare what it finds against your own files. Instead of a pile of links, you get a sourced shortlist, a market map, a briefing, or an updated spreadsheet."
   ],
   "sections": [
     {

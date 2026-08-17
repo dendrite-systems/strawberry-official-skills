@@ -111,7 +111,7 @@
             "Expected and observed behavior.",
             "Privacy-safe screenshots, logs, browser evidence, and source links.",
             "Severity or priority using the team's definitions.",
-            "Duplicate search, related work, suspected area, and regression range—with inference labeled.",
+            "Duplicate search, related work, suspected area, and regression range, with inference labeled.",
             "Acceptance or verification notes, evidence gaps, uncertainty, and cleanup state."
           ]
         },

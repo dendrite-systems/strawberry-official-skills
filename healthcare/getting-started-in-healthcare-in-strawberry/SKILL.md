@@ -20,7 +20,7 @@ is in scope because the task sounds administrative. Practice-management, finance
 indemnity, rota, and employment threads usually are; a patient-facing inbox is not.
 
 If patient-identifiable material appears anyway, stop and say so before going further. Do not
-summarise it, quote it back, or carry it into memory, a custom skill, a Routine, or any output.
+summarize it, quote it back, or carry it into memory, a custom skill, a Routine, or any output.
 Sanitized or de-identified inputs the user provides deliberately are fine.
 
 Everything below is either administrative work or published-literature awareness. That is a real

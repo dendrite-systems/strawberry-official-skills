@@ -15,7 +15,7 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Most candidate searches turn up plenty of plausible profiles. The harder part is working out who is genuinely worth a closer look for this role—and being able to explain why.",
+    "Most candidate searches turn up plenty of plausible profiles. The harder part is working out who is genuinely worth a closer look for this role, and being able to explain why.",
     "Strawberry is a browser with built-in AI agents. Your companion can work across LinkedIn, portfolios, GitHub, other public work, role documents, and approved ATS context, then show why each person may fit and what still needs checking.",
     "You do not need a perfect scorecard to start. One role and a small, varied candidate set is enough for a useful first pass. Your feedback can sharpen the search before it becomes a list of 100 people nobody trusts."
   ],
@@ -59,7 +59,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Once the judgment feels right, Strawberry can apply it more widely. If the search stays thin, it can show where the scarcity comes from and what would change by widening a title, location, employer segment, compensation constraint, or evidence bar—instead of quietly padding the list."
+          "text": "Once the judgment feels right, Strawberry can apply it more widely. If the search stays thin, it can show where the scarcity comes from and what would change by widening a title, location, employer segment, compensation constraint, or evidence bar, instead of quietly padding the list."
         }
       ]
     },
@@ -83,7 +83,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "The assessment helps the team decide who deserves a closer look. It does not prove that someone is qualified, interested, available, eligible, or ready to contact—and it never replaces the hiring decision."
+          "text": "The assessment helps the team decide who deserves a closer look. It does not prove that someone is qualified, interested, available, eligible, or ready to contact, and it never replaces the hiring decision."
         }
       ]
     },

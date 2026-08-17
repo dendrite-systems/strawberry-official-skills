@@ -15,7 +15,7 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Audience research becomes dangerous when a handful of vivid quotes turns into a precise-looking persona. Interviews, reviews, communities, search behavior, analytics, and campaign data can all help—but they describe different populations and answer different questions.",
+    "Audience research becomes dangerous when a handful of vivid quotes turns into a precise-looking persona. Interviews, reviews, communities, search behavior, analytics, and campaign data can all help, but they describe different populations and answer different questions.",
     "Strawberry can work across those sources in the browser and approved tools, preserve links and dates, and keep representative evidence beside the synthesis. Your companion can remember the boundaries and corrections the team accepts, so later campaign and content work starts from evidence rather than a generic persona."
   ],
   "sections": [
@@ -83,7 +83,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Group evidence around distinctions that could change the message, channel, product story, or campaign—not around demographic detail that merely makes a persona look complete."
+          "text": "Group evidence around distinctions that could change the message, channel, product story, or campaign, not around demographic detail that merely makes a persona look complete."
         },
         {
           "kind": "list",

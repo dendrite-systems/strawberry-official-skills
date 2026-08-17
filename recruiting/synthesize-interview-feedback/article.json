@@ -16,7 +16,7 @@
   "noindex": false,
   "introduction": [
     "The difficult part of an interview debrief is rarely collecting opinions. It is working out what the panel actually learned, where people disagree, and whether the most important parts of the role were tested at all.",
-    "Strawberry can bring together transcripts, notes, scorecards, work samples, and approved candidate context, then organize them against the role the team agreed to hire for. The result is a draft assessment people can inspect—not one artificial score that hides the record underneath.",
+    "Strawberry can bring together transcripts, notes, scorecards, work samples, and approved candidate context, then organize them against the role the team agreed to hire for. The result is a draft assessment people can inspect, not one artificial score that hides the record underneath.",
     "A useful first pass can begin with one candidate. Review how the evidence was interpreted before using the same approach across the rest of the process."
   ],
   "sections": [
@@ -84,7 +84,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The draft can give understandable fit guidance—strong potential fit, potential fit with questions, limited fit based on current evidence, or unable to assess—alongside the evidence, counter-evidence, confidence, and gaps behind it. It is not a comparative ranking or a recommendation to reject or advance."
+          "text": "The draft can give understandable fit guidance, strong potential fit, potential fit with questions, limited fit based on current evidence, or unable to assess, alongside the evidence, counter-evidence, confidence, and gaps behind it. It is not a comparative ranking or a recommendation to reject or advance."
         },
         {
           "kind": "paragraph",
@@ -108,7 +108,7 @@
     },
     {
       "id": "share-and-improve-the-process",
-      "title": "Share the assessment carefully—and improve the loop",
+      "title": "Share the assessment carefully, and improve the loop",
       "blocks": [
         {
           "kind": "paragraph",

@@ -1,6 +1,6 @@
 ---
 name: audit-a-design-system
-description: Click through a live product or site and record where the interface has drifted from its design system, with inspectable evidence for each finding. Use for spacing, type, colour, component, state, and accessibility inconsistencies across real pages rather than in a design file.
+description: Click through a live product or site and record where the interface has drifted from its design system, with inspectable evidence for each finding. Use for spacing, type, color, component, state, and accessibility inconsistencies across real pages rather than in a design file.
 ---
 
 # Audit a Design System
@@ -36,7 +36,7 @@ Useful categories:
 - **Spacing:** padding and gaps that do not sit on the scale.
 - **Type:** sizes, weights, and line heights outside the ramp, or the same role rendered differently
   in different places.
-- **Colour:** values that are close to a token but not the token, and text or icons that fail
+- **Color:** values that are close to a token but not the token, and text or icons that fail
   contrast against their real background.
 - **Components:** the same element built several ways, or variants used outside their purpose.
 - **States:** missing focus indication, hover that changes nothing, disabled that does not read as

@@ -38,7 +38,7 @@ the output the user needs before running searches.
 ## 3. Protect the matter before searching
 
 Search queries leave the session. Never put client or party names, deal terms, financial figures, or
-privileged facts into a web search. Use anonymised or hypothetical formulations instead: search
+privileged facts into a web search. Use anonymized or hypothetical formulations instead: search
 "limitation of liability clause SaaS agreement", not the parties and their terms.
 
 If the user pastes material containing identifiable confidential information without having

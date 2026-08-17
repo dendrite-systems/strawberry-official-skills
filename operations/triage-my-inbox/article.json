@@ -15,9 +15,9 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Inbox triage is usually described as an email problem, but the queue that needs attention may be LinkedIn messages, connection requests, a professional messaging service, or several channels used for different relationships.",
-    "Getting the queue under control may not leave a screen with zero messages. What matters is knowing that the important work has been answered, delegated, scheduled, or consciously left alone—and that a bulk cleanup has not hidden something you still need.",
-    "Strawberry can work inside the real, logged-in inbox with you. Your companion can read the full thread, use relevant calendar or project context, prepare the reply in the right channel, and show the exact provider controls it proposes to use."
+    "Inbox triage gets described as an email problem, but the queue that needs attention might be LinkedIn messages, connection requests, or three channels you use for different relationships.",
+    "Getting it under control doesn't mean reaching zero. It means knowing the important things have been answered, delegated, or consciously left, and that a bulk cleanup hasn't buried something you needed.",
+    "Strawberry works inside the real, logged-in inbox with you. It can read the whole thread, use the calendar context, draft the reply in the right channel, and show you the exact controls it proposes to use."
   ],
   "sections": [
     {

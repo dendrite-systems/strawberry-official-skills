@@ -15,8 +15,8 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Ask most AI tools about a company and the answer comes back in the same shape every time: what it does, roughly how big it is, when it raised money, a few recent headlines. That is reasonable background, and it is almost never the thing you needed. If you are deciding whether to build on someone's API, the question that matters is how often it breaks and how they behave when it does—which no company profile contains.",
-    "Strawberry can research a company the way you would with an afternoon to spend on it: reading the documentation, working through sites and tools you already have access to, opening sources you might not have thought to check, and comparing all of it against files or data you provide. What comes back is an answer to the question you actually asked, with the sources sitting next to the claims."
+    "Ask most AI tools about a company and you get the same four facts. What it does, how big, when it raised, recent headlines. If you're deciding whether to build on their API, what matters is how often it breaks. No profile contains that.",
+    "Strawberry researches it the way you would with an afternoon free. Reading the docs, working through tools you already have access to, checking sources you wouldn't have thought of. What comes back is a brief you could defend in a meeting, with a source next to every claim."
   ],
   "sections": [
     {
@@ -53,11 +53,11 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A company's marketing pages tell you what it wants understood, which is rarely the thing you came to find out. The more useful material usually sits further in—a changelog that shows how fast the product really moves, documentation that reveals what the integration will actually require, a status history, a pricing page read against the version archived last year, a support forum where the same complaint keeps reappearing."
+          "text": "A company's marketing pages tell you what it wants understood, which is rarely the thing you came to find out. The more useful material usually sits further in, a changelog that shows how fast the product really moves, documentation that reveals what the integration will actually require, a status history, a pricing page read against the version archived last year, a support forum where the same complaint keeps reappearing."
         },
         {
           "kind": "paragraph",
-          "text": "Most of that is reachable but tedious. Some of it sits behind a login you already have: an analyst database your team subscribes to, a procurement portal, a shared drive holding last year's evaluation. Strawberry can work through both—following a promising link several levels down, searching inside a site rather than around it, and using the sources you are authorized to use—then bring what it finds together with the public web. You don't have to work out in advance which sources will matter and paste them in."
+          "text": "Most of that is reachable but tedious. Some of it sits behind a login you already have: an analyst database your team subscribes to, a procurement portal, a shared drive holding last year's evaluation. Strawberry can work through both, following a promising link several levels down, searching inside a site rather than around it, and using the sources you are authorized to use, then bring what it finds together with the public web. You don't have to work out in advance which sources will matter and paste them in."
         }
       ]
     },
@@ -82,7 +82,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Contradictions are worth more than they first appear. When a company's job postings and its published roadmap disagree about where the product is going, that gap is often the most useful line in the brief—and it only shows up if the two sources are read against each other rather than summarized separately."
+          "text": "Contradictions are worth more than they first appear. When a company's job postings and its published roadmap disagree about where the product is going, that gap is often the most useful line in the brief, and it only shows up if the two sources are read against each other rather than summarized separately."
         }
       ]
     },
@@ -92,7 +92,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A general brief stops at a clear, source-linked view of the company. Some decisions carry their own discipline behind them—running a deal, testing a fund's thesis—and those are better served by the workflow built for them than by one brief stretched to cover everything."
+          "text": "A general brief stops at a clear, source-linked view of the company. Some decisions carry their own discipline behind them, running a deal, testing a fund's thesis, and those are better served by the workflow built for them than by one brief stretched to cover everything."
         },
         {
           "kind": "skill-lanes",

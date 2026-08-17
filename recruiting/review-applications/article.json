@@ -56,7 +56,7 @@
     },
     {
       "id": "show-fit-guidance",
-      "title": "Show useful fit guidance—not just extracted facts",
+      "title": "Show useful fit guidance, not just extracted facts",
       "blocks": [
         {
           "kind": "paragraph",

@@ -15,8 +15,8 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "A lead list can look complete and still be hard to use. Company names do not match the CRM, job titles are stale, the right person is missing, and an email address gives no clue whether it is safe to send. Someone ends up checking rows across LinkedIn, company sites, databases, and spreadsheets before the real sales work can begin.",
-    "Strawberry is a browser with built-in AI agents. Give your companion an existing lead or account list and it can work across the web, logged-in sites, your CRM, files, open tabs, and connected enrichment tools to fill the gaps. Just as importantly, it can preserve where useful data came from and keep uncertainty visible when it affects what you do next."
+    "A lead list can look complete and still be unusable. Company names don't match the CRM, titles are stale, the right person is missing, and an email address tells you nothing about whether it's safe to send.",
+    "Give your companion the list and it can work across the web, logged-in sites, your CRM, and connected enrichment tools to fill the gaps. It keeps where each value came from, and keeps uncertainty visible when it changes what you'd do next."
   ],
   "sections": [
     {

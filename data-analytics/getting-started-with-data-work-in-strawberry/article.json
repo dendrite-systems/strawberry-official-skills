@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "data-analysis",
   "title": "How to analyze data with AI",
-  "description": "Collect what you need, get a defensible answer out of what you have, settle the definitions people argue about, and show the working.",
+  "description": "Collect what you need, get a defensible answer out of what you have, settle the definitions people argue about, and show its work.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -15,8 +15,8 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Almost nobody's data problem is the analysis. It's that the export quietly dropped cancelled orders, two dashboards define an active user differently, and the join quietly duplicated a chunk of the rows. The maths was never the hard part.",
-    "So the useful thing isn't a tool that runs a regression. It's one that looks at the file properly before it answers, tells you what it found, and shows the working behind every number so you can reproduce it without asking how it was made."
+    "The hard part of data work is almost never the analysis. It's that the export dropped canceled orders without telling you, two dashboards define an active user differently, and the join silently duplicated a chunk of your rows.",
+    "So what helps isn't a tool that runs a regression. It's one that checks the file before it answers, tells you what it found, and shows its work on every number so you can reproduce it."
   ],
   "sections": [
     {
@@ -70,26 +70,11 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The most valuable thing here usually isn't the analysis. It's catching the reason the analysis would have been wrong. So the file gets inspected before anything is calculated, and you hear what turned up:"
-        },
-        {
-          "kind": "list",
-          "style": "unordered",
-          "items": [
-            "What one row actually represents, which is not always what the column headers suggest.",
-            "Missing values, and whether they're missing at random or in a pattern that means something.",
-            "Duplicates, and whether they're genuine repeats or a join that went wrong.",
-            "Numbers stored as text, mixed date formats, and the other quiet type problems.",
-            "Outliers, which are either errors or the most interesting thing in the dataset."
-          ]
+          "text": "The most valuable thing here usually isn't the analysis. It's catching the reason the analysis would have been wrong. So the file gets checked before anything is calculated, and you hear what turned up before you see a chart."
         },
         {
           "kind": "paragraph",
-          "text": "You get told that before you see a chart. Finding out about a broken join afterwards means you've already half-believed the answer."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Then the working shows: which filters were applied, which rows were excluded and why, and the formula behind any figure that matters. And what the data shows stays separate from what it implies. A drop in signups the same week as a price change is a correlation with a good story attached, and it gets labelled as one."
+          "text": "Then every figure that matters arrives with the filters applied, the rows excluded and why, and the formula behind it. What the data shows stays separate from what it implies."
         },
         {
           "kind": "skills",

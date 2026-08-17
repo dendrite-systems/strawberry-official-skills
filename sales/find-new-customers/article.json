@@ -15,9 +15,9 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "AI sales prospecting should help you find customers who fit for a reason—not produce another giant lead list for someone to clean up. The useful result is a smaller set of companies you can understand, challenge, and confidently act on.",
-    "Strawberry is a browser with built-in AI agents. It can learn from the context you already have, work across LinkedIn, company websites, connected apps, and public sources, and investigate the signals that matter for your business. That makes it possible to search beyond the standard fields in a shared lead database.",
-    "You do not need a perfect ICP or a fully automated outbound system to begin. Start with what you know about a good customer, review a real set of prospects with your companion, and use your feedback to sharpen the wider search."
+    "AI prospecting should find customers who fit for a reason, not produce another list for someone to clean up. The useful result is a smaller set you can understand and act on.",
+    "Strawberry works across LinkedIn, company sites, your connected apps, and the public web, learning from the context you already have. That lets it look past the standard fields in a shared lead database.",
+    "You don't need a perfect ICP to start. Review a real set of prospects with your companion and let your feedback sharpen the search."
   ],
   "sections": [
     {
@@ -96,7 +96,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "If you need people or contact details, research them only to the depth the next step requires. Confirm that someone still holds the relevant role and keep verification status visible for contact information. The result can stay in chat or land in a table, spreadsheet, CRM, document, or dashboard—wherever it is easiest to review and use."
+          "text": "If you need people or contact details, research them only to the depth the next step requires. Confirm that someone still holds the relevant role and keep verification status visible for contact information. The result can stay in chat or land in a table, spreadsheet, CRM, document, or dashboard, wherever it is easiest to review and use."
         },
         {
           "kind": "skills",
@@ -116,11 +116,27 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Once the prospect set feels right, your companion can research the strongest accounts more deeply, enrich the records you need, or build a customer outreach sequence in your voice. Finding prospects, adding them to the CRM, drafting messages, and enrolling or sending are separate decisions—you stay in control of each step."
+          "text": "Once the prospect set feels right, your companion can research the strongest accounts more deeply, enrich the records you need, or build a customer outreach sequence in your voice. Finding prospects, adding them to the CRM, drafting messages, and enrolling or sending are separate decisions. You stay in control of each step."
         },
         {
           "kind": "paragraph",
-          "text": "Share the approved list when teammates need the result, or save and share the accepted sourcing method as a team skill when they should reuse the process. If the team needs the same customer context across prospecting, research, outreach, and other sales work, share the full companion. After the process has worked several times, it can become a Routine that looks for new companies or useful signals at the right cadence. The goal is not simply more leads. It is a prospecting system that gets better at recognizing the customers your business can genuinely help."
+          "text": "Once the method works, there are three ways to hand it on."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Share the list when teammates just need the result.",
+            "Save it as a team skill when they should reuse the process.",
+            "Share the whole companion when they need the same customer knowledge across prospecting, research, and outreach."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "After it has worked a few times, it can become a Routine that watches for new companies on its own. The goal isn't more leads. It's a system that gets better at spotting the customers you can genuinely help.",
+          "emphasis": [
+            "Routine"
+          ]
         },
         {
           "kind": "skills",

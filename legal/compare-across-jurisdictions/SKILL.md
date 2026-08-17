@@ -11,7 +11,7 @@ The value is in the comparison being genuinely like-for-like, which is also the 
 ## 1. Fix the question and the jurisdictions
 
 Agree the precise legal question and the exact list of jurisdictions. Confirm what the comparison is
-for — market entry, a compliance programme, structuring, or a policy decision — because it decides
+for — market entry, a compliance program, structuring, or a policy decision — because it decides
 which dimensions matter.
 
 Ask whether the user needs the position as it stands today, or as it will stand once instruments

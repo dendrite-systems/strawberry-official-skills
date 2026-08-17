@@ -18,7 +18,7 @@ removed or explicitly flagged. Treat page references as unverified until checked
 section references are structural and more reliable.
 
 **Confidential matter detail never enters a search query.** No client or party names, deal terms,
-financial figures, or privileged facts. Use anonymised formulations. If the user pastes identifiable
+financial figures, or privileged facts. Use anonymized formulations. If the user pastes identifiable
 confidential material without having confirmed their confidentiality posture, flag it before
 processing, even mid-workflow.
 

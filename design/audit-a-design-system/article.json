@@ -36,7 +36,7 @@
           "style": "unordered",
           "items": [
             "Spacing off the scale, and type outside the ramp.",
-            "Colours that are nearly a token but not the token, and text failing contrast against its real background rather than its intended one.",
+            "Colors that are nearly a token but not the token, and text failing contrast against its real background rather than its intended one.",
             "The same component built three ways, or a variant doing a job it wasn't made for.",
             "Focus that isn't visible, hover that changes nothing, disabled that doesn't read as disabled.",
             "Empty and error states, where drift concentrates because they get built last and reviewed least."

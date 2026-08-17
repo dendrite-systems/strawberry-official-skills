@@ -11,13 +11,13 @@
       "roleId": "data-analytics",
       "weight": 116,
       "title": "Analyze a dataset I already have",
-      "message": "Analyze this dataset for the question I need answered. Check the data quality first, agree the definitions, show your working, and tell me what the data cannot support."
+      "message": "Analyze this dataset for the question I need answered. Check the data quality first, agree the definitions, show your work, and tell me what the data cannot support."
     },
     {
       "roleId": "research-analysis",
       "weight": 108,
       "title": "Make sense of data I have collected",
-      "message": "Analyze this dataset around my research question, show the working behind each figure, and be clear about the limits."
+      "message": "Analyze this dataset around my research question, show its work behind each figure, and be clear about the limits."
     },
     {
       "roleId": "founder-executive",

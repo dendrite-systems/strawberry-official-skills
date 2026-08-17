@@ -82,7 +82,7 @@
           "items": [
             {
               "title": "Research the audience",
-              "text": "Turn approved customer and market sources into a linked view of needs, language, behavior, channels, tensions, and gaps—without turning the work into a contact list.",
+              "text": "Turn approved customer and market sources into a linked view of needs, language, behavior, channels, tensions, and gaps, without turning the work into a contact list.",
               "skill": {
                 "id": "strawberry/marketing/research-an-audience",
                 "roleId": "marketing-content",

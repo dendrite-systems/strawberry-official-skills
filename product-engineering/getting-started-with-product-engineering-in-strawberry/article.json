@@ -15,8 +15,8 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Product decisions rarely start with one tidy source. Useful insights may be spread across support conversations, call notes, analytics, screenshots, Slack threads, product docs, and the live experience. By the time they become a spec or a metric review, the reason behind the decision can be hard to reconstruct.",
-    "Strawberry can work across those real surfaces in the same browser your team uses. It can keep customer insights attached to a product definition, carry a finding from a tested flow into a grounded issue, and remember the definitions and corrections the team accepts. Product gets a clearer line from insight to decision, while Engineering gets better context for quality and follow-through."
+    "Product decisions rarely start with one tidy source. The insight is spread across support conversations, call notes, analytics, screenshots, Slack, and the live product. By the time it's a spec, the reason behind it is hard to reconstruct.",
+    "Because Strawberry is the browser, it can reach those surfaces directly. It keeps customer insight attached to the product definition it produced, carries a finding from a tested flow into a grounded issue, and remembers the corrections your team accepts."
   ],
   "sections": [
     {

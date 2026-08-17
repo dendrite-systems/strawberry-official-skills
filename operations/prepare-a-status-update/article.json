@@ -15,9 +15,9 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Writing a status update is often less work than assembling one. Before the first sentence, someone has to check the project record, recent meetings, team messages, a dashboard, and the last update to work out what has actually changed.",
-    "A normal AI chat can improve the prose once that context has been pasted in. Strawberry can help with the earlier part as well. Your companion can use the tabs, logged-in tools, connected apps, files, and meeting records behind the work, compare them, and keep the useful evidence close to the draft.",
-    "The result should tell a particular audience what they need to understand or do next. It should not be a polished diary of everything the team completed."
+    "Writing a status update is less work than assembling one. Before the first sentence, someone checks the project record, recent meetings, team messages, a dashboard, and the last update to work out what actually changed.",
+    "A normal AI chat can improve the prose once you've pasted all that in. Strawberry can do the earlier part, using the tools and meeting records behind the work and keeping the evidence next to the draft.",
+    "The result should tell one audience what they need to understand or do next, not catalogue everything the team finished."
   ],
   "sections": [
     {

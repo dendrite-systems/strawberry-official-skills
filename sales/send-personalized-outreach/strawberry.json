@@ -9,7 +9,7 @@
       "roleId": "sales-business-development",
       "weight": 112,
       "title": "Send personalized outreach that sounds like me",
-      "message": "Help me send personalized outreach to this list. Use what you know about my voice and context, research only where it will help, and start with a small set I can review. Before sending, show me the exact recipients, messages, channels, and timing—and explain when thoughtful follow-ups or a sequence would be useful."
+      "message": "Help me send personalized outreach to this list. Use what you know about my voice and context, research only where it will help, and start with a small set I can review. Before sending, show me the exact recipients, messages, channels, and timing, and explain when thoughtful follow-ups or a sequence would be useful."
     },
     {
       "roleId": "founder-executive",

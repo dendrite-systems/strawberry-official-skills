@@ -17,7 +17,7 @@
   "introduction": [
     "When a candidate search keeps coming up thin, it is tempting to search harder. But the real problem may be the market definition: the title is too narrow, the best people describe themselves differently, or the location and compensation constraints do not fit together.",
     "Strawberry can work across LinkedIn, company pages, public professional work, approved ATS history, and compensation or market sources to show how the talent pool is actually shaped.",
-    "The result is a map of the search space—not a disguised candidate shortlist."
+    "The result is a map of the search space, not a disguised candidate shortlist."
   ],
   "sections": [
     {
@@ -86,7 +86,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "LinkedIn, public websites, internal records, and compensation sources each reveal a different slice of the market. A useful map shows which titles, employers, channels, and geographies were covered—and where the evidence is thin or stale."
+          "text": "LinkedIn, public websites, internal records, and compensation sources each reveal a different slice of the market. A useful map shows which titles, employers, channels, and geographies were covered, and where the evidence is thin or stale."
         },
         {
           "kind": "paragraph",

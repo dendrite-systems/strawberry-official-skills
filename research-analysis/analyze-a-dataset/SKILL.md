@@ -17,7 +17,7 @@ Ask what decision this feeds. "Look at this data" produces a tour; "should we ke
 channel" produces an answer.
 
 Then find out where the data came from, what each row represents, what period it covers, and how it
-was filtered before it reached the user. An export that silently excludes cancelled orders answers a
+was filtered before it reached the user. An export that silently excludes canceled orders answers a
 different question than the one being asked.
 
 ## 2. Look at the data before analysing it
@@ -49,7 +49,7 @@ Show the work: the filters applied, the rows excluded and why, and the formula b
 that matters. The user should be able to reproduce the number without asking how it was made.
 
 Separate what the data shows from what it implies. A drop in signups and a pricing change in the
-same week is a correlation with a plausible story, and it should be labelled as that rather than as
+same week is a correlation with a plausible story, and it should be labeled as that rather than as
 a cause.
 
 ## 5. Say what the data cannot support

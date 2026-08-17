@@ -15,8 +15,8 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Operations work often starts with a simple question—what needs attention today?—and turns into checking the calendar, Slack, email, project tools, meeting notes, and a few browser tabs before anyone can answer it. The next step may be an update, an introduction, a new teammate's access, or a booking that still needs to happen somewhere else.",
-    "Strawberry can do that checking in the same browser and apps where the work continues. Your companion can compare the current sources, show where they disagree, prepare the next useful action, and remember the definitions and review points you accept. That lets a brief, meeting, or project update feed the next task instead of becoming another isolated result."
+    "Operations work starts with a simple question. What needs attention today? Answering it means checking the calendar, Slack, email, project tools, meeting notes, and a few tabs. Then the next step is an update, an introduction, or access for a new teammate.",
+    "Strawberry can do that checking in the same browser where the work continues, show where sources disagree, prepare the next action, and remember the definitions you accept. A brief or a meeting feeds the next task instead of becoming another isolated result."
   ],
   "sections": [
     {

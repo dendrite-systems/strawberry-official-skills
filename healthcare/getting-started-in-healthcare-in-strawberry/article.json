@@ -15,8 +15,8 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "The admin is the part nobody trained for. Supplier chasing, indemnity paperwork, an administrative inbox that refills faster than it empties, and a literature you meant to keep up with in 2023. None of it is clinical work, and all of it happens after the clinical work is done.",
-    "This is deliberately not a clinical tool. Strawberry doesn't diagnose, recommend treatment, or interpret results. What it can do is take the administrative side and the reading off your hands, working in the browser across the mailboxes and paperwork you confirm are administrative, and the journals and registries you already have access to. Patient-facing inboxes stay out of scope, and it stops and tells you if patient information turns up anyway."
+    "The admin is the part nobody trained for. Supplier chasing, indemnity paperwork, an inbox that refills faster than it empties, and a literature you meant to keep up with in 2023. None of it is clinical, and all of it happens after the clinical work is done.",
+    "This is deliberately not a clinical tool. Strawberry doesn't diagnose, recommend treatment, or interpret results. It takes the administrative side and the reading off your hands, working across the mailboxes and paperwork you confirm are administrative and the journals you already have access to. If patient information turns up anyway, it stops and tells you."
   ],
   "sections": [
     {

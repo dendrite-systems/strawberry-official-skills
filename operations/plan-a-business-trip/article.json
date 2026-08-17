@@ -15,9 +15,9 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "A workable business trip depends on more than the fare. The arrival has to fit the meeting, the stay has to suit the location and working pattern, the choice has to fit policy, and each part has to remain available long enough to make a decision.",
-    "A list of travel links from an AI search only solves the first part. You still have to reopen the results, recover the current price, sign in, check the terms, and rebuild the itinerary before you can book anything.",
-    "Strawberry does the research in the browser alongside you. Your companion can use the calendar, policy, preferences, and trip context already available, compare live provider pages, keep the useful options open for inspection, and continue into a booking once you approve the exact choice."
+    "A workable trip depends on more than the fare. The arrival has to fit the meeting, the stay has to fit how you work, the choice has to fit policy, and all of it has to still be available when you decide.",
+    "A list of travel links solves the first part. You still have to reopen everything, recover the real price, sign in, check the terms, and rebuild the itinerary.",
+    "Strawberry researches it in the browser beside you, using your calendar, policy, and preferences, comparing live provider pages, and continuing into a booking once you approve the exact choice."
   ],
   "sections": [
     {

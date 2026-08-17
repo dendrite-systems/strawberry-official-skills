@@ -15,9 +15,9 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "The value of a meeting is often decided in the hour afterward. People need to find what was agreed, see who owns the actions, update the project record, and send the promised follow-up while the context is still fresh.",
-    "A transcript helps, but it is not the finished result. Someone still has to separate a decision from an idea, check whether an owner or date was actually accepted, and carry the useful outcomes into messages and work systems.",
-    "Strawberry can capture supported conversations without adding a visible meeting bot. Your companion can use that durable record alongside the calendar event, prior context, and relevant tools, then prepare the debrief and continue into the approved follow-through in the same workspace."
+    "A meeting's value is usually decided in the hour afterward. Someone has to find what was agreed, see who owns what, update the project record, and send the follow-up while it's all still fresh.",
+    "A transcript isn't the finished result. Someone still has to tell a decision from an idea, check whether an owner actually accepted, and carry the outcome into the systems where work happens.",
+    "Strawberry can capture supported conversations without a visible meeting bot, then use that record alongside the calendar event and your tools to prepare the debrief and continue into the follow-through you approve."
   ],
   "sections": [
     {

@@ -17,7 +17,7 @@
       "roleId": "engineering-development",
       "weight": 88,
       "title": "Find UI inconsistencies across the product",
-      "message": "Click through these flows and record where components, spacing, colour, and states are inconsistent with the rest of the product."
+      "message": "Click through these flows and record where components, spacing, color, and states are inconsistent with the rest of the product."
     }
   ]
 }

@@ -107,7 +107,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "When the company picture is spread across teams and tools, Strawberry can reconcile what changed, what is blocked, where ownership is unclear, and which decisions need you. Use that view when it helps—inside an existing review cadence or as a one-off. You do not need to invent a weekly company review to get the value."
+          "text": "When the company picture is spread across teams and tools, Strawberry can reconcile what changed, what is blocked, where ownership is unclear, and which decisions need you. Use that view when it helps, inside an existing review cadence or as a one-off. You do not need to invent a weekly company review to get the value."
         },
         {
           "kind": "skill-lanes",
@@ -241,7 +241,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Start with one piece of company work that matters now. The operating system grows as those useful results stop resetting between meetings, functions, and decisions—not because you configured everything on day one."
+          "text": "Start with one piece of company work that matters now. The operating system grows as those useful results stop resetting between meetings, functions, and decisions, not because you configured everything on day one."
         }
       ]
     }

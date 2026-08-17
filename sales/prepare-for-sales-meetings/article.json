@@ -15,8 +15,8 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "The awkward part of sales meeting preparation is rarely finding one more fact about the company. It is pulling together the context that already exists: who is joining, why the meeting is happening, what happened last time, where the deal stands, and what you promised to bring.",
-    "Strawberry is a browser with built-in AI agents. Your companion can work across your calendar, email, CRM, previous meetings, files, open tabs, connected apps, and the web, then turn the useful parts into a concise brief you can keep open during the meeting. When the meeting starts in five minutes, it should move quickly. When the stakes are higher and there is time to prepare, it can go deeper."
+    "The awkward part of preparing for a sales meeting is rarely finding one more fact about the company. It's pulling together what already exists: who's joining, why the meeting is happening, what happened last time, and what you promised to bring.",
+    "Your companion already has the calendar, the email thread, the CRM record, and the notes from last time. It can turn the useful parts into a brief you keep open during the call. Five minutes out, it moves fast. With more time and more at stake, it goes deeper."
   ],
   "sections": [
     {
@@ -25,7 +25,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A useful brief starts with the real event, attendees, relationship, and outcome—not a generic company profile. Calendar is usually the fastest and most reliable starting point because it identifies the meeting and gives your companion exact names, email addresses, timing, and invite context."
+          "text": "A useful brief starts with the real event, attendees, relationship, and outcome, not a generic company profile. Calendar is usually the fastest and most reliable starting point because it identifies the meeting and gives your companion exact names, email addresses, timing, and invite context."
         },
         {
           "kind": "paragraph",
@@ -116,7 +116,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Keep useful evidence and links beside the bullet they support. If you need to verify a detail or open the latest thread mid-meeting, it should be one click away—not hidden in a source appendix or buried in several pages of research."
+          "text": "Keep useful evidence and links beside the bullet they support. If you need to verify a detail or open the latest thread mid-meeting, it should be one click away, not hidden in a source appendix or buried in several pages of research."
         }
       ]
     },
@@ -144,7 +144,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Preparation is the beginning of the meeting loop. Strawberry can transcribe the conversation without adding a meeting bot. Afterwards, your companion can turn what was said into a sales debrief, follow-up, CRM changes, and the next piece of work—without making you reconstruct the relationship again."
+          "text": "Preparation is the beginning of the meeting loop. Strawberry can transcribe the conversation without adding a meeting bot. Afterwards, your companion can turn what was said into a sales debrief, follow-up, CRM changes, and the next piece of work, without making you reconstruct the relationship again."
         },
         {
           "kind": "skills",

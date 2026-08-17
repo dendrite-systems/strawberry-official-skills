@@ -15,9 +15,8 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "The best meeting briefs are short enough to use and specific enough to change the conversation. They help you understand what has changed, ask better questions, and leave with a useful decision or next step without summarizing every attendee and attached document.",
-    "Gathering that context is often the slow part. The calendar has the event, earlier decisions are in meeting notes, the working detail is in a project tool or message thread, and useful external context may sit on a company website or another open tab.",
-    "Strawberry can bring those sources together in the same browser where you work. Your companion can match the right meeting and participants, follow relevant links through logged-in tools and the public web, and prepare a short brief with the evidence still easy to inspect."
+    "Five minutes before a meeting, you don't need a summary. You need to know what changed, and the one question worth asking.",
+    "That's spread across the invite, an old meeting note, a project thread, and the other side's website. Strawberry is a browser, so your companion can read all of it, including the tools you're already signed into, and come back with something short enough to use. Every claim shows its source."
   ],
   "sections": [
     {

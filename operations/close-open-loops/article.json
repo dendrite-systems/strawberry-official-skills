@@ -15,9 +15,9 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "A surprising amount of Operations work begins with a vague feeling that something has been missed. Someone promised an introduction, a meeting ended with an owner, or a decision was made—but the message, task, and project record no longer tell the same story.",
-    "Finding those gaps is difficult for an AI tool that sees only one application or the text pasted into a chat. The useful evidence may sit in a transcript, a Slack thread, an email, and a task that has not been touched since the conversation.",
-    "Strawberry can follow that evidence across visible tabs, logged-in tools, connected apps, meetings, and files. It keeps the sources attached to the finding and can continue into the right reply or record once you have decided how the loop should close."
+    "A lot of operations work starts with a vague feeling that something has been missed. Someone promised an introduction, a meeting ended with an owner, a decision was made. The message, the task, and the project record no longer agree.",
+    "That's hard for a tool that only sees one app. The evidence is spread across a transcript, a Slack thread, an email, and a task nobody has touched since.",
+    "Strawberry can follow it across your tabs, logged-in tools, meetings, and files, keep the source attached to each finding, and carry on into the reply once you've decided how the loop should close."
   ],
   "sections": [
     {

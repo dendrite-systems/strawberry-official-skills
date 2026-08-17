@@ -15,9 +15,9 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "A recruiting pipeline can look busy and still be in trouble. Plenty of candidates may be in the ATS, but the strongest ones are waiting for feedback, every active person came from the same narrow source, or nobody knows whether the current funnel can produce a hire in time.",
-    "Strawberry can review ATS state alongside applications, sourcing work, interviews, email, calendars, and approved team context. That makes it easier to see what has actually happened, what deserves attention now, and where the pipeline needs new coverage rather than another status meeting.",
-    "Start with one role or a useful slice of the pipeline. The review stays read-only until someone approves a separate update or follow-on workflow."
+    "A recruiting pipeline can look busy and still be in trouble. The strongest candidates are waiting on feedback, everyone active came from the same narrow source, or nobody knows whether this funnel can produce a hire in time.",
+    "Strawberry can review the ATS alongside applications, sourcing, interviews, email, and calendars, so you can see what actually happened and where the pipeline needs new coverage rather than another status meeting.",
+    "Start with one role. The review stays read-only until you approve an update."
   ],
   "sections": [
     {
