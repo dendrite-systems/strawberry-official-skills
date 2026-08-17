@@ -24,9 +24,10 @@ processing, even mid-workflow.
 
 ## Start with jurisdiction
 
-Before any research, establish which jurisdiction's law applies. Ask when it is unspecified. Work
-the choice-of-law question from the facts when the user does not know, and confirm that analysis
-before researching. Never blend jurisdictions in one answer.
+Before any research, establish which jurisdiction's law applies. Ask when it is unspecified. When
+the user does not know, set out the plausible regimes and the factors that would decide between
+them, and treat that as a preliminary view for the user or a qualified legal reviewer to confirm
+rather than a settled answer. Never blend jurisdictions in one answer.
 
 ## Choose the workflow
 

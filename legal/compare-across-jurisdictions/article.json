@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "ai-jurisdiction-comparison",
   "title": "How to compare laws across jurisdictions with AI",
-  "description": "Research each jurisdiction on its own terms, normalise the columns so they genuinely compare, and find the strictest position a single policy has to satisfy.",
+  "description": "Research each jurisdiction on its own terms, normalise the columns so they genuinely compare, and keep real conflicts visible instead of resolving them.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -20,16 +20,16 @@
   ],
   "sections": [
     {
-      "id": "one-researcher-per-jurisdiction",
-      "title": "One researcher per jurisdiction",
+      "id": "research-each-jurisdiction-alone",
+      "title": "Research each jurisdiction on its own terms",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "So each jurisdiction gets its own researcher, working on its own terms, sharing nothing with the others. Nothing from the German answer can colour the French one, because they never meet until the findings come back."
+          "text": "So each jurisdiction is worked on its own terms, and deliberately kept apart while that happens. Nothing from the German answer colours the French one, because they are not compared until each stands on its own."
         },
         {
           "kind": "paragraph",
-          "text": "This is the rare case where running things in parallel improves the answer rather than just the speed. Everywhere else parallelism is a performance decision. Here it's the thing that prevents the specific failure this work is prone to."
+          "text": "Keeping them separate is what prevents the specific failure this work is prone to. It is a discipline about sequence rather than a claim about speed."
         },
         {
           "kind": "paragraph",
@@ -73,7 +73,7 @@
     },
     {
       "id": "the-answer-is-usually-the-strictest-row",
-      "title": "The answer is usually the strictest row",
+      "title": "What the table is actually for",
       "blocks": [
         {
           "kind": "paragraph",
@@ -81,7 +81,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "That's usually the strictest position on each dimension, because a single global policy has to satisfy all of them at once. Occasionally it's the opposite, and the right answer is to stop pretending one policy can cover a genuine conflict of laws. Either way, that conclusion is the point of the exercise."
+          "text": "Taking the strictest position on each dimension is one possible baseline where a single policy has to satisfy every regime at once, but it is not the legal answer and it does not hold everywhere. Jurisdiction-specific exceptions stay visible, and where two regimes genuinely conflict, that conflict is reported rather than resolved by picking the stricter one."
         }
       ]
     },

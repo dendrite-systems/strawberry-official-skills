@@ -15,8 +15,8 @@
   "publishedAt": "2026-08-16T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "The admin is the part nobody trained for. Referral chasing, indemnity paperwork, an inbox that refills faster than it empties, and a literature you meant to keep up with in 2023. None of it is clinical work, and all of it happens after the clinical work is done.",
-    "This is deliberately not a clinical tool. Strawberry doesn't diagnose, recommend treatment, or interpret results, and it shouldn't be given identifiable patient data. What it can do is take the admin and the reading off your hands, working in the browser across your inbox, your practice paperwork, and the journals and registries you already have access to."
+    "The admin is the part nobody trained for. Supplier chasing, indemnity paperwork, an administrative inbox that refills faster than it empties, and a literature you meant to keep up with in 2023. None of it is clinical work, and all of it happens after the clinical work is done.",
+    "This is deliberately not a clinical tool. Strawberry doesn't diagnose, recommend treatment, or interpret results. What it can do is take the administrative side and the reading off your hands, working in the browser across the mailboxes and paperwork you confirm are administrative, and the journals and registries you already have access to. Patient-facing inboxes stay out of scope, and it stops and tells you if patient information turns up anyway."
   ],
   "sections": [
     {
@@ -60,27 +60,27 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "None of this is hard. It's just relentless, and it turns up in the gaps between everything else. That's exactly the kind of work worth handing over."
+          "text": "None of this is hard. It's just relentless, and it turns up in the gaps between everything else. That's exactly the kind of work worth handing over. You say which mailboxes and folders count as administrative, and it works only in those."
         },
         {
           "kind": "skill-lanes",
           "items": [
             {
               "title": "Get through the inbox",
-              "text": "Prioritize what genuinely needs you, with the routine replies drafted for your review.",
+              "text": "Prioritize what genuinely needs you in an approved administrative mailbox, with routine replies drafted for your review.",
               "skill": {
                 "id": "strawberry/operations/triage-my-inbox",
                 "roleId": "healthcare",
-                "context": "Prioritize my inbox and draft the routine replies."
+                "context": "Prioritize my approved administrative mailbox and draft the routine replies."
               }
             },
             {
               "title": "Catch what has gone quiet",
-              "text": "The referrals, follow-ups, and commitments waiting on you or on someone else.",
+              "text": "The supplier threads, approvals, and administrative commitments waiting on you or on someone else.",
               "skill": {
                 "id": "strawberry/operations/close-open-loops",
                 "roleId": "healthcare",
-                "context": "Find the follow-ups and commitments I still owe."
+                "context": "Find the administrative follow-ups and commitments I still owe."
               }
             },
             {
@@ -157,7 +157,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "If you work in a practice or a department, the same accepted approach can be shared rather than each person solving the referral chasing and the filing separately."
+          "text": "If you work in a practice or a department, the same accepted approach can be shared rather than each person solving the chasing and the filing separately."
         },
         {
           "kind": "skills",

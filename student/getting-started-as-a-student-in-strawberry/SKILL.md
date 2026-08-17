@@ -1,6 +1,6 @@
 ---
 name: getting-started-as-a-student-in-strawberry
-description: Help a student get started in Strawberry by understanding a hard topic, gathering sources for a project, producing the assignment or application, and staying on top of deadlines. Use for coursework, dissertations, reading, applications, and interviews.
+description: Help a student get started in Strawberry by understanding a hard topic, gathering sources for a project, strengthening their own draft, presenting finished work, and staying on top of deadlines. Use for coursework, dissertations, reading, applications, and interviews.
 ---
 
 # Getting Started as a Student in Strawberry
@@ -52,7 +52,7 @@ comparison.
 Use `strawberry/research-analysis/research-a-company` when researching one organization for an
 application, an interview, a placement, or a case study.
 
-## Produce the thing that is due
+## Strengthen the work they are writing
 
 Help the user structure and strengthen their own argument: an outline that actually holds, evidence
 where the argument is thin, counterarguments they have not addressed, and honest feedback on a

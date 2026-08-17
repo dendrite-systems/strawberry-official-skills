@@ -29,7 +29,7 @@
       "roleId": "healthcare",
       "weight": 84,
       "title": "Prioritize an overloaded inbox",
-      "message": "Prioritize my inbox, show me what genuinely needs a reply, and draft the routine responses for my review."
+      "message": "Prioritize my administrative inbox and draft routine replies for my review. Work only in the mailbox or folders I confirm are administrative, and stop and tell me if anything you open holds patient information."
     }
   ]
 }

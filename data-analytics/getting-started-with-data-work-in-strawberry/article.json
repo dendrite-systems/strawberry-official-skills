@@ -15,7 +15,7 @@
   "publishedAt": "2026-08-16T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Almost nobody's data problem is the analysis. It's that the export quietly dropped cancelled orders, two dashboards define an active user differently, and the join duplicated eleven percent of the rows. The maths was never the hard part.",
+    "Almost nobody's data problem is the analysis. It's that the export quietly dropped cancelled orders, two dashboards define an active user differently, and the join quietly duplicated a chunk of the rows. The maths was never the hard part.",
     "So the useful thing isn't a tool that runs a regression. It's one that looks at the file properly before it answers, tells you what it found, and shows the working behind every number so you can reproduce it without asking how it was made."
   ],
   "sections": [

@@ -59,7 +59,7 @@
       "roleId": "healthcare",
       "weight": 86,
       "title": "Track follow-ups and outstanding items",
-      "message": "Find the administrative follow-ups, unanswered messages, and commitments I still owe."
+      "message": "Find the administrative follow-ups and commitments I still owe, across the sources I confirm are administrative. Stop and tell me if anything you open holds patient information."
     }
   ]
 }

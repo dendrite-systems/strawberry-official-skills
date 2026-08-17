@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "student",
   "title": "How to use AI as a student",
-  "description": "Understand difficult material, gather sources that hold up to scrutiny, produce what is due, and keep track of a whole term.",
+  "description": "Understand difficult material, gather sources that hold up to scrutiny, strengthen your own drafts, and keep track of a whole term.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -38,8 +38,8 @@
             },
             {
               "href": "#produce-what-is-due",
-              "title": "Produce what is due",
-              "description": "Strengthen your own argument, structure, and evidence into the essay, dataset, or presentation."
+              "title": "Strengthen what you have written",
+              "description": "Pressure-test your own argument, structure, and evidence, and present finished work well."
             },
             {
               "href": "#stay-ahead-of-the-term",
@@ -118,7 +118,7 @@
     },
     {
       "id": "produce-what-is-due",
-      "title": "Produce what is due",
+      "title": "Strengthen what you have written",
       "blocks": [
         {
           "kind": "paragraph",
@@ -130,7 +130,7 @@
             {
               "id": "strawberry/research-analysis/create-beautiful-slide-deck",
               "roleId": "student",
-              "context": "Turn this work into a presentation I can actually present."
+              "context": "Turn my finished work into a presentation I can actually present."
             }
           ]
         }

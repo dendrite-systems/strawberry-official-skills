@@ -43,9 +43,11 @@ One row per jurisdiction, with columns chosen for the decision — typically app
 provisions, scope and thresholds, obligations, enforcement and penalties, and current status.
 
 Then write the part that makes it useful: where the regimes converge, where they genuinely diverge,
-and what an entity operating across all of them has to do in practice. Usually that means
-identifying the strictest regime on each dimension, since that is what a single global policy has to
-satisfy.
+and what an entity operating across all of them has to do in practice. Where a single policy must
+satisfy every regime at once, the strictest position on each dimension is one possible baseline.
+Offer it as that rather than as the legal answer, keep jurisdiction-specific exceptions visible, and
+report an irreconcilable conflict as a conflict rather than resolving it by picking the stricter
+rule.
 
 ## 5. Verify every cell
 

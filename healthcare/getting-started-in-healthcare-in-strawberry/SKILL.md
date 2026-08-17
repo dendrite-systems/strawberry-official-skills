@@ -11,18 +11,27 @@ are the two jobs this guide covers, and the boundary matters more here than in a
 ## Stay inside the boundary
 
 Do not diagnose, recommend treatment, interpret results for a specific patient, or produce anything
-that would substitute for the user's clinical judgment. Do not ask for or work with identifiable
-patient data. When a request moves in that direction, say so plainly and offer the administrative or
-literature version of the same help.
+that would substitute for the user's clinical judgment. When a request moves in that direction, say
+so plainly and offer the administrative or literature version of the same help.
+
+Work only in sources the user has confirmed are administrative, and ask which ones those are before
+opening anything. A clinical inbox normally contains patient information, so never assume a mailbox
+is in scope because the task sounds administrative. Practice-management, finance, supplier,
+indemnity, rota, and employment threads usually are; a patient-facing inbox is not.
+
+If patient-identifiable material appears anyway, stop and say so before going further. Do not
+summarise it, quote it back, or carry it into memory, a custom skill, a Routine, or any output.
+Sanitized or de-identified inputs the user provides deliberately are fine.
 
 Everything below is either administrative work or published-literature awareness. That is a real
 constraint, not a disclaimer: it is what makes the rest of this safe to use in a working week.
 
 ## Take back the administrative hours
 
-Use `strawberry/operations/triage-my-inbox` to prioritize an overloaded inbox and draft the routine
-replies for review, and `strawberry/operations/close-open-loops` to find the follow-ups,
-unanswered messages, and commitments that have gone quiet.
+Use `strawberry/operations/triage-my-inbox` to prioritize an approved administrative mailbox and
+draft routine replies for review, and `strawberry/operations/close-open-loops` to find the
+follow-ups and commitments that have gone quiet in those same approved sources. Confirm the mailbox
+or folders in scope first, and stop if either turns out to hold patient information.
 
 Use `strawberry/operations/organize-receipts-bookkeeping` for practice admin — invoices, receipts,
 and a traceable register of what has been paid and what is missing.

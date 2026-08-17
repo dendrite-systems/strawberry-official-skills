@@ -15,7 +15,7 @@
   "publishedAt": "2026-08-16T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "The analysis is almost never the hard part. The hard part is that the export quietly excluded cancelled orders, the join duplicated eleven percent of the rows, and nobody agrees what counts as an active user anyway.",
+    "The analysis is almost never the hard part. The hard part is that the export quietly excluded cancelled orders, the join duplicated a chunk of the rows, and nobody agrees what counts as an active user anyway.",
     "Which means the most valuable thing here isn't the answer. It's catching the reason the answer would have been wrong, before it's in a slide with your name on it."
   ],
   "sections": [

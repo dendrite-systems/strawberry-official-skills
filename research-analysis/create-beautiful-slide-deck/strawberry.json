@@ -56,8 +56,8 @@
     {
       "roleId": "student",
       "weight": 88,
-      "title": "Turn my work into a presentation",
-      "message": "Turn this work into a clear, well-designed presentation I can actually present."
+      "title": "Present work I have finished",
+      "message": "Turn work I have already finished into a clear, well-designed presentation I can actually present."
     },
     {
       "roleId": "data-analytics",

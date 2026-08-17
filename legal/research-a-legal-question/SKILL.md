@@ -17,9 +17,11 @@ answer. Establish which law applies before searching:
 - The user names a jurisdiction: proceed, but flag it if the facts suggest another country's law
   may actually apply.
 - The user does not name one: ask before researching.
-- The user does not know: work the choice-of-law question from the facts they give — where the
-  parties are, where the contract was formed, where the harm occurred — and confirm your analysis
-  with them before substantive research.
+- The user does not know: identify the plausible regimes and the factors that would decide between
+  them, such as where the parties are, where the contract was formed, and where the harm occurred.
+  Research those regimes as far as is useful, but present the result as a preliminary view rather
+  than a determination. The user or a qualified legal reviewer confirms the governing jurisdiction
+  before anything here is relied on.
 - The question is general and the facts are too thin to determine applicable law: say so explicitly
   in the output, generalise with significant caveats, and recommend the user identify the
   jurisdiction before relying on anything.

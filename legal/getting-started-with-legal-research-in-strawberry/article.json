@@ -74,7 +74,7 @@
           "items": [
             "You name the jurisdiction, and it gets on with it. If the facts point somewhere else, it says so.",
             "You don't name one, and it asks first.",
-            "You're not sure which applies, and it works that out from where the parties are, where the contract was formed, and where the harm happened. Then it checks that reasoning with you before going further."
+            "You're not sure which applies, and it lays out the plausible regimes and what decides between them: where the parties are, where the contract was formed, where the harm happened. Confirming which one governs is yours, or a qualified reviewer's, before anything rests on it."
           ]
         },
         {
@@ -148,7 +148,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "So each jurisdiction gets its own researcher, working independently. They share no context, which is the point: nothing from the German answer can quietly colour the French one. Their findings get synthesised afterwards. It's faster than working through them in sequence, and it's the one part of legal research where running things in parallel genuinely improves the answer rather than just the speed."
+          "text": "So each jurisdiction is researched on its own terms first, and kept apart while that happens. The point is that nothing from the German answer quietly colours the French one. Only once each stands on its own do the findings get compared."
         },
         {
           "kind": "paragraph",
@@ -236,7 +236,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Teams that go further build a companion around the practice area itself. The fifteen or twenty workflows that cover most of your matters, plus the regulatory landscape, the enforcement history, and samples of past work product so it knows what good looks like in your firm. That's real investment up front, and it tends to pay for itself somewhere around the tenth or fifteenth matter."
+          "text": "Teams that go further build a companion around the practice area itself. The workflows that cover most of your matters, plus the regulatory landscape, the enforcement history, and samples of past work product so it knows what good looks like in your firm. That is real investment up front, and it only makes sense where the same kind of matter comes round often enough to repay it."
         },
         {
           "kind": "skills",
