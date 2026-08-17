@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "When a candidate search keeps coming up thin, it is tempting to search harder. But the real problem may be the market definition: the title is too narrow, the best people describe themselves differently, or the location and compensation constraints do not fit together.",
@@ -122,12 +122,12 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Source candidates with evidence",
+      "title": "How to use AI for candidate sourcing",
       "description": "Turn an accepted talent-market definition into a calibrated shortlist.",
       "href": "/blog/ai-candidate-sourcing"
     },
     {
-      "title": "Create a better job description",
+      "title": "How to create a better job description with AI",
       "description": "Clarify the role before testing the talent market.",
       "href": "/blog/ai-job-description"
     }

@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-10T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "AI sales outreach often promises personalization at scale and delivers the opposite: more messages that sound generic, over-researched, or nothing like the person sending them. Useful automation should carry real context and your own judgment from research through sending and follow-up.",
@@ -273,7 +273,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to automate your sales pipeline with AI",
+      "title": "How to use AI for sales",
       "description": "Connect outreach with prospecting, account research, meetings, CRM work, and pipeline decisions.",
       "href": "/playbooks/automate-sales-pipeline"
     },

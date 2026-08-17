@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Inbox triage is usually described as an email problem, but the queue that needs attention may be LinkedIn messages, connection requests, a professional messaging service, or several channels used for different relationships.",
@@ -100,7 +100,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "How to use AI for operations work",
       "description": "Connect inbox triage with daily priorities, meetings, open commitments, and team workflows.",
       "href": "/playbooks/operations"
     }

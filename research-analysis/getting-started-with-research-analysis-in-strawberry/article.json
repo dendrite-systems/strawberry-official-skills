@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Research rarely begins and ends in one place. The useful source may be a company site, a report, a database, a PDF, an old internal document, or a thread that changes how the public evidence should be read. The hard part is keeping the question, sources, and final argument connected as the research grows.",
@@ -226,7 +226,7 @@
       "href": "/playbooks/consulting"
     },
     {
-      "title": "Getting Started with Marketing in Strawberry",
+      "title": "How to use AI for marketing",
       "description": "Use audience, competitor, campaign, content, and performance research inside the marketing system.",
       "href": "/playbooks/marketing"
     },

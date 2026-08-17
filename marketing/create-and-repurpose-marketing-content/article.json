@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Repurposing is useful when the idea survives the move between channels. It fails when one generic draft is shortened five times and presented as a content system.",
@@ -126,7 +126,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Marketing in Strawberry",
+      "title": "How to use AI for marketing",
       "description": "Connect content creation to audience evidence, campaigns, planning, and performance learning.",
       "href": "/playbooks/marketing"
     }

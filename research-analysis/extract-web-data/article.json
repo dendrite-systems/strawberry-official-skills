@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-06-04T04:06:51.757Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Web extraction is valuable when repeated information needs to become a table you can inspect, filter, and use. The hard part is rarely copying text from one page. It is covering the full source, keeping a consistent schema, and knowing which values are missing, uncertain, or stale.",
@@ -89,7 +89,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Turn open-ended research into a decision-ready artifact",
+      "title": "How to use AI for research and analysis",
       "description": "Define the question, evidence standard, and useful final format.",
       "href": "/playbooks/research-analysis"
     },

@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "An interview loop can look organized on the calendar and still leave the team without the evidence it needs. Two people test the same thing, an important criterion has no owner, and the final conversation turns on impressions nobody planned to collect.",
@@ -119,7 +119,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Synthesize interview feedback without losing the evidence",
+      "title": "How to synthesize candidate interview feedback with AI",
       "description": "Bring transcripts, notes, and scorecards into a clear human review.",
       "href": "/blog/ai-candidate-interview-feedback"
     },

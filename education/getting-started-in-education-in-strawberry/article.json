@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "education",
-  "title": "How to use AI to prepare teaching material",
+  "title": "How to use AI for teaching work",
   "description": "Prepare material from current sources, explain a topic at the level your students are actually at, and keep on top of feedback and admin.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Teaching a topic you know well still takes a whole evening to prepare, because the work is not recalling the material. It is finding a current example, deciding which of the four explanations will land with this particular group, and building something that matches the specification they will actually be assessed on.",

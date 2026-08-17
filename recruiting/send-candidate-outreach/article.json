@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "The quickest way to make candidate outreach feel automated is to pretend you know more about someone than you do.",
@@ -114,7 +114,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Source candidates with evidence",
+      "title": "How to use AI for candidate sourcing",
       "description": "Build and approve the shortlist before outreach begins.",
       "href": "/blog/ai-candidate-sourcing"
     }

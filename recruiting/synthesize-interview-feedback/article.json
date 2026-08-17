@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "The difficult part of an interview debrief is rarely collecting opinions. It is working out what the panel actually learned, where people disagree, and whether the most important parts of the role were tested at all.",
@@ -134,7 +134,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Prepare structured candidate interviews",
+      "title": "How to prepare better candidate interviews with AI",
       "description": "Build the scorecard and evidence plan that synthesis relies on.",
       "href": "/blog/ai-candidate-interview-preparation"
     }

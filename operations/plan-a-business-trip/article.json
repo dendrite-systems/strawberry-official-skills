@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A workable business trip depends on more than the fare. The arrival has to fit the meeting, the stay has to suit the location and working pattern, the choice has to fit policy, and each part has to remain available long enough to make a decision.",
@@ -94,7 +94,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "How to use AI for operations work",
       "description": "See how browser-native travel work fits into a broader Operations workflow.",
       "href": "/playbooks/operations"
     }

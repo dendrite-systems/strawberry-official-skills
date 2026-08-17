@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "New teammates are often given plenty to read and very little help deciding what matters first. The company handbook, team pages, project documents, Slack channels, meetings, and access requests arrive as separate pieces, even though the person needs one practical path into the role.",
@@ -104,7 +104,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "How to use AI for operations work",
       "description": "See how onboarding connects with meetings, shared context, and repeatable team workflows.",
       "href": "/playbooks/operations"
     }

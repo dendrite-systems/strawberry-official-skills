@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Invoice and receipt collection is a good example of work that is simple in theory and tedious in practice. The evidence may be split across email, vendor portals, payment records, downloads, and a spreadsheet that only makes sense to the person who assembled it.",
@@ -115,7 +115,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "How to use AI for operations work",
       "description": "Connect recurring finance administration with the wider operating system around it.",
       "href": "/playbooks/operations"
     },

@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "navigation": {
     "title": "Consulting",
@@ -221,17 +221,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Research and Analysis in Strawberry",
+      "title": "How to use AI for research and analysis",
       "description": "See how source finding, extraction, synthesis, comparison, and reporting can support deeper client work.",
       "href": "/playbooks/research-analysis"
     },
     {
-      "title": "Getting Started with Operations in Strawberry",
+      "title": "How to use AI for operations work",
       "description": "See how daily briefs, meetings, updates, open loops, and shared workflows support delivery.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "Getting Started with Sales in Strawberry",
+      "title": "How to use AI for sales",
       "description": "Connect new-business research, meetings, proposals, follow-up, and CRM work before delivery begins.",
       "href": "/playbooks/automate-sales-pipeline"
     }

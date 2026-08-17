@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Professional events usually begin with a short request—find somewhere for the offsite, organize a customer dinner, plan a workshop—and quickly spread across calendars, guest lists, venue pages, vendor emails, budgets, invitations, and a run-of-show.",
@@ -110,17 +110,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Operations in Strawberry",
+      "title": "How to use AI for operations work",
       "description": "See how event planning connects with travel, status updates, and repeatable team workflows.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "Getting Started with Marketing in Strawberry",
+      "title": "How to use AI for marketing",
       "description": "Connect the event with audience insights, campaign planning, content, and performance learning.",
       "href": "/playbooks/marketing"
     },
     {
-      "title": "Getting Started with Sales in Strawberry",
+      "title": "How to use AI for sales",
       "description": "Connect customer events with account research, meeting preparation, follow-up, and relationship context.",
       "href": "/playbooks/automate-sales-pipeline"
     }

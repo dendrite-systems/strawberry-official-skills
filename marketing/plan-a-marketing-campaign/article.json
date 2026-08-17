@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A campaign plan should make a set of choices clear before production and platform work make them expensive to change. A calendar of assets is not enough; the team needs to understand the audience, proposition, channel roles, evidence, risks, and how it will learn.",
@@ -126,7 +126,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Marketing in Strawberry",
+      "title": "How to use AI for marketing",
       "description": "See how campaign planning connects to audience evidence, content, performance, SEO, and competitor work.",
       "href": "/playbooks/marketing"
     }

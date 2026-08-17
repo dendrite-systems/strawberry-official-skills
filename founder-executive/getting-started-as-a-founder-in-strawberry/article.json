@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A founder's day rarely respects functional boundaries. A customer conversation changes the product story. A hiring delay changes the plan. A board question sends you back through a spreadsheet, a meeting, and three Slack threads.",
@@ -249,17 +249,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Sales in Strawberry",
+      "title": "How to use AI for sales",
       "description": "See how prospecting, research, customer conversations, CRM work, and pipeline review fit together.",
       "href": "/playbooks/automate-sales-pipeline"
     },
     {
-      "title": "Getting Started with Recruiting in Strawberry",
+      "title": "Build a hiring process that keeps its context",
       "description": "See how role definition, sourcing, interviews, decisions, and pipeline review fit together.",
       "href": "/playbooks/recruiting"
     },
     {
-      "title": "Getting Started with Marketing in Strawberry",
+      "title": "How to use AI for marketing",
       "description": "Connect audience insights, campaigns, content, and performance to the company's next stage of growth.",
       "href": "/playbooks/marketing"
     }

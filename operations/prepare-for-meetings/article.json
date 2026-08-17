@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "ai-for-meeting-prep",
-  "title": "Prepare for meetings from the context you already have",
+  "title": "How to prepare for any meeting with AI",
   "description": "Turn the calendar event, prior conversations, current work, files, and relevant web context into a concise meeting brief.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-06-04T08:02:52.087Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "The best meeting briefs are short enough to use and specific enough to change the conversation. They help you understand what has changed, ask better questions, and leave with a useful decision or next step without summarizing every attendee and attached document.",
@@ -105,7 +105,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Turn every useful meeting into decisions and follow-up",
+      "title": "How to turn meetings into decisions with AI",
       "description": "Use the reliable meeting record to prepare a debrief and complete the useful follow-through.",
       "href": "/playbooks/strawberry-for-meetings"
     },
@@ -115,7 +115,7 @@
       "href": "/playbooks/ai-daily-brief"
     },
     {
-      "title": "How to track commitments across your tools",
+      "title": "How to track commitments with AI",
       "description": "Follow decisions and promises from meetings into the systems where the work continues.",
       "href": "/playbooks/track-commitments-with-ai"
     }

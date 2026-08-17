@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "ai-dataset-analysis",
-  "title": "How to analyze a spreadsheet with AI",
+  "title": "How to analyze a dataset with AI",
   "description": "Catch the data quality problems first, agree the definitions, answer the question, and show the working behind every number.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "The analysis is almost never the hard part. The hard part is that the export quietly excluded cancelled orders, the join duplicated a chunk of the rows, and nobody agrees what counts as an active user anyway.",
@@ -112,7 +112,7 @@
       "href": "/playbooks/data-analysis"
     },
     {
-      "title": "How to extract data from websites with AI",
+      "title": "Turn websites into a clean, reviewable dataset",
       "description": "For when the dataset you need doesn't exist yet.",
       "href": "/playbooks/ai-data-extraction"
     },

@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Customer onboarding is where the signed agreement, the sales conversation, the product, and the customer's internal reality have to meet. A generic checklist can look organized while missing the outcome the customer actually expects.",
@@ -128,12 +128,12 @@
       "href": "/playbooks/ai-customer-health-review"
     },
     {
-      "title": "Prepare for meetings from the context you already have",
+      "title": "How to prepare for any meeting with AI",
       "description": "Prepare the kickoff or next customer check-in from the goals, stakeholders, and open decisions.",
       "href": "/playbooks/ai-for-meeting-prep"
     },
     {
-      "title": "How to automate your sales pipeline with AI",
+      "title": "How to use AI for sales",
       "description": "See how customer research, commitments, and meeting context can carry into a cleaner handoff.",
       "href": "/playbooks/automate-sales-pipeline"
     }

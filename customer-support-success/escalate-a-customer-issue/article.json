@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A customer escalation often fails in one of two directions. It is either too thin for the receiving team to act on, or it becomes a long ticket history with no clear question. Meanwhile, the customer is still waiting for an update.",
@@ -129,7 +129,7 @@
       "href": "/playbooks/ai-bug-reporting"
     },
     {
-      "title": "How to track commitments across your tools",
+      "title": "How to track commitments with AI",
       "description": "Keep cross-team owners, decisions, and promised updates from slipping through the cracks.",
       "href": "/playbooks/track-commitments-with-ai"
     },

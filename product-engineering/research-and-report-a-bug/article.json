@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A useful bug report connects what the user saw to the environment, expected behavior, reproduction, impact, recent changes, related discussion, and the team's existing issue history. Without that chain, the ticket often sends Engineering back to repeat the investigation.",
@@ -129,7 +129,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Product and Engineering in Strawberry",
+      "title": "How to use AI for product and engineering work",
       "description": "Connect grounded bug reports to browser-based QA, product evidence, specifications, metrics, and team follow-through.",
       "href": "/playbooks/product-engineering"
     }

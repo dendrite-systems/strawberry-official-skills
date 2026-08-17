@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "navigation": {
     "title": "Customer Support & Success",
@@ -280,12 +280,12 @@
       "href": "/playbooks/product-engineering"
     },
     {
-      "title": "How to automate your sales pipeline with AI",
+      "title": "How to use AI for sales",
       "description": "See how account research, meetings, commitments, and customer context can carry into a cleaner handoff.",
       "href": "/playbooks/automate-sales-pipeline"
     },
     {
-      "title": "How to use AI for Operations work",
+      "title": "How to use AI for operations work",
       "description": "Connect customer work with meetings, open loops, status updates, and shared team workflows.",
       "href": "/playbooks/operations"
     }

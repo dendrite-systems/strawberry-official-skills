@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Client reporting eats a particular kind of afternoon. The numbers live in four tools that don't agree, half the context is in an email thread, and the actual writing is the last twenty minutes of a three-hour job.",
@@ -106,7 +106,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for agency work",
+      "title": "Build an agency that delivers without losing context",
       "description": "The wider system: winning clients, delivery, and keeping accounts separate.",
       "href": "/playbooks/agency-work"
     },

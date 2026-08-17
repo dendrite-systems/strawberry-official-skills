@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "automate-sales-pipeline",
-  "title": "How to automate your sales pipeline with AI",
+  "title": "How to use AI for sales",
   "description": "Learn how Strawberry's Sales skills can help with prospecting, research, customer conversations, CRM updates, and pipeline review.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Sales teams rarely have the full picture in one place. The CRM shows part of it; the rest is spread across emails, meeting notes, LinkedIn, company websites, and the other tabs your team uses. Pulling that picture together again for every prospect, meeting, and follow-up takes time.",
@@ -249,17 +249,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started as a Founder in Strawberry",
+      "title": "How to use AI as a founder",
       "description": "Connect customer growth with company visibility, fundraising, hiring, and the rest of the founder's work.",
       "href": "/playbooks/founder-executive"
     },
     {
-      "title": "Getting Started with Marketing in Strawberry",
+      "title": "How to use AI for marketing",
       "description": "See how audience insights, campaigns, content, and performance can support the same customer journey.",
       "href": "/playbooks/marketing"
     },
     {
-      "title": "Getting Started with Operations in Strawberry",
+      "title": "How to use AI for operations work",
       "description": "Connect sales meetings and pipeline work with daily attention, open loops, status updates, and team workflows.",
       "href": "/playbooks/operations"
     }

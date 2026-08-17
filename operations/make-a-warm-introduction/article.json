@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A good warm introduction depends on more than finding a shared contact. The intermediary needs a real relationship, the reason for connecting should make sense to both sides, and private context should not leak into a message simply because it helped identify the path.",
@@ -147,12 +147,12 @@
       "href": "/playbooks/venture-capital-investing"
     },
     {
-      "title": "How to use AI for Operations work",
+      "title": "How to use AI for operations work",
       "description": "Use introductions alongside meetings, open loops, and team follow-through.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "Getting Started as a Founder in Strawberry",
+      "title": "How to use AI as a founder",
       "description": "Connect introductions with fundraising, hiring, customers, and company building.",
       "href": "/playbooks/founder-executive"
     }

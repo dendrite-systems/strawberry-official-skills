@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Almost nobody's data problem is the analysis. It's that the export quietly dropped cancelled orders, two dashboards define an active user differently, and the join quietly duplicated a chunk of the rows. The maths was never the hard part.",
@@ -262,7 +262,7 @@
       "href": "/playbooks/research-analysis"
     },
     {
-      "title": "How to extract data from websites with AI",
+      "title": "Turn websites into a clean, reviewable dataset",
       "description": "Build the dataset itself when the numbers you need are spread across many pages.",
       "href": "/playbooks/ai-data-extraction"
     },

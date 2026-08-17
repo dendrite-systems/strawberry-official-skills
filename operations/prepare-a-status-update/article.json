@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Writing a status update is often less work than assembling one. Before the first sentence, someone has to check the project record, recent meetings, team messages, a dashboard, and the last update to work out what has actually changed.",
@@ -100,7 +100,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "How to use AI for operations work",
       "description": "Connect status updates with daily priorities, open commitments, and meeting preparation.",
       "href": "/playbooks/operations"
     }

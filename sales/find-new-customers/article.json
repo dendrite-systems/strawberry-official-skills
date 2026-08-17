@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-09T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "AI sales prospecting should help you find customers who fit for a reason—not produce another giant lead list for someone to clean up. The useful result is a smaller set of companies you can understand, challenge, and confidently act on.",
@@ -138,7 +138,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to automate your sales pipeline with AI",
+      "title": "How to use AI for sales",
       "description": "Connect prospecting with research, meetings, follow-up, CRM work, and pipeline decisions.",
       "href": "/playbooks/automate-sales-pipeline"
     },

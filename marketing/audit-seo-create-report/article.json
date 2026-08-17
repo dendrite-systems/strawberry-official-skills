@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "An SEO audit can produce hundreds of findings and still avoid the decision: what should the team do next? The useful work is connecting search demand, site performance, content, technical constraints, competitors, product fit, and conversion value into a credible priority.",
@@ -128,7 +128,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Marketing in Strawberry",
+      "title": "How to use AI for marketing",
       "description": "Connect SEO decisions to audience evidence, content planning, competitor work, and performance learning.",
       "href": "/playbooks/marketing"
     }

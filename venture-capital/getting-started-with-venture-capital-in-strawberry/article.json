@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "navigation": {
     "title": "Venture Capital & Investing",
@@ -300,17 +300,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started as a Founder in Strawberry",
+      "title": "How to use AI as a founder",
       "description": "See how fundraising, customer growth, hiring, and company visibility fit together from the founder's side.",
       "href": "/playbooks/founder-executive"
     },
     {
-      "title": "Getting Started with Research and Analysis in Strawberry",
+      "title": "How to use AI for research and analysis",
       "description": "Explore the broader research workflows behind market maps, company work, and sourced decision artifacts.",
       "href": "/playbooks/research-analysis"
     },
     {
-      "title": "Getting Started with Operations in Strawberry",
+      "title": "How to use AI for operations work",
       "description": "Connect meetings, introductions, updates, and open-loop follow-through across the firm.",
       "href": "/playbooks/operations"
     }

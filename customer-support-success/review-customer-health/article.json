@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Customer health is easy to oversimplify. Product usage can look strong while a critical issue remains unresolved. A quiet champion may signal risk, or they may simply be busy. A score is only useful when the team agrees on what it means and can inspect the evidence behind it.",
@@ -139,7 +139,7 @@
       "href": "/playbooks/ai-customer-onboarding"
     },
     {
-      "title": "Prepare for meetings from the context you already have",
+      "title": "How to prepare for any meeting with AI",
       "description": "Carry the current account picture into a customer check-in, QBR, renewal, or escalation.",
       "href": "/playbooks/ai-for-meeting-prep"
     },

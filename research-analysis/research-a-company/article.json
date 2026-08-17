@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Ask most AI tools about a company and the answer comes back in the same shape every time: what it does, roughly how big it is, when it raised money, a few recent headlines. That is reasonable background, and it is almost never the thing you needed. If you are deciding whether to build on someone's API, the question that matters is how often it breaks and how they behave when it does—which no company profile contains.",

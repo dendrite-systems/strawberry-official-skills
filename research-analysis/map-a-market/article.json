@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A spreadsheet of company names is not yet a market map. The useful part is seeing how the landscape fits together: which categories matter, where the important relationships sit, what the current view covers, and what it means for the decision in front of you.",
@@ -137,7 +137,7 @@
       "href": "/playbooks/research-analysis"
     },
     {
-      "title": "How to automate your sales pipeline with AI",
+      "title": "How to use AI for sales",
       "description": "Turn an accepted market into focused prospecting and sales work.",
       "href": "/playbooks/automate-sales-pipeline"
     },

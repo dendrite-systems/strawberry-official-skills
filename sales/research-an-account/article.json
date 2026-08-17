@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-11T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Most AI account research ends with a company summary. You get a few facts and generic talking points—then still have to work out what they mean for the decision in front of you.",
@@ -157,7 +157,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to automate your sales pipeline with AI",
+      "title": "How to use AI for sales",
       "description": "See how account research connects with prospecting, meetings, outreach, CRM work, and pipeline decisions.",
       "href": "/playbooks/automate-sales-pipeline"
     }

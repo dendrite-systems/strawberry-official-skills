@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "navigation": {
     "title": "Finance",
@@ -222,12 +222,12 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "How to use AI for operations work",
       "description": "Connect finance work with status, meetings, decisions, and follow-through.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "Getting Started as a Founder in Strawberry",
+      "title": "How to use AI as a founder",
       "description": "See how the financial picture connects with company priorities, fundraising, hiring, and growth.",
       "href": "/playbooks/founder-executive"
     },

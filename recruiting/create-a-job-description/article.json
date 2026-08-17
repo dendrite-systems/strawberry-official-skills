@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A job description often starts as three different things at once: a business need, a hiring wish list, and the page candidates will use to decide whether the role is worth considering.",
@@ -106,7 +106,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Map a talent market before sourcing",
+      "title": "How to map a talent market with AI",
       "description": "Test the title, target backgrounds, geography, compensation, and supply.",
       "href": "/blog/ai-talent-market-mapping"
     },

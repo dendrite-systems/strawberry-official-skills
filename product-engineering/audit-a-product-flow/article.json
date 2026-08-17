@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A product audit should show what happened in the experience, not merely generate a test plan. The useful record connects the expected behavior, environment, steps, screenshots, browser evidence, passes, regressions, and uncertainty.",
@@ -128,7 +128,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Product and Engineering in Strawberry",
+      "title": "How to use AI for product and engineering work",
       "description": "Connect browser-based QA to product evidence, specifications, metrics, grounded issues, and team follow-through.",
       "href": "/playbooks/product-engineering"
     }

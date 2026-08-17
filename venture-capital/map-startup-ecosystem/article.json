@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A useful startup map explains how a market is forming: which companies define it, where talent and capital are moving, who is investing, and which relationships matter. A long list of company names does not answer those questions.",
@@ -112,12 +112,12 @@
       "href": "/playbooks/venture-capital-investing"
     },
     {
-      "title": "Getting Started with Research and Analysis in Strawberry",
+      "title": "How to use AI for research and analysis",
       "description": "Explore broader market, company, and evidence-led research workflows.",
       "href": "/playbooks/research-analysis"
     },
     {
-      "title": "Getting Started as a Founder in Strawberry",
+      "title": "How to use AI as a founder",
       "description": "See how founders use market evidence in growth, fundraising, hiring, and company decisions.",
       "href": "/playbooks/founder-executive"
     }

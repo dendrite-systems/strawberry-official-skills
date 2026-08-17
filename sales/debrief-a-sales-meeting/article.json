@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-11T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A good sales meeting creates momentum. A bad handoff after the meeting loses it. Notes sit in one place, the promised follow-up waits in someone’s head, and the CRM still tells yesterday’s story.",
@@ -163,7 +163,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Prepare for meetings from the context you already have",
+      "title": "How to prepare for any meeting with AI",
       "description": "Turn calendar, relationship, company, and recent activity into a concise brief for the conversation ahead.",
       "href": "/blog/ai-for-meeting-prep"
     },

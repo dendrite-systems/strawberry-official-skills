@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "operations",
-  "title": "How to use AI for Operations work",
+  "title": "How to use AI for operations work",
   "description": "Use AI across inboxes, meetings, projects, onboarding, travel, events, and team workflows without losing context or control.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-07-24T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Operations work often starts with a simple question—what needs attention today?—and turns into checking the calendar, Slack, email, project tools, meeting notes, and a few browser tabs before anyone can answer it. The next step may be an update, an introduction, a new teammate's access, or a booking that still needs to happen somewhere else.",
@@ -292,17 +292,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started as a Founder in Strawberry",
+      "title": "How to use AI as a founder",
       "description": "See how daily attention, company visibility, company building, and team leverage connect for founders.",
       "href": "/playbooks/founder-executive"
     },
     {
-      "title": "Getting Started with Consulting in Strawberry",
+      "title": "How to use AI for consulting work",
       "description": "See how research, proposals, meetings, recommendations, and delivery can share the same context.",
       "href": "/playbooks/consulting"
     },
     {
-      "title": "Getting Started with Sales in Strawberry",
+      "title": "How to use AI for sales",
       "description": "Connect meetings, pipeline decisions, CRM work, and follow-through with the wider sales system.",
       "href": "/playbooks/automate-sales-pipeline"
     }

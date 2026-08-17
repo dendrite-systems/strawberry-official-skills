@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "track-commitments-with-ai",
-  "title": "How to track commitments across your tools",
+  "title": "How to track commitments with AI",
   "description": "Use AI to find promises, follow-ups, ownership gaps, and conflicting status across meetings, messages, tasks, and project tools.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A surprising amount of Operations work begins with a vague feeling that something has been missed. Someone promised an introduction, a meeting ended with an owner, or a decision was made—but the message, task, and project record no longer tell the same story.",
@@ -100,7 +100,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "How to use AI for Operations work",
+      "title": "How to use AI for operations work",
       "description": "See how open-loop audits connect with daily briefings, meetings, and status updates.",
       "href": "/playbooks/operations"
     }

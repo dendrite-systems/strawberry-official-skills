@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/oliver-jones.png",
     "avatarAlt": "Oliver Jones"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "A product metric can look familiar while meaning something different in every dashboard. Before a trend changes a roadmap or launch decision, the team needs to agree on the behavior, population, denominator, time window, source, exclusions, and limits behind it.",
@@ -113,7 +113,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Product and Engineering in Strawberry",
+      "title": "How to use AI for product and engineering work",
       "description": "Connect product metrics to customer evidence, specifications, browser-based QA, and delivery learning.",
       "href": "/playbooks/product-engineering"
     }

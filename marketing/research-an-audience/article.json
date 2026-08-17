@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-15T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Audience research becomes dangerous when a handful of vivid quotes turns into a precise-looking persona. Interviews, reviews, communities, search behavior, analytics, and campaign data can all help—but they describe different populations and answer different questions.",
@@ -132,7 +132,7 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Marketing in Strawberry",
+      "title": "How to use AI for marketing",
       "description": "Connect audience evidence to campaigns, content, performance learning, SEO, and competitor work.",
       "href": "/playbooks/marketing"
     }

@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-16T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Recruiting gets fragmented quickly. The role lives in a document, candidates are spread across LinkedIn and the ATS, interview evidence sits in notes and transcripts, and the reason behind a decision is often still in someone's head.",
@@ -219,17 +219,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started as a Founder in Strawberry",
+      "title": "How to use AI as a founder",
       "description": "See how hiring fits alongside company priorities, growth, fundraising, and team leverage.",
       "href": "/playbooks/founder-executive"
     },
     {
-      "title": "Getting Started with Operations in Strawberry",
+      "title": "How to use AI for operations work",
       "description": "See how meetings, open loops, updates, and onboarding support the hiring process.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "Getting Started with Research and Analysis in Strawberry",
+      "title": "How to use AI for research and analysis",
       "description": "Use deeper source finding, market mapping, synthesis, and comparison when the talent question needs it.",
       "href": "/playbooks/research-analysis"
     }

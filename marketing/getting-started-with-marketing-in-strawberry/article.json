@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-14T00:00:00.000Z",
+  "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
     "Marketing teams rarely struggle for lack of ideas. The harder part is keeping audience insights, campaign decisions, content, and results connected when the work moves across analytics, ad platforms, customer conversations, documents, and the live web.",
@@ -228,17 +228,17 @@
   "videos": [],
   "relatedLinks": [
     {
-      "title": "Getting Started with Sales in Strawberry",
+      "title": "How to use AI for sales",
       "description": "See how market research, account evidence, customer conversations, and pipeline learning connect to Sales.",
       "href": "/playbooks/automate-sales-pipeline"
     },
     {
-      "title": "Getting Started with Operations in Strawberry",
+      "title": "How to use AI for operations work",
       "description": "See how recurring briefs, updates, meetings, and shared workflows can support the marketing system.",
       "href": "/playbooks/operations"
     },
     {
-      "title": "Getting Started with Research and Analysis in Strawberry",
+      "title": "How to use AI for research and analysis",
       "description": "Go deeper on source finding, market mapping, web extraction, synthesis, comparison, and reporting.",
       "href": "/playbooks/research-analysis"
     }
