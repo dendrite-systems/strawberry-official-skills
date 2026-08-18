@@ -39,6 +39,9 @@ owners, and required fields. Decide whether the source supports a new record, fi
 activity, follow-up, or no update. One source may support several changes, but do not force every
 interaction into every record type.
 
+Identify fields managed by formulas, automations, or integrations. Update their source fields
+instead of overwriting derived values.
+
 Keep states accurate. A draft, planned send, sequence enrollment, actual send, reply, booked meeting,
 and completed meeting are different events. Do not record intended work as completed activity.
 
