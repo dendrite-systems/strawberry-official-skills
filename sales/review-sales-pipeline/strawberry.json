@@ -4,6 +4,7 @@
   "summary": "Turn CRM and recent deal context into clear priorities, risks, and next actions.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Review my pipeline and tell me where to focus.",
   "useCases": [
     {
       "roleId": "sales-business-development",

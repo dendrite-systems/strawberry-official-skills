@@ -4,6 +4,7 @@
   "summary": "Turn a completed meeting into grounded decisions, actions, follow-up drafts, and proposed updates to the right systems.",
   "icon": "files",
   "tags": [],
+  "examplePrompt": "Debrief my last meeting.",
   "useCases": [
     {
       "roleId": "operations-chief-of-staff",

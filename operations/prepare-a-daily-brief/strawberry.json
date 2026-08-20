@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "What deserves my attention today?",
   "useCases": [
     {
       "roleId": "operations-chief-of-staff",

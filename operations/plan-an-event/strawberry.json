@@ -4,6 +4,7 @@
   "summary": "Plan a professional event across the concept, venues, vendors, budget, invitations, logistics, and run-of-show.",
   "icon": "calendar",
   "tags": [],
+  "examplePrompt": "Help me plan our next company event.",
   "useCases": [
     {
       "roleId": "operations-chief-of-staff",

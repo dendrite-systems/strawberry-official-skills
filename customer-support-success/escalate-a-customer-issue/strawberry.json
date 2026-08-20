@@ -4,6 +4,7 @@
   "summary": "Package customer impact, evidence, history, current communication, and the exact internal ask for the right owner.",
   "icon": "files",
   "tags": [],
+  "examplePrompt": "Escalate this customer issue.",
   "useCases": [
     {
       "roleId": "customer-support-success",

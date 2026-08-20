@@ -4,6 +4,7 @@
   "summary": "Turn a completed sales conversation into a clear debrief, follow-up, CRM changes, and next actions.",
   "icon": "files",
   "tags": ["good-first-skill"],
+  "examplePrompt": "Turn my last sales call into next steps.",
   "useCases": [
     {
       "roleId": "sales-business-development",

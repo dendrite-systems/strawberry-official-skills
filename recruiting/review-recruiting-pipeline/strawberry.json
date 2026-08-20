@@ -4,6 +4,7 @@
   "summary": "Review hiring priorities, stalled candidates, evidence gaps, candidate-experience risks, ATS corrections, and whether pipeline coverage can support stated goals.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Review my recruiting pipeline.",
   "useCases": [
     { "roleId": "recruiting-people", "weight": 102, "title": "Review our recruiting pipeline", "message": "Review our recruiting pipeline against our hiring goals, show the coverage conclusion and evidence, and recommend the best handoff without starting it." },
     { "roleId": "founder-executive", "weight": 86, "title": "Check whether hiring is on track", "message": "Tell me whether our current candidate pipeline can plausibly support this hiring goal and what deserves attention next." }

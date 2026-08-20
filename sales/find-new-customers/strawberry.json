@@ -6,30 +6,31 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Find me leads that match my ICP.",
   "useCases": [
     {
       "roleId": "founder-executive",
       "weight": 112,
-      "title": "Find my company 30 new customers",
-      "message": "I want to find 30 new customers for my company."
+      "title": "Find my company new customers",
+      "message": "I want to find new customers for my company, and understand why each one fits."
     },
     {
       "roleId": "sales-business-development",
       "weight": 116,
-      "title": "Find me 30 new leads",
-      "message": "I want to find 30 new leads."
+      "title": "Find new leads that fit",
+      "message": "I want to find new leads that fit what we sell, and understand why each one fits."
     },
     {
       "roleId": "agency",
       "weight": 108,
-      "title": "Find my agency 30 new clients",
-      "message": "I want to find 30 new clients for my agency."
+      "title": "Find my agency new clients",
+      "message": "I want to find new clients for my agency, and understand why each one fits."
     },
     {
       "roleId": "consultant",
       "weight": 104,
-      "title": "Find me 30 new clients",
-      "message": "I want to find 30 new consulting clients."
+      "title": "Find me new consulting clients",
+      "message": "I want to find new consulting clients, and understand why each one fits."
     },
     {
       "roleId": "marketing-content",

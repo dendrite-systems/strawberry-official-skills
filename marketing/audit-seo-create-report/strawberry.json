@@ -4,6 +4,7 @@
   "summary": "Audit a website's search performance and turn technical, content, and competitive findings into a prioritized report with practical next actions.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Audit our SEO and tell me what to fix first.",
   "useCases": [
     {
       "roleId": "marketing-content",

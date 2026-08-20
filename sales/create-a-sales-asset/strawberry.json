@@ -4,6 +4,7 @@
   "summary": "Turn real account context into a customer-ready one-pager, deck, page, or interactive asset.",
   "icon": "presentation",
   "tags": [],
+  "examplePrompt": "Create a one-pager for this account.",
   "useCases": [
     {
       "roleId": "sales-business-development",

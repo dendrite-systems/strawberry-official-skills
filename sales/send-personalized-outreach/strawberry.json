@@ -4,6 +4,7 @@
   "summary": "Research, write, send, and improve outreach that sounds like you.",
   "icon": "inbox",
   "tags": [],
+  "examplePrompt": "Write personalized outreach for this list.",
   "useCases": [
     {
       "roleId": "sales-business-development",

@@ -4,6 +4,7 @@
   "summary": "Turn an accepted product problem into a source-linked specification with clear flows, requirements, edge cases, dependencies, and acceptance criteria.",
   "icon": "files",
   "tags": [],
+  "examplePrompt": "Write a spec for this feature.",
   "useCases": [
     {
       "roleId": "engineering-development",

@@ -4,6 +4,7 @@
   "summary": "Turn audience, campaign, SEO, product, and performance evidence into a practical plan of themes, formats, briefs, owners, and reuse.",
   "icon": "files",
   "tags": [],
+  "examplePrompt": "Build a content plan for next quarter.",
   "useCases": [
     {
       "roleId": "marketing-content",

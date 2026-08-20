@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Show me what's slipping through the cracks.",
   "useCases": [
     {
       "roleId": "operations-chief-of-staff",

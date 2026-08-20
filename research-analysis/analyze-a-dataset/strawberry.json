@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Analyze this dataset for me.",
   "useCases": [
     {
       "roleId": "data-analytics",

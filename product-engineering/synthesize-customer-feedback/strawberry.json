@@ -4,6 +4,7 @@
   "summary": "Turn approved feedback into source-linked product themes, tensions, examples, gaps, and confidence without automatically prioritizing the roadmap.",
   "icon": "people",
   "tags": [],
+  "examplePrompt": "What are customers actually telling us?",
   "useCases": [
     {
       "roleId": "engineering-development",

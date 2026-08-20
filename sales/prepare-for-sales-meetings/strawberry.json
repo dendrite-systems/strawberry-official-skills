@@ -4,6 +4,7 @@
   "summary": "Turn calendar, relationship, and account context into a concise sales meeting brief.",
   "icon": "calendar",
   "tags": [],
+  "examplePrompt": "Prepare me for my next sales meeting.",
   "useCases": [
     {
       "roleId": "sales-business-development",

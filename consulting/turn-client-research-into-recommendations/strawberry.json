@@ -4,6 +4,7 @@
   "summary": "Compare credible options and turn client evidence into a defensible recommendation and decision-ready artifact.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Turn my client research into a recommendation.",
   "useCases": [
     {
       "roleId": "consultant",

@@ -4,6 +4,7 @@
   "summary": "Define a useful product metric framework or review real performance with clear definitions, source quality, trends, segments, and implications.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Review our product metrics.",
   "useCases": [
     {
       "roleId": "engineering-development",

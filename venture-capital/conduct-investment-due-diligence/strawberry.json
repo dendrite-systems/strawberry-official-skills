@@ -4,6 +4,7 @@
   "summary": "Test material underwriting questions and produce a traceable diligence record.",
   "icon": "files",
   "tags": [],
+  "examplePrompt": "Run diligence on this investment.",
   "useCases": [
     {
       "roleId": "venture-capital",

@@ -4,6 +4,7 @@
   "summary": "Add and verify the company or contact fields your sales process needs.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Fill in the missing fields on this lead list.",
   "useCases": [
     {
       "roleId": "sales-business-development",

@@ -4,6 +4,7 @@
   "summary": "Research and build an approval-ready campaign plan with a clear audience, proposition, channel roles, assets, owners, measurement, and risks.",
   "icon": "calendar",
   "tags": [],
+  "examplePrompt": "Plan our next marketing campaign.",
   "useCases": [
     {
       "roleId": "marketing-content",

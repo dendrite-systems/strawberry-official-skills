@@ -4,6 +4,7 @@
   "summary": "Turn a topic, source material, or body of work into a polished visual slide deck. Use when the user wants a pitch, report, presentation, portfolio, achievement deck, or other narrative presentation rather than a plain text document.",
   "icon": "presentation",
   "tags": [],
+  "examplePrompt": "Turn this into a beautiful deck.",
   "useCases": [
     {
       "roleId": "marketing-content",

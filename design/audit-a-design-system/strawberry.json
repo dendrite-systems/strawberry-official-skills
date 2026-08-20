@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Find where our UI has drifted from the design system.",
   "useCases": [
     {
       "roleId": "design",

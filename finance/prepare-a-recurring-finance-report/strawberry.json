@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Prepare this month's finance report.",
   "useCases": [
     {
       "roleId": "finance",

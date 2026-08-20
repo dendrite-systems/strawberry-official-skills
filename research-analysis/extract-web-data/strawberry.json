@@ -4,6 +4,7 @@
   "summary": "Research websites and extract repeated structured information into a clean spreadsheet or dataset. Use for company lists, market maps, directories, public records, product comparisons, or other research requiring tens or hundreds of consistent rows.",
   "icon": "files",
   "tags": [],
+  "examplePrompt": "Turn these websites into a clean spreadsheet.",
   "useCases": [
     {
       "roleId": "data-analytics",

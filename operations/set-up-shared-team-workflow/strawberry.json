@@ -4,6 +4,7 @@
   "summary": "Turn a proven individual workflow into a reusable team method with ownership, privacy boundaries, a verified handoff, and a precise Routine.",
   "icon": "people",
   "tags": [],
+  "examplePrompt": "Turn this workflow into something my team can run.",
   "useCases": [
     {
       "roleId": "operations-chief-of-staff",

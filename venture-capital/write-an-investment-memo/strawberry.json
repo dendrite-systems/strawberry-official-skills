@@ -4,6 +4,7 @@
   "summary": "Turn research and diligence into a clear, source-linked investment decision record.",
   "icon": "files",
   "tags": [],
+  "examplePrompt": "Write an investment memo for this company.",
   "useCases": [
     {
       "roleId": "venture-capital",
