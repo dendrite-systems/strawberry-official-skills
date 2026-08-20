@@ -4,6 +4,7 @@
   "summary": "Answer the same legal question across several jurisdictions in one like-for-like table, and explain what the differences mean in practice.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Compare this question across jurisdictions.",
   "useCases": [
     {
       "roleId": "legal",

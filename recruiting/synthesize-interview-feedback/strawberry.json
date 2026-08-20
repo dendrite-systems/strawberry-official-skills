@@ -4,6 +4,7 @@
   "summary": "Map interview transcripts and panel feedback to an accepted scorecard while separating evidence, candidate claims, inference, contradictions, and unknowns.",
   "icon": "files",
   "tags": [],
+  "examplePrompt": "Pull our interview feedback into one scorecard.",
   "useCases": [
     { "roleId": "recruiting-people", "weight": 106, "title": "Synthesize interview feedback", "message": "Synthesize this interview set against the accepted scorecard and prepare an evidence-backed draft assessment for qualified human review." },
     { "roleId": "founder-executive", "weight": 82, "title": "Prepare a candidate debrief", "message": "Turn the panel feedback into a clear evidence map with contradictions, unknowns, and the human decisions still required." }

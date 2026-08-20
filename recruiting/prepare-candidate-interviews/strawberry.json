@@ -4,6 +4,7 @@
   "summary": "Create a structured interview plan with interviewer ownership, candidate briefs, job-related questions, probes, scoring anchors, and evidence coverage.",
   "icon": "calendar",
   "tags": [],
+  "examplePrompt": "Build an interview loop for this role.",
   "useCases": [
     { "roleId": "recruiting-people", "weight": 108, "title": "Prepare a structured interview loop", "message": "Create a structured interview plan for this candidate and role, with interviewer ownership, questions, probes, and scorecards." },
     { "roleId": "founder-executive", "weight": 84, "title": "Prepare for a candidate interview", "message": "Prepare me for this candidate interview using the role criteria and evidence we still need to test." }

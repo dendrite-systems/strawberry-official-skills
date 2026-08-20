@@ -4,6 +4,7 @@
   "summary": "Find a reliable answer across approved sources, reconcile conflicts, and prepare a customer-ready response.",
   "icon": "binoculars",
   "tags": [],
+  "examplePrompt": "Help me answer this customer's question.",
   "useCases": [
     {
       "roleId": "customer-support-success",

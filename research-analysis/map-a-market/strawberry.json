@@ -4,6 +4,7 @@
   "summary": "Build a sourced market landscape with a decision-specific taxonomy, representative entities, relationships, coverage, patterns, uncertainty, and implications.",
   "icon": "binoculars",
   "tags": ["good-first-skill"],
+  "examplePrompt": "Map this market for me.",
   "useCases": [
     { "roleId": "research-analysis", "weight": 114, "title": "Map a market landscape", "message": "Map this market as a sourced landscape of entities, categories, relationships, signals, coverage, uncertainty, and implications." },
     { "roleId": "sales-business-development", "weight": 108, "title": "Map a target market", "message": "Map this target market, define the relevant account universe, show whitespace and concentration, and recommend where prospecting should focus." },

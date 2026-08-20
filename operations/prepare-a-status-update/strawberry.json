@@ -4,6 +4,7 @@
   "summary": "Turn current work into a concise, source-backed update for the people who need it.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Write a status update on my current work.",
   "useCases": [
     {
       "roleId": "operations-chief-of-staff",

@@ -4,6 +4,7 @@
   "summary": "Turn a new law, enforcement action, or guidance into a briefing covering scope, obligations, penalties, and dates, pitched at its audience.",
   "icon": "files",
   "tags": [],
+  "examplePrompt": "Brief me on this new regulation.",
   "useCases": [
     {
       "roleId": "legal",

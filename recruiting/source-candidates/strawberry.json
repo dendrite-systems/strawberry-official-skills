@@ -4,6 +4,7 @@
   "summary": "Build an evidence-backed candidate shortlist with fit assessments, source and ATS context, and an optional internal review or ATS-ready artifact.",
   "icon": "binoculars",
   "tags": ["good-first-skill"],
+  "examplePrompt": "Source candidates for this open role.",
   "useCases": [
     { "roleId": "recruiting-people", "weight": 116, "title": "Source and review candidates for an open role", "message": "Build a calibrated shortlist for this role with evidence-backed fit assessments, then prepare it for internal team review or an approved ATS upload." },
     { "roleId": "founder-executive", "weight": 98, "title": "Find strong candidates for a key hire", "message": "Help me source a small, evidence-backed first set of candidates for this key role before we expand the search." },

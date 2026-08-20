@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Research the audience I'm designing for.",
   "useCases": [
     {
       "roleId": "marketing-content",

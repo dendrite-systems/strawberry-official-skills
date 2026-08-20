@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Organize my receipts and invoices for bookkeeping.",
   "useCases": [
     {
       "roleId": "finance",

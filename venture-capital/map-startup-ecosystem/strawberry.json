@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Map the startup ecosystem in this market.",
   "useCases": [
     {
       "roleId": "venture-capital",

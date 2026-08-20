@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "How healthy is this customer account?",
   "useCases": [
     {
       "roleId": "customer-support-success",

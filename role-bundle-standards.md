@@ -128,10 +128,12 @@ They share a recognizable journey without forcing every skill into the same temp
   authored copy above it; reserve expanded cards for entries that stand on their own. Use authored
   inline emphasis sparingly for genuine scan anchors such as a key decision or Strawberry concept;
   when helpful, emphasize the first meaningful mention of a named concept such as **Routine**, not
-  every repetition. A
-  focused article should place one quiet, tailored “Want to try it?” invitation above the first
-  instance of its own skill card, using the reviewed starting message. Do not repeat the invitation
-  above later instances of that card or above adjacent workflow cards.
+  every repetition. A focused article opens with an activation panel built from catalog metadata:
+  a short invitation, the skill's slash command, and its `examplePrompt`. Nothing about it is
+  authored per article, so do not write a "Want to try it?" line into the sections. The article's
+  own skill card is hoisted into that panel out of the section where it would first appear, so
+  author that reference in its natural place and let the page relocate it. A second reference to
+  the same skill stays inline only when its `context` says something genuinely different.
 - **Close at the right reuse layer:** When feedback makes a workflow meaningfully reusable, explain
   the next layer near the end in plain language: share the finished result when teammates only need
   the output; save and share a team skill when they should follow the same method; share the wider

@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Triage this customer request.",
   "useCases": [
     {
       "roleId": "customer-support-success",

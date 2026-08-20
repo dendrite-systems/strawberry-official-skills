@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Reproduce this bug and write it up.",
   "useCases": [
     {
       "roleId": "engineering-development",

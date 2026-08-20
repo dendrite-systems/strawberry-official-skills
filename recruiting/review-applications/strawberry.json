@@ -4,6 +4,7 @@
   "summary": "Prepare evidence-backed application reviews and a separate human review set without automatically rejecting, advancing, ranking, or changing applicant records.",
   "icon": "sparkles",
   "tags": [],
+  "examplePrompt": "Review the applications for this role.",
   "useCases": [
     { "roleId": "recruiting-people", "weight": 110, "title": "Review an application backlog", "message": "Review these applications against our accepted criteria, show the evidence and unknowns, and prepare a separate set for human review." },
     { "roleId": "founder-executive", "weight": 82, "title": "Review applicants for a key role", "message": "Help me review these applicants consistently without making or executing the hiring decision." }

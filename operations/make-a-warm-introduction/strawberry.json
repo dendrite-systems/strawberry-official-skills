@@ -4,6 +4,7 @@
   "summary": "Find a credible network path and prepare a considerate, permission-aware introduction.",
   "icon": "people",
   "tags": [],
+  "examplePrompt": "Find me a warm intro to this person.",
   "useCases": [
     {
       "roleId": "operations-chief-of-staff",

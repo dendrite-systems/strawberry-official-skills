@@ -4,6 +4,7 @@
   "summary": "Prepare a focused fundraising process with a clear story, evidence, target investors, and next actions.",
   "icon": "presentation",
   "tags": [],
+  "examplePrompt": "Help me prepare my next fundraise.",
   "useCases": [
     {
       "roleId": "founder-executive",

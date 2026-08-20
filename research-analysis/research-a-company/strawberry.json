@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Research this company.",
   "useCases": [
     {
       "roleId": "research-analysis",

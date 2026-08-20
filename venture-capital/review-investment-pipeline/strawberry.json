@@ -4,6 +4,7 @@
   "summary": "Turn pipeline and recent context into priorities, missing evidence, and next actions.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Review my investment pipeline.",
   "useCases": [
     {
       "roleId": "venture-capital",

@@ -4,6 +4,7 @@
   "summary": "Turn accepted work into one reliable brief for delivery, evidence, communication, systems, risks, and client restrictions.",
   "icon": "files",
   "tags": ["good-first-skill"],
+  "examplePrompt": "Turn our new client win into an engagement brief.",
   "useCases": [
     {
       "roleId": "agency",

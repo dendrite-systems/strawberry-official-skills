@@ -4,6 +4,7 @@
   "summary": "Build a role-aware context pack, setup plan, first-week path, and verified onboarding handoff.",
   "icon": "people",
   "tags": [],
+  "examplePrompt": "Plan onboarding for our new hire.",
   "useCases": [
     {
       "roleId": "operations-chief-of-staff",

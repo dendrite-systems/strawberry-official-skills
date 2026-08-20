@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Triage my inbox.",
   "useCases": [
     {
       "roleId": "operations-chief-of-staff",

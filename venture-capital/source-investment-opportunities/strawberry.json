@@ -4,6 +4,7 @@
   "summary": "Find and qualify a calibrated set of companies against an investor's real thesis.",
   "icon": "people",
   "tags": [],
+  "examplePrompt": "Find companies that match my thesis.",
   "useCases": [
     {
       "roleId": "venture-capital",

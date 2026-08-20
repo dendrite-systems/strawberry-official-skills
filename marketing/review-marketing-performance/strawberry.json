@@ -4,6 +4,7 @@
   "summary": "Reconcile marketing definitions and evidence, explain meaningful performance changes, and recommend the next decision or experiment.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Review our marketing performance.",
   "useCases": [
     {
       "roleId": "marketing-content",

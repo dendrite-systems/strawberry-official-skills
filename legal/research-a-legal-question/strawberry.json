@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Research this legal question.",
   "useCases": [
     {
       "roleId": "legal",

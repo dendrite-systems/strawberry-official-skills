@@ -4,6 +4,7 @@
   "summary": "Map title variants, target employers, adjacent backgrounds, sources, geography, compensation constraints, representative profiles, and supply risks before sourcing.",
   "icon": "binoculars",
   "tags": ["good-first-skill"],
+  "examplePrompt": "Map the talent market for this role.",
   "useCases": [
     { "roleId": "recruiting-people", "weight": 112, "title": "Map the talent market for a role", "message": "Map the talent market for this role, including titles, target employers, adjacent backgrounds, geography, compensation constraints, representative profiles, and supply risks." },
     { "roleId": "founder-executive", "weight": 94, "title": "Test whether this hiring market is feasible", "message": "Help me understand whether this role is feasible in our market and which search levers we should consider before sourcing." }

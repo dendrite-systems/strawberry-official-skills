@@ -4,6 +4,7 @@
   "summary": "Find and explain material company changes without producing a stream of weak alerts.",
   "icon": "inbox",
   "tags": [],
+  "examplePrompt": "What changed at this portfolio company?",
   "useCases": [
     {
       "roleId": "venture-capital",

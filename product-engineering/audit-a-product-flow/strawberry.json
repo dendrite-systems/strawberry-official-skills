@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Test this product flow and tell me what breaks.",
   "useCases": [
     {
       "roleId": "engineering-development",

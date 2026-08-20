@@ -4,6 +4,7 @@
   "summary": "Build or update an assumption-led forecast with decision scenarios, cash, and runway where relevant.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Build a forecast for next quarter.",
   "useCases": [
     {
       "roleId": "finance",

@@ -4,6 +4,7 @@
   "summary": "Turn an RFP, discovery record, and approved commercial context into a clear proposal ready for review.",
   "icon": "files",
   "tags": ["good-first-skill"],
+  "examplePrompt": "Write a proposal for this client opportunity.",
   "useCases": [
     {
       "roleId": "consultant",

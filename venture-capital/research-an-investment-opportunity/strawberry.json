@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Research this investment opportunity.",
   "useCases": [
     {
       "roleId": "venture-capital",

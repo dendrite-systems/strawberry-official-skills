@@ -4,6 +4,7 @@
   "summary": "Turn approved emails, meetings, and sales activity into reviewable CRM updates.",
   "icon": "inbox",
   "tags": [],
+  "examplePrompt": "Update my CRM from this week's activity.",
   "useCases": [
     {
       "roleId": "sales-business-development",

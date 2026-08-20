@@ -6,6 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
+  "examplePrompt": "Prepare me for my next meeting.",
   "useCases": [
     {
       "roleId": "operations-chief-of-staff",

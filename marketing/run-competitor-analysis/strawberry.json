@@ -4,6 +4,7 @@
   "summary": "Compare competitors with current, source-linked evidence and turn the findings into implications for a real business decision.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Compare us against our top competitors.",
   "useCases": [
     {
       "roleId": "marketing-content",

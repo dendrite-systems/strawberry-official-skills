@@ -4,6 +4,7 @@
   "summary": "Understand a company, relationship, and way forward with sourced research.",
   "icon": "binoculars",
   "tags": [],
+  "examplePrompt": "Research this account and find me a way in.",
   "useCases": [
     {
       "roleId": "sales-business-development",

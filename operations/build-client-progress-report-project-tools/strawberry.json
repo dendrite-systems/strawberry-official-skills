@@ -4,6 +4,7 @@
   "summary": "Pull project updates and email context into a clean client report.",
   "icon": "chart",
   "tags": [],
+  "examplePrompt": "Build this client's monthly progress report.",
   "useCases": [
     {
       "roleId": "operations-chief-of-staff",

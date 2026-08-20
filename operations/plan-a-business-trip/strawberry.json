@@ -4,6 +4,7 @@
   "summary": "Compare a coherent work itinerary, complete approved bookings, and organize confirmations, calendars, and sharing.",
   "icon": "calendar",
   "tags": [],
+  "examplePrompt": "Plan my business trip.",
   "useCases": [
     {
       "roleId": "operations-chief-of-staff",
