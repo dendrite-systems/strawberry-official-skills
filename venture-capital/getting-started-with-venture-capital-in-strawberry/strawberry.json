@@ -12,12 +12,6 @@
       "weight": 122,
       "title": "Getting Started with Venture Capital in Strawberry",
       "message": "Show me how Strawberry can support my investment view, deal flow, diligence, decisions, and portfolio work, then help me choose a useful first task."
-    },
-    {
-      "roleId": "founder-executive",
-      "weight": 70,
-      "title": "Explore venture investing workflows",
-      "message": "Show me how Strawberry can help with private-market company, investor, market, and portfolio research."
     }
   ]
 }
