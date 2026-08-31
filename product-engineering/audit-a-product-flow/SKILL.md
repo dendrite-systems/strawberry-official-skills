@@ -74,7 +74,7 @@ blocked paths, exclusions, cleanup state, and remaining uncertainty. Lead with f
 change a release or product decision.
 
 When a finding should become a grounded issue, use
-`strawberry/product-engineering/research-and-report-a-bug` with the audit evidence. Do not create
+`strawberry/product-engineering/report-bug` with the audit evidence. Do not create
 an issue solely because something looked surprising; first establish the expected behavior,
 impact, and duplicate status.
 

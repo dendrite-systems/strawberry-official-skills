@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Resolve a Support Case",
+  "summary": "Carry out an approved support resolution once, verify the provider result, and reconcile the durable case record.",
+  "icon": "inbox",
+  "tags": [],
+  "examplePrompt": "Resolve this approved support case.",
+  "useCases": [
+    {
+      "roleId": "customer-support-success",
+      "weight": 106,
+      "title": "Resolve a support case",
+      "message": "Carry out the approved resolution for this support case, verify the result, and reconcile the customer and case records without duplicating any action."
+    }
+  ]
+}

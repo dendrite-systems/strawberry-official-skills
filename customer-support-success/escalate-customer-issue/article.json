@@ -31,7 +31,7 @@
           "kind": "skills",
           "items": [
             {
-              "id": "strawberry/customer-support-success/escalate-a-customer-issue",
+              "id": "strawberry/customer-support-success/escalate-customer-issue",
               "roleId": "customer-support-success",
               "context": "Build an actionable escalation while keeping the customer impact and communication owned."
             }
@@ -92,7 +92,7 @@
           "kind": "skills",
           "items": [
             {
-              "id": "strawberry/product-engineering/research-and-report-a-bug",
+              "id": "strawberry/product-engineering/report-bug",
               "roleId": "customer-support-success",
               "context": "Research and reproduce a product bug, find duplicate issues, and prepare or file the engineering record."
             }

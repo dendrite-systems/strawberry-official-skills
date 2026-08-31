@@ -31,7 +31,7 @@
           "kind": "skills",
           "items": [
             {
-              "id": "strawberry/product-engineering/research-and-report-a-bug",
+              "id": "strawberry/product-engineering/report-bug",
               "roleId": "engineering-development",
               "context": "Research unexpected behavior, find the relevant team and code context, search for duplicates, and prepare or file a grounded issue within scope."
             }

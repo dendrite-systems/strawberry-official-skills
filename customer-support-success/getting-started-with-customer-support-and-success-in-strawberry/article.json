@@ -131,7 +131,7 @@
               "title": "Triage the request",
               "text": "Assess impact and urgency, check for known context, and make the owner, next action, and first response clear.",
               "skill": {
-                "id": "strawberry/customer-support-success/triage-a-customer-request",
+                "id": "strawberry/customer-support-success/triage-support-queue",
                 "roleId": "customer-support-success",
                 "context": "Triage this customer request using the team's actual rules and current context."
               }
@@ -140,7 +140,7 @@
               "title": "Research the answer",
               "text": "Reconcile product docs, help content, account history, prior cases, and current sources into a reliable customer response.",
               "skill": {
-                "id": "strawberry/customer-support-success/research-and-answer-a-customer-question",
+                "id": "strawberry/customer-support-success/investigate-support-case",
                 "roleId": "customer-support-success",
                 "context": "Find the strongest available answer and prepare a response for this customer and channel."
               }
@@ -164,7 +164,7 @@
               "title": "Give the next team an actionable brief",
               "text": "Package the customer impact and the specific investigation, decision, or exception the receiving team needs to own.",
               "skill": {
-                "id": "strawberry/customer-support-success/escalate-a-customer-issue",
+                "id": "strawberry/customer-support-success/escalate-customer-issue",
                 "roleId": "customer-support-success",
                 "context": "Prepare the customer-impact brief, current communication, exact internal ask, and next owner."
               }
@@ -173,7 +173,7 @@
               "title": "Turn a product problem into an engineering issue",
               "text": "Reproduce the problem, inspect the technical context, check for duplicates, and prepare a grounded issue record.",
               "skill": {
-                "id": "strawberry/product-engineering/research-and-report-a-bug",
+                "id": "strawberry/product-engineering/report-bug",
                 "roleId": "customer-support-success",
                 "context": "Research and report the product bug while keeping customer-specific context appropriately scoped."
               }

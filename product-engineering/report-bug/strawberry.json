@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "displayName": "Research and Report a Bug",
-  "summary": "Reproduce and research unexpected behavior, find duplicates, and prepare or file a privacy-safe issue in the team's actual ticketing system.",
+  "displayName": "Report a Bug",
+  "summary": "Reproduce unexpected behavior, find duplicates, and prepare or file a privacy-safe issue at a calibrated priority.",
   "icon": "code",
   "tags": [
     "good-first-skill"
   ],
-  "examplePrompt": "Reproduce this bug and write it up.",
+  "examplePrompt": "Report this bug.",
   "useCases": [
     {
       "roleId": "engineering-development",
       "weight": 112,
-      "title": "Research and report a bug",
+      "title": "Report a bug",
       "message": "Research this product problem, check the relevant team and code context, search our actual ticketing system for duplicates, and prepare or file a grounded issue within the current permission."
     },
     {
       "roleId": "customer-support-success",
       "weight": 94,
-      "title": "Research and report a customer bug",
+      "title": "Report a customer bug",
       "message": "Research and reproduce this customer-reported product problem, check team and code context, find duplicate issues, and prepare or file a grounded issue while keeping sensitive customer data out of broad engineering records."
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "displayName": "Getting Started with Customer Support and Success in Strawberry",
-  "summary": "Connect customer context, request handling, escalation, onboarding, health, and learning, then choose a useful first workflow.",
+  "summary": "Choose a distinct Support or Customer Success path, connect the right context, and complete a useful first workflow.",
   "icon": "people",
   "tags": [
     "getting-started-guide"
@@ -11,7 +11,7 @@
       "roleId": "customer-support-success",
       "weight": 122,
       "title": "Getting Started with Customer Support and Success in Strawberry",
-      "message": "Show me how Strawberry can help across Customer Support and Success, then help me choose a useful workflow from the customer work already in front of me."
+      "message": "Show me the distinct Support and Customer Success paths in Strawberry, then help me choose a useful workflow from the customer work already in front of me."
     },
     {
       "roleId": "founder-executive",

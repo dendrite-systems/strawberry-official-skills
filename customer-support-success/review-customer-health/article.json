@@ -115,7 +115,7 @@
               "context": "Prepare the customer conversation from the current goals, health, history, and open decisions."
             },
             {
-              "id": "strawberry/customer-support-success/escalate-a-customer-issue",
+              "id": "strawberry/customer-support-success/escalate-customer-issue",
               "roleId": "customer-support-success",
               "context": "Package unresolved customer impact for the internal owner who needs to act."
             }

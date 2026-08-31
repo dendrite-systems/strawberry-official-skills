@@ -73,7 +73,7 @@ capture screenshots and relevant console or network evidence, and return passes,
 blocked paths, scope, and uncertainty. Public live sites support read-only inspection. Prefer
 staging, preview environments, or dedicated test accounts for authenticated or stateful paths.
 
-Use `strawberry/product-engineering/research-and-report-a-bug` when unexpected behavior needs a
+Use `strawberry/product-engineering/report-bug` when unexpected behavior needs a
 grounded issue. It may inspect approved Slack or Teams discussion, GitHub context and recent
 changes, logs, monitoring, existing issues, and the team's actual ticketing system. It searches for
 duplicates and drafts or files the report according to the active scoped permission.
