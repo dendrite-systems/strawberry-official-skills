@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Set Up Support Like Strawberry",
+  "summary": "Map the support stack, learn from resolved cases, prepare context and records, test focused skills, and propose reliable Routines.",
+  "icon": "sparkles",
+  "tags": [],
+  "examplePrompt": "Set up our support system. Start with the roadmap and learn from resolved cases.",
+  "useCases": [
+    {
+      "roleId": "customer-support-success",
+      "weight": 118,
+      "title": "Set up a connected support system",
+      "message": "Set up our customer-support system using the Strawberry playbook. Show me the roadmap first, inspect what we already use and our resolved cases, then prepare changes for review before connecting tools or creating records, skills, or Routines."
+    },
+    {
+      "roleId": "operations-chief-of-staff",
+      "weight": 90,
+      "title": "Build a reliable support workflow",
+      "message": "Help us map and prepare a reliable support workflow across our current tools, records, policies, approvals, and team handoffs before we automate it."
+    },
+    {
+      "roleId": "founder-executive",
+      "weight": 88,
+      "title": "Rebuild how our team runs Support",
+      "message": "Use the Strawberry support playbook to show me what our team should keep, change, and test before we automate customer support."
+    }
+  ]
+}

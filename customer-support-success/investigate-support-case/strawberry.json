@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "displayName": "Investigate a Support Case",
+  "summary": "Investigate a support case across approved sources, reconcile conflicts, and prepare a grounded customer-ready answer.",
+  "icon": "binoculars",
+  "tags": [],
+  "examplePrompt": "Investigate this support case.",
+  "useCases": [
+    {
+      "roleId": "customer-support-success",
+      "weight": 110,
+      "title": "Investigate a support case",
+      "message": "Investigate this support case across our approved sources, reconcile any conflicts, and prepare an accurate response with the evidence and review needs clear."
+    }
+  ]
+}

@@ -116,7 +116,7 @@
           "kind": "skills",
           "items": [
             {
-              "id": "strawberry/product-engineering/research-and-report-a-bug",
+              "id": "strawberry/product-engineering/report-bug",
               "roleId": "engineering-development",
               "context": "Connect the audit evidence to team, repository, and ticket context, search for duplicates, and prepare or file a grounded issue."
             }

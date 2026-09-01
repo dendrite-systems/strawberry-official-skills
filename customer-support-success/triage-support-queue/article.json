@@ -31,7 +31,7 @@
           "kind": "skills",
           "items": [
             {
-              "id": "strawberry/customer-support-success/triage-a-customer-request",
+              "id": "strawberry/customer-support-success/triage-support-queue",
               "roleId": "customer-support-success",
               "context": "Assess the request using the team's actual impact, priority, SLA, ownership, and escalation rules."
             }
@@ -107,12 +107,12 @@
           "kind": "skills",
           "items": [
             {
-              "id": "strawberry/customer-support-success/research-and-answer-a-customer-question",
+              "id": "strawberry/customer-support-success/investigate-support-case",
               "roleId": "customer-support-success",
               "context": "Research the answer when the available support context is incomplete or contradictory."
             },
             {
-              "id": "strawberry/customer-support-success/escalate-a-customer-issue",
+              "id": "strawberry/customer-support-success/escalate-customer-issue",
               "roleId": "customer-support-success",
               "context": "Prepare a complete customer-impact brief when another team needs to act."
             }

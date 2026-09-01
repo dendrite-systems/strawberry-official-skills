@@ -33,15 +33,22 @@ Support often moves from request to context, response or escalation, resolution,
 Success may begin with onboarding, a health review, or a planned conversation. Enter where the
 customer work needs attention now.
 
-## Choose a useful first result
+## Choose a Support or Success path
 
 Understand the customer or account, current request or goal, decision due, channel, deadline, and
 available evidence. Use approved context already available before asking the user to repeat it.
 
-If the user is unsure where to begin, recommend a small, situational set such as:
+For reactive Support work, begin with the current case or queue. Recommend a small, situational set
+such as:
 
-- triage the next customer request and prepare the right first response;
-- research a question the team cannot answer confidently;
+- set up a connected support system before scaling repeated work;
+- triage one case or a queue and prepare the right next action;
+- investigate a case the team cannot answer confidently; or
+- carry an approved resolution through verification and reconciliation.
+
+For proactive Customer Success work, begin with the account goal or signal. Recommend a small,
+situational set such as:
+
 - review one customer account for progress, risk, and next steps; or
 - turn a confirmed new customer into an owned onboarding plan.
 
@@ -50,17 +57,22 @@ result; do not require the entire customer stack before helping.
 
 ## Route each job to its owner
 
-- **Triage a request:** read `strawberry/customer-support-success/triage-a-customer-request`.
-- **Research and answer a question:** read
-  `strawberry/customer-support-success/research-and-answer-a-customer-question`.
+- **Set up a support system:** read
+  `strawberry/customer-support-success/set-up-support-like-strawberry`.
+- **Triage one support case or a queue:** read
+  `strawberry/customer-support-success/triage-support-queue`.
+- **Investigate a support case:** read
+  `strawberry/customer-support-success/investigate-support-case`.
+- **Carry out an approved resolution:** read
+  `strawberry/customer-support-success/resolve-support-case`.
 - **Package a customer escalation:** read
-  `strawberry/customer-support-success/escalate-a-customer-issue`.
+  `strawberry/customer-support-success/escalate-customer-issue`.
 - **Create or update customer documentation:** read
   `strawberry/customer-support-success/create-or-update-a-help-center-article`.
 - **Onboard a customer:** read `strawberry/customer-support-success/onboard-a-customer`.
 - **Review customer health:** read `strawberry/customer-support-success/review-customer-health`.
 - **Research, reproduce, and report a product bug:** use
-  `strawberry/product-engineering/research-and-report-a-bug`. Support owns customer impact and
+  `strawberry/product-engineering/report-bug`. Support owns customer impact and
   communication; Product and Engineering owns product evidence and the issue record.
 - **Synthesize recurring feedback for Product:** use
   `strawberry/product-engineering/synthesize-customer-feedback`.
@@ -74,9 +86,11 @@ If no focused skill fits, help normally rather than forcing the work into the cl
 
 ## Learn without leaking customer context
 
-When tone, priority, routing, or health rules are new, calibrate with a small, varied set before
-scaling. Preserve accepted sources, tone, definitions, ownership, and review rules after they prove
-durable. Keep customer-specific private context out of broad trend reports and reusable methods.
+When tone, priority, routing, or health rules are new, calibrate with a representative, varied set
+before scaling. Start with enough history to see patterns, then widen the set when a case type or
+pattern is missing. Preserve accepted sources, tone, definitions, ownership, and review rules after
+they prove durable. Keep customer-specific private context out of broad trend reports and reusable
+methods.
 
 Share an approved artifact when teammates only need the result. Save a team skill when the group
 should use the same method. Share the full companion when they need the same ongoing customer

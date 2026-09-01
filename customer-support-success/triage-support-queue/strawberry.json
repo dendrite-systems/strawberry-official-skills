@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "displayName": "Triage a Customer Request",
-  "summary": "Assess impact and urgency, check known context, and prepare the right owner, next action, and first response.",
+  "displayName": "Triage a Support Queue",
+  "summary": "Triage one support case or a queue, apply the team's rules, and route each case to a clear next action.",
   "icon": "inbox",
   "tags": [
     "good-first-skill"
   ],
-  "examplePrompt": "Triage this customer request.",
+  "examplePrompt": "Triage this support queue.",
   "useCases": [
     {
       "roleId": "customer-support-success",
       "weight": 116,
-      "title": "Triage a customer request",
-      "message": "Triage this customer request using our actual priority, SLA, ownership, and escalation rules, then prepare the right next action and first response."
+      "title": "Triage a support queue",
+      "message": "Triage this support queue using our actual priority, SLA, ownership, and escalation rules, then prepare the right next action for each case."
     },
     {
       "roleId": "operations-chief-of-staff",

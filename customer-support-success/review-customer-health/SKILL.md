@@ -56,7 +56,7 @@ Lead with the current outcome, material changes, and next decision. Include as u
 - a prioritized next-action plan.
 
 Use `strawberry/operations/prepare-for-meetings` when the next job is a QBR, EBR, check-in, renewal,
-or other customer conversation. Use `strawberry/customer-support-success/escalate-a-customer-issue`
+or other customer conversation. Use `strawberry/customer-support-success/escalate-customer-issue`
 when unresolved impact needs a cross-functional escalation.
 
 ## 5. Keep the view current and controlled

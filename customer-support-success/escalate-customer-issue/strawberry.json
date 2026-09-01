@@ -9,7 +9,7 @@
     {
       "roleId": "customer-support-success",
       "weight": 104,
-      "title": "Escalate a customer issue",
+      "title": "Escalate a Customer Issue",
       "message": "Prepare a grounded escalation for this customer issue with the impact, timeline, evidence, current communication, exact internal ask, and next owner clear."
     },
     {

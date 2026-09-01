@@ -31,7 +31,7 @@
           "kind": "skills",
           "items": [
             {
-              "id": "strawberry/customer-support-success/research-and-answer-a-customer-question",
+              "id": "strawberry/customer-support-success/investigate-support-case",
               "roleId": "customer-support-success",
               "context": "Find the strongest available answer and prepare a response that fits this customer and channel."
             }
