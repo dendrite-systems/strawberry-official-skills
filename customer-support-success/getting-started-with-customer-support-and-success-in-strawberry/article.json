@@ -26,8 +26,8 @@
   },
   "introduction": [
     "A customer writes in: I bought credits, they never arrived, and now I can't use the product. That is the whole ticket. Before anyone can reply, someone has to open the payment processor, the credit ledger, the account's live balance, and the app logs, and hope the timestamps agree with each other.",
-    "Strawberry is a browser with AI companions that work across the tabs and apps your team is already signed into. For support, that means a companion can do that checking before you open the ticket, put the events in order, and keep each claim next to the record it came from. The ticket arrives with the history assembled and a recommendation: answer it, escalate it, or turn it into engineering work.",
-    "Every example on this page comes from our own support queue, with the customers anonymized. We run our support through a companion we call Fritz, and the skills below are the portable version of how it works."
+    "Fritz, the companion that runs our support, had already done that checking before anyone opened the ticket. Strawberry is a browser with AI companions that work across the tabs and apps your team is signed into, and Fritz uses that to put the events in order and keep each claim next to the record it came from. The ticket arrives with the history assembled and a recommendation: answer it, escalate it, or turn it into engineering work.",
+    "Every case on this page is from our own queue, anonymized, handled by Fritz. The skills below are the portable version of how it works."
   ],
   "sections": [
     {
@@ -81,7 +81,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Back to the customer whose credits never arrived. Strawberry checked the payment processor, the credit grant, the usage ledger, the live balance, and the app's own event log. The payment had gone through. The credits landed about two seconds later. The complaint came roughly six minutes after that, with no usage in between. The money was right and the balance was right. The window the customer was looking at was showing a stale counter."
+          "text": "Back to the customer whose credits never arrived. Fritz checked the payment processor, the credit grant, the usage ledger, the live balance, and the app's own event log. The payment had gone through. The credits landed about two seconds later. The complaint came roughly six minutes after that, with no usage in between. The money was right and the balance was right. The window the customer was looking at was showing a stale counter."
         },
         {
           "kind": "paragraph",
@@ -89,7 +89,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "The same habit matters for accounts, not only tickets. One of our customer champions looked inactive: chat usage flat, credit usage flat, the usual cue to send a worried check-in. Strawberry widened the check to browser and integration activity first. In about three and a half minutes it found more than 1,500 background actions across five connected tools, including 172 calendar calls during the three quiet days. The champion had stopped typing and let the product run. The second seat on the account had almost no activity of any kind, and that was the person who needed onboarding."
+          "text": "The same habit matters for accounts, not only tickets. One of our customer champions looked inactive: chat usage flat, credit usage flat, the usual cue to send a worried check-in. Fritz widened the check to browser and integration activity first. In about three and a half minutes it found more than 1,500 background actions across five connected tools, including 172 calendar calls during the three quiet days. The champion had stopped typing and let the product run. The second seat on the account had almost no activity of any kind, and that was the person who needed onboarding."
         },
         {
           "kind": "skill-lanes",
@@ -131,11 +131,11 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The reply Strawberry drafted for the missing-credits customer did not open with an apology for a problem that had not happened. It confirmed the payment and the credit grant, with times, explained that the balance on screen was out of date, gave the relaunch steps, and said what engineering was now looking at. Short and specific, because every line had been checked against a record before it was written."
+          "text": "The reply Fritz drafted for the missing-credits customer did not open with an apology for a problem that had not happened. It confirmed the payment and the credit grant, with times, explained that the balance on screen was out of date, gave the relaunch steps, and said what engineering was now looking at. Short and specific, because every line had been checked against a record before it was written."
         },
         {
           "kind": "paragraph",
-          "text": "The opposite mistake is just as easy. A customer wrote in frustrated that they were paying but being treated as a free user. The account they wrote from was on the free plan and had hit its limit, so a shallow check would have told them they were wrong. Strawberry compared the customer's other logins, found the paid subscription sitting on a different one, corrected the internal diagnosis, and emailed them which login held the plan. About twelve minutes from complaint to answer."
+          "text": "The opposite mistake is just as easy. A customer wrote in frustrated that they were paying but being treated as a free user. The account they wrote from was on the free plan and had hit its limit, so a shallow check would have told them they were wrong. Fritz compared the customer's other logins, found the paid subscription sitting on a different one, corrected the internal diagnosis, and emailed them which login held the plan. About twelve minutes from complaint to answer."
         },
         {
           "kind": "paragraph",
@@ -176,7 +176,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Here is what Strawberry did with it, in under thirty minutes:"
+          "text": "Here is what Fritz did with it, in under thirty minutes:"
         },
         {
           "kind": "list",
@@ -265,7 +265,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A recruiting team sent one thread with four complaints in it: a licensing change they believed had happened, search failures getting worse, agents getting stuck, and credits going missing. The tempting move is to find one cause and explain everything with it. Strawberry refused to assume the four shared a cause."
+          "text": "A recruiting team sent one thread with four complaints in it: a licensing change they believed had happened, search failures getting worse, agents getting stuck, and credits going missing. The tempting move is to find one cause and explain everything with it. Fritz refused to assume the four shared a cause."
         },
         {
           "kind": "paragraph",
@@ -340,7 +340,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "One customer had been trying to cancel for nearly a month. Earlier automated replies kept telling them the request was with the team. No handoff had happened and no cancellation had happened, only the language of action. Strawberry reconciled the conversation against the live subscription and the latest payment, carried out the approved cancellation and refund, re-read the final account state, and confirmed the result in the customer's original channel, about 25 minutes from start to finish. Saying something was done and doing it are different actions, and Strawberry checks the second before it claims the first."
+          "text": "One customer had been trying to cancel for nearly a month. Earlier automated replies kept telling them the request was with the team. No handoff had happened and no cancellation had happened, only the language of action. Fritz reconciled the conversation against the live subscription and the latest payment, carried out the approved cancellation and refund, re-read the final account state, and confirmed the result in the customer's original channel, about 25 minutes from start to finish. Saying something was done and doing it are different actions, and Fritz checks the second before it claims the first."
         }
       ]
     }
