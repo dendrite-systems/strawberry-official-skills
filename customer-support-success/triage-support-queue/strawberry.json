@@ -6,7 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
-  "examplePrompt": "Triage this support queue.",
+  "examplePrompt": "Forty tickets came in overnight. Which three do I look at before standup?",
   "useCases": [
     {
       "roleId": "customer-support-success",
