@@ -25,12 +25,10 @@
     "order": 9
   },
   "introduction": [
-    "A customer sends in a ticket: \"I bought credits, they never arrived, and now I can't use the product.\"",
-    "That's the whole ticket.",
-    "So the chase begins. Open the payment processor. Check the credit ledger, then the account's live balance, then the app logs. Hope the timestamps agree with each other.",
-    "Work that makes you feel like a robot should be done by a robot.",
-    "Strawberry is a browser with AI companions built in. A companion is an AI teammate that works in the tabs and apps your team is already signed into, so it can run that chase for you: open the records, put the events in order, and keep every claim next to where it came from. The ticket reaches you with the story assembled and a recommendation: answer it, escalate it, or hand it to engineering.",
-    "That's how we run our own support. Our companion is called Fritz, and every case on this page came out of its queue, anonymized."
+    "A support ticket rarely contains everything needed to resolve it. A billing complaint may mean checking the payment, the account state, recent product activity, and whether the customer is even looking at current information. An account that looks inactive may be running plenty of work through browser actions or connected tools rather than chat.",
+    "The slow part is rarely writing the response. It is finding and reconciling the information needed to give the right one.",
+    "Strawberry is a browser with AI companions built in. A companion works across the tabs and apps your team already uses, so it can bring together the relevant context, work out what happened, and prepare the next action for your review. Depending on the case, that context may include the support thread, account history, billing state, product activity, documentation, previous commitments, and known issues. It pulls in only the sources the question in front of you needs.",
+    "That is how we run our own support. Our internal support companion is called Fritz, and the anonymized examples in this guide are based on patterns from its work."
   ],
   "sections": [
     {
@@ -42,7 +40,7 @@
           "items": [
             {
               "href": "#reconstruct-the-customer-story",
-              "title": "See the full story behind a ticket",
+              "title": "Bring together the context behind a ticket",
               "icon": "search-check"
             },
             {
@@ -52,7 +50,7 @@
             },
             {
               "href": "#escalate-to-a-human",
-              "title": "Automatically escalate to a human",
+              "title": "Prepare a complete handoff",
               "icon": "user-round-check"
             },
             {
@@ -62,7 +60,7 @@
             },
             {
               "href": "#turn-answers-into-knowledge",
-              "title": "Turn resolved tickets into help docs",
+              "title": "Turn resolutions into support knowledge",
               "icon": "book-open-check"
             }
           ]
@@ -80,27 +78,23 @@
     },
     {
       "id": "reconstruct-the-customer-story",
-      "title": "See the full story behind a ticket",
+      "title": "Bring together the context behind a ticket",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A ticket says what the customer wrote today. The answer usually lives somewhere else: last month's thread, a promise in the CRM, a usage change, a Slack message about a known bug. Strawberry pulls those together before you reply and keeps each claim next to where it came from."
+          "text": "Use this when a ticket, an account, or an upcoming call needs more than what the customer wrote today. Strawberry reads the current message, then checks the surrounding records: the earlier thread, account and billing state, recent product activity, prior commitments, and known issues. It prepares a short account of what happened, with each claim linked to its source, and flags where the records disagree."
         },
         {
           "kind": "paragraph",
-          "text": "Take the credits that never arrived. Fritz, the companion that handles our own support, checked the payment processor, the credit grant, the usage ledger, the live balance, and the app's event log."
+          "text": "In one of our own cases, a customer reported that purchased credits had never arrived. The payment and account records were correct; the app was showing an outdated balance. Checking the ticket alone would have led to a refund or a duplicate credit grant. Strawberry separated the customer response from the product issue and prepared both for review."
         },
         {
           "kind": "paragraph",
-          "text": "Payment: succeeded. Credits: landed about two seconds later. Complaint: roughly six minutes after that, with no usage in between. The money was right and the balance was right. The customer's window was showing a stale counter."
+          "text": "A customer can be right about what they see even when the records are correct. The reverse happens too: an account that looks quiet in chat may be running substantial work through connected tools. In another case, that wider check turned a churn worry into an onboarding task for a different seat on the same account."
         },
         {
           "kind": "paragraph",
-          "text": "So no refund and no second grant. The customer needed relaunch steps. Engineering needed to know that a counter can go stale after a top-up. A look at the ticket alone would have produced a kind, fast, wrong answer."
-        },
-        {
-          "kind": "paragraph",
-          "text": "The same habit matters for accounts. One of our customer champions looked inactive: chat usage flat, credit usage flat, the usual cue for a worried check-in. Fritz widened the check to browser and integration activity first and found more than 1,500 background actions across five connected tools in three supposedly quiet days. The champion had stopped typing and let the product run. The second seat on the account had almost nothing, and that was the person who needed onboarding."
+          "text": "Nothing is sent at this stage. You get the reconstructed story and decide what happens next."
         },
         {
           "kind": "skill-lanes",
@@ -142,19 +136,19 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Drop in a ticket or point Strawberry at the queue. It checks the full thread, the customer's history, current docs, known issues, and your team's actual policy before it suggests a reply. Priority and escalation follow your rules, not a severity score it invented."
+          "text": "Use this when you are ready to answer, or when a queue needs sorting. Strawberry checks the full thread, the customer's history, current documentation, known issues, and your team's policy before it suggests a reply. For a queue, it applies your own priority and escalation rules rather than a severity score it invented."
         },
         {
           "kind": "paragraph",
-          "text": "When Fritz, our support companion, drafted the reply for the missing-credits customer, it did not apologize for a problem that hadn't happened. It confirmed the payment and the grant, with times, explained that the balance on screen was stale, gave the relaunch steps, and said what engineering was looking at."
+          "text": "It prepares a reply you can send, with the facts it relied on beside it, and a clear next action for cases that are not ready to answer."
         },
         {
           "kind": "paragraph",
-          "text": "The opposite mistake is just as easy. A customer wrote in, annoyed that they were paying but being treated as a free user. The account they wrote from was free and had hit its limit. A shallow check would have told them they were wrong."
+          "text": "In one of our cases, a customer complained about being treated as a free user despite paying. The account they wrote from really was on the free plan; the paid subscription sat on another login. A shallow check would have told the customer they were wrong. Strawberry compared the customer's logins and prepared a reply that pointed them to the right one."
         },
         {
           "kind": "paragraph",
-          "text": "Fritz compared their other logins, found the paid subscription on a different one, and emailed them which login held the plan. Twelve minutes, complaint to answer."
+          "text": "Sending stays with you. The draft is checked against the records, but a person reads it before it goes out."
         },
         {
           "kind": "skill-lanes",
@@ -183,34 +177,19 @@
     },
     {
       "id": "escalate-to-a-human",
-      "title": "Automatically escalate to a human",
+      "title": "Prepare a complete handoff when another team needs to help",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Engineering should never receive a link to a mystery ticket. Once you approve the route and the boundaries, Strawberry recognizes when a case needs another team and prepares the handoff: impact, timeline, what has been tried, and the one decision the receiving team owns. Customer-identifying detail stays in support."
+          "text": "Use this when a case needs engineering, billing, or another specialist team. Strawberry checks the customer's timeline, what has already been tried, related reports, and the relevant product area. It prepares a handoff the receiving team can act on: impact, timeline, evidence, and the one decision they need to make. Customer-identifying detail stays in support."
         },
         {
           "kind": "paragraph",
-          "text": "One customer told us the app had stopped opening after an update. Seven tries over several days. On its own, that is a low-priority issue called \"app won't launch\" that waits in a backlog for a week."
+          "text": "In one of our cases, a seemingly isolated launch problem matched a wider pattern among users on the same release. Strawberry prepared the customer timeline, the affected pattern, and the likely product area, so engineering started with evidence rather than a vague ticket. A small ticket can reveal a broader product issue, which is why the check looks beyond the one customer."
         },
         {
           "kind": "paragraph",
-          "text": "Here is what Fritz, our support companion, did with it in under thirty minutes:"
-        },
-        {
-          "kind": "list",
-          "style": "ordered",
-          "items": [
-            "Joined the support report to release timing, product telemetry, error monitoring, and the relevant source code.",
-            "Isolated the failure to a point before the app's first window is even created.",
-            "Widened the search to everyone on the same version.",
-            "Found dozens of previously active users on that version matching a strict likely-regression definition.",
-            "Handed engineering a root-cause analysis and a minimal patch proposal."
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "One \"it won't open\" became an incident packet with a cohort attached. Engineering did not have to decide whether to care."
+          "text": "Once you approve the route and boundaries, Strawberry can recognize when a case needs another team and prepare the handoff on its own. Filing the issue and updating the customer remain separate, reviewable actions."
         },
         {
           "kind": "skill-lanes",
@@ -252,15 +231,15 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "New customers did not buy a product tour. They bought whatever they need to get done this week. Strawberry builds the onboarding path from the signed scope, the sales handoff, the stakeholders, and the setup dependencies, pointed at the outcome the customer named."
+          "text": "Use this when a customer has just signed. Strawberry reads the agreed scope, the sales handoff notes, the stakeholders, and the setup dependencies, and prepares an onboarding path pointed at the outcome the customer named rather than a product tour."
         },
         {
           "kind": "paragraph",
-          "text": "During one pilot, a new RevOps user handed Strawberry a job that was half research and half operations: go through a set of competitor websites, work out which customers were featured on them, and explain how to log those companies in their own systems. A messy Tuesday-morning task, not a tutorial."
+          "text": "In one pilot, a new RevOps user's first request was half research and half operations: review a set of competitor websites, identify the customers featured on them, and work out how to record those companies in their own systems. Strawberry returned the research and the operational next step together, and the customer's feedback was about as clear as it gets."
         },
         {
           "kind": "paragraph",
-          "text": "It came back as one output: the research, plus the next step written for that team's setup. The customer's reaction in the call notes was about as unambiguous as feedback gets."
+          "text": "Onboarding lands when the customer's own task gets done early. The plan is prepared for your review; the customer conversations stay with your team."
         },
         {
           "kind": "skills",
@@ -276,23 +255,19 @@
     },
     {
       "id": "turn-answers-into-knowledge",
-      "title": "Turn resolved tickets into help docs",
+      "title": "Turn confirmed resolutions into reusable support knowledge",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A good answer should not disappear when the ticket closes. Strawberry can turn a confirmed resolution into a help article the next customer can find, or show Product the pattern across several cases with the original tickets still linked."
+          "text": "Use this when a resolution is confirmed or a question keeps recurring. Strawberry checks the resolved case, existing help content, and related feedback. It prepares a help article or an update to one, without duplicating an article that already exists, or a source-linked summary of the pattern for Product."
         },
         {
           "kind": "paragraph",
-          "text": "A recruiting team sent one thread with four complaints: a licensing change they believed had happened, search failures getting worse, agents getting stuck, and credits going missing. The tempting move is to find one cause and explain everything with it."
+          "text": "In one of our cases, a single message contained four unrelated problems: a suspected licensing change, worsening search results, stuck agents, and missing credits. Treating them as one issue would have produced the wrong answer for all four. Strawberry separated them: the subscription was unchanged, the credits had been used, the search issue got a workaround, and the stuck agents became a product signal. The confirmed licensing answer then became support documentation."
         },
         {
           "kind": "paragraph",
-          "text": "Fritz, our support companion, treated them as four. The subscription was active and unchanged, so no licensing change. The missing credits were genuine use, almost the whole balance across hundreds of actions. The search problem got a targeted workaround. The stuck agents became a product signal for the team that owns it."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Then the part that makes the next ticket faster: the licensing answer became support documentation. The next person who asks gets it in a minute."
+          "text": "One customer message can contain several unrelated problems, and a resolved ticket can become a reusable answer. Publishing goes through your normal review."
         },
         {
           "kind": "skill-lanes",
@@ -321,11 +296,11 @@
     },
     {
       "id": "make-good-support-repeatable",
-      "title": "Make every good resolution reusable",
+      "title": "Make the method repeatable for your team",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Run one ticket from this week's queue through. It will get things wrong: too formal, escalated to the wrong team, citing a doc you retired months ago. Fix those and run another. After a handful, the corrections stop, and what is left is your team's support method, written down for the first time. Save it so the new hire handles a billing ticket the way your most experienced person does. Then put it on a schedule."
+          "text": "Run one ticket from this week's queue through. Correct what it gets wrong: the tone, the routing, a document you retired. After a handful of cases the corrections stop, and what remains is your team's support method, written down. Save it so a new hire handles a billing ticket the way your most experienced person does."
         },
         {
           "kind": "skill-lanes",
@@ -352,7 +327,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "A Routine repeats the check. It never grants permission to send, refund, change an account, file an issue, or publish. That stays with a person.",
+          "text": "A Routine repeats the check on a schedule. It never grants permission to send, refund, change an account, file an issue, or publish. Those stay with a person.",
           "emphasis": [
             "Routine"
           ]
