@@ -185,7 +185,7 @@
             "Joined the support report to release timing, product telemetry, error monitoring, and the relevant source code.",
             "Isolated the failure to a point before the app's first window is even created.",
             "Widened the search to everyone on the same version.",
-            "Found more than 80 previously active users matching a strict likely-regression definition.",
+            "Found dozens of previously active users on that version matching a strict likely-regression definition.",
             "Handed engineering a root-cause analysis and a minimal patch proposal."
           ]
         },
@@ -333,14 +333,10 @@
         },
         {
           "kind": "paragraph",
-          "text": "A Routine repeats the check. It never grants permission to send, refund, change an account, file an issue, or publish. That stays with a person, and it matters more than it sounds.",
+          "text": "A Routine repeats the check. It never grants permission to send, refund, change an account, file an issue, or publish. That stays with a person.",
           "emphasis": [
             "Routine"
           ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "One customer had been trying to cancel for nearly a month. Earlier automated replies kept telling them the request was with the team. No handoff had happened and no cancellation had happened, only the language of action. Fritz reconciled the conversation against the live subscription and the latest payment, carried out the approved cancellation and refund, re-read the final account state, and confirmed the result in the customer's original channel, about 25 minutes from start to finish. Saying something was done and doing it are different actions, and Fritz checks the second before it claims the first."
         }
       ]
     }
