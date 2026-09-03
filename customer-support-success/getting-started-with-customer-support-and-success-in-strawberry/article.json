@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "customer-support-success",
   "title": "Resolve support tickets faster with full customer context",
-  "description": "Bring every conversation, account detail, promise, and known issue into one view—then draft replies, escalate cases, and create follow-up work.",
+  "description": "How Strawberry rebuilds a ticket's story across billing, product data, docs, and team chat, then drafts the reply or hands engineering a case it can act on.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -25,8 +25,9 @@
     "order": 9
   },
   "introduction": [
-    "Most support time is spent hunting for context, not writing the reply.",
-    "Strawberry brings the customer's conversation, account history, product docs, known issues, and past promises into one place. Your team can see what happened, draft a grounded answer, or hand the case to the right person without starting the investigation again."
+    "A customer writes in: I bought credits, they never arrived, and now I can't use the product. That is the whole ticket. Before anyone can reply, someone has to open the payment processor, the credit ledger, the account's live balance, and the app logs, and hope the timestamps agree with each other.",
+    "Strawberry is a browser with AI companions that work across the tabs and apps your team is already signed into. For support, that means a companion can do that checking before you open the ticket, put the events in order, and keep each claim next to the record it came from. The ticket arrives with the history assembled and a recommendation: answer it, escalate it, or turn it into engineering work.",
+    "Every example on this page comes from our own support queue, with the customers anonymized. We run our support through a companion we call Fritz, and the skills below are the portable version of how it works."
   ],
   "sections": [
     {
@@ -38,12 +39,12 @@
           "items": [
             {
               "href": "#reconstruct-the-customer-story",
-              "title": "See the full context behind every ticket",
+              "title": "See the full story behind a ticket",
               "icon": "search-check"
             },
             {
               "href": "#answer-with-evidence",
-              "title": "Draft replies from docs and customer history",
+              "title": "Draft the reply from the records",
               "icon": "message-square-text"
             },
             {
@@ -53,7 +54,7 @@
             },
             {
               "href": "#get-customers-to-value",
-              "title": "Turn customer goals into an onboarding plan",
+              "title": "Get a new customer to a first result",
               "icon": "list-checks"
             },
             {
@@ -65,29 +66,37 @@
         },
         {
           "kind": "guided-entry",
-          "text": "Bring Strawberry the customer work already in front of you. Your companion will pick the smallest useful Support or Success workflow and show you the result before anything is sent or changed.",
+          "text": "Bring Strawberry the customer work already in front of you: the ticket you have been avoiding, the account that looks quiet, the customer who signed yesterday. Your companion picks the smallest useful piece of it and shows you the result before anything is sent or changed.",
           "skill": {
             "id": "strawberry/customer-support-success/getting-started-with-customer-support-and-success-in-strawberry",
             "roleId": "customer-support-success",
-            "context": "Start with a real customer case, account, or goal and choose the most useful next result."
+            "context": "Here's the ticket I've been avoiding. Tell me what happened before I reply."
           }
         }
       ]
     },
     {
       "id": "reconstruct-the-customer-story",
-      "title": "See the full context behind every ticket",
+      "title": "See the full story behind a ticket",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A ticket says what the customer wrote today. The answer may live in last month's meeting, a CRM promise, a usage change, or a Slack thread about a known issue. Strawberry pulls the pieces together and keeps every claim close to its source."
+          "text": "Back to the customer whose credits never arrived. Strawberry checked the payment processor, the credit grant, the usage ledger, the live balance, and the app's own event log. The payment had gone through. The credits landed about two seconds later. The complaint came roughly six minutes after that, with no usage in between. The money was right and the balance was right. The window the customer was looking at was showing a stale counter."
+        },
+        {
+          "kind": "paragraph",
+          "text": "That changes the reply completely. Nobody needs to issue a refund or grant the credits a second time. The customer needs to relaunch the app and see their current balance, and engineering needs to know that a counter can go stale after a top-up. A look at the ticket alone would have produced a kind, fast, wrong answer."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The same habit matters for accounts, not only tickets. One of our customer champions looked inactive: chat usage flat, credit usage flat, the usual cue to send a worried check-in. Strawberry widened the check to browser and integration activity first. In about three and a half minutes it found more than 1,500 background actions across five connected tools, including 172 calendar calls during the three quiet days. The champion had stopped typing and let the product run. The second seat on the account had almost no activity of any kind, and that was the person who needed onboarding."
         },
         {
           "kind": "skill-lanes",
           "items": [
             {
-              "title": "See goals, usage, and open promises",
-              "text": "Build a grounded account view without hiding gaps behind a health score.",
+              "title": "Check whether a quiet account is really quiet",
+              "text": "Usage across chat, browser, and integrations, plus the goals and promises on record, so one flat metric does not send the wrong email to the wrong person.",
               "skill": {
                 "id": "strawberry/customer-support-success/review-customer-health",
                 "roleId": "customer-support-success",
@@ -95,8 +104,8 @@
               }
             },
             {
-              "title": "Walk into the next call caught up",
-              "text": "Turn the account history and open decisions into a short brief for a check-in, QBR, renewal, or escalation.",
+              "title": "Walk into the renewal knowing what was promised",
+              "text": "Twenty minutes before a check-in, QBR, or renewal call, you need the few things that could derail it: unmet commitments and who made them, usage that dropped, the open ticket nobody mentioned.",
               "skill": {
                 "id": "strawberry/operations/prepare-for-meetings",
                 "roleId": "customer-support-success",
@@ -104,8 +113,8 @@
               }
             },
             {
-              "title": "Leave the call with owners and next steps",
-              "text": "Carry reliable notes into customer follow-up and the internal actions that now need an owner.",
+              "title": "Leave the call with a name next to every next step",
+              "text": "Notes that split into customer follow-up on one side and internal actions with an owner on the other.",
               "skill": {
                 "id": "strawberry/operations/debrief-a-meeting",
                 "roleId": "customer-support-success",
@@ -118,18 +127,26 @@
     },
     {
       "id": "answer-with-evidence",
-      "title": "Draft replies from docs and customer history",
+      "title": "Draft the reply from the records",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Drop in a ticket or point Strawberry at the queue. Your companion can check the complete thread, the customer's history, current product docs, known issues, and the team's real policy before it recommends a reply."
+          "text": "The reply Strawberry drafted for the missing-credits customer did not open with an apology for a problem that had not happened. It confirmed the payment and the credit grant, with times, explained that the balance on screen was out of date, gave the relaunch steps, and said what engineering was now looking at. Short and specific, because every line had been checked against a record before it was written."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The opposite mistake is just as easy. A customer wrote in frustrated that they were paying but being treated as a free user. The account they wrote from was on the free plan and had hit its limit, so a shallow check would have told them they were wrong. Strawberry compared the customer's other logins, found the paid subscription sitting on a different one, corrected the internal diagnosis, and emailed them which login held the plan. About twelve minutes from complaint to answer."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Point Strawberry at the whole queue and it does the same reconstruction for each case, using your team's own priority and escalation rules rather than a severity score it invented."
         },
         {
           "kind": "skill-lanes",
           "items": [
             {
-              "title": "Triage the queue by impact",
-              "text": "Make the priority, owner, next action, and first response clear without inventing a universal severity score.",
+              "title": "Triage the queue by what is at stake",
+              "text": "Priority, next action, and a first response for each ticket, using your team's rules. Forty overnight tickets become the three to read before standup.",
               "skill": {
                 "id": "strawberry/customer-support-success/triage-support-queue",
                 "roleId": "customer-support-success",
@@ -137,8 +154,8 @@
               }
             },
             {
-              "title": "Draft answers from current sources",
-              "text": "Reconcile product docs, help content, account history, and prior cases into a customer-ready response.",
+              "title": "Investigate before you answer",
+              "text": "The full thread, the account's history, current docs, known issues, and what your team's policy says, reconciled into a reply you can send.",
               "skill": {
                 "id": "strawberry/customer-support-success/investigate-support-case",
                 "roleId": "customer-support-success",
@@ -155,14 +172,37 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Once you approve the route and boundaries, Strawberry can recognize when a case needs another team and prepare the handoff automatically. The human gets the impact, timeline, evidence, work already tried, current customer message, and exact decision they need to make—not a link to a mystery ticket."
+          "text": "Engineering should never receive a link to a mystery ticket. One customer told us the app had stopped opening after an update. They had tried seven times over several days. On its own, that is a low-priority issue called \"app won't launch\" that waits in a backlog for a week."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Here is what Strawberry did with it, in under thirty minutes:"
+        },
+        {
+          "kind": "list",
+          "style": "ordered",
+          "items": [
+            "Joined the support report to release timing, product telemetry, error monitoring, and the relevant source code.",
+            "Isolated the failure to a point before the app's first window is even created.",
+            "Widened the search to everyone on the same version.",
+            "Found more than 80 previously active users matching a strict likely-regression definition.",
+            "Handed engineering a root-cause analysis and a minimal patch proposal."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "One \"it won't open\" became an incident packet with a cohort attached, and engineering did not have to decide whether to care. The missing-credits case got the same treatment: a timestamped sequence, the failed-charge and missing-grant explanations already ruled out, and one question left for engineering to answer."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Once you approve the route and the boundaries, Strawberry recognizes when a case needs another team and prepares that handoff on its own. Customer-identifying detail stays in support. Engineering gets what engineering needs."
         },
         {
           "kind": "skill-lanes",
           "items": [
             {
               "title": "Send a human the full case",
-              "text": "Package the customer impact and the specific investigation, exception, or decision the receiving team needs to own.",
+              "text": "Impact, timeline, what has been tried, the customer's current message, and the specific decision the receiving team now owns.",
               "skill": {
                 "id": "strawberry/customer-support-success/escalate-customer-issue",
                 "roleId": "customer-support-success",
@@ -171,7 +211,7 @@
             },
             {
               "title": "Create Jira or Linear issues from support tickets",
-              "text": "Reproduce the problem, check for duplicates, and prepare a grounded engineering issue without leaking private customer context.",
+              "text": "Reproduce the problem, check for duplicates, and file an engineering issue that does not leak private customer context.",
               "skill": {
                 "id": "strawberry/product-engineering/report-bug",
                 "roleId": "customer-support-success",
@@ -179,8 +219,8 @@
               }
             },
             {
-              "title": "Keep ownership visible until it is fixed",
-              "text": "Track the next update, unresolved decision, and verified resolution across Support and the specialist team.",
+              "title": "Keep it visible until it is resolved",
+              "text": "The next update owed, the decision still open, and confirmation that the fix landed, tracked across support and the specialist team.",
               "skill": {
                 "id": "strawberry/operations/close-open-loops",
                 "roleId": "customer-support-success",
@@ -193,11 +233,19 @@
     },
     {
       "id": "get-customers-to-value",
-      "title": "Turn customer goals into an onboarding plan",
+      "title": "Get a new customer to a first result",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Customer Success should begin with the outcome the customer bought, not a generic product tour. Strawberry can turn the signed scope, sales notes, stakeholders, setup dependencies, and success measures into one owned path to value."
+          "text": "New customers did not buy a product tour. They bought whatever they need to get done this week. During one pilot, a new RevOps user gave Strawberry a task that was half research and half operations: go through a set of competitor websites, work out which customers were featured on them, and explain how to log those companies properly in their own systems. A messy Tuesday-morning job, not a tutorial."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Strawberry returned one output: the research, plus the operational next step written for that team's setup. The customer's reaction in the call notes was about as unambiguous as feedback gets."
+        },
+        {
+          "kind": "paragraph",
+          "text": "That is what onboarding should feel like: the customer's own work, done well, early. Strawberry builds the onboarding path from the signed scope, the sales handoff, the stakeholders, and the setup dependencies, pointed at the outcome the customer named rather than a feature checklist."
         },
         {
           "kind": "skills",
@@ -217,14 +265,22 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A good answer should not disappear when the ticket closes. Publish a verified resolution for the next customer, or show Product the pattern across several cases with the original examples still linked."
+          "text": "A recruiting team sent one thread with four complaints in it: a licensing change they believed had happened, search failures getting worse, agents getting stuck, and credits going missing. The tempting move is to find one cause and explain everything with it. Strawberry refused to assume the four shared a cause."
+        },
+        {
+          "kind": "paragraph",
+          "text": "It confirmed the team's subscription was active and unchanged, so no licensing change had happened. It traced the missing credits to genuine use: almost the entire balance, across hundreds of individual actions. It read the screenshots and the results file the customer had attached, sent a targeted workaround for the search problem, and logged the stuck-agent behavior as a product signal for the team that owns it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Then came the part that makes the next ticket faster. The licensing answer had taken investigation to confirm, so it became support documentation. The next person who asks gets it in a minute."
         },
         {
           "kind": "skill-lanes",
           "items": [
             {
               "title": "Publish the answer once",
-              "text": "Turn a verified resolution or recurring question into clear, findable help content without creating a duplicate article.",
+              "text": "Turn a confirmed resolution or recurring question into help content the next customer can find, without duplicating an article that already exists.",
               "skill": {
                 "id": "strawberry/customer-support-success/create-or-update-a-help-center-article",
                 "roleId": "customer-support-success",
@@ -232,8 +288,8 @@
               }
             },
             {
-              "title": "Show Product the recurring pattern",
-              "text": "Group feedback into themes, tensions, examples, and gaps without pretending the summary decides the roadmap.",
+              "title": "Show Product the pattern",
+              "text": "Group feedback into themes, tensions, and examples with the original tickets still linked. A summary that informs the roadmap rather than pretending to be it.",
               "skill": {
                 "id": "strawberry/product-engineering/synthesize-customer-feedback",
                 "roleId": "customer-support-success",
@@ -250,14 +306,14 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Start with one real case. Correct the sources, tone, routing, ownership, and review points until the result feels like your team. Then keep the method instead of rebuilding it in the next chat."
+          "text": "Run one ticket from this week's queue through. It will get things wrong: too formal, escalated to the wrong team, citing a doc you retired months ago. Fix those and run another. After a handful, the corrections stop, and what is left is your team's support method, written down for the first time. Save it so the new hire handles a billing ticket the way your most experienced person does. Then put it on a schedule."
         },
         {
           "kind": "skill-lanes",
           "items": [
             {
               "title": "Set up the connected support system",
-              "text": "Map the stack, learn from resolved cases, test the focused skills, and propose Routines only after the manual flow works.",
+              "text": "Map the stack, learn from resolved cases, test the focused skills, and add Routines only after the manual flow works.",
               "skill": {
                 "id": "strawberry/customer-support-success/set-up-support-like-strawberry",
                 "roleId": "customer-support-success",
@@ -266,7 +322,7 @@
             },
             {
               "title": "Share the method with the team",
-              "text": "Preserve a trusted workflow as a team skill when colleagues should follow the same sources, boundaries, and handoffs.",
+              "text": "Keep a trusted workflow as a team skill so colleagues follow the same checks, boundaries, and handoffs.",
               "skill": {
                 "id": "strawberry/operations/set-up-shared-team-workflow",
                 "roleId": "customer-support-success",
@@ -277,10 +333,14 @@
         },
         {
           "kind": "paragraph",
-          "text": "Add a Routine only after the job works manually. A schedule can repeat the queue check or weekly learning review; it does not create permission to send, refund, change an account, file an issue, or publish.",
+          "text": "A Routine repeats the check. It never grants permission to send, refund, change an account, file an issue, or publish. That stays with a person, and it matters more than it sounds.",
           "emphasis": [
             "Routine"
           ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "One customer had been trying to cancel for nearly a month. Earlier automated replies kept telling them the request was with the team. No handoff had happened and no cancellation had happened, only the language of action. Strawberry reconciled the conversation against the live subscription and the latest payment, carried out the approved cancellation and refund, re-read the final account state, and confirmed the result in the customer's original channel, about 25 minutes from start to finish. Saying something was done and doing it are different actions, and Strawberry checks the second before it claims the first."
         }
       ]
     }
@@ -300,12 +360,12 @@
   "relatedLinks": [
     {
       "title": "How Strawberry runs customer support",
-      "description": "Meet Founding Fritz and see the real channels, records, boundaries, skills, and Routines that shaped this guide.",
+      "description": "Meet Fritz and see the channels, records, boundaries, skills, and Routines behind this guide.",
       "href": "/blog/how-we-run-customer-support-at-strawberry"
     },
     {
       "title": "Ship what customers actually asked for",
-      "description": "Carry recurring feedback and customer-reported problems into product insight, flow testing, and grounded bug reports.",
+      "description": "Carry recurring feedback and customer-reported problems into product insight, flow testing, and bug reports engineering will act on.",
       "href": "/playbooks/product-engineering"
     },
     {

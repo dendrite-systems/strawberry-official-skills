@@ -4,7 +4,7 @@
   "summary": "Turn verified support knowledge into clear, findable customer documentation and prepare it for the right review.",
   "icon": "files",
   "tags": [],
-  "examplePrompt": "Write a help center article for this issue.",
+  "examplePrompt": "We've answered this licensing question four times this month. Write it up properly.",
   "useCases": [
     {
       "roleId": "customer-support-success",
