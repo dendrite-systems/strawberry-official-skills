@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "customer-support-success",
-  "title": "Customer support that never starts from scratch",
-  "description": "Give every ticket its full context, answer with evidence, escalate cleanly, and turn repeated questions into better support.",
+  "title": "Resolve support tickets faster with full customer context",
+  "description": "Bring every conversation, account detail, promise, and known issue into one view—then draft replies, escalate cases, and create follow-up work.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -16,7 +16,7 @@
   "noindex": false,
   "navigation": {
     "title": "Customer Support & Success",
-    "tagline": "Every ticket, promise, and next step in context",
+    "tagline": "Resolve tickets faster with every source in view",
     "icons": [
       "gmail",
       "slack",
@@ -25,41 +25,41 @@
     "order": 9
   },
   "introduction": [
-    "The slow part of customer support is rarely the reply. It is reconstructing the case: finding the full conversation, checking the account, searching the product docs, seeing whether the bug is known, and working out what the customer was promised.",
-    "Strawberry gives one companion that whole trail across your help desk, inbox, CRM, docs, team chat, billing, and issue tracker. A ticket can arrive ready to answer, escalate, or turn into engineering work—with the sources and next owner attached."
+    "Most support time is spent hunting for context, not writing the reply.",
+    "Strawberry brings the customer's conversation, account history, product docs, known issues, and past promises into one place. Your team can see what happened, draft a grounded answer, or hand the case to the right person without starting the investigation again."
   ],
   "sections": [
     {
       "id": "what-can-you-hand-off-today",
-      "title": "What can you hand off today?",
+      "title": "How Strawberry can automate your customer support",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
               "href": "#reconstruct-the-customer-story",
-              "title": "Reconstruct a customer case",
-              "icon": "🔎"
+              "title": "See the full context behind every ticket",
+              "icon": "search-check"
             },
             {
               "href": "#answer-with-evidence",
-              "title": "Draft the right answer",
-              "icon": "✉️"
+              "title": "Draft replies from docs and customer history",
+              "icon": "message-square-text"
             },
             {
               "href": "#escalate-to-a-human",
               "title": "Automatically escalate to a human",
-              "icon": "🙋"
+              "icon": "user-round-check"
             },
             {
               "href": "#get-customers-to-value",
-              "title": "Get customers to first value",
-              "icon": "🚀"
+              "title": "Turn customer goals into an onboarding plan",
+              "icon": "list-checks"
             },
             {
               "href": "#turn-answers-into-knowledge",
-              "title": "Turn answers into better docs",
-              "icon": "📚"
+              "title": "Turn resolved tickets into help docs",
+              "icon": "book-open-check"
             }
           ]
         },
@@ -76,7 +76,7 @@
     },
     {
       "id": "reconstruct-the-customer-story",
-      "title": "Reconstruct the whole customer story",
+      "title": "See the full context behind every ticket",
       "blocks": [
         {
           "kind": "paragraph",
@@ -118,7 +118,7 @@
     },
     {
       "id": "answer-with-evidence",
-      "title": "Draft the right answer, with the evidence attached",
+      "title": "Draft replies from docs and customer history",
       "blocks": [
         {
           "kind": "paragraph",
@@ -193,7 +193,7 @@
     },
     {
       "id": "get-customers-to-value",
-      "title": "Get customers to first value",
+      "title": "Turn customer goals into an onboarding plan",
       "blocks": [
         {
           "kind": "paragraph",
@@ -213,7 +213,7 @@
     },
     {
       "id": "turn-answers-into-knowledge",
-      "title": "Turn answers into better docs",
+      "title": "Turn resolved tickets into help docs",
       "blocks": [
         {
           "kind": "paragraph",
@@ -246,7 +246,7 @@
     },
     {
       "id": "make-good-support-repeatable",
-      "title": "Make good support happen twice",
+      "title": "Make every good resolution reusable",
       "blocks": [
         {
           "kind": "paragraph",
@@ -299,7 +299,7 @@
   ],
   "relatedLinks": [
     {
-      "title": "Behind the playbook: how we run Support at Strawberry",
+      "title": "How Strawberry runs customer support",
       "description": "Meet Founding Fritz and see the real channels, records, boundaries, skills, and Routines that shaped this guide.",
       "href": "/blog/how-we-run-customer-support-at-strawberry"
     },
