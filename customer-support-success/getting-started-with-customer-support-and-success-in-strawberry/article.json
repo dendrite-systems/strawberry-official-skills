@@ -25,9 +25,11 @@
     "order": 9
   },
   "introduction": [
-    "Most support time goes into finding out what happened, not writing the reply. A ticket says: \"I bought credits but they never arrived, and now I can't use the product.\" Before anyone can answer that, someone has to open the payment system, the credit ledger, the account's live balance, and the app logs, and hope the timestamps line up.",
-    "Strawberry is a browser with built-in AI companions. A companion is an AI teammate that works in the tabs and apps your team is already signed into, so it can do that checking itself: open the records, put the events in order, and keep each claim next to the source it came from. The ticket reaches you with the history assembled and a recommendation: answer it, escalate it, or turn it into engineering work.",
-    "We run our own support this way, with a companion we call Fritz. Every case on this page is from our queue, anonymized, and the skills below are the portable version of how Fritz works."
+    "A customer sends in a ticket: \"I bought credits, they never arrived, and now I can't use the product.\"",
+    "That is everything you get.",
+    "Now the chase begins. Open the payment processor. Check the credit ledger, the account's live balance, the app logs. Hope the timestamps agree with each other.",
+    "Strawberry is a browser with built-in AI companions: AI teammates that work in the tabs and apps your team is already signed into. A companion can run that chase itself, put the events in order, and keep every claim next to the record it came from. The ticket reaches you with the history assembled and a recommendation: answer it, escalate it, or hand it to engineering.",
+    "We use it for our own support. Our companion is called Fritz, and the cases on this page come from its queue, anonymized."
   ],
   "sections": [
     {
@@ -81,15 +83,23 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Back to the customer whose credits never arrived. Fritz checked the payment processor, the credit grant, the usage ledger, the live balance, and the app's own event log. The payment had gone through. The credits landed about two seconds later. The complaint came roughly six minutes after that, with no usage in between. The money was right and the balance was right. The window the customer was looking at was showing a stale counter."
+          "text": "A ticket says what the customer wrote today. The answer usually lives somewhere else: last month's thread, a promise in the CRM, a usage change, a Slack message about a known bug. Strawberry pulls those together before you reply and keeps each claim next to where it came from."
         },
         {
           "kind": "paragraph",
-          "text": "That changes the reply completely. Nobody needs to issue a refund or grant the credits a second time. The customer needs to relaunch the app and see their current balance, and engineering needs to know that a counter can go stale after a top-up. A look at the ticket alone would have produced a kind, fast, wrong answer."
+          "text": "Back to the credits that never arrived. Fritz checked the payment processor, the credit grant, the usage ledger, the live balance, and the app's event log."
         },
         {
           "kind": "paragraph",
-          "text": "The same habit matters for accounts, not only tickets. One of our customer champions looked inactive: chat usage flat, credit usage flat, the usual cue to send a worried check-in. Fritz widened the check to browser and integration activity first. In about three and a half minutes it found more than 1,500 background actions across five connected tools, including 172 calendar calls during the three quiet days. The champion had stopped typing and let the product run. The second seat on the account had almost no activity of any kind, and that was the person who needed onboarding."
+          "text": "Payment: succeeded. Credits: landed about two seconds later. Complaint: roughly six minutes after that, with no usage in between. The money was right and the balance was right. The customer's window was showing a stale counter."
+        },
+        {
+          "kind": "paragraph",
+          "text": "So no refund and no second grant. The customer needed relaunch steps. Engineering needed to know that a counter can go stale after a top-up. A look at the ticket alone would have produced a kind, fast, wrong answer."
+        },
+        {
+          "kind": "paragraph",
+          "text": "The same habit matters for accounts. One of our customer champions looked inactive: chat usage flat, credit usage flat, the usual cue for a worried check-in. Fritz widened the check to browser and integration activity first and found more than 1,500 background actions across five connected tools in three supposedly quiet days. The champion had stopped typing and let the product run. The second seat on the account had almost nothing, and that was the person who needed onboarding."
         },
         {
           "kind": "skill-lanes",
@@ -131,15 +141,19 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The reply Fritz drafted for the missing-credits customer did not open with an apology for a problem that had not happened. It confirmed the payment and the credit grant, with times, explained that the balance on screen was out of date, gave the relaunch steps, and said what engineering was now looking at. Short and specific, because every line had been checked against a record before it was written."
+          "text": "Drop in a ticket or point Strawberry at the queue. It checks the full thread, the customer's history, current docs, known issues, and your team's actual policy before it suggests a reply. Priority and escalation follow your rules, not a severity score it invented."
         },
         {
           "kind": "paragraph",
-          "text": "The opposite mistake is just as easy. A customer wrote in frustrated that they were paying but being treated as a free user. The account they wrote from was on the free plan and had hit its limit, so a shallow check would have told them they were wrong. Fritz compared the customer's other logins, found the paid subscription sitting on a different one, corrected the internal diagnosis, and emailed them which login held the plan. About twelve minutes from complaint to answer."
+          "text": "The reply Fritz drafted for the missing-credits customer did not apologize for a problem that hadn't happened. It confirmed the payment and the grant, with times, explained that the balance on screen was stale, gave the relaunch steps, and said what engineering was looking at."
         },
         {
           "kind": "paragraph",
-          "text": "Point Strawberry at the whole queue and it does the same reconstruction for each case, using your team's own priority and escalation rules rather than a severity score it invented."
+          "text": "The opposite mistake is just as easy. A customer wrote in, annoyed that they were paying but being treated as a free user. The account they wrote from was free and had hit its limit. A shallow check would have told them they were wrong."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Fritz compared their other logins, found the paid subscription on a different one, and emailed them which login held the plan. Twelve minutes, complaint to answer."
         },
         {
           "kind": "skill-lanes",
@@ -172,7 +186,11 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Engineering should never receive a link to a mystery ticket. One customer told us the app had stopped opening after an update. They had tried seven times over several days. On its own, that is a low-priority issue called \"app won't launch\" that waits in a backlog for a week."
+          "text": "Engineering should never receive a link to a mystery ticket. Once you approve the route and the boundaries, Strawberry recognizes when a case needs another team and prepares the handoff: impact, timeline, what has been tried, and the one decision the receiving team owns. Customer-identifying detail stays in support."
+        },
+        {
+          "kind": "paragraph",
+          "text": "One customer told us the app had stopped opening after an update. Seven tries over several days. On its own, that is a low-priority issue called \"app won't launch\" that waits in a backlog for a week."
         },
         {
           "kind": "paragraph",
@@ -191,11 +209,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "One \"it won't open\" became an incident packet with a cohort attached, and engineering did not have to decide whether to care. The missing-credits case got the same treatment: a timestamped sequence, the failed-charge and missing-grant explanations already ruled out, and one question left for engineering to answer."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Once you approve the route and the boundaries, Strawberry recognizes when a case needs another team and prepares that handoff on its own. Customer-identifying detail stays in support. Engineering gets what engineering needs."
+          "text": "One \"it won't open\" became an incident packet with a cohort attached. Engineering did not have to decide whether to care."
         },
         {
           "kind": "skill-lanes",
@@ -237,15 +251,15 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "New customers did not buy a product tour. They bought whatever they need to get done this week. During one pilot, a new RevOps user gave Strawberry a task that was half research and half operations: go through a set of competitor websites, work out which customers were featured on them, and explain how to log those companies properly in their own systems. A messy Tuesday-morning job, not a tutorial."
+          "text": "New customers did not buy a product tour. They bought whatever they need to get done this week. Strawberry builds the onboarding path from the signed scope, the sales handoff, the stakeholders, and the setup dependencies, pointed at the outcome the customer named."
         },
         {
           "kind": "paragraph",
-          "text": "Strawberry returned one output: the research, plus the operational next step written for that team's setup. The customer's reaction in the call notes was about as unambiguous as feedback gets."
+          "text": "During one pilot, a new RevOps user handed Strawberry a job that was half research and half operations: go through a set of competitor websites, work out which customers were featured on them, and explain how to log those companies in their own systems. A messy Tuesday-morning task, not a tutorial."
         },
         {
           "kind": "paragraph",
-          "text": "That is what onboarding should feel like: the customer's own work, done well, early. Strawberry builds the onboarding path from the signed scope, the sales handoff, the stakeholders, and the setup dependencies, pointed at the outcome the customer named rather than a feature checklist."
+          "text": "It came back as one output: the research, plus the next step written for that team's setup. The customer's reaction in the call notes was about as unambiguous as feedback gets."
         },
         {
           "kind": "skills",
@@ -265,15 +279,19 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A recruiting team sent one thread with four complaints in it: a licensing change they believed had happened, search failures getting worse, agents getting stuck, and credits going missing. The tempting move is to find one cause and explain everything with it. Fritz refused to assume the four shared a cause."
+          "text": "A good answer should not disappear when the ticket closes. Strawberry can turn a confirmed resolution into a help article the next customer can find, or show Product the pattern across several cases with the original tickets still linked."
         },
         {
           "kind": "paragraph",
-          "text": "It confirmed the team's subscription was active and unchanged, so no licensing change had happened. It traced the missing credits to genuine use: almost the entire balance, across hundreds of individual actions. It read the screenshots and the results file the customer had attached, sent a targeted workaround for the search problem, and logged the stuck-agent behavior as a product signal for the team that owns it."
+          "text": "A recruiting team sent one thread with four complaints: a licensing change they believed had happened, search failures getting worse, agents getting stuck, and credits going missing. The tempting move is to find one cause and explain everything with it."
         },
         {
           "kind": "paragraph",
-          "text": "Then came the part that makes the next ticket faster. The licensing answer had taken investigation to confirm, so it became support documentation. The next person who asks gets it in a minute."
+          "text": "Fritz treated them as four. The subscription was active and unchanged, so no licensing change. The missing credits were genuine use, almost the whole balance across hundreds of actions. The search problem got a targeted workaround. The stuck agents became a product signal for the team that owns it."
+        },
+        {
+          "kind": "paragraph",
+          "text": "Then the part that makes the next ticket faster: the licensing answer became support documentation. The next person who asks gets it in a minute."
         },
         {
           "kind": "skill-lanes",
