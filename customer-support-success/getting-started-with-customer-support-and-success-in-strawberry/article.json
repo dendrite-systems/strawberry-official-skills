@@ -26,10 +26,11 @@
   },
   "introduction": [
     "A customer sends in a ticket: \"I bought credits, they never arrived, and now I can't use the product.\"",
-    "That is everything you get.",
-    "Now the chase begins. Open the payment processor. Check the credit ledger, the account's live balance, the app logs. Hope the timestamps agree with each other.",
-    "Strawberry is a browser with built-in AI companions: AI teammates that work in the tabs and apps your team is already signed into. A companion can run that chase itself, put the events in order, and keep every claim next to the record it came from. The ticket reaches you with the history assembled and a recommendation: answer it, escalate it, or hand it to engineering.",
-    "We use it for our own support. Our companion is called Fritz, and the cases on this page come from its queue, anonymized."
+    "That's the whole ticket. No order number, no timestamp, no screenshot. One sentence from someone who is right to be annoyed.",
+    "So the chase begins. Open the payment processor. Check the credit ledger, then the account's live balance, then the app logs. Hope the timestamps agree with each other. By the time you know what happened, writing the reply is the easy part.",
+    "Work like that makes you feel like a robot. It should be done by one.",
+    "Strawberry is a browser with AI companions built in. A companion is an AI teammate that works in the tabs and apps your team is already signed into, so it can run that chase for you: open the records, put the events in order, and keep every claim next to where it came from. The ticket reaches you with the story assembled and a recommendation: answer it, escalate it, or hand it to engineering.",
+    "That's how we run our own support. Our companion is called Fritz, and every case on this page came out of its queue, anonymized."
   ],
   "sections": [
     {
