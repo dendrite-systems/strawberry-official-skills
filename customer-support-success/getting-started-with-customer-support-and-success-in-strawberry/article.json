@@ -25,9 +25,9 @@
     "order": 9
   },
   "introduction": [
-    "A customer writes in: I bought credits, they never arrived, and now I can't use the product. That is the whole ticket. Before anyone can reply, someone has to open the payment processor, the credit ledger, the account's live balance, and the app logs, and hope the timestamps agree with each other.",
-    "Fritz, the companion that runs our support, had already done that checking before anyone opened the ticket. Strawberry is a browser with AI companions that work across the tabs and apps your team is signed into, and Fritz uses that to put the events in order and keep each claim next to the record it came from. The ticket arrives with the history assembled and a recommendation: answer it, escalate it, or turn it into engineering work.",
-    "Every case on this page is from our own queue, anonymized, handled by Fritz. The skills below are the portable version of how it works."
+    "Most support time goes into finding out what happened, not writing the reply. A ticket says: \"I bought credits but they never arrived, and now I can't use the product.\" Before anyone can answer that, someone has to open the payment system, the credit ledger, the account's live balance, and the app logs, and hope the timestamps line up.",
+    "Strawberry is a browser with built-in AI companions. A companion is an AI teammate that works in the tabs and apps your team is already signed into, so it can do that checking itself: open the records, put the events in order, and keep each claim next to the source it came from. The ticket reaches you with the history assembled and a recommendation: answer it, escalate it, or turn it into engineering work.",
+    "We run our own support this way, with a companion we call Fritz. Every case on this page is from our queue, anonymized, and the skills below are the portable version of how Fritz works."
   ],
   "sections": [
     {
