@@ -4,7 +4,7 @@
   "summary": "Map the support stack, learn from resolved cases, prepare context and records, test focused skills, and propose reliable Routines.",
   "icon": "sparkles",
   "tags": [],
-  "examplePrompt": "Set up our support system. Start with the roadmap and learn from resolved cases.",
+  "examplePrompt": "Set up our support system. Start with our last 50 resolved tickets and tell me what you learn.",
   "useCases": [
     {
       "roleId": "customer-support-success",

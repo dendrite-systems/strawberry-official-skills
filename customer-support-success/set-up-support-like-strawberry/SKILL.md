@@ -10,19 +10,19 @@ sequence and approval expectation:
 
 > Here's the setup path we'll follow:
 >
-> 1. **Connect the right tools** — identify the inboxes, helpdesk, account data, billing system,
+> 1. **Connect the right tools:** identify the inboxes, helpdesk, account data, billing system,
 >    knowledge, internal channels, and engineering tracker Support needs.
-> 2. **Map the system** — decide what counts as a case, which source is authoritative, where cases
+> 2. **Map the system:** decide what counts as a case, which source is authoritative, where cases
 >    and feedback live, and how work moves between Support and other teams.
-> 3. **Learn from resolved cases** — review representative history, report the patterns and sources,
+> 3. **Learn from resolved cases:** review representative history, report the patterns and sources,
 >    then turn accepted lessons into starting points for the setup.
-> 4. **Set the boundaries** — define priorities, handling lanes, response style, escalation paths,
+> 4. **Set the boundaries:** define priorities, handling lanes, response style, escalation paths,
 >    and which actions need approval.
-> 5. **Put the knowledge in the right places** — prepare context, policy, and case records without
+> 5. **Put the knowledge in the right places:** prepare context, policy, and case records without
 >    duplicating an existing system of record.
-> 6. **Build and test focused skills** — customize the support skills for the organization and test
+> 6. **Build and test focused skills:** customize the support skills for the organization and test
 >    the manual workflow on new cases.
-> 7. **Turn on Routines** — propose a Support Queue Routine and a Weekly Learning Routine only after
+> 7. **Turn on Routines:** propose a Support Queue Routine and a Weekly Learning Routine only after
 >    the manual flow works.
 >
 > I'll inspect and prepare the design as we go. Before connecting tools, creating or changing

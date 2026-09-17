@@ -4,7 +4,7 @@
   "summary": "Turn accepted customer goals and commitments into an owned path to first value, with milestones, risks, and next actions clear.",
   "icon": "people",
   "tags": [],
-  "examplePrompt": "Build an onboarding plan for this customer.",
+  "examplePrompt": "New customer signed yesterday. Here are the deal notes. What should their first week accomplish?",
   "useCases": [
     {
       "roleId": "customer-support-success",

@@ -56,14 +56,14 @@ each skill manually.
 
 For a queue, return:
 
-1. **Ready to handle** — verified source and ID, channel or inbox, customer and recipient
+1. **Ready to handle:** verified source and ID, channel or inbox, customer and recipient
    provenance, factual basis, final reply or action copy, and whether it is chat-only, drafted in an
    app, or sent.
-2. **Needs your decision** — verified source and ID, knowns and unknowns, recommendation, proposed
+2. **Needs your decision:** verified source and ID, knowns and unknowns, recommendation, proposed
    action, and the narrow decision required.
-3. **Good to know** — positive workflows, ideas, preferences, and early signals needing no immediate
+3. **Good to know:** positive workflows, ideas, preferences, and early signals needing no immediate
    action, each with a source.
-4. **Remaining** — counts by state and the exact next unresolved cases.
+4. **Remaining:** counts by state and the exact next unresolved cases.
 
 For one case, return the same evidence, recommendation, decision, and reply fields as one compact
 result. Do not manufacture empty queue sections. State any related unresolved case or action found

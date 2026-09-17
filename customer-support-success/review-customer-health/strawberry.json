@@ -6,7 +6,7 @@
   "tags": [
     "good-first-skill"
   ],
-  "examplePrompt": "How healthy is this customer account?",
+  "examplePrompt": "This account looks cold in the dashboard. Is it, or are we measuring the wrong thing?",
   "useCases": [
     {
       "roleId": "customer-support-success",

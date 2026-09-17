@@ -4,7 +4,7 @@
   "summary": "Investigate a support case across approved sources, reconcile conflicts, and prepare a grounded customer-ready answer.",
   "icon": "binoculars",
   "tags": [],
-  "examplePrompt": "Investigate this support case.",
+  "examplePrompt": "Customer says they paid and got nothing. Check payments, grants, and usage before I reply.",
   "useCases": [
     {
       "roleId": "customer-support-success",
