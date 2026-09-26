@@ -12,7 +12,7 @@
     "avatarUrl": "/images/authors/charles-maddock.webp",
     "avatarAlt": "Charles Maddock"
   },
-  "publishedAt": "2026-08-17T00:00:00.000Z",
+  "publishedAt": "2026-06-04T04:06:51.757Z",
   "noindex": false,
   "introduction": [
     "Web extraction is valuable when repeated information needs to become a table you can inspect, filter, and use. The hard part is rarely copying text from one page. It is covering the full source, keeping a consistent schema, and knowing which values are missing, uncertain, or stale.",
