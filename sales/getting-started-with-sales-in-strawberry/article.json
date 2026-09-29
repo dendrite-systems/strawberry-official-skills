@@ -44,7 +44,7 @@
             },
             {
               "href": "#find-buyers-in-your-product",
-              "title": "Spot buyers in your product"
+              "title": "Mine for opportunities in your user DB"
             },
             {
               "href": "#why-a-browser",
@@ -106,18 +106,8 @@
         {
           "kind": "demo",
           "demo": {
-            "type": "transcription",
-            "title": "Discovery call with Acme",
-            "lines": [
-              "Anna: We need this live before the Q3 board meeting.",
-              "You: Then a two-week pilot makes sense.",
-              "Anna: Send the proposal to me and Jonas."
-            ],
-            "outcomes": [
-              "Follow-up email drafted to Anna and Jonas",
-              "Deal moved to Proposal in HubSpot",
-              "Reminder set for Friday"
-            ]
+            "type": "showcase",
+            "showcase": "meeting"
           }
         }
       ]
@@ -179,7 +169,7 @@
     },
     {
       "id": "find-buyers-in-your-product",
-      "title": "Spot buyers in your product",
+      "title": "Mine for opportunities in your user DB",
       "blocks": [
         {
           "kind": "paragraph",

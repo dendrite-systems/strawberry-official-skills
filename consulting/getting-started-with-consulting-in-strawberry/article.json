@@ -115,18 +115,8 @@
         {
           "kind": "demo",
           "demo": {
-            "type": "transcription",
-            "title": "Discovery call with Birch & Co",
-            "lines": [
-              "Client: Our reporting takes a week every month.",
-              "You: We can automate most of it.",
-              "Client: Can you send a proposal by Thursday?"
-            ],
-            "outcomes": [
-              "Proposal drafted from your template",
-              "Scope and price from past projects",
-              "Reminder set for Thursday"
-            ]
+            "type": "showcase",
+            "showcase": "meeting"
           }
         }
       ]

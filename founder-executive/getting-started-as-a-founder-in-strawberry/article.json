@@ -78,18 +78,8 @@
         {
           "kind": "demo",
           "demo": {
-            "type": "transcription",
-            "title": "Investor update call",
-            "lines": [
-              "You: Revenue grew 40% since the seed.",
-              "Maria: What is the plan for the US?",
-              "You: A first hire in New York this spring."
-            ],
-            "outcomes": [
-              "Notes saved to the team workspace",
-              "Follow-up with the metrics drafted",
-              "US hiring plan added to the board doc"
-            ]
+            "type": "showcase",
+            "showcase": "meeting"
           }
         }
       ]
@@ -105,15 +95,8 @@
         {
           "kind": "demo",
           "demo": {
-            "type": "routine",
-            "title": "Morning inbox",
-            "schedule": "Every weekday, 7:00",
-            "steps": [
-              "Labeled 143 new emails",
-              "Archived 61 newsletters and notifications",
-              "Flagged 3 that need you"
-            ],
-            "result": "Inbox sorted before your coffee"
+            "type": "showcase",
+            "showcase": "routine"
           }
         }
       ]

@@ -78,15 +78,8 @@
         {
           "kind": "demo",
           "demo": {
-            "type": "routine",
-            "title": "Morning inbox",
-            "schedule": "Every weekday, 7:00",
-            "steps": [
-              "Labeled 98 new emails",
-              "Archived 40 notifications",
-              "Flagged 4 that need you"
-            ],
-            "result": "Inbox sorted"
+            "type": "showcase",
+            "showcase": "routine"
           }
         }
       ]
@@ -126,18 +119,8 @@
         {
           "kind": "demo",
           "demo": {
-            "type": "transcription",
-            "title": "Weekly ops sync",
-            "lines": [
-              "Lina: The office move is pushed to the 14th.",
-              "You: I will tell the movers today.",
-              "Omar: I need the new floor plan."
-            ],
-            "outcomes": [
-              "Action items sent to Lina and Omar",
-              "Notes saved to the team workspace",
-              "Movers email drafted"
-            ]
+            "type": "showcase",
+            "showcase": "meeting"
           }
         }
       ]

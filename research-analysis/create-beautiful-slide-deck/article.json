@@ -44,16 +44,8 @@
         {
           "kind": "demo",
           "demo": {
-            "type": "prompt",
-            "prompt": "Turn this research into a 10-slide deck for the board, in our brand",
-            "apps": [
-              "google-drive"
-            ],
-            "steps": [
-              "Outline agreed",
-              "Pulled brand colors and logo from your last deck",
-              "10 slides ready to review"
-            ]
+            "type": "showcase",
+            "showcase": "slides"
           }
         }
       ]
