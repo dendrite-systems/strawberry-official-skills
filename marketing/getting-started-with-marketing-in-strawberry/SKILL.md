@@ -1,6 +1,6 @@
 ---
 name: getting-started-with-marketing-in-strawberry
-description: Ideas for helping someone get started with marketing in Strawberry, from learning what performs to researching competitors and creating content. Use when a marketer wants help finding a useful first task or a next step.
+description: Ideas and setup questions for marketing in Strawberry. Read when a marketer wants something to try.
 ---
 
 # Getting Started with Marketing in Strawberry

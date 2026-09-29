@@ -1,6 +1,6 @@
 ---
 name: getting-started-as-a-founder-in-strawberry
-description: Ideas for helping a founder get started in Strawberry, from inbox triage and meeting capture to selling, hiring, and fundraising. Use when a founder or executive wants help finding a useful first task or a next step.
+description: Ideas and setup questions for founders in Strawberry. Read when a founder or executive wants something to try.
 ---
 
 # Getting Started as a Founder in Strawberry

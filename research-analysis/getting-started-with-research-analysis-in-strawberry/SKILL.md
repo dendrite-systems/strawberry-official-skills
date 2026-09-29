@@ -1,6 +1,6 @@
 ---
 name: getting-started-with-research-analysis-in-strawberry
-description: Ideas for helping someone get started with research and analysis in Strawberry, from deep research and market maps to web data extraction and decks. Use when someone wants help finding a useful first research task or a next step.
+description: Ideas and setup questions for research and analysis in Strawberry. Read when someone wants a research task to try.
 ---
 
 # Getting Started with Research and Analysis in Strawberry

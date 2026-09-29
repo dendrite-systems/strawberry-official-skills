@@ -1,6 +1,6 @@
 ---
 name: getting-started-with-operations-in-strawberry
-description: Ideas for helping someone get started with operations work in Strawberry, from daily briefs and meetings to follow-ups, bookkeeping, and travel. Use when someone in operations or a chief of staff wants help finding a useful first task or a next step.
+description: Ideas and setup questions for operations work in Strawberry. Read when someone in ops wants something to try.
 ---
 
 # Getting Started with Operations in Strawberry

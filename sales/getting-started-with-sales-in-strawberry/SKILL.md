@@ -1,6 +1,6 @@
 ---
 name: getting-started-with-sales-in-strawberry
-description: Ideas for helping someone get started with sales in Strawberry, from finding customers to keeping the pipeline healthy. Use when a user in sales wants help finding a useful first task or a next step.
+description: Ideas and setup questions for sales work in Strawberry. Read when someone in sales wants something to try.
 ---
 
 # Getting Started with Sales in Strawberry

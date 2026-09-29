@@ -1,6 +1,6 @@
 ---
 name: getting-started-with-customer-support-and-success-in-strawberry
-description: Ideas for helping Customer Support and Customer Success teams get started in Strawberry, from triaging cases to setting up support the way Strawberry runs it. Use when someone in support or success wants help finding a useful first task or a next step.
+description: Ideas and setup questions for customer support and success in Strawberry. Read when a support team wants something to try.
 ---
 
 # Getting Started with Customer Support and Success in Strawberry

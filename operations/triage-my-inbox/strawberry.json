@@ -3,9 +3,7 @@
   "displayName": "Triage My Inbox",
   "summary": "Prioritize an email, LinkedIn, or other inbox, draft replies, and review the cleanup that would bring it under control.",
   "icon": "inbox",
-  "tags": [
-    "good-first-skill"
-  ],
+  "tags": [],
   "examplePrompt": "Triage my inbox.",
   "useCases": [
     {

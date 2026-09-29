@@ -1,6 +1,6 @@
 ---
 name: getting-started-with-product-engineering-in-strawberry
-description: Ideas for helping someone get started with product and engineering work in Strawberry, from testing and debugging web apps to building websites and extracting data. Use when a product manager, engineer, or designer wants help finding a useful first task or a next step.
+description: Ideas and setup questions for product and engineering work in Strawberry. Read when a builder wants something to try.
 ---
 
 # Getting Started with Product and Engineering in Strawberry

@@ -3,9 +3,7 @@
   "displayName": "Organize Receipts and Bookkeeping",
   "summary": "Gather invoices, receipts, and payment evidence, build a traceable register, and prepare a clean finance review handoff.",
   "icon": "receipt",
-  "tags": [
-    "good-first-skill"
-  ],
+  "tags": [],
   "examplePrompt": "Organize my receipts and invoices for bookkeeping.",
   "useCases": [
     {

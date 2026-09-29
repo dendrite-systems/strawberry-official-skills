@@ -1,6 +1,6 @@
 ---
 name: getting-started-with-consulting-in-strawberry
-description: Ideas for helping consultants and agencies get started in Strawberry, from winning clients to proposals, delivery, and reporting. Use when an independent consultant, firm, or agency wants help finding a useful first task or a next step.
+description: Ideas and setup questions for consultants and agencies in Strawberry. Read when they want something to try.
 ---
 
 # Getting Started with Consulting and Agency Work in Strawberry

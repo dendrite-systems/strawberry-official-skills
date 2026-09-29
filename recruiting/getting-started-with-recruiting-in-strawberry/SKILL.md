@@ -1,6 +1,6 @@
 ---
 name: getting-started-with-recruiting-in-strawberry
-description: Ideas for helping someone get started with recruiting in Strawberry, from sourcing candidates to keeping the pipeline moving. Use when a recruiter, hiring manager, or founder wants help finding a useful first task or a next step.
+description: Ideas and setup questions for recruiting in Strawberry. Read when a recruiter or hiring manager wants something to try.
 ---
 
 # Getting Started with Recruiting in Strawberry
