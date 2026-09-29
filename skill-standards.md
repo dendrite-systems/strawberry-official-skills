@@ -44,6 +44,6 @@ An `article.json` is worth publishing only when it has something a reader couldn
 chatbot: a real story (a playbook or case study), a demo, or a Strawberry capability shown in real
 work. Otherwise leave it out. A thin skill with no article is better than a padded one.
 
-A role page (a Getting Started guide's article) opens with the bigger picture, features four or
-five ideas in two or three sentences each, lists the rest under **More to try**, and ends with how a
-team can share it.
+A role page (a Getting Started guide's article) is a short product page: a one-line description,
+five features with a plain title and one sentence each, each with a `demo` block, a why-a-browser
+section, **More to try**, and one paragraph on how a team shares it.
