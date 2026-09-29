@@ -241,11 +241,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The team workspace gives everyone, people and companions, one shared place for notes, docs, and handoffs. What one companion learns about how the company runs, the others can use."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Put the recurring parts on Routines and they keep happening when someone is on holiday."
+          "text": "The team workspace gives people and companions one shared place for notes, docs, and handoffs. Put the recurring work on Routines and it keeps happening when someone is on holiday."
         }
       ]
     }
