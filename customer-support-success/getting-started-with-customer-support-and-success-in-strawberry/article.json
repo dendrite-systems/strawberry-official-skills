@@ -30,35 +30,35 @@
   ],
   "sections": [
     {
-      "id": "what-to-try-first",
-      "title": "What to try first",
+      "id": "what-you-can-hand-over",
+      "title": "What you can hand over",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
               "href": "#set-up-support-like-strawberry",
-              "title": "Set up support like we do"
+              "title": "Copy how we run support"
             },
             {
               "href": "#triage-the-queue",
-              "title": "Triage the queue"
+              "title": "Triage the queue automatically"
             },
             {
               "href": "#investigate-hard-cases",
-              "title": "Investigate hard cases"
+              "title": "Reproduce issues in your product"
             },
             {
               "href": "#resolve-and-verify",
-              "title": "Resolve and verify"
+              "title": "Resolve, then verify it worked"
             },
             {
               "href": "#bugs-with-repro",
-              "title": "File bugs with a repro"
+              "title": "File bugs engineers can act on"
             },
             {
-              "href": "#more-to-try",
-              "title": "More to try"
+              "href": "#why-a-browser",
+              "title": "Why a browser, not a chatbot"
             },
             {
               "href": "#bring-in-your-team",
@@ -68,7 +68,7 @@
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to start? Your companion can look at the work you have open and suggest the first thing worth handing over.",
+          "text": "Not sure where to start? Strawberry is free to download. Ask your companion to look at your work and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/customer-support-success/getting-started-with-customer-support-and-success-in-strawberry",
             "roleId": "customer-support-success",
@@ -79,11 +79,28 @@
     },
     {
       "id": "set-up-support-like-strawberry",
-      "title": "Set up support the way we run it",
+      "title": "Copy how we run support",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Our own setup, step by step: connecting the tools, learning from resolved cases, setting the boundaries, and turning on Routines once the manual flow works. Copy it as closely as you like."
+          "text": "Our own setup, step by step: connecting the tools, learning from resolved cases, setting boundaries, and turning on Routines once the manual flow works."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Set up our support the way Strawberry runs theirs",
+            "apps": [
+              "gmail",
+              "slack",
+              "notion"
+            ],
+            "steps": [
+              "Connected your helpdesk and billing",
+              "Learned from 200 resolved cases",
+              "Draft setup ready for review"
+            ]
+          }
         },
         {
           "kind": "skills",
@@ -99,41 +116,125 @@
     },
     {
       "id": "triage-the-queue",
-      "title": "Triage the queue",
+      "title": "Triage the queue automatically",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry reads every new case with its full history and prepares the right next step for each, so the morning starts with a plan instead of a pile."
+          "text": "Strawberry reads every new case with its full history and prepares the right next step for each, so the shift starts with a plan instead of a pile."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "Queue triage",
+            "schedule": "Every hour",
+            "steps": [
+              "Read 27 new cases with their history",
+              "Drafted 19 replies",
+              "Escalated 2 billing issues"
+            ],
+            "result": "Queue sorted and ready"
+          }
         }
       ]
     },
     {
       "id": "investigate-hard-cases",
-      "title": "Crack the cases nobody can answer",
+      "title": "Reproduce issues in your product",
       "blocks": [
         {
           "kind": "paragraph",
           "text": "It checks the account, billing, the docs, and past cases, and reproduces the problem in the product itself when it can."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Why can't this customer export their invoices?",
+            "apps": [
+              "slack",
+              "gmail"
+            ],
+            "steps": [
+              "Checked their plan and billing history",
+              "Reproduced the error in the app",
+              "Cause found: expired card on file"
+            ]
+          }
         }
       ]
     },
     {
       "id": "resolve-and-verify",
-      "title": "Resolve, then check it worked",
+      "title": "Resolve, then verify it worked",
       "blocks": [
         {
           "kind": "paragraph",
           "text": "Replies, refunds, and access changes go through once you approve them, and Strawberry checks that the change actually took effect."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Refund last month for this customer and let them know",
+            "apps": [
+              "gmail"
+            ],
+            "steps": [
+              "Refund prepared, waiting for approval",
+              "Refund confirmed in billing",
+              "Reply sent"
+            ]
+          }
         }
       ]
     },
     {
       "id": "bugs-with-repro",
-      "title": "Bugs engineering can act on",
+      "title": "File bugs engineers can act on",
       "blocks": [
         {
           "kind": "paragraph",
           "text": "Customer impact, a reproduction, and screenshots, packaged for the engineering team instead of \"a customer says it's broken\"."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "File a bug for the export issue",
+            "apps": [
+              "github",
+              "slack"
+            ],
+            "steps": [
+              "Wrote steps to reproduce",
+              "Attached 2 screenshots and the error",
+              "Issue filed and linked to 3 cases"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-a-browser",
+      "title": "Why a browser, not a chatbot",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Support answers live in five tools and the product itself. Strawberry checks them all."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "It uses your helpdesk, billing, and CRM while you're logged in.",
+            "It can open the product and reproduce what the customer sees.",
+            "It works across many tabs at once, so answers come quickly."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "In our test of 12 real-world tasks, Strawberry scored 99.2 out of 100. Perplexity's Comet scored 90.8 and ChatGPT Atlas 73.3."
         }
       ]
     },

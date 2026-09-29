@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "marketing",
   "title": "Market like a team of ten",
-  "description": "Learn from what already worked, hear what people say about you, and turn one idea into content for every channel, with real data in front of you.",
+  "description": "Learn from your best posts, hear what people say about you, watch competitors, and turn one idea into content for every channel. Free to download.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -15,40 +15,40 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Marketing teams are small and the to-do list isn't. There's always one more report to pull, one more competitor to check, and one more post to write for a channel you forgot about.",
-    "Strawberry works inside your analytics, social accounts, CMS, and the live web, so it does the digging and the drafting with real numbers in front of it. It can make the images too. Think of it as the extra hands the team never got budget for."
+    "Marketing teams are small and the to-do list isn't. There's always one more report to pull, one more competitor to check, and one more post for a channel you forgot about.",
+    "Strawberry works inside your analytics, social accounts, CMS, and the live web, so it does the digging and the drafting with real numbers in front of it. It makes the images too."
   ],
   "sections": [
     {
-      "id": "what-to-try-first",
-      "title": "What to try first",
+      "id": "what-you-can-hand-over",
+      "title": "What you can hand over",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
               "href": "#learn-from-what-worked",
-              "title": "Learn from what worked"
+              "title": "Find out why your best posts worked"
             },
             {
               "href": "#hear-what-people-say",
-              "title": "Hear what people say"
+              "title": "Hear what people say about you"
             },
             {
               "href": "#watch-competitors",
-              "title": "Watch competitors"
+              "title": "Track competitors automatically"
             },
             {
               "href": "#one-idea-every-channel",
-              "title": "One idea, every channel"
+              "title": "One idea, content for every channel"
             },
             {
               "href": "#find-out-why-traffic-moved",
-              "title": "Find out why traffic moved"
+              "title": "Audit SEO with real data"
             },
             {
-              "href": "#more-to-try",
-              "title": "More to try"
+              "href": "#why-a-browser",
+              "title": "Why a browser, not a chatbot"
             },
             {
               "href": "#bring-in-your-team",
@@ -58,7 +58,7 @@
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to start? Your companion can look at the work you have open and suggest the first thing worth handing over.",
+          "text": "Not sure where to start? Strawberry is free to download. Ask your companion to look at your work and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/marketing/getting-started-with-marketing-in-strawberry",
             "roleId": "marketing-content",
@@ -69,11 +69,27 @@
     },
     {
       "id": "learn-from-what-worked",
-      "title": "Learn from what already worked",
+      "title": "Find out why your best posts worked",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Point Strawberry at the last year of your posts. It finds the ones that did best, works out what they have in common, and turns that into a brief for the next ones. Your own history is better advice than any content playbook."
+          "text": "Point Strawberry at a year of your posts. It finds the ones that did best, works out what they have in common, and turns that into a brief for the next ones."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Which of our LinkedIn posts did best this year, and why?",
+            "apps": [
+              "linkedin",
+              "google-sheets"
+            ],
+            "steps": [
+              "Read 212 posts and their stats",
+              "Top 10% all opened with a customer story",
+              "Brief for next month ready"
+            ]
+          }
         }
       ]
     },
@@ -83,37 +99,123 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Reviews, Reddit threads, LinkedIn comments, and forum posts. Strawberry reads them in the browser and brings back a short report, or a deck in your brand, with a link to every quote. It's the fastest way to learn which words your customers actually use."
+          "text": "Reviews, Reddit threads, LinkedIn comments, and forums, read in the browser and turned into a report or a deck in your brand, with a link to every quote."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "What are people saying about us online this month?",
+            "apps": [
+              "reddit",
+              "g2",
+              "x"
+            ],
+            "steps": [
+              "Read 96 reviews and threads",
+              "Grouped into 5 themes",
+              "Deck in your brand ready"
+            ]
+          }
         }
       ]
     },
     {
       "id": "watch-competitors",
-      "title": "Keep an eye on competitors",
+      "title": "Track competitors automatically",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Pricing pages, changelogs, ads, and job posts say a lot about where a competitor is heading. Strawberry checks them, tells you what changed, and says what it means for you, not just how they're different."
+          "text": "Pricing pages, changelogs, ads, and job posts say a lot about where a competitor is heading. A Routine checks them and tells you what changed and what it means for you."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "Competitor watch",
+            "schedule": "Every Friday, 9:00",
+            "steps": [
+              "Checked 4 pricing pages and changelogs",
+              "Rival raised prices 20% on the Pro plan",
+              "Posted a summary to #marketing"
+            ],
+            "result": "2 changes worth knowing about"
+          }
         }
       ]
     },
     {
       "id": "one-idea-every-channel",
-      "title": "One idea, every channel",
+      "title": "One idea, content for every channel",
       "blocks": [
         {
           "kind": "paragraph",
           "text": "Give Strawberry a talk, a launch, or a long post. It turns it into versions for LinkedIn, X, email, and the blog in your voice, with generated images where a stock photo would have gone."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Turn our launch blog post into posts for LinkedIn, X, and the newsletter",
+            "apps": [
+              "linkedin",
+              "x",
+              "gmail"
+            ],
+            "steps": [
+              "Read the post and your brand guide",
+              "Wrote 3 versions in your voice",
+              "Generated 3 matching images"
+            ]
+          }
         }
       ]
     },
     {
       "id": "find-out-why-traffic-moved",
-      "title": "Find out why search traffic moved",
+      "title": "Audit SEO with real data",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry can work inside Search Console and your analytics while you're logged in, check the live search results, and come back with a short list of fixes in order of impact, with screenshots so you can see the evidence yourself."
+          "text": "Strawberry works inside Search Console and your analytics while you're logged in, checks the live results, and brings back a short list of fixes in order of impact."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Why did our organic traffic drop last month?",
+            "apps": [
+              "google"
+            ],
+            "steps": [
+              "Compared Search Console month over month",
+              "3 pricing pages lost their top positions",
+              "5 fixes, ranked by impact"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-a-browser",
+      "title": "Why a browser, not a chatbot",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A chatbot writes from a blank page. Strawberry writes from your numbers."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "It reads your analytics, social accounts, and CMS while you are logged in.",
+            "It checks the live web across many pages at once.",
+            "It generates images to go with the copy."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "In our test of 12 real-world tasks, Strawberry scored 99.2 out of 100. Perplexity's Comet scored 90.8 and ChatGPT Atlas 73.3."
         }
       ]
     },
@@ -126,7 +228,7 @@
           "style": "unordered",
           "items": [
             "Plan a campaign from what's already in your analytics and past launches.",
-            "Review last month and decide what to change, with the numbers pulled for you.",
+            "Review last month and decide what to change.",
             "Build a list of high-fit accounts for a campaign.",
             "Turn research into a beautiful deck in your brand."
           ]
@@ -139,11 +241,11 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Your brand voice, your audience notes, and what worked last quarter shouldn't live in one person's head. Save them with the team and every companion writes and researches the same way."
+          "text": "Your brand voice, audience notes, and what worked last quarter shouldn't live in one person's head. Keep them in the team workspace and every companion writes the same way."
         },
         {
           "kind": "paragraph",
-          "text": "Put the weekly numbers and the competitor check on a Routine, and Monday starts with a short summary instead of four dashboards."
+          "text": "Put the weekly numbers and the competitor check on Routines, and Monday starts with a short summary instead of four dashboards."
         }
       ]
     }
@@ -168,7 +270,7 @@
   ],
   "navigation": {
     "title": "Marketing",
-    "tagline": "What works, what people say, and content for every channel",
+    "tagline": "What works, what people say, and content everywhere",
     "icons": [
       "reddit",
       "x",

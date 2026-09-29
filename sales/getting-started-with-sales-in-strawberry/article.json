@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "automate-sales-pipeline",
   "title": "Automate your sales pipeline",
-  "description": "Let Strawberry find customers, prep your calls, log them without a bot, and follow up, so the pipeline keeps moving while you sell.",
+  "description": "A free AI browser that finds leads, researches accounts, transcribes your calls, and follows up. Like a sales hire who never lets a lead go cold.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -15,40 +15,40 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Most of sales isn't selling. It's everything around it: digging through LinkedIn, copying notes into the CRM, and writing the same follow-up for the fortieth time.",
-    "Strawberry is a browser with an AI teammate built in. It works in LinkedIn, your inbox, your CRM, and the open web the same way you do, and it remembers your customers between tasks. Start with one job. Over time it can run most of the cycle: finding leads, booking meetings, logging calls, following up, and even answering customers once they've signed."
+    "Picture a sales hire who finds the right companies, reads up on every account before your call, writes the follow-up while you're still saying goodbye, and never lets a lead go cold. That's what Strawberry can become for your team.",
+    "ChatGPT and Claude can explain how to prospect. Strawberry does the prospecting. It's a free browser with an AI companion built in, working inside LinkedIn, your inbox, and your CRM, logged in as you."
   ],
   "sections": [
     {
-      "id": "what-to-try-first",
-      "title": "What to try first",
+      "id": "what-you-can-hand-over",
+      "title": "What you can hand over",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
-              "href": "#find-customers-who-fit",
-              "title": "Find customers who fit"
+              "href": "#find-leads-that-fit",
+              "title": "Find leads that fit, with proof"
             },
             {
-              "href": "#walk-in-prepared",
-              "title": "Walk into calls prepared"
+              "href": "#transcribe-calls",
+              "title": "Transcribe calls, automate follow-ups"
             },
             {
-              "href": "#log-calls-without-a-bot",
-              "title": "Log calls without a bot"
+              "href": "#prep-every-call",
+              "title": "Prep every call in two minutes"
             },
             {
-              "href": "#follow-up-on-autopilot",
-              "title": "Follow up on autopilot"
+              "href": "#outreach-on-autopilot",
+              "title": "Outreach that sounds like you, on autopilot"
             },
             {
               "href": "#find-buyers-in-your-product",
-              "title": "Find buyers in your product"
+              "title": "Spot buyers already in your product"
             },
             {
-              "href": "#more-to-try",
-              "title": "More to try"
+              "href": "#why-a-browser",
+              "title": "Why a browser, not a chatbot"
             },
             {
               "href": "#bring-in-your-team",
@@ -58,7 +58,7 @@
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to start? Your companion can look at the work you have open and suggest the first thing worth handing over.",
+          "text": "Not sure where to start? Strawberry is free to download. Ask your companion to look at your work and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/sales/getting-started-with-sales-in-strawberry",
             "roleId": "sales-business-development",
@@ -68,12 +68,30 @@
       ]
     },
     {
-      "id": "find-customers-who-fit",
-      "title": "Find customers who actually fit",
+      "id": "find-leads-that-fit",
+      "title": "Find leads that fit, with proof",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Tell Strawberry who your best customers are, or let it learn that from your website and CRM. It searches the places lead databases miss, like niche directories, job posts, and funding news, and brings back a short list with a reason and a source for every company. You correct a small sample first, so the big run goes to the right companies."
+          "text": "Describe your best customers, or let Strawberry learn them from your website and CRM. It digs through LinkedIn, niche directories, job posts, and funding news, and hands you each company with the reason it fits and a link to check."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Find 30 Nordic fintechs that just raised a Series A and are hiring their first sales lead",
+            "apps": [
+              "linkedin",
+              "crunchbase",
+              "hubspot"
+            ],
+            "steps": [
+              "Searching LinkedIn and Crunchbase",
+              "Reading 64 company sites",
+              "Removing 7 already in HubSpot",
+              "30 companies, each with a reason"
+            ]
+          }
         },
         {
           "kind": "skills",
@@ -88,42 +106,131 @@
       ]
     },
     {
-      "id": "walk-in-prepared",
-      "title": "Walk into every call prepared",
+      "id": "transcribe-calls",
+      "title": "Transcribe calls, automate follow-ups",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Before a call, Strawberry pulls together who's in the room, what changed at their company, and what you talked about last time. Then it works out with you what your strongest ammunition is, so your notes are ready before you join."
+          "text": "Press record in Strawberry and your call is transcribed, with no bot joining the meeting. By the time you hang up, the follow-up email, the CRM notes, and the next steps are drafted and waiting for a quick check."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "transcription",
+            "title": "Discovery call with Acme",
+            "lines": [
+              "Anna: We need this live before the Q3 board meeting.",
+              "You: Then a two-week pilot makes sense.",
+              "Anna: Send the proposal to me and Jonas."
+            ],
+            "outcomes": [
+              "Follow-up email drafted to Anna and Jonas",
+              "Deal moved to Proposal in HubSpot",
+              "Reminder set for Friday"
+            ]
+          }
         }
       ]
     },
     {
-      "id": "log-calls-without-a-bot",
-      "title": "Log calls without a bot in the room",
+      "id": "prep-every-call",
+      "title": "Prep every call in two minutes",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry's transcription records the call on your own computer, so nobody has to admit a note-taker. When you hang up, the follow-up email, the CRM notes, and the next steps are already drafted for you to check."
+          "text": "Who's in the room, what changed at their company, and what you talked about last time, in one short brief. Strawberry also helps you pick the strongest points to lead with."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Prep me for my 2pm with Northwind",
+            "apps": [
+              "google-calendar",
+              "linkedin",
+              "gmail"
+            ],
+            "steps": [
+              "Reading the invite and last 6 emails",
+              "Checking LinkedIn for new hires",
+              "Northwind opened an office in Berlin last week",
+              "Brief ready with 3 talking points"
+            ]
+          }
         }
       ]
     },
     {
-      "id": "follow-up-on-autopilot",
-      "title": "Follow up without the spreadsheet gymnastics",
+      "id": "outreach-on-autopilot",
+      "title": "Outreach that sounds like you, on autopilot",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry writes outreach from your own sent emails, so it sounds like you and not like a sequence tool. It can run a drip of follow-ups, track them in a sheet, and stop the moment someone replies. Nothing sends without your say-so."
+          "text": "Strawberry learns your voice from your sent emails and writes each message for the person reading it. It runs the follow-ups from a simple sheet and stops the moment someone replies. Nothing sends until you say so."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Follow up with everyone who opened last week's email but didn't reply",
+            "apps": [
+              "gmail",
+              "google-sheets",
+              "linkedin"
+            ],
+            "steps": [
+              "Found 18 people in your outreach sheet",
+              "Drafting each reply in your voice",
+              "Waiting for your approval to send"
+            ]
+          }
         }
       ]
     },
     {
       "id": "find-buyers-in-your-product",
-      "title": "Find the buyers already using your product",
+      "title": "Spot buyers already in your product",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Some of your best leads already have an account. A weekly Routine can look through your user database or product analytics for accounts behaving like buyers, and hand you each one with the reason it stood out."
+          "text": "Some of your best leads already have an account. A weekly Routine checks your user data for accounts behaving like buyers and hands you each one with the reason it stood out."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "High-intent accounts",
+            "schedule": "Every Monday, 8:00",
+            "steps": [
+              "Checked product usage for 1,204 accounts",
+              "Compared with last month's paying customers",
+              "Posted 6 accounts to #sales"
+            ],
+            "result": "6 accounts ready for outreach"
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-a-browser",
+      "title": "Why a browser, not a chatbot",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A chat window can only work with what you paste into it. Strawberry works where your leads actually are."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "It uses LinkedIn, Sales Navigator, and your CRM while you're logged in, with no exports or API keys.",
+            "It reads dozens of pages at once instead of clicking through one tab at a time, and paces itself on LinkedIn to keep your account safe.",
+            "Every tab it opens is a real tab. Watch it work, or take over whenever you like."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "In our test of 12 real-world tasks, Strawberry scored 99.2 out of 100. Perplexity's Comet scored 90.8 and ChatGPT Atlas 73.3."
         }
       ]
     },
@@ -135,7 +242,6 @@
           "kind": "list",
           "style": "unordered",
           "items": [
-            "Find companies from signals: a new funding round, a relevant job post, a new office, a switch away from a competitor.",
             "Enrich a list you already have with decision-makers, emails, and company size.",
             "Keep the pipeline healthy: stale leads, duplicates, and contacts who changed jobs.",
             "Create a Slack channel for every new deal, with the right people already in it.",
@@ -151,11 +257,11 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Once something works for you, it can work for the whole team. Save the method as a team skill and every rep's companion sources, preps, and follows up the same way. Share the companion itself and it brings everything it has learned about your customers along."
+          "text": "Once something works for you, it works for everyone. Save your method as a team skill and every rep's companion sources, preps, and follows up the same way. Share one sales companion and it brings everything it has learned about your customers along."
         },
         {
           "kind": "paragraph",
-          "text": "Put the steady parts on a Routine and the pipeline gets worked every morning, whether or not anyone remembered to. At that point it stops feeling like a tool and starts feeling like a colleague who joined the sales team and never drops a thread."
+          "text": "Put the steady parts on Routines and the pipeline gets worked every morning, whether or not anyone remembered to. It stops feeling like a tool and starts feeling like a colleague who joined the sales team and never drops a thread."
         }
       ]
     }
@@ -180,7 +286,7 @@
   ],
   "navigation": {
     "title": "Sales",
-    "tagline": "Sourcing, calls, follow-up, and pipeline",
+    "tagline": "Leads, call notes, follow-ups, and pipeline",
     "icons": [
       "linkedin",
       "salesforce",

@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "operations",
   "title": "Run an AI-native ops team",
-  "description": "Wake up to a sorted inbox, a daily brief, and meetings that follow up on themselves. Strawberry handles the small things across every tab.",
+  "description": "A sorted inbox, a daily brief, meetings that follow up on themselves, and receipts fetched from every portal. Free to download.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -16,39 +16,39 @@
   "noindex": false,
   "introduction": [
     "Ops work is a thousand small things across a hundred tabs: the inbox, the calendar, the project tool, and the vendor portal that logs you out every single week.",
-    "Strawberry works in all of them, right in the browser, and it remembers where things stand. The small things get done, and you get to work on the things only you can do."
+    "Strawberry works in all of them, right in the browser, and remembers where things stand. The small things get done, and you get to work on the things only you can do."
   ],
   "sections": [
     {
-      "id": "what-to-try-first",
-      "title": "What to try first",
+      "id": "what-you-can-hand-over",
+      "title": "What you can hand over",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
-              "href": "#wake-up-to-a-sorted-inbox",
-              "title": "Wake up to a sorted inbox"
+              "href": "#sort-the-inbox",
+              "title": "Sort the inbox every morning"
             },
             {
               "href": "#a-daily-brief",
               "title": "Get a daily brief"
             },
             {
-              "href": "#meetings-that-follow-up",
-              "title": "Meetings that follow up"
+              "href": "#transcribe-meetings",
+              "title": "Transcribe meetings, send action items"
             },
             {
               "href": "#close-open-loops",
-              "title": "Close open loops"
+              "title": "Close the loops everyone forgot"
             },
             {
-              "href": "#receipts-without-the-hunt",
-              "title": "Receipts without the hunt"
+              "href": "#fetch-receipts",
+              "title": "Fetch receipts from every portal"
             },
             {
-              "href": "#more-to-try",
-              "title": "More to try"
+              "href": "#why-a-browser",
+              "title": "Why a browser, not a chatbot"
             },
             {
               "href": "#bring-in-your-team",
@@ -58,7 +58,7 @@
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to start? Your companion can look at the work you have open and suggest the first thing worth handing over.",
+          "text": "Not sure where to start? Strawberry is free to download. Ask your companion to look at your work and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/operations/getting-started-with-operations-in-strawberry",
             "roleId": "operations-chief-of-staff",
@@ -68,32 +68,87 @@
       ]
     },
     {
-      "id": "wake-up-to-a-sorted-inbox",
-      "title": "Wake up to a sorted inbox",
+      "id": "sort-the-inbox",
+      "title": "Sort the inbox every morning",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A morning Routine labels everything the way you like it, archives the obvious junk, and tells you the three messages that actually matter today. If the inbox is thousands deep, it helps you clear the bulk first and then works through the rest with you."
+          "text": "A morning Routine labels everything the way you like it, archives the obvious junk, and surfaces the few messages that matter today."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "Morning inbox",
+            "schedule": "Every weekday, 7:00",
+            "steps": [
+              "Labeled 98 new emails",
+              "Archived 40 notifications",
+              "Flagged 4 that need you"
+            ],
+            "result": "Inbox sorted"
+          }
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/triage-my-inbox",
+              "roleId": "operations-chief-of-staff",
+              "context": "Set up a morning Routine that sorts your inbox."
+            }
+          ]
         }
       ]
     },
     {
       "id": "a-daily-brief",
-      "title": "Start the day with a brief",
+      "title": "Get a daily brief",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Today's meetings with the context you need, what's waiting on you, and what changed overnight, in one short note before your first coffee."
+          "text": "Today's meetings with context, what's waiting on you, and what changed overnight, in one short note before your first coffee."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "Daily brief",
+            "schedule": "Every weekday, 7:30",
+            "steps": [
+              "Read today's calendar and 3 project boards",
+              "2 deadlines moved overnight",
+              "Brief sent to Slack"
+            ],
+            "result": "5 meetings, 2 decisions, 1 fire"
+          }
         }
       ]
     },
     {
-      "id": "meetings-that-follow-up",
-      "title": "Meetings that follow up on themselves",
+      "id": "transcribe-meetings",
+      "title": "Transcribe meetings, send action items",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry's transcription logs the meeting without a bot joining the call. Afterwards, the action items go to the right people and the notes land where the team will find them."
+          "text": "Strawberry transcribes the meeting without a bot joining the call. Afterwards, the action items go to the right people and the notes land where the team will find them."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "transcription",
+            "title": "Weekly ops sync",
+            "lines": [
+              "Lina: The office move is pushed to the 14th.",
+              "You: I will tell the movers today.",
+              "Omar: I need the new floor plan."
+            ],
+            "outcomes": [
+              "Action items sent to Lina and Omar",
+              "Notes saved to the team workspace",
+              "Movers email drafted"
+            ]
+          }
         }
       ]
     },
@@ -104,16 +159,83 @@
         {
           "kind": "paragraph",
           "text": "Promises made in meetings and threads have a way of disappearing. Strawberry finds the ones nobody followed up on and drafts the nudge."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "What did we promise people this week that nobody followed up on?",
+            "apps": [
+              "slack",
+              "gmail",
+              "notion"
+            ],
+            "steps": [
+              "Read 6 meeting notes and 140 threads",
+              "Found 5 open promises",
+              "Nudges drafted"
+            ]
+          }
         }
       ]
     },
     {
-      "id": "receipts-without-the-hunt",
-      "title": "Receipts without the hunt",
+      "id": "fetch-receipts",
+      "title": "Fetch receipts from every portal",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry logs in to vendor portals and billing pages to fetch the invoices that never arrive by email, then puts them in a register with a link to every original, ready for your bookkeeper."
+          "text": "Strawberry logs in to vendor portals and billing pages to fetch the invoices that never arrive by email, then puts them in a register ready for your bookkeeper."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Collect every invoice from September for the bookkeeper",
+            "apps": [
+              "gmail",
+              "google-drive",
+              "google-sheets"
+            ],
+            "steps": [
+              "Downloaded 23 invoices from 9 portals",
+              "2 receipts still missing",
+              "Register ready in Drive"
+            ]
+          }
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/organize-receipts-bookkeeping",
+              "roleId": "operations-chief-of-staff",
+              "context": "Gather invoices and receipts into a register your bookkeeper can use."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-a-browser",
+      "title": "Why a browser, not a chatbot",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Most ops work isn't writing. It's clicking through websites. That's what Strawberry does."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "It works inside your logged-in tools and portals, not just the ones with an API.",
+            "It handles many tabs at once, not one click at a time.",
+            "Routines keep running on schedule, even when you are away."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "In our test of 12 real-world tasks, Strawberry scored 99.2 out of 100. Perplexity's Comet scored 90.8 and ChatGPT Atlas 73.3."
         }
       ]
     },
@@ -126,9 +248,9 @@
           "style": "unordered",
           "items": [
             "Write the weekly status update from project tools, meetings, and messages.",
-            "Plan and book a trip or an event, comparing real options in the browser and booking only what you approve.",
+            "Plan and book a trip or an event, booking only what you approve.",
             "Onboard a new teammate: accounts, docs to read, and people to meet.",
-            "Create Slack channels and invite the right people, instead of doing it by hand every time."
+            "Create Slack channels and invite the right people."
           ]
         }
       ]
@@ -143,7 +265,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Put the recurring parts on Routines and they keep happening when someone is on holiday. Ops stops depending on who remembered."
+          "text": "Put the recurring parts on Routines and they keep happening when someone is on holiday."
         }
       ]
     }

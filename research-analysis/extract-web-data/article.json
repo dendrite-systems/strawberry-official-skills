@@ -28,6 +28,21 @@
           "text": "Anything that repeats on a website and belongs in rows:"
         },
         {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Get every exhibitor from this conference site into a sheet",
+            "apps": [
+              "google-sheets"
+            ],
+            "steps": [
+              "Found the site's exhibitor API",
+              "2,418 rows in 40 seconds",
+              "Sheet ready with a source on every row"
+            ]
+          }
+        },
+        {
           "kind": "list",
           "style": "unordered",
           "items": [
@@ -84,6 +99,20 @@
         {
           "kind": "paragraph",
           "text": "Once a run works, save it as a skill so the next extraction starts from the same fields and checks. If the data changes over time, like prices, listings, or openings, a Routine can rerun it on a schedule and tell you only what changed."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "Price tracker",
+            "schedule": "Every morning, 6:00",
+            "steps": [
+              "Re-read 1,140 product pages",
+              "14 prices changed",
+              "Updated the sheet"
+            ],
+            "result": "14 changes since yesterday"
+          }
         }
       ]
     }

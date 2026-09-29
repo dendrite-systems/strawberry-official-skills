@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "product-engineering",
   "title": "Test, debug, and build in a real browser",
-  "description": "Automated QA, debugging with the console and network in view, beautiful websites, and web data extraction that takes minutes instead of an hour.",
+  "description": "An AI that uses your app, not just reads your code: automated QA, debugging with the console open, websites with real images, and fast web data extraction.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -15,40 +15,40 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Most AI coding tools can read your code. Strawberry can also use your app: click through it in a real browser, watch the console and the network requests, and tell you exactly what broke.",
-    "Its harness is built for the web, so it's quick at the things other tools find awkward. Pulling thousands of rows out of a website often takes a minute instead of an hour."
+    "Most AI coding tools can read your code. Strawberry can also use your app: click through it in a real browser, watch the console and the network, and tell you exactly what broke.",
+    "Its harness is built for the web, so it's fast at the things other tools find awkward. Pulling thousands of rows out of a website often takes a minute instead of an hour."
   ],
   "sections": [
     {
-      "id": "what-to-try-first",
-      "title": "What to try first",
+      "id": "what-you-can-hand-over",
+      "title": "What you can hand over",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
               "href": "#qa-on-autopilot",
-              "title": "QA on autopilot"
+              "title": "Automated QA on your staging site"
             },
             {
               "href": "#debug-in-the-browser",
-              "title": "Debug in the browser"
+              "title": "Debug with the console open"
             },
             {
               "href": "#build-beautiful-websites",
-              "title": "Build beautiful websites"
+              "title": "Build websites that look designed"
             },
             {
               "href": "#extract-web-data",
-              "title": "Extract web data"
+              "title": "Scrape any site into a spreadsheet"
             },
             {
               "href": "#research-before-you-build",
-              "title": "Research before you build"
+              "title": "Research docs before you build"
             },
             {
-              "href": "#more-to-try",
-              "title": "More to try"
+              "href": "#why-a-browser",
+              "title": "Why a browser, not a chatbot"
             },
             {
               "href": "#bring-in-your-team",
@@ -58,7 +58,7 @@
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to start? Your companion can look at the work you have open and suggest the first thing worth handing over.",
+          "text": "Not sure where to start? Strawberry is free to download. Ask your companion to look at your work and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/product-engineering/getting-started-with-product-engineering-in-strawberry",
             "roleId": "engineering-development",
@@ -69,41 +69,101 @@
     },
     {
       "id": "qa-on-autopilot",
-      "title": "QA on autopilot",
+      "title": "Automated QA on your staging site",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Point Strawberry at your staging site and the flows that matter. It clicks through them like a user and reports what breaks, with screenshots and steps to reproduce. Put it on a Routine and it checks every morning."
+          "text": "Point Strawberry at the flows that matter. It clicks through them like a user and reports what breaks, with screenshots and steps to reproduce. Put it on a Routine and it checks every morning."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "Staging smoke test",
+            "schedule": "Every weekday, 6:00",
+            "steps": [
+              "Signed up as a new user",
+              "Checkout failed on step 3",
+              "Captured console error and screenshot"
+            ],
+            "result": "1 regression reported in #eng"
+          }
         }
       ]
     },
     {
       "id": "debug-in-the-browser",
-      "title": "Debug with the browser open",
+      "title": "Debug with the console open",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry reads the console, the network requests, and the page itself, so it can tell a broken API response from a broken button. It's the pair programmer who actually opens the app."
+          "text": "Strawberry reads the console, the network requests, and the page itself, so it can tell a broken API response from a broken button."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Why does the save button do nothing on /settings?",
+            "apps": [
+              "github"
+            ],
+            "steps": [
+              "Clicked Save on localhost:5173/settings",
+              "PATCH /api/profile returned 422",
+              "Missing timezone field in the request"
+            ]
+          }
         }
       ]
     },
     {
       "id": "build-beautiful-websites",
-      "title": "Build websites that look good",
+      "title": "Build websites that look designed",
       "blocks": [
         {
           "kind": "paragraph",
           "text": "Give it your brand, or a site whose style you like, and it builds pages with real screenshots or generated images instead of grey boxes."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Build a landing page for our API in the style of linear.app",
+            "apps": [
+              "figma",
+              "github"
+            ],
+            "steps": [
+              "Studying the reference site",
+              "Generating 4 hero images",
+              "Page ready to preview"
+            ]
+          }
         }
       ]
     },
     {
       "id": "extract-web-data",
-      "title": "Turn any website into data",
+      "title": "Scrape any site into a spreadsheet",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Many sites load their data through their own requests. Strawberry reads those directly, so a directory or catalog with thousands of rows becomes a clean spreadsheet quickly and cheaply."
+          "text": "Many sites load their data through their own requests. Strawberry reads those directly, so a directory with thousands of rows becomes a clean spreadsheet quickly and cheaply."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Get every exhibitor from this conference site into a sheet",
+            "apps": [
+              "google-sheets"
+            ],
+            "steps": [
+              "Found the site's exhibitor API",
+              "2,418 rows in 40 seconds",
+              "Sheet ready with a source on every row"
+            ]
+          }
         },
         {
           "kind": "skills",
@@ -119,11 +179,50 @@
     },
     {
       "id": "research-before-you-build",
-      "title": "Research before you build",
+      "title": "Research docs before you build",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Before starting a feature, Strawberry reads the docs, the changelogs, and the issue threads, and comes back with the approach, the gotchas, and the APIs you'll need."
+          "text": "Before a feature, Strawberry reads the docs, changelogs, and issue threads, and comes back with the approach, the gotchas, and the APIs you'll need."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "How should we add passkeys to our Next.js login?",
+            "apps": [
+              "github",
+              "google"
+            ],
+            "steps": [
+              "Read 14 docs pages and 6 GitHub issues",
+              "Compared 3 libraries",
+              "Plan with gotchas ready"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-a-browser",
+      "title": "Why a browser, not a chatbot",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Chat assistants can't see your running app. Strawberry can."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "It drives a real browser, including localhost and staging, and reads the console and network as it goes.",
+            "It works across many tabs at once instead of one step at a time.",
+            "You can watch every tab and take over at any point."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "In our test of 12 real-world tasks, Strawberry scored 99.2 out of 100. Perplexity's Comet scored 90.8 and ChatGPT Atlas 73.3."
         }
       ]
     },
@@ -135,7 +234,7 @@
           "kind": "list",
           "style": "unordered",
           "items": [
-            "Find typos, broken links, and console errors across a site.",
+            "Find typos, broken links, and console errors across a whole site.",
             "Create or review a pull request.",
             "File a bug with evidence and steps to reproduce.",
             "Turn support tickets, calls, and reviews into product insight."
@@ -149,7 +248,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Save a QA flow or a debugging checklist as a team skill and every engineer's companion runs it the same way. Put the nightly check on a Routine and the team hears about regressions before customers do."
+          "text": "Save a QA flow as a team skill and every engineer's companion runs it the same way. Put the nightly check on a Routine and the team hears about regressions before customers do."
         }
       ]
     }

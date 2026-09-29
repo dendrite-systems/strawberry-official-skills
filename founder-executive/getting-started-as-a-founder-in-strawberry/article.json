@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "founder-executive",
   "title": "Run your whole company from one place",
-  "description": "Capture every conversation, clear the inbox, find customers, hire, and write in your voice. Everything you teach Strawberry stays with the company.",
+  "description": "An executive assistant for the grunt work: meetings captured, inbox sorted, customers found, and candidates sourced. Free to download.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -15,40 +15,40 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "As a founder you're head of sales, head of recruiting, head of fundraising, and the person who fixes the printer. Usually all before lunch.",
-    "Strawberry can take a piece of each. And because every conversation you have can go into the team workspace, it gets better at all of them over time. The context stops living only in your head."
+    "As a founder you're head of sales, head of recruiting, head of fundraising, and the person who fixes the printer. Most days you'd give a lot for an executive assistant who could take the grunt work off your hands.",
+    "Strawberry can be that assistant. It's a free browser with an AI companion built in, working in your inbox, calendar, and every web app you use. And because every conversation can go into your team workspace, it gets sharper at your company over time."
   ],
   "sections": [
     {
-      "id": "what-to-try-first",
-      "title": "What to try first",
+      "id": "what-you-can-hand-over",
+      "title": "What you can hand over",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
               "href": "#capture-every-conversation",
-              "title": "Capture every conversation"
+              "title": "Transcribe every meeting, build a company brain"
             },
             {
-              "href": "#a-morning-inbox",
-              "title": "A sorted inbox every morning"
+              "href": "#a-sorted-inbox",
+              "title": "Wake up to a sorted inbox"
             },
             {
               "href": "#find-customers",
-              "title": "Find customers"
+              "title": "Find your next ten customers"
             },
             {
               "href": "#hire-great-people",
-              "title": "Hire great people"
+              "title": "Source candidates like your best people"
             },
             {
               "href": "#write-in-your-voice",
-              "title": "Write in your voice"
+              "title": "Write posts in your own voice"
             },
             {
-              "href": "#more-to-try",
-              "title": "More to try"
+              "href": "#why-a-browser",
+              "title": "Why a browser, not a chatbot"
             },
             {
               "href": "#bring-in-your-team",
@@ -58,7 +58,7 @@
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to start? Your companion can look at the work you have open and suggest the first thing worth handing over.",
+          "text": "Not sure where to start? Strawberry is free to download. Ask your companion to look at your work and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/founder-executive/getting-started-as-a-founder-in-strawberry",
             "roleId": "founder-executive",
@@ -69,31 +69,89 @@
     },
     {
       "id": "capture-every-conversation",
-      "title": "Capture every conversation",
+      "title": "Transcribe every meeting, build a company brain",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "One-on-ones, sales calls, candidate calls, investor and press conversations. Strawberry's transcription records them without a bot in the room, and each one adds to what your companions know about the company and how to talk about it."
+          "text": "One-on-ones, sales calls, candidate calls, investor and press conversations. Strawberry transcribes them without a bot in the room, and each one adds to what your companions know about the company and how to talk about it."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "transcription",
+            "title": "Investor update call",
+            "lines": [
+              "You: Revenue grew 40% since the seed.",
+              "Maria: What is the plan for the US?",
+              "You: A first hire in New York this spring."
+            ],
+            "outcomes": [
+              "Notes saved to the team workspace",
+              "Follow-up with the metrics drafted",
+              "US hiring plan added to the board doc"
+            ]
+          }
         }
       ]
     },
     {
-      "id": "a-morning-inbox",
-      "title": "A sorted inbox every morning",
+      "id": "a-sorted-inbox",
+      "title": "Wake up to a sorted inbox",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A Routine labels your mail, archives the junk, and surfaces the few messages that need you, before you've opened your laptop."
+          "text": "A morning Routine labels your mail the way you like, archives the junk, and tells you the three messages that actually need you."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "Morning inbox",
+            "schedule": "Every weekday, 7:00",
+            "steps": [
+              "Labeled 143 new emails",
+              "Archived 61 newsletters and notifications",
+              "Flagged 3 that need you"
+            ],
+            "result": "Inbox sorted before your coffee"
+          }
+        },
+        {
+          "kind": "skills",
+          "items": [
+            {
+              "id": "strawberry/operations/triage-my-inbox",
+              "roleId": "founder-executive",
+              "context": "Set up a morning Routine that sorts your inbox."
+            }
+          ]
         }
       ]
     },
     {
       "id": "find-customers",
-      "title": "Find the next ten customers",
+      "title": "Find your next ten customers",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Tell Strawberry who your best customers are and it finds more like them, with a reason and a source for each. Then it drafts outreach that sounds like you."
+          "text": "Tell Strawberry who your best customers are and it finds more like them, each with a reason and a source. Then it drafts outreach that sounds like you."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Find 10 companies like our three best customers",
+            "apps": [
+              "linkedin",
+              "hubspot",
+              "google"
+            ],
+            "steps": [
+              "Learning from your 3 best customers",
+              "Searching 80 lookalike companies",
+              "10 matches, each with a reason"
+            ]
+          }
         },
         {
           "kind": "skills",
@@ -109,11 +167,27 @@
     },
     {
       "id": "hire-great-people",
-      "title": "Hire people like your best people",
+      "title": "Source candidates like your best people",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Describe someone great on your team. Strawberry turns what makes them great into a scorecard, shows you a few mock candidates to calibrate, then searches LinkedIn, GitHub, and the open web for real ones."
+          "text": "Describe someone great on your team. Strawberry turns that into a scorecard, shows you a few mock candidates to calibrate, then searches LinkedIn, GitHub, and the open web for real ones."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Find engineers like Sara, our best backend hire",
+            "apps": [
+              "linkedin",
+              "github"
+            ],
+            "steps": [
+              "Built a scorecard from Sara's profile",
+              "Showing 3 mock candidates first",
+              "Searching LinkedIn and GitHub"
+            ]
+          }
         }
       ]
     },
@@ -123,7 +197,45 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The best material for your posts is what you've already said out loud. Strawberry drafts from your meetings and past writing, with generated images when they help."
+          "text": "The best material for your posts is what you've already said out loud. Strawberry drafts from your meetings and past writing, and generates images when they help."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Turn what I said on today's investor call into a LinkedIn post",
+            "apps": [
+              "linkedin"
+            ],
+            "steps": [
+              "Reading today's transcript",
+              "Matching the tone of your last 20 posts",
+              "Draft and image ready"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-a-browser",
+      "title": "Why a browser, not a chatbot",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "ChatGPT and Claude are great to think with. But the work itself happens in your inbox, your CRM, and on LinkedIn, and that's where Strawberry works."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "It uses your logged-in apps directly, with no exports or copy and paste.",
+            "It works across many tabs at once, not one click at a time.",
+            "Everything it learns can be shared with your team, so the context outlives any one chat."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "In our test of 12 real-world tasks, Strawberry scored 99.2 out of 100. Perplexity's Comet scored 90.8 and ChatGPT Atlas 73.3."
         }
       ]
     },
@@ -138,7 +250,7 @@
             "Review contracts, decks, and specs, with questions and suggested edits.",
             "Prepare a fundraise: investors who back similar companies, a target list, updates, and the deck.",
             "Get a daily brief of meetings, open threads, and what changed.",
-            "Turn any research into a beautiful deck."
+            "Turn research into a beautiful deck."
           ]
         }
       ]
@@ -149,7 +261,7 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Everything you teach Strawberry stays with the company, not just with you. Save it to the team workspace and every teammate's companion knows how you sell, hire, and talk about the business."
+          "text": "Everything you teach Strawberry stays with the company, not just with you. Keep a shared companion in the team workspace, and every teammate works with how you sell, hire, and talk about the business."
         },
         {
           "kind": "paragraph",
@@ -178,7 +290,7 @@
   ],
   "navigation": {
     "title": "Founder & Executive",
-    "tagline": "Conversations, inbox, customers, hiring, and fundraising",
+    "tagline": "Meetings, inbox, customers, hiring, and fundraising",
     "icons": [
       "google-sheets",
       "slack",

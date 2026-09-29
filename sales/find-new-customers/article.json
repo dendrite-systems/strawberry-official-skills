@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "ai-sales-prospecting",
   "title": "How to use AI for sales prospecting",
-  "description": "Find customers who fit for a reason: start from your best customers, search where the real signals are, and check a small sample before scaling.",
+  "description": "Ask a chatbot for leads and half of them are made up. Strawberry is a free AI browser that finds real companies that fit, with a reason and a source for each.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -15,21 +15,64 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Most AI prospecting tools hand you a list pulled from the same database everyone else uses. You get names and a score, then spend the afternoon working out which ones are real.",
-    "A better result is a smaller list where you can see why each company is on it. Strawberry gets there by learning what a good customer looks like for you, searching the places where the evidence actually lives, and checking a sample with you before it scales."
+    "Ask ChatGPT for a list of leads and you get something that sounds right. Then you check it, and half the companies are too big, out of business, or never existed.",
+    "Strawberry does the prospecting itself. It's a free browser with an AI companion built in, so it searches LinkedIn, niche directories, job boards, and funding news the way you would, only across dozens of pages at once. You get companies you can actually call, each with the reason it fits and a link to prove it."
   ],
   "sections": [
     {
-      "id": "start-from-your-best-customers",
-      "title": "Start from your best customers, not a perfect ICP",
+      "id": "leads-with-a-reason",
+      "title": "Leads with a reason, not just a name",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "You don't need a polished ideal customer profile to begin. Your website, your CRM, the deals you won, and the ones that went nowhere already say a lot about who you sell to. Strawberry can read those, with your permission, instead of asking you to write it all down."
+          "text": "Every company comes with enough to decide in a few seconds whether it belongs on your list."
         },
         {
-          "kind": "paragraph",
-          "text": "Tell it what you're unsure about and what to rule out, like existing customers, competitors, or regions you don't serve. Rough is fine. The first sample will sharpen it."
+          "kind": "table",
+          "columns": [
+            "You get",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "The company, with a link",
+              "No guessing which Acme it means"
+            ],
+            [
+              "Why it fits, in one line",
+              "Tied to what you told it about your customers"
+            ],
+            [
+              "The source",
+              "Click through and check it yourself"
+            ],
+            [
+              "A reason to reach out now",
+              "A new round, a job post, or a new office, when there is one"
+            ],
+            [
+              "Already in your CRM?",
+              "So nobody emails the same company twice"
+            ]
+          ]
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Find 30 Nordic fintechs that just raised a Series A and are hiring their first sales lead",
+            "apps": [
+              "linkedin",
+              "crunchbase",
+              "hubspot"
+            ],
+            "steps": [
+              "Searching LinkedIn and Crunchbase",
+              "Reading 64 company sites",
+              "Removing 7 already in HubSpot",
+              "30 companies, each with a reason"
+            ]
+          }
         },
         {
           "kind": "skills",
@@ -37,94 +80,75 @@
             {
               "id": "strawberry/sales/find-new-customers",
               "roleId": "sales-business-development",
-              "context": "Describe who you sell to, or let Strawberry learn it from your website and CRM, and get a first sample with a reason for each prospect."
+              "context": "Describe your best customers and get a first sample of prospects, each with a reason it fits."
             }
           ]
         }
       ]
     },
     {
-      "id": "search-where-the-signals-are",
-      "title": "Search where the signals are",
+      "id": "where-lead-databases-dont-look",
+      "title": "Found where lead databases don't look",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The companies worth calling often show up at the edges of the web: a niche directory, a job post for the role your product replaces, a funding announcement, a public register, a new office opening. A shared lead database rarely has any of that."
+          "text": "The companies worth calling often show up at the edges of the web first: a job post for the role your product replaces, a funding announcement, a listing in a niche directory. Shared lead databases rarely have any of that, and everyone else is buying the same list."
         },
         {
           "kind": "paragraph",
-          "text": "Because Strawberry works in a real browser, it can open those sources, follow the links, and keep digging when the first page comes up short. On LinkedIn it works at a human pace and stops on warnings, so your account stays safe."
+          "text": "Strawberry works in a real browser, logged in as you. It can search LinkedIn and Sales Navigator, follow the links, and keep digging when the first page comes up short. It paces itself on LinkedIn so your account stays safe."
         }
       ]
     },
     {
-      "id": "check-a-sample-first",
-      "title": "Check a small sample before scaling",
+      "id": "right-on-the-first-run",
+      "title": "Right on the first run, better on the next",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The first run is deliberately small and varied, with a couple of borderline cases in it. You say what feels right and what doesn't, and the criteria get sharper before any real time or credits go into a wider search."
+          "text": "You don't need a perfect ideal customer profile. Strawberry can learn who you sell to from your website, your CRM, and the deals you've won. It shows you a small, varied sample first, you say what's right and what isn't, and the big run goes to the right companies."
         },
         {
           "kind": "paragraph",
-          "text": "Then you choose the shape of the bigger run. A wide pass screens many companies on lighter signals. A deep pass researches fewer companies properly. Often the best answer is both: screen wide, then go deep on the ones that matter."
+          "text": "Once the search works, save it as a skill. Next time, it starts from everything you've already agreed."
         }
       ]
     },
     {
-      "id": "what-you-get-back",
-      "title": "What you get back",
+      "id": "straight-into-outreach",
+      "title": "Straight into outreach",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Every prospect comes with enough to decide in a few seconds whether it belongs:"
-        },
-        {
-          "kind": "table",
-          "columns": [
-            "Column",
-            "What it tells you"
-          ],
-          "rows": [
-            [
-              "Company",
-              "Who it is, with a link"
-            ],
-            [
-              "Why it fits",
-              "One line tied to your criteria"
-            ],
-            [
-              "Evidence",
-              "The source behind that line"
-            ],
-            [
-              "Signal",
-              "A reason to reach out now, when there is one"
-            ],
-            [
-              "Already known",
-              "Whether it is in your CRM or on an existing list"
-            ]
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "If too few companies meet the bar, Strawberry says so and offers options, like widening a criterion or trying other sources. It doesn't quietly pad the list to hit a number."
+          "text": "From the list, Strawberry can research the strongest accounts, find the right people, and draft outreach that sounds like you, learned from your own sent emails. Nothing gets added to your CRM or sent without your say."
         }
       ]
     },
     {
-      "id": "turn-the-list-into-pipeline",
-      "title": "Turn the list into pipeline",
+      "id": "every-week-automatically",
+      "title": "New leads every week, automatically",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "From there, your companion can research the strongest accounts more deeply, fill in the contacts you need, make a one-pager for a specific account, or draft outreach in your voice. Finding, adding to the CRM, drafting, and sending are separate steps, and nothing goes out without your say."
+          "text": "Put the search on a Routine and Strawberry looks for new companies every week, skips the ones you've already seen, and posts the best to your team."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "New leads",
+            "schedule": "Every Monday, 8:00",
+            "steps": [
+              "Searched funding news and job boards",
+              "Skipped 12 companies already in HubSpot",
+              "Posted 8 new matches to #sales"
+            ],
+            "result": "8 new companies worth a call"
+          }
         },
         {
           "kind": "paragraph",
-          "text": "Once the search works, save it as a skill so the next one starts from what you've already agreed. Share it with your team, or turn it into a Routine that looks for new companies every week."
+          "text": "In our test of 12 real-world tasks, Strawberry scored 99.2 out of 100. Perplexity's Comet scored 90.8 and ChatGPT Atlas 73.3. The goal isn't more leads. It's a pipeline that keeps finding the customers you can actually help."
         }
       ]
     }

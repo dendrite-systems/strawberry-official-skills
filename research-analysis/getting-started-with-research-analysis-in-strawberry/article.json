@@ -20,35 +20,35 @@
   ],
   "sections": [
     {
-      "id": "what-to-try-first",
-      "title": "What to try first",
+      "id": "what-you-can-hand-over",
+      "title": "What you can hand over",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
               "href": "#deep-research",
-              "title": "Go deep on a question"
+              "title": "Deep research with sources"
             },
             {
               "href": "#map-a-market",
-              "title": "Map a market"
+              "title": "Map every player in a market"
             },
             {
               "href": "#websites-to-spreadsheets",
-              "title": "Websites to spreadsheets"
+              "title": "Turn websites into spreadsheets"
             },
             {
               "href": "#keep-watch",
-              "title": "Keep watch"
+              "title": "Monitor anything on a schedule"
             },
             {
               "href": "#decks-people-read",
-              "title": "Make decks people read"
+              "title": "Make decks people actually read"
             },
             {
-              "href": "#more-to-try",
-              "title": "More to try"
+              "href": "#why-a-browser",
+              "title": "Why a browser, not a chatbot"
             },
             {
               "href": "#bring-in-your-team",
@@ -58,7 +58,7 @@
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to start? Your companion can look at the work you have open and suggest the first thing worth handing over.",
+          "text": "Not sure where to start? Strawberry is free to download. Ask your companion to look at your work and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/research-analysis/getting-started-with-research-analysis-in-strawberry",
             "roleId": "research-analysis",
@@ -69,11 +69,28 @@
     },
     {
       "id": "deep-research",
-      "title": "Go deep on one question",
+      "title": "Deep research with sources",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A company, a market, a technology, a person. Tell Strawberry what decision the research is for, and it works out how deep to go and brings back an answer with the sources beside every claim."
+          "text": "A company, a market, a technology, a person. Tell Strawberry what decision the research is for, and it works out how deep to go and brings back an answer with sources beside every claim."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Should we expand to Germany or France first?",
+            "apps": [
+              "google",
+              "linkedin",
+              "crunchbase"
+            ],
+            "steps": [
+              "Read 58 sources",
+              "Compared market size, competitors, and hiring",
+              "Recommendation with sources ready"
+            ]
+          }
         }
       ]
     },
@@ -84,6 +101,23 @@
         {
           "kind": "paragraph",
           "text": "Strawberry finds the companies in a niche, groups them, and compares them, including the small ones search engines barely index."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Map every European company building AI for dentists",
+            "apps": [
+              "crunchbase",
+              "linkedin",
+              "google"
+            ],
+            "steps": [
+              "Found 47 companies",
+              "Grouped into 5 categories",
+              "Market map ready"
+            ]
+          }
         }
       ]
     },
@@ -93,7 +127,22 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Directories, listings, catalogs, and public records become clean rows and columns, with a link to the source on every row."
+          "text": "Directories, listings, catalogs, and public records become clean rows and columns, with a source link on every row."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Put every clinic listed on this directory into a spreadsheet",
+            "apps": [
+              "google-sheets"
+            ],
+            "steps": [
+              "Read the directory's own data feed",
+              "1,382 rows collected",
+              "Sheet ready with sources"
+            ]
+          }
         },
         {
           "kind": "skills",
@@ -109,11 +158,25 @@
     },
     {
       "id": "keep-watch",
-      "title": "Keep watch on what matters",
+      "title": "Monitor anything on a schedule",
       "blocks": [
         {
           "kind": "paragraph",
           "text": "Competitors, prices, regulations, job posts. A Routine checks on a schedule and only tells you when something actually changed."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "Regulation watch",
+            "schedule": "Every Monday, 8:00",
+            "steps": [
+              "Checked 12 official sources",
+              "1 new guidance document published",
+              "Summary sent to you"
+            ],
+            "result": "1 change worth reading"
+          }
         }
       ]
     },
@@ -126,6 +189,21 @@
           "text": "Strawberry turns findings into a deck that leads with the answer, in your brand, with real screenshots and charts."
         },
         {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Turn this research into a 10-slide deck for the board",
+            "apps": [
+              "google-drive"
+            ],
+            "steps": [
+              "Outline agreed",
+              "Pulled brand colors from your last deck",
+              "10 slides ready"
+            ]
+          }
+        },
+        {
           "kind": "skills",
           "items": [
             {
@@ -134,6 +212,29 @@
               "context": "Agree the story first, then get a finished deck."
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "why-a-browser",
+      "title": "Why a browser, not a chatbot",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Chat assistants summarize what search engines show them. Strawberry goes and reads."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "It opens pages, follows links, and reads sites that need a login.",
+            "It reads many pages at once, so deep research stays quick.",
+            "Every claim keeps a link to its source."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "In our test of 12 real-world tasks, Strawberry scored 99.2 out of 100. Perplexity's Comet scored 90.8 and ChatGPT Atlas 73.3."
         }
       ]
     },
@@ -159,10 +260,6 @@
         {
           "kind": "paragraph",
           "text": "Keep research in the team workspace and nobody starts from zero. The next person picks up where the last one stopped, sources and all."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Save how your team researches as a team skill, and every companion checks the same sources to the same standard."
         }
       ]
     }
