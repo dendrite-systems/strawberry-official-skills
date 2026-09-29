@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "founder-executive",
   "title": "Run your whole company from one place",
-  "description": "An executive assistant for the grunt work: meetings captured, inbox sorted, customers found, and candidates sourced. Free to download.",
+  "description": "The executive assistant for your grunt work: every meeting captured, the inbox sorted, customers found, and candidates sourced. Free to download.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -28,23 +28,23 @@
           "items": [
             {
               "href": "#capture-every-conversation",
-              "title": "Transcribe every meeting, build a company brain"
+              "title": "Every conversation becomes company memory"
             },
             {
               "href": "#a-sorted-inbox",
-              "title": "Wake up to a sorted inbox"
+              "title": "An inbox that sorts itself before you wake up"
             },
             {
               "href": "#find-customers",
-              "title": "Find your next ten customers"
+              "title": "Your next ten customers, found for you"
             },
             {
               "href": "#hire-great-people",
-              "title": "Source candidates like your best people"
+              "title": "Candidates like your best people"
             },
             {
               "href": "#write-in-your-voice",
-              "title": "Write posts in your own voice"
+              "title": "Posts in your voice, from what you already said"
             },
             {
               "href": "#why-a-browser",
@@ -69,11 +69,11 @@
     },
     {
       "id": "capture-every-conversation",
-      "title": "Transcribe every meeting, build a company brain",
+      "title": "Every conversation becomes company memory",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "One-on-ones, sales calls, candidate calls, investor and press conversations. Strawberry transcribes them without a bot in the room, and each one adds to what your companions know about the company and how to talk about it."
+          "text": "One-on-ones, sales, candidate, and investor calls are transcribed without a bot and saved for the whole team."
         },
         {
           "kind": "demo",
@@ -96,11 +96,11 @@
     },
     {
       "id": "a-sorted-inbox",
-      "title": "Wake up to a sorted inbox",
+      "title": "An inbox that sorts itself before you wake up",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A morning Routine labels your mail the way you like, archives the junk, and tells you the three messages that actually need you."
+          "text": "Labeled your way, junk archived, and the three messages that need you flagged."
         },
         {
           "kind": "demo",
@@ -115,26 +115,16 @@
             ],
             "result": "Inbox sorted before your coffee"
           }
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/triage-my-inbox",
-              "roleId": "founder-executive",
-              "context": "Set up a morning Routine that sorts your inbox."
-            }
-          ]
         }
       ]
     },
     {
       "id": "find-customers",
-      "title": "Find your next ten customers",
+      "title": "Your next ten customers, found for you",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Tell Strawberry who your best customers are and it finds more like them, each with a reason and a source. Then it drafts outreach that sounds like you."
+          "text": "More companies like your best ones, each with a reason, and outreach drafted in your voice."
         },
         {
           "kind": "demo",
@@ -152,26 +142,16 @@
               "10 matches, each with a reason"
             ]
           }
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/sales/find-new-customers",
-              "roleId": "founder-executive",
-              "context": "Find companies like your best customers, each with a reason it fits."
-            }
-          ]
         }
       ]
     },
     {
       "id": "hire-great-people",
-      "title": "Source candidates like your best people",
+      "title": "Candidates like your best people",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Describe someone great on your team. Strawberry turns that into a scorecard, shows you a few mock candidates to calibrate, then searches LinkedIn, GitHub, and the open web for real ones."
+          "text": "A scorecard from someone great on your team, mock candidates to calibrate, then real ones from LinkedIn and GitHub."
         },
         {
           "kind": "demo",
@@ -193,11 +173,11 @@
     },
     {
       "id": "write-in-your-voice",
-      "title": "Write posts in your own voice",
+      "title": "Posts in your voice, from what you already said",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The best material for your posts is what you've already said out loud. Strawberry drafts from your meetings and past writing, and generates images when they help."
+          "text": "Drafted from your meetings and past writing, with images when they help."
         },
         {
           "kind": "demo",

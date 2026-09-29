@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "consulting",
   "title": "Run an AI-native consultancy",
-  "description": "Win clients from signals, turn calls into proposals, and report progress and hours without the Friday scramble. Free to download.",
+  "description": "Win clients from buying signals, turn calls into proposals, and let reports and timesheets write themselves. Free to download.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -39,23 +39,23 @@
           "items": [
             {
               "href": "#win-clients-from-signals",
-              "title": "Win clients from buying signals"
+              "title": "Clients found the week they're ready to buy"
             },
             {
               "href": "#call-to-proposal",
-              "title": "Transcribe calls, draft the proposal"
+              "title": "A proposal drafted before the call ends"
             },
             {
               "href": "#report-to-clients",
-              "title": "Client reports that build themselves"
+              "title": "Client reports that write themselves"
             },
             {
               "href": "#time-reporting",
-              "title": "Time reporting from your calendar"
+              "title": "Timesheets without the Friday scramble"
             },
             {
               "href": "#research-before-kickoff",
-              "title": "Research clients before kickoff"
+              "title": "Walk into kickoff knowing the client"
             },
             {
               "href": "#why-a-browser",
@@ -80,11 +80,11 @@
     },
     {
       "id": "win-clients-from-signals",
-      "title": "Win clients from buying signals",
+      "title": "Clients found the week they're ready to buy",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Companies that just raised a round, posted a relevant job, or launched something new are often ready to buy. Strawberry finds them and drafts a short one-pager for each on how you could help."
+          "text": "Fresh funding, relevant job posts, and new launches, each with a one-pager on how you'd help."
         },
         {
           "kind": "demo",
@@ -101,26 +101,16 @@
               "One-pager drafted for each"
             ]
           }
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/sales/find-new-customers",
-              "roleId": "consultant",
-              "context": "Find companies showing the signals that make them good clients right now."
-            }
-          ]
         }
       ]
     },
     {
       "id": "call-to-proposal",
-      "title": "Transcribe calls, draft the proposal",
+      "title": "A proposal drafted before the call ends",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Record the discovery call without a bot, and Strawberry drafts the proposal from what was said and your best past proposals."
+          "text": "Recorded without a bot and written from what the client said and your best past proposals."
         },
         {
           "kind": "demo",
@@ -143,11 +133,11 @@
     },
     {
       "id": "report-to-clients",
-      "title": "Client reports that build themselves",
+      "title": "Client reports that write themselves",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry pulls from project boards, analytics, ad accounts, and meeting notes to build each client's report in the format they're used to."
+          "text": "Numbers pulled from each client's tools into the format they're used to, every month."
         },
         {
           "kind": "demo",
@@ -167,11 +157,11 @@
     },
     {
       "id": "time-reporting",
-      "title": "Time reporting from your calendar",
+      "title": "Timesheets without the Friday scramble",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry pieces together hours from calendars, recordings, and project tools into a weekly report per client, ready for you to check before invoicing."
+          "text": "Hours pieced together from your calendar, recordings, and project tools, per client."
         },
         {
           "kind": "demo",
@@ -191,11 +181,11 @@
     },
     {
       "id": "research-before-kickoff",
-      "title": "Research clients before kickoff",
+      "title": "Walk into kickoff knowing the client",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Their business, their market, their competitors, and the people in the room, researched before the first meeting."
+          "text": "Their business, market, competitors, and the people in the room, researched ahead."
         },
         {
           "kind": "demo",

@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "product-engineering",
   "title": "Test, debug, and build in a real browser",
-  "description": "An AI that uses your app, not just reads your code: automated QA, debugging with the console open, websites with real images, and fast web data extraction.",
+  "description": "Strawberry clicks through your app, reads the console, builds pages that look designed, and scrapes the web in minutes. Free to download.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -28,23 +28,23 @@
           "items": [
             {
               "href": "#qa-on-autopilot",
-              "title": "Automated QA on your staging site"
+              "title": "Regressions caught before customers see them"
             },
             {
               "href": "#debug-in-the-browser",
-              "title": "Debug with the console open"
+              "title": "Bugs found with the console already open"
             },
             {
               "href": "#build-beautiful-websites",
-              "title": "Build websites that look designed"
+              "title": "Websites that look designed, not generated"
             },
             {
               "href": "#extract-web-data",
-              "title": "Scrape any site into a spreadsheet"
+              "title": "Any website into a spreadsheet, in minutes"
             },
             {
               "href": "#research-before-you-build",
-              "title": "Research docs before you build"
+              "title": "The research done before you write a line"
             },
             {
               "href": "#why-a-browser",
@@ -69,11 +69,11 @@
     },
     {
       "id": "qa-on-autopilot",
-      "title": "Automated QA on your staging site",
+      "title": "Regressions caught before customers see them",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Point Strawberry at the flows that matter. It clicks through them like a user and reports what breaks, with screenshots and steps to reproduce. Put it on a Routine and it checks every morning."
+          "text": "Every morning Strawberry clicks through your key flows on staging and reports what broke, with screenshots."
         },
         {
           "kind": "demo",
@@ -93,11 +93,11 @@
     },
     {
       "id": "debug-in-the-browser",
-      "title": "Debug with the console open",
+      "title": "Bugs found with the console already open",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry reads the console, the network requests, and the page itself, so it can tell a broken API response from a broken button."
+          "text": "It reads the page, the console, and the network, so it can tell a broken API from a broken button."
         },
         {
           "kind": "demo",
@@ -118,11 +118,11 @@
     },
     {
       "id": "build-beautiful-websites",
-      "title": "Build websites that look designed",
+      "title": "Websites that look designed, not generated",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Give it your brand, or a site whose style you like, and it builds pages with real screenshots or generated images instead of grey boxes."
+          "text": "Your brand or a site you like, with real screenshots or generated images instead of grey boxes."
         },
         {
           "kind": "demo",
@@ -144,11 +144,11 @@
     },
     {
       "id": "extract-web-data",
-      "title": "Scrape any site into a spreadsheet",
+      "title": "Any website into a spreadsheet, in minutes",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Many sites load their data through their own requests. Strawberry reads those directly, so a directory with thousands of rows becomes a clean spreadsheet quickly and cheaply."
+          "text": "It reads the site's own data requests, so thousands of rows take a minute instead of an hour."
         },
         {
           "kind": "demo",
@@ -164,26 +164,16 @@
               "Sheet ready with a source on every row"
             ]
           }
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/research-analysis/extract-web-data",
-              "roleId": "engineering-development",
-              "context": "Say which fields you need and get a checked sample before the full run."
-            }
-          ]
         }
       ]
     },
     {
       "id": "research-before-you-build",
-      "title": "Research docs before you build",
+      "title": "The research done before you write a line",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Before a feature, Strawberry reads the docs, changelogs, and issue threads, and comes back with the approach, the gotchas, and the APIs you'll need."
+          "text": "Docs, changelogs, and issue threads read for you, with the approach and the gotchas."
         },
         {
           "kind": "demo",

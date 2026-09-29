@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "operations",
   "title": "Run an AI-native ops team",
-  "description": "A sorted inbox, a daily brief, meetings that follow up on themselves, and receipts fetched from every portal. Free to download.",
+  "description": "A sorted inbox, a morning brief, meetings that follow up on themselves, and receipts fetched from every portal. Free to download.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -28,23 +28,23 @@
           "items": [
             {
               "href": "#sort-the-inbox",
-              "title": "Sort the inbox every morning"
+              "title": "An inbox sorted before you open it"
             },
             {
               "href": "#a-daily-brief",
-              "title": "Get a daily brief"
+              "title": "The day's brief before your first coffee"
             },
             {
               "href": "#transcribe-meetings",
-              "title": "Transcribe meetings, send action items"
+              "title": "Meetings that follow up on themselves"
             },
             {
               "href": "#close-open-loops",
-              "title": "Close the loops everyone forgot"
+              "title": "No promise left hanging"
             },
             {
               "href": "#fetch-receipts",
-              "title": "Fetch receipts from every portal"
+              "title": "Every receipt, from every portal"
             },
             {
               "href": "#why-a-browser",
@@ -69,11 +69,11 @@
     },
     {
       "id": "sort-the-inbox",
-      "title": "Sort the inbox every morning",
+      "title": "An inbox sorted before you open it",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A morning Routine labels everything the way you like it, archives the obvious junk, and surfaces the few messages that matter today."
+          "text": "Labeled your way every morning, junk archived, and the few messages that matter flagged."
         },
         {
           "kind": "demo",
@@ -88,26 +88,16 @@
             ],
             "result": "Inbox sorted"
           }
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/triage-my-inbox",
-              "roleId": "operations-chief-of-staff",
-              "context": "Set up a morning Routine that sorts your inbox."
-            }
-          ]
         }
       ]
     },
     {
       "id": "a-daily-brief",
-      "title": "Get a daily brief",
+      "title": "The day's brief before your first coffee",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Today's meetings with context, what's waiting on you, and what changed overnight, in one short note before your first coffee."
+          "text": "Meetings with context, what's waiting on you, and what changed overnight, in one note."
         },
         {
           "kind": "demo",
@@ -127,11 +117,11 @@
     },
     {
       "id": "transcribe-meetings",
-      "title": "Transcribe meetings, send action items",
+      "title": "Meetings that follow up on themselves",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry transcribes the meeting without a bot joining the call. Afterwards, the action items go to the right people and the notes land where the team will find them."
+          "text": "Transcribed without a bot, action items sent to the right people, and notes filed for the team."
         },
         {
           "kind": "demo",
@@ -154,11 +144,11 @@
     },
     {
       "id": "close-open-loops",
-      "title": "Close the loops everyone forgot",
+      "title": "No promise left hanging",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Promises made in meetings and threads have a way of disappearing. Strawberry finds the ones nobody followed up on and drafts the nudge."
+          "text": "Strawberry finds what was promised in meetings and threads but never followed up, and drafts the nudge."
         },
         {
           "kind": "demo",
@@ -181,11 +171,11 @@
     },
     {
       "id": "fetch-receipts",
-      "title": "Fetch receipts from every portal",
+      "title": "Every receipt, from every portal",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry logs in to vendor portals and billing pages to fetch the invoices that never arrive by email, then puts them in a register ready for your bookkeeper."
+          "text": "It logs in to vendor portals, downloads the invoices, and hands your bookkeeper a register."
         },
         {
           "kind": "demo",
@@ -203,16 +193,6 @@
               "Register ready in Drive"
             ]
           }
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/organize-receipts-bookkeeping",
-              "roleId": "operations-chief-of-staff",
-              "context": "Gather invoices and receipts into a register your bookkeeper can use."
-            }
-          ]
         }
       ]
     },

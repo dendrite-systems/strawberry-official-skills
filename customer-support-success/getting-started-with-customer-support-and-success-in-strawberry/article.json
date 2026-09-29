@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "customer-support-success",
   "title": "Support that knows every account",
-  "description": "Triage the queue, investigate hard cases in the product itself, and resolve with evidence. It's how we run Strawberry's own support.",
+  "description": "Triage the queue, crack hard cases in the product itself, and resolve with proof. It's how we run our own support.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -38,23 +38,23 @@
           "items": [
             {
               "href": "#set-up-support-like-strawberry",
-              "title": "Copy how we run support"
+              "title": "Our own support setup, ready to copy"
             },
             {
               "href": "#triage-the-queue",
-              "title": "Triage the queue automatically"
+              "title": "A sorted queue at the start of every shift"
             },
             {
               "href": "#investigate-hard-cases",
-              "title": "Reproduce issues in your product"
+              "title": "Hard cases, reproduced in your product"
             },
             {
               "href": "#resolve-and-verify",
-              "title": "Resolve, then verify it worked"
+              "title": "Fixes confirmed, not just sent"
             },
             {
               "href": "#bugs-with-repro",
-              "title": "File bugs engineers can act on"
+              "title": "Bug reports engineers can act on"
             },
             {
               "href": "#why-a-browser",
@@ -79,11 +79,11 @@
     },
     {
       "id": "set-up-support-like-strawberry",
-      "title": "Copy how we run support",
+      "title": "Our own support setup, ready to copy",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Our own setup, step by step: connecting the tools, learning from resolved cases, setting boundaries, and turning on Routines once the manual flow works."
+          "text": "Connect the tools, learn from resolved cases, and switch on Routines, step by step."
         },
         {
           "kind": "demo",
@@ -101,26 +101,16 @@
               "Draft setup ready for review"
             ]
           }
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/customer-support-success/set-up-support-like-strawberry",
-              "roleId": "customer-support-success",
-              "context": "Walk through Strawberry's own support setup and adapt it to your team."
-            }
-          ]
         }
       ]
     },
     {
       "id": "triage-the-queue",
-      "title": "Triage the queue automatically",
+      "title": "A sorted queue at the start of every shift",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry reads every new case with its full history and prepares the right next step for each, so the shift starts with a plan instead of a pile."
+          "text": "Every case read with its full history and the next step drafted."
         },
         {
           "kind": "demo",
@@ -140,11 +130,11 @@
     },
     {
       "id": "investigate-hard-cases",
-      "title": "Reproduce issues in your product",
+      "title": "Hard cases, reproduced in your product",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "It checks the account, billing, the docs, and past cases, and reproduces the problem in the product itself when it can."
+          "text": "Account, billing, docs, and past cases checked, and the problem reproduced where it can be."
         },
         {
           "kind": "demo",
@@ -166,11 +156,11 @@
     },
     {
       "id": "resolve-and-verify",
-      "title": "Resolve, then verify it worked",
+      "title": "Fixes confirmed, not just sent",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Replies, refunds, and access changes go through once you approve them, and Strawberry checks that the change actually took effect."
+          "text": "Refunds and access changes go through once you approve, then Strawberry checks they took effect."
         },
         {
           "kind": "demo",
@@ -191,11 +181,11 @@
     },
     {
       "id": "bugs-with-repro",
-      "title": "File bugs engineers can act on",
+      "title": "Bug reports engineers can act on",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Customer impact, a reproduction, and screenshots, packaged for the engineering team instead of \"a customer says it's broken\"."
+          "text": "Customer impact, steps to reproduce, and screenshots, instead of \"it's broken\"."
         },
         {
           "kind": "demo",

@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "marketing",
   "title": "Market like a team of ten",
-  "description": "Learn from your best posts, hear what people say about you, watch competitors, and turn one idea into content for every channel. Free to download.",
+  "description": "Know what works, hear what people say, watch competitors, and ship content for every channel. Free to download.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -28,23 +28,23 @@
           "items": [
             {
               "href": "#learn-from-what-worked",
-              "title": "Find out why your best posts worked"
+              "title": "Know exactly why your best posts worked"
             },
             {
               "href": "#hear-what-people-say",
-              "title": "Hear what people say about you"
+              "title": "Every mention of your brand, in one report"
             },
             {
               "href": "#watch-competitors",
-              "title": "Track competitors automatically"
+              "title": "Competitor moves, the week they happen"
             },
             {
               "href": "#one-idea-every-channel",
-              "title": "One idea, content for every channel"
+              "title": "One idea, ready for every channel"
             },
             {
               "href": "#find-out-why-traffic-moved",
-              "title": "Audit SEO with real data"
+              "title": "SEO fixes, ranked by impact"
             },
             {
               "href": "#why-a-browser",
@@ -69,11 +69,11 @@
     },
     {
       "id": "learn-from-what-worked",
-      "title": "Find out why your best posts worked",
+      "title": "Know exactly why your best posts worked",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Point Strawberry at a year of your posts. It finds the ones that did best, works out what they have in common, and turns that into a brief for the next ones."
+          "text": "Strawberry reads a year of your posts and their stats, and turns the winners into a brief."
         },
         {
           "kind": "demo",
@@ -95,11 +95,11 @@
     },
     {
       "id": "hear-what-people-say",
-      "title": "Hear what people say about you",
+      "title": "Every mention of your brand, in one report",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Reviews, Reddit threads, LinkedIn comments, and forums, read in the browser and turned into a report or a deck in your brand, with a link to every quote."
+          "text": "Reviews, Reddit, LinkedIn, and forums, grouped into themes with a link to every quote."
         },
         {
           "kind": "demo",
@@ -122,11 +122,11 @@
     },
     {
       "id": "watch-competitors",
-      "title": "Track competitors automatically",
+      "title": "Competitor moves, the week they happen",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Pricing pages, changelogs, ads, and job posts say a lot about where a competitor is heading. A Routine checks them and tells you what changed and what it means for you."
+          "text": "Pricing, changelogs, ads, and job posts checked every Friday, with what it means for you."
         },
         {
           "kind": "demo",
@@ -146,11 +146,11 @@
     },
     {
       "id": "one-idea-every-channel",
-      "title": "One idea, content for every channel",
+      "title": "One idea, ready for every channel",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Give Strawberry a talk, a launch, or a long post. It turns it into versions for LinkedIn, X, email, and the blog in your voice, with generated images where a stock photo would have gone."
+          "text": "LinkedIn, X, email, and blog versions in your voice, with generated images."
         },
         {
           "kind": "demo",
@@ -173,11 +173,11 @@
     },
     {
       "id": "find-out-why-traffic-moved",
-      "title": "Audit SEO with real data",
+      "title": "SEO fixes, ranked by impact",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry works inside Search Console and your analytics while you're logged in, checks the live results, and brings back a short list of fixes in order of impact."
+          "text": "Read from your own Search Console and analytics, with screenshots as proof."
         },
         {
           "kind": "demo",

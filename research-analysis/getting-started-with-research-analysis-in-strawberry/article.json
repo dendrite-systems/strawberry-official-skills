@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "research-analysis",
   "title": "Research deep enough to bet on",
-  "description": "Deep research with a source for every claim, market maps, websites turned into spreadsheets, and Routines that tell you when something changes.",
+  "description": "Answers you can bet on, with a source for every claim, plus market maps and websites turned into spreadsheets. Free to download.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -28,23 +28,23 @@
           "items": [
             {
               "href": "#deep-research",
-              "title": "Deep research with sources"
+              "title": "Answers with a source behind every claim"
             },
             {
               "href": "#map-a-market",
-              "title": "Map every player in a market"
+              "title": "Every player in a market, mapped"
             },
             {
               "href": "#websites-to-spreadsheets",
-              "title": "Turn websites into spreadsheets"
+              "title": "Any website into a spreadsheet"
             },
             {
               "href": "#keep-watch",
-              "title": "Monitor anything on a schedule"
+              "title": "Know the moment something changes"
             },
             {
               "href": "#decks-people-read",
-              "title": "Make decks people actually read"
+              "title": "Decks that lead with the answer"
             },
             {
               "href": "#why-a-browser",
@@ -69,11 +69,11 @@
     },
     {
       "id": "deep-research",
-      "title": "Deep research with sources",
+      "title": "Answers with a source behind every claim",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A company, a market, a technology, a person. Tell Strawberry what decision the research is for, and it works out how deep to go and brings back an answer with sources beside every claim."
+          "text": "Strawberry reads dozens of pages, including ones behind a login, and cites every finding."
         },
         {
           "kind": "demo",
@@ -96,11 +96,11 @@
     },
     {
       "id": "map-a-market",
-      "title": "Map every player in a market",
+      "title": "Every player in a market, mapped",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry finds the companies in a niche, groups them, and compares them, including the small ones search engines barely index."
+          "text": "Including the small companies search engines barely index, grouped and compared."
         },
         {
           "kind": "demo",
@@ -123,11 +123,11 @@
     },
     {
       "id": "websites-to-spreadsheets",
-      "title": "Turn websites into spreadsheets",
+      "title": "Any website into a spreadsheet",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Directories, listings, catalogs, and public records become clean rows and columns, with a source link on every row."
+          "text": "Directories and listings become clean rows, with a source link on every one."
         },
         {
           "kind": "demo",
@@ -143,26 +143,16 @@
               "Sheet ready with sources"
             ]
           }
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/research-analysis/extract-web-data",
-              "roleId": "research-analysis",
-              "context": "Get a checked sample of rows before the full extraction."
-            }
-          ]
         }
       ]
     },
     {
       "id": "keep-watch",
-      "title": "Monitor anything on a schedule",
+      "title": "Know the moment something changes",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Competitors, prices, regulations, job posts. A Routine checks on a schedule and only tells you when something actually changed."
+          "text": "A Routine watches competitors, prices, or regulations and tells you only when it matters."
         },
         {
           "kind": "demo",
@@ -182,11 +172,11 @@
     },
     {
       "id": "decks-people-read",
-      "title": "Make decks people actually read",
+      "title": "Decks that lead with the answer",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry turns findings into a deck that leads with the answer, in your brand, with real screenshots and charts."
+          "text": "Findings turned into slides in your brand, with real screenshots and charts."
         },
         {
           "kind": "demo",
@@ -202,16 +192,6 @@
               "10 slides ready"
             ]
           }
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/research-analysis/create-beautiful-slide-deck",
-              "roleId": "research-analysis",
-              "context": "Agree the story first, then get a finished deck."
-            }
-          ]
         }
       ]
     },

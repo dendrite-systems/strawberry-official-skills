@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "automate-sales-pipeline",
   "title": "Automate your sales pipeline",
-  "description": "A free AI browser that finds leads, researches accounts, transcribes your calls, and follows up. Like a sales hire who never lets a lead go cold.",
+  "description": "Strawberry finds leads that fit, preps your calls, logs them without a bot, and follows up in your voice. Free to download.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -28,23 +28,23 @@
           "items": [
             {
               "href": "#find-leads-that-fit",
-              "title": "Find leads that fit, with proof"
+              "title": "Leads that actually fit, with proof"
             },
             {
               "href": "#transcribe-calls",
-              "title": "Transcribe calls, automate follow-ups"
+              "title": "Calls logged and followed up before you hang up"
             },
             {
               "href": "#prep-every-call",
-              "title": "Prep every call in two minutes"
+              "title": "Walk into every call with the best talking points"
             },
             {
               "href": "#outreach-on-autopilot",
-              "title": "Outreach that sounds like you, on autopilot"
+              "title": "Follow-ups that send themselves, in your voice"
             },
             {
               "href": "#find-buyers-in-your-product",
-              "title": "Spot buyers already in your product"
+              "title": "Find the buyers already using your product"
             },
             {
               "href": "#why-a-browser",
@@ -69,11 +69,11 @@
     },
     {
       "id": "find-leads-that-fit",
-      "title": "Find leads that fit, with proof",
+      "title": "Leads that actually fit, with proof",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Describe your best customers, or let Strawberry learn them from your website and CRM. It digs through LinkedIn, niche directories, job posts, and funding news, and hands you each company with the reason it fits and a link to check."
+          "text": "Every company comes with the reason it fits and a link to check it. No bought lists, no made-up names."
         },
         {
           "kind": "demo",
@@ -92,26 +92,16 @@
               "30 companies, each with a reason"
             ]
           }
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/sales/find-new-customers",
-              "roleId": "sales-business-development",
-              "context": "Get a first sample of prospects, each with a reason it fits and the source behind it."
-            }
-          ]
         }
       ]
     },
     {
       "id": "transcribe-calls",
-      "title": "Transcribe calls, automate follow-ups",
+      "title": "Calls logged and followed up before you hang up",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Press record in Strawberry and your call is transcribed, with no bot joining the meeting. By the time you hang up, the follow-up email, the CRM notes, and the next steps are drafted and waiting for a quick check."
+          "text": "Press record and no bot joins. The follow-up email, CRM notes, and next steps are waiting when the call ends."
         },
         {
           "kind": "demo",
@@ -134,11 +124,11 @@
     },
     {
       "id": "prep-every-call",
-      "title": "Prep every call in two minutes",
+      "title": "Walk into every call with the best talking points",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Who's in the room, what changed at their company, and what you talked about last time, in one short brief. Strawberry also helps you pick the strongest points to lead with."
+          "text": "Who's in the room, what changed at their company, and what to lead with, ready in two minutes."
         },
         {
           "kind": "demo",
@@ -162,11 +152,11 @@
     },
     {
       "id": "outreach-on-autopilot",
-      "title": "Outreach that sounds like you, on autopilot",
+      "title": "Follow-ups that send themselves, in your voice",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry learns your voice from your sent emails and writes each message for the person reading it. It runs the follow-ups from a simple sheet and stops the moment someone replies. Nothing sends until you say so."
+          "text": "Written from your own sent emails, tracked in a sheet, and stopped the moment someone replies."
         },
         {
           "kind": "demo",
@@ -189,11 +179,11 @@
     },
     {
       "id": "find-buyers-in-your-product",
-      "title": "Spot buyers already in your product",
+      "title": "Find the buyers already using your product",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Some of your best leads already have an account. A weekly Routine checks your user data for accounts behaving like buyers and hands you each one with the reason it stood out."
+          "text": "A weekly Routine flags accounts behaving like buyers, with the reason each one stood out."
         },
         {
           "kind": "demo",
