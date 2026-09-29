@@ -107,16 +107,6 @@
         {
           "kind": "paragraph",
           "text": "State whether the team needs an investigation, reproduction, decision, safe response, approved exception, owner, or update time. Then track that commitment and maintain the customer communication until the outcome is verified. Posting the escalation, filing an issue, sending the update, and offering a commercial remedy are separate actions."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/close-open-loops",
-              "roleId": "customer-support-success",
-              "context": "Track ownership and unresolved commitments when the escalation spans several teams or systems."
-            }
-          ]
         }
       ]
     }
@@ -127,16 +117,6 @@
       "title": "How to research and report software bugs with AI",
       "description": "Carry a product problem into reproduction, duplicate search, and a grounded engineering issue.",
       "href": "/playbooks/ai-bug-reporting"
-    },
-    {
-      "title": "How to track commitments with AI",
-      "description": "Keep cross-team owners, decisions, and promised updates from slipping through the cracks.",
-      "href": "/playbooks/track-commitments-with-ai"
-    },
-    {
-      "title": "How to write better status updates with AI",
-      "description": "Turn the reviewed escalation picture into a concise update for the people who need it.",
-      "href": "/playbooks/ai-status-updates"
     }
   ]
 }

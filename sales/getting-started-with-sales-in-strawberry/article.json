@@ -68,43 +68,22 @@
           "text": "Prospecting can start with a new market or a list already sitting in your CRM. Strawberry can research across company sites, LinkedIn, directories, and logged-in tools, show why each prospect fits, and move from a checked sample to the full list you asked for. The same research can then feed contact enrichment and outreach without another round of copy-and-paste."
         },
         {
-          "kind": "skill-steps",
+          "kind": "list",
+          "style": "ordered",
+          "items": [
+            "Find the part of the market worth pursuing: Compare segments, companies, and current signals before you spend time building the list.",
+            "Build the prospect list: Strawberry checks a varied sample with you, then completes the list at the scale you asked for.",
+            "Find the right people: Add the contacts and details needed for outreach or qualification without padding the file with fields you will not use.",
+            "Turn the research into outreach: Draft a single message, a batch, or a coordinated sequence in your voice. You review sending and enrollment separately."
+          ]
+        },
+        {
+          "kind": "skills",
           "items": [
             {
-              "title": "Find the part of the market worth pursuing",
-              "text": "Compare segments, companies, and current signals before you spend time building the list.",
-              "skill": {
-                "id": "strawberry/research-analysis/map-a-market",
-                "roleId": "sales-business-development",
-                "context": "Map the market from current sources and show where the strongest opportunities are."
-              }
-            },
-            {
-              "title": "Build the prospect list",
-              "text": "Strawberry checks a varied sample with you, then completes the list at the scale you asked for.",
-              "skill": {
-                "id": "strawberry/sales/find-new-customers",
-                "roleId": "sales-business-development",
-                "context": "Find and qualify companies, with the evidence for why each one belongs."
-              }
-            },
-            {
-              "title": "Find the right people",
-              "text": "Add the contacts and details needed for outreach or qualification without padding the file with fields you will not use.",
-              "skill": {
-                "id": "strawberry/sales/enrich-lead-list",
-                "roleId": "sales-business-development",
-                "context": "Add and verify the contacts and details you need for the next step."
-              }
-            },
-            {
-              "title": "Turn the research into outreach",
-              "text": "Draft a single message, a batch, or a coordinated sequence in your voice. You review sending and enrollment separately.",
-              "skill": {
-                "id": "strawberry/sales/send-personalized-outreach",
-                "roleId": "sales-business-development",
-                "context": "Create personalized outreach or a multi-touch sequence from the research you approved."
-              }
+              "id": "strawberry/sales/find-new-customers",
+              "roleId": "sales-business-development",
+              "context": "Find and qualify companies, with the evidence for why each one belongs."
             }
           ]
         }
@@ -119,44 +98,13 @@
           "text": "Good meeting prep and follow-up depend on the same account story. Strawberry can pull together the calendar invite, CRM, email thread, call history, LinkedIn, and current company news before the meeting. Afterward, it can use the transcript or notes to draft the follow-up and update the next steps. You do not have to brief a different tool at every stage."
         },
         {
-          "kind": "skill-steps",
+          "kind": "list",
+          "style": "ordered",
           "items": [
-            {
-              "title": "Learn what matters before the call",
-              "text": "Go deeper on the company, people, relationship, or recent changes when they could affect the conversation.",
-              "skill": {
-                "id": "strawberry/sales/research-an-account",
-                "roleId": "sales-business-development",
-                "context": "Research the account, people, relationship, and a credible way into the conversation."
-              }
-            },
-            {
-              "title": "Walk in prepared",
-              "text": "Bring the account history, meeting goal, open questions, and useful evidence into one short brief.",
-              "skill": {
-                "id": "strawberry/sales/prepare-for-sales-meetings",
-                "roleId": "sales-business-development",
-                "context": "Turn the meeting and account context into a concise brief you can use on the call."
-              }
-            },
-            {
-              "title": "Follow through while the details are fresh",
-              "text": "Turn the transcript or notes into the follow-up, next actions, and CRM changes that need review.",
-              "skill": {
-                "id": "strawberry/sales/debrief-a-sales-meeting",
-                "roleId": "sales-business-development",
-                "context": "Create the debrief, follow-up, next actions, and proposed CRM updates."
-              }
-            },
-            {
-              "title": "Build what the buyer needs next",
-              "text": "When an email is not enough, create a one-pager, deck, or tailored page from the same account context.",
-              "skill": {
-                "id": "strawberry/sales/create-a-sales-asset",
-                "roleId": "sales-business-development",
-                "context": "Create the simplest useful sales asset for the next customer decision."
-              }
-            }
+            "Learn what matters before the call: Go deeper on the company, people, relationship, or recent changes when they could affect the conversation.",
+            "Walk in prepared: Bring the account history, meeting goal, open questions, and useful evidence into one short brief.",
+            "Follow through while the details are fresh: Turn the transcript or notes into the follow-up, next actions, and CRM changes that need review.",
+            "Build what the buyer needs next: When an email is not enough, create a one-pager, deck, or tailored page from the same account context."
           ]
         }
       ]
@@ -170,44 +118,13 @@
           "text": "The CRM is useful only when it reflects what is actually happening. Strawberry can compare the record with recent meetings, email, commitments, and account signals, then show where deals are stuck and prepare the updates that would make the pipeline trustworthy again."
         },
         {
-          "kind": "skill-lanes",
+          "kind": "list",
+          "style": "unordered",
           "items": [
-            {
-              "title": "See where deals need attention",
-              "text": "Review the activity and commitments behind each stage to find stalled deals, missing next steps, and the actions most likely to move them forward.",
-              "skill": {
-                "id": "strawberry/sales/review-sales-pipeline",
-                "roleId": "sales-business-development",
-                "context": "Find stalled deals, missing next steps, and the actions most likely to move something forward."
-              }
-            },
-            {
-              "title": "Keep the record current",
-              "text": "After a meeting or follow-up, prepare the exact field changes and show the source before applying them.",
-              "skill": {
-                "id": "strawberry/sales/keep-crm-updated",
-                "roleId": "sales-business-development",
-                "context": "Review and apply CRM changes with the source and target record in view."
-              }
-            },
-            {
-              "title": "Know what matters today",
-              "text": "Bring today's meetings, messages, risks, and commitments into one short sales brief.",
-              "skill": {
-                "id": "strawberry/operations/prepare-a-daily-brief",
-                "roleId": "sales-business-development",
-                "context": "See the sales work that deserves your attention today."
-              }
-            },
-            {
-              "title": "Share a clear sales picture",
-              "text": "Turn the reviewed pipeline into a concise update for leadership or the team.",
-              "skill": {
-                "id": "strawberry/operations/prepare-a-status-update",
-                "roleId": "sales-business-development",
-                "context": "Create an update from the sales picture you have already reviewed."
-              }
-            }
+            "See where deals need attention: Review the activity and commitments behind each stage to find stalled deals, missing next steps, and the actions most likely to move them forward.",
+            "Keep the record current: After a meeting or follow-up, prepare the exact field changes and show the source before applying them.",
+            "Know what matters today: Bring today's meetings, messages, risks, and commitments into one short sales brief.",
+            "Share a clear sales picture: Turn the reviewed pipeline into a concise update for leadership or the team."
           ]
         }
       ]
@@ -227,16 +144,6 @@
             "Share an approved result when a teammate only needs the output.",
             "Turn a workflow into a team skill when everyone should use the same sources, judgment, and review points.",
             "Create a Routine after the trigger, destination, permissions, and stop conditions are clear."
-          ]
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/set-up-shared-team-workflow",
-              "roleId": "sales-business-development",
-              "context": "Turn a Sales workflow that already works into a shared method for the team."
-            }
           ]
         },
         {
@@ -267,7 +174,12 @@
   "navigation": {
     "title": "Sales",
     "tagline": "Research, conversations, follow-through, and pipeline",
-    "icons": ["linkedin", "salesforce", "gmail", "apollo"],
+    "icons": [
+      "linkedin",
+      "salesforce",
+      "gmail",
+      "apollo"
+    ],
     "order": 1
   }
 }

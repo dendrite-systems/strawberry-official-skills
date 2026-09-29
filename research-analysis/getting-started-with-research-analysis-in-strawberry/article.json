@@ -98,16 +98,6 @@
           "text": "When the question centers on one company, Strawberry can build a current, source-linked brief around what you actually need to understand rather than filling a generic profile."
         },
         {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/research-analysis/research-a-company",
-              "roleId": "research-analysis",
-              "context": "Research this company around the question or decision I need help with."
-            }
-          ]
-        },
-        {
           "kind": "paragraph",
           "text": "The useful result may be a brief, comparison, evidence-backed recommendation, or a clear conclusion that the available research does not support a confident answer. If a map or dataset would make the evidence easier to use, the same work can continue into those formats without beginning again."
         }
@@ -122,26 +112,11 @@
           "text": "A market map is more than a list of companies. It should explain which categories matter, how the important entities relate, what the current research covers, and what the landscape means for the decision in front of you. Strawberry can test a proposed taxonomy on a varied first set, then expand the accepted definition across current sources."
         },
         {
-          "kind": "skill-lanes",
+          "kind": "list",
+          "style": "unordered",
           "items": [
-            {
-              "title": "Map the broader landscape",
-              "text": "Build a sourced view of the categories, entities, relationships, signals, coverage, uncertainty, and implications shaping a market.",
-              "skill": {
-                "id": "strawberry/research-analysis/map-a-market",
-                "roleId": "research-analysis",
-                "context": "Map this market as a sourced landscape built around the decision I need to make."
-              }
-            },
-            {
-              "title": "Map a startup ecosystem",
-              "text": "Focus the map on startups, investors, associations, experts, and the relationships around an investment question.",
-              "skill": {
-                "id": "strawberry/venture-capital/map-startup-ecosystem",
-                "roleId": "research-analysis",
-                "context": "Map the startups, investors, experts, and relationships shaping this ecosystem."
-              }
-            }
+            "Map the broader landscape: Build a sourced view of the categories, entities, relationships, signals, coverage, uncertainty, and implications shaping a market.",
+            "Map a startup ecosystem: Focus the map on startups, investors, associations, experts, and the relationships around an investment question."
           ]
         }
       ]
@@ -204,16 +179,6 @@
           "emphasis": [
             "Routine"
           ]
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/set-up-shared-team-workflow",
-              "roleId": "research-analysis",
-              "context": "Turn a trusted research method into a shared team workflow with clear sources, ownership, review points, and stop conditions."
-            }
-          ]
         }
       ]
     }
@@ -229,11 +194,6 @@
       "title": "Market like a team of ten",
       "description": "Use audience, competitor, campaign, content, and performance research inside the marketing system.",
       "href": "/playbooks/marketing"
-    },
-    {
-      "title": "Find the next unicorn first",
-      "description": "Apply market research across sourcing, diligence, investment decisions, and portfolio monitoring.",
-      "href": "/playbooks/venture-capital-investing"
     }
   ],
   "navigation": {

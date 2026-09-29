@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "ai-slide-decks",
   "title": "How to make a slide deck with AI",
-  "description": "Settle the narrative before designing anything, build from your own source material, and get a deck that leads with the finding rather than burying it.",
+  "description": "Settle the story before designing anything, build from your own material and brand, and get a deck that leads with the finding.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -29,7 +29,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "You get a plan for the story and sections before the design starts, which is a much cheaper place to change your mind. If you have a past deck that landed well, or a template and brand you work to, those calibrate the structure and visual standard. They're useful, not required."
+          "text": "You get an outline of the story and sections before any design starts, which is a much cheaper place to change your mind. Strawberry can find your brand assets and past decks in Drive or your other tools, so the deck looks like yours without you uploading a folder of logos."
         },
         {
           "kind": "skills",
@@ -53,7 +53,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "The workflow is built to head that off. Claims, results, and evidence come from what you provide, and where the material is thin the gap is surfaced rather than smoothed over with a plausible-looking number. Facts stay distinguishable from interpretation, and anything the deck cannot support is flagged rather than filled in."
+          "text": "So claims, results, and numbers come from your own material, and where it's thin, the gap is pointed out rather than filled with a plausible-looking figure. Facts stay separate from interpretation."
         },
         {
           "kind": "paragraph",
@@ -71,7 +71,7 @@
         },
         {
           "kind": "paragraph",
-          "text": "Each slide gets one job. Screenshots, product images, logos, and charts earn their place when they make the argument land harder than a sentence would, and get left out when they're decoration."
+          "text": "Each slide gets one job. Because Strawberry works in a real browser, it can take actual screenshots of a product, a dashboard, or a competitor's page, and generate images when nothing real fits. Charts come from the data you provided. Visuals earn their place when they land the argument harder than a sentence would."
         },
         {
           "kind": "paragraph",
@@ -96,11 +96,6 @@
   ],
   "videos": [],
   "relatedLinks": [
-    {
-      "title": "How to research a company with AI",
-      "description": "Build the source-linked company view before it becomes a deck.",
-      "href": "/playbooks/ai-company-research"
-    },
     {
       "title": "Research deep enough to bet on",
       "description": "The evidence side: sourcing, market mapping, and structured data.",

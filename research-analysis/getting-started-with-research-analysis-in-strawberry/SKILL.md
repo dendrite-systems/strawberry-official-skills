@@ -1,77 +1,29 @@
 ---
 name: getting-started-with-research-analysis-in-strawberry
-description: Help someone use Strawberry for open-ended research, market and ecosystem mapping, structured web data, synthesis, research artifacts, and recurring monitoring. Use when the user asks what Strawberry can do for research and analysis or has a broad research request without a clear starting workflow.
+description: Ideas for helping someone get started with research and analysis in Strawberry, from deep research and market maps to web data extraction and decks. Use when someone wants help finding a useful first research task or a next step.
 ---
 
 # Getting Started with Research and Analysis in Strawberry
 
-Help the user see the larger research system, then begin with the piece of work that matters now.
-Do not force every request through one methodology or make setup a prerequisite for a useful result.
+Strawberry researches in a real browser, so it can read live pages, logged-in tools, and sites that
+search engines barely index, and keep a link to every source. Start with one question the user
+actually needs answered.
 
-## Paint the research system
+## Setup
 
-Show five connected kinds of work:
+- What decision the research should help with. That decides how deep to go.
+- What they already know, and which sources they trust or distrust.
+- What the result should look like, e.g. a short brief, a spreadsheet, or a deck.
 
-- **Investigate a question:** turn an open question into current, source-linked findings for a real
-  decision.
-- **Map a landscape:** define the categories, entities, relationships, coverage, and patterns that
-  make a market or ecosystem legible.
-- **Build structured evidence:** collect repeated fields from approved sources into a clean,
-  validated dataset.
-- **Explain the findings:** shape the reviewed evidence into the brief, comparison, spreadsheet, or
-  deck the audience can use.
-- **Keep it current:** preserve trusted sources and definitions, then monitor meaningful changes
-  once the method is stable.
+## Things to try
 
-These jobs can connect, but they are not a fixed sequence. Begin with the question, source set,
-dataset, map, or artifact already in front of the user.
+- **Deep research on a company, market, or question**, with sources for every claim.
+- **Map a market or ecosystem**, e.g. every player in a niche, grouped and compared.
+- **Extract data from the web into a spreadsheet**, from a few rows to thousands. See
+  `strawberry/research-analysis/extract-web-data`.
+- **Keep watch on something**, e.g. competitors, prices, regulations, or job posts, with a Routine
+  that reports only real changes.
+- **Turn findings into a beautiful deck**. See `strawberry/research-analysis/create-beautiful-slide-deck`.
 
-## Choose a useful first result
-
-Understand the decision, audience, freshness, scope, acceptable sources, exclusions, depth, and
-useful output. Reuse relevant approved tabs, files, connected apps, prior research, and accepted
-definitions before asking the user to reconstruct them.
-
-If the starting point is unclear, suggest a small situational set, such as:
-
-- investigate one decision-critical question and return a cited brief;
-- map a market or ecosystem before choosing where to focus;
-- extract a representative dataset from a defined set of websites; or
-- research one company into a concise, source-linked brief.
-
-Explain the breadth, depth, freshness, and cost tradeoffs that materially affect the work. Calibrate
-with a varied first set when the taxonomy, schema, or research judgment is new and correction before
-scale would save time or credits.
-
-## Route to the canonical owner
-
-- **Map a market or broad ecosystem:** use `strawberry/research-analysis/map-a-market`.
-- **Map a startup ecosystem:** use `strawberry/venture-capital/map-startup-ecosystem` when startups,
-  investors, and their relationships are the primary object.
-- **Compare marketing competitors:** use `strawberry/marketing/run-competitor-analysis` when the
-  specialist result is a competitor comparison for a marketing decision.
-- **Extract repeated web data:** use `strawberry/research-analysis/extract-web-data`.
-- **Research one company for a general decision:** use
-  `strawberry/research-analysis/research-a-company` for a source-linked company brief without a
-  sales, marketing, or investment lens.
-- **Research a company for sales:** use `strawberry/sales/research-an-account` when the specialist
-  result is an account and relationship brief for a sales decision.
-- **Research an investment opportunity:** use
-  `strawberry/venture-capital/research-an-investment-opportunity` when the specialist result is an
-  investment view.
-- **Turn accepted findings into a deck:** use
-  `strawberry/research-analysis/create-beautiful-slide-deck` when the research already exists and the
-  remaining job is presentation production.
-
-For open-ended research without a focused owner, complete the work normally. Keep source facts,
-claims, transformations, inference, contradictions, uncertainty, and missing evidence distinct.
-
-## Make the next run better
-
-Deliver the artifact at the depth and format the audience needs, with links and dates beside the
-claims that matter. Preserve accepted source priorities, definitions, rubrics, schemas, formats,
-and review points after the user trusts a real result.
-
-Share the reviewed artifact when that is enough. Save a team method when colleagues should repeat
-the same process. Offer a Routine only when the source set, trigger or cadence, change threshold,
-audience, destination, review behavior, and stop conditions are stable.
+When something works and will come up again, it can become a custom skill, a Routine, or something
+the whole team uses.

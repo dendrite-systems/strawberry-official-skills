@@ -67,9 +67,9 @@
           "kind": "guided-entry",
           "text": "Not sure where to begin? Your companion can look at the customer work you have open and suggest a useful Support or Success skill to try first.",
           "skill": {
-              "id": "strawberry/customer-support-success/getting-started-with-customer-support-and-success-in-strawberry",
-              "roleId": "customer-support-success",
-              "context": "Start with the customer work already in front of you and choose the Support or Success workflow that would help most."
+            "id": "strawberry/customer-support-success/getting-started-with-customer-support-and-success-in-strawberry",
+            "roleId": "customer-support-success",
+            "context": "Start with the customer work already in front of you and choose the Support or Success workflow that would help most."
           }
         }
       ]
@@ -83,35 +83,12 @@
           "text": "A ticket, usage report, CRM record, and meeting note can each tell a different story. Strawberry can bring the useful pieces together, show where they agree or conflict, and keep the sources close enough to inspect. That gives Support better context for the current request and Success a clearer view of whether the customer is getting value."
         },
         {
-          "kind": "skill-lanes",
+          "kind": "list",
+          "style": "unordered",
           "items": [
-            {
-              "title": "See whether the customer is getting value",
-              "text": "Compare goals, product use, support experience, relationships, and open commitments without hiding uncertainty behind a score.",
-              "skill": {
-                "id": "strawberry/customer-support-success/review-customer-health",
-                "roleId": "customer-support-success",
-                "context": "Review the customer's progress, current signals, evidence gaps, and next actions."
-              }
-            },
-            {
-              "title": "Prepare for the next conversation",
-              "text": "Bring the goals, history, open questions, and decisions into a short brief for a check-in, QBR, renewal, or escalation.",
-              "skill": {
-                "id": "strawberry/operations/prepare-for-meetings",
-                "roleId": "customer-support-success",
-                "context": "Prepare for a customer conversation using the account context that could change it."
-              }
-            },
-            {
-              "title": "Carry the conversation into follow-through",
-              "text": "Turn reliable notes or a transcript into decisions, commitments, customer follow-up, and the next internal actions.",
-              "skill": {
-                "id": "strawberry/operations/debrief-a-meeting",
-                "roleId": "customer-support-success",
-                "context": "Preserve the decisions, commitments, and follow-through from a customer conversation."
-              }
-            }
+            "See whether the customer is getting value: Compare goals, product use, support experience, relationships, and open commitments without hiding uncertainty behind a score.",
+            "Prepare for the next conversation: Bring the goals, history, open questions, and decisions into a short brief for a check-in, QBR, renewal, or escalation.",
+            "Carry the conversation into follow-through: Turn reliable notes or a transcript into decisions, commitments, customer follow-up, and the next internal actions."
           ]
         }
       ]
@@ -158,34 +135,26 @@
           "text": "When another team needs to act, Strawberry can turn the customer history into a concise escalation with the impact, timeline, work already tried, current communication, and exact ask. The handoff keeps the customer relationship with Support or Success while the specialist team owns its part of the investigation."
         },
         {
-          "kind": "skill-lanes",
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Give the next team an actionable brief: Package the customer impact and the specific investigation, decision, or exception the receiving team needs to own.",
+            "Turn a product problem into an engineering issue: Reproduce the problem, inspect the technical context, check for duplicates, and prepare a grounded issue record.",
+            "Keep cross-team follow-through visible: Track the owner, next update, unresolved decision, and verified resolution across the systems involved."
+          ]
+        },
+        {
+          "kind": "skills",
           "items": [
             {
-              "title": "Give the next team an actionable brief",
-              "text": "Package the customer impact and the specific investigation, decision, or exception the receiving team needs to own.",
-              "skill": {
-                "id": "strawberry/customer-support-success/escalate-customer-issue",
-                "roleId": "customer-support-success",
-                "context": "Prepare the customer-impact brief, current communication, exact internal ask, and next owner."
-              }
+              "id": "strawberry/customer-support-success/escalate-customer-issue",
+              "roleId": "customer-support-success",
+              "context": "Prepare the customer-impact brief, current communication, exact internal ask, and next owner."
             },
             {
-              "title": "Turn a product problem into an engineering issue",
-              "text": "Reproduce the problem, inspect the technical context, check for duplicates, and prepare a grounded issue record.",
-              "skill": {
-                "id": "strawberry/product-engineering/report-bug",
-                "roleId": "customer-support-success",
-                "context": "Research and report the product bug while keeping customer-specific context appropriately scoped."
-              }
-            },
-            {
-              "title": "Keep cross-team follow-through visible",
-              "text": "Track the owner, next update, unresolved decision, and verified resolution across the systems involved.",
-              "skill": {
-                "id": "strawberry/operations/close-open-loops",
-                "roleId": "customer-support-success",
-                "context": "Track the owners and unresolved commitments behind a customer escalation."
-              }
+              "id": "strawberry/product-engineering/report-bug",
+              "roleId": "customer-support-success",
+              "context": "Research and report the product bug while keeping customer-specific context appropriately scoped."
             }
           ]
         }
@@ -198,16 +167,6 @@
         {
           "kind": "paragraph",
           "text": "Customer Success begins with the outcome the customer expects, not a generic product tour. Strawberry can reconcile the signed scope, sales notes, meetings, account records, setup dependencies, stakeholders, and success measures into a practical path to first value."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/customer-support-success/onboard-a-customer",
-              "roleId": "customer-support-success",
-              "context": "Turn agreed goals and commitments into an owned path to first value."
-            }
-          ]
         }
       ]
     },
@@ -220,26 +179,11 @@
           "text": "A verified resolution can improve the help center; a pattern across tickets and conversations can become product insight. These are different jobs. One helps the next customer solve the problem. The other helps Product see recurring themes, tensions, examples, and gaps without automatically deciding the roadmap."
         },
         {
-          "kind": "skill-lanes",
+          "kind": "list",
+          "style": "unordered",
           "items": [
-            {
-              "title": "Make the answer reusable",
-              "text": "Turn a verified resolution or recurring question into clear, findable customer documentation without creating a duplicate article.",
-              "skill": {
-                "id": "strawberry/customer-support-success/create-or-update-a-help-center-article",
-                "roleId": "customer-support-success",
-                "context": "Turn verified current behavior into clear, findable customer documentation."
-              }
-            },
-            {
-              "title": "Show Product what customers are telling you",
-              "text": "Synthesize the customer feedback your team can use into themes and gaps, with links back to the original examples.",
-              "skill": {
-                "id": "strawberry/product-engineering/synthesize-customer-feedback",
-                "roleId": "customer-support-success",
-                "context": "Turn customer feedback into themes, tensions, examples, and gaps with clear links to the sources."
-              }
-            }
+            "Make the answer reusable: Turn a verified resolution or recurring question into clear, findable customer documentation without creating a duplicate article.",
+            "Show Product what customers are telling you: Synthesize the customer feedback your team can use into themes and gaps, with links back to the original examples."
           ]
         }
       ]
@@ -251,16 +195,6 @@
         {
           "kind": "paragraph",
           "text": "A useful Support or Success method should not live with one person. Once the team trusts a workflow, Strawberry can preserve the sources, customer context, tone, routing, ownership, and review points behind it."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/set-up-shared-team-workflow",
-              "roleId": "customer-support-success",
-              "context": "Turn a trusted customer workflow into a shared team method with clear context, ownership, review points, and stop conditions."
-            }
-          ]
         },
         {
           "kind": "paragraph",

@@ -1,99 +1,49 @@
 ---
 name: getting-started-with-recruiting-in-strawberry
-description: Route talent-acquisition work in Strawberry from role definition through sourcing, interviews, human-reviewed decisions, and pipeline follow-through. Use when someone is new to Recruiting in Strawberry, asks what it can do for hiring, or has a broad recruiting request without a clear starting workflow.
+description: Ideas for helping someone get started with recruiting in Strawberry, from sourcing candidates to keeping the pipeline moving. Use when a recruiter, hiring manager, or founder wants help finding a useful first task or a next step.
 ---
 
 # Getting Started with Recruiting in Strawberry
 
-Help the user see how Strawberry can support the connected work of hiring, then complete one useful
-piece of it. Recruiting should preserve job-related evidence and qualified human ownership from the
-first role decision through candidate communication, interviews, and onboarding.
+Strawberry works where recruiting happens: LinkedIn, GitHub, the ATS, the inbox, and the calendar.
+You can source, research, write, and keep track of candidates in one place, and remember what the
+user looks for in people. Start with one open role.
 
-## Paint the recruiting system
+## Setup
 
-Explain briefly that Strawberry can keep the hiring context connected across workforce plans, role
-documents, the ATS, calendars, email, professional sources, interviews, meeting records, files,
-approved apps, and the visible browser. Corrections to the role, evidence bar, search, interview
-plan, and review format can carry forward instead of being rebuilt at every stage.
+Before sourcing anyone, it helps to know:
 
-Show the larger system through four connected parts:
+- Which roles are open, and which one matters most right now.
+- What great looks like in that role. Often the best answer is someone already on the team.
+- Where candidates live today, e.g. an ATS, a spreadsheet, or their inbox.
+- What takes up most of their time in hiring.
 
-- **Role clarity:** define the business need, outcomes, level, evidence bar, and honest
-  candidate-facing story.
-- **Market and pipeline coverage:** understand the talent market, source or review candidates, and
-  see whether the current pipeline can support the hiring goal.
-- **Consistent evidence:** prepare structured interviews, preserve a reliable record, and map the
-  evidence back to the accepted scorecard.
-- **Candidate and team follow-through:** communicate with approved candidates, keep the ATS and
-  ownership clear, and hand a confirmed hire into onboarding.
+Offer to learn this from their job posts, ATS, and Drive, or let them describe it.
 
-These parts reinforce one another, but they are not a mandatory sequence. Enter at the hiring
-decision that matters now and route specialist work to the focused skill that owns it.
+## Things to try
 
-## Find a useful first win
+- **Find more people like someone great on the team.** Ask what makes them great, turn it into a
+  scorecard, and ask where to look, e.g. LinkedIn, GitHub, or the open web. See
+  `strawberry/recruiting/source-candidates`.
+- **Show mock candidates first.** Two or three made-up profiles scored against the scorecard let
+  the user calibrate before any real search. Recruiters tend to love this.
+- **Review their open roles**, e.g. tightening a job description or checking it against what the
+  scorecard actually needs.
+- **Map the talent market**, e.g. where the people are by region or country, expected salaries, and
+  which companies they work at. Ask how they'd like it presented.
+- **Build a candidate dashboard they can pin as a tab**, e.g. every candidate with their photo, what
+  you know about them, and the qualities the user cares about. Useful when they don't already live
+  in an ATS.
+- **Keep the pipeline moving**, e.g. candidates stuck at one stage too long, people nobody has
+  replied to, or who looks most likely to pass. Ask which of these matter to the user.
+- **Prepare for interviews and summarize them**, e.g. questions tied to the scorecard beforehand, and
+  a short write-up from the recording afterwards.
+- **Write candidate outreach that sounds like them**, specific to each person.
 
-Understand the role or roles, the next decision due, current pipeline stage, available evidence,
-deadline, and approval boundaries. Use approved context already available before asking the user to
-repeat it.
+When something works and will come up again, it can become a custom skill, a Routine, or something
+the whole hiring team uses.
 
-If the user is unsure where to begin, offer a small, prioritized set drawn from the current need:
+## Worth knowing
 
-- clarify a role and its hiring evidence;
-- test the talent market or build a calibrated shortlist;
-- review an application set or the wider pipeline; or
-- prepare an interview loop or synthesize completed interviews.
-
-Explain why the options fit. Suggest another app only when it would materially improve the first
-result, and do not make full ATS or toolchain setup a prerequisite.
-
-## Define the role and build credible coverage
-
-Use `strawberry/recruiting/create-a-job-description` for the internal role profile, external job
-description, or both. When titles, target employers, adjacent backgrounds, geography,
-compensation, feasibility, or search levers remain uncertain, use
-`strawberry/recruiting/map-a-talent-market` before scaling a search.
-
-Use `strawberry/recruiting/source-candidates` when the role and market are sufficiently understood
-and the team needs a calibrated shortlist. Use `strawberry/recruiting/review-applications` for an
-inbound application set or backlog. Keep sourcing and application review distinct: one finds new
-professional evidence; the other evaluates submitted material against accepted criteria.
-
-When the question is whether the whole hiring goal is supportable, use
-`strawberry/recruiting/review-recruiting-pipeline` for coverage, stalled candidates, evidence gaps,
-candidate-experience risks, and proposed ATS corrections.
-
-## Connect interviews to reliable decisions
-
-Use `strawberry/recruiting/prepare-candidate-interviews` before interviews to assign evidence
-ownership, prepare job-related questions and probes, and make scoring anchors usable. After an
-authorized interview, use Strawberry's meeting capture or another reliable record, then use
-`strawberry/recruiting/synthesize-interview-feedback` to map evidence, contradictions, and unknowns
-to the accepted scorecard.
-
-The companion may prepare evidence and non-dispositive fit guidance; a qualified human owns
-advancement, rejection, offer, and hiring decisions. Keep candidate-specific private context out of
-broadly shared briefs and reusable methods.
-
-## Keep communication and handoffs deliberate
-
-Use `strawberry/recruiting/send-candidate-outreach` only for approved candidates or segments that
-need candidate-aware messaging. After a hire is confirmed, use
-`strawberry/operations/onboard-a-new-teammate` for the context pack, setup, and first-week path.
-
-Publication, outreach, scheduling, ATS changes, internal sharing, candidate communication, and
-onboarding actions are separate states. Follow Strawberry's active scoped permission for the exact
-account, destination, action, and conditions. Draft or ask when permission is insufficient; stop
-when identity, scope, impact, or sensitive-data handling changes; verify completed external
-actions.
-
-## Learn through the work
-
-For new or subjective criteria, calibrate with a small, varied set before spending more time or
-credits. Keep observed facts, candidate claims, interviewer judgment, companion inference,
-contradictions, and unknowns distinct, with source links for material claims.
-
-After a workflow works, offer to save its accepted criteria, sources, fields, destination, and
-review points as a custom skill. Use `strawberry/operations/set-up-shared-team-workflow` when the
-team needs shared ownership and review behavior. Add a Routine only after the workflow is stable,
-has a useful trigger or cadence, and can begin read-only or draft-first; never automate the hiring
-decision.
+- A public profile says nothing about whether someone is interested or available.
+- Humans make the hiring decisions. Scores help people decide what to look at, not who to reject.

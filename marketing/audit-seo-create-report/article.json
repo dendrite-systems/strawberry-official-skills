@@ -85,12 +85,27 @@
         },
         {
           "kind": "table",
-          "columns": ["For each priority", "Make clear"],
+          "columns": [
+            "For each priority",
+            "Make clear"
+          ],
           "rows": [
-            ["Evidence", "The source, date, scope, and what was actually observed."],
-            ["Why it matters", "The audience, search, product, or conversion consequence."],
-            ["Next action", "The concrete owner, dependency, and smallest useful change or investigation."],
-            ["How to learn", "The baseline, expected signal, review window, and uncertainty that remains."]
+            [
+              "Evidence",
+              "The source, date, scope, and what was actually observed."
+            ],
+            [
+              "Why it matters",
+              "The audience, search, product, or conversion consequence."
+            ],
+            [
+              "Next action",
+              "The concrete owner, dependency, and smallest useful change or investigation."
+            ],
+            [
+              "How to learn",
+              "The baseline, expected signal, review window, and uncertainty that remains."
+            ]
           ]
         }
       ]
@@ -114,11 +129,6 @@
               "id": "strawberry/marketing/run-competitor-analysis",
               "roleId": "marketing-content",
               "context": "Move into broader competitor research when the question extends beyond organic-search opportunity."
-            },
-            {
-              "id": "strawberry/marketing/build-a-content-plan",
-              "roleId": "marketing-content",
-              "context": "Turn accepted search opportunities into realistic themes, briefs, owners, dependencies, and review points."
             }
           ]
         }

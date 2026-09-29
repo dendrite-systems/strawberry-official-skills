@@ -118,16 +118,6 @@
       "title": "Run an AI-native ops team",
       "description": "Connect recurring finance administration with the wider operating system around it.",
       "href": "/playbooks/operations"
-    },
-    {
-      "title": "How to review financial performance with AI",
-      "description": "Use accepted records to explain what changed and what needs attention.",
-      "href": "/playbooks/ai-financial-performance-analysis"
-    },
-    {
-      "title": "How to build a financial forecast with AI",
-      "description": "Carry the accepted current picture into a forecast for cash, runway, and operating decisions.",
-      "href": "/playbooks/ai-financial-forecasting"
     }
   ]
 }

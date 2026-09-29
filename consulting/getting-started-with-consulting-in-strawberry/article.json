@@ -17,7 +17,12 @@
   "navigation": {
     "title": "Consulting",
     "tagline": "Client research, proposals, delivery, and follow-through",
-    "icons": ["gmail", "google-sheets", "notion", "slack"],
+    "icons": [
+      "gmail",
+      "google-sheets",
+      "notion",
+      "slack"
+    ],
     "order": 10
   },
   "introduction": [
@@ -82,34 +87,21 @@
           "text": "The recommendation keeps evidence, client claims, calculations, and inference distinct. It can become a memo, deck, workshop artifact, or supporting spreadsheet, depending on how the client will make the decision."
         },
         {
-          "kind": "skill-lanes",
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Build the recommendation: Turn the research into credible options and a defensible recommendation, keeping the evidence, client claims, calculations, tradeoffs, and inference clear in the artifact the decision needs.",
+            "Investigate one company closely: Build a concise, source-linked view of a single company when the client question turns on what that business actually does or where it is heading.",
+            "Collect repeated web evidence at scale: Collect the same fields across many pages into a validated dataset when the analysis needs breadth."
+          ]
+        },
+        {
+          "kind": "skills",
           "items": [
             {
-              "title": "Build the recommendation",
-              "text": "Turn the research into credible options and a defensible recommendation, keeping the evidence, client claims, calculations, tradeoffs, and inference clear in the artifact the decision needs.",
-              "skill": {
-                "id": "strawberry/consulting/turn-client-research-into-recommendations",
-                "roleId": "consultant",
-                "context": "Turn client research into credible options, a defensible recommendation, and the right decision-ready artifact."
-              }
-            },
-            {
-              "title": "Investigate one company closely",
-              "text": "Build a concise, source-linked view of a single company when the client question turns on what that business actually does or where it is heading.",
-              "skill": {
-                "id": "strawberry/research-analysis/research-a-company",
-                "roleId": "consultant",
-                "context": "Research this company around the client question I need to answer."
-              }
-            },
-            {
-              "title": "Collect repeated web evidence at scale",
-              "text": "Collect the same fields across many pages into a validated dataset when the analysis needs breadth.",
-              "skill": {
-                "id": "strawberry/research-analysis/extract-web-data",
-                "roleId": "consultant",
-                "context": "Collect repeated fields across many pages into a validated dataset when the research needs scale."
-              }
+              "id": "strawberry/research-analysis/extract-web-data",
+              "roleId": "consultant",
+              "context": "Collect repeated fields across many pages into a validated dataset when the research needs scale."
             }
           ]
         }
@@ -128,26 +120,11 @@
           "text": "After acceptance, the same reviewed context becomes the engagement brief, including the scope, stakeholders, milestones, evidence standards, and client restrictions. The delivery team does not have to reconstruct the agreement during kickoff."
         },
         {
-          "kind": "skill-steps",
+          "kind": "list",
+          "style": "ordered",
           "items": [
-            {
-              "title": "Define what is being promised",
-              "text": "Turn the real opportunity or RFP into the outcomes, work, responsibilities, timeline, fees, terms, and open questions.",
-              "skill": {
-                "id": "strawberry/consulting/create-a-client-proposal",
-                "roleId": "consultant",
-                "context": "Turn an opportunity or RFP into a complete commercial and delivery proposal ready for review."
-              }
-            },
-            {
-              "title": "Turn the proposal into an engagement brief",
-              "text": "Carry the scope, stakeholders, milestones, evidence standards, and client restrictions into one engagement brief.",
-              "skill": {
-                "id": "strawberry/consulting/build-client-brief",
-                "roleId": "consultant",
-                "context": "Start accepted work with one reliable engagement brief."
-              }
-            }
+            "Define what is being promised: Turn the real opportunity or RFP into the outcomes, work, responsibilities, timeline, fees, terms, and open questions.",
+            "Turn the proposal into an engagement brief: Carry the scope, stakeholders, milestones, evidence standards, and client restrictions into one engagement brief."
           ]
         }
       ]
@@ -165,35 +142,12 @@
           "text": "A daily brief connects that meeting loop to the rest of the consultant's work: which calls need preparation, which promises are due, and which risks or messages deserve attention. Follow-up emails, status updates, CRM changes, and project updates stay separately reviewable."
         },
         {
-          "kind": "skill-lanes",
+          "kind": "list",
+          "style": "unordered",
           "items": [
-            {
-              "title": "See what needs attention across clients",
-              "text": "Bring today's client calls, messages, commitments, risks, and decisions into one concise view.",
-              "skill": {
-                "id": "strawberry/operations/prepare-a-daily-brief",
-                "roleId": "consultant",
-                "context": "See which clients, meetings, messages, commitments, and risks deserve attention today."
-              }
-            },
-            {
-              "title": "Walk into the meeting prepared",
-              "text": "Pull together the few decisions, commitments, documents, and changes that should shape a client, workshop, steering, delivery, or internal meeting.",
-              "skill": {
-                "id": "strawberry/operations/prepare-for-meetings",
-                "roleId": "consultant",
-                "context": "Prepare a concise brief for an upcoming client, workshop, steering, delivery, or internal meeting."
-              }
-            },
-            {
-              "title": "Turn the conversation into follow-through",
-              "text": "Separate discussion from decisions, capture commitments and actions, and prepare the right follow-up or system update for review.",
-              "skill": {
-                "id": "strawberry/operations/debrief-a-meeting",
-                "roleId": "consultant",
-                "context": "Turn a completed meeting into decisions, commitments, actions, and controlled follow-through."
-              }
-            }
+            "See what needs attention across clients: Bring today's client calls, messages, commitments, risks, and decisions into one concise view.",
+            "Walk into the meeting prepared: Pull together the few decisions, commitments, documents, and changes that should shape a client, workshop, steering, delivery, or internal meeting.",
+            "Turn the conversation into follow-through: Separate discussion from decisions, capture commitments and actions, and prepare the right follow-up or system update for review."
           ]
         }
       ]

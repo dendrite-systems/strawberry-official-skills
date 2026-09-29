@@ -73,26 +73,11 @@
           "text": "Customer feedback becomes more useful when the situation around it stays visible: who ran into the problem, what they were trying to do, which flow or version they used, and what happened next. Strawberry can synthesize themes and tensions while keeping representative examples linked to the original records. Once the team accepts the problem, the same evidence can inform a product spec without quietly turning every request into a roadmap commitment."
         },
         {
-          "kind": "skill-steps",
+          "kind": "list",
+          "style": "ordered",
           "items": [
-            {
-              "title": "Synthesize what customers are telling you",
-              "text": "Find the themes, tensions, examples, and evidence gaps without automatically prioritizing the roadmap.",
-              "skill": {
-                "id": "strawberry/product-engineering/synthesize-customer-feedback",
-                "roleId": "engineering-development",
-                "context": "Turn approved feedback into source-linked product themes, tensions, examples, gaps, and confidence."
-              }
-            },
-            {
-              "title": "Define the product behavior to create",
-              "text": "Turn the accepted problem into users, outcomes, requirements, flows, edge cases, open questions, and acceptance criteria.",
-              "skill": {
-                "id": "strawberry/product-engineering/write-a-product-spec",
-                "roleId": "engineering-development",
-                "context": "Turn an accepted problem into a clear product definition and acceptance criteria."
-              }
-            }
+            "Synthesize what customers are telling you: Find the themes, tensions, examples, and evidence gaps without automatically prioritizing the roadmap.",
+            "Define the product behavior to create: Turn the accepted problem into users, outcomes, requirements, flows, edge cases, open questions, and acceptance criteria."
           ]
         }
       ]
@@ -104,16 +89,6 @@
         {
           "kind": "paragraph",
           "text": "A chart can look precise while the team is using different definitions for the behavior, population, time window, or exclusions. Strawberry can inspect the dashboards, analysis, product docs, and earlier decisions behind the metric, reconcile the definitions that matter, and then review the baseline, trend, funnel, cohort, or segment. The result separates what moved from why it may have moved and what Product should learn from it."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/product-engineering/review-product-metrics",
-              "roleId": "engineering-development",
-              "context": "Define the metric framework, review supported performance, and make the gaps and implications clear."
-            }
-          ]
         }
       ]
     },
@@ -124,16 +99,6 @@
         {
           "kind": "paragraph",
           "text": "Strawberry can navigate the experience in the browser, check the important path and a few meaningful variations, and return the passes, regressions, screenshots, and relevant console or network evidence. The team can inspect the same browser while the audit runs, redirect it when the flow is unclear, and take over for a sensitive or unfamiliar step."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/product-engineering/audit-a-product-flow",
-              "roleId": "engineering-development",
-              "context": "Navigate and test a critical flow, then return inspectable browser evidence."
-            }
-          ]
         }
       ]
     },
@@ -166,58 +131,20 @@
           "text": "Product and Engineering still depend on the work around the specialist workflows. Meeting preparation and debrief keep decisions attached to their records. Open-loop reviews find unclear ownership and conflicting status. Updates turn the accepted picture into the right message, while onboarding helps a new teammate find the current work instead of receiving a document dump. Once a method works, it can become a shared team workflow."
         },
         {
-          "kind": "skill-steps",
+          "kind": "list",
+          "style": "ordered",
           "items": [
-            {
-              "title": "Prepare for the decision",
-              "text": "Bring together the recent context, open questions, and decisions the meeting needs to move forward.",
-              "skill": {
-                "id": "strawberry/operations/prepare-for-meetings",
-                "roleId": "other",
-                "context": "Prepare a concise brief from the product, project, and participant context that matters."
-              }
-            },
-            {
-              "title": "Turn the meeting into follow-through",
-              "text": "Capture decisions, owners, open questions, and updates while the context is still fresh.",
-              "skill": {
-                "id": "strawberry/operations/debrief-a-meeting",
-                "roleId": "other",
-                "context": "Turn notes or a transcript into decisions, actions, and the right follow-through."
-              }
-            }
+            "Prepare for the decision: Bring together the recent context, open questions, and decisions the meeting needs to move forward.",
+            "Turn the meeting into follow-through: Capture decisions, owners, open questions, and updates while the context is still fresh."
           ]
         },
         {
-          "kind": "skill-lanes",
+          "kind": "list",
+          "style": "unordered",
           "items": [
-            {
-              "title": "Close the important open loops",
-              "text": "Reconcile product and engineering commitments, ownership gaps, and conflicting status across the places work happens.",
-              "skill": {
-                "id": "strawberry/operations/close-open-loops",
-                "roleId": "engineering-development",
-                "context": "Reconcile product and engineering commitments, ownership gaps, and conflicting status."
-              }
-            },
-            {
-              "title": "Share the product and delivery picture",
-              "text": "Turn the accepted evidence into a concise update for leadership, the team, or another stakeholder.",
-              "skill": {
-                "id": "strawberry/operations/prepare-a-status-update",
-                "roleId": "engineering-development",
-                "context": "Turn accepted delivery evidence into an audience-specific update."
-              }
-            },
-            {
-              "title": "Help a new teammate find the current work",
-              "text": "Build a role-aware context pack, setup plan, and first-week path from the systems the team actually uses.",
-              "skill": {
-                "id": "strawberry/operations/onboard-a-new-teammate",
-                "roleId": "engineering-development",
-                "context": "Build a role-aware context pack, setup plan, and first-week path."
-              }
-            }
+            "Close the important open loops: Reconcile product and engineering commitments, ownership gaps, and conflicting status across the places work happens.",
+            "Share the product and delivery picture: Turn the accepted evidence into a concise update for leadership, the team, or another stakeholder.",
+            "Help a new teammate find the current work: Build a role-aware context pack, setup plan, and first-week path from the systems the team actually uses."
           ]
         },
         {

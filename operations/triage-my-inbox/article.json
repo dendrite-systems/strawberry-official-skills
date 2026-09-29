@@ -81,16 +81,6 @@
           "text": "Some inbox items reveal a wider coordination problem: a promise made in a meeting is absent from the task system, or a response depends on a decision recorded elsewhere. That is the point to move from inbox triage into an open-loop audit rather than stretching one communication queue into a view of the whole company."
         },
         {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/close-open-loops",
-              "roleId": "operations-chief-of-staff",
-              "context": "Check the commitment across meetings, messages, tasks, and project records when it cannot be resolved inside one inbox."
-            }
-          ]
-        },
-        {
           "kind": "paragraph",
           "text": "After a few reviewed passes, Strawberry can remember the priorities, exceptions, voice, delegation rules, and definition of done that actually work for this queue. If there is a useful cadence, a Routine can prepare the next priority view and proposed replies while keeping sends and provider changes reviewable."
         }

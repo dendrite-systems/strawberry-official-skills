@@ -45,12 +45,27 @@
       "blocks": [
         {
           "kind": "table",
-          "columns": ["Context", "What it can add"],
+          "columns": [
+            "Context",
+            "What it can add"
+          ],
           "rows": [
-            ["Slack or Teams", "Prior reports, customer impact, workarounds, decisions, owners, and unresolved questions."],
-            ["GitHub and recent changes", "Affected components, related pull requests, release timing, regression range, and code-owner context."],
-            ["Logs, monitoring, console, and network", "Errors, failed requests, timing, frequency, and environment-specific evidence."],
-            ["The team's ticketing system", "Existing issues, current status, accepted fields, severity definitions, and the real project or destination."]
+            [
+              "Slack or Teams",
+              "Prior reports, customer impact, workarounds, decisions, owners, and unresolved questions."
+            ],
+            [
+              "GitHub and recent changes",
+              "Affected components, related pull requests, release timing, regression range, and code-owner context."
+            ],
+            [
+              "Logs, monitoring, console, and network",
+              "Errors, failed requests, timing, frequency, and environment-specific evidence."
+            ],
+            [
+              "The team's ticketing system",
+              "Existing issues, current status, accepted fields, severity definitions, and the real project or destination."
+            ]
           ]
         },
         {
@@ -70,16 +85,6 @@
         {
           "kind": "paragraph",
           "text": "Distinguish a confirmed behavior, likely affected component, suspected regression range, and unverified root-cause hypothesis. If reproduction is not possible, provide the strongest evidence chain available and say what is missing."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/product-engineering/audit-a-product-flow",
-              "roleId": "engineering-development",
-              "context": "Run a broader or proactive flow audit when the team needs passes, regressions, and browser evidence beyond one reported bug."
-            }
-          ]
         }
       ]
     },
