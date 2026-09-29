@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "consulting",
   "title": "Run an AI-native consultancy",
-  "description": "Win clients from buying signals, turn calls into proposals, and let reports and timesheets write themselves. Free to download.",
+  "description": "Find clients, draft proposals, and automate client reports and timesheets.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -39,23 +39,23 @@
           "items": [
             {
               "href": "#win-clients-from-signals",
-              "title": "Clients found the week they're ready to buy"
+              "title": "Find clients from signals"
             },
             {
               "href": "#call-to-proposal",
-              "title": "A proposal drafted before the call ends"
+              "title": "Draft proposals from calls"
             },
             {
               "href": "#report-to-clients",
-              "title": "Client reports that write themselves"
+              "title": "Automate client reports"
             },
             {
               "href": "#time-reporting",
-              "title": "Timesheets without the Friday scramble"
+              "title": "Track your hours"
             },
             {
               "href": "#research-before-kickoff",
-              "title": "Walk into kickoff knowing the client"
+              "title": "Research clients"
             },
             {
               "href": "#why-a-browser",
@@ -80,11 +80,11 @@
     },
     {
       "id": "win-clients-from-signals",
-      "title": "Clients found the week they're ready to buy",
+      "title": "Find clients from signals",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Fresh funding, relevant job posts, and new launches, each with a one-pager on how you'd help."
+          "text": "Companies that just raised or are hiring, each with a one-pager on how you'd help."
         },
         {
           "kind": "demo",
@@ -106,11 +106,11 @@
     },
     {
       "id": "call-to-proposal",
-      "title": "A proposal drafted before the call ends",
+      "title": "Draft proposals from calls",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Recorded without a bot and written from what the client said and your best past proposals."
+          "text": "Record the call without a bot and get a proposal in your format."
         },
         {
           "kind": "demo",
@@ -133,11 +133,11 @@
     },
     {
       "id": "report-to-clients",
-      "title": "Client reports that write themselves",
+      "title": "Automate client reports",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Numbers pulled from each client's tools into the format they're used to, every month."
+          "text": "Each client's numbers pulled into the report they're used to."
         },
         {
           "kind": "demo",
@@ -157,11 +157,11 @@
     },
     {
       "id": "time-reporting",
-      "title": "Timesheets without the Friday scramble",
+      "title": "Track your hours",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Hours pieced together from your calendar, recordings, and project tools, per client."
+          "text": "Hours per client, pieced together from your calendar and tools."
         },
         {
           "kind": "demo",
@@ -181,11 +181,11 @@
     },
     {
       "id": "research-before-kickoff",
-      "title": "Walk into kickoff knowing the client",
+      "title": "Research clients",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Their business, market, competitors, and the people in the room, researched ahead."
+          "text": "Their business, market, and the people in the room, before kickoff."
         },
         {
           "kind": "demo",
@@ -211,15 +211,15 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Consulting work lives in client portals, inboxes, and a dozen tools. Strawberry works in all of them."
+          "text": "Client work lives in a dozen tools. Strawberry works in all of them."
         },
         {
           "kind": "list",
           "style": "unordered",
           "items": [
-            "It uses each client's tools while you're logged in, and keeps each client's context separate.",
-            "It works across many tabs at once, not one click at a time.",
-            "Routines handle the monthly and weekly admin on schedule."
+            "Uses each client's tools while you're logged in.",
+            "Keeps every client's context separate.",
+            "Routines handle the weekly and monthly admin."
           ]
         },
         {

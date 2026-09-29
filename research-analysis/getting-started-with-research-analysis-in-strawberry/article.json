@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "research-analysis",
   "title": "Research deep enough to bet on",
-  "description": "Answers you can bet on, with a source for every claim, plus market maps and websites turned into spreadsheets. Free to download.",
+  "description": "Deep research with sources, market maps, and any website turned into a spreadsheet.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -28,23 +28,23 @@
           "items": [
             {
               "href": "#deep-research",
-              "title": "Answers with a source behind every claim"
+              "title": "Research anything"
             },
             {
               "href": "#map-a-market",
-              "title": "Every player in a market, mapped"
+              "title": "Map a market"
             },
             {
               "href": "#websites-to-spreadsheets",
-              "title": "Any website into a spreadsheet"
+              "title": "Scrape any website"
             },
             {
               "href": "#keep-watch",
-              "title": "Know the moment something changes"
+              "title": "Monitor changes"
             },
             {
               "href": "#decks-people-read",
-              "title": "Decks that lead with the answer"
+              "title": "Make slide decks"
             },
             {
               "href": "#why-a-browser",
@@ -69,11 +69,11 @@
     },
     {
       "id": "deep-research",
-      "title": "Answers with a source behind every claim",
+      "title": "Research anything",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry reads dozens of pages, including ones behind a login, and cites every finding."
+          "text": "Answers from dozens of sources, with a link behind every claim."
         },
         {
           "kind": "demo",
@@ -96,11 +96,11 @@
     },
     {
       "id": "map-a-market",
-      "title": "Every player in a market, mapped",
+      "title": "Map a market",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Including the small companies search engines barely index, grouped and compared."
+          "text": "Every player in a niche, grouped and compared."
         },
         {
           "kind": "demo",
@@ -123,11 +123,11 @@
     },
     {
       "id": "websites-to-spreadsheets",
-      "title": "Any website into a spreadsheet",
+      "title": "Scrape any website",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Directories and listings become clean rows, with a source link on every one."
+          "text": "Directories and listings into clean rows, with sources."
         },
         {
           "kind": "demo",
@@ -148,11 +148,11 @@
     },
     {
       "id": "keep-watch",
-      "title": "Know the moment something changes",
+      "title": "Monitor changes",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A Routine watches competitors, prices, or regulations and tells you only when it matters."
+          "text": "A Routine that tells you only when something actually changed."
         },
         {
           "kind": "demo",
@@ -172,11 +172,11 @@
     },
     {
       "id": "decks-people-read",
-      "title": "Decks that lead with the answer",
+      "title": "Make slide decks",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Findings turned into slides in your brand, with real screenshots and charts."
+          "text": "Your findings as a deck in your brand."
         },
         {
           "kind": "demo",
@@ -201,15 +201,15 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Chat assistants summarize what search engines show them. Strawberry goes and reads."
+          "text": "Chatbots summarize search results. Strawberry reads the sources."
         },
         {
           "kind": "list",
           "style": "unordered",
           "items": [
-            "It opens pages, follows links, and reads sites that need a login.",
-            "It reads many pages at once, so deep research stays quick.",
-            "Every claim keeps a link to its source."
+            "Opens pages, follows links, and reads sites behind a login.",
+            "Reads many pages at once.",
+            "Keeps a source for every claim."
           ]
         },
         {

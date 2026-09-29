@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "founder-executive",
   "title": "Run your whole company from one place",
-  "description": "The executive assistant for your grunt work: every meeting captured, the inbox sorted, customers found, and candidates sourced. Free to download.",
+  "description": "Your executive assistant for the grunt work: meetings, inbox, customers, and hiring.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -28,23 +28,23 @@
           "items": [
             {
               "href": "#capture-every-conversation",
-              "title": "Every conversation becomes company memory"
+              "title": "Transcribe every meeting"
             },
             {
               "href": "#a-sorted-inbox",
-              "title": "An inbox that sorts itself before you wake up"
+              "title": "Sort your inbox"
             },
             {
               "href": "#find-customers",
-              "title": "Your next ten customers, found for you"
+              "title": "Find new customers"
             },
             {
               "href": "#hire-great-people",
-              "title": "Candidates like your best people"
+              "title": "Source candidates"
             },
             {
               "href": "#write-in-your-voice",
-              "title": "Posts in your voice, from what you already said"
+              "title": "Write posts in your voice"
             },
             {
               "href": "#why-a-browser",
@@ -69,11 +69,11 @@
     },
     {
       "id": "capture-every-conversation",
-      "title": "Every conversation becomes company memory",
+      "title": "Transcribe every meeting",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "One-on-ones, sales, candidate, and investor calls are transcribed without a bot and saved for the whole team."
+          "text": "Calls are recorded without a bot and saved as shared context for your team."
         },
         {
           "kind": "demo",
@@ -96,11 +96,11 @@
     },
     {
       "id": "a-sorted-inbox",
-      "title": "An inbox that sorts itself before you wake up",
+      "title": "Sort your inbox",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Labeled your way, junk archived, and the three messages that need you flagged."
+          "text": "Every morning, mail is labeled, junk is archived, and what needs you is flagged."
         },
         {
           "kind": "demo",
@@ -120,11 +120,11 @@
     },
     {
       "id": "find-customers",
-      "title": "Your next ten customers, found for you",
+      "title": "Find new customers",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "More companies like your best ones, each with a reason, and outreach drafted in your voice."
+          "text": "More companies like your best ones, each with a reason it fits."
         },
         {
           "kind": "demo",
@@ -147,11 +147,11 @@
     },
     {
       "id": "hire-great-people",
-      "title": "Candidates like your best people",
+      "title": "Source candidates",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A scorecard from someone great on your team, mock candidates to calibrate, then real ones from LinkedIn and GitHub."
+          "text": "Describe your best hire and get more people like them from LinkedIn and GitHub."
         },
         {
           "kind": "demo",
@@ -173,11 +173,11 @@
     },
     {
       "id": "write-in-your-voice",
-      "title": "Posts in your voice, from what you already said",
+      "title": "Write posts in your voice",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Drafted from your meetings and past writing, with images when they help."
+          "text": "Drafted from what you've said in meetings and written before."
         },
         {
           "kind": "demo",
@@ -202,15 +202,15 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "ChatGPT and Claude are great to think with. But the work itself happens in your inbox, your CRM, and on LinkedIn, and that's where Strawberry works."
+          "text": "Chatbots help you think. Strawberry does the work in your apps."
         },
         {
           "kind": "list",
           "style": "unordered",
           "items": [
-            "It uses your logged-in apps directly, with no exports or copy and paste.",
-            "It works across many tabs at once, not one click at a time.",
-            "Everything it learns can be shared with your team, so the context outlives any one chat."
+            "Uses your inbox, calendar, and CRM directly.",
+            "Works across many tabs at once.",
+            "Everything it learns can be shared with your team."
           ]
         },
         {

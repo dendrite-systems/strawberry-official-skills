@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "marketing",
   "title": "Market like a team of ten",
-  "description": "Know what works, hear what people say, watch competitors, and ship content for every channel. Free to download.",
+  "description": "Learn what works, track what people say, monitor competitors, and repurpose content.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -28,23 +28,23 @@
           "items": [
             {
               "href": "#learn-from-what-worked",
-              "title": "Know exactly why your best posts worked"
+              "title": "Analyze your best posts"
             },
             {
               "href": "#hear-what-people-say",
-              "title": "Every mention of your brand, in one report"
+              "title": "Track what people say"
             },
             {
               "href": "#watch-competitors",
-              "title": "Competitor moves, the week they happen"
+              "title": "Monitor competitors"
             },
             {
               "href": "#one-idea-every-channel",
-              "title": "One idea, ready for every channel"
+              "title": "Repurpose content"
             },
             {
               "href": "#find-out-why-traffic-moved",
-              "title": "SEO fixes, ranked by impact"
+              "title": "Audit your SEO"
             },
             {
               "href": "#why-a-browser",
@@ -69,11 +69,11 @@
     },
     {
       "id": "learn-from-what-worked",
-      "title": "Know exactly why your best posts worked",
+      "title": "Analyze your best posts",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry reads a year of your posts and their stats, and turns the winners into a brief."
+          "text": "Find out what your top posts have in common, and get a brief for the next ones."
         },
         {
           "kind": "demo",
@@ -95,11 +95,11 @@
     },
     {
       "id": "hear-what-people-say",
-      "title": "Every mention of your brand, in one report",
+      "title": "Track what people say",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Reviews, Reddit, LinkedIn, and forums, grouped into themes with a link to every quote."
+          "text": "Reviews, Reddit, and LinkedIn, summarized with a link to every quote."
         },
         {
           "kind": "demo",
@@ -122,11 +122,11 @@
     },
     {
       "id": "watch-competitors",
-      "title": "Competitor moves, the week they happen",
+      "title": "Monitor competitors",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Pricing, changelogs, ads, and job posts checked every Friday, with what it means for you."
+          "text": "A weekly report on their pricing, launches, ads, and hiring."
         },
         {
           "kind": "demo",
@@ -146,11 +146,11 @@
     },
     {
       "id": "one-idea-every-channel",
-      "title": "One idea, ready for every channel",
+      "title": "Repurpose content",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "LinkedIn, X, email, and blog versions in your voice, with generated images."
+          "text": "One piece turned into posts for every channel, with images."
         },
         {
           "kind": "demo",
@@ -173,11 +173,11 @@
     },
     {
       "id": "find-out-why-traffic-moved",
-      "title": "SEO fixes, ranked by impact",
+      "title": "Audit your SEO",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Read from your own Search Console and analytics, with screenshots as proof."
+          "text": "Fixes ranked by impact, from your own Search Console data."
         },
         {
           "kind": "demo",
@@ -202,15 +202,15 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A chatbot writes from a blank page. Strawberry writes from your numbers."
+          "text": "Chatbots write from a blank page. Strawberry starts from your numbers."
         },
         {
           "kind": "list",
           "style": "unordered",
           "items": [
-            "It reads your analytics, social accounts, and CMS while you are logged in.",
-            "It checks the live web across many pages at once.",
-            "It generates images to go with the copy."
+            "Reads your analytics and social accounts while you're logged in.",
+            "Checks the live web across many pages at once.",
+            "Generates images to go with the copy."
           ]
         },
         {

@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "product-engineering",
   "title": "Test, debug, and build in a real browser",
-  "description": "Strawberry clicks through your app, reads the console, builds pages that look designed, and scrapes the web in minutes. Free to download.",
+  "description": "Automate QA, debug in a real browser, build websites, and scrape any site.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -28,23 +28,23 @@
           "items": [
             {
               "href": "#qa-on-autopilot",
-              "title": "Regressions caught before customers see them"
+              "title": "Automate QA"
             },
             {
               "href": "#debug-in-the-browser",
-              "title": "Bugs found with the console already open"
+              "title": "Debug web apps"
             },
             {
               "href": "#build-beautiful-websites",
-              "title": "Websites that look designed, not generated"
+              "title": "Build websites"
             },
             {
               "href": "#extract-web-data",
-              "title": "Any website into a spreadsheet, in minutes"
+              "title": "Scrape any website"
             },
             {
               "href": "#research-before-you-build",
-              "title": "The research done before you write a line"
+              "title": "Research the docs"
             },
             {
               "href": "#why-a-browser",
@@ -69,11 +69,11 @@
     },
     {
       "id": "qa-on-autopilot",
-      "title": "Regressions caught before customers see them",
+      "title": "Automate QA",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Every morning Strawberry clicks through your key flows on staging and reports what broke, with screenshots."
+          "text": "Strawberry clicks through your key flows every morning and reports what broke."
         },
         {
           "kind": "demo",
@@ -93,11 +93,11 @@
     },
     {
       "id": "debug-in-the-browser",
-      "title": "Bugs found with the console already open",
+      "title": "Debug web apps",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "It reads the page, the console, and the network, so it can tell a broken API from a broken button."
+          "text": "It reads the page, the console, and the network to find the real cause."
         },
         {
           "kind": "demo",
@@ -118,11 +118,11 @@
     },
     {
       "id": "build-beautiful-websites",
-      "title": "Websites that look designed, not generated",
+      "title": "Build websites",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Your brand or a site you like, with real screenshots or generated images instead of grey boxes."
+          "text": "Pages in your brand, with real screenshots or generated images."
         },
         {
           "kind": "demo",
@@ -144,11 +144,11 @@
     },
     {
       "id": "extract-web-data",
-      "title": "Any website into a spreadsheet, in minutes",
+      "title": "Scrape any website",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "It reads the site's own data requests, so thousands of rows take a minute instead of an hour."
+          "text": "Thousands of rows into a spreadsheet, often in a minute."
         },
         {
           "kind": "demo",
@@ -169,11 +169,11 @@
     },
     {
       "id": "research-before-you-build",
-      "title": "The research done before you write a line",
+      "title": "Research the docs",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Docs, changelogs, and issue threads read for you, with the approach and the gotchas."
+          "text": "The approach, the gotchas, and the APIs for a feature, before you start."
         },
         {
           "kind": "demo",
@@ -205,9 +205,9 @@
           "kind": "list",
           "style": "unordered",
           "items": [
-            "It drives a real browser, including localhost and staging, and reads the console and network as it goes.",
-            "It works across many tabs at once instead of one step at a time.",
-            "You can watch every tab and take over at any point."
+            "Drives a real browser, including localhost and staging.",
+            "Reads the console and network as it goes.",
+            "Works in real tabs you can watch and take over."
           ]
         },
         {

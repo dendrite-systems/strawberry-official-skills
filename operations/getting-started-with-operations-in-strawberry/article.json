@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "operations",
   "title": "Run an AI-native ops team",
-  "description": "A sorted inbox, a morning brief, meetings that follow up on themselves, and receipts fetched from every portal. Free to download.",
+  "description": "Sort your inbox, get a daily brief, transcribe meetings, and collect receipts.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -28,23 +28,23 @@
           "items": [
             {
               "href": "#sort-the-inbox",
-              "title": "An inbox sorted before you open it"
+              "title": "Sort your inbox"
             },
             {
               "href": "#a-daily-brief",
-              "title": "The day's brief before your first coffee"
+              "title": "Get a daily brief"
             },
             {
               "href": "#transcribe-meetings",
-              "title": "Meetings that follow up on themselves"
+              "title": "Transcribe meetings"
             },
             {
               "href": "#close-open-loops",
-              "title": "No promise left hanging"
+              "title": "Close open loops"
             },
             {
               "href": "#fetch-receipts",
-              "title": "Every receipt, from every portal"
+              "title": "Collect receipts"
             },
             {
               "href": "#why-a-browser",
@@ -69,11 +69,11 @@
     },
     {
       "id": "sort-the-inbox",
-      "title": "An inbox sorted before you open it",
+      "title": "Sort your inbox",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Labeled your way every morning, junk archived, and the few messages that matter flagged."
+          "text": "Every morning, mail is labeled, junk is archived, and what matters is flagged."
         },
         {
           "kind": "demo",
@@ -93,11 +93,11 @@
     },
     {
       "id": "a-daily-brief",
-      "title": "The day's brief before your first coffee",
+      "title": "Get a daily brief",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Meetings with context, what's waiting on you, and what changed overnight, in one note."
+          "text": "Today's meetings, open threads, and overnight changes in one note."
         },
         {
           "kind": "demo",
@@ -117,11 +117,11 @@
     },
     {
       "id": "transcribe-meetings",
-      "title": "Meetings that follow up on themselves",
+      "title": "Transcribe meetings",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Transcribed without a bot, action items sent to the right people, and notes filed for the team."
+          "text": "No bot needed. Action items go to the right people afterwards."
         },
         {
           "kind": "demo",
@@ -144,11 +144,11 @@
     },
     {
       "id": "close-open-loops",
-      "title": "No promise left hanging",
+      "title": "Close open loops",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Strawberry finds what was promised in meetings and threads but never followed up, and drafts the nudge."
+          "text": "Find the promises nobody followed up on, and draft the nudge."
         },
         {
           "kind": "demo",
@@ -171,11 +171,11 @@
     },
     {
       "id": "fetch-receipts",
-      "title": "Every receipt, from every portal",
+      "title": "Collect receipts",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "It logs in to vendor portals, downloads the invoices, and hands your bookkeeper a register."
+          "text": "Invoices downloaded from every portal into one register."
         },
         {
           "kind": "demo",
@@ -202,15 +202,15 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Most ops work isn't writing. It's clicking through websites. That's what Strawberry does."
+          "text": "Most ops work is clicking through websites. That's what Strawberry does."
         },
         {
           "kind": "list",
           "style": "unordered",
           "items": [
-            "It works inside your logged-in tools and portals, not just the ones with an API.",
-            "It handles many tabs at once, not one click at a time.",
-            "Routines keep running on schedule, even when you are away."
+            "Works in any logged-in tool or portal, API or not.",
+            "Handles many tabs at once.",
+            "Routines keep running while you're away."
           ]
         },
         {

@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "customer-support-success",
   "title": "Support that knows every account",
-  "description": "Triage the queue, crack hard cases in the product itself, and resolve with proof. It's how we run our own support.",
+  "description": "Triage the queue, reproduce issues, resolve cases, and file bugs. It's how we run our own support.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -38,23 +38,23 @@
           "items": [
             {
               "href": "#set-up-support-like-strawberry",
-              "title": "Our own support setup, ready to copy"
+              "title": "Copy our support setup"
             },
             {
               "href": "#triage-the-queue",
-              "title": "A sorted queue at the start of every shift"
+              "title": "Triage the queue"
             },
             {
               "href": "#investigate-hard-cases",
-              "title": "Hard cases, reproduced in your product"
+              "title": "Reproduce issues"
             },
             {
               "href": "#resolve-and-verify",
-              "title": "Fixes confirmed, not just sent"
+              "title": "Resolve and verify"
             },
             {
               "href": "#bugs-with-repro",
-              "title": "Bug reports engineers can act on"
+              "title": "File bug reports"
             },
             {
               "href": "#why-a-browser",
@@ -79,11 +79,11 @@
     },
     {
       "id": "set-up-support-like-strawberry",
-      "title": "Our own support setup, ready to copy",
+      "title": "Copy our support setup",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Connect the tools, learn from resolved cases, and switch on Routines, step by step."
+          "text": "The exact setup we use at Strawberry, step by step."
         },
         {
           "kind": "demo",
@@ -106,11 +106,11 @@
     },
     {
       "id": "triage-the-queue",
-      "title": "A sorted queue at the start of every shift",
+      "title": "Triage the queue",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Every case read with its full history and the next step drafted."
+          "text": "Every case read in full, with the next step drafted."
         },
         {
           "kind": "demo",
@@ -130,11 +130,11 @@
     },
     {
       "id": "investigate-hard-cases",
-      "title": "Hard cases, reproduced in your product",
+      "title": "Reproduce issues",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Account, billing, docs, and past cases checked, and the problem reproduced where it can be."
+          "text": "Strawberry checks the account and reproduces the problem in your product."
         },
         {
           "kind": "demo",
@@ -156,11 +156,11 @@
     },
     {
       "id": "resolve-and-verify",
-      "title": "Fixes confirmed, not just sent",
+      "title": "Resolve and verify",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Refunds and access changes go through once you approve, then Strawberry checks they took effect."
+          "text": "Refunds and fixes go through after you approve, then get checked."
         },
         {
           "kind": "demo",
@@ -181,11 +181,11 @@
     },
     {
       "id": "bugs-with-repro",
-      "title": "Bug reports engineers can act on",
+      "title": "File bug reports",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Customer impact, steps to reproduce, and screenshots, instead of \"it's broken\"."
+          "text": "Steps to reproduce and screenshots, ready for engineering."
         },
         {
           "kind": "demo",
@@ -217,9 +217,9 @@
           "kind": "list",
           "style": "unordered",
           "items": [
-            "It uses your helpdesk, billing, and CRM while you're logged in.",
-            "It can open the product and reproduce what the customer sees.",
-            "It works across many tabs at once, so answers come quickly."
+            "Uses your helpdesk, billing, and CRM while you're logged in.",
+            "Opens the product to see what the customer sees.",
+            "Works across many tabs at once."
           ]
         },
         {

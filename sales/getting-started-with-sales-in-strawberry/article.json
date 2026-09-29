@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "automate-sales-pipeline",
   "title": "Automate your sales pipeline",
-  "description": "Strawberry finds leads that fit, preps your calls, logs them without a bot, and follows up in your voice. Free to download.",
+  "description": "Find leads, prep your calls, transcribe them, and follow up automatically.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -28,23 +28,23 @@
           "items": [
             {
               "href": "#find-leads-that-fit",
-              "title": "Leads that actually fit, with proof"
+              "title": "Source 100s of leads"
             },
             {
               "href": "#transcribe-calls",
-              "title": "Calls logged and followed up before you hang up"
+              "title": "Transcribe calls"
             },
             {
               "href": "#prep-every-call",
-              "title": "Walk into every call with the best talking points"
+              "title": "Prep every call"
             },
             {
               "href": "#outreach-on-autopilot",
-              "title": "Follow-ups that send themselves, in your voice"
+              "title": "Automate follow-ups"
             },
             {
               "href": "#find-buyers-in-your-product",
-              "title": "Find the buyers already using your product"
+              "title": "Spot buyers in your product"
             },
             {
               "href": "#why-a-browser",
@@ -69,11 +69,11 @@
     },
     {
       "id": "find-leads-that-fit",
-      "title": "Leads that actually fit, with proof",
+      "title": "Source 100s of leads",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Every company comes with the reason it fits and a link to check it. No bought lists, no made-up names."
+          "text": "Describe your ideal customer and get companies that fit, each with a reason and a source."
         },
         {
           "kind": "demo",
@@ -97,11 +97,11 @@
     },
     {
       "id": "transcribe-calls",
-      "title": "Calls logged and followed up before you hang up",
+      "title": "Transcribe calls",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Press record and no bot joins. The follow-up email, CRM notes, and next steps are waiting when the call ends."
+          "text": "Record any call without a bot. The follow-up email and CRM notes are ready when you hang up."
         },
         {
           "kind": "demo",
@@ -124,11 +124,11 @@
     },
     {
       "id": "prep-every-call",
-      "title": "Walk into every call with the best talking points",
+      "title": "Prep every call",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Who's in the room, what changed at their company, and what to lead with, ready in two minutes."
+          "text": "A short brief on who's in the room, what changed, and what to lead with."
         },
         {
           "kind": "demo",
@@ -152,11 +152,11 @@
     },
     {
       "id": "outreach-on-autopilot",
-      "title": "Follow-ups that send themselves, in your voice",
+      "title": "Automate follow-ups",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Written from your own sent emails, tracked in a sheet, and stopped the moment someone replies."
+          "text": "Emails in your voice that stop as soon as someone replies."
         },
         {
           "kind": "demo",
@@ -179,11 +179,11 @@
     },
     {
       "id": "find-buyers-in-your-product",
-      "title": "Find the buyers already using your product",
+      "title": "Spot buyers in your product",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A weekly Routine flags accounts behaving like buyers, with the reason each one stood out."
+          "text": "A weekly check of your user data for accounts that look ready to buy."
         },
         {
           "kind": "demo",
@@ -207,15 +207,15 @@
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A chat window can only work with what you paste into it. Strawberry works where your leads actually are."
+          "text": "Chatbots only know what you paste in. Strawberry works where your leads are."
         },
         {
           "kind": "list",
           "style": "unordered",
           "items": [
-            "It uses LinkedIn, Sales Navigator, and your CRM while you're logged in, with no exports or API keys.",
-            "It reads dozens of pages at once instead of clicking through one tab at a time, and paces itself on LinkedIn to keep your account safe.",
-            "Every tab it opens is a real tab. Watch it work, or take over whenever you like."
+            "Uses LinkedIn and your CRM while you're logged in.",
+            "Reads dozens of pages at once, not one click at a time.",
+            "Works in real tabs you can watch and take over."
           ]
         },
         {
