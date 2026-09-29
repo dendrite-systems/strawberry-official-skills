@@ -7,7 +7,7 @@ description: Ideas for helping consultants and agencies get started in Strawberr
 
 Consultants and agencies juggle finding clients, delivering the work, and reporting on it, often
 across several clients at once. Strawberry works across their inbox, calendar, client tools, and
-the web, and remembers each client's context. Start with one piece of real work.
+the web, and remembers each client's context.
 
 ## Setup
 

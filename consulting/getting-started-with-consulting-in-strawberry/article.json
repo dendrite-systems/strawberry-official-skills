@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "consulting",
   "title": "Run an AI-native consultancy",
-  "description": "Use Strawberry across client research, proposals, meetings, recommendations, and follow-through while keeping evidence and approvals clear.",
+  "description": "Win clients from signals, turn calls into proposals, and report progress and hours without the Friday afternoon scramble.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -15,8 +15,8 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "navigation": {
-    "title": "Consulting",
-    "tagline": "Client research, proposals, delivery, and follow-through",
+    "title": "Consulting & Agency",
+    "tagline": "Winning clients, proposals, reporting, and time",
     "icons": [
       "gmail",
       "google-sheets",
@@ -26,148 +26,144 @@
     "order": 10
   },
   "introduction": [
-    "Most consultants already have plenty of context. It is spread across meeting notes, email threads, an RFP portal, research tabs, and past deliverables. The tedious part is bringing the right pieces into the next decision without rebuilding the project each time.",
-    "Strawberry works in the same visible browser as that material. Your companion can use what is already open or connected, follow research into logged-in sites, and carry what matters into a proposal, recommendation, brief, or deck without rebuilding the engagement for each new task."
+    "Consultants and agencies sell, deliver, and report, usually for five clients at once. The client work is the fun part. The admin around it is where the week goes.",
+    "Strawberry works across your inbox, calendar, client tools, and the web, and keeps each client's context separate. It can take care of most of the admin, so the hours go to the work clients pay for."
   ],
   "sections": [
     {
-      "id": "what-strawberry-can-help-you-do",
-      "title": "What Strawberry can help you do",
+      "id": "what-to-try-first",
+      "title": "What to try first",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
-              "href": "#turn-research-into-a-decision",
-              "title": "Turn research into a decision",
-              "description": "Move from sources and analysis to credible options, tradeoffs, and a recommendation the client can challenge."
+              "href": "#win-clients-from-signals",
+              "title": "Win clients from signals"
             },
             {
-              "href": "#move-cleanly-from-sale-to-delivery",
-              "title": "Move from sale to delivery",
-              "description": "Carry the real opportunity into a proposal, then turn the accepted work into an engagement brief."
+              "href": "#call-to-proposal",
+              "title": "Turn calls into proposals"
             },
             {
-              "href": "#use-meetings-to-keep-the-work-moving",
-              "title": "Prepare for meetings and follow through",
-              "description": "Bring the useful client context into the conversation, then preserve decisions and commitments."
+              "href": "#report-to-clients",
+              "title": "Report to clients"
             },
             {
-              "href": "#reuse-what-works",
-              "title": "Reuse what works",
-              "description": "Keep trusted sources, client boundaries, deliverable standards, and review points available."
+              "href": "#time-reporting",
+              "title": "Track time"
+            },
+            {
+              "href": "#research-before-kickoff",
+              "title": "Research before kickoff"
+            },
+            {
+              "href": "#more-to-try",
+              "title": "More to try"
+            },
+            {
+              "href": "#bring-in-your-team",
+              "title": "Bring in your team"
             }
           ]
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to begin? Your companion can look at the client work you have open and suggest a useful skill to try first.",
+          "text": "Not sure where to start? Your companion can look at the work you have open and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/consulting/getting-started-with-consulting-in-strawberry",
             "roleId": "consultant",
-            "context": "Find a useful starting point for your consulting work and complete one real result."
+            "context": "Ask your companion to look at your work and suggest the first thing to hand over."
           }
         }
       ]
     },
     {
-      "id": "turn-research-into-a-decision",
-      "title": "Turn research into a decision",
+      "id": "win-clients-from-signals",
+      "title": "Win clients from signals",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A market map, company list, or interview summary usually gets the client only partway. They still need credible options, the tradeoffs between them, and a recommendation they can challenge."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Your companion chooses the right research path: mapping an unfamiliar market, extracting repeated data across many pages, investigating a company, or comparing a smaller set visually. Because the research happens in Strawberry's visible browser workspace, you can inspect the sources, correct the direction, or take over in a logged-in site while it works."
-        },
-        {
-          "kind": "paragraph",
-          "text": "The recommendation keeps evidence, client claims, calculations, and inference distinct. It can become a memo, deck, workshop artifact, or supporting spreadsheet, depending on how the client will make the decision."
-        },
-        {
-          "kind": "list",
-          "style": "unordered",
-          "items": [
-            "Build the recommendation: Turn the research into credible options and a defensible recommendation, keeping the evidence, client claims, calculations, tradeoffs, and inference clear in the artifact the decision needs.",
-            "Investigate one company closely: Build a concise, source-linked view of a single company when the client question turns on what that business actually does or where it is heading.",
-            "Collect repeated web evidence at scale: Collect the same fields across many pages into a validated dataset when the analysis needs breadth."
-          ]
+          "text": "Companies that just raised a round, posted a relevant job, or launched something new are often ready to buy. Strawberry finds them in your area or niche and drafts a short one-pager for each on how you could help."
         },
         {
           "kind": "skills",
           "items": [
             {
-              "id": "strawberry/research-analysis/extract-web-data",
+              "id": "strawberry/sales/find-new-customers",
               "roleId": "consultant",
-              "context": "Collect repeated fields across many pages into a validated dataset when the research needs scale."
+              "context": "Find companies showing the signals that make them good clients right now."
             }
           ]
         }
       ]
     },
     {
-      "id": "move-cleanly-from-sale-to-delivery",
-      "title": "Move cleanly from sale to delivery",
+      "id": "call-to-proposal",
+      "title": "Turn a call into a proposal",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Before the client accepts the work, the proposal says what is being promised: the intended outcomes, work, responsibilities, timeline, fees, and terms. Strawberry uses the real opportunity record and leaves missing pricing, authority, ROI, or legal language visible instead of guessing."
-        },
+          "text": "Record the discovery call without a bot, and Strawberry drafts the proposal from what was said and your best past proposals. You edit instead of starting from a blank page."
+        }
+      ]
+    },
+    {
+      "id": "report-to-clients",
+      "title": "Report progress without the scramble",
+      "blocks": [
         {
           "kind": "paragraph",
-          "text": "After acceptance, the same reviewed context becomes the engagement brief, including the scope, stakeholders, milestones, evidence standards, and client restrictions. The delivery team does not have to reconstruct the agreement during kickoff."
-        },
+          "text": "Strawberry pulls from project boards, analytics, ad accounts, and meeting notes to build each client's report in the format they're used to. One client first, then the rest."
+        }
+      ]
+    },
+    {
+      "id": "time-reporting",
+      "title": "Time reporting that does itself",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Strawberry pieces together hours from calendars, recordings, and project tools into a weekly report per client, ready for you to check before invoicing."
+        }
+      ]
+    },
+    {
+      "id": "research-before-kickoff",
+      "title": "Walk into kickoff knowing the client",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Their business, their market, their competitors, and the people in the room, researched before the first meeting."
+        }
+      ]
+    },
+    {
+      "id": "more-to-try",
+      "title": "More to try",
+      "blocks": [
         {
           "kind": "list",
-          "style": "ordered",
+          "style": "unordered",
           "items": [
-            "Define what is being promised: Turn the real opportunity or RFP into the outcomes, work, responsibilities, timeline, fees, terms, and open questions.",
-            "Turn the proposal into an engagement brief: Carry the scope, stakeholders, milestones, evidence standards, and client restrictions into one engagement brief."
+            "Turn research into a client-ready deck.",
+            "Run an SEO audit on a client's site.",
+            "Find candidates when the firm is hiring."
           ]
         }
       ]
     },
     {
-      "id": "use-meetings-to-keep-the-work-moving",
-      "title": "Use meetings to keep the work moving",
+      "id": "bring-in-your-team",
+      "title": "Bring in your team",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Before a meeting, Strawberry can start from the calendar and pull in the few decisions, commitments, documents, or changes that should affect the conversation. After a reliable transcript or set of notes is available, the debrief separates discussion from decisions and turns accepted commitments into proposed follow-through."
+          "text": "Each client gets its own context, and nothing leaks between them. Save your way of scoping, proposing, and reporting as team skills, and every consultant on the team works to the same standard."
         },
         {
           "kind": "paragraph",
-          "text": "A daily brief connects that meeting loop to the rest of the consultant's work: which calls need preparation, which promises are due, and which risks or messages deserve attention. Follow-up emails, status updates, CRM changes, and project updates stay separately reviewable."
-        },
-        {
-          "kind": "list",
-          "style": "unordered",
-          "items": [
-            "See what needs attention across clients: Bring today's client calls, messages, commitments, risks, and decisions into one concise view.",
-            "Walk into the meeting prepared: Pull together the few decisions, commitments, documents, and changes that should shape a client, workshop, steering, delivery, or internal meeting.",
-            "Turn the conversation into follow-through: Separate discussion from decisions, capture commitments and actions, and prepare the right follow-up or system update for review."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "reuse-what-works",
-      "title": "Reuse what works",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "Feedback helps your companion learn which sources you trust, what a useful result looks like, and how you want drafts reviewed. Once the method works, save it as a custom skill or a sanitized team skill. Client details stay with the client they belong to."
-        },
-        {
-          "kind": "list",
-          "style": "unordered",
-          "items": [
-            "Share an approved artifact when someone only needs the result.",
-            "Share a sanitized team skill when colleagues need the method but not another client's context.",
-            "Create a Routine when the sources, trigger, output, ownership, and review step have settled."
-          ]
+          "text": "Put reports and time summaries on Routines, and Friday afternoons get a lot quieter."
         }
       ]
     }

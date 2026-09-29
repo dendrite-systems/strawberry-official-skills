@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "marketing",
   "title": "Market like a team of ten",
-  "description": "Connect audience insights, campaign planning, content, and performance learning without losing the brand or the reasoning between steps.",
+  "description": "Learn from what already worked, hear what people say about you, and turn one idea into content for every channel, with real data in front of you.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -15,154 +15,135 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Marketing teams rarely struggle for lack of ideas. The harder part is keeping audience insights, campaign decisions, content, and results connected when the work moves across analytics, ad platforms, customer conversations, documents, and the live web.",
-    "Strawberry works across those tabs and tools. Your companion can inspect the current sources, keep proof close to the claim it supports, and carry an accepted audience or campaign decision into the next piece of work. As you correct it, it can also remember the sources, definitions, and brand choices your team trusts."
+    "Marketing teams are small and the to-do list isn't. There's always one more report to pull, one more competitor to check, and one more post to write for a channel you forgot about.",
+    "Strawberry works inside your analytics, social accounts, CMS, and the live web, so it does the digging and the drafting with real numbers in front of it. It can make the images too. Think of it as the extra hands the team never got budget for."
   ],
   "sections": [
     {
-      "id": "what-strawberry-can-help-you-do",
-      "title": "What Strawberry can help you do",
+      "id": "what-to-try-first",
+      "title": "What to try first",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
-              "href": "#understand-the-audience-and-market",
-              "title": "Understand the audience and market",
-              "description": "Bring customer evidence, competitor activity, and search behavior into a clearer view."
+              "href": "#learn-from-what-worked",
+              "title": "Learn from what worked"
             },
             {
-              "href": "#turn-the-evidence-into-a-campaign-plan",
-              "title": "Plan the campaign",
-              "description": "Choose the objective, audience, proposition, channels, measurement, and work required."
+              "href": "#hear-what-people-say",
+              "title": "Hear what people say"
             },
             {
-              "href": "#create-and-adapt-content",
-              "title": "Build the content system",
-              "description": "Turn the strategy into themes, briefs, owners, cadence, and realistic production."
+              "href": "#watch-competitors",
+              "title": "Watch competitors"
             },
             {
-              "href": "#build-a-content-system",
-              "title": "Create and adapt the content",
-              "description": "Produce the anchor piece, then reshape the idea and proof for each channel."
+              "href": "#one-idea-every-channel",
+              "title": "One idea, every channel"
             },
             {
-              "href": "#learn-from-performance",
-              "title": "Learn from performance",
-              "description": "Reconcile definitions, find the changes that matter, and choose the next test or decision."
+              "href": "#find-out-why-traffic-moved",
+              "title": "Find out why traffic moved"
             },
             {
-              "href": "#reuse-the-judgment-that-works",
-              "title": "Reuse what works",
-              "description": "Keep accepted sources, brand judgment, and review points available to the team."
+              "href": "#more-to-try",
+              "title": "More to try"
+            },
+            {
+              "href": "#bring-in-your-team",
+              "title": "Bring in your team"
             }
           ]
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to begin? Your companion can look at the marketing work you have open and suggest a useful skill to try first.",
+          "text": "Not sure where to start? Your companion can look at the work you have open and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/marketing/getting-started-with-marketing-in-strawberry",
             "roleId": "marketing-content",
-            "context": "Choose and complete the marketing workflow that would help most right now."
+            "context": "Ask your companion to look at your work and suggest the first thing to hand over."
           }
         }
       ]
     },
     {
-      "id": "understand-the-audience-and-market",
-      "title": "Understand the audience and market",
+      "id": "learn-from-what-worked",
+      "title": "Learn from what already worked",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Useful audience research shows what people are trying to do, how they describe the problem, what changes their behavior, and where the evidence is still thin. Strawberry can bring together interviews, support conversations, reviews, communities, analytics, search behavior, and campaign results while keeping the important examples linked to their sources."
-        },
+          "text": "Point Strawberry at the last year of your posts. It finds the ones that did best, works out what they have in common, and turns that into a brief for the next ones. Your own history is better advice than any content playbook."
+        }
+      ]
+    },
+    {
+      "id": "hear-what-people-say",
+      "title": "Hear what people say about you",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Reviews, Reddit threads, LinkedIn comments, and forum posts. Strawberry reads them in the browser and brings back a short report, or a deck in your brand, with a link to every quote. It's the fastest way to learn which words your customers actually use."
+        }
+      ]
+    },
+    {
+      "id": "watch-competitors",
+      "title": "Keep an eye on competitors",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Pricing pages, changelogs, ads, and job posts say a lot about where a competitor is heading. Strawberry checks them, tells you what changed, and says what it means for you, not just how they're different."
+        }
+      ]
+    },
+    {
+      "id": "one-idea-every-channel",
+      "title": "One idea, every channel",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Give Strawberry a talk, a launch, or a long post. It turns it into versions for LinkedIn, X, email, and the blog in your voice, with generated images where a stock photo would have gone."
+        }
+      ]
+    },
+    {
+      "id": "find-out-why-traffic-moved",
+      "title": "Find out why search traffic moved",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Strawberry can work inside Search Console and your analytics while you're logged in, check the live search results, and come back with a short list of fixes in order of impact, with screenshots so you can see the evidence yourself."
+        }
+      ]
+    },
+    {
+      "id": "more-to-try",
+      "title": "More to try",
+      "blocks": [
         {
           "kind": "list",
           "style": "unordered",
           "items": [
-            "Research the audience: Turn approved customer and market sources into a linked view of needs, language, behavior, channels, tensions, and gaps, without turning the work into a contact list.",
-            "See how competitors are making the case: Compare current positioning, messaging, offers, channels, and proof around a real marketing decision.",
-            "Find the organic-search opportunity: Connect search demand, intent, current performance, the live site, and competitive difficulty to an action plan."
-          ]
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/marketing/run-competitor-analysis",
-              "roleId": "marketing-content",
-              "context": "Compare competitors around a real positioning, campaign, product, or market decision."
-            },
-            {
-              "id": "strawberry/marketing/audit-seo-create-report",
-              "roleId": "marketing-content",
-              "context": "Turn organic-search evidence into a prioritized action plan."
-            }
+            "Plan a campaign from what's already in your analytics and past launches.",
+            "Review last month and decide what to change, with the numbers pulled for you.",
+            "Build a list of high-fit accounts for a campaign.",
+            "Turn research into a beautiful deck in your brand."
           ]
         }
       ]
     },
     {
-      "id": "turn-the-evidence-into-a-campaign-plan",
-      "title": "Turn the evidence into a campaign plan",
+      "id": "bring-in-your-team",
+      "title": "Bring in your team",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A campaign plan should make the choices visible: what the team wants to change, who the work is for, what it will offer or say, which channels have a real job, what needs to be made, and how the team will know whether it worked. Strawberry can use the audience evidence, earlier campaigns, brand material, product facts, competitor activity, performance data, and current channel context without flattening them into one generic brief."
-        }
-      ]
-    },
-    {
-      "id": "build-a-content-system",
-      "title": "Build a content system",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "A content plan is more useful than a full calendar when it explains why each theme and format exists, which evidence supports it, who owns it, and what the team can realistically produce. Strawberry can connect those choices to the audience and campaign evidence while finding useful source material and opportunities to reuse work the team already has."
-        }
-      ]
-    },
-    {
-      "id": "create-and-adapt-content",
-      "title": "Create and adapt the content",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "Once a brief is ready, Strawberry can work beside the source material, earlier content, brand guidance, campaign plan, and the channel where the piece will live. It can create the anchor asset and then reshape the angle, structure, depth, proof, and call to action for a blog post, email, social post, landing page, or another format."
-        }
-      ]
-    },
-    {
-      "id": "learn-from-performance",
-      "title": "Learn from performance",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "Marketing performance is easier to act on when the definitions come before the conclusions. Strawberry can compare periods, audiences, funnel stages, attribution windows, spend, creative, and channel results across the tools that hold them. It keeps observed change separate from a plausible explanation, so a useful review can end with a better decision or test instead of a confident story the data cannot support."
-        }
-      ]
-    },
-    {
-      "id": "reuse-the-judgment-that-works",
-      "title": "Reuse the judgment that works",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "As you correct real work, your companion can remember which sources you trust, how you define the funnel, what counts as sufficient proof, and how the brand should sound. The next brief or review can start from those accepted choices instead of a generic template."
-        },
-        {
-          "kind": "list",
-          "style": "unordered",
-          "items": [
-            "Share an approved result when someone only needs the artifact.",
-            "Set up a shared team workflow when people need the same sources, judgment, ownership, and review points.",
-            "Create a Routine after the trigger, destination, and expected review are clear."
-          ]
+          "text": "Your brand voice, your audience notes, and what worked last quarter shouldn't live in one person's head. Save them with the team and every companion writes and researches the same way."
         },
         {
           "kind": "paragraph",
-          "text": "Start with the marketing question that matters now. The system becomes valuable as audience evidence, campaign choices, content, and learning stop being rebuilt from scratch."
+          "text": "Put the weekly numbers and the competitor check on a Routine, and Monday starts with a short summary instead of four dashboards."
         }
       ]
     }
@@ -187,7 +168,7 @@
   ],
   "navigation": {
     "title": "Marketing",
-    "tagline": "Audience insights, campaigns, content, and learning",
+    "tagline": "What works, what people say, and content for every channel",
     "icons": [
       "reddit",
       "x",

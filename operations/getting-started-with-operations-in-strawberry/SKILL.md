@@ -7,7 +7,7 @@ description: Ideas for helping someone get started with operations work in Straw
 
 Operations work is spread across the inbox, calendar, meetings, project tools, and dozens of
 websites. Strawberry works across all of them in the browser, so you can gather, follow up, and get
-things done in one place. Start with whatever keeps slipping.
+things done in one place.
 
 ## Setup
 
@@ -23,8 +23,9 @@ Offer to learn this from their inbox, calendar, and docs, or let them describe i
   `strawberry/operations/triage-my-inbox`.
 - **A daily brief**, e.g. today's meetings with context, what's waiting on them, and what changed
   overnight.
-- **Prepare for meetings and follow up after them**, e.g. a short brief beforehand and the action
-  items sent afterwards.
+- **Prepare for meetings and follow up after them**, e.g. a short brief beforehand, the meeting
+  logged with Strawberry's transcription feature without a meeting bot, and the action items sent
+  afterwards.
 - **Close open loops**, e.g. promises made in meetings or email that nobody followed up on.
 - **Write the weekly status update** from project tools, meetings, and messages.
 - **Organize receipts for bookkeeping**. See `strawberry/operations/organize-receipts-bookkeeping`.

@@ -7,7 +7,7 @@ description: Ideas for helping a founder get started in Strawberry, from inbox t
 
 Founders do a bit of everything: selling, hiring, fundraising, writing, and reviewing. Strawberry
 can help across all of it, and every conversation and document can build up shared context about the
-company that the whole team can use. Start with whatever is most urgent this week.
+company that the whole team can use.
 
 ## Setup
 

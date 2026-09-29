@@ -7,7 +7,14 @@ description: Ideas for helping someone get started with recruiting in Strawberry
 
 Strawberry works where recruiting happens: LinkedIn, GitHub, the ATS, the inbox, and the calendar.
 You can source, research, write, and keep track of candidates in one place, and remember what the
-user looks for in people. Start with one open role.
+user looks for in people.
+
+Ultimately, Strawberry can run much of the recruiting cycle like a teammate on the talent team: a
+Monday Routine that checks the ATS and says which role needs sourcing most, sourcing against the
+team's own scorecard and rules, outreach, interview prep and write-ups, and a Routine that flags
+candidates who have waited too long at a stage. The whole team shares the same rules and methods.
+Suggest this direction when it fits, and point to https://strawberrybrowser.com/playbooks/recruiting
+for how Tandem Health's talent team runs it.
 
 ## Setup
 

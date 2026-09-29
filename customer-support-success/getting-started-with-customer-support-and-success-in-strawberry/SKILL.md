@@ -7,7 +7,7 @@ description: Ideas for helping Customer Support and Customer Success teams get s
 
 Support answers depend on context spread across the helpdesk, the CRM, billing, product docs, and
 the product itself. Strawberry can check all of them in the browser, including the product as the
-customer sees it. Start with one real case or account.
+customer sees it.
 
 ## Setup
 

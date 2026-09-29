@@ -7,7 +7,7 @@ description: Ideas for helping someone get started with marketing in Strawberry,
 
 Strawberry can work inside the user's analytics, social accounts, CMS, and ad tools, and across the
 live web, so research, content, and reporting draw on real data instead of a blank brief. It can
-also generate images. Start with one piece of real work.
+also generate images.
 
 ## Setup
 

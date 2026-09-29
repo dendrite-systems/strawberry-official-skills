@@ -6,8 +6,7 @@ description: Ideas for helping someone get started with research and analysis in
 # Getting Started with Research and Analysis in Strawberry
 
 Strawberry researches in a real browser, so it can read live pages, logged-in tools, and sites that
-search engines barely index, and keep a link to every source. Start with one question the user
-actually needs answered.
+search engines barely index, and keep a link to every source.
 
 ## Setup
 

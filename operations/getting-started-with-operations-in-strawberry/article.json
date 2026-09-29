@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "operations",
   "title": "Run an AI-native ops team",
-  "description": "Use AI across inboxes, meetings, projects, onboarding, travel, events, and team workflows without losing context or control.",
+  "description": "Wake up to a sorted inbox, a daily brief, and meetings that follow up on themselves. Strawberry handles the small things across every tab.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -15,195 +15,135 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Operations work starts with a simple question. What needs attention today? Answering it means checking the calendar, Slack, email, project tools, meeting notes, and a few tabs. Then the next step is an update, an introduction, or access for a new teammate.",
-    "Strawberry can do that checking in the same browser where the work continues, show where sources disagree, prepare the next action, and remember the definitions you accept. A brief or a meeting feeds the next task instead of becoming another isolated result."
+    "Ops work is a thousand small things across a hundred tabs: the inbox, the calendar, the project tool, and the vendor portal that logs you out every single week.",
+    "Strawberry works in all of them, right in the browser, and it remembers where things stand. The small things get done, and you get to work on the things only you can do."
   ],
   "sections": [
     {
-      "id": "what-strawberry-can-help-you-do",
-      "title": "What Strawberry can help you do",
+      "id": "what-to-try-first",
+      "title": "What to try first",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
-              "href": "#get-a-clearer-view-of-the-day",
-              "title": "Get a clearer view of the day",
-              "description": "Bring priorities, messages, decisions, risks, and open commitments into focus."
+              "href": "#wake-up-to-a-sorted-inbox",
+              "title": "Wake up to a sorted inbox"
             },
             {
-              "href": "#write-updates-people-can-use",
-              "title": "Write updates people can use",
-              "description": "Compare the current sources and shape the result for the people who need it."
+              "href": "#a-daily-brief",
+              "title": "Get a daily brief"
             },
             {
-              "href": "#prepare-for-meetings-and-finish-the-follow-up",
-              "title": "Prepare for meetings and follow through",
-              "description": "Carry useful context into the conversation, then preserve decisions and commitments."
+              "href": "#meetings-that-follow-up",
+              "title": "Meetings that follow up"
             },
             {
-              "href": "#plan-trips-and-events",
-              "title": "Plan trips and events",
-              "description": "Research travel or events, inspect live options, and continue into the approved next step."
+              "href": "#close-open-loops",
+              "title": "Close open loops"
             },
             {
-              "href": "#help-a-new-teammate-find-their-feet",
-              "title": "Help a new teammate get started",
-              "description": "Build a role-aware path through people, projects, knowledge, access, and the first week."
+              "href": "#receipts-without-the-hunt",
+              "title": "Receipts without the hunt"
             },
             {
-              "href": "#keep-the-methods-that-work",
-              "title": "Keep the methods that work",
-              "description": "Turn accepted sources, definitions, ownership, and review points into shared workflows."
+              "href": "#more-to-try",
+              "title": "More to try"
+            },
+            {
+              "href": "#bring-in-your-team",
+              "title": "Bring in your team"
             }
           ]
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to begin? Your companion can look at the Operations work you have open and suggest a useful skill to try first.",
+          "text": "Not sure where to start? Your companion can look at the work you have open and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/operations/getting-started-with-operations-in-strawberry",
             "roleId": "operations-chief-of-staff",
-            "context": "Use the work and context already in front of you to choose and complete the most useful first Operations workflow."
+            "context": "Ask your companion to look at your work and suggest the first thing to hand over."
           }
         }
       ]
     },
     {
-      "id": "get-a-clearer-view-of-the-day",
-      "title": "Get a clearer view of the day",
+      "id": "wake-up-to-a-sorted-inbox",
+      "title": "Wake up to a sorted inbox",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A useful daily brief saves you from doing the same round of checking every morning. Strawberry can review the calendar, messages, tasks, meeting notes, and current project context, then pull out the few priorities, conflicts, decisions, and risks that may change your plan. The supporting links stay close by when you want to check the detail."
-        },
+          "text": "A morning Routine labels everything the way you like it, archives the obvious junk, and tells you the three messages that actually matter today. If the inbox is thousands deep, it helps you clear the bulk first and then works through the rest with you."
+        }
+      ]
+    },
+    {
+      "id": "a-daily-brief",
+      "title": "Start the day with a brief",
+      "blocks": [
         {
           "kind": "paragraph",
-          "text": "Inbox triage can work in a similar way. Your inbox might be email, LinkedIn, or another messaging service. Strawberry reads the relevant thread and any useful surrounding context, then brings forward the messages that need a decision or reply. It can draft responses in the same channel and prepare a group of cleanup actions for you to review."
-        },
+          "text": "Today's meetings with the context you need, what's waiting on you, and what changed overnight, in one short note before your first coffee."
+        }
+      ]
+    },
+    {
+      "id": "meetings-that-follow-up",
+      "title": "Meetings that follow up on themselves",
+      "blocks": [
         {
           "kind": "paragraph",
-          "text": "Some follow-ups are harder to spot because the evidence is spread around. A meeting note may name an owner, while the project tracker has no assignment and a later Slack message suggests the work is already finished. Close Open Loops checks those sources together and shows you the mismatch, the evidence behind it, and the smallest useful next step."
-        },
+          "text": "Strawberry's transcription logs the meeting without a bot joining the call. Afterwards, the action items go to the right people and the notes land where the team will find them."
+        }
+      ]
+    },
+    {
+      "id": "close-open-loops",
+      "title": "Close the loops everyone forgot",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Promises made in meetings and threads have a way of disappearing. Strawberry finds the ones nobody followed up on and drafts the nudge."
+        }
+      ]
+    },
+    {
+      "id": "receipts-without-the-hunt",
+      "title": "Receipts without the hunt",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Strawberry logs in to vendor portals and billing pages to fetch the invoices that never arrive by email, then puts them in a register with a link to every original, ready for your bookkeeper."
+        }
+      ]
+    },
+    {
+      "id": "more-to-try",
+      "title": "More to try",
+      "blocks": [
         {
           "kind": "list",
           "style": "unordered",
           "items": [
-            "See what needs attention today: Review the calendar, messages, tasks, meeting notes, and current work, then bring forward what could change the day.",
-            "Bring an inbox under control: Read the useful surrounding context across email, LinkedIn, or another queue, find what needs a decision, and prepare replies or cleanup for review.",
-            "Find the open loops: Reconcile commitments, follow-ups, ownership gaps, and conflicting status across the systems where work happened."
-          ]
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/triage-my-inbox",
-              "roleId": "operations-chief-of-staff",
-              "context": "Bring an email, LinkedIn, or other communication queue under control with reviewable replies and cleanup."
-            }
+            "Write the weekly status update from project tools, meetings, and messages.",
+            "Plan and book a trip or an event, comparing real options in the browser and booking only what you approve.",
+            "Onboard a new teammate: accounts, docs to read, and people to meet.",
+            "Create Slack channels and invite the right people, instead of doing it by hand every time."
           ]
         }
       ]
     },
     {
-      "id": "write-updates-people-can-use",
-      "title": "Write updates people can use",
+      "id": "bring-in-your-team",
+      "title": "Bring in your team",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Status updates take time because the latest picture is rarely sitting in one tidy document. Your companion can bring together the project record, recent decisions, dashboards, meeting notes, and team messages, then compare them with the last update before drafting the new one."
+          "text": "The team workspace gives everyone, people and companions, one shared place for notes, docs, and handoffs. What one companion learns about how the company runs, the others can use."
         },
         {
           "kind": "paragraph",
-          "text": "The draft is shaped for the people reading it. A leadership update may need the consequence of a delay and a clear decision. A delivery team may need the changed priority, owner, and dependency. When two sources disagree, Strawberry keeps that visible instead of quietly choosing the version that makes the update look complete."
-        }
-      ]
-    },
-    {
-      "id": "prepare-for-meetings-and-finish-the-follow-up",
-      "title": "Prepare for meetings and finish the follow-up",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "For an upcoming meeting, Strawberry can start with the calendar event, match the right attendees, and follow the useful links into earlier messages, project records, documents, and relevant web pages. The brief stays focused on the outcome you need, what has changed, and the questions worth asking."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Once the meeting is over, your companion can work from a transcript captured without a visible meeting bot, your notes, or another reliable record. It separates accepted decisions and commitments from ideas that were only discussed, prepares the follow-up, and proposes updates to the appropriate tools. You still review a message or record change before it is applied."
-        },
-        {
-          "kind": "paragraph",
-          "text": "When the next step is an introduction, Strawberry can inspect approved relationship context, verify whether a warm path is credible, and prepare an intermediary ask or double opt-in without exposing private context."
-        },
-        {
-          "kind": "list",
-          "style": "unordered",
-          "items": [
-            "Walk into the meeting prepared: Bring together the people, history, changed context, desired outcome, and questions worth asking.",
-            "Turn the conversation into follow-through: Separate discussion from decisions and prepare the actions, messages, and record updates that follow.",
-            "Make a considerate introduction: Check whether the relationship path is credible and prepare the right intermediary ask or double opt-in."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "plan-trips-and-events",
-      "title": "Plan trips and events",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "Once you find a promising travel or event option, you still need to check current availability, compare the full cost and terms, sign in to the right account, fill in a form, and make sure the choice works with the calendar and the people involved."
-        },
-        {
-          "kind": "paragraph",
-          "text": "When research arrives as a separate list of links, you usually have to reopen the pages, recover the current price or availability, and repeat the context before you can act. That handoff is especially awkward when the useful information sits behind a login or the choice changes while you are making it."
-        },
-        {
-          "kind": "paragraph",
-          "text": "In Strawberry, that work happens in the same browser you can see. Your companion can start from the dates, policy, budget, and preferences already available, open the relevant flight, rail, accommodation, venue, catering, and vendor sites, and keep the useful options ready for you to inspect. After you choose, it can continue through an inquiry or booking flow. Contacting a provider, accepting terms, and spending money remain separate approvals."
-        },
-        {
-          "kind": "list",
-          "style": "unordered",
-          "items": [
-            "Plan a business trip: Use the dates, policy, budget, calendar, and preferences to compare a coherent itinerary, continue into approved bookings, and organize the confirmations.",
-            "Plan a work event: Connect the concept, attendees, venues, vendors, budget, invitations, logistics, and run-of-show."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "help-a-new-teammate-find-their-feet",
-      "title": "Help a new teammate find their feet",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "New teammates usually receive plenty of information. The harder part is working out what to read first, who to meet, which projects matter to their role, and whether they have the access needed to contribute."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Strawberry can assemble a role-aware path from Notion, Slack, Drive, calendars, project tools, files, and the relevant admin pages. It flags stale or conflicting material, prepares introductions and access requests, and can complete approved setup when the onboarding owner has authority. The internal coordination view stays separate from what the new teammate should see."
-        }
-      ]
-    },
-    {
-      "id": "keep-the-methods-that-work",
-      "title": "Keep the methods that work",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "After you have corrected a few real results, you will start to see which parts should stay consistent: the sources to check, the order of work, the team's definitions, the format, and the points that need a person to review them. Those details can become a custom skill so the next run begins with the method you have already worked out."
-        },
-        {
-          "kind": "list",
-          "style": "unordered",
-          "items": [
-            "Share an approved artifact when someone only needs the result.",
-            "Share a team skill when colleagues need the same sources, definitions, method, and review points.",
-            "Use a shared companion when several workflows need the same ongoing context.",
-            "Create a Routine when the trigger, systems, destination, ownership, and stop conditions are clear."
-          ]
+          "text": "Put the recurring parts on Routines and they keep happening when someone is on holiday. Ops stops depending on who remembered."
         }
       ]
     }
@@ -228,7 +168,7 @@
   ],
   "navigation": {
     "title": "Operations",
-    "tagline": "Priorities, coordination, meetings, and follow-through",
+    "tagline": "Inbox, meetings, follow-ups, and admin",
     "icons": [
       "slack",
       "gmail",

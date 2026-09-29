@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "automate-sales-pipeline",
   "title": "Automate your sales pipeline",
-  "description": "Learn how Strawberry's Sales skills can help with prospecting, research, customer conversations, CRM updates, and pipeline review.",
+  "description": "Let Strawberry find customers, prep your calls, log them without a bot, and follow up, so the pipeline keeps moving while you sell.",
   "author": {
     "id": "e54483aa-60f8-4069-853f-e0237368e856",
     "slug": "oliver-jones",
@@ -15,67 +15,65 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Sales teams rarely have the full picture in one place. The CRM shows part of it; the rest is spread across emails, meeting notes, LinkedIn, company websites, and the other tabs your team uses. Pulling that picture together again for every prospect, meeting, and follow-up takes time.",
-    "Most sales AI sees one slice of that picture: a CRM record, a call, or whatever you pasted into a chat. Strawberry works across the browser and apps your team already uses. It can open the current sources, use your logged-in tools, bring the account history together, and keep it available for the next task."
+    "Most of sales isn't selling. It's everything around it: digging through LinkedIn, copying notes into the CRM, and writing the same follow-up for the fortieth time.",
+    "Strawberry is a browser with an AI teammate built in. It works in LinkedIn, your inbox, your CRM, and the open web the same way you do, and it remembers your customers between tasks. Start with one job. Over time it can run most of the cycle: finding leads, booking meetings, logging calls, following up, and even answering customers once they've signed."
   ],
   "sections": [
     {
-      "id": "what-strawberry-can-help-you-do",
-      "title": "What Strawberry can help you do",
+      "id": "what-to-try-first",
+      "title": "What to try first",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
-              "href": "#find-and-reach-the-right-customers",
-              "title": "Find and reach the right customers",
-              "description": "Research a market, build and enrich a prospect list, then turn the evidence into outreach."
+              "href": "#find-customers-who-fit",
+              "title": "Find customers who fit"
             },
             {
-              "href": "#prepare-for-and-follow-up-on-customer-conversations",
-              "title": "Prepare for and follow up on customer conversations",
-              "description": "Research the account, get ready for the meeting, follow up, and create what the deal needs next."
+              "href": "#walk-in-prepared",
+              "title": "Walk into calls prepared"
             },
             {
-              "href": "#review-pipeline-and-keep-the-crm-current",
-              "title": "Review pipeline and keep the CRM current",
-              "description": "Spot stalled deals, focus the team, and keep the CRM worth trusting."
+              "href": "#log-calls-without-a-bot",
+              "title": "Log calls without a bot"
             },
             {
-              "href": "#reuse-what-works",
-              "title": "Reuse what works",
-              "description": "Teach your companion what good looks like, then share or schedule workflows that hold up."
+              "href": "#follow-up-on-autopilot",
+              "title": "Follow up on autopilot"
+            },
+            {
+              "href": "#find-buyers-in-your-product",
+              "title": "Find buyers in your product"
+            },
+            {
+              "href": "#more-to-try",
+              "title": "More to try"
+            },
+            {
+              "href": "#bring-in-your-team",
+              "title": "Bring in your team"
             }
           ]
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to start? Your companion can look at the sales work you have open and suggest a useful skill to try first.",
+          "text": "Not sure where to start? Your companion can look at the work you have open and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/sales/getting-started-with-sales-in-strawberry",
             "roleId": "sales-business-development",
-            "context": "Use the work and context already in front of you to choose a useful first Sales skill."
+            "context": "Ask your companion to look at your work and suggest the first thing to hand over."
           }
         }
       ]
     },
     {
-      "id": "find-and-reach-the-right-customers",
-      "title": "Find and reach the right customers",
+      "id": "find-customers-who-fit",
+      "title": "Find customers who actually fit",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Prospecting can start with a new market or a list already sitting in your CRM. Strawberry can research across company sites, LinkedIn, directories, and logged-in tools, show why each prospect fits, and move from a checked sample to the full list you asked for. The same research can then feed contact enrichment and outreach without another round of copy-and-paste."
-        },
-        {
-          "kind": "list",
-          "style": "ordered",
-          "items": [
-            "Find the part of the market worth pursuing: Compare segments, companies, and current signals before you spend time building the list.",
-            "Build the prospect list: Strawberry checks a varied sample with you, then completes the list at the scale you asked for.",
-            "Find the right people: Add the contacts and details needed for outreach or qualification without padding the file with fields you will not use.",
-            "Turn the research into outreach: Draft a single message, a batch, or a coordinated sequence in your voice. You review sending and enrollment separately."
-          ]
+          "text": "Tell Strawberry who your best customers are, or let it learn that from your website and CRM. It searches the places lead databases miss, like niche directories, job posts, and funding news, and brings back a short list with a reason and a source for every company. You correct a small sample first, so the big run goes to the right companies."
         },
         {
           "kind": "skills",
@@ -83,72 +81,81 @@
             {
               "id": "strawberry/sales/find-new-customers",
               "roleId": "sales-business-development",
-              "context": "Find and qualify companies, with the evidence for why each one belongs."
+              "context": "Get a first sample of prospects, each with a reason it fits and the source behind it."
             }
           ]
         }
       ]
     },
     {
-      "id": "prepare-for-and-follow-up-on-customer-conversations",
-      "title": "Prepare for and follow up on customer conversations",
+      "id": "walk-in-prepared",
+      "title": "Walk into every call prepared",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Good meeting prep and follow-up depend on the same account story. Strawberry can pull together the calendar invite, CRM, email thread, call history, LinkedIn, and current company news before the meeting. Afterward, it can use the transcript or notes to draft the follow-up and update the next steps. You do not have to brief a different tool at every stage."
-        },
+          "text": "Before a call, Strawberry pulls together who's in the room, what changed at their company, and what you talked about last time. Then it works out with you what your strongest ammunition is, so your notes are ready before you join."
+        }
+      ]
+    },
+    {
+      "id": "log-calls-without-a-bot",
+      "title": "Log calls without a bot in the room",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Strawberry's transcription records the call on your own computer, so nobody has to admit a note-taker. When you hang up, the follow-up email, the CRM notes, and the next steps are already drafted for you to check."
+        }
+      ]
+    },
+    {
+      "id": "follow-up-on-autopilot",
+      "title": "Follow up without the spreadsheet gymnastics",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Strawberry writes outreach from your own sent emails, so it sounds like you and not like a sequence tool. It can run a drip of follow-ups, track them in a sheet, and stop the moment someone replies. Nothing sends without your say-so."
+        }
+      ]
+    },
+    {
+      "id": "find-buyers-in-your-product",
+      "title": "Find the buyers already using your product",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Some of your best leads already have an account. A weekly Routine can look through your user database or product analytics for accounts behaving like buyers, and hand you each one with the reason it stood out."
+        }
+      ]
+    },
+    {
+      "id": "more-to-try",
+      "title": "More to try",
+      "blocks": [
         {
           "kind": "list",
-          "style": "ordered",
+          "style": "unordered",
           "items": [
-            "Learn what matters before the call: Go deeper on the company, people, relationship, or recent changes when they could affect the conversation.",
-            "Walk in prepared: Bring the account history, meeting goal, open questions, and useful evidence into one short brief.",
-            "Follow through while the details are fresh: Turn the transcript or notes into the follow-up, next actions, and CRM changes that need review.",
-            "Build what the buyer needs next: When an email is not enough, create a one-pager, deck, or tailored page from the same account context."
+            "Find companies from signals: a new funding round, a relevant job post, a new office, a switch away from a competitor.",
+            "Enrich a list you already have with decision-makers, emails, and company size.",
+            "Keep the pipeline healthy: stale leads, duplicates, and contacts who changed jobs.",
+            "Create a Slack channel for every new deal, with the right people already in it.",
+            "Pin a live pipeline dashboard as a tab.",
+            "Make a one-pager or a short deck for a specific account, in your brand."
           ]
         }
       ]
     },
     {
-      "id": "review-pipeline-and-keep-the-crm-current",
-      "title": "Review pipeline and keep the CRM current",
+      "id": "bring-in-your-team",
+      "title": "Bring in your team",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "The CRM is useful only when it reflects what is actually happening. Strawberry can compare the record with recent meetings, email, commitments, and account signals, then show where deals are stuck and prepare the updates that would make the pipeline trustworthy again."
-        },
-        {
-          "kind": "list",
-          "style": "unordered",
-          "items": [
-            "See where deals need attention: Review the activity and commitments behind each stage to find stalled deals, missing next steps, and the actions most likely to move them forward.",
-            "Keep the record current: After a meeting or follow-up, prepare the exact field changes and show the source before applying them.",
-            "Know what matters today: Bring today's meetings, messages, risks, and commitments into one short sales brief.",
-            "Share a clear sales picture: Turn the reviewed pipeline into a concise update for leadership or the team."
-          ]
-        }
-      ]
-    },
-    {
-      "id": "reuse-what-works",
-      "title": "Reuse what works",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "As you correct real work, your companion can remember the sources you trust, how you qualify accounts, your writing style, the CRM fields that matter, and where you want to review changes. The next prospect list, brief, or follow-up can start closer to the way your team actually works."
-        },
-        {
-          "kind": "list",
-          "style": "unordered",
-          "items": [
-            "Share an approved result when a teammate only needs the output.",
-            "Turn a workflow into a team skill when everyone should use the same sources, judgment, and review points.",
-            "Create a Routine after the trigger, destination, permissions, and stop conditions are clear."
-          ]
+          "text": "Once something works for you, it can work for the whole team. Save the method as a team skill and every rep's companion sources, preps, and follows up the same way. Share the companion itself and it brings everything it has learned about your customers along."
         },
         {
           "kind": "paragraph",
-          "text": "You do not need to automate the whole sales process at once. Pick one job that repeats this week, make the result genuinely useful, and build from there. Strawberry becomes more valuable as the research, conversations, and records stop resetting between steps."
+          "text": "Put the steady parts on a Routine and the pipeline gets worked every morning, whether or not anyone remembered to. At that point it stops feeling like a tool and starts feeling like a colleague who joined the sales team and never drops a thread."
         }
       ]
     }
@@ -173,7 +180,7 @@
   ],
   "navigation": {
     "title": "Sales",
-    "tagline": "Research, conversations, follow-through, and pipeline",
+    "tagline": "Sourcing, calls, follow-up, and pipeline",
     "icons": [
       "linkedin",
       "salesforce",
