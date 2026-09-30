@@ -3,9 +3,7 @@
   "displayName": "Report a Bug",
   "summary": "Reproduce unexpected behavior, find duplicates, and prepare or file a privacy-safe issue at a calibrated priority.",
   "icon": "code",
-  "tags": [
-    "good-first-skill"
-  ],
+  "tags": [],
   "examplePrompt": "Report this bug.",
   "useCases": [
     {

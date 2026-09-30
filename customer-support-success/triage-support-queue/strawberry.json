@@ -3,9 +3,7 @@
   "displayName": "Triage a Support Queue",
   "summary": "Triage one support case or a queue, apply the team's rules, and route each case to a clear next action.",
   "icon": "inbox",
-  "tags": [
-    "good-first-skill"
-  ],
+  "tags": [],
   "examplePrompt": "Triage this support queue.",
   "useCases": [
     {

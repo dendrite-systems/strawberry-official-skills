@@ -39,11 +39,6 @@
               "id": "strawberry/recruiting/source-candidates",
               "roleId": "recruiting-people",
               "context": "Start with one role and a small candidate set you can review together."
-            },
-            {
-              "id": "strawberry/recruiting/map-a-talent-market",
-              "roleId": "recruiting-people",
-              "context": "Clarify the talent market when the search itself is still uncertain."
             }
           ]
         }
@@ -98,16 +93,6 @@
         {
           "kind": "paragraph",
           "text": "Agree on the viewers, fields, triage labels, destination, access, and retention before sharing candidate information. Strawberry-published artifacts are publicly viewable, so candidate profiles, contact details, fit assessments, and hiring notes should not be published through that surface."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/set-up-shared-team-workflow",
-              "roleId": "recruiting-people",
-              "context": "Turn the accepted review method into a clear internal workflow for the hiring team."
-            }
-          ]
         }
       ]
     },
@@ -132,16 +117,6 @@
         {
           "kind": "paragraph",
           "text": "Once the team approves who to contact, your companion can prepare candidate outreach grounded in verified professional context. Reviewing the shortlist does not authorize a message, follow-up, or ATS change."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/recruiting/send-candidate-outreach",
-              "roleId": "recruiting-people",
-              "context": "Draft candidate outreach after the shortlist or candidate segment is approved."
-            }
-          ]
         },
         {
           "kind": "paragraph",

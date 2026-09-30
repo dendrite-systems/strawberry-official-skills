@@ -2,28 +2,25 @@
 
 Practical, result-oriented workflows for AI agents.
 
-Official Skills describe how to complete useful work—not merely how to use a feature. Each skill
-explains what information to gather, how to approach the work, where human judgment matters, and
-what a useful result should look like.
+Official Skills are short, practical tips for AI companions: what Strawberry makes possible for a
+role, which questions are worth asking before starting, and the few mistakes that are easy to make.
+They leave the rest to the companion's judgment.
 
-Getting Started skills connect several focused skills into a readable way to begin and grow a
-workflow. For example, Getting Started with Sales brings together prospecting, research,
-preparation, and follow-up without duplicating the focused instructions.
+Getting Started guides give each role a set of ideas to try. Focused skills cover workflows where a
+specific method makes a real difference. Playbooks show exactly how someone does something, for
+teams that want to copy it.
 
 ## Browse the collections
 
-- **Founder & Executive** — customers, fundraising, hiring, and company operations
-- **Sales** — prospecting, account research, outreach, and pipeline work
-- **Customer Support & Success** — customer requests, answers, escalation, onboarding, and health
-- **Agency** — winning clients, turning context into strong work, and repeatable delivery
-- **Consulting** — proposals, engagement setup, research, recommendations, and client follow-through
-- **Recruiting** — sourcing, screening, interviews, and hiring operations
-- **Operations** — coordination, support, administration, and recurring work
-- **Finance** — bookkeeping preparation, performance analysis, forecasting, and follow-through
-- **Marketing** — research, campaigns, content, SEO, and distribution
-- **Product & Engineering** — product insight, issue investigation, and delivery
-- **Research & Analysis** — evidence gathering, structured data, and clear outputs
-- **Venture Capital** — company research, diligence, market maps, and investment memos
+- **Founder & Executive** — inbox, meetings, selling, hiring, and fundraising
+- **Sales** — finding customers, research, outreach, and pipeline
+- **Customer Support & Success** — triage, investigation, resolution, and how Strawberry runs Support
+- **Consulting & Agency** — winning clients, proposals, delivery, and reporting
+- **Recruiting** — sourcing, interviews, and keeping the pipeline moving
+- **Operations** — inbox, meetings, follow-ups, bookkeeping, and travel
+- **Marketing** — what performs, competitors, SEO, and content
+- **Product & Engineering** — QA, debugging, websites, and web data
+- **Research & Analysis** — deep research, market maps, web data, and decks
 
 ## Repository structure
 
@@ -45,6 +42,7 @@ sales/
 - The folder path is the skill's identity. For example, `sales/find-new-customers` becomes
   `strawberry/sales/find-new-customers` inside Strawberry.
 - A Getting Started guide references focused Official Skills directly from its `SKILL.md`.
+- [Official Skill standards](skill-standards.md) describes how to write each kind.
 
 Focused skills belong to the collection that most clearly owns the result. A Getting Started skill
 can reference skills from other collections. A workflow is duplicated only when its steps, inputs,

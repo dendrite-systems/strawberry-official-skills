@@ -19,6 +19,4 @@ skill from `SKILL.md` when a Getting Started guide needs the same workflow. Dupl
 the actual process, inputs, review points, or output meaningfully differ. The collection and folder
 name become the canonical Strawberry id, such as `strawberry/sales/find-new-customers`.
 
-For a role-based entry point or routed bundle, also follow
-[the role bundle standards](role-bundle-standards.md). The canonical Official Skill Package Builder
-contains the detailed research, editorial, review, migration, and release gates.
+Before writing or changing a skill, read [the Official Skill standards](skill-standards.md).

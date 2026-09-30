@@ -101,16 +101,6 @@
         {
           "kind": "paragraph",
           "text": "After the team confirms the answer, Strawberry can remember trusted sources, product terminology, tone, and review rules. Save that method as a team skill when colleagues should research and answer similar questions the same way. A recurring question may deserve a help-center update, but private account history should not become reusable customer guidance."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/customer-support-success/create-or-update-a-help-center-article",
-              "roleId": "customer-support-success",
-              "context": "Turn a verified recurring answer into current, findable customer documentation."
-            }
-          ]
         }
       ]
     }
@@ -121,11 +111,6 @@
       "title": "How to triage customer requests with AI",
       "description": "Assess the request and decide whether it needs an answer, escalation, or another route.",
       "href": "/playbooks/ai-customer-request-triage"
-    },
-    {
-      "title": "How to create better help-center articles with AI",
-      "description": "Turn a verified recurring answer into clear, findable customer documentation.",
-      "href": "/playbooks/ai-help-center-articles"
     },
     {
       "title": "How to escalate customer issues with AI",

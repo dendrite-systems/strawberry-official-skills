@@ -3,9 +3,7 @@
   "displayName": "Organize Receipts and Bookkeeping",
   "summary": "Gather invoices, receipts, and payment evidence, build a traceable register, and prepare a clean finance review handoff.",
   "icon": "receipt",
-  "tags": [
-    "good-first-skill"
-  ],
+  "tags": [],
   "examplePrompt": "Organize my receipts and invoices for bookkeeping.",
   "useCases": [
     {
@@ -31,12 +29,6 @@
       "weight": 82,
       "title": "Find my receipts and organize my bookkeeping",
       "message": "I want to find my receipts and organize my bookkeeping."
-    },
-    {
-      "roleId": "healthcare",
-      "weight": 80,
-      "title": "Organize practice admin and receipts",
-      "message": "Gather my invoices and receipts, build a traceable register, and show me what is missing."
     }
   ]
 }

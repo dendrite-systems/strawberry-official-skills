@@ -3,7 +3,7 @@
   "status": "published",
   "publicSlug": "research-analysis",
   "title": "Research deep enough to bet on",
-  "description": "Use Strawberry to investigate questions, map markets, build structured evidence, and turn current sources into useful research.",
+  "description": "Deep research with sources, market maps, and any website turned into a spreadsheet.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -15,205 +15,223 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Research rarely stays in one place. The useful source might be a company site, a report, a database, or an internal doc from three years ago. The hard part is keeping the question, the sources, and the argument connected as it grows.",
-    "Strawberry can search the web, work through sites you already have access to, and compare what it finds against your own files. Instead of a pile of links, you get a sourced shortlist, a market map, a briefing, or an updated spreadsheet."
+    "A search engine gives you ten links. Strawberry opens them, follows the ones behind them, reads the pages that need a login, and keeps a link to every source it used.",
+    "That's the difference between a summary you'd forward and research you'd make a decision on."
   ],
   "sections": [
     {
-      "id": "what-strawberry-can-help-you-do",
-      "title": "What Strawberry can help you do",
+      "id": "what-you-can-hand-over",
+      "title": "What you can hand over",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
-              "href": "#investigate-a-question",
-              "title": "Investigate a question",
-              "description": "Turn an open question into current, source-linked findings for a real decision."
+              "href": "#deep-research",
+              "title": "Research anything"
             },
             {
-              "href": "#map-a-market-or-ecosystem",
-              "title": "Map a market or ecosystem",
-              "description": "See the categories, entities, relationships, coverage, and patterns shaping a landscape."
+              "href": "#map-a-market",
+              "title": "Map a market"
             },
             {
-              "href": "#build-structured-evidence",
-              "title": "Build structured evidence",
-              "description": "Collect repeated fields from approved websites into a clean, validated dataset."
+              "href": "#websites-to-spreadsheets",
+              "title": "Scrape any website"
             },
             {
-              "href": "#explain-the-findings",
-              "title": "Explain the findings",
-              "description": "Shape reviewed evidence into a brief, comparison, spreadsheet, or deck people can use."
+              "href": "#keep-watch",
+              "title": "Monitor changes"
             },
             {
-              "href": "#keep-important-research-current",
-              "title": "Keep important research current",
-              "description": "Reuse a trusted method and monitor the changes that are actually worth seeing."
+              "href": "#decks-people-read",
+              "title": "Make slide decks"
+            },
+            {
+              "href": "#why-a-browser",
+              "title": "Why a browser, not a chatbot"
+            },
+            {
+              "href": "#bring-in-your-team",
+              "title": "Bring in your team"
             }
           ]
         },
         {
           "kind": "guided-entry",
-          "text": "Not sure where to begin? Your companion can look at the question, sources, or unfinished research in front of you and suggest a useful skill to try first.",
+          "text": "Not sure where to start? Strawberry is free to download. Ask your companion to look at your work and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/research-analysis/getting-started-with-research-analysis-in-strawberry",
             "roleId": "research-analysis",
-            "context": "Use the research and sources already in front of me to choose a useful first workflow."
+            "context": "Ask your companion to look at your work and suggest the first thing to hand over."
           }
         }
       ]
     },
     {
-      "id": "investigate-a-question",
-      "title": "Investigate a question",
+      "id": "deep-research",
+      "title": "Research anything",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Start with something you genuinely need to know: why a category is changing, whether a competitor's claim holds up, which companies fit a thesis, or what an unfamiliar topic means for a decision. Strawberry can do the investigation across current sources and return a concise view of what seems true, what is contested, why it matters, and what still needs evidence."
+          "text": "Answers from dozens of sources, with a link behind every claim."
         },
         {
-          "kind": "table",
-          "columns": [
-            "Start with",
-            "Get back"
-          ],
-          "rows": [
-            [
-              "A broad or unfamiliar question",
-              "A concise cited brief with the strongest answer, implications, and open questions"
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Should we expand to Germany or France first?",
+            "apps": [
+              "google",
+              "linkedin",
+              "crunchbase"
             ],
-            [
-              "Several sources that disagree",
-              "A clear comparison of what is supported, disputed, stale, or still missing"
-            ],
-            [
-              "A decision with too much material around it",
-              "The few findings that should change the decision, with links back to the evidence"
+            "steps": [
+              "Read 58 sources",
+              "Compared market size, competitors, and hiring",
+              "Recommendation with sources ready"
             ]
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "When the question centers on one company, Strawberry can build a current, source-linked brief around what you actually need to understand rather than filling a generic profile."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/research-analysis/research-a-company",
-              "roleId": "research-analysis",
-              "context": "Research this company around the question or decision I need help with."
-            }
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "The useful result may be a brief, comparison, evidence-backed recommendation, or a clear conclusion that the available research does not support a confident answer. If a map or dataset would make the evidence easier to use, the same work can continue into those formats without beginning again."
+          }
         }
       ]
     },
     {
-      "id": "map-a-market-or-ecosystem",
-      "title": "Map a market or ecosystem",
+      "id": "map-a-market",
+      "title": "Map a market",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "A market map is more than a list of companies. It should explain which categories matter, how the important entities relate, what the current research covers, and what the landscape means for the decision in front of you. Strawberry can test a proposed taxonomy on a varied first set, then expand the accepted definition across current sources."
+          "text": "Every player in a niche, grouped and compared."
         },
         {
-          "kind": "skill-lanes",
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Map every European company building AI for dentists",
+            "apps": [
+              "crunchbase",
+              "linkedin",
+              "google"
+            ],
+            "steps": [
+              "Found 47 companies",
+              "Grouped into 5 categories",
+              "Market map ready"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "websites-to-spreadsheets",
+      "title": "Scrape any website",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Directories and listings into clean rows, with sources."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Put every clinic listed on this directory into a spreadsheet",
+            "apps": [
+              "google-sheets"
+            ],
+            "steps": [
+              "Read the directory's own data feed",
+              "1,382 rows collected",
+              "Sheet ready with sources"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "keep-watch",
+      "title": "Monitor changes",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A Routine that tells you only when something actually changed."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "Regulation watch",
+            "schedule": "Every Monday, 8:00",
+            "steps": [
+              "Checked 12 official sources",
+              "1 new guidance document published",
+              "Summary sent to you"
+            ],
+            "result": "1 change worth reading"
+          }
+        }
+      ]
+    },
+    {
+      "id": "decks-people-read",
+      "title": "Make slide decks",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Your findings as a deck in your brand."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "showcase",
+            "showcase": "slides"
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-a-browser",
+      "title": "Why a browser, not a chatbot",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Chatbots summarize search results. Strawberry reads the sources."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
           "items": [
-            {
-              "title": "Map the broader landscape",
-              "text": "Build a sourced view of the categories, entities, relationships, signals, coverage, uncertainty, and implications shaping a market.",
-              "skill": {
-                "id": "strawberry/research-analysis/map-a-market",
-                "roleId": "research-analysis",
-                "context": "Map this market as a sourced landscape built around the decision I need to make."
-              }
-            },
-            {
-              "title": "Map a startup ecosystem",
-              "text": "Focus the map on startups, investors, associations, experts, and the relationships around an investment question.",
-              "skill": {
-                "id": "strawberry/venture-capital/map-startup-ecosystem",
-                "roleId": "research-analysis",
-                "context": "Map the startups, investors, experts, and relationships shaping this ecosystem."
-              }
-            }
+            "Opens pages, follows links, and reads sites behind a login.",
+            "Reads many pages at once.",
+            "Keeps a source for every claim."
+          ]
+        },
+        {
+          "kind": "paragraph",
+          "text": "In our test of 12 real-world tasks, Strawberry scored 99.2 out of 100. Perplexity's Comet scored 90.8 and ChatGPT Atlas 73.3."
+        }
+      ]
+    },
+    {
+      "id": "more-to-try",
+      "title": "More to try",
+      "blocks": [
+        {
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Compare vendors or tools side by side with current pricing.",
+            "Research a person or company before a meeting.",
+            "Build a list of companies that match specific criteria."
           ]
         }
       ]
     },
     {
-      "id": "build-structured-evidence",
-      "title": "Build structured evidence",
+      "id": "bring-in-your-team",
+      "title": "Bring in your team",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "When the same fields appear across many pages, a dataset is more useful than another summary. Strawberry can move through directories, search results, product pages, public records, PDFs, and approved signed-in tools, validate a representative first set, and then complete the full scope without hiding missing values or failed matches."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/research-analysis/extract-web-data",
-              "roleId": "research-analysis",
-              "context": "Agree the schema, validate a varied first set, and turn the full web source into a clean dataset."
-            }
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "The result keeps source links beside the rows, makes coverage and gaps explicit, and can continue into a spreadsheet or approved connected destination after review."
-        }
-      ]
-    },
-    {
-      "id": "explain-the-findings",
-      "title": "Explain the findings",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "The final artifact should make the evidence easier to understand, not merely move it into a prettier file. Strawberry can turn the reviewed work into a cited brief, comparison, spreadsheet, or recommendation while keeping the sources and open questions close."
-        },
-        {
-          "kind": "paragraph",
-          "text": "When the audience needs a presentation, the research and deck remain separate jobs. First settle the evidence and argument; then turn them into a visual story without reopening the investigation or losing the source trail."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/research-analysis/create-beautiful-slide-deck",
-              "roleId": "research-analysis",
-              "context": "Turn these reviewed findings into a polished, evidence-grounded presentation."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "keep-important-research-current",
-      "title": "Keep important research current",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "Once the team trusts the source set, definitions, taxonomy, schema, and review points, save the method instead of rebuilding it from the final artifact. A Routine can check for meaningful changes on a useful cadence and stop when a source, scope, access condition, or definition no longer matches the accepted setup.",
-          "emphasis": [
-            "Routine"
-          ]
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/set-up-shared-team-workflow",
-              "roleId": "research-analysis",
-              "context": "Turn a trusted research method into a shared team workflow with clear sources, ownership, review points, and stop conditions."
-            }
-          ]
+          "text": "Keep research in the team workspace and nobody starts from zero. The next person picks up where the last one stopped, sources and all."
         }
       ]
     }
@@ -229,16 +247,11 @@
       "title": "Market like a team of ten",
       "description": "Use audience, competitor, campaign, content, and performance research inside the marketing system.",
       "href": "/playbooks/marketing"
-    },
-    {
-      "title": "Find the next unicorn first",
-      "description": "Apply market research across sourcing, diligence, investment decisions, and portfolio monitoring.",
-      "href": "/playbooks/venture-capital-investing"
     }
   ],
   "navigation": {
     "title": "Research & Analysis",
-    "tagline": "Sources, datasets, and clear answers",
+    "tagline": "Deep research, market maps, and web data",
     "icons": [
       "crunchbase",
       "statista",

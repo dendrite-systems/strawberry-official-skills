@@ -104,16 +104,6 @@
         {
           "kind": "paragraph",
           "text": "This is where the browser matters. The recommendation is made from the live recruiting context rather than a pipeline summary pasted into a separate chat. Ben can inspect what Strawberry found in Ashby, then continue into the LinkedIn work the recommendation calls for. Because it runs on Monday morning, he does not have to remember to rebuild the same review each week."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/recruiting/review-recruiting-pipeline",
-              "roleId": "recruiting-people",
-              "context": "Review this Ashby pipeline by role and stage, then show which hiring priority needs attention next and why."
-            }
-          ]
         }
       ]
     },
@@ -132,16 +122,6 @@
         {
           "kind": "paragraph",
           "text": "The same playbooks are shared across Tandem's talent team. Ben has also created an onboarding guide for new talent hires, covering how the team works and how they use Strawberry. A new joiner starts with the team's context and methods rather than Ben's private prompt history."
-        },
-        {
-          "kind": "skills",
-          "items": [
-            {
-              "id": "strawberry/operations/set-up-shared-team-workflow",
-              "roleId": "recruiting-people",
-              "context": "Turn our accepted sourcing rules and review points into a shared workflow the talent team can use and inspect."
-            }
-          ]
         }
       ]
     },

@@ -59,12 +59,27 @@
       "blocks": [
         {
           "kind": "table",
-          "columns": ["Evidence type", "How to treat it"],
+          "columns": [
+            "Evidence type",
+            "How to treat it"
+          ],
           "rows": [
-            ["Observed product, price, message, or action", "Record the scope, market, package, period, and direct source."],
-            ["Competitor claim", "Attribute it; do not turn positioning language into independently verified performance."],
-            ["Customer or community sentiment", "Show the population and examples without treating volume or visibility as representativeness."],
-            ["Inference", "Explain the observed signal and the reasoning, then keep uncertainty visible."]
+            [
+              "Observed product, price, message, or action",
+              "Record the scope, market, package, period, and direct source."
+            ],
+            [
+              "Competitor claim",
+              "Attribute it; do not turn positioning language into independently verified performance."
+            ],
+            [
+              "Customer or community sentiment",
+              "Show the population and examples without treating volume or visibility as representativeness."
+            ],
+            [
+              "Inference",
+              "Explain the observed signal and the reasoning, then keep uncertainty visible."
+            ]
           ]
         },
         {
@@ -102,11 +117,6 @@
               "id": "strawberry/marketing/audit-seo-create-report",
               "roleId": "marketing-content",
               "context": "Investigate competitor and query gaps when organic search is the primary decision."
-            },
-            {
-              "id": "strawberry/research-analysis/map-a-market",
-              "roleId": "marketing-content",
-              "context": "Map the broader market, entity universe, whitespace, and concentration when the comparison set is only one part of the question."
             }
           ]
         }

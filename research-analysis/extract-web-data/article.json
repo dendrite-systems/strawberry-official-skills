@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "ai-data-extraction",
-  "title": "Turn websites into a clean, reviewable dataset",
-  "description": "Choose the schema, validate a representative sample, and extract structured web data without hiding gaps or uncertainty.",
+  "title": "Turn any website into a spreadsheet",
+  "description": "Extract directories, listings, products, and profiles into clean rows and columns, with a sample first and a source link on every row.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -15,73 +15,104 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "Web extraction is valuable when repeated information needs to become a table you can inspect, filter, and use. The hard part is rarely copying text from one page. It is covering the full source, keeping a consistent schema, and knowing which values are missing, uncertain, or stale.",
-    "Strawberry can work through directories, search results, product pages, public records, PDFs, and signed-in tools in the browser. A small reviewed sample should establish the shape and quality of the data before the run scales."
+    "Copying a directory or a product catalog into a spreadsheet is the kind of job that eats an afternoon. Most AI tools don't help much, because they read pages the way a person does: one screen at a time.",
+    "Strawberry's agent is built for the web. Many sites load their data through their own requests in the background, and Strawberry can read those directly. A job that takes an hour in a tool that wasn't made for the web often takes a minute here, and thousands of rows stay cheap."
   ],
   "sections": [
     {
-      "id": "start-with-the-decision-and-schema",
-      "title": "Start with the decision and the schema",
+      "id": "what-its-good-at",
+      "title": "What it is good at",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Define the entities, exact fields, source boundaries, exclusions, freshness requirements, and the decision the dataset should support. Agree on the approximate row count and how much enrichment each row needs; collecting a base list is materially different from researching every entity deeply."
+          "text": "Anything that repeats on a website and belongs in rows:"
         },
         {
-          "kind": "paragraph",
-          "text": "Inspect an approved destination's existing columns when one exists. Otherwise, propose a concise schema with source URLs and explicit missing values rather than inventing fields to make the table look complete."
-        }
-      ]
-    },
-    {
-      "id": "validate-before-scaling",
-      "title": "Validate a representative sample",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "Extract roughly 10 to 20 representative rows first. Check field meanings, formats, missing-data behavior, duplicates, and whether the source actually supports the requested claims. At high volume, a small systematic error can create thousands of bad records."
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Get every exhibitor from this conference site into a sheet",
+            "apps": [
+              "google-sheets"
+            ],
+            "steps": [
+              "Found the site's exhibitor API",
+              "2,418 rows in 40 seconds",
+              "Sheet ready with a source on every row"
+            ]
+          }
         },
         {
-          "kind": "paragraph",
-          "text": "Prefer a clean page API or semantic extraction over brittle selectors when the approved source exposes one. Handle pagination, load-more controls, infinite scroll, and detail pages systematically so the run does not silently stop early."
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Every clinic, agency, or supplier listed in a directory for a city or region",
+            "A product catalog with prices, variants, and stock status",
+            "Speakers, exhibitors, or sponsors from a conference site",
+            "Job listings, property listings, or public records",
+            "Profiles on a marketplace or community site"
+          ]
         },
         {
           "kind": "skills",
           "items": [
             {
               "id": "strawberry/research-analysis/extract-web-data",
-              "roleId": "data-analytics",
-              "context": "Use this to agree the schema, validate a sample, and run the complete extraction."
+              "roleId": "research-analysis",
+              "context": "Point Strawberry at a site, say which fields you need, and get a checked sample before the full run."
             }
           ]
         }
       ]
     },
     {
-      "id": "separate-extraction-from-enrichment",
-      "title": "Separate extraction from enrichment",
+      "id": "how-a-run-goes",
+      "title": "How a run goes",
       "blocks": [
         {
-          "kind": "paragraph",
-          "text": "Collect the base data once, then enrich only the agreed fields or strongest rows. This keeps the run cheaper, easier to resume, and easier to audit than repeatedly researching every entity from scratch."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Normalize formats, deduplicate entities, preserve source links, and flag low-confidence or unusual values. Slow down when a source rate-limits or blocks access, and return CAPTCHA, authentication, or permission boundaries to the user."
+          "kind": "list",
+          "style": "ordered",
+          "items": [
+            "Say what each row is, which fields you need, and roughly how many rows.",
+            "If the data is going into an existing sheet, Strawberry reads its columns first so everything lines up.",
+            "You get 10 to 20 rows to check. At high volume, a small mistake repeats thousands of times, so this is where it gets caught.",
+            "The full run covers the whole site: every page, infinite scroll, load-more buttons, and detail pages.",
+            "The result lands in a spreadsheet, with a link to the source on every row."
+          ]
         }
       ]
     },
     {
-      "id": "deliver-a-dataset-people-can-trust",
-      "title": "Deliver a dataset people can trust",
+      "id": "data-you-can-trust",
+      "title": "Data you can trust",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Export the accepted schema to the requested spreadsheet, database, or connected tool with consistent columns, source links, explicit missing values, and a short validation summary. Spot-check a representative sample after the full run rather than assuming that a successful export proves correctness."
-        },
+          "text": "A value that wasn't found stays marked as not found. It never becomes a guess, and it never quietly turns into a \"no\". If a site blocks access or asks for a login, Strawberry stops and hands it back to you rather than working around it."
+        }
+      ]
+    },
+    {
+      "id": "keep-it-fresh",
+      "title": "Keep it fresh",
+      "blocks": [
         {
           "kind": "paragraph",
-          "text": "If the source, schema, validation rules, and destination will be reused, preserve the accepted process as a custom skill. Add a Routine only after the extraction has worked and the user has agreed on cadence, cost, and what counts as a meaningful change."
+          "text": "Once a run works, save it as a skill so the next extraction starts from the same fields and checks. If the data changes over time, like prices, listings, or openings, a Routine can rerun it on a schedule and tell you only what changed."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "Price tracker",
+            "schedule": "Every morning, 6:00",
+            "steps": [
+              "Re-read 1,140 product pages",
+              "14 prices changed",
+              "Updated the sheet"
+            ],
+            "result": "14 changes since yesterday"
+          }
         }
       ]
     }

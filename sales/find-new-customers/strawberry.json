@@ -3,9 +3,7 @@
   "displayName": "Find New Customers",
   "summary": "Find and qualify prospective customers, leads, or clients. Use when a user wants a targeted prospect list based on their product, ideal customer, existing good customers, geography, or other qualification criteria.",
   "icon": "people",
-  "tags": [
-    "good-first-skill"
-  ],
+  "tags": [],
   "examplePrompt": "Find me leads that match my ICP.",
   "useCases": [
     {
