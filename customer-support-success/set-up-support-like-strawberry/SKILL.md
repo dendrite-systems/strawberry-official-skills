@@ -1,9 +1,11 @@
 ---
 name: set-up-support-like-strawberry
-description: Set up a connected customer-support system based on how Strawberry runs Support. Audit the team's current tools, learn from resolved cases, prepare context, policy, and records, customize and test focused skills, and propose support Routines. Use when a team wants to establish, rebuild, or automate customer support in Strawberry.
+description: How the Strawberry team runs its own customer support, step by step, for a team that wants to set up theirs the same way. Use when a team wants to establish, rebuild, or automate their customer support in Strawberry.
 ---
 
 # Set Up Support Like Strawberry
+
+This is how the Strawberry team runs its own Support, written down for teams that want to copy it.
 
 Start every setup by showing this short roadmap in chat. Adapt the wording to the team, but keep the
 sequence and approval expectation:
@@ -136,18 +138,17 @@ cases as calibration examples, not as policy or a substitute for current facts.
 
 ## 6. Build and test focused skills
 
-Read the five official focused skills: `triage-support-queue`, `investigate-support-case`,
-`resolve-support-case`, `escalate-customer-issue`, and `strawberry/product-engineering/report-bug`.
-Prepare organization-specific copies in a non-discoverable staging folder or as complete chat diffs.
-Do not install them into Companion Skills before scoped approval.
+Create the organization's own focused skills for the recurring jobs: triaging the queue,
+investigating a case, carrying out an approved resolution, escalating to another team, and filing
+product bugs in the team's tracker. Draft them in a non-discoverable staging folder or as complete
+chat diffs. Do not install them into Companion Skills before scoped approval.
 
 Derive a stable organization prefix by lowercasing the accepted name, transliterating where
 practical, replacing non-alphanumeric runs with one hyphen, trimming hyphens, and shortening it so
 the complete ID remains below the platform limit. Ask for a disambiguator on collision. Do not
 silently rename installed skills when the organization later changes its display name.
 
-For each copy, preserve the baseline workflow and record its official ID plus immutable source
-version, commit SHA, or content hash. Add approved intake and evidence sources, case fields,
+For each skill, add the approved intake and evidence sources, case fields,
 categories, priorities, lanes, autonomy rules, sender and channel rules, tone, escalation routes,
 issue routing, billing rules, verification, logging, exclusions, and stop conditions. Refer to
 maintainable local policy files instead of embedding temporary facts. When a custom skill exists,

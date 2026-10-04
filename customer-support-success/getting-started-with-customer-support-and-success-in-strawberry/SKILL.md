@@ -21,15 +21,12 @@ Offer to learn this from their helpdesk and docs, or let them describe it.
 
 - **Set up support the way Strawberry runs it**, from connecting the tools to learning from resolved
   cases and turning on Routines. See `strawberry/customer-support-success/set-up-support-like-strawberry`.
-- **Triage the queue** and prepare the right next step for each case. See
-  `strawberry/customer-support-success/triage-support-queue`.
-- **Investigate a case the team can't answer confidently**. See
-  `strawberry/customer-support-success/investigate-support-case`.
+- **Triage the queue**, reading each case in full and drafting the right next step.
+- **Investigate a case the team can't answer confidently**, e.g. checking the account, billing,
+  and docs, and reproducing the problem in the product.
 - **Carry out an approved resolution**, e.g. a reply, refund, or access change, and check it worked.
-  See `strawberry/customer-support-success/resolve-support-case`.
-- **Escalate an issue** to the right owner with the evidence they need. See
-  `strawberry/customer-support-success/escalate-customer-issue`.
-- **File a bug with a reproduction**. See `strawberry/product-engineering/report-bug`.
+- **Escalate an issue** to the right owner with the customer impact and evidence they need.
+- **File a bug in the team's tracker** with steps to reproduce and screenshots.
 - **Update the help center** from cases that keep coming back.
 - **Review customer health**, e.g. usage, open issues, and renewal risk for one account.
 
