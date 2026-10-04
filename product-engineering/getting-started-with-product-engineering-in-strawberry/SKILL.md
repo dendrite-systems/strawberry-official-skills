@@ -29,8 +29,8 @@ technical, so it's fine to be concrete.
   like, with real or generated images.
 - **Extract data from the web**, e.g. thousands of rows from a directory or listing, often in
   minutes by reading the site's own network requests. See `strawberry/research-analysis/extract-web-data`.
-- **File a solid bug report** with evidence and reproduction steps. See
-  `strawberry/product-engineering/report-bug`.
+- **File a bug in the team's tracker** with steps to reproduce, screenshots, and a check for
+  duplicates.
 - **Turn customer feedback into product insight**, e.g. from support tickets, calls, and reviews.
 
 When something works and will come up again, it can become a custom skill, a Routine, or something
