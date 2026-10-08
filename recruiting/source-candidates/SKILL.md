@@ -5,31 +5,72 @@ description: Find and shortlist candidates for a role, for example by finding mo
 
 # Source Candidates
 
-A shortlist should make each person's fit easy to verify.
+Build a defensible shortlist, not a long list. Keep sourcing, team review, ATS changes, outreach, and hiring decisions as separate states.
 
-## Setup
+## 1. Confirm the search
 
-- Learn the role, hard requirements, useful differentiators and search sources from the user's
-  brief, tools or a strong teammate's profile. Keep a dated working scorecard in the role folder.
-- If a material criterion is unclear, two or three mock profiles scored against it help calibrate.
-  An existing clear brief does not need another calibration round.
+Use the accepted job description, role profile, scorecard, talent-market map, hiring notes, and prior feedback already available. Confirm only what materially affects the search:
 
-## Worth knowing
+- outcomes, job-related must-haves, useful adjacent backgrounds, and evidence of capability;
+- location, working pattern, compensation, eligibility, timing, and exclusions; and
+- requested scale, sources, fields, destination, and review point.
 
-- Start with a small, varied set. Before recommending anyone, record each hard criterion as
-  **supported**, **contradicted** or **not established**, with person-specific source links and
-  dates. A working evidence matrix makes this check inspectable before delivery.
-- Separate personal contributions from team accomplishments, current work from historical
-  experience, and technical leadership from people management. Titles and adjacent skills are
-  search clues, not proof. Unknown means unverified, not incapable.
-- Only supported hard requirements qualify someone for the shortlist. Keep unresolved leads
-  separate with their verification gaps; a high total score or a caveat cannot fill a missing gate.
-  Present the evidence behind each match, with their photo when available.
-- Check prior sourcing and the ATS: applicants, rejected people and previously shown profiles are
-  not new discoveries. A correction should update the role's scorecard and affected assessments,
-  explicitly superseding the old calibration where it was stored. Keep other roles' criteria intact.
-- Continue through alternative queries, employers and sources within the request. A weak first
-  batch is a reason to search wider, not ask permission for another ordinary round. If the target
-  remains unmet, report the verified matches, coverage, gaps and actual limit without lowering the bar.
-- Public profiles do not establish interest or availability. Never use protected characteristics
-  as criteria, and keep candidate data out of publicly viewable artifacts.
+If feasibility, titles, target employers, geography, compensation, or adjacent backgrounds remain uncertain, use `strawberry/recruiting/map-a-talent-market` before scaling. Never use protected or irrelevant personal characteristics as criteria.
+
+## 2. Calibrate a small, varied set
+
+When the judgment is new or subjective, propose a small set containing strong matches, borderline cases, and people set aside. Explain the planned sources, breadth versus depth, fields, likely scale, and review point. This lets the user correct the search before more time and credits are spent. Reuse a trusted search without unnecessary reconfirmation, but pause before a materially broader, deeper, or more expensive run.
+
+Search approved professional sources where relevant evidence lives, including LinkedIn, portfolios, GitHub, talks, company pages, and approved internal systems. Work sequentially and at a human pace on interactive services; stop on warnings, challenges, rate limits, or unexpected states.
+
+## 3. Research and assess fit
+
+Require evidence tied to the accepted criteria for every person. Verify identity and current role where material, preserve links, and keep observed facts separate from candidate claims and inference. Label stale, incomplete, or contradictory evidence.
+
+Give each person understandable fit guidance:
+
+- **strong potential fit** — current evidence supports most critical criteria and shows no material conflict;
+- **potential fit with questions** — relevant evidence exists, but important points need checking;
+- **limited fit based on current evidence** — important criteria lack support or have conflicting evidence; or
+- **unable to assess** — reliable professional evidence is too incomplete or ambiguous.
+
+Show the rationale, strongest evidence, gaps or counter-evidence, confidence, and sources. These labels help humans choose what to inspect; they are not proof of qualification, comparative rankings, hiring recommendations, or automatic dispositions. If priority tiers would help, define their job-related criteria and keep them reviewable.
+
+## 4. Check coverage and state
+
+Deduplicate across sources and available ATS, CRM, spreadsheet, referral, or prior-work context. Report:
+
+- source coverage and blind spots;
+- whether each candidate is new, known, previously contacted, or unresolved;
+- contactability as verified, likely, unavailable, or not checked;
+- ATS state as observed, inferred, stale, unavailable, or not checked; and
+- scarcity signals and the constraints or evidence standards behind them.
+
+Do not imply that a public profile is interested, available, qualified, eligible, or contactable. Never invent people, URLs, roles, contact details, or evidence. Do not weaken the bar silently to reach a requested count.
+
+## 5. Deliver the shortlist
+
+Provide:
+
+1. the accepted search definition and caveats;
+2. the shortlist with fit guidance, criterion evidence, sources, confidence, contactability, and ATS state;
+3. a separate review set with the human judgment required;
+4. coverage, duplicates, and unresolved identity or state issues;
+5. a scarcity diagnosis when the requested result could not be met; and
+6. search levers and tradeoffs without changing them automatically.
+
+Use a compact table in chat for a small result. For team review, offer an internal spreadsheet or CSV, structured candidate brief, dashboard in an approved company tool, or ATS-ready import. A local interactive artifact can support filtering and comparison, but candidate data must not be published through a publicly viewable Strawberry artifact.
+
+## 6. Share internally or prepare the ATS
+
+Creating an artifact, sharing it internally, and uploading records are separate approvals.
+
+Before internal sharing, confirm the reviewers, candidates, fields, triage labels, destination, access, exports, and retention. Use the minimum candidate data needed. If the destination cannot enforce the agreed access, deliver a file for the user to place in an approved company tool. Keep comments and triage state distinct from ATS truth.
+
+Before an ATS upload, show the exact candidates, target records, field mapping, create-versus-update behavior, owners, source attribution, stages or tags, notes, duplicate handling, and blank fields. Require explicit approval. For a new mapping, start with a small batch, verify the resulting records and links, and report created, updated, skipped, failed, and unresolved candidates.
+
+## 7. Continue deliberately
+
+A human owns advancement, rejection, and hiring judgment. After shortlist approval, use `strawberry/recruiting/send-candidate-outreach` for draft-first messaging with exact send approval.
+
+When the method proves useful, offer to save its criteria, sources, fit logic, fields, artifact, destination, and review points as a custom skill. Sharing the artifact, the team skill, or the full companion are separate choices. Use `strawberry/operations/set-up-shared-team-workflow` when the team should reuse the method. A Routine may refresh an internal review file or prepare candidates for review after the workflow is stable; it does not publish candidate data, change ATS state, contact anyone, or make hiring decisions.
