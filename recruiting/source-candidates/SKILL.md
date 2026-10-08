@@ -16,9 +16,9 @@ A shortlist should make each person's fit easy to verify.
 
 ## Worth knowing
 
-- Start with a small, varied set. Before recommending anyone, record each hard criterion as
-  **supported**, **contradicted** or **not established**, with person-specific source links and
-  dates. A working evidence matrix makes this check inspectable before delivery.
+- Before announcing matches, including in progress updates, save the person-by-person evidence matrix.
+  Mark each hard criterion **supported**, **contradicted** or **not established**, with person-specific
+  source links and dates. Until then, describe people as tentative leads.
 - Separate personal contributions from team accomplishments, current work from historical
   experience, and technical leadership from people management. Titles and adjacent skills are
   search clues, not proof. Unknown means unverified, not incapable.
