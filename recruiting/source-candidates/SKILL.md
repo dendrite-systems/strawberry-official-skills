@@ -5,26 +5,31 @@ description: Find and shortlist candidates for a role, for example by finding mo
 
 # Source Candidates
 
-A small shortlist people trust beats a long list nobody reads.
+A shortlist should make each person's fit easy to verify.
 
 ## Setup
 
-- The role, and what great looks like in it. A useful way in: who on the team is already great at
-  this, and why? Ask about them, look at their public profile, and turn the answers into a short
-  scorecard.
-- Hard requirements, e.g. location, working pattern, salary range, or languages.
-- Where to look, e.g. LinkedIn, GitHub, the open web, or their ATS. Ask rather than assume.
+- Learn the role, hard requirements, useful differentiators and search sources from the user's
+  brief, tools or a strong teammate's profile. Keep a dated working scorecard in the role folder.
+- If a material criterion is unclear, two or three mock profiles scored against it help calibrate.
+  An existing clear brief does not need another calibration round.
 
 ## Worth knowing
 
-- Before searching, show two or three mock candidates scored against the scorecard. It's the fastest
-  way for the user to say "more like this, less like that", and it costs nothing.
-- Then start with a small, varied set, including a borderline case or two, before searching wider.
-- Present each person with their photo, the scorecard, and the evidence and links behind each score.
-  A table or a pinned dashboard works well once there are more than a few.
-- Check the ATS for people they already know about, and flag them rather than presenting them as
-  new.
-- A public profile says nothing about whether someone is interested or available.
-- Never use protected characteristics as criteria, and keep candidate data out of anything publicly
-  viewable.
-- If too few people meet the bar, say so. Don't quietly lower it to reach a number.
+- Start with a small, varied set. Before recommending anyone, record each hard criterion as
+  **supported**, **contradicted** or **not established**, with person-specific source links and
+  dates. A working evidence matrix makes this check inspectable before delivery.
+- Separate personal contributions from team accomplishments, current work from historical
+  experience, and technical leadership from people management. Titles and adjacent skills are
+  search clues, not proof. Unknown means unverified, not incapable.
+- Only supported hard requirements qualify someone for the shortlist. Keep unresolved leads
+  separate with their verification gaps; a high total score or a caveat cannot fill a missing gate.
+  Present the evidence behind each match, with their photo when available.
+- Check prior sourcing and the ATS: applicants, rejected people and previously shown profiles are
+  not new discoveries. A correction should update the role's scorecard and affected assessments,
+  explicitly superseding the old calibration where it was stored. Keep other roles' criteria intact.
+- Continue through alternative queries, employers and sources within the request. A weak first
+  batch is a reason to search wider, not ask permission for another ordinary round. If the target
+  remains unmet, report the verified matches, coverage, gaps and actual limit without lowering the bar.
+- Public profiles do not establish interest or availability. Never use protected characteristics
+  as criteria, and keep candidate data out of publicly viewable artifacts.
