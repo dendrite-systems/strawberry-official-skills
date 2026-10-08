@@ -70,9 +70,9 @@
           "kind": "list",
           "style": "unordered",
           "items": [
-            "A clear fit assessment: strong potential fit, potential fit with questions, limited fit based on current evidence, or unable to assess.",
+            "A clear separation between evidence-backed matches and exploratory leads with unverified must-haves.",
             "The strongest evidence for that assessment, with source links.",
-            "Important gaps, conflicting evidence, and confidence.",
+            "Each must-have as supported, contradicted, or not established, including dates where recency or tenure matters.",
             "Contactability and ATS state as verified, inferred, unavailable, stale, or not checked."
           ]
         },

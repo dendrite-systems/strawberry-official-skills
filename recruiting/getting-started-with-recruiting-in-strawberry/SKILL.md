@@ -1,6 +1,6 @@
 ---
 name: getting-started-with-recruiting-in-strawberry
-description: Ideas and setup questions for recruiting in Strawberry. Read when a recruiter or hiring manager wants something to try.
+description: Recruiting workflows and setup in Strawberry. Read for recruiting work, including candidate sourcing and shortlist review, to choose the focused skill for the task.
 ---
 
 # Getting Started with Recruiting in Strawberry
@@ -29,11 +29,9 @@ Offer to learn this from their job posts, ATS, and Drive, or let them describe i
 
 ## Things to try
 
-- **Find more people like someone great on the team.** Ask what makes them great, turn it into a
-  scorecard, and ask where to look, e.g. LinkedIn, GitHub, or the open web. See
-  `strawberry/recruiting/source-candidates`.
-- **Show mock candidates first.** Two or three made-up profiles scored against the scorecard let
-  the user calibrate before any real search. Recruiters tend to love this.
+- **Source candidates or review a shortlist.** Read `strawberry/recruiting/source-candidates` for
+  the evidence checks and calibration method. A strong teammate's profile can help define what
+  great looks like before searching LinkedIn, GitHub, the ATS or the open web.
 - **Review their open roles**, e.g. tightening a job description or checking it against what the
   scorecard actually needs.
 - **Map the talent market**, e.g. where the people are by region or country, expected salaries, and
