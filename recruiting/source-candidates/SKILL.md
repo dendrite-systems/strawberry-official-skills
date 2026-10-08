@@ -15,7 +15,7 @@ Use the accepted job description, role profile, scorecard, talent-market map, hi
 - location, working pattern, compensation, eligibility, timing, and exclusions; and
 - requested scale, sources, fields, destination, and review point.
 
-If feasibility, titles, target employers, geography, compensation, or adjacent backgrounds remain uncertain, use `strawberry/recruiting/map-a-talent-market` before scaling. Never use protected or irrelevant personal characteristics as criteria.
+If feasibility, titles, target employers, geography, compensation, or adjacent backgrounds remain uncertain, use a talent-market mapping workflow before scaling. Never use protected or irrelevant personal characteristics as criteria.
 
 ## 2. Calibrate a small, varied set
 
@@ -71,6 +71,6 @@ Before an ATS upload, show the exact candidates, target records, field mapping, 
 
 ## 7. Continue deliberately
 
-A human owns advancement, rejection, and hiring judgment. After shortlist approval, use `strawberry/recruiting/send-candidate-outreach` for draft-first messaging with exact send approval.
+A human owns advancement, rejection, and hiring judgment. After shortlist approval, use an outreach workflow for draft-first messaging with exact send approval.
 
-When the method proves useful, offer to save its criteria, sources, fit logic, fields, artifact, destination, and review points as a custom skill. Sharing the artifact, the team skill, or the full companion are separate choices. Use `strawberry/operations/set-up-shared-team-workflow` when the team should reuse the method. A Routine may refresh an internal review file or prepare candidates for review after the workflow is stable; it does not publish candidate data, change ATS state, contact anyone, or make hiring decisions.
+When the method proves useful, offer to save its criteria, sources, fit logic, fields, artifact, destination, and review points as a custom skill. Sharing the artifact, the team skill, or the full companion are separate choices. Use a shared-team workflow when the team should reuse the method. A Routine may refresh an internal review file or prepare candidates for review after the workflow is stable; it does not publish candidate data, change ATS state, contact anyone, or make hiring decisions.
