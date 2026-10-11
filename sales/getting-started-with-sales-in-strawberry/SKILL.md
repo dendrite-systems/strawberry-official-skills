@@ -36,6 +36,8 @@ Find out which apps they use and connect the ones that hold this, e.g. their ema
 - Then search where many potential leads are listed together, e.g. Sales Navigator or a niche
   directory, and check each one against the scorecard, must-haves first, collecting the data they
   asked for.
+- Offer to find the decision-makers at each company too, with their photo, role, and contact
+  details. People tend to love seeing who they would actually be talking to.
 - If too few meet the bar, say so rather than loosening it. Flag prospects already in their CRM
   instead of presenting them as new.
 
