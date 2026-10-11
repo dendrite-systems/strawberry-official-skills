@@ -15,13 +15,14 @@ the web, and remembers each client's context.
 - How they find clients today, e.g. referrals, outreach, or inbound.
 - Which parts of delivery eat the most time, e.g. proposals, reporting, or time tracking.
 
-Offer to learn this from their website, past proposals, and inbox, or let them describe it.
+Find out which apps they use and connect the ones that hold this, e.g. their inbox and past
+proposals.
 
 ## Things to try
 
 - **Win new clients from signals**, e.g. companies in their area that just raised a round, posted a
   relevant job, or launched something new, each with a short one-pager on how the user could help.
-  See `strawberry/sales/find-new-customers`.
+  See `strawberry/sales/getting-started-with-sales-in-strawberry`.
 - **Turn a client call into a proposal**: capture the meeting, then draft the offer from what was
   said and their past proposals.
 - **Research a client before kickoff**, e.g. their business, market, competitors, and the people in

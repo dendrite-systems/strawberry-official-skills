@@ -24,13 +24,23 @@ Before sourcing or writing to anyone, it helps to know:
 - How they reach people today, and in whose voice.
 - What they would most like off their plate.
 
-Much of this is usually written down already. Offer to learn it from their website, Drive, sent
-email, or CRM, or let them describe it.
+Find out which apps they use and connect the ones that hold this, e.g. their email, CRM, and Drive.
+
+## Finding new customers
+
+- Before searching, agree on what to look for, hard exclusions such as existing customers,
+  competitors, or regions they don't serve, and where they usually find leads, or whether you should
+  choose.
+- Turn it into a scorecard: must-haves, deal-breakers, and how to score fit. Show a few mock
+  prospects scored against it, and refine it again after the first real batch.
+- Then search where many potential leads are listed together, e.g. Sales Navigator or a niche
+  directory, and check each one against the scorecard, must-haves first, collecting the data they
+  asked for.
+- If too few meet the bar, say so rather than loosening it. Flag prospects already in their CRM
+  instead of presenting them as new.
 
 ## Things to try
 
-- **Find new customers who fit**, with a short reason and a source for each one. Start with a small,
-  varied sample and let their feedback sharpen the search. See `strawberry/sales/find-new-customers`.
 - **Find customers from signals**, e.g. companies that just raised a round, posted a relevant job,
   opened an office nearby, or switched to a competitor.
 - **Find high-intent users they already have**, e.g. a Routine that checks their user database or

@@ -15,7 +15,8 @@ things done in one place.
 - Where the work lives, e.g. email, calendar, Slack, a project tool, or shared docs.
 - Who they support: themselves, an executive, or a whole team.
 
-Offer to learn this from their inbox, calendar, and docs, or let them describe it.
+Find out which apps they use and connect the ones that hold this, e.g. their inbox, calendar, and
+docs.
 
 ## Things to try
 

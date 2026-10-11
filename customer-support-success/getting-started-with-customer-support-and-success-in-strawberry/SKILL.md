@@ -15,7 +15,7 @@ customer sees it.
 - Where the answers live, e.g. the help center, internal docs, billing, or past cases.
 - What they'd most like to stop doing by hand.
 
-Offer to learn this from their helpdesk and docs, or let them describe it.
+Find out which apps they use and connect the ones that hold this, e.g. their helpdesk and docs.
 
 ## Things to try
 

@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "status": "published",
   "publicSlug": "recruiting",
-  "title": "This is how legendary talent teams use AI agents",
-  "description": "Inside Ben Robbins's Strawberry workflows at Tandem Health: deeper sourcing, sharper Ashby priorities, shared rules and timely follow-up.",
+  "title": "Automate your recruiting pipeline",
+  "description": "Source candidates, score them against your scorecard, write up interviews, and keep everyone in the loop.",
   "author": {
     "id": "1b9b2620-fb85-4ca3-a856-0ad8a47de1b3",
     "slug": "charles-maddock",
@@ -15,160 +15,241 @@
   "publishedAt": "2026-08-17T00:00:00.000Z",
   "noindex": false,
   "introduction": [
-    "I recently sat down with Ben Robbins, talent partner at Tandem Health, to see what AI agents look like when the open tabs are LinkedIn, Ashby and Slack rather than a sanitised demo.",
-    "Tandem is one of Stockholm's leading AI scale-ups, helped in no small part by the phenomenal work Ben and its talent team are doing. This creates a problem for me: I compete with them every time Strawberry hires. The silver lining is that they run much of this work in Strawberry Browser, which at least evens things out. Slightly.",
-    "This is the important bit: Strawberry is not another chat window sitting next to the work. It is a browser with AI Companions built in, so Ben can move through logged-in recruiting tools, keep Tandem's hiring context with the workflow, and turn work that earns trust into a shared Skill or scheduled Routine."
+    "Picture a recruiter who finds the people a keyword search misses, checks every applicant against your scorecard, writes up each interview, and makes sure no candidate waits too long for a reply. That's what Strawberry can become for your talent team.",
+    "ChatGPT and Claude can explain how to source. Strawberry does the sourcing. It's a free browser with an AI companion built in, working inside LinkedIn, your ATS, and Slack, logged in as you."
   ],
   "sections": [
     {
-      "id": "inside-bens-talent-workflows",
-      "title": "Inside Ben's talent workflows",
+      "id": "what-you-can-hand-over",
+      "title": "What you can hand over",
       "blocks": [
         {
           "kind": "section-nav",
           "items": [
             {
-              "href": "#find-people-a-keyword-search-misses",
-              "title": "Find people a keyword search misses",
-              "description": "Let the Companion look beyond exact titles and Boolean matches while keeping the evidence visible."
+              "href": "#source-candidates-a-keyword-search-misses",
+              "title": "Source candidates a keyword search misses"
             },
             {
-              "href": "#let-ashby-set-the-monday-priority",
-              "title": "Let Ashby set the Monday priority",
-              "description": "Use stage as well as candidate count to decide which role needs sourcing attention."
+              "href": "#score-against-your-scorecard",
+              "title": "Score every candidate against your scorecard"
             },
             {
-              "href": "#put-the-scorecard-inside-the-search",
-              "title": "Put the scorecard inside the search",
-              "description": "Share Tandem's sourcing rules and working context across the talent team."
+              "href": "#map-the-talent-market",
+              "title": "Map where great people work"
             },
             {
-              "href": "#protect-the-candidate-experience-in-slack",
-              "title": "Protect the candidate experience in Slack",
-              "description": "Surface candidates who have waited too long before they slip between the cracks."
+              "href": "#prep-and-debrief-interviews",
+              "title": "Prep and debrief interviews"
             },
             {
-              "href": "#start-with-the-task-you-want-to-stop-doing",
-              "title": "Start with the task you want to stop doing",
-              "description": "Prove one repetitive workflow, correct it and only then make it repeatable."
+              "href": "#keep-every-candidate-updated",
+              "title": "Keep every candidate updated"
+            },
+            {
+              "href": "#why-a-browser",
+              "title": "Why a browser, not a chatbot"
+            },
+            {
+              "href": "#bring-in-your-team",
+              "title": "Bring in your team"
             }
           ]
         },
         {
           "kind": "guided-entry",
-          "text": "The easiest way to start is with one annoying task in the tab you already have open. Your Companion can use the role, ATS tab and hiring context already in front of you.",
+          "text": "Not sure where to start? Strawberry is free to download. Ask your companion to look at your hiring work and suggest the first thing worth handing over.",
           "skill": {
             "id": "strawberry/recruiting/getting-started-with-recruiting-in-strawberry",
             "roleId": "recruiting-people",
-            "context": "Use the recruiting work I have open to choose and complete one useful first workflow."
+            "context": "Ask your companion to look at your hiring work and suggest the first thing to hand over."
           }
         }
       ]
     },
     {
-      "id": "find-people-a-keyword-search-misses",
-      "title": "Find people a keyword search misses",
+      "id": "source-candidates-a-keyword-search-misses",
+      "title": "Source candidates a keyword search misses",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Ben uses Strawberry predominantly for sourcing. A normal LinkedIn or Boolean search asks him to turn recruiting judgement into exact words first. His Companion can work from the role and Tandem's shared sourcing rules, move through LinkedIn in the visible browser, and follow signals that matter even when a profile does not contain the obvious keyword."
+          "text": "Describe what great looks like and get a shortlist, with the profile evidence behind every fit."
         },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Find 20 backend engineers in Stockholm like Maja on our team, even if their title doesn't say backend",
+            "apps": [
+              "linkedin",
+              "github",
+              "ashby"
+            ],
+            "steps": [
+              "Turning Maja's profile into a scorecard",
+              "Reading 85 LinkedIn and GitHub profiles",
+              "Flagging 4 already in Ashby",
+              "20 candidates, each with evidence"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "score-against-your-scorecard",
+      "title": "Score every candidate against your scorecard",
+      "blocks": [
         {
           "kind": "paragraph",
-          "text": "Rather than relying on brittle keyword hits, Strawberry evaluates the live LinkedIn profile against the role and Tandem's shared sourcing rules. The useful output is not a longer list. It is a candidate set with the reason each person belongs, the profile evidence the recruiter can inspect, and the uncertainty that still needs a human view."
+          "text": "Your team's rules applied to every applicant, with the reason behind each score."
         },
         {
-          "kind": "skills",
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "Score new applicants",
+            "schedule": "Every weekday, 8:00",
+            "steps": [
+              "Read 14 new applications in Ashby",
+              "Scored each against the Product Designer scorecard",
+              "Set aside 2 who interviewed in the last 6 months"
+            ],
+            "result": "5 applicants worth a closer look"
+          }
+        }
+      ]
+    },
+    {
+      "id": "map-the-talent-market",
+      "title": "Map where great people work",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "See which companies and cities the people you want come from, and what they tend to earn."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "prompt",
+            "prompt": "Map where senior data engineers work across the Nordics, with typical salaries by country",
+            "apps": [
+              "linkedin",
+              "google-sheets"
+            ],
+            "steps": [
+              "Searching LinkedIn in 4 countries",
+              "Grouping people by company and city",
+              "Checking public salary reports",
+              "Market map pinned as a tab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "prep-and-debrief-interviews",
+      "title": "Prep and debrief interviews",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Questions tied to your scorecard before the call, and a short write-up when it ends."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "transcription",
+            "title": "Product Designer interview",
+            "lines": [
+              "You: Tell me about a design call you'd make differently now.",
+              "Alex: Our onboarding. We shipped it before talking to enough users.",
+              "You: What did you change after launch?",
+              "Alex: We cut it from five steps to two and started weekly user calls."
+            ],
+            "outcomes": [
+              "Notes matched to the 4 scorecard areas",
+              "Write-up added to Ashby",
+              "2 open questions for the next round"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "keep-every-candidate-updated",
+      "title": "Keep every candidate updated",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "A daily check flags anyone who has waited too long at a stage, before they slip through the cracks."
+        },
+        {
+          "kind": "demo",
+          "demo": {
+            "type": "routine",
+            "title": "Candidates waiting too long",
+            "schedule": "Every weekday, 9:00",
+            "steps": [
+              "Checked every open role in Ashby",
+              "Found 3 candidates past 5 days at one stage",
+              "Sent you the list in Slack"
+            ],
+            "result": "3 candidates need a reply today"
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-a-browser",
+      "title": "Why a browser, not a chatbot",
+      "blocks": [
+        {
+          "kind": "paragraph",
+          "text": "Chatbots only know what you paste in. Strawberry works where your candidates are."
+        },
+        {
+          "kind": "list",
+          "style": "unordered",
           "items": [
-            {
-              "id": "strawberry/recruiting/source-candidates",
-              "roleId": "recruiting-people",
-              "context": "Source candidates for this open role, including people a narrow title or keyword search could miss, and show the evidence for each fit."
-            }
+            "Uses LinkedIn and your ATS while you're logged in.",
+            "Reads dozens of profiles at once, not one click at a time.",
+            "Works in real tabs you can watch and take over."
           ]
         },
         {
           "kind": "paragraph",
-          "text": "Before Strawberry, Ben would spend 60 to 90 minutes on Monday mornings in LinkedIn, connecting with people who were broadly relevant to his work or specifically relevant to an open role. The next part of his setup decides where that attention should go before he opens the search."
+          "text": "In our test of 12 real-world tasks, Strawberry scored 99.2 out of 100. Perplexity's Comet scored 90.8 and ChatGPT Atlas 73.3."
         }
       ]
     },
     {
-      "id": "let-ashby-set-the-monday-priority",
-      "title": "Let Ashby set the Monday priority",
+      "id": "more-to-try",
+      "title": "More to try",
       "blocks": [
         {
-          "kind": "paragraph",
-          "text": "Every Monday morning, Ben has a Strawberry Routine look at the surface-level pipeline data in Ashby and tell him where the pipeline is thin. The Routine does more than count names. A role with two candidates at final stage can be healthier than one with 20 candidates still at application review, so it weighs where the candidates are before suggesting which role deserves sourcing attention."
-        },
-        {
-          "kind": "paragraph",
-          "text": "This is where the browser matters. The recommendation is made from the live recruiting context rather than a pipeline summary pasted into a separate chat. Ben can inspect what Strawberry found in Ashby, then continue into the LinkedIn work the recommendation calls for. Because it runs on Monday morning, he does not have to remember to rebuild the same review each week."
+          "kind": "list",
+          "style": "unordered",
+          "items": [
+            "Check your ATS every Monday and see which role needs sourcing most.",
+            "Calibrate on two or three mock candidates before any real search.",
+            "Tighten a job description against what the scorecard actually needs.",
+            "Write outreach that sounds like you, specific to each person.",
+            "Pin a candidate dashboard as a tab, with photos, notes, and what you care about."
+          ]
         }
       ]
     },
     {
-      "id": "put-the-scorecard-inside-the-search",
-      "title": "Put the scorecard inside the search",
+      "id": "bring-in-your-team",
+      "title": "Bring in your team",
       "blocks": [
         {
           "kind": "paragraph",
-          "text": "Ben started by learning how to prompt Strawberry and customise the work for himself. He then turned Tandem's sourcing non-negotiables into shared rulebooks. Two of the rules he gave in our conversation were to exclude anyone currently working at Tandem and anyone who had interviewed there in the previous six months."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Those rules now travel with the sourcing workflow. Ben says each run tells him which prospects it picked up and which it discarded because of the rules, so the recruiter can review both the shortlist and the judgement behind it. The context does not have to be explained again at the start of every search."
-        },
-        {
-          "kind": "paragraph",
-          "text": "The same playbooks are shared across Tandem's talent team. Ben has also created an onboarding guide for new talent hires, covering how the team works and how they use Strawberry. A new joiner starts with the team's context and methods rather than Ben's private prompt history."
-        }
-      ]
-    },
-    {
-      "id": "protect-the-candidate-experience-in-slack",
-      "title": "Protect the candidate experience in Slack",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "Ben also set up a candidate-experience SLA. If someone has been sitting too long at a stage in Ashby, a Strawberry Routine pings him in Slack and tells him that the candidate needs attention. It is a small piece of admin with a much bigger consequence than its size suggests."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Tandem is growing, and Ben sees every candidate interaction as a chance to create a promoter or a detractor whether or not that person gets the job. The Routine does not make a hiring decision. It checks the pipeline against the team's timing rule and puts the exception where Ben will see it, while there is still time for a human to follow up."
-        }
-      ]
-    },
-    {
-      "id": "start-with-the-task-you-want-to-stop-doing",
-      "title": "Start with the task you want to stop doing",
-      "blocks": [
-        {
-          "kind": "paragraph",
-          "text": "Ben didn't start with an elaborate master plan. He started using Strawberry himself, corrected the prompts and rules, then expanded the workflows to his team. After five or six months, he had six or seven Routines running. The sequence matters more than the number: prove the work, keep the judgement that improves it, share it and only then put the stable repetition on a schedule."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Give Strawberry the repetitive talent task you most want to stop doing. It might be the Monday pipeline review, a sourcing search LinkedIn keeps missing, or the check for candidates who have waited too long. Bring the relevant tabs and team context; your Companion can do the checking in the same browser where the work lives and leave you with something you can inspect, correct and reuse."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Unless you recruit in Stockholm. I already have enough competition."
+          "text": "Save your scorecard and sourcing rules as a team skill and every recruiter's companion searches the same way, including whoever joins next. Put the steady parts on Routines and the Monday pipeline review and candidate check-ins happen even in your busiest weeks."
         }
       ]
     }
   ],
-  "videos": [
-    {
-      "kind": "embed",
-      "id": "ben-robbins-talent-workflows",
-      "title": "See how Ben Robbins uses Strawberry for talent work",
-      "description": "Ben walks through Tandem Health's sourcing, Ashby, team-rule and candidate-experience workflows.",
-      "src": "https://youtu.be/ikNrmyCq0PQ",
-      "status": "published",
-      "skillId": "strawberry/recruiting/getting-started-with-recruiting-in-strawberry"
-    }
-  ],
+  "videos": [],
   "relatedLinks": [
     {
       "title": "Run your whole company from one place",

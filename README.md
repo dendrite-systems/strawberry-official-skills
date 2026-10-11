@@ -30,17 +30,15 @@ sales/
     SKILL.md
     strawberry.json
     article.json
-  find-new-customers/
-    SKILL.md
-    strawberry.json
 ```
 
 - `SKILL.md` contains the workflow an agent reads.
 - `strawberry.json` contains compact discovery metadata, tags, and the role-specific ways the
   result can be presented.
 - `article.json` is optional public editorial content for the Strawberry website.
-- The folder path is the skill's identity. For example, `sales/find-new-customers` becomes
-  `strawberry/sales/find-new-customers` inside Strawberry.
+- The folder path is the skill's identity. For example,
+  `research-analysis/extract-web-data` becomes `strawberry/research-analysis/extract-web-data` inside
+  Strawberry.
 - A Getting Started guide references focused Official Skills directly from its `SKILL.md`.
 - [Official Skill standards](skill-standards.md) describes how to write each kind.
 

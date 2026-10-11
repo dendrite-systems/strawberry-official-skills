@@ -15,7 +15,8 @@ company that the whole team can use.
 - Where their work lives, e.g. email, calendar, Drive, Notion, or a CRM.
 - Whether they work with a team, and what the team should share.
 
-Offer to learn this from their inbox, calendar, and docs, or let them describe it.
+Find out which apps they use and connect the ones that hold this, e.g. their inbox, calendar, and
+docs.
 
 ## Things to try
 
@@ -27,8 +28,8 @@ Offer to learn this from their inbox, calendar, and docs, or let them describe i
 - **Review documents**, e.g. contracts, decks, specs, or plans, with questions and suggested edits.
 - **Write posts in their voice**, based on what they've said in meetings and past writing, with
   generated images where they help.
-- **Find new customers**. See `strawberry/sales/find-new-customers`.
-- **Find people to hire**. See `strawberry/recruiting/source-candidates`.
+- **Find new customers**. See `strawberry/sales/getting-started-with-sales-in-strawberry`.
+- **Find people to hire**. See `strawberry/recruiting/getting-started-with-recruiting-in-strawberry`.
 - **Prepare a fundraise**, e.g. researching investors who back similar companies, building the
   target list, and drafting updates and the deck.
 
