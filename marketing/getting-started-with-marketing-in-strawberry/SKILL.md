@@ -13,8 +13,10 @@ also generate images.
 
 - Who the audience is, and what they're selling or promoting right now.
 - Which channels matter, and where the numbers live.
-- Their voice and brand. Offer to learn it from their website, past posts, and brand files, or let
-  them describe it.
+- Their voice and brand, e.g. from their website, past posts, and brand files.
+
+Find out which apps they use and connect the ones that hold this, e.g. their analytics and social
+accounts.
 
 ## Things to try
 

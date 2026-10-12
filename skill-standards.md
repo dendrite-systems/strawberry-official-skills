@@ -24,8 +24,8 @@ shape and length.
 
 - Keep guides to about 500 words and focused skills to about 250. Playbooks are the
   exception.
-- Write **Setup** as the things worth knowing before starting, and offer to learn them from the
-  user's own tools rather than asking them to type it all out.
+- Write **Setup** as the things worth knowing before starting, and suggest connecting the apps that
+  hold them.
 - Write **Things to try** as ideas, not procedures: a bold result, then up to two sentences. Use
   "e.g. ..., etc." for examples, and "Ask which of these matter to the user" when there are several
   directions. Don't add conditions like "before doing anything"; the companion knows to ask.
@@ -34,7 +34,7 @@ shape and length.
 - Don't repeat what the system prompt already covers: approvals before sending or changing records,
   memory, when to offer a custom skill or Routine. One closing line is enough.
 - Link another Official Skill only when it exists and genuinely helps, using its full id, e.g.
-  `strawberry/sales/find-new-customers`.
+  `strawberry/research-analysis/extract-web-data`.
 - Address the companion as "you". Use plain words: "find", "write", "check", not "operationalize"
   or "decision frame".
 
