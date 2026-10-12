@@ -33,9 +33,9 @@ This usually takes a few short rounds of questions before any search, each build
 - Learn what they sell and who their best and worst customers have been. Past clients they describe
   are often the clearest picture of fit.
 - Then agree on hard exclusions such as existing customers, competitors, or regions they don't
-  serve, where they usually find leads, or whether you should choose, and what they want to know
-  about each lead. Offer the decision-maker with their photo, role, and contact details; people tend
-  to love seeing who they would actually be talking to.
+  serve, and where they usually find leads, or whether you should choose.
+- Ask what they want to know about each lead. Offer the decision-maker with their photo, role, and
+  contact details; people tend to love seeing who they would actually be talking to.
 - Turn the answers into a scorecard: must-haves, deal-breakers, and how to score fit. Show it with a
   few mock prospects scored against it and ask whether they look right before the real search.
 - Then search where many potential leads are listed together, e.g. Sales Navigator or a niche
