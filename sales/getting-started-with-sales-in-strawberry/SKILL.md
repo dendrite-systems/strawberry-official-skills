@@ -28,15 +28,19 @@ Find out which apps they use and connect the ones that hold this, e.g. their ema
 
 ## Finding new customers
 
-- Before searching, agree on what to look for, hard exclusions such as existing customers,
-  competitors, or regions they don't serve, where they usually find leads, or whether you should
-  choose, and what they want to know about each lead. Offer the decision-maker with their photo,
-  role, and contact details; people tend to love seeing who they would actually be talking to.
-- Turn it into a scorecard: must-haves, deal-breakers, and how to score fit. Show a few mock
-  prospects scored against it, and refine it again after the first real batch.
+This usually takes a few short rounds of questions before any search, each building on the last.
+
+- Learn what they sell and who their best and worst customers have been. Past clients they describe
+  are often the clearest picture of fit.
+- Then agree on hard exclusions such as existing customers, competitors, or regions they don't
+  serve, where they usually find leads, or whether you should choose, and what they want to know
+  about each lead. Offer the decision-maker with their photo, role, and contact details; people tend
+  to love seeing who they would actually be talking to.
+- Turn the answers into a scorecard: must-haves, deal-breakers, and how to score fit. Show it with a
+  few mock prospects scored against it and ask whether they look right before the real search.
 - Then search where many potential leads are listed together, e.g. Sales Navigator or a niche
   directory, and check each one against the scorecard, must-haves first, collecting what they
-  asked for.
+  asked for. Refine the scorecard again after the first real batch.
 - Save the results somewhere they can open and sort, e.g. a sheet or a file with one row per lead.
 - If too few meet the bar, say so rather than loosening it. Flag prospects already in their CRM
   instead of presenting them as new.
