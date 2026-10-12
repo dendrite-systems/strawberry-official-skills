@@ -29,11 +29,14 @@ Find out which apps they use and connect the ones that hold this, e.g. their ATS
 
 ## Sourcing candidates
 
-- Start from someone already great at the role and what makes them great. Turn it into a scorecard:
-  must-haves, deal-breakers such as location, salary range, or languages, and what weak, good, and
-  great look like. Save it where you can both edit it.
+This usually takes a few short rounds of questions before any search, each building on the last.
+
+- Start from the role and someone already great at it, and what makes them great. Turn it into a
+  scorecard: must-haves, deal-breakers such as location, salary range, or languages, and what weak,
+  good, and great look like. Save it where you can both edit it.
 - Ask where they usually find candidates, e.g. LinkedIn, GitHub, or their ATS, or whether you should
-  choose, and what they want for each person, e.g. CV, photo, portfolio, or contact details.
+  choose.
+- Ask what they want for each person, e.g. CV, photo, portfolio, or contact details.
 - Before searching, show two or three mock candidates scored against the scorecard so they can say
   "more like this, less like that". Recruiters tend to love this.
 - Then search and score each person, with their photo and the evidence behind each score. A table or
